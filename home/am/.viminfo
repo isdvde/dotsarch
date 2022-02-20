@@ -1,0 +1,1462 @@
+# Vim 8.1 generó este archivo "viminfo".
+# Puede editarlo, ¡sólo si tiene cuidado!
+
+# Viminfo version
+|1,4
+
+# Valor de 'encoding' cuando se escribió este archivo
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Último Patrón de búsqueda:
+~MSle0/\V\<keybind\>
+
+# Último SustituciónPatrón de búsqueda:
+~MSle0~&   *
+
+# Última cadena de sustitución:
+$\t
+
+# Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:wq
+|2,0,1645381096,,"wq"
+:q!
+|2,0,1645379767,,"q!"
+:w
+|2,0,1645377990,,"w"
+:W
+|2,0,1645377666,,"W"
+:'<,'>s/   */\t/g
+|2,0,1645293638,,"'<,'>s/   */\\t/g"
+:set paste
+|2,0,1645293610,,"set paste"
+:'<,'>s/1/9/g
+|2,0,1645292651,,"'<,'>s/1/9/g"
+:'<,'>s/1/8/g
+|2,0,1645292646,,"'<,'>s/1/8/g"
+:'<,'>s/1/7/g
+|2,0,1645292637,,"'<,'>s/1/7/g"
+:'<,'>s/1/6/g
+|2,0,1645292631,,"'<,'>s/1/6/g"
+:'<,'>s/1/5/g
+|2,0,1645292624,,"'<,'>s/1/5/g"
+:'<,'>s/1/4/g
+|2,0,1645292602,,"'<,'>s/1/4/g"
+:'<,'>s/1/3/g
+|2,0,1645292588,,"'<,'>s/1/3/g"
+:'<,'>s/1/2/g
+|2,0,1645292583,,"'<,'>s/1/2/g"
+:'<,'>s/Remove/Add/g
+|2,0,1645292499,,"'<,'>s/Remove/Add/g"
+:'<,'>s/Go.*p/RemoveDesktop/g
+|2,0,1645292379,,"'<,'>s/Go.*p/RemoveDesktop/g"
+:'<,'>s/to/where/g
+|2,0,1645292343,,"'<,'>s/to/where/g"
+:q1
+|2,0,1645157164,,"q1"
+:Q!
+|2,0,1645156380,,"Q!"
+:PlugClean
+|2,0,1645144164,,"PlugClean"
+:PlugInstall
+|2,0,1645144154,,"PlugInstall"
+:Wq
+|2,0,1645140664,,"Wq"
+:change
+|2,0,1645139521,,"change"
+:'<,'>s/\\//g
+|2,0,1645134178,,"'<,'>s/\\\\//g"
+:q
+|2,0,1644969955,,"q"
+:Q
+|2,0,1644969748,,"Q"
+:wqW:
+|2,0,1644966793,,"wqW:"
+::Q!
+|2,0,1644673206,,":Q!"
+:weq
+|2,0,1637550360,,"weq"
+:'<,'>s/home\/am/mnt/g
+|2,0,1636895248,,"'<,'>s/home\\/am/mnt/g"
+:'<,'>s/mnt/home\/am/g
+|2,0,1636895050,,"'<,'>s/mnt/home\\/am/g"
+:w!
+|2,0,1633916767,,"w!"
+:set rnu!
+|2,0,1632265531,,"set rnu!"
+:set nu!
+|2,0,1632265526,,"set nu!"
+:source .vimrc
+|2,0,1632264887,,"source .vimrc"
+:help nerdcommenter.txt
+|2,0,1632179895,,"help nerdcommenter.txt"
+:source %
+|2,0,1632179709,,"source %"
+:FZF
+|2,0,1632178935,,"FZF"
+:!fzf
+|2,0,1632174457,,"!fzf"
+:set wrap linebreak nolist
+|2,0,1632170353,,"set wrap linebreak nolist"
+:set textwidth=50
+|2,0,1632170338,,"set textwidth=50"
+:set tw=80
+|2,0,1632170320,,"set tw=80"
+:set textwidth=80
+|2,0,1632170304,,"set textwidth=80"
+:set t_Co=8
+|2,0,1631841042,,"set t_Co=8"
+:e RTA_running-config.txt
+|2,0,1631492459,,"e RTA_running-config.txt"
+:help :TagbarOpen
+|2,0,1631482942,,"help :TagbarOpen"
+:TlistToggle
+|2,0,1631480384,,"TlistToggle"
+:Texplore
+|2,0,1631480340,,"Texplore"
+:we
+|2,0,1631480050,,"we"
+:ls
+|2,0,1631479914,,"ls"
+:bd16
+|2,0,1631479911,,"bd16"
+:bd
+|2,0,1631479902,,"bd"
+:tabs
+|2,0,1631479508,,"tabs"
+:tabe ~/lamp.md
+|2,0,1631479490,,"tabe ~/lamp.md"
+:bn
+|2,0,1631478822,,"bn"
+:bd3
+|2,0,1631478817,,"bd3"
+:la
+|2,0,1631478760,,"la"
+:bd2
+|2,0,1631478754,,"bd2"
+:l
+|2,0,1631478428,,"l"
+:e ~/.vim/autoload/plug.vim
+|2,0,1631478416,,"e ~/.vim/autoload/plug.vim"
+:b4
+|2,0,1631477492,,"b4"
+:Ls
+|2,0,1631477484,,"Ls"
+:e
+|2,0,1631477006,,"e"
+:PlugUpdate
+|2,0,1631476364,,"PlugUpdate"
+:buffers
+|2,0,1631476222,,"buffers"
+:buffer
+|2,0,1631476217,,"buffer"
+:b
+|2,0,1631476210,,"b"
+
+# Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+?    *
+|2,1,1645293638,,"   *"
+? 1
+|2,1,1645292651,,"1"
+? Remove
+|2,1,1645292499,,"Remove"
+? Go.*p
+|2,1,1645292379,,"Go.*p"
+? to
+|2,1,1645292343,,"to"
+? \<openbox_config\>
+|2,1,1645151547,,"\\<openbox_config\\>"
+?/dialo
+|2,1,1645140270,47,"dialo"
+?/Next
+|2,1,1645140045,47,"Next"
+?/popup
+|2,1,1645139661,47,"popup"
+?/Tab
+|2,1,1645139550,47,"Tab"
+?/popu
+|2,1,1645139499,47,"popu"
+? \\
+|2,1,1645134178,,"\\\\"
+? }
+|2,1,1645131918,,"}"
+?/maxim
+|2,1,1644968333,47,"maxim"
+?/xfce4
+|2,1,1644763720,47,"xfce4"
+?/igno
+|2,1,1644294715,47,"igno"
+?/rofi
+|2,1,1642780574,47,"rofi"
+? \<usr\>
+|2,1,1636922135,,"\\<usr\\>"
+? home\/am
+|2,1,1636895248,,"home\\/am"
+? mnt
+|2,1,1636895050,,"mnt"
+?/primary
+|2,1,1636311800,47,"primary"
+?/auth
+|2,1,1635821125,47,"auth"
+?/volum
+|2,1,1635703606,47,"volum"
+?/html
+|2,1,1635016900,47,"html"
+?/body
+|2,1,1635016863,47,"body"
+?/dmenu
+|2,1,1633545700,47,"dmenu"
+?/PS1
+|2,1,1632236473,47,"PS1"
+?/color
+|2,1,1632170512,47,"color"
+?/go
+|2,1,1632171707,47,"go"
+?/libcurl
+|2,1,1631574962,47,"libcurl"
+?/Contr
+|2,1,1631490735,47,"Contr"
+??\a
+|2,1,1631480344,63,"\\a"
+?/clone
+|2,1,1631478529,47,"clone"
+?/cline
+|2,1,1631478524,47,"cline"
+?/git
+|2,1,1631478520,47,"git"
+?/inst
+|2,1,1631478492,47,"inst"
+
+# Historia de Expresión (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+@y
+|2,3,1645144168,,"y"
+
+# Historia de Debug Line (de lo más nuevo a lo más antiguo):
+
+# Registros:
+"0	LINE	0
+	rar a -m5 ${HOME}/sublimeText.rar ${HOME}/.config/sublime-text-3
+|3,0,0,1,1,0,1645379348,"rar a -m5 ${HOME}/sublimeText.rar ${HOME}/.config/sublime-text-3"
+""1	LINE	0
+	sublime*rar
+|3,1,1,1,1,0,1645381095,"sublime*rar"
+"2	LINE	0
+	rm -rf ssh*rar subli*rar
+|3,0,2,1,1,0,1645381089,"rm -rf ssh*rar subli*rar"
+"3	LINE	0
+	rm -rf ssh*rar subli*rar
+|3,0,3,1,1,0,1645380741,"rm -rf ssh*rar subli*rar"
+"4	LINE	0
+	ssh*rar
+|3,0,4,1,1,0,1645380733,"ssh*rar"
+"5	LINE	0
+	rm -rf ${HOME}/sublimeText.rar
+|3,0,5,1,1,0,1645379388,"rm -rf ${HOME}/sublimeText.rar"
+"6	LINE	0
+	
+|3,0,6,1,1,0,1645377979,""
+"7	LINE	0
+	~/.applications/xwinwrap/xwinwrap -g 1280x720 -ni -s -nf -b -un -argb -- mpv ~/Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4 --loop --no-audio --no-border --no-config
+|3,0,7,1,1,0,1645374482,"~/.applications/xwinwrap/xwinwrap -g 1280x720 -ni -s -nf -b -un -argb -- mpv ~/Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4 --loop --no-audio --no-border --no-config"
+"8	LINE	0
+	
+|3,0,8,1,1,0,1645315592,""
+"9	LINE	0
+	
+|3,0,9,1,1,0,1645315591,""
+"-	CHAR	0
+	.
+|3,0,36,0,1,0,1645379589,"."
+
+# Marcas en el archivo:
+'0  19  0  ~/dotfile
+|4,48,19,0,1645381096,"~/dotfile"
+'1  35  0  ~/dotfile
+|4,49,35,0,1645380745,"~/dotfile"
+'2  36  0  ~/dotfile
+|4,50,36,0,1645380745,"~/dotfile"
+'3  35  19  ~/dotfile
+|4,51,35,19,1645379931,"~/dotfile"
+'4  36  19  ~/dotfile
+|4,52,36,19,1645379931,"~/dotfile"
+'5  37  19  ~/dotfile
+|4,53,37,19,1645379931,"~/dotfile"
+'6  38  19  ~/dotfile
+|4,54,38,19,1645379931,"~/dotfile"
+'7  36  28  ~/dotfile
+|4,55,36,28,1645379888,"~/dotfile"
+'8  36  28  ~/dotfile
+|4,56,36,28,1645379888,"~/dotfile"
+'9  37  28  ~/dotfile
+|4,57,37,28,1645379888,"~/dotfile"
+
+# Lista de saltos (el más reciente va primero):
+-'  19  0  ~/dotfile
+|4,39,19,0,1645381096,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1645381081,"~/dotfile"
+-'  35  0  ~/dotfile
+|4,39,35,0,1645380745,"~/dotfile"
+-'  36  0  ~/dotfile
+|4,39,36,0,1645380745,"~/dotfile"
+-'  37  0  ~/dotfile
+|4,39,37,0,1645380742,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1645380728,"~/dotfile"
+-'  36  19  ~/dotfile
+|4,39,36,19,1645379931,"~/dotfile"
+-'  38  19  ~/dotfile
+|4,39,38,19,1645379931,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1645379923,"~/dotfile"
+-'  37  28  ~/dotfile
+|4,39,37,28,1645379888,"~/dotfile"
+-'  38  28  ~/dotfile
+|4,39,38,28,1645379888,"~/dotfile"
+-'  39  28  ~/dotfile
+|4,39,39,28,1645379888,"~/dotfile"
+-'  39  28  ~/dotfile
+|4,39,39,28,1645379888,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1645379868,"~/dotfile"
+-'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
+|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
+-'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
+|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
+-'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
+|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
+-'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
+|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
+-'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
+|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
+-'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
+|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
+-'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
+|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
+-'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
+|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
+-'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
+|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
+-'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
+|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
+-'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
+|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
+-'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
+|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
+-'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
+|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
+-'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
+|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
+-'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
+|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
+-'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
+|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
+-'  22  26  ~/dotfile
+|4,39,22,26,1645379708,"~/dotfile"
+-'  23  26  ~/dotfile
+|4,39,23,26,1645379708,"~/dotfile"
+-'  23  26  ~/dotfile
+|4,39,23,26,1645379708,"~/dotfile"
+-'  24  26  ~/dotfile
+|4,39,24,26,1645379708,"~/dotfile"
+-'  24  26  ~/dotfile
+|4,39,24,26,1645379708,"~/dotfile"
+-'  24  26  ~/dotfile
+|4,39,24,26,1645379708,"~/dotfile"
+-'  24  26  ~/dotfile
+|4,39,24,26,1645379708,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1645379689,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1645379689,"~/dotfile"
+-'  34  0  ~/dotfile
+|4,39,34,0,1645379594,"~/dotfile"
+-'  35  0  ~/dotfile
+|4,39,35,0,1645379594,"~/dotfile"
+-'  36  0  ~/dotfile
+|4,39,36,0,1645379594,"~/dotfile"
+-'  36  0  ~/dotfile
+|4,39,36,0,1645379594,"~/dotfile"
+-'  36  0  ~/dotfile
+|4,39,36,0,1645379594,"~/dotfile"
+-'  36  0  ~/dotfile
+|4,39,36,0,1645379594,"~/dotfile"
+-'  36  0  ~/dotfile
+|4,39,36,0,1645379594,"~/dotfile"
+-'  36  0  ~/dotfile
+|4,39,36,0,1645379594,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1645379576,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1645379576,"~/dotfile"
+-'  37  23  ~/dotfile
+|4,39,37,23,1645379518,"~/dotfile"
+-'  37  23  ~/dotfile
+|4,39,37,23,1645379518,"~/dotfile"
+-'  37  23  ~/dotfile
+|4,39,37,23,1645379518,"~/dotfile"
+-'  37  23  ~/dotfile
+|4,39,37,23,1645379518,"~/dotfile"
+-'  37  23  ~/dotfile
+|4,39,37,23,1645379518,"~/dotfile"
+-'  37  23  ~/dotfile
+|4,39,37,23,1645379518,"~/dotfile"
+-'  37  23  ~/dotfile
+|4,39,37,23,1645379518,"~/dotfile"
+-'  37  23  ~/dotfile
+|4,39,37,23,1645379518,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1645379483,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1645379483,"~/dotfile"
+-'  20  12  ~/dotfile
+|4,39,20,12,1645379444,"~/dotfile"
+-'  21  12  ~/dotfile
+|4,39,21,12,1645379444,"~/dotfile"
+-'  21  12  ~/dotfile
+|4,39,21,12,1645379444,"~/dotfile"
+-'  22  12  ~/dotfile
+|4,39,22,12,1645379444,"~/dotfile"
+-'  22  12  ~/dotfile
+|4,39,22,12,1645379444,"~/dotfile"
+-'  22  12  ~/dotfile
+|4,39,22,12,1645379444,"~/dotfile"
+-'  24  12  ~/dotfile
+|4,39,24,12,1645379444,"~/dotfile"
+-'  22  12  ~/dotfile
+|4,39,22,12,1645379444,"~/dotfile"
+-'  24  12  ~/dotfile
+|4,39,24,12,1645379444,"~/dotfile"
+-'  22  12  ~/dotfile
+|4,39,22,12,1645379444,"~/dotfile"
+-'  22  12  ~/dotfile
+|4,39,22,12,1645379444,"~/dotfile"
+-'  24  12  ~/dotfile
+|4,39,24,12,1645379444,"~/dotfile"
+-'  22  12  ~/dotfile
+|4,39,22,12,1645379444,"~/dotfile"
+-'  24  12  ~/dotfile
+|4,39,24,12,1645379444,"~/dotfile"
+-'  22  12  ~/dotfile
+|4,39,22,12,1645379444,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1645379436,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1645379436,"~/dotfile"
+-'  33  0  ~/dotfile
+|4,39,33,0,1645379390,"~/dotfile"
+-'  38  0  ~/dotfile
+|4,39,38,0,1645379390,"~/dotfile"
+-'  39  0  ~/dotfile
+|4,39,39,0,1645379390,"~/dotfile"
+-'  34  0  ~/dotfile
+|4,39,34,0,1645379390,"~/dotfile"
+-'  40  0  ~/dotfile
+|4,39,40,0,1645379390,"~/dotfile"
+-'  35  0  ~/dotfile
+|4,39,35,0,1645379390,"~/dotfile"
+-'  40  0  ~/dotfile
+|4,39,40,0,1645379390,"~/dotfile"
+-'  35  0  ~/dotfile
+|4,39,35,0,1645379390,"~/dotfile"
+-'  39  0  ~/dotfile
+|4,39,39,0,1645379390,"~/dotfile"
+-'  35  0  ~/dotfile
+|4,39,35,0,1645379390,"~/dotfile"
+-'  39  0  ~/dotfile
+|4,39,39,0,1645379390,"~/dotfile"
+-'  35  0  ~/dotfile
+|4,39,35,0,1645379390,"~/dotfile"
+-'  39  0  ~/dotfile
+|4,39,39,0,1645379390,"~/dotfile"
+-'  35  0  ~/dotfile
+|4,39,35,0,1645379390,"~/dotfile"
+-'  35  0  ~/dotfile
+|4,39,35,0,1645379390,"~/dotfile"
+-'  39  0  ~/dotfile
+|4,39,39,0,1645379390,"~/dotfile"
+-'  35  0  ~/dotfile
+|4,39,35,0,1645379390,"~/dotfile"
+-'  39  0  ~/dotfile
+|4,39,39,0,1645379390,"~/dotfile"
+-'  35  0  ~/dotfile
+|4,39,35,0,1645379390,"~/dotfile"
+-'  39  0  ~/dotfile
+|4,39,39,0,1645379390,"~/dotfile"
+-'  35  0  ~/dotfile
+|4,39,35,0,1645379390,"~/dotfile"
+-'  35  0  ~/dotfile
+|4,39,35,0,1645379390,"~/dotfile"
+-'  22  9  ~/dotfile
+|4,39,22,9,1645379376,"~/dotfile"
+-'  22  9  ~/dotfile
+|4,39,22,9,1645379376,"~/dotfile"
+
+# Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/dotfile
+	*	1645381095	0
+	"	19	0
+	^	21	1
+	.	19	0
+	+	35	0
+	+	6	7
+	+	7	0
+	+	3	14
+	+	4	26
+	+	24	52
+	+	27	24
+	+	31	3
+	+	29	45
+	+	28	43
+	+	30	3
+	+	29	48
+	+	24	8
+	+	25	0
+	+	26	25
+	+	31	0
+	+	33	21
+	+	13	14
+	+	14	9
+	+	9	4
+	+	10	5
+	+	11	4
+	+	12	4
+	+	18	13
+	+	29	9
+	+	20	0
+	+	21	8
+	+	37	26
+	+	37	0
+	+	37	29
+	+	22	38
+	+	22	21
+	+	37	0
+	+	22	13
+	+	19	10
+	+	35	23
+	+	19	3
+	+	22	26
+	+	35	15
+	+	36	28
+	+	35	19
+	+	19	0
+	+	35	0
+	+	22	0
+	+	35	0
+	+	19	0
+
+> ~/DOTFILES/home/am/home/am/.ssh/config
+	*	1645379760	0
+	"	1	0
+
+> ~/gge
+	*	1645374674	0
+	"	2	141
+	^	2	142
+	.	2	142
+	+	1	142
+	+	1	206
+	+	1	54
+	+	2	202
+	+	1	32
+	+	2	142
+
+> ~/.applications/wallset
+	*	1645372100	0
+	"	194	4
+
+> ~/.config/openbox/autostart
+	*	1645362943	0
+	"	26	44
+	^	26	54
+	.	26	44
+	+	24	14
+	+	25	69
+	+	19	3
+	+	29	178
+	+	25	77
+	+	29	0
+	+	28	0
+	+	29	0
+	+	28	50
+	+	28	0
+	+	30	1
+	+	29	0
+	+	27	0
+	+	26	44
+
+> ~/.config/openbox/rc.xml
+	*	1645362672	0
+	"	2	0
+	^	353	0
+	.	353	0
+	+	46	25
+	+	47	0
+	+	48	0
+	+	51	0
+	+	51	25
+	+	52	0
+	+	36	0
+	+	38	0
+	+	36	23
+	+	37	0
+	+	41	23
+	+	42	0
+	+	46	25
+	+	47	0
+	+	51	25
+	+	52	0
+	+	53	0
+	+	56	0
+	+	56	23
+	+	57	0
+	+	58	0
+	+	61	0
+	+	61	23
+	+	62	0
+	+	63	0
+	+	28	0
+	+	64	0
+	+	63	0
+	+	66	0
+	+	69	0
+	+	68	0
+	+	69	0
+	+	70	0
+	+	74	0
+	+	75	0
+	+	72	0
+	+	77	0
+	+	78	0
+	+	91	0
+	+	92	0
+	+	94	0
+	+	95	0
+	+	96	0
+	+	85	0
+	+	87	0
+	+	98	0
+	+	102	0
+	+	105	0
+	+	104	0
+	+	100	0
+	+	155	0
+	+	156	0
+	+	159	0
+	+	164	0
+	+	166	0
+	+	172	0
+	+	178	0
+	+	182	0
+	+	184	0
+	+	199	0
+	+	201	0
+	+	207	0
+	+	217	0
+	+	223	0
+	+	229	0
+	+	232	0
+	+	233	0
+	+	237	0
+	+	246	0
+	+	255	0
+	+	264	0
+	+	273	0
+	+	282	0
+	+	289	0
+	+	285	0
+	+	279	0
+	+	295	0
+	+	301	0
+	+	304	0
+	+	309	0
+	+	310	0
+	+	311	0
+	+	312	0
+	+	314	0
+	+	313	0
+	+	315	0
+	+	316	26
+	+	317	0
+	+	320	0
+	+	324	0
+	+	328	0
+	+	334	0
+	+	336	0
+	+	343	0
+	+	351	0
+	+	342	0
+	+	353	0
+
+> ~/margarita
+	*	1645324862	0
+	"	1	0
+
+> ~/margarita.pub
+	*	1645324859	0
+	"	1	105
+	^	1	106
+	.	1	105
+	+	1	105
+
+> ~/tmp
+	*	1645315922	0
+	"	26	38
+	.	27	0
+	+	7	43
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	45	0
+	+	14	17
+	+	15	22
+	+	16	21
+	+	17	16
+	+	19	21
+	+	19	25
+	+	28	28
+	+	25	21
+	+	28	21
+	+	30	0
+	+	18	0
+	+	19	0
+	+	21	0
+	+	13	0
+	+	42	0
+	+	34	21
+	+	41	0
+	+	35	36
+	+	39	0
+	+	34	35
+	+	38	40
+	+	27	0
+
+> ~/pruebaProxy/f1/.env
+	*	1645188693	0
+	"	1	0
+
+> ~/pruebaProxy/f2/NERD_tree_1
+	*	1645188534	0
+	"	1	1
+	.	1	0
+	+	1	0
+
+> ~/pruebaProxy/farmacia/app/Console/Kernel.php
+	*	1645188524	0
+	"	35	0
+
+> ~/pruebaProxy/f2/artisan
+	*	1645188485	0
+	"	39	0
+
+> ~/pruebaProxy/f2/.env
+	*	1645188435	0
+	"	13	16
+	^	13	17
+	.	13	17
+	+	12	11
+	+	13	17
+	+	15	12
+	+	13	17
+
+> ~/pruebaProxy/f2/composer.json
+	*	1645188391	0
+	"	42	8
+
+> ~/pruebaProxy/farmacia/public/web.config
+	*	1645188188	0
+	"	6	0
+
+> ~/pruebaProxy/farmacia/config/cache.php
+	*	1645157161	0
+	"	83	12
+
+> ~/.vimrc
+	*	1645144141	0
+	"	173	0
+	^	172	3
+	.	174	0
+	+	175	0
+	+	68	0
+	+	8	0
+	+	30	0
+	+	68	0
+	+	69	0
+	+	67	9
+	+	70	0
+	+	72	0
+	+	78	0
+	+	86	0
+	+	133	0
+	+	134	0
+	+	175	28
+	+	133	0
+	+	175	0
+	+	174	0
+	+	173	0
+	+	177	0
+	+	175	0
+	+	175	28
+	+	178	0
+	+	175	0
+	+	174	0
+	+	175	0
+	+	180	0
+	+	177	21
+	+	208	94
+	+	208	0
+	+	1	0
+	+	208	0
+	+	177	0
+	+	175	21
+	+	208	0
+	+	206	26
+	+	162	24
+	+	163	0
+	+	162	0
+	+	163	0
+	+	192	0
+	+	193	15
+	+	208	0
+	+	189	0
+	+	177	53
+	+	177	0
+	+	193	0
+	+	177	0
+	+	176	17
+	+	207	31
+	+	174	0
+	+	174	4
+	+	172	0
+	+	163	0
+	+	169	0
+	+	175	0
+	+	174	0
+
+> ~/.xsession
+	*	1645135505	0
+	"	17	0
+	^	17	1
+	.	17	0
+	+	12	21
+	+	13	25
+	+	18	0
+	+	17	0
+	+	18	0
+	+	17	0
+	+	18	0
+	+	17	0
+	+	18	0
+	+	17	0
+
+> ~/.config/openbox/bar2.sh
+	*	1645134490	0
+	"	63	11
+	^	63	12
+	.	63	11
+	+	63	11
+
+> ~/bargge
+	*	1645134398	0
+	"	7	26
+	^	7	27
+	.	7	26
+	+	3	12
+	+	3	101
+	+	3	98
+	+	3	101
+	+	3	100
+	+	8	0
+	+	4	13
+	+	3	0
+	+	4	16
+	+	5	0
+	+	7	26
+
+> ~/.config/i3/config
+	*	1645131334	0
+	"	1	0
+	^	58	37
+	.	58	36
+	+	57	0
+	+	58	0
+	+	20	16
+	+	425	0
+	+	58	36
+
+> ~/.config/openbox/yabar
+	*	1645069207	0
+	"	19	5
+	^	64	0
+	.	64	0
+	+	207	0
+	+	6	22
+	+	9	1
+	+	9	10
+	+	17	2
+	+	6	23
+	+	9	10
+	+	10	0
+	+	11	0
+	+	17	41
+	+	25	0
+	+	36	0
+	+	52	0
+	+	64	0
+
+> ~/requerimientosProyectoAmorcito
+	*	1645061683	0
+	"	1	0
+
+> ~/farmacia/.env
+	*	1644971251	0
+	"	52	0
+	^	52	1
+	.	52	0
+	+	10	23
+	+	12	11
+	+	13	17
+	+	10	18
+	+	14	19
+	+	15	19
+	+	10	18
+	+	12	11
+	+	13	19
+	+	14	16
+	+	15	16
+	+	52	0
+
+> ~/farmacia/NERD_tree_1
+	*	1644969962	0
+	"	6	0
+	.	1	0
+	+	1	0
+
+> ~/prueba/.env
+	*	1644889058	0
+	"	11	0
+
+> ~/prueba/NERD_tree_1
+	*	1644884845	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/nfs/scripts/NFSU2ExtraOptionsSettings.ini
+	*	1644764408	0
+	"	77	15
+	^	27	14
+	.	77	15
+	+	21	20
+	+	27	13
+	+	29	13
+	+	34	24
+	+	43	26
+	+	77	15
+
+> ~/.local/share/applications/wine/Programs/NFSU2/NFSU2.desktop
+	*	1644673285	0
+	"	3	9
+	^	3	10
+	.	3	9
+	+	3	9
+
+> ~/.local/share/applications/wine/Programs/NFSU2/NFSU2
+	*	1644673224	0
+	"	3	127
+	^	3	128
+	.	3	127
+	+	3	127
+
+> ~/.local/share/applications/wine/Programs/NERD_tree_1
+	*	1644673207	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.local/share/applications/wine/Programs/NFSU2.desktop
+	*	1644673112	0
+	"	3	29
+	^	3	30
+	.	3	29
+	+	6	20
+	+	3	0
+	+	4	0
+	+	3	0
+	+	4	0
+	+	3	132
+	+	3	133
+	+	2	9
+	+	6	0
+	+	3	29
+
+> ~/NFSU2/drive_c/NFSU2_Game/Need for Speed Underground 2 by peterelmejor/Descargasjt.htm.lnk
+	*	1644672852	0
+	"	1	0
+
+> ~/.local/share/applications/wine/Programs/Crazy Taxi/Crazy Taxi.desktop
+	*	1644530121	0
+	"	3	218
+	^	3	219
+	.	3	218
+	+	3	218
+
+> ~/.bashrc
+	*	1644294725	0
+	"	129	21
+
+> ~/SMBLDAP-DOMAIN-UNEG-INSTALLATION/conf/smb.conf
+	*	1644189867	0
+	"	14	0
+
+> ~/links
+	*	1644107399	0
+	"	3	42
+	^	3	43
+	.	3	42
+	+	1	89
+	+	3	42
+
+> ~/.applications/youtube-dl/youtube-dl
+	*	1644106099	0
+	"	1	17
+	^	1	18
+	.	1	17
+	+	1	17
+
+> ~/.local/share/applications/wine-extension-doc.desktop
+	*	1644097027	0
+	"	4	0
+
+> ~/.local/share/applications/wine-extension-docx.desktop
+	*	1644096898	0
+	"	5	31
+
+> ~/.config/mimeapps.list
+	*	1644096776	0
+	"	50	0
+
+> ~/.config/Thunar/accels.scm
+	*	1644096679	0
+	"	77	0
+
+> ~/.config/Thunar/uca.xml
+	*	1644096669	0
+	"	1	0
+
+> ~/.local/share/applications/wine/Programs/Microsoft Office/Microsoft Office Word 2007.desktop
+	*	1644096597	0
+	"	1	0
+
+> ~/.local/share/mime/application/x-wine-extension-docxml.xml
+	*	1644096520	0
+	"	1	0
+
+> ~/.local/share/mime/application/msword.xml
+	*	1644096404	0
+	"	1	0
+
+> ~/.local/share/mime/types
+	*	1644086726	0
+	"	17	0
+
+> ~/.local/share/mime/mime.cache
+	*	1644086686	0
+	"	1	0
+
+> ~/SMBLDAP_INSTALLATION.txt
+	*	1644010630	0
+	"	44	65
+	^	44	66
+	.	44	65
+	+	1	44
+	+	1	1
+	+	1	3
+	+	1	6
+	+	1	0
+	+	1	4
+	+	1	0
+	+	1	18
+	+	1	55
+	+	1	4
+	+	1	94
+	+	1	4
+	+	1	0
+	+	1	43
+	+	1	4
+	+	1	0
+	+	1	52
+	+	1	0
+	+	1	156
+	+	1	35
+	+	1	93
+	+	44	65
+
+> ~/ldap-account-manager-7.8/configure
+	*	1643323797	0
+	"	1	1
+
+> ~/ldap-account-manager-7.8/install.sh
+	*	1643323788	0
+	"	1	0
+
+> ~/.local/share/applications/wine/Programs/Microsoft Office/Microsoft Office Excel 2007.desktop
+	*	1643158880	0
+	"	3	0
+
+> ~/MSOF/drive_c/Program Files/Common Files/Microsoft Shared/OFFICE12/Office Setup Controller/Proof.en/Proof.XML
+	*	1643156108	0
+	"	29	22
+	^	29	23
+	.	29	22
+	+	29	21
+	+	26	21
+	+	29	17
+	+	26	22
+	+	29	22
+
+> ~/MSOF/drive_c/Program Files/Common Files/Microsoft Shared/OFFICE12/Office Setup Controller/Proof.es/Proof.XML
+	*	1643155318	0
+	"	29	1
+
+> ~/redream
+	*	1642607453	0
+	"	1	0
+
+> /usr/share/xsessions/default.desktop
+	*	1641689241	0
+	"	1	0
+
+> ~/.xinitrc
+	*	1641689193	0
+	"	1	0
+
+> /etc/apt/sources.list
+	*	1641234192	0
+	"	49	0
+	^	38	68
+	.	49	0
+	+	36	57
+	+	35	9
+	+	37	0
+	+	5	0
+	+	9	0
+	+	14	0
+	+	15	0
+	+	22	0
+	+	23	0
+	+	30	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	1	3
+	+	2	0
+	+	37	0
+	+	50	56
+	+	50	51
+	+	43	0
+	+	45	0
+	+	47	0
+	+	49	0
+	+	50	0
+	+	51	0
+	+	49	0
+	+	39	14
+	+	38	67
+	+	40	0
+	+	49	0
+
+> ~/.epsxe/epsxerc
+	*	1640889033	0
+	"	43	0
+	^	59	13
+	.	59	12
+	+	59	12
+
+> ~/.mednafen/mednafen-09x.cfg
+	*	1640799815	0
+	"	1	0
+
+> /etc/samba/smb.conf
+	*	1639269797	0
+	"	270	0
+
+> ~/proteus.sh
+	*	1639012216	0
+	"	2	29
+	^	2	30
+	.	2	29
+	+	2	29
+
+> ~/cm6.sh
+	*	1639012172	0
+	"	2	29
+	^	2	29
+	.	2	29
+	+	2	113
+	+	1	10
+	+	2	29
+	v	2	28
+
+> /etc/resolv.conf
+	*	1638905266	0
+	"	1	17
+	^	1	18
+	.	1	17
+	+	1	17
+
+> ~/.pcsxr/pcsxr.cfg
+	*	1637631852	0
+	"	26	6
+	^	26	7
+	.	26	6
+	+	26	6
+
+> /etc/network/interfaces
+	*	1637553762	0
+	"	6	0
+	^	6	1
+	.	7	0
+	+	19	0
+	+	5	0
+	+	6	0
+	+	8	0
+	+	7	0
+
+> /usr/local/bin/chrome
+	*	1636922804	0
+	"	1	0
+	^	3	152
+	.	3	151
+	+	3	114
+	+	4	0
+	+	3	0
+	+	4	0
+	+	3	0
+	+	3	151
+
+> ~/NERD_tree_1
+	*	1636922129	0
+	"	5	0
+	.	1	0
+	+	1	0
+
+> ~/farmacia/app/Providers/AppServiceProvider.php
+	*	1636921125	0
+	"	7	37
+	^	7	38
+	.	7	37
+	+	29	34
+	+	7	37
+
+> /etc/fstab
+	*	1636902711	0
+	"	12	25
+	^	12	26
+	.	12	25
+	+	14	13
+	+	12	25
+
+> ~/.config/i3/bar2.sh
+	*	1636895248	0
+	"	40	1
+	^	50	41
+	.	39	0
+	+	50	41
+	+	39	0
+
+> /etc/chromium-browser/default
+	*	1636893462	0
+	"	1	0
+
+> ~/dotfiles
+	*	1636768222	0
+	"	26	10
+	^	22	20
+	.	22	19
+	+	5	30
+	+	23	0
+	+	24	1
+	+	23	0
+	+	18	0
+	+	25	8
+	+	24	0
+	+	26	10
+	+	20	13
+	+	21	20
+	+	22	19
+
+> /mnt/data/home/am/Documentos/NERD_tree_1
+	*	1636767745	0
+	"	2	0
+	.	1	0
+	+	1	0
+
+> ~/.applications/i3/i3-gaps_installation_guide.md
+	*	1636766122	0
+	"	40	0
+
+> ~/.applications/i3/install-sh
+	*	1636766093	0
+	"	493	10
+
+> ~/slim/Slim/Routing/Route.php
+	*	1635990098	0
+	"	124	4
+
+> ~/slim/Slim/App.php
+	*	1635990077	0
+	"	206	5
+
+> ~/vba.cfg
+	*	1635985353	0
+	"	83	0
+	^	43	11
+	.	42	10
+	+	213	19
+	+	42	10
+
+> /etc/ssh/sshd_config
+	*	1635870884	0
+	"	74	0
+
+> ~/VPN/us-free-02.protonvpn.com.udp.ovpn
+	*	1635821137	0
+	"	53	27
+	^	53	28
+	.	53	27
+	+	53	27
+
+> /usr/share/pulseaudio/alsa-mixer/paths/analog-output-speaker.conf
+	*	1635705220	0
+	"	116	13
+
+> ~/lemp/www/slim/Slim/Routing/Route.php
+	*	1635599941	0
+	"	42	5
+
+> ~/lemp/www/slim/Slim/App.php
+	*	1635599917	0
+	"	231	4
+
+> ~/lemp/www/slim/public/index.php
+	*	1635566218	0
+	"	10	0
+	^	15	12
+	.	15	11
+	+	15	11
+
+> ~/lemp/www/prueba/composer.json
+	*	1635546827	0
+	"	14	26
+	^	14	27
+	.	14	26
+	+	14	26
+
+> ~/docs/monitor.sh
+	*	1635463295	0
+	"	45	0
+
+> ~/lemp/www/farmacia/.git/COMMIT_EDITMSG
+	*	1635294194	0
+	"	1	0
+
+> ~/lemp/www/farmacia/.git/MERGE_MSG
+	*	1635292737	0
+	"	1	10
+	^	1	11
+	.	1	10
+	+	1	10
+
+> ~/BD-2_project_entregar-Edgardo-Ronald-Cruz-Geruby/BD-2_project/.env
+	*	1635275461	0
+	"	15	0
+	^	15	17
+	.	15	16
+	+	13	13
+	+	14	16
+	+	15	16
+	+	14	15
+	+	15	16
+	+	14	16
+	+	13	13
+	+	14	16
+	+	15	16
+
+> ~/BD-2_project_entregar-Edgardo-Ronald-Cruz-Geruby/BD-2_project/database/seeders/CertificateSeeder.php
+	*	1635274800	0
+	"	1	0
+
+> ~/lemp/www/farmacia/.env
+	*	1635269215	0
+	"	52	0
+	.	53	0
+	+	53	0
+
+> ~/lemp/www/farmacia/public/css/bootstrap-custom.css
+	*	1635016906	0
+	"	93	0
+	^	94	0
+	.	94	0
+	+	95	0
+	+	94	0
+
+> ~/lemp/www/farmacia/public/css/prefix.less
+	*	1635016739	0
+	"	3	0
+	^	3	1
+	.	3	0
+	+	3	0
+
+> ~/lemp/www/farmacia/composer.json
+	*	1634932731	0
+	"	21	8
+	.	21	0
+	+	21	0
+
+> ~/lemp/www/farmacia/app/Http/Controllers/Auth/LoginController.php
+	*	1634699004	0
+	"	46	0
+
+> ~/lemp/www/livewire/.env
+	*	1634691355	0
+	"	15	16
+	^	15	17
+	.	15	16
+	+	13	16
+	+	14	19
+	+	15	16
+
+> ~/lemp/www/crud2/.env
+	*	1634688528	0
+	"	15	16
+	^	15	17
+	.	15	16
+	+	13	16
+	+	14	19
+	+	15	16
+
+> /tmp/ggw
+	*	1634596052	0
+	"	1	335
+	^	1	401
+	.	2	0
+	+	1	32
+	+	1	190
+	+	1	32
+	+	1	166
+	+	1	190
+	+	1	400
+	+	1	167
+	+	1	335
+	+	2	0

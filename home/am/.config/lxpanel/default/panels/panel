@@ -1,0 +1,33 @@
+# lxpanel <profile> config file. Manually editing is not recommended.
+# Use preference dialog in lxpanel to adjust config when you can.
+
+Global {
+  edge=top
+  allign=left
+  margin=0
+  widthtype=percent
+  width=40
+  height=16
+  transparent=1
+  tintcolor=#000000
+  alpha=255
+  setdocktype=1
+  setpartialstrut=1
+  usefontcolor=1
+  fontcolor=#ffffff
+  usefontsize=0
+  fontsize=10
+  background=0
+  backgroundfile=/usr/share/lxpanel/images/background.png
+  iconsize=16
+}
+Plugin {
+  type=tray
+  Config {
+  }
+}
+Plugin {
+  type=pager
+  Config {
+  }
+}

@@ -1,0 +1,17 @@
+1. Install i3wm
+2. Copy config file from github repo
+3. Install i3Blocks for the bar
+4. Upgrade rendering font creating a .Xresources file in home directory and paste the config:
+
+
+Xft.antialias: 1
+Xft.hinting: 1
+Xft.autohint: 0
+Xft.hintstyle: hintslight
+Xft.dpi: 96
+Xft.lcdfilter: lcddefault
+Xft.rgba: rgb
+
+6. Install Yosemity San Fransisco Font (Alternative)
+7. Enjoy
+

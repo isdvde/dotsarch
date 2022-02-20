@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="thunar" version="1.0">
+  <property name="last-view" type="string" value="ThunarDetailsView"/>
+  <property name="last-location-bar" type="string" value="ThunarLocationEntry"/>
+  <property name="last-icon-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_LARGEST"/>
+  <property name="last-window-width" type="int" value="1258"/>
+  <property name="last-window-height" type="int" value="682"/>
+  <property name="last-window-maximized" type="bool" value="true"/>
+  <property name="misc-single-click" type="bool" value="false"/>
+  <property name="default-view" type="string" value="ThunarDetailsView"/>
+  <property name="misc-file-size-binary" type="bool" value="false"/>
+  <property name="misc-text-beside-icons" type="bool" value="false"/>
+  <property name="misc-date-style" type="string" value="THUNAR_DATE_STYLE_SHORT"/>
+  <property name="shortcuts-icon-size" type="string" value="THUNAR_ICON_SIZE_SMALLEST"/>
+  <property name="shortcuts-icon-emblems" type="bool" value="false"/>
+  <property name="misc-open-new-window-as-tab" type="bool" value="true"/>
+  <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_SMALLEST"/>
+  <property name="last-details-view-column-widths" type="string" value="50,186,50,232,592,50,50,79,258"/>
+  <property name="last-separator-position" type="int" value="134"/>
+  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_TYPE"/>
+  <property name="last-sort-order" type="string" value="GTK_SORT_ASCENDING"/>
+  <property name="tree-icon-emblems" type="bool" value="false"/>
+  <property name="hidden-bookmarks" type="array">
+    <value type="string" value="file:///"/>
+    <value type="string" value="network://"/>
+    <value type="string" value="network:///"/>
+    <value type="string" value="file:///home/am/Escritorio"/>
+    <value type="string" value="trash:///"/>
+  </property>
+  <property name="hidden-devices" type="array">
+    <value type="string" value="0e0969e6-2de2-4eef-ad1b-56a58dcd65eb"/>
+    <value type="string" value="data"/>
+    <value type="string" value="2f4c4963-d0db-4be9-9f55-60f1ee05063a"/>
+    <value type="string" value="0d90f1fc-da60-4210-bd72-866128a8fa07"/>
+    <value type="string" value="481808061807F22C"/>
+    <value type="string" value="dbf2955b-08f8-4fdb-968b-786fafb6e883"/>
+  </property>
+  <property name="last-show-hidden" type="bool" value="false"/>
+  <property name="last-details-view-column-order" type="string" value="THUNAR_COLUMN_NAME,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_SIZE_IN_BYTES,THUNAR_COLUMN_TYPE,THUNAR_COLUMN_DATE_MODIFIED,THUNAR_COLUMN_MIME_TYPE,THUNAR_COLUMN_OWNER,THUNAR_COLUMN_PERMISSIONS,THUNAR_COLUMN_DATE_ACCESSED,THUNAR_COLUMN_GROUP"/>
+  <property name="last-details-view-visible-columns" type="string" value="THUNAR_COLUMN_DATE_MODIFIED,THUNAR_COLUMN_NAME,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_TYPE"/>
+  <property name="misc-middle-click-in-tab" type="bool" value="true"/>
+  <property name="last-details-view-fixed-columns" type="bool" value="false"/>
+  <property name="misc-thumbnail-mode" type="string" value="THUNAR_THUMBNAIL_MODE_ALWAYS"/>
+</channel>

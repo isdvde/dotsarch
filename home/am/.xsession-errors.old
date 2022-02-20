@@ -1,0 +1,125 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-default:/etc/xdg
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session1
+dbus-update-activation-environment: setting LANGUAGE=es_ES:en
+dbus-update-activation-environment: setting MANDATORY_PATH=/usr/share/gconf/default.mandatory.path
+dbus-update-activation-environment: setting LC_ADDRESS=en_US.UTF-8
+dbus-update-activation-environment: setting LC_NAME=en_US.UTF-8
+dbus-update-activation-environment: setting DESKTOP_SESSION=default
+dbus-update-activation-environment: setting LC_MONETARY=en_US.UTF-8
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting PWD=/home/am
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=default
+dbus-update-activation-environment: setting LOGNAME=am
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
+dbus-update-activation-environment: setting LC_NUMBER=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/am
+dbus-update-activation-environment: setting GDM_LANG=es_ES
+dbus-update-activation-environment: setting HOME=/home/am
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LC_PAPER=en_US.UTF-8
+dbus-update-activation-environment: setting LANG=es_ES.UTF-8
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting LC_IDENTIFICATION=en_US.UTF-8
+dbus-update-activation-environment: setting DEFAULTS_PATH=/usr/share/gconf/default.default.path
+dbus-update-activation-environment: setting USER=am
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LC_TELEPHONE=en_US.UTF-8
+dbus-update-activation-environment: setting LC_MEASUREMENT=en_US.UTF-8
+dbus-update-activation-environment: setting PAPERSIZE=letter
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting LC_TIME=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/default:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting PATH=/home/am/bin:/home/am/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting GDMSESSION=default
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting LC_NUMERIC=en_US.UTF-8
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+Xsession: X session started for am at Sun 20 Feb 2022 12:03:22 PM -04
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
+localuser:am being added to access control list
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LC_NUMBER=en_US.UTF-8
+dbus-update-activation-environment: setting LANGUAGE=es_ES:en
+dbus-update-activation-environment: setting USER=am
+dbus-update-activation-environment: setting LC_TIME=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting SSH_AGENT_PID=1436393
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting HOME=/home/am
+dbus-update-activation-environment: setting DESKTOP_SESSION=default
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting LC_MONETARY=en_US.UTF-8
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting MANDATORY_PATH=/usr/share/gconf/default.mandatory.path
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=am
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting DEFAULTS_PATH=/usr/share/gconf/default.default.path
+dbus-update-activation-environment: setting PATH=/home/am/bin:/home/am/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting GDM_LANG=es_ES
+dbus-update-activation-environment: setting PAPERSIZE=letter
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session1
+dbus-update-activation-environment: setting LC_ADDRESS=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting LANG=es_ES.UTF-8
+dbus-update-activation-environment: setting LC_TELEPHONE=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=default
+dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/am
+dbus-update-activation-environment: setting SSH_AUTH_SOCK=/tmp/ssh-MiXIslkjbfiD/agent.1436332
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting LC_NAME=en_US.UTF-8
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting GDMSESSION=default
+dbus-update-activation-environment: setting LC_MEASUREMENT=en_US.UTF-8
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting LC_IDENTIFICATION=en_US.UTF-8
+dbus-update-activation-environment: setting PWD=/home/am
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-default:/etc/xdg
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/default:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting LC_NUMERIC=en_US.UTF-8
+dbus-update-activation-environment: setting LC_PAPER=en_US.UTF-8
+unexpected type for property '290'
+property '294' doesn't exist, you need to specify its type and format
+Usando el método «randr».
+
+** (process:1436466): WARNING **: 12:03:23.656: xdg-autostart.vala:125: Error: Error opening directory ?/etc/xdg/xdg-default/autostart?: No such file or directory
+
+** Message: 12:03:23.688: xdg-autostart.vala:39: Processing /etc/xdg/autostart/xfce4-clipman-plugin-autostart.desktop file.
+** Message: 12:03:23.688: xdg-autostart.vala:44: Hidden attribute set, aborting.
+** Message: 12:03:23.750: xdg-autostart.vala:39: Processing /etc/xdg/autostart/pulseaudio.desktop file.
+** Message: 12:03:23.763: xdg-autostart.vala:94: Launching: start-pulseaudio-x11 (pulseaudio.desktop)
+** Message: 12:03:23.764: xdg-autostart.vala:39: Processing /home/am/.config/autostart/komorebi.desktop file.
+** Message: 12:03:23.765: xdg-autostart.vala:94: Launching: /System/Applications/komorebi (komorebi.desktop)
+Welcome to Komorebi
+
+** (xfce4-clipman:1436477): WARNING **: 12:03:24.226: Unable to register GApplication: Ya existe un objeto exportado para la interfaz org.gtk.Application en /org/xfce/clipman
+
+(xfce4-clipman:1436477): GLib-GIO-CRITICAL **: 12:03:24.226: g_application_get_is_remote: assertion 'application->priv->is_registered' failed
+
+(xfce4-clipman:1436477): GLib-WARNING **: 12:03:24.226: g_set_application_name() called multiple times
+Reading config file..
+[INFO]: loading Gst
+
+** (lxpanel:1436476): WARNING **: 12:03:24.496: terminal xfce4-terminal.wraper isn't known, consider report it to LibFM developers
+
+** (lxpanel:1436476): WARNING **: 12:03:24.496: XDG_TEMPLATES_DIR is set to invalid path, ignoring it
+No se pudo conectar con el Gestor se sesiones: No se pudo conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
+
+(lxpanel:1436476): Wnck-WARNING **: 12:03:28.855: Unhandled action type _OB_WM_ACTION_UNDECORATE

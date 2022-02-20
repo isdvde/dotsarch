@@ -1,0 +1,591 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-default:/etc/xdg
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting LANGUAGE=es_ES:en
+dbus-update-activation-environment: setting MANDATORY_PATH=/usr/share/gconf/default.mandatory.path
+dbus-update-activation-environment: setting LC_ADDRESS=en_US.UTF-8
+dbus-update-activation-environment: setting LC_NAME=en_US.UTF-8
+dbus-update-activation-environment: setting DESKTOP_SESSION=default
+dbus-update-activation-environment: setting LC_MONETARY=en_US.UTF-8
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting PWD=/home/am
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=default
+dbus-update-activation-environment: setting LOGNAME=am
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
+dbus-update-activation-environment: setting LC_NUMBER=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/am
+dbus-update-activation-environment: setting GDM_LANG=es_ES
+dbus-update-activation-environment: setting HOME=/home/am
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LC_PAPER=en_US.UTF-8
+dbus-update-activation-environment: setting LANG=es_ES.UTF-8
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting LC_IDENTIFICATION=en_US.UTF-8
+dbus-update-activation-environment: setting DEFAULTS_PATH=/usr/share/gconf/default.default.path
+dbus-update-activation-environment: setting USER=am
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LC_TELEPHONE=en_US.UTF-8
+dbus-update-activation-environment: setting LC_MEASUREMENT=en_US.UTF-8
+dbus-update-activation-environment: setting PAPERSIZE=letter
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting LC_TIME=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/default:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting PATH=/home/am/bin:/home/am/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting GDMSESSION=default
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting LC_NUMERIC=en_US.UTF-8
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+Xsession: X session started for am at Sun 20 Feb 2022 12:07:18 PM -04
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
+localuser:am being added to access control list
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LC_NUMBER=en_US.UTF-8
+dbus-update-activation-environment: setting LANGUAGE=es_ES:en
+dbus-update-activation-environment: setting USER=am
+dbus-update-activation-environment: setting LC_TIME=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting SSH_AGENT_PID=991
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting HOME=/home/am
+dbus-update-activation-environment: setting DESKTOP_SESSION=default
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting LC_MONETARY=en_US.UTF-8
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting MANDATORY_PATH=/usr/share/gconf/default.mandatory.path
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=am
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting DEFAULTS_PATH=/usr/share/gconf/default.default.path
+dbus-update-activation-environment: setting PATH=/home/am/bin:/home/am/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting GDM_LANG=es_ES
+dbus-update-activation-environment: setting PAPERSIZE=letter
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting LC_ADDRESS=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting LANG=es_ES.UTF-8
+dbus-update-activation-environment: setting LC_TELEPHONE=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=default
+dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/am
+dbus-update-activation-environment: setting SSH_AUTH_SOCK=/tmp/ssh-XybaE9EZSYb2/agent.926
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting LC_NAME=en_US.UTF-8
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting GDMSESSION=default
+dbus-update-activation-environment: setting LC_MEASUREMENT=en_US.UTF-8
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting LC_IDENTIFICATION=en_US.UTF-8
+dbus-update-activation-environment: setting PWD=/home/am
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-default:/etc/xdg
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/default:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting LC_NUMERIC=en_US.UTF-8
+dbus-update-activation-environment: setting LC_PAPER=en_US.UTF-8
+unexpected type for property '290'
+property '294' doesn't exist, you need to specify its type and format
+Usando el método «randr».
+
+** (process:1064): WARNING **: 12:07:19.243: xdg-autostart.vala:125: Error: Error opening directory ?/etc/xdg/xdg-default/autostart?: No such file or directory
+
+** Message: 12:07:19.444: xdg-autostart.vala:39: Processing /home/am/.config/autostart/xfce4-clipman-plugin-autostart.desktop file.
+** Message: 12:07:19.444: xdg-autostart.vala:64: Not found in OnlyShowIn list, aborting.
+** Message: 12:07:19.496: xdg-autostart.vala:39: Processing /etc/xdg/autostart/pulseaudio.desktop file.
+** Message: 12:07:19.523: xdg-autostart.vala:94: Launching: start-pulseaudio-x11 (pulseaudio.desktop)
+** Message: 12:07:19.604: xdg-autostart.vala:39: Processing /home/am/.config/autostart/komorebi.desktop file.
+
+** (process:1064): WARNING **: 12:07:19.605: xdg-autostart.vala:97: Error: Failed to execute child process ?/System/Applications/komorebi? (No such file or directory)
+
+
+** (xfce4-clipman:1075): WARNING **: 12:07:19.891: Unable to register GApplication: Ya existe un objeto exportado para la interfaz org.gtk.Application en /org/xfce/clipman
+
+(xfce4-clipman:1075): GLib-GIO-CRITICAL **: 12:07:19.891: g_application_get_is_remote: assertion 'application->priv->is_registered' failed
+
+(xfce4-clipman:1075): GLib-WARNING **: 12:07:19.891: g_set_application_name() called multiple times
+
+** (lxpanel:1074): WARNING **: 12:07:21.900: terminal xfce4-terminal.wraper isn't known, consider report it to LibFM developers
+
+** (lxpanel:1074): WARNING **: 12:07:21.900: XDG_TEMPLATES_DIR is set to invalid path, ignoring it
+[147167:148602:0220/122248.809217:ERROR:login_database.cc(599)] Password store database is too new, kCurrentVersionNumber=26, GetCompatibleVersionNumber=31
+[147167:148602:0220/122248.809489:ERROR:password_store_default.cc(42)] Could not create/open login database.
+[147167:148602:0220/122248.809516:ERROR:password_store_x.cc(225)] Could not start the migration into the encrypted LoginDatabase because the database failed to initialise.
+
+(lxpanel:1074): Wnck-WARNING **: 12:22:52.316: Unhandled action type _OB_WM_ACTION_UNDECORATE
+[147167:149434:0220/122253.264536:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[147167:149434:0220/122253.266623:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[147167:149434:0220/122253.267860:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:25:14.524: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+No se pudo conectar con el Gestor se sesiones: No se pudo conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
+
+(lxpanel:1074): Wnck-WARNING **: 12:25:18.074: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:25:53.935: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:25:54.336: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:25:55.218: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290670
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290671
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290672
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290673
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290674
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290675
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290676
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290677
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290678
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290679
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290680
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290681
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290682
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290683
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290684
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290685
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290686
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290687
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290688
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290689
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290690
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290691
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290692
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290693
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290694
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290695
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290696
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290697
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290698
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290699
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290700
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290701
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290702
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290703
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290704
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290705
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290706
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290707
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290708
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290709
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290710
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290711
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290712
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290713
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290714
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290715
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290716
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290717
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290718
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290719
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290720
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290721
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290722
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290723
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290724
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290725
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290726
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290727
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290728
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290729
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290730
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290731
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290732
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290733
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290734
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290735
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290736
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290737
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290738
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290739
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290740
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290741
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290742
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290743
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290744
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290745
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290746
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290747
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290748
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290749
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290750
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290751
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290752
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290753
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290754
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290755
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290756
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290757
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290758
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290759
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290760
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290761
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290762
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290763
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290764
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290765
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290766
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290767
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290768
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290769
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290770
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290771
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290772
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290773
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290774
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290775
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290776
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332448
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332449
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332450
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332451
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332452
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332453
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332454
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332455
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332456
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332457
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332458
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332459
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332460
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332461
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332462
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332463
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332464
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332465
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332466
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332467
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332468
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332469
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332470
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332471
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332472
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332473
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332474
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332475
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332476
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332477
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332478
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332479
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332480
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332481
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332482
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332483
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332484
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332485
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332486
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332487
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332488
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332489
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332490
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332491
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332492
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332493
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332494
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332495
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332496
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332497
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332498
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332499
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332500
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332501
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332502
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332503
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332504
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332505
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332506
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332507
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332508
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332509
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332510
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332511
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332512
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332513
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332514
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332515
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332516
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332517
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332518
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332519
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332520
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332521
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332522
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332523
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332524
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332525
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332526
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332527
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332528
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332529
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332530
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332531
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332532
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332533
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332534
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332535
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332536
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332537
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332538
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332539
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332540
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332541
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332542
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332543
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332544
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332545
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332546
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332547
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332548
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332549
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332550
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332551
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332552
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332553
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332554
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332555
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332556
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332557
+
+(lxpanel:1074): Wnck-WARNING **: 12:26:55.413: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:09.636: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:10.404: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:10.833: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:11.975: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:30.248: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:30.763: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:31.579: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:32.117: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:35.947: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:37.906: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:167390): Gdk-CRITICAL **: 12:28:50.152: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+error 3: BadWindow (invalid Window parameter) request 2 minor 0 serial 477138
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 477139
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 477140
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 499063
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 506472
+
+(lxpanel:1074): Wnck-WARNING **: 12:31:17.333: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 3: BadWindow (invalid Window parameter) request 142 minor 6 serial 517278
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 517279
+error 140: BadRegion request 138 minor 14 serial 517315
+error 140: BadRegion request 138 minor 14 serial 517376
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 517407
+error 3: BadWindow (invalid Window parameter) request 142 minor 6 serial 518558
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 518559
+error 140: BadRegion request 138 minor 14 serial 518572
+error 140: BadRegion request 138 minor 14 serial 518653
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 518694
+
+(lxpanel:1074): Wnck-WARNING **: 12:31:29.801: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:31:52.024: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:32:29.668: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:32:30.563: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:32:32.485: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:32:32.846: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 567209
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 12:32:33.649: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575218
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575219
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575220
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575221
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575222
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575223
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575224
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575225
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575226
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575227
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575228
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575229
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575230
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575231
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575232
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575233
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575234
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575235
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575236
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575237
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575238
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575239
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575240
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575241
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575242
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575243
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575244
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575245
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575246
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575247
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575248
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575249
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575250
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575251
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575252
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575253
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575254
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575255
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575256
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575257
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575258
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575259
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575260
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575261
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575262
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575263
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575264
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575265
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575266
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575267
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575268
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575269
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575270
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575271
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575272
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575273
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575274
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575275
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575276
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575277
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575278
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575279
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575280
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575281
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575282
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575283
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575284
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575285
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575286
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575287
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575288
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575289
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575290
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575291
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575292
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575293
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575294
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575295
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575296
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575297
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575298
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575299
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575300
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575301
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575302
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575303
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575304
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575305
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575306
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575307
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575308
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575309
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575310
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575311
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575312
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575313
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575314
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575315
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575316
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575317
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575318
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575319
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575320
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575321
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575322
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575323
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575324
+error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 578018
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 578019
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 578636
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+
+(lxpanel:1074): Wnck-WARNING **: 13:20:12.456: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 13:21:41.519: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 13:21:46.039: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(lxpanel:1074): Wnck-WARNING **: 13:27:45.590: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1074): Wnck-WARNING **: 13:27:47.360: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1074): Wnck-WARNING **: 13:27:48.156: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1074): Wnck-WARNING **: 13:30:33.822: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1074): Wnck-WARNING **: 13:30:35.050: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1074): Wnck-WARNING **: 13:30:44.289: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1074): Wnck-WARNING **: 13:30:45.346: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1074): Wnck-WARNING **: 13:32:34.214: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1074): Wnck-WARNING **: 13:32:35.343: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1074): Wnck-WARNING **: 13:39:06.376: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1074): Wnck-WARNING **: 13:39:38.531: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1074): Wnck-WARNING **: 13:39:38.533: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xfce4-terminal:167390): Gdk-CRITICAL **: 13:41:02.359: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 13:44:04.349: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 13:48:18.869: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 13:57:40.711: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 13:59:34.223: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 13:59:48.622: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(lxpanel:1074): Wnck-WARNING **: 14:04:15.457: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 14:06:28.965: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(lxpanel:1074): Wnck-WARNING **: 14:06:49.501: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 14:07:19.989: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): GLib-CRITICAL **: 14:07:40.117: Source ID 408 was not found when attempting to remove it
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 14:08:12.456: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(lxpanel:1074): Wnck-WARNING **: 14:08:12.786: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 14:08:54.922: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(lxpanel:1074): Wnck-WARNING **: 14:08:58.372: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 14:10:39.771: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1075): Gdk-CRITICAL **: 14:11:34.785: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed

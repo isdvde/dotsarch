@@ -1,0 +1,32 @@
+#!/bin/bash
+
+#COM=$(ping -c5 -i 0.3 8.8.8.8 | awk '/seq=/{printf ("%d\n", substr($7,6))}')
+COM=$(ping -c5 -i 0.3 8.8.8.8 | grep from | cut -d" " -f7 | sed -e 's/time=//g' -e 's/\..*//g')
+CONT=0
+ACUM=0
+
+for i in $COM; do
+
+	[ $i -ne 0 ] && {
+
+		((ACUM+=i));
+		((CONT++));
+	}
+done
+
+
+[ $ACUM -eq 0 ] && { echo "NE"; exit 33;} || {
+
+	echo $((ACUM/CONT)); 
+
+	[ $((ACUM/CONT)) -gt 300 ] && exit 33 || exit 0
+}
+	
+
+
+
+
+
+
+
+

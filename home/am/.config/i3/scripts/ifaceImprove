@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if=$(ip route | grep default | cut -d" " -f5)
+ip=$(ip route show dev $if | grep scope | sed 's/  */ /g' | cut -d" " -f7)
+
+echo "$ip"
+echo "$ip"
+
+
+

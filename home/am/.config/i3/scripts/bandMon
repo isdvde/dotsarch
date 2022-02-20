@@ -1,0 +1,32 @@
+#!/bin/bash
+
+
+obtain() {
+
+	local current=$(ifconfig wlp2s0 | grep $1 | head -n1 | sed 's/  */ /g' | cut -d" " -f6)
+
+	cache="/tmp/$1"
+
+	[ -f $cache ] && old=$(cat $cache) || old=0
+	echo $current > $cache
+	#echo "$(( (current-old) / 1024 ))"
+	echo "$(echo "($current - $old) / 1024" | bc )"
+}
+
+
+#current=$(grep wlp2s0 /proc/net/dev | sed 's/  */ /g' | cut -d" " -f2,10)
+current=$(cat /sys/class/net/wlp2s0/statistics/{rx,tx}_bytes | paste -sd" ")
+
+cache="/tmp/xlog"
+
+[ -f $cache ] && old=$(cat $cache) || old=0
+echo $current > $cache
+
+down=$(echo "(${current%% *} - ${old%% *}) / 1024" | bc)
+up=$(echo "(${current##* } - ${old##* }) / 1024" | bc)
+#up=$(obtain TX)
+
+echo "D ${down}K U ${up}K"
+#echo "D ${down}K"
+
+exit 0
