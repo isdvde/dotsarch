@@ -2,9 +2,7 @@ dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/
 dbus-update-activation-environment: setting DISPLAY=:0
 dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
 dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
-dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
 dbus-update-activation-environment: setting SHELL=/bin/bash
-dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
 dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-default:/etc/xdg
 dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
 dbus-update-activation-environment: setting LANGUAGE=es_ES:en
@@ -45,19 +43,18 @@ dbus-update-activation-environment: setting GDMSESSION=default
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 dbus-update-activation-environment: setting LC_NUMERIC=en_US.UTF-8
 dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
-Xsession: X session started for am at Sun 20 Feb 2022 12:07:18 PM -04
+Xsession: X session started for am at Tue 01 Mar 2022 02:42:45 PM -04
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 dbus-update-activation-environment: setting DISPLAY=:0
 dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
 localuser:am being added to access control list
 dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
-dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
 dbus-update-activation-environment: setting LC_NUMBER=en_US.UTF-8
 dbus-update-activation-environment: setting LANGUAGE=es_ES:en
 dbus-update-activation-environment: setting USER=am
 dbus-update-activation-environment: setting LC_TIME=en_US.UTF-8
 dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
-dbus-update-activation-environment: setting SSH_AGENT_PID=991
+dbus-update-activation-environment: setting SSH_AGENT_PID=978
 dbus-update-activation-environment: setting SHLVL=0
 dbus-update-activation-environment: setting HOME=/home/am
 dbus-update-activation-environment: setting DESKTOP_SESSION=default
@@ -82,10 +79,9 @@ dbus-update-activation-environment: setting LC_TELEPHONE=en_US.UTF-8
 dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=default
 dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
 dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/am
-dbus-update-activation-environment: setting SSH_AUTH_SOCK=/tmp/ssh-XybaE9EZSYb2/agent.926
+dbus-update-activation-environment: setting SSH_AUTH_SOCK=/tmp/ssh-EjdWksSohHSK/agent.915
 dbus-update-activation-environment: setting SHELL=/bin/bash
 dbus-update-activation-environment: setting LC_NAME=en_US.UTF-8
-dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
 dbus-update-activation-environment: setting GDMSESSION=default
 dbus-update-activation-environment: setting LC_MEASUREMENT=en_US.UTF-8
 dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
@@ -95,497 +91,938 @@ dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-default
 dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/default:/usr/local/share/:/usr/share/
 dbus-update-activation-environment: setting LC_NUMERIC=en_US.UTF-8
 dbus-update-activation-environment: setting LC_PAPER=en_US.UTF-8
-unexpected type for property '290'
 property '294' doesn't exist, you need to specify its type and format
+unexpected type for property '290'
 Usando el método «randr».
 
-** (process:1064): WARNING **: 12:07:19.243: xdg-autostart.vala:125: Error: Error opening directory ?/etc/xdg/xdg-default/autostart?: No such file or directory
+** (process:1050): WARNING **: 14:42:45.963: xdg-autostart.vala:125: Error: Error opening directory ?/etc/xdg/xdg-default/autostart?: No such file or directory
 
-** Message: 12:07:19.444: xdg-autostart.vala:39: Processing /home/am/.config/autostart/xfce4-clipman-plugin-autostart.desktop file.
-** Message: 12:07:19.444: xdg-autostart.vala:64: Not found in OnlyShowIn list, aborting.
-** Message: 12:07:19.496: xdg-autostart.vala:39: Processing /etc/xdg/autostart/pulseaudio.desktop file.
-** Message: 12:07:19.523: xdg-autostart.vala:94: Launching: start-pulseaudio-x11 (pulseaudio.desktop)
-** Message: 12:07:19.604: xdg-autostart.vala:39: Processing /home/am/.config/autostart/komorebi.desktop file.
+** Message: 14:42:45.964: xdg-autostart.vala:39: Processing /home/am/.config/autostart/xfce4-clipman-plugin-autostart.desktop file.
+** Message: 14:42:45.964: xdg-autostart.vala:64: Not found in OnlyShowIn list, aborting.
+** Message: 14:42:45.964: xdg-autostart.vala:39: Processing /etc/xdg/autostart/pulseaudio.desktop file.
+** Message: 14:42:45.969: xdg-autostart.vala:94: Launching: start-pulseaudio-x11 (pulseaudio.desktop)
 
-** (process:1064): WARNING **: 12:07:19.605: xdg-autostart.vala:97: Error: Failed to execute child process ?/System/Applications/komorebi? (No such file or directory)
+(xfce4-clipman:1061): dbind-WARNING **: 14:42:46.619: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 
+** (xfce4-clipman:1061): WARNING **: 14:42:46.772: Unable to register GApplication: Ya existe un objeto exportado para la interfaz org.gtk.Application en /org/xfce/clipman
 
-** (xfce4-clipman:1075): WARNING **: 12:07:19.891: Unable to register GApplication: Ya existe un objeto exportado para la interfaz org.gtk.Application en /org/xfce/clipman
+(xfce4-clipman:1061): GLib-GIO-CRITICAL **: 14:42:46.772: g_application_get_is_remote: assertion 'application->priv->is_registered' failed
 
-(xfce4-clipman:1075): GLib-GIO-CRITICAL **: 12:07:19.891: g_application_get_is_remote: assertion 'application->priv->is_registered' failed
+(xfce4-clipman:1061): GLib-WARNING **: 14:42:46.772: g_set_application_name() called multiple times
 
-(xfce4-clipman:1075): GLib-WARNING **: 12:07:19.891: g_set_application_name() called multiple times
+(nitrogen:1056): dbind-WARNING **: 14:42:47.795: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 
-** (lxpanel:1074): WARNING **: 12:07:21.900: terminal xfce4-terminal.wraper isn't known, consider report it to LibFM developers
+(lxpanel:1060): dbind-WARNING **: 14:42:47.796: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 
-** (lxpanel:1074): WARNING **: 12:07:21.900: XDG_TEMPLATES_DIR is set to invalid path, ignoring it
-[147167:148602:0220/122248.809217:ERROR:login_database.cc(599)] Password store database is too new, kCurrentVersionNumber=26, GetCompatibleVersionNumber=31
-[147167:148602:0220/122248.809489:ERROR:password_store_default.cc(42)] Could not create/open login database.
-[147167:148602:0220/122248.809516:ERROR:password_store_x.cc(225)] Could not start the migration into the encrypted LoginDatabase because the database failed to initialise.
+** (lxpanel:1060): WARNING **: 14:42:47.913: terminal xfce4-terminal.wraper isn't known, consider report it to LibFM developers
 
-(lxpanel:1074): Wnck-WARNING **: 12:22:52.316: Unhandled action type _OB_WM_ACTION_UNDECORATE
-[147167:149434:0220/122253.264536:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[147167:149434:0220/122253.266623:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[147167:149434:0220/122253.267860:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+** (lxpanel:1060): WARNING **: 14:42:47.914: XDG_TEMPLATES_DIR is set to invalid path, ignoring it
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:25:14.524: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(xfce4-terminal:5010): dbind-WARNING **: 14:43:11.036: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 No se pudo conectar con el Gestor se sesiones: No se pudo conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
 
-(lxpanel:1074): Wnck-WARNING **: 12:25:18.074: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(xfce4-terminal:5010): VTE-CRITICAL **: 14:43:11.358: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:25:53.935: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(xfce4-terminal:5010): VTE-CRITICAL **: 14:43:11.359: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:25:54.336: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(xfce4-terminal:5010): VTE-CRITICAL **: 14:43:11.359: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:25:55.218: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290670
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290671
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290672
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290673
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290674
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290675
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290676
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290677
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290678
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290679
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290680
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290681
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290682
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290683
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290684
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290685
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290686
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290687
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290688
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290689
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290690
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290691
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290692
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290693
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290694
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290695
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290696
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290697
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290698
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290699
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290700
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290701
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290702
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290703
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290704
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290705
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290706
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290707
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290708
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290709
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290710
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290711
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290712
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290713
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290714
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290715
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290716
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290717
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290718
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290719
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290720
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290721
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290722
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290723
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290724
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290725
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290726
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290727
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290728
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290729
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290730
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290731
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290732
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290733
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290734
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290735
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290736
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290737
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290738
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290739
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290740
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290741
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290742
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290743
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290744
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290745
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290746
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290747
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290748
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290749
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290750
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290751
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290752
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290753
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290754
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290755
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290756
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290757
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290758
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290759
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290760
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290761
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290762
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290763
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290764
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290765
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290766
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290767
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290768
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290769
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290770
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290771
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290772
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290773
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290774
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 290775
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 290776
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332448
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332449
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332450
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332451
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332452
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332453
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332454
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332455
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332456
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332457
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332458
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332459
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332460
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332461
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332462
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332463
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332464
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332465
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332466
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332467
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332468
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332469
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332470
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332471
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332472
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332473
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332474
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332475
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332476
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332477
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332478
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332479
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332480
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332481
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332482
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332483
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332484
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332485
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332486
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332487
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332488
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332489
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332490
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332491
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332492
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332493
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332494
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332495
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332496
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332497
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332498
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332499
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332500
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332501
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332502
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332503
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332504
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332505
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332506
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332507
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332508
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332509
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332510
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332511
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332512
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332513
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332514
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332515
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332516
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332517
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332518
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332519
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332520
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332521
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332522
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332523
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332524
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332525
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332526
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332527
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332528
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332529
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332530
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332531
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332532
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332533
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332534
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332535
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332536
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332537
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332538
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332539
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332540
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332541
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332542
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332543
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332544
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332545
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332546
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332547
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332548
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332549
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332550
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332551
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332552
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332553
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332554
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332555
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 332556
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 332557
+(xfce4-terminal:5010): VTE-CRITICAL **: 14:43:11.359: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(lxpanel:1074): Wnck-WARNING **: 12:26:55.413: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(xfce4-terminal:5010): VTE-CRITICAL **: 14:43:11.359: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:09.636: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(lxpanel:1060): Wnck-WARNING **: 14:43:11.697: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:10.404: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(lxpanel:1060): Wnck-WARNING **: 14:43:14.206: Unhandled action type _OB_WM_ACTION_UNDECORATE
+[9947:11602:0301/144353.341174:ERROR:login_database.cc(599)] Password store database is too new, kCurrentVersionNumber=26, GetCompatibleVersionNumber=31
+[9947:11602:0301/144353.341516:ERROR:password_store_default.cc(42)] Could not create/open login database.
+[9947:11602:0301/144353.341547:ERROR:password_store_x.cc(225)] Could not start the migration into the encrypted LoginDatabase because the database failed to initialise.
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:10.833: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(lxpanel:1060): Wnck-WARNING **: 14:43:57.067: Unhandled action type _OB_WM_ACTION_UNDECORATE
+[9947:12330:0301/144357.768457:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9947:12330:0301/144357.769005:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[9947:12330:0301/144357.769569:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+error 140: BadRegion request 138 minor 14 serial 49418
+error 140: BadRegion request 138 minor 14 serial 49468
+error 140: BadRegion request 138 minor 14 serial 49546
+error 140: BadRegion request 138 minor 14 serial 49594
+error 140: BadRegion request 138 minor 14 serial 49666
+error 140: BadRegion request 138 minor 14 serial 49746
+error 3: BadWindow (invalid Window parameter) request 142 minor 6 serial 49817
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 49818
+error 140: BadRegion request 138 minor 14 serial 49829
+error 140: BadRegion request 138 minor 14 serial 49834
+error 140: BadRegion request 138 minor 14 serial 49839
+error 140: BadRegion request 138 minor 14 serial 49926
+error 140: BadRegion request 138 minor 14 serial 49931
+error 140: BadRegion request 138 minor 14 serial 49936
+error 140: BadRegion request 138 minor 14 serial 49996
+error 140: BadRegion request 138 minor 14 serial 50001
+error 140: BadRegion request 138 minor 14 serial 50006
+error 140: BadRegion request 138 minor 14 serial 50143
+error 140: BadRegion request 138 minor 14 serial 50148
+error 140: BadRegion request 138 minor 14 serial 50153
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 50216
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:11.975: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(lxpanel:1060): Wnck-WARNING **: 14:45:18.832: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:30.248: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(lxpanel:1060): Wnck-WARNING **: 14:45:18.848: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:30.763: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(xfce4-terminal:5010): VTE-CRITICAL **: 14:45:20.352: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:31.579: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(xfce4-terminal:5010): VTE-CRITICAL **: 14:45:20.352: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:32.117: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(xfce4-terminal:5010): VTE-CRITICAL **: 14:45:20.352: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:35.947: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(xfce4-terminal:5010): VTE-CRITICAL **: 14:45:20.352: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:28:37.906: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(xfce4-terminal:5010): VTE-CRITICAL **: 14:45:20.352: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(xfce4-terminal:167390): Gdk-CRITICAL **: 12:28:50.152: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
-error 3: BadWindow (invalid Window parameter) request 2 minor 0 serial 477138
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 477139
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 477140
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 499063
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 506472
+(lxpanel:1060): Wnck-WARNING **: 14:45:20.438: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(lxpanel:1074): Wnck-WARNING **: 12:31:17.333: Unhandled action type _OB_WM_ACTION_UNDECORATE
-error 3: BadWindow (invalid Window parameter) request 142 minor 6 serial 517278
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 517279
-error 140: BadRegion request 138 minor 14 serial 517315
-error 140: BadRegion request 138 minor 14 serial 517376
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 517407
-error 3: BadWindow (invalid Window parameter) request 142 minor 6 serial 518558
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 518559
-error 140: BadRegion request 138 minor 14 serial 518572
-error 140: BadRegion request 138 minor 14 serial 518653
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 518694
+(lxappearance:25848): dbind-WARNING **: 14:45:26.467: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 
-(lxpanel:1074): Wnck-WARNING **: 12:31:29.801: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(lxpanel:1060): Wnck-WARNING **: 14:45:27.517: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 140: BadRegion request 138 minor 14 serial 59255
+error 140: BadRegion request 138 minor 14 serial 59286
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:31:52.024: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(xfce4-terminal:5010): VTE-CRITICAL **: 14:45:31.205: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:32:29.668: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(xfce4-terminal:5010): VTE-CRITICAL **: 14:45:31.205: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:32:30.563: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(xfce4-terminal:5010): VTE-CRITICAL **: 14:45:31.206: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:32:32.485: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(xfce4-terminal:5010): VTE-CRITICAL **: 14:45:31.206: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:32:32.846: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 567209
+(xfce4-terminal:5010): VTE-CRITICAL **: 14:45:31.206: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 12:32:33.649: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575218
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575219
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575220
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575221
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575222
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575223
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575224
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575225
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575226
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575227
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575228
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575229
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575230
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575231
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575232
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575233
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575234
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575235
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575236
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575237
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575238
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575239
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575240
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575241
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575242
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575243
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575244
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575245
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575246
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575247
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575248
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575249
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575250
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575251
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575252
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575253
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575254
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575255
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575256
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575257
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575258
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575259
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575260
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575261
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575262
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575263
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575264
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575265
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575266
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575267
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575268
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575269
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575270
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575271
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575272
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575273
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575274
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575275
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575276
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575277
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575278
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575279
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575280
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575281
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575282
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575283
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575284
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575285
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575286
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575287
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575288
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575289
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575290
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575291
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575292
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575293
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575294
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575295
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575296
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575297
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575298
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575299
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575300
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575301
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575302
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575303
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575304
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575305
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575306
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575307
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575308
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575309
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575310
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575311
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575312
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575313
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575314
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575315
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575316
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575317
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575318
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575319
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575320
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575321
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575322
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 575323
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 575324
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 578018
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 578019
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 578636
+(lxpanel:1060): Wnck-WARNING **: 14:45:31.303: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 61151
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 61152
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 61816
+error 140: BadRegion request 138 minor 14 serial 87492
+error 140: BadRegion request 138 minor 14 serial 87539
+error 140: BadRegion request 138 minor 14 serial 87586
+[1050720:1050720:0301/163324.154451:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+[1050586:1050738:0301/163324.275058:ERROR:login_database.cc(599)] Password store database is too new, kCurrentVersionNumber=26, GetCompatibleVersionNumber=31
+[1050586:1050738:0301/163324.275264:ERROR:password_store_default.cc(42)] Could not create/open login database.
+[1050586:1050738:0301/163324.275291:ERROR:password_store_x.cc(225)] Could not start the migration into the encrypted LoginDatabase because the database failed to initialise.
+
+(lxpanel:1060): Wnck-WARNING **: 16:33:24.492: Unhandled action type _OB_WM_ACTION_UNDECORATE
+[1050586:1050780:0301/163324.646992:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[1050586:1050780:0301/163324.647411:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[1050586:1050780:0301/163324.647745:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+
+(xfce4-clipman:1061): Gdk-CRITICAL **: 16:35:04.209: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1061): Gdk-CRITICAL **: 16:36:23.550: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1061): Gdk-CRITICAL **: 16:37:53.708: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1061): Gdk-CRITICAL **: 16:37:54.173: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1061): Gdk-CRITICAL **: 16:37:54.848: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1061): Gdk-CRITICAL **: 16:38:01.577: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1061): Gdk-CRITICAL **: 16:38:03.422: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:5010): VTE-CRITICAL **: 16:39:24.687: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:5010): VTE-CRITICAL **: 16:39:24.687: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:5010): VTE-CRITICAL **: 16:39:24.687: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:5010): VTE-CRITICAL **: 16:39:24.687: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:5010): VTE-CRITICAL **: 16:39:24.687: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(lxpanel:1060): Wnck-WARNING **: 16:39:24.790: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 3: BadWindow (invalid Window parameter) request 142 minor 6 serial 945097
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 945098
+error 140: BadRegion request 138 minor 14 serial 945121
+error 140: BadRegion request 138 minor 14 serial 945158
+error 140: BadRegion request 138 minor 14 serial 945199
+error 140: BadRegion request 138 minor 14 serial 945237
+error 140: BadRegion request 138 minor 14 serial 945275
+error 140: BadRegion request 138 minor 14 serial 945317
+error 140: BadRegion request 138 minor 14 serial 945359
+error 140: BadRegion request 138 minor 14 serial 945401
+error 140: BadRegion request 138 minor 14 serial 945443
+error 140: BadRegion request 138 minor 14 serial 945485
+error 140: BadRegion request 138 minor 14 serial 945527
+error 140: BadRegion request 138 minor 14 serial 945569
+error 140: BadRegion request 138 minor 14 serial 945611
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 945631
+
+(xfce4-terminal:5010): VTE-CRITICAL **: 16:40:10.119: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:5010): VTE-CRITICAL **: 16:40:10.119: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:5010): VTE-CRITICAL **: 16:40:10.119: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:5010): VTE-CRITICAL **: 16:40:10.119: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:5010): VTE-CRITICAL **: 16:40:10.119: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(lxpanel:1060): Wnck-WARNING **: 16:40:10.191: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:40:50.683: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:40:51.266: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(thunar:1127886): dbind-WARNING **: 16:42:14.651: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(lxpanel:1060): Wnck-WARNING **: 16:42:16.292: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:42:16.675: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:42:16.866: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:42:45.573: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:42:45.640: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:42:46.434: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:42:46.522: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:42:46.566: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:42:46.617: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:42:57.134: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:42:58.353: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:42:58.378: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:42:59.617: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:42:59.995: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:43:00.122: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xfce4-clipman:1061): Gdk-CRITICAL **: 16:43:00.223: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1061): GLib-CRITICAL **: 16:43:02.035: Source ID 130 was not found when attempting to remove it
+
+(lxpanel:1060): Wnck-WARNING **: 16:43:07.394: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:43:07.489: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:43:08.238: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:43:08.267: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:43:11.989: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:43:12.049: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:43:27.568: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:43:27.625: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 1021740
+
+(lxpanel:1060): Wnck-WARNING **: 16:43:36.047: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:43:36.615: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 140: BadRegion request 138 minor 14 serial 1024794
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:00.017: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(mousepad:1166294): dbind-WARNING **: 16:46:06.276: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:06.680: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:06.686: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:51.652: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:53.903: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:53.985: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:54.269: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:54.295: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:54.762: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:54.886: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:55.082: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:55.229: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:55.254: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:55.773: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:56.341: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:56.537: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:57.814: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:57.862: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:58.245: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:58.299: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:58.307: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:46:59.103: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:47:00.424: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:47:01.451: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:47:01.454: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xfce4-clipman:1061): GLib-CRITICAL **: 16:47:03.972: Source ID 157 was not found when attempting to remove it
+
+(lxpanel:1060): Wnck-WARNING **: 16:47:12.963: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:47:13.483: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:47:16.476: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:47:16.949: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:47:17.597: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:47:18.354: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 3: BadWindow (invalid Window parameter) request 142 minor 6 serial 1171257
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 1171258
+error 140: BadRegion request 138 minor 14 serial 1171283
+error 140: BadRegion request 138 minor 14 serial 1171336
+error 140: BadRegion request 138 minor 14 serial 1171381
+error 140: BadRegion request 138 minor 14 serial 1171434
+error 140: BadRegion request 138 minor 14 serial 1171474
+error 140: BadRegion request 138 minor 14 serial 1171527
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 1171556
+
+(lxpanel:1060): Wnck-WARNING **: 16:47:20.945: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:47:21.008: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(mousepad:1178139): dbind-WARNING **: 16:47:24.167: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(lxpanel:1060): Wnck-WARNING **: 16:47:24.655: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(mousepad:1178647): dbind-WARNING **: 16:47:27.543: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(lxpanel:1060): Wnck-WARNING **: 16:47:28.030: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 3: BadWindow (invalid Window parameter) request 142 minor 6 serial 1178057
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 1178058
+error 140: BadRegion request 138 minor 14 serial 1178193
+error 140: BadRegion request 138 minor 14 serial 1178246
+error 140: BadRegion request 138 minor 14 serial 1178299
+error 140: BadRegion request 138 minor 14 serial 1178352
+error 140: BadRegion request 138 minor 14 serial 1178405
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 1178434
+
+(xfce4-clipman:1061): Gdk-CRITICAL **: 16:48:57.263: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1061): Gdk-CRITICAL **: 16:48:58.133: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(lxpanel:1060): Wnck-WARNING **: 16:49:27.654: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:49:27.668: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 140: BadRegion request 138 minor 14 serial 1241566
+error 140: BadRegion request 138 minor 14 serial 1241661
+error 140: BadRegion request 138 minor 14 serial 1241745
+error 140: BadRegion request 138 minor 14 serial 1241815
+error 140: BadRegion request 138 minor 14 serial 1241920
+error 140: BadRegion request 138 minor 14 serial 1241925
+error 140: BadRegion request 138 minor 14 serial 1241930
+error 140: BadRegion request 138 minor 14 serial 1242180
+
+(lxpanel:1060): Wnck-WARNING **: 16:49:29.474: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:49:29.487: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:49:29.540: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:49:29.548: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(mousepad:1197368): dbind-WARNING **: 16:49:32.297: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(lxpanel:1060): Wnck-WARNING **: 16:49:32.818: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(mousepad:1197675): dbind-WARNING **: 16:49:34.323: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(lxpanel:1060): Wnck-WARNING **: 16:49:34.748: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 1251448
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 1251449
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 1251742
+
+(xfce4-terminal:5010): VTE-CRITICAL **: 16:49:37.873: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:5010): VTE-CRITICAL **: 16:49:37.873: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:5010): VTE-CRITICAL **: 16:49:37.873: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:5010): VTE-CRITICAL **: 16:49:37.874: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:5010): VTE-CRITICAL **: 16:49:37.874: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(lxpanel:1060): Wnck-WARNING **: 16:49:38.086: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 1253644
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 1253645
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 1254426
+
+(lxappearance:1199609): dbind-WARNING **: 16:49:46.914: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(lxpanel:1060): Wnck-WARNING **: 16:49:47.376: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 140: BadRegion request 138 minor 14 serial 1261607
+
+(mousepad:1209634): dbind-WARNING **: 16:50:52.530: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(lxpanel:1060): Wnck-WARNING **: 16:50:52.928: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(mousepad:1211043): dbind-WARNING **: 16:51:01.359: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:01.772: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 3: BadWindow (invalid Window parameter) request 142 minor 6 serial 1311194
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 1311195
+error 140: BadRegion request 138 minor 14 serial 1311220
+error 140: BadRegion request 138 minor 14 serial 1311273
+error 140: BadRegion request 138 minor 14 serial 1311326
+error 140: BadRegion request 138 minor 14 serial 1311379
+error 140: BadRegion request 138 minor 14 serial 1311419
+error 140: BadRegion request 138 minor 14 serial 1311472
+error 140: BadRegion request 138 minor 14 serial 1311512
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 1311541
+
+(mousepad:1211950): dbind-WARNING **: 16:51:07.100: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:07.511: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:16.361: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:16.680: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:16.948: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:17.386: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:17.419: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xfce4-clipman:1061): GLib-CRITICAL **: 16:51:19.240: Source ID 188 was not found when attempting to remove it
+error 3: BadWindow (invalid Window parameter) request 142 minor 6 serial 1331242
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 1331243
+error 140: BadRegion request 138 minor 14 serial 1331281
+error 140: BadRegion request 138 minor 14 serial 1331346
+error 140: BadRegion request 138 minor 14 serial 1331394
+error 140: BadRegion request 138 minor 14 serial 1331454
+error 140: BadRegion request 138 minor 14 serial 1331514
+error 140: BadRegion request 138 minor 14 serial 1331574
+error 140: BadRegion request 138 minor 14 serial 1331634
+error 140: BadRegion request 138 minor 14 serial 1331694
+error 140: BadRegion request 138 minor 14 serial 1331754
+error 140: BadRegion request 138 minor 14 serial 1331814
+error 140: BadRegion request 138 minor 14 serial 1331874
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 1331902
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:22.208: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:22.548: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:23.390: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:23.571: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:25.235: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:25.493: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:26.082: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:26.661: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:27.708: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:28.316: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:29.161: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:29.428: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:32.591: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:33.146: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:33.277: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:33.531: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:33.859: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:33.907: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:34.653: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 16:51:34.821: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 1438910
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 1438911
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 1439490
+
+(lxpanel:1060): Wnck-WARNING **: 17:07:27.324: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:07:27.532: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:07:34.003: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xarchiver:1366516): dbind-WARNING **: 17:07:37.650: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+xarchiver 0.5.4 ©  2005-2014 Giuseppe Torelli
+xarchiver 0.5.4.14 Ingo Brückl
+
+(xarchiver:1366516): GLib-CRITICAL **: 17:07:38.188: g_file_test: assertion 'filename != NULL' failed
+
+(lxpanel:1060): Wnck-WARNING **: 17:07:38.434: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xfce4-clipman:1061): Gdk-CRITICAL **: 17:07:38.629: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(lxpanel:1060): Wnck-WARNING **: 17:07:38.678: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xfce4-clipman:1061): GLib-CRITICAL **: 17:07:43.756: Source ID 192 was not found when attempting to remove it
+
+(lxpanel:1060): Wnck-WARNING **: 17:08:00.260: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:08:00.451: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:08:00.548: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xfce4-clipman:1061): Gdk-CRITICAL **: 17:08:00.672: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1061): GLib-CRITICAL **: 17:08:06.924: Source ID 196 was not found when attempting to remove it
+
+(mousepad:1391624): dbind-WARNING **: 17:12:34.115: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(mousepad:1391835): dbind-WARNING **: 17:12:35.690: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(lxpanel:1060): Wnck-WARNING **: 17:12:36.449: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:12:37.060: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(mousepad:1392503): dbind-WARNING **: 17:12:43.956: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(lxpanel:1060): Wnck-WARNING **: 17:12:44.324: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(mousepad:1392693): dbind-WARNING **: 17:12:46.331: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(lxpanel:1060): Wnck-WARNING **: 17:12:46.763: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:12:49.191: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:12:49.348: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:12:51.769: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:12:51.877: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:12:53.418: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:12:53.530: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:12:55.043: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:12:55.175: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:13:00.349: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:13:01.418: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:13:43.480: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 1682988
+
+(xfce4-clipman:1061): GLib-CRITICAL **: 17:13:43.740: Source ID 203 was not found when attempting to remove it
+error 3: BadWindow (invalid Window parameter) request 142 minor 6 serial 1683384
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 1683385
+error 140: BadRegion request 138 minor 14 serial 1683548
+error 140: BadRegion request 138 minor 14 serial 1683588
+error 140: BadRegion request 138 minor 14 serial 1683640
+
+(xfce4-clipman:1061): Gdk-CRITICAL **: 17:13:43.993: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+error 140: BadRegion request 138 minor 14 serial 1683692
+error 140: BadRegion request 138 minor 14 serial 1683732
+error 140: BadRegion request 138 minor 14 serial 1683784
+error 140: BadRegion request 138 minor 14 serial 1683836
+error 140: BadRegion request 138 minor 14 serial 1683888
+error 140: BadRegion request 138 minor 14 serial 1683940
+error 140: BadRegion request 138 minor 14 serial 1683992
+error 140: BadRegion request 138 minor 14 serial 1684032
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 1684060
+
+(lxpanel:1060): Wnck-WARNING **: 17:13:44.149: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:13:44.438: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:23:28.883: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xfce4-clipman:1061): GLib-CRITICAL **: 17:23:29.136: Source ID 211 was not found when attempting to remove it
+
+(xfce4-clipman:1061): Gdk-CRITICAL **: 17:23:29.387: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+error 3: BadWindow (invalid Window parameter) request 142 minor 6 serial 1744651
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 1744652
+error 140: BadRegion request 138 minor 14 serial 1744677
+error 140: BadRegion request 138 minor 14 serial 1744729
+error 140: BadRegion request 138 minor 14 serial 1744769
+error 140: BadRegion request 138 minor 14 serial 1744821
+error 140: BadRegion request 138 minor 14 serial 1744861
+error 140: BadRegion request 138 minor 14 serial 1744913
+error 140: BadRegion request 138 minor 14 serial 1744965
+error 140: BadRegion request 138 minor 14 serial 1745017
+error 140: BadRegion request 138 minor 14 serial 1745069
+error 140: BadRegion request 138 minor 14 serial 1745121
+error 140: BadRegion request 138 minor 14 serial 1745173
+error 140: BadRegion request 138 minor 14 serial 1745225
+error 140: BadRegion request 138 minor 14 serial 1745277
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 1745305
+
+(lxpanel:1060): Wnck-WARNING **: 17:23:29.742: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:23:29.774: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(gpicview:1479149): dbind-WARNING **: 17:23:41.542: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 1747612
+
+(lxpanel:1060): Wnck-WARNING **: 17:23:42.444: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:23:42.629: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:24:36.307: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:24:36.607: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:24:41.913: Unhandled action type _OB_WM_ACTION_UNDECORATE
 libpng warning: iCCP: known incorrect sRGB profile
-libpng warning: iCCP: known incorrect sRGB profile
-libpng warning: iCCP: known incorrect sRGB profile
-libpng warning: iCCP: known incorrect sRGB profile
 
-(lxpanel:1074): Wnck-WARNING **: 13:20:12.456: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(lxpanel:1060): Wnck-WARNING **: 17:28:35.364: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 13:21:41.519: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(lxpanel:1060): Wnck-WARNING **: 17:28:35.650: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 13:21:46.039: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(ristretto:1526197): dbind-WARNING **: 17:28:44.216: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 
-(lxpanel:1074): Wnck-WARNING **: 13:27:45.590: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(lxpanel:1060): Wnck-WARNING **: 17:28:45.236: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(lxpanel:1074): Wnck-WARNING **: 13:27:47.360: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(lxpanel:1060): Wnck-WARNING **: 17:28:45.393: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(lxpanel:1074): Wnck-WARNING **: 13:27:48.156: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(lxpanel:1060): Wnck-WARNING **: 17:29:26.839: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 3: BadWindow (invalid Window parameter) request 142 minor 6 serial 1907311
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 1907312
+error 140: BadRegion request 138 minor 14 serial 1907464
+error 140: BadRegion request 138 minor 14 serial 1907512
+error 140: BadRegion request 138 minor 14 serial 1907572
+error 140: BadRegion request 138 minor 14 serial 1907632
+error 140: BadRegion request 138 minor 14 serial 1907680
+error 140: BadRegion request 138 minor 14 serial 1907740
+error 140: BadRegion request 138 minor 14 serial 1907800
+error 140: BadRegion request 138 minor 14 serial 1907860
+error 140: BadRegion request 138 minor 14 serial 1907920
+error 140: BadRegion request 138 minor 14 serial 1907980
+error 140: BadRegion request 138 minor 14 serial 1908040
+error 140: BadRegion request 138 minor 14 serial 1908100
+error 140: BadRegion request 138 minor 14 serial 1908160
+error 140: BadRegion request 138 minor 14 serial 1908220
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 1908248
 
-(lxpanel:1074): Wnck-WARNING **: 13:30:33.822: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(lxpanel:1060): Wnck-WARNING **: 17:29:36.953: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 3: BadWindow (invalid Window parameter) request 142 minor 6 serial 1935597
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 1935598
+error 140: BadRegion request 138 minor 14 serial 1935723
+error 140: BadRegion request 138 minor 14 serial 1935763
+error 140: BadRegion request 138 minor 14 serial 1935816
+error 140: BadRegion request 138 minor 14 serial 1935861
+error 140: BadRegion request 138 minor 14 serial 1935914
+error 140: BadRegion request 138 minor 14 serial 1935967
+error 140: BadRegion request 138 minor 14 serial 1936020
+error 140: BadRegion request 138 minor 14 serial 1936073
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 1936102
 
-(lxpanel:1074): Wnck-WARNING **: 13:30:35.050: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(lxpanel:1060): Wnck-WARNING **: 17:30:04.136: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(lxpanel:1074): Wnck-WARNING **: 13:30:44.289: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(ristretto:1539461): dbind-WARNING **: 17:30:09.857: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 
-(lxpanel:1074): Wnck-WARNING **: 13:30:45.346: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(lxpanel:1060): Wnck-WARNING **: 17:30:10.197: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(lxpanel:1074): Wnck-WARNING **: 13:32:34.214: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(lxpanel:1060): Wnck-WARNING **: 17:30:10.244: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(lxpanel:1074): Wnck-WARNING **: 13:32:35.343: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(ristretto:1542067): dbind-WARNING **: 17:30:26.682: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 1956628
 
-(lxpanel:1074): Wnck-WARNING **: 13:39:06.376: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(lxpanel:1060): Wnck-WARNING **: 17:30:26.984: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(lxpanel:1074): Wnck-WARNING **: 13:39:38.531: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(ristretto:1542475): dbind-WARNING **: 17:30:29.651: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 
-(lxpanel:1074): Wnck-WARNING **: 13:39:38.533: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(lxpanel:1060): Wnck-WARNING **: 17:30:30.029: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(xfce4-terminal:167390): Gdk-CRITICAL **: 13:41:02.359: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+(lxpanel:1060): Wnck-WARNING **: 17:30:30.040: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 13:44:04.349: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(evince:1544182): dbind-WARNING **: 17:30:40.566: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 13:48:18.869: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(lxpanel:1060): Wnck-WARNING **: 17:30:41.403: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 13:57:40.711: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(lxpanel:1060): Wnck-WARNING **: 17:30:41.737: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 140: BadRegion request 138 minor 14 serial 1969316
+error 140: BadRegion request 138 minor 14 serial 1969369
+error 140: BadRegion request 138 minor 14 serial 1969414
+error 140: BadRegion request 138 minor 14 serial 1969467
+error 140: BadRegion request 138 minor 14 serial 1969507
+error 140: BadRegion request 138 minor 14 serial 1969560
+error 140: BadRegion request 138 minor 14 serial 1969613
+error 140: BadRegion request 138 minor 14 serial 1969666
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 13:59:34.223: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(evince:1545283): dbind-WARNING **: 17:30:47.513: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 143 minor 1 serial 1970447
+error 3: BadWindow (invalid Window parameter) request 129 minor 6 serial 1970448
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 1970449
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 1970450
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 13:59:48.622: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(lxpanel:1060): Wnck-WARNING **: 17:30:47.945: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(lxpanel:1074): Wnck-WARNING **: 14:04:15.457: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(lxpanel:1060): Wnck-WARNING **: 17:30:47.948: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 14:06:28.965: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(lxpanel:1060): Wnck-WARNING **: 17:30:48.293: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(lxpanel:1074): Wnck-WARNING **: 14:06:49.501: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(dbeaver-bin:1559784): dbind-WARNING **: 17:32:19.574: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 14:07:19.989: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(java:1560098): dbind-WARNING **: 17:32:22.937: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+2022-03-01 17:32:28.252 - Create display
+2022-03-01 17:32:29.531 - > Start org.jkiss.dbeaver.core [6.1.0.201906091949]
+2022-03-01 17:32:29.605 - DBeaver 6.1.0.201906091949 is starting
+2022-03-01 17:32:29.607 - OS: Linux 5.4.0-54-generic (amd64)
+2022-03-01 17:32:29.608 - Java version: 1.8.0_312 by Private Build (64bit)
+2022-03-01 17:32:29.609 - Install path: '/usr/share/dbeaver'
+2022-03-01 17:32:29.612 - Instance path: 'file:/home/am/.dbeaver4/'
+2022-03-01 17:32:29.613 - Memory available 77Mb/910Mb
+2022-03-01 17:32:29.681 - Starting RMI server at 63823
+2022-03-01 17:32:30.044 - Run workbench
+2022-03-01 17:32:30.123 - > Start org.eclipse.e4.ui.workbench.swt [0.14.500.v20190214-0851]
+2022-03-01 17:32:30.128 - > Start org.eclipse.e4.core.services [2.1.400.v20181215-2145]
+2022-03-01 17:32:30.139 - > Start org.eclipse.e4.core.contexts [1.8.0.v20190214-1713]
+2022-03-01 17:32:30.177 - > Start org.eclipse.e4.ui.services [1.3.400.v20190212-2214]
+2022-03-01 17:32:30.366 - > Start org.eclipse.e4.ui.di [1.2.500.v20190214-1316]
+2022-03-01 17:32:30.606 - > Start org.eclipse.emf.common [2.15.0.v20181220-0846]
+2022-03-01 17:32:30.727 - > Start org.eclipse.emf.ecore [2.17.0.v20190116-0940]
+2022-03-01 17:32:30.975 - > Start org.eclipse.emf.ecore.xmi [2.15.0.v20180706-1146]
+2022-03-01 17:32:31.725 - > Start org.eclipse.core.filesystem [1.7.300.v20190218-2054]
+2022-03-01 17:32:31.926 - > Start org.eclipse.core.resources [3.13.300.v20190218-2054]
+2022-03-01 17:32:32.526 - > Start org.eclipse.e4.ui.workbench.addons.swt [1.3.400.v20190224-1542]
 
-(xfce4-clipman:1075): GLib-CRITICAL **: 14:07:40.117: Source ID 408 was not found when attempting to remove it
+(lxpanel:1060): Wnck-WARNING **: 17:32:32.580: Unhandled action type _OB_WM_ACTION_UNDECORATE
+2022-03-01 17:32:32.607 - > Start org.eclipse.core.expressions [3.6.300.v20190218-1215]
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 14:08:12.456: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(lxpanel:1060): Wnck-WARNING **: 17:32:32.617: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(lxpanel:1074): Wnck-WARNING **: 14:08:12.786: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(lxpanel:1060): Wnck-WARNING **: 17:32:32.649: Unhandled action type _OB_WM_ACTION_UNDECORATE
+2022-03-01 17:32:32.729 - > Start org.eclipse.e4.ui.workbench.renderers.swt [0.14.500.v20190220-1002]
+2022-03-01 17:32:33.189 - > Start org.eclipse.e4.ui.bindings [0.12.400.v20190131-1604]
+2022-03-01 17:32:33.475 - > Start org.eclipse.e4.core.di.extensions [0.15.300.v20190213-1308]
+2022-03-01 17:32:35.395 - > Start org.eclipse.e4.ui.css.swt [0.13.400.v20190223-1254]
+2022-03-01 17:32:35.909 - > Start org.eclipse.e4.ui.css.swt.theme [0.12.200.v20190212-2214]
+2022-03-01 17:32:36.435 - > Start org.jkiss.dbeaver.ui [5.1.25.201906091949]
+2022-03-01 17:32:38.304 - Initializing DBeaver 6.1.0
+2022-03-01 17:32:38.305 - Host plugin: org.jkiss.dbeaver.core.application 6.1.0.201906091949
+2022-03-01 17:32:38.306 - Initialize Core...
+2022-03-01 17:32:38.360 - Can't find BC security provider. Use default JCE.
+2022-03-01 17:32:38.361 - BouncyCastle not registered, using the default JCE provider
+2022-03-01 17:32:38.395 - > Start org.jkiss.dbeaver.registry [1.0.4.201906091949]
+2022-03-01 17:32:38.664 - > Start org.eclipse.team.core [3.8.500.v20190216-2155]
+2022-03-01 17:32:38.777 - > Start org.jkiss.dbeaver.ui.navigator [1.0.10.201906091949]
+2022-03-01 17:32:39.167 - Total database drivers: 72 (72)
+2022-03-01 17:32:39.252 - > Start org.eclipse.equinox.security [1.3.100.v20190215-2139]
+2022-03-01 17:32:39.302 - > Start org.eclipse.ui.net [1.3.300.v20180827-1041]
+2022-03-01 17:32:39.305 - > Start org.eclipse.core.net [1.3.400.v20181030-1645]
+2022-03-01 17:32:39.306 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
+2022-03-01 17:32:39.332 - Core initialized (1026ms)
+2022-03-01 17:32:39.333 - Configure workbench window
+2022-03-01 17:32:39.423 - > Start org.eclipse.help [3.8.300.v20190216-1017]
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 14:08:54.922: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(lxpanel:1060): Wnck-WARNING **: 17:32:39.791: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(lxpanel:1074): Wnck-WARNING **: 14:08:58.372: Unhandled action type _OB_WM_ACTION_UNDECORATE
+(lxpanel:1060): Wnck-WARNING **: 17:32:39.803: Unhandled action type _OB_WM_ACTION_UNDECORATE
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 14:10:39.771: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(lxpanel:1060): Wnck-WARNING **: 17:32:39.872: Unhandled action type _OB_WM_ACTION_UNDECORATE
+2022-03-01 17:32:40.190 - Create actions
+2022-03-01 17:32:40.193 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2022-03-01 17:32:40.200 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+Warning: NLS unused message: IDEApplication_workspaceInUse_Cancel in: org.eclipse.ui.internal.ide.messages
+2022-03-01 17:32:40.495 - > Start org.eclipse.ui.editors [3.11.400.v20190218-1547]
+2022-03-01 17:32:40.512 - > Start org.eclipse.core.filebuffers [3.6.500.v20190218-1547]
+2022-03-01 17:32:42.305 - > Start org.eclipse.ui.workbench.texteditor [3.11.300.v20190218-2126]
+2022-03-01 17:32:42.366 - Initialize workbench window
+2022-03-01 17:32:42.396 - Finish initialization
+2022-03-01 17:32:42.556 - > Start org.jkiss.dbeaver.ui.editors.sql [1.0.10.201906091949]
+2022-03-01 17:32:42.603 - > Start org.jkiss.dbeaver.ext.erd [2.0.112.201906091949]
+2022-03-01 17:32:43.303 - > Start org.jkiss.dbeaver.ui.editors.base [1.0.10.201906091949]
+2022-03-01 17:32:43.825 - > Start org.jkiss.dbeaver.model.sql [1.0.0.201906091949]
+2022-03-01 17:32:45.416 - > Start org.eclipse.compare.core [3.6.400.v20190214-2156]
+2022-03-01 17:32:45.627 - > Start org.jkiss.dbeaver.ui.editors.data [1.0.10.201906091949]
 
-(xfce4-clipman:1075): Gdk-CRITICAL **: 14:11:34.785: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(DBeaver:1560098): Gtk-WARNING **: 17:32:46.021: Negative content width -8 (allocation 5, extents 6x7) while allocating gadget (node separator, owner GtkSeparatorToolItem)
+
+(DBeaver:1560098): Gtk-WARNING **: 17:32:46.056: Negative content width -8 (allocation 5, extents 6x7) while allocating gadget (node separator, owner GtkSeparatorToolItem)
+
+(DBeaver:1560098): Gtk-WARNING **: 17:32:46.095: Negative content width -8 (allocation 5, extents 6x7) while allocating gadget (node separator, owner GtkSeparatorToolItem)
+
+(DBeaver:1560098): Gtk-WARNING **: 17:32:46.346: Negative content width -12 (allocation 1, extents 6x7) while allocating gadget (node separator, owner GtkSeparatorToolItem)
+
+(DBeaver:1560098): Gtk-WARNING **: 17:32:46.458: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node scrolledwindow, owner GtkScrolledWindow)
+
+(DBeaver:1560098): Gtk-WARNING **: 17:32:46.891: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node scrolledwindow, owner GtkScrolledWindow)
+
+(lxpanel:1060): Wnck-WARNING **: 17:32:47.128: Unhandled action type _OB_WM_ACTION_UNDECORATE
+2022-03-01 17:32:47.418 - > Start org.eclipse.equinox.p2.core [2.6.0.v20190215-2242]
+2022-03-01 17:32:47.451 - > Start org.eclipse.equinox.p2.operations [2.5.300.v20190202-1801]
+2022-03-01 17:32:47.483 - > Start org.eclipse.equinox.p2.engine [2.6.200.v20190215-2242]
+2022-03-01 17:32:47.540 - > Start org.eclipse.equinox.p2.metadata [2.4.300.v20190215-2242]
+2022-03-01 17:32:47.608 - > Start org.eclipse.equinox.p2.ui.sdk.scheduler [1.4.200.v20181102-0649]
+2022-03-01 17:32:47.609 - > Start org.eclipse.equinox.p2.updatechecker [1.2.100.v20180827-1122]
+2022-03-01 17:32:47.637 - > Start org.eclipse.equinox.p2.metadata.repository [1.3.100.v20180822-1302]
+2022-03-01 17:32:47.645 - > Start org.eclipse.equinox.p2.repository [2.4.300.v20190215-2242]
+
+(lxpanel:1060): Wnck-WARNING **: 17:32:47.896: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:32:47.958: Unhandled action type _OB_WM_ACTION_UNDECORATE
+2022-03-01 17:32:48.157 - > Start org.eclipse.equinox.p2.ui [2.5.500.v20190220-1158]
+
+(lxpanel:1060): Wnck-WARNING **: 17:32:49.112: Unhandled action type _OB_WM_ACTION_UNDECORATE
+2022-03-01 17:32:49.196 - > Start org.jkiss.dbeaver.ext.sample.database [1.0.47.201906091949]
+2022-03-01 17:32:49.213 - > Start org.jkiss.dbeaver.ext.ui.tipoftheday [1.0.16.201906091949]
+2022-03-01 17:32:49.358 - Connect with 'PostgreSQL - prueba' (postgres-jdbc-17f427df57e-3d7174582d02d92c)
+2022-03-01 17:32:49.381 - > Start org.jkiss.dbeaver.ext.postgresql [2.1.83.201906091949]
+2022-03-01 17:32:49.574 - Initiate connection to PostgreSQL database [prueba@localhost] for Main
+2022-03-01 17:32:50.425 - Open [https://dbeaver.io/product/version.xml]
+2022-03-01 17:32:51.325 - Initiate connection to PostgreSQL database [prueba@localhost] for Metadata
+2022-03-01 17:32:52.408 - Connected (postgres-jdbc-17f427df57e-3d7174582d02d92c, PostgreSQL JDBC Driver [42.2.5])
+
+(lxpanel:1060): Wnck-WARNING **: 17:32:59.308: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xfce4-clipman:1061): Gdk-CRITICAL **: 17:32:59.869: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1061): GLib-CRITICAL **: 17:33:03.926: Source ID 216 was not found when attempting to remove it
+error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 2132185
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 2132186
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 2132820
+
+(lxpanel:1060): Wnck-WARNING **: 17:34:14.797: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(xfce4-clipman:1061): Gdk-CRITICAL **: 17:34:14.989: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1061): GLib-CRITICAL **: 17:34:57.533: Source ID 220 was not found when attempting to remove it
+
+(lxpanel:1060): Wnck-WARNING **: 17:35:16.309: Unhandled action type _OB_WM_ACTION_UNDECORATE
+2022-03-01 17:35:16.601 - > Start org.eclipse.gef [3.11.0.201606061308]
+2022-03-01 17:35:22.734 - Can't get column 'relhasoids': The column name relhasoids was not found in this ResultSet.
+2022-03-01 17:35:22.802 - > Start org.eclipse.draw2d [3.10.100.201606061308]
+
+(DBeaver:1560098): Gtk-CRITICAL **: 17:35:23.620: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+error 140: BadRegion request 138 minor 14 serial 2261835
+error 140: BadRegion request 138 minor 14 serial 2261885
+error 140: BadRegion request 138 minor 14 serial 2261936
+error 140: BadRegion request 138 minor 14 serial 2262033
+error 140: BadRegion request 138 minor 14 serial 2262038
+error 140: BadRegion request 138 minor 14 serial 2262091
+error 140: BadRegion request 138 minor 14 serial 2262096
+error 140: BadRegion request 138 minor 14 serial 2262233
+error 140: BadRegion request 138 minor 14 serial 2262453
+error 140: BadRegion request 138 minor 14 serial 2262554
+error 140: BadRegion request 138 minor 14 serial 2262636
+
+(lxpanel:1060): Wnck-WARNING **: 17:36:25.477: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:36:25.492: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:36:25.558: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:36:25.622: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:36:25.651: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:36:28.034: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 140: BadRegion request 138 minor 14 serial 2288145
+error 140: BadRegion request 138 minor 14 serial 2288191
+error 140: BadRegion request 138 minor 14 serial 2288325
+error 140: BadRegion request 138 minor 14 serial 2288472
+error 140: BadRegion request 138 minor 14 serial 2288706
+
+(lxpanel:1060): Wnck-WARNING **: 17:36:39.481: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:36:39.521: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:36:39.565: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:36:39.578: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:36:39.580: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 2294167
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 2294168
+error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 2295590
+
+(lxpanel:1060): Wnck-WARNING **: 17:36:41.831: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 140: BadRegion request 138 minor 14 serial 2318819
+error 140: BadRegion request 138 minor 14 serial 2318870
+error 140: BadRegion request 138 minor 14 serial 2318930
+error 140: BadRegion request 138 minor 14 serial 2318990
+error 140: BadRegion request 138 minor 14 serial 2319077
+error 140: BadRegion request 138 minor 14 serial 2319082
+error 140: BadRegion request 138 minor 14 serial 2319091
+error 140: BadRegion request 138 minor 14 serial 2319155
+error 140: BadRegion request 138 minor 14 serial 2319160
+error 140: BadRegion request 138 minor 14 serial 2319165
+error 140: BadRegion request 138 minor 14 serial 2319329
+error 140: BadRegion request 138 minor 14 serial 2319334
+error 140: BadRegion request 138 minor 14 serial 2319557
+error 140: BadRegion request 138 minor 14 serial 2319562
+
+(lxpanel:1060): Wnck-WARNING **: 17:38:01.396: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:38:01.435: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:38:01.504: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:38:01.546: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:38:01.604: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:38:03.552: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:38:07.997: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:38:08.638: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:38:08.877: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:38:09.675: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:38:14.134: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:38:15.315: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:38:15.523: Unhandled action type _OB_WM_ACTION_UNDECORATE
+error 140: BadRegion request 138 minor 14 serial 2344780
+error 140: BadRegion request 138 minor 14 serial 2344830
+error 140: BadRegion request 138 minor 14 serial 2344918
+error 140: BadRegion request 138 minor 14 serial 2344923
+error 140: BadRegion request 138 minor 14 serial 2344976
+error 140: BadRegion request 138 minor 14 serial 2344981
+error 140: BadRegion request 138 minor 14 serial 2345136
+error 140: BadRegion request 138 minor 14 serial 2345381
+
+(lxpanel:1060): Wnck-WARNING **: 17:39:08.984: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:39:08.987: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:39:09.094: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:39:09.169: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:39:09.188: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:39:37.985: Unhandled action type _OB_WM_ACTION_UNDECORATE
+
+(lxpanel:1060): Wnck-WARNING **: 17:39:37.994: Unhandled action type _OB_WM_ACTION_UNDECORATE

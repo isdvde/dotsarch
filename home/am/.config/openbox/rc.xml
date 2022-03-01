@@ -196,6 +196,20 @@
 			</action>
 		</keybind>
 
+		<keybind key="W-Right">
+			<action name="NextWindow">
+				<interactive>no</interactive>
+				<linear>yes</linear>
+			</action>
+		</keybind>
+
+		<keybind key="W-Left">
+			<action name="PreviousWindow">
+				<interactive>no</interactive>
+				<linear>yes</linear>
+			</action>
+		</keybind>
+
 		<keybind key="W-e">
 			<action name="Execute">
 				<command>thunar</command>
@@ -208,9 +222,8 @@
 			</action>
 		</keybind>
 
-		<keybind key="W-f"> <action name="ToggleMaximizeFull"> </action> </keybind>
-		<keybind key="W-m"> <action name="ToggleMaximizeFull"> </action> </keybind>
-		<keybind key="W-n"> <action name="Iconify"> </action> </keybind>
+		<keybind key="W-S-space"> <action name="ToggleMaximizeFull"> </action> </keybind>
+		<keybind key="W-m"> <action name="Iconify"> </action> </keybind>
 
 		<keybind key="W-S-r">
 			<action name="Execute">
@@ -230,7 +243,7 @@
 			</action>
 		</keybind>
 
-		<keybind key="W-Left">
+		<keybind key="W-A-Left">
 			<action name="Unmaximize" />
 			<action name="MoveResizeTo">
 				<x>0</x> <y>0</y>
@@ -239,7 +252,7 @@
 			</action>
 		</keybind>
 
-		<keybind key="W-Right">
+		<keybind key="W-A-Right">
 			<action name="Unmaximize" />
 			<action name="MoveResizeTo">
 				<x>-0</x> <y>0</y>
@@ -335,6 +348,22 @@
 			</mousebind>
 		</context>
 
+		<context name="Client">
+			<mousebind button="Left" action="Press">
+				<action name="Focus"/>
+				<action name="Raise"/>
+			</mousebind>
+			<mousebind button="Middle" action="Press">
+				<action name="Focus"/>
+				<action name="Raise"/>
+			</mousebind>
+			<mousebind button="Right" action="Press">
+				<action name="Focus"/>
+				<action name="Raise"/>
+			</mousebind>
+		</context>
+
+
 	</mouse>
 
 	
@@ -344,11 +373,23 @@
 			<decor>no</decor>
 		</application>
 
-		<application type="normal">
+		<application class="*terminal*">
 			<maximized>true</maximized>
 			<decor>no</decor>
 		</application>
 
+	<application class="*">
+		<position force="no">
+			<x>center</x> <y>center</y>
+		</position>
+	</application>
+		
+		<!--
+		<application type="normal">
+			<maximized>true</maximized>
+			<decor>no</decor>
+		</application>
+		-->
 	</applications>
 
 </openbox_config>

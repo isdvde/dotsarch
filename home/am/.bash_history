@@ -17479,3 +17479,473 @@ vim gge
 bash gge 
 bash -x gge 
 ./.applications/xwinwrap/xwinwrap -b -s -fs -st -sp -nf -ov -fdt -- mpv -wid WID --really-quiet --framedrop=vo --no-audio --panscan="1.0" --loop ~/Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4 
+htop
+man mpv
+ls
+htop
+vim dotfile
+vim dotfile 
+chmod +x dotfile 
+bash -x dotfile 
+man cp
+vim dotfile 
+bash -x dotfile 2>&1 | tee log.log
+rm -rf DOTFILES/
+bash -x dotfile 2>&1 | tee log.log
+less log.log 
+cd DO
+cd DOTFILES/
+ls
+cd home/
+ls
+cd am/
+ls
+cd ..
+ls
+cd am/
+ls -A
+cd
+vim dotfile
+bash -x dotfile 2>&1 | tee log.log
+du -csh DOTFILES
+bash -x dotfile 2>&1 | tee log.log
+du -csh DOTFILES/
+vim dotfile
+bash -x dotfile 2>&1 | tee log.log
+ls -l
+ls *rar
+rm -rf *rar
+vim dotfile
+bash -x dotfile 2>&1 | tee log.log
+ls *rar
+ls -A *rar
+ls -A
+vim dotfile
+bash -x dotfile 2>&1 | tee log.log
+ls 
+ls -A
+rm -rf .ssh.rar 
+cd DOTFILES/
+ls
+cd home/
+ls
+cd am/
+ls
+ls -l
+-lA
+ls -lA
+cd
+vim dotfile
+bash -x dotfile 2>&1 | tee log.log
+du -csh DOTFILES/
+cd DOTFILES/
+ls
+cd home/am/
+ls -l
+ls -lh
+rar x ssh.rar 
+ls
+cd home/am/.ssh/
+ls
+cd ..
+ls
+cd ..
+ls
+rm -rf home/
+ls
+cd
+vim dotfile
+bash -x dotfile 2>&1 | tee log.log
+cd DOTFILES/
+ls
+cd home/am/
+ls
+ls -lA
+ls -lAh
+rar x ssh.rar 
+vim home/am/.ssh/config 
+cd ..c
+d ..
+cd .
+cd ..
+ls
+cd home/am/
+ls
+rm -rf home/
+cd
+rm -rf DOTFILES/
+bash -x dotfile 2>&1 | tee log.log
+bash dotfile 2>&1 | tee log.log
+cd DOTFILES/
+ls
+git init 
+git status 
+git add .
+find . -iname ".git"
+cd
+vim dotfile
+bash -x dotfile 2>&1 | tee log.log
+vim dotfile
+bash -x dotfile 2>&1 | tee log.log
+cd DOTFILES/
+git init 
+git status 
+git add .
+git status 
+git commit -m "init"
+git config --global user.email "adrianemoreno.25@gmail.com"
+git config --global user.name "Adrian Moreno"
+git commit -m "init"
+cd
+bash -x dotfile 2>&1 | tee log.log
+cd DOTFILES/
+cd home/am/.
+ls -l
+cd
+cd DOTFILES/
+git status 
+git add .
+git status 
+rm -rf .git/
+git init 
+git add .
+git commit -m "init"
+git remote add remote git@github.com/fvckingmore/dots2022
+git push --force remote master 
+git remote --help
+git remote remove remote 
+git remote add remote https://git@github.com/fvckingmore/dots2022
+git push --force remote master 
+git remote remove remote 
+git remote add remote git@github.com:fvckingmore/dots2022
+git push --force remote master 
+rm -rf home/am/sublimeText.rar 
+cd
+vim dotfile
+bash -x dotfile 2>&1 | tee log.log
+cd DOTFILES/
+rm -rf .git/
+git init 
+git add .
+git status 
+git commit -m "init"
+git remote add remote git@github.com:fvckingmore/dots2022
+git push --force remote master 
+cd
+d
+sudo apt-get install ./gh_2.5.1_linux_amd64.deb 
+gh --help
+gh --help | less
+gh auth login
+gh auth logout
+gh auth login
+gh repo --hrlp
+gh repo --help
+gh repo create --help
+gh repo create dots2022
+gh repo create dots2022 --public
+gh repo --help
+gh repo list
+git --help
+gh --help
+gh repo view dots2022
+cd DOTFILES/
+git remote add remote git@github.com/fvckingmore/dots2022
+cd
+vim dotfile
+rm -rf DOTFILES/home/am/ssh.rar 
+cd .applications/
+ls
+du -csh *
+du -csh * | sort -h
+cp -vfr lemonbar-xft ~/.config/openbox/
+ls
+cd 
+cd .config/
+ls
+ls autostart/
+rm -rf autostart/komorebi.desktop 
+ls lxpanel/
+cd sublime-text-3/
+du -csh * | sort -h
+cd Packages/
+du -csh * | sort -h
+cd ..
+ls
+du -csh * | sort -h
+cd
+man bash
+ls -lA
+ls -lA | less
+cd .config/
+ls -lA | sort -h
+du -csh | sort -h
+du -csh *| sort -h | less
+cd
+cd DOTFILES/
+du -csh $(ls -A)
+du -csh $(ls -A home)
+cd home/
+du -csh $(ls -A home)
+du -csh $(ls -A)
+du -csh $(ls -A *)
+du -csh $(ls -A)
+cd am/
+du -csh $(ls -A)
+cd
+cd .vim/
+ls
+du -csh $(ls -A)
+cd plugged/
+du -csh $(ls -A)
+cd lightline.vim/
+du -csh $(ls -A)
+du -csh $(ls -A) | sort -h
+rm -rf .git
+cd ..
+ls
+cd nerdtree/
+du -csh $(ls -A) | sort -h
+rm -rf .git
+cd ..
+ls
+cd vim-airline/
+du -csh $(ls -A) | sort -h
+rm -rf .git
+cd ..
+du -csh $(ls -A) | sort -h
+cd vim-easymotion/
+du -csh $(ls -A) | sort -h
+rm -rf .git
+cd
+rm -rf DOTFILES/home/am/.vim
+man rar
+ssh -CX churun-meru -t ssh -CX hephaestus
+htop
+ssh -CX churun-meru -t ssh -CX hephaestus
+htop
+sudo apt-get purge --autoremove at-spi2-core 
+sudo service ssh stop 
+sudo update-rc.d ssh remove 
+sudo systemctl disable ssh*
+sudo systemctl disable ssh
+sudo systemctl disable sshd
+ssh -CX churun-meru -t ssh -CX hephaestus
+sudo systemctl stop apt-daily.timer 
+sudo systemctl stop apt-daily-upgrade.timer 
+sudo systemctl disable apt-daily.timer 
+sudo systemctl disable apt-daily-upgrade.timer 
+WINEARCH=win32 WINEPREFIX=~/PES10 wine msiexec /i pes\ 2010\ .khptechnics.tech/Pro\ Evolution\ Soccer\ 2010\ by\ khp\ technics.msi 
+cd PES10/
+ls
+cd dosdevices/
+ls
+cd c\:
+ls
+cd Program\ Files/
+ls
+cd KONAMI/
+ls
+cd Pro\ Evolution\ Soccer\ 2010/
+ls
+WINEARCH=win32 WINEPREFIX=~/PES10 wine settings.exe 
+WINEARCH=win32 WINEPREFIX=~/PES10 wine pes2010.exe 
+cd
+rm -rf PES*
+sudo add-apt-repository ppa:fyrmir/livewallpaper-daily
+sudo apt-get install livewallpaper
+livewallpaper --help
+livewallpaper Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4 
+sudo apt-get purge --autoremove livewallpaper 
+ffmpeg -i Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4  -filter_complex "[0:v][1:v] paletteuse" spirited.gif
+ffmpeg -i Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4 -filter_complex "fps=10;scale=500:-1:flags=lanczos,palettegen=stats_mode=full" -t 10 palette.png
+ffmpeg -i Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4 spiritedAway.gif 
+vim back4.sh 
+bash -x back4.sh 
+bash -x back4.sh auto spiritedAway.gif 
+rm -rf /tmp/back4/6ca796d83f7001f438eff2f5a76b48a2/
+sudo apt-get install feh
+htop
+bash -x back4.sh 0.010 spiritedAway.gif 
+vim back4.sh 
+rm -rf back4.sh 
+cd .applications/
+ls
+cd xwinwrap/
+ls
+xwinwrap -g 1920x1080 -ov -- mpv -wid WID --no-audio(optional) $1
+xwinwrap -g 1280x720 -ov -- mpv -wid WID --no-audio --loop ~/Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4 
+./xwinwrap -g 1280x720 -ov -- mpv -wid WID --no-audio --loop ~/Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4 
+./xwinwrap -g 1280x720 -ov -- mpv -wid WID --no-audio --loop -- keepaspect=no ~/Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4 
+man mpv
+./xwinwrap -g 1280x720 -ov -- mpv -wid WID --no-audio --loop --keepaspect=no --no-osd-bar ~/Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4 
+./xwinwrap -g 1280x720 -ov -- mpv -wid WID --no-audio --loop ~/Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4 
+cd .applications/
+cd xwinwrap/
+./xwinwrap -ov -- mpv -wid WID --no-audio --loop --keepaspect=no --no-osd-bar ~/Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4
+./xwinwrap -g 1920cx1080 -ov -- mpv -wid WID --no-audio --loop --keepaspect=no --no-osd-bar ~/Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4
+./xwinwrap -g 1920x1080 -ov -- mpv -wid WID --no-audio --loop --keepaspect=no --no-osd-bar ~/Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4
+cd .applications/xwinwrap/
+./xwinwrap -g 1920x1080 -ov -- mpv -wid WID --no-audio --loop --keepaspect=no --no-osd-bar ~/Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4
+./xwinwrap -g 800x600 -ov -- mpv -wid WID --no-audio --loop --keepaspect=no --no-osd-bar ~/Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4
+cd .local/share/app
+cd .local/share/applications/
+ls
+ls -| less
+ls | less
+ls /usr/share/applications/| less
+vim /usr/share/applications/cxmenu-cxoffice-0-29ra4ke-Uninstall\ CrossOver\ Linux.desktop 
+cd /opt/
+ls
+cd
+sudo rm -rf /usr/share/applications/cx*
+sudo apt-get purge --autoremov pcsx*
+sudo apt-get purge --autoremove pcsx*
+ls
+cd DOTFILES/
+ls
+find - -type f
+find . -type f
+find . -type f | sed -e "s/^\.//g"
+cd
+htop
+ssh -CX churun-meru -t ssh -CX hephaestus
+dig unegva.sytes.net
+nmap -p22 unegva.sytes.net
+nmap -p22 unegva.sytes.net -Pn
+dig unegch.sytes.net}
+dig unegch.sytes.net
+dig unegch.ddns.net
+ssh cit@unegva.sytes.net
+ssh -CX churun-meru -t ssh -CX hephaestus
+vim .config/openbox/rc.xml
+cd .config/
+la
+vim autostart/
+ssh unegch.ddns.net
+ssh root@unegch.ddns.net
+sudo systemctl start smbd.service nmbd.service 
+ssh -CX churun-meru -t ssh -CX hephaestus
+sudo openvpn --config VPN/us-free-02.protonvpn.com.udp.ovpn 
+htop
+sudo systemctl stop smbd.service nmbd.service 
+htop
+ssh -CX churun-meru -t ssh -CX hephaestus
+sudo apt-get update; sudo apt-get upgrade
+htop
+ssh -CX churun-meru -t ssh -CX hephaestus
+htop
+scp -r .config/openbox churun-meru:/root/obmore
+ssh -CX churun-meru -t ssh -CX hephaestus
+aria2c -x10 'https://dl.discordapp.net/apps/linux/0.0.17/discord-0.0.17.deb'
+sudo apt-get install ./discord-0.0.17.deb 
+vim .config/openbox/rc.xml
+sudo openvpn --config VPN/us-free-02.protonvpn.com.udp.ovpn 
+less /etc/xdg/openbox/rc.xml 
+vim .config/openbox/rc.xml
+sudo systemctl restart nmbd.service smbd.service 
+ls
+sudo systemctl stopnmbd.service smbd.service 
+sudo systemctl stop nmbd.service smbd.service 
+ssh -CX churun-meru -t ssh -CX hephaestus
+nmap -p22 unegch.ddns.net
+dig unegch.ddns.net
+ssh -CX churun-meru -t ssh -CX hephaestus
+cd nfs
+WINEARCH=win32 WINEPREFIX=~/NFSU2 wine SPEED2.EXE 
+cd
+ssh -CX churun-meru -t ssh -CX hephaestus
+sudo systemctl restart smbd.service nmbd.service 
+lñs
+l
+ls
+ffmpeg -i 20220226-200750.mp3 -b 128k consejo.mp3
+ls -lh
+mpv consejo.mp3 
+ssh unegch.ddns.net
+ssh root@unegch.ddns.net
+ping churun-meru 
+ping google.com
+ssh -CX churun-meru -t ssh -CX hephaestus
+cat /etc/hosts
+cd .applications/
+ls
+vim startSnap
+chmod +x startSnap 
+sudo ln -rsf startSnap /usr/local/bin/
+vim startSnap 
+startSnap lkdfjs
+cd
+xinput 
+xinput show 12
+xinput list-props 12
+xinput set-prop 12 317 1
+ls -1 /dev/{ashmem,binder}
+sudo apt-get install snapd
+sudo -i
+snap install --devmode --beta anbox
+sudo snap install --devmode --beta anbox
+sudo startSnap stop
+sudo apt-get purge --autoremove snapd 
+cd /var/
+cd lib/
+sudo init 6
+curl ifconfig.me
+ps -e | egrep chro
+ssh -CX churun-meru -t ssh -CX hephaestus
+htop
+sudo openvpn --config VPN/us-free-02.protonvpn.com.udp.ovpn 
+vim .config/openbox/rc.xml
+sudo cfdisk /dev/sdb
+sudo mkfs.fat --help
+sudo mkfs.fat /dev/sdb1 
+cd fvckingmore
+cd UNIX/
+ls
+cd isos/
+ls
+dd if=Parted_Magic_2018.04.30.iso of=/dev/sdb1 bs=4M status=progress 
+sudo dd if=Parted_Magic_2018.04.30.iso of=/dev/sdb1 bs=4M status=progress 
+cd
+hop
+htpop
+htop
+ssh -CX churun-meru -t ssh -CX hephaestus
+ssh unegch.ddns.net
+ssh root@unegch.ddns.net
+l
+sudo apt-get install ./dbeaver-ce_6.1.0_amd64.deb 
+sudo -i
+vim .config/openbox/rc.xml
+sudo service postgresql start
+sudo -i
+sudo service postgresql stop
+htop
+pkill WINWORD.EXE 
+mpv 'https://videos.yespornplease.sexy/videos/6/2/1/9/8/6219806dd767d.mp4?md5=u4Ad4SVle028Z2G4i-mjyA&expires=1646112295'
+vim .config/openbox/rc.xml
+ssh -CX churun-meru -t ssh -CX hephaestus
+sudo vim /etc/hosts
+cd fvckingmore
+ls
+cd am/
+ls
+cd
+htop
+cd .config/
+cd htop/
+ls
+ls -l
+cd ..
+ls -l
+ls -l htop/
+sudo chown -R am:am htop
+cd
+bash dotfile
+cd DOTFILES/
+git status 
+git add .
+git status 
+git commit -m "Some Openbox.rc changes"
+git push --force remote master 
+cd

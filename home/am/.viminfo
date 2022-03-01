@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último Patrón de búsqueda:
-~MSle0/\V\<keybind\>
+~MSle0/Maxi
 
 # Último SustituciónPatrón de búsqueda:
 ~MSle0~&   *
@@ -21,15 +21,15 @@ $\t
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
 :wq
-|2,0,1645381096,,"wq"
-:q!
-|2,0,1645379767,,"q!"
+|2,0,1646170777,,"wq"
 :w
-|2,0,1645377990,,"w"
+|2,0,1646170747,,"w"
+:'<,'>s/   */\t/g
+|2,0,1646167759,,"'<,'>s/   */\\t/g"
+:q!
+|2,0,1645721595,,"q!"
 :W
 |2,0,1645377666,,"W"
-:'<,'>s/   */\t/g
-|2,0,1645293638,,"'<,'>s/   */\\t/g"
 :set paste
 |2,0,1645293610,,"set paste"
 :'<,'>s/1/9/g
@@ -157,7 +157,13 @@ $\t
 
 # Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
 ?    *
-|2,1,1645293638,,"   *"
+|2,1,1646167759,,"   *"
+?/Maxi
+|2,1,1645999447,47,"Maxi"
+?/Menu
+|2,1,1645999438,47,"Menu"
+?/Maximi
+|2,1,1645999332,47,"Maximi"
 ? 1
 |2,1,1645292651,,"1"
 ? Remove
@@ -239,264 +245,431 @@ $\t
 
 # Registros:
 "0	LINE	0
-	rar a -m5 ${HOME}/sublimeText.rar ${HOME}/.config/sublime-text-3
-|3,0,0,1,1,0,1645379348,"rar a -m5 ${HOME}/sublimeText.rar ${HOME}/.config/sublime-text-3"
+			<keybind key="W-Tab">
+				<action name="NextWindow">
+					<interactive>no</interactive>
+					<linear>yes</linear>
+				</action>
+			</keybind>
+	
+			<keybind key="W-S-Tab">
+				<action name="PreviousWindow">
+					<interactive>no</interactive>
+					<linear>yes</linear>
+				</action>
+			</keybind>
+|3,0,0,1,13,0,1646170730,"		<keybind key=\"W-Tab\">","			<action name=\"NextWindow\">","				<interactive>no</interactive>","				<linear>yes</linear>","			</action>","		</keybind>","","		<keybind key=\"W-S-Tab\">","			<action name=\"PreviousWindow\">","				<interactive>no</interactive>","				<linear>yes</linear>","			</action>","		</keybind>"
 ""1	LINE	0
-	sublime*rar
-|3,1,1,1,1,0,1645381095,"sublime*rar"
+	
+|3,1,1,1,1,0,1646170734,""
 "2	LINE	0
-	rm -rf ssh*rar subli*rar
-|3,0,2,1,1,0,1645381089,"rm -rf ssh*rar subli*rar"
+			<keybind key="W-n"> <action name="ToggleMaximizeFull"> </action> </keybind>
+|3,0,2,1,1,0,1646170655,"		<keybind key=\"W-n\"> <action name=\"ToggleMaximizeFull\"> </action> </keybind>"
 "3	LINE	0
-	rm -rf ssh*rar subli*rar
-|3,0,3,1,1,0,1645380741,"rm -rf ssh*rar subli*rar"
+	
+|3,0,3,1,1,0,1646160302,""
 "4	LINE	0
-	ssh*rar
-|3,0,4,1,1,0,1645380733,"ssh*rar"
+			<keybind key="W-f"> <acddtion name="ToggleMaximizeFull"> </action> </keybind>
+|3,0,4,1,1,0,1645999391,"		<keybind key=\"W-f\"> <acddtion name=\"ToggleMaximizeFull\"> </action> </keybind>"
 "5	LINE	0
-	rm -rf ${HOME}/sublimeText.rar
-|3,0,5,1,1,0,1645379388,"rm -rf ${HOME}/sublimeText.rar"
+	
+|3,0,5,1,1,0,1645996255,""
 "6	LINE	0
-	
-|3,0,6,1,1,0,1645377979,""
+		
+|3,0,6,1,1,0,1645996134,"	"
 "7	LINE	0
-	~/.applications/xwinwrap/xwinwrap -g 1280x720 -ni -s -nf -b -un -argb -- mpv ~/Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4 --loop --no-audio --no-border --no-config
-|3,0,7,1,1,0,1645374482,"~/.applications/xwinwrap/xwinwrap -g 1280x720 -ni -s -nf -b -un -argb -- mpv ~/Chihiro-And-Haku-Spirited-Away-Live-Wallpaper.mp4 --loop --no-audio --no-border --no-config"
+	for i in $(systemctl list-unit-files | egrep snap| cut -d' ' -f1); do systemctl start ${i}; done
+|3,0,7,1,1,0,1645996130,"for i in $(systemctl list-unit-files | egrep snap| cut -d' ' -f1); do systemctl start ${i}; done"
 "8	LINE	0
+			<context name="Titlebar Top Right Bottom Left TLCorner TRCorner BRCorner BLCorner">
+				<mousebind button="Left" action="Press">
+				  <action name="Focus"/>
+				  <action name="Raise"/>
+				  <action name="Unshade"/>
+				</mousebind>
 	
-|3,0,8,1,1,0,1645315592,""
+				<mousebind button="Right" action="Press">
+				  <action name="Focus"/>
+				  <action name="Raise"/>
+				</mousebind>
+			</context>
+|3,0,8,1,12,0,1645838832,"		<context name=\"Titlebar Top Right Bottom Left TLCorner TRCorner BRCorner BLCorner\">","			<mousebind button=\"Left\" action=\"Press\">","			  <action name=\"Focus\"/>","			  <action name=\"Raise\"/>","			  <action name=\"Unshade\"/>","			</mousebind>","","			<mousebind button=\"Right\" action=\"Press\">","			  <action name=\"Focus\"/>","			  <action name=\"Raise\"/>","			</mousebind>","		</context>"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1645315591,""
+				  <action name="ShowMenu"><menu>client-menu</menu></action>
+|3,0,9,1,1,0,1645838786,"			  <action name=\"ShowMenu\"><menu>client-menu</menu></action>"
 "-	CHAR	0
-	.
-|3,0,36,0,1,0,1645379589,"."
+	 
+|3,0,36,0,1,0,1645838835," "
 
 # Marcas en el archivo:
-'0  19  0  ~/dotfile
-|4,48,19,0,1645381096,"~/dotfile"
-'1  35  0  ~/dotfile
-|4,49,35,0,1645380745,"~/dotfile"
-'2  36  0  ~/dotfile
-|4,50,36,0,1645380745,"~/dotfile"
-'3  35  19  ~/dotfile
-|4,51,35,19,1645379931,"~/dotfile"
-'4  36  19  ~/dotfile
-|4,52,36,19,1645379931,"~/dotfile"
-'5  37  19  ~/dotfile
-|4,53,37,19,1645379931,"~/dotfile"
-'6  38  19  ~/dotfile
-|4,54,38,19,1645379931,"~/dotfile"
-'7  36  28  ~/dotfile
-|4,55,36,28,1645379888,"~/dotfile"
-'8  36  28  ~/dotfile
-|4,56,36,28,1645379888,"~/dotfile"
-'9  37  28  ~/dotfile
-|4,57,37,28,1645379888,"~/dotfile"
+'0  206  21  ~/.config/openbox/rc.xml
+|4,48,206,21,1646170777,"~/.config/openbox/rc.xml"
+'1  383  3  ~/.config/openbox/rc.xml
+|4,49,383,3,1646167767,"~/.config/openbox/rc.xml"
+'2  370  3  ~/.config/openbox/rc.xml
+|4,50,370,3,1646167767,"~/.config/openbox/rc.xml"
+'3  376  31  ~/.config/openbox/rc.xml
+|4,51,376,31,1646160317,"~/.config/openbox/rc.xml"
+'4  376  31  ~/.config/openbox/rc.xml
+|4,52,376,31,1646160317,"~/.config/openbox/rc.xml"
+'5  363  31  ~/.config/openbox/rc.xml
+|4,53,363,31,1646160317,"~/.config/openbox/rc.xml"
+'6  363  31  ~/.config/openbox/rc.xml
+|4,54,363,31,1646160317,"~/.config/openbox/rc.xml"
+'7  392  4  ~/.config/openbox/rc.xml
+|4,55,392,4,1646087750,"~/.config/openbox/rc.xml"
+'8  387  4  ~/.config/openbox/rc.xml
+|4,56,387,4,1646087750,"~/.config/openbox/rc.xml"
+'9  386  4  ~/.config/openbox/rc.xml
+|4,57,386,4,1646087750,"~/.config/openbox/rc.xml"
 
 # Lista de saltos (el más reciente va primero):
--'  19  0  ~/dotfile
-|4,39,19,0,1645381096,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1645381081,"~/dotfile"
--'  35  0  ~/dotfile
-|4,39,35,0,1645380745,"~/dotfile"
--'  36  0  ~/dotfile
-|4,39,36,0,1645380745,"~/dotfile"
--'  37  0  ~/dotfile
-|4,39,37,0,1645380742,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1645380728,"~/dotfile"
--'  36  19  ~/dotfile
-|4,39,36,19,1645379931,"~/dotfile"
--'  38  19  ~/dotfile
-|4,39,38,19,1645379931,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1645379923,"~/dotfile"
--'  37  28  ~/dotfile
-|4,39,37,28,1645379888,"~/dotfile"
--'  38  28  ~/dotfile
-|4,39,38,28,1645379888,"~/dotfile"
--'  39  28  ~/dotfile
-|4,39,39,28,1645379888,"~/dotfile"
--'  39  28  ~/dotfile
-|4,39,39,28,1645379888,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1645379868,"~/dotfile"
--'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
-|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
--'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
-|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
--'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
-|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
--'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
-|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
--'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
-|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
--'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
-|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
--'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
-|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
--'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
-|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
--'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
-|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
--'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
-|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
--'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
-|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
--'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
-|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
--'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
-|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
--'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
-|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
--'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
-|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
--'  1  0  ~/DOTFILES/home/am/home/am/.ssh/config
-|4,39,1,0,1645379767,"~/DOTFILES/home/am/home/am/.ssh/config"
--'  22  26  ~/dotfile
-|4,39,22,26,1645379708,"~/dotfile"
--'  23  26  ~/dotfile
-|4,39,23,26,1645379708,"~/dotfile"
--'  23  26  ~/dotfile
-|4,39,23,26,1645379708,"~/dotfile"
--'  24  26  ~/dotfile
-|4,39,24,26,1645379708,"~/dotfile"
--'  24  26  ~/dotfile
-|4,39,24,26,1645379708,"~/dotfile"
--'  24  26  ~/dotfile
-|4,39,24,26,1645379708,"~/dotfile"
--'  24  26  ~/dotfile
-|4,39,24,26,1645379708,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1645379689,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1645379689,"~/dotfile"
--'  34  0  ~/dotfile
-|4,39,34,0,1645379594,"~/dotfile"
--'  35  0  ~/dotfile
-|4,39,35,0,1645379594,"~/dotfile"
--'  36  0  ~/dotfile
-|4,39,36,0,1645379594,"~/dotfile"
--'  36  0  ~/dotfile
-|4,39,36,0,1645379594,"~/dotfile"
--'  36  0  ~/dotfile
-|4,39,36,0,1645379594,"~/dotfile"
--'  36  0  ~/dotfile
-|4,39,36,0,1645379594,"~/dotfile"
--'  36  0  ~/dotfile
-|4,39,36,0,1645379594,"~/dotfile"
--'  36  0  ~/dotfile
-|4,39,36,0,1645379594,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1645379576,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1645379576,"~/dotfile"
--'  37  23  ~/dotfile
-|4,39,37,23,1645379518,"~/dotfile"
--'  37  23  ~/dotfile
-|4,39,37,23,1645379518,"~/dotfile"
--'  37  23  ~/dotfile
-|4,39,37,23,1645379518,"~/dotfile"
--'  37  23  ~/dotfile
-|4,39,37,23,1645379518,"~/dotfile"
--'  37  23  ~/dotfile
-|4,39,37,23,1645379518,"~/dotfile"
--'  37  23  ~/dotfile
-|4,39,37,23,1645379518,"~/dotfile"
--'  37  23  ~/dotfile
-|4,39,37,23,1645379518,"~/dotfile"
--'  37  23  ~/dotfile
-|4,39,37,23,1645379518,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1645379483,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1645379483,"~/dotfile"
--'  20  12  ~/dotfile
-|4,39,20,12,1645379444,"~/dotfile"
--'  21  12  ~/dotfile
-|4,39,21,12,1645379444,"~/dotfile"
--'  21  12  ~/dotfile
-|4,39,21,12,1645379444,"~/dotfile"
--'  22  12  ~/dotfile
-|4,39,22,12,1645379444,"~/dotfile"
--'  22  12  ~/dotfile
-|4,39,22,12,1645379444,"~/dotfile"
--'  22  12  ~/dotfile
-|4,39,22,12,1645379444,"~/dotfile"
--'  24  12  ~/dotfile
-|4,39,24,12,1645379444,"~/dotfile"
--'  22  12  ~/dotfile
-|4,39,22,12,1645379444,"~/dotfile"
--'  24  12  ~/dotfile
-|4,39,24,12,1645379444,"~/dotfile"
--'  22  12  ~/dotfile
-|4,39,22,12,1645379444,"~/dotfile"
--'  22  12  ~/dotfile
-|4,39,22,12,1645379444,"~/dotfile"
--'  24  12  ~/dotfile
-|4,39,24,12,1645379444,"~/dotfile"
--'  22  12  ~/dotfile
-|4,39,22,12,1645379444,"~/dotfile"
--'  24  12  ~/dotfile
-|4,39,24,12,1645379444,"~/dotfile"
--'  22  12  ~/dotfile
-|4,39,22,12,1645379444,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1645379436,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1645379436,"~/dotfile"
--'  33  0  ~/dotfile
-|4,39,33,0,1645379390,"~/dotfile"
--'  38  0  ~/dotfile
-|4,39,38,0,1645379390,"~/dotfile"
--'  39  0  ~/dotfile
-|4,39,39,0,1645379390,"~/dotfile"
--'  34  0  ~/dotfile
-|4,39,34,0,1645379390,"~/dotfile"
--'  40  0  ~/dotfile
-|4,39,40,0,1645379390,"~/dotfile"
--'  35  0  ~/dotfile
-|4,39,35,0,1645379390,"~/dotfile"
--'  40  0  ~/dotfile
-|4,39,40,0,1645379390,"~/dotfile"
--'  35  0  ~/dotfile
-|4,39,35,0,1645379390,"~/dotfile"
--'  39  0  ~/dotfile
-|4,39,39,0,1645379390,"~/dotfile"
--'  35  0  ~/dotfile
-|4,39,35,0,1645379390,"~/dotfile"
--'  39  0  ~/dotfile
-|4,39,39,0,1645379390,"~/dotfile"
--'  35  0  ~/dotfile
-|4,39,35,0,1645379390,"~/dotfile"
--'  39  0  ~/dotfile
-|4,39,39,0,1645379390,"~/dotfile"
--'  35  0  ~/dotfile
-|4,39,35,0,1645379390,"~/dotfile"
--'  35  0  ~/dotfile
-|4,39,35,0,1645379390,"~/dotfile"
--'  39  0  ~/dotfile
-|4,39,39,0,1645379390,"~/dotfile"
--'  35  0  ~/dotfile
-|4,39,35,0,1645379390,"~/dotfile"
--'  39  0  ~/dotfile
-|4,39,39,0,1645379390,"~/dotfile"
--'  35  0  ~/dotfile
-|4,39,35,0,1645379390,"~/dotfile"
--'  39  0  ~/dotfile
-|4,39,39,0,1645379390,"~/dotfile"
--'  35  0  ~/dotfile
-|4,39,35,0,1645379390,"~/dotfile"
--'  35  0  ~/dotfile
-|4,39,35,0,1645379390,"~/dotfile"
--'  22  9  ~/dotfile
-|4,39,22,9,1645379376,"~/dotfile"
--'  22  9  ~/dotfile
-|4,39,22,9,1645379376,"~/dotfile"
+-'  206  21  ~/.config/openbox/rc.xml
+|4,39,206,21,1646170777,"~/.config/openbox/rc.xml"
+-'  17  18  ~/.config/openbox/rc.xml
+|4,39,17,18,1646170596,"~/.config/openbox/rc.xml"
+-'  1  0  ~/.config/openbox/rc.xml
+|4,39,1,0,1646170546,"~/.config/openbox/rc.xml"
+-'  383  3  ~/.config/openbox/rc.xml
+|4,39,383,3,1646167767,"~/.config/openbox/rc.xml"
+-'  370  3  ~/.config/openbox/rc.xml
+|4,39,370,3,1646167767,"~/.config/openbox/rc.xml"
+-'  381  1  ~/.config/openbox/rc.xml
+|4,39,381,1,1646167759,"~/.config/openbox/rc.xml"
+-'  368  1  ~/.config/openbox/rc.xml
+|4,39,368,1,1646167759,"~/.config/openbox/rc.xml"
+-'  220  3  ~/.config/openbox/rc.xml
+|4,39,220,3,1646167744,"~/.config/openbox/rc.xml"
+-'  206  3  ~/.config/openbox/rc.xml
+|4,39,206,3,1646167744,"~/.config/openbox/rc.xml"
+-'  1  0  ~/.config/openbox/rc.xml
+|4,39,1,0,1646167656,"~/.config/openbox/rc.xml"
+-'  376  31  ~/.config/openbox/rc.xml
+|4,39,376,31,1646160317,"~/.config/openbox/rc.xml"
+-'  363  31  ~/.config/openbox/rc.xml
+|4,39,363,31,1646160317,"~/.config/openbox/rc.xml"
+-'  363  31  ~/.config/openbox/rc.xml
+|4,39,363,31,1646160317,"~/.config/openbox/rc.xml"
+-'  1  0  ~/.config/openbox/rc.xml
+|4,39,1,0,1646160295,"~/.config/openbox/rc.xml"
+-'  392  4  ~/.config/openbox/rc.xml
+|4,39,392,4,1646087750,"~/.config/openbox/rc.xml"
+-'  387  4  ~/.config/openbox/rc.xml
+|4,39,387,4,1646087750,"~/.config/openbox/rc.xml"
+-'  386  4  ~/.config/openbox/rc.xml
+|4,39,386,4,1646087750,"~/.config/openbox/rc.xml"
+-'  379  4  ~/.config/openbox/rc.xml
+|4,39,379,4,1646087750,"~/.config/openbox/rc.xml"
+-'  374  4  ~/.config/openbox/rc.xml
+|4,39,374,4,1646087750,"~/.config/openbox/rc.xml"
+-'  373  4  ~/.config/openbox/rc.xml
+|4,39,373,4,1646087750,"~/.config/openbox/rc.xml"
+-'  368  4  ~/.config/openbox/rc.xml
+|4,39,368,4,1646087750,"~/.config/openbox/rc.xml"
+-'  1  0  ~/.config/openbox/rc.xml
+|4,39,1,0,1646087728,"~/.config/openbox/rc.xml"
+-'  225  20  ~/.config/openbox/rc.xml
+|4,39,225,20,1645999452,"~/.config/openbox/rc.xml"
+-'  211  20  ~/.config/openbox/rc.xml
+|4,39,211,20,1645999452,"~/.config/openbox/rc.xml"
+-'  211  20  ~/.config/openbox/rc.xml
+|4,39,211,20,1645999452,"~/.config/openbox/rc.xml"
+-'  211  20  ~/.config/openbox/rc.xml
+|4,39,211,20,1645999452,"~/.config/openbox/rc.xml"
+-'  211  20  ~/.config/openbox/rc.xml
+|4,39,211,20,1645999452,"~/.config/openbox/rc.xml"
+-'  159  18  ~/.config/openbox/rc.xml
+|4,39,159,18,1645999447,"~/.config/openbox/rc.xml"
+-'  159  18  ~/.config/openbox/rc.xml
+|4,39,159,18,1645999447,"~/.config/openbox/rc.xml"
+-'  159  18  ~/.config/openbox/rc.xml
+|4,39,159,18,1645999447,"~/.config/openbox/rc.xml"
+-'  159  18  ~/.config/openbox/rc.xml
+|4,39,159,18,1645999447,"~/.config/openbox/rc.xml"
+-'  159  18  ~/.config/openbox/rc.xml
+|4,39,159,18,1645999447,"~/.config/openbox/rc.xml"
+-'  49  15  ~/.config/openbox/rc.xml
+|4,39,49,15,1645999440,"~/.config/openbox/rc.xml"
+-'  47  8  ~/.config/openbox/rc.xml
+|4,39,47,8,1645999440,"~/.config/openbox/rc.xml"
+-'  49  15  ~/.config/openbox/rc.xml
+|4,39,49,15,1645999440,"~/.config/openbox/rc.xml"
+-'  47  8  ~/.config/openbox/rc.xml
+|4,39,47,8,1645999440,"~/.config/openbox/rc.xml"
+-'  49  15  ~/.config/openbox/rc.xml
+|4,39,49,15,1645999440,"~/.config/openbox/rc.xml"
+-'  47  8  ~/.config/openbox/rc.xml
+|4,39,47,8,1645999440,"~/.config/openbox/rc.xml"
+-'  49  15  ~/.config/openbox/rc.xml
+|4,39,49,15,1645999440,"~/.config/openbox/rc.xml"
+-'  47  8  ~/.config/openbox/rc.xml
+|4,39,47,8,1645999440,"~/.config/openbox/rc.xml"
+-'  49  15  ~/.config/openbox/rc.xml
+|4,39,49,15,1645999440,"~/.config/openbox/rc.xml"
+-'  47  8  ~/.config/openbox/rc.xml
+|4,39,47,8,1645999440,"~/.config/openbox/rc.xml"
+-'  1  0  ~/.config/openbox/rc.xml
+|4,39,1,0,1645999438,"~/.config/openbox/rc.xml"
+-'  226  18  ~/.config/openbox/rc.xml
+|4,39,226,18,1645999409,"~/.config/openbox/rc.xml"
+-'  213  18  ~/.config/openbox/rc.xml
+|4,39,213,18,1645999409,"~/.config/openbox/rc.xml"
+-'  213  18  ~/.config/openbox/rc.xml
+|4,39,213,18,1645999409,"~/.config/openbox/rc.xml"
+-'  213  18  ~/.config/openbox/rc.xml
+|4,39,213,18,1645999409,"~/.config/openbox/rc.xml"
+-'  213  18  ~/.config/openbox/rc.xml
+|4,39,213,18,1645999409,"~/.config/openbox/rc.xml"
+-'  213  18  ~/.config/openbox/rc.xml
+|4,39,213,18,1645999409,"~/.config/openbox/rc.xml"
+-'  1  0  ~/.config/openbox/rc.xml
+|4,39,1,0,1645999332,"~/.config/openbox/rc.xml"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
+-'  5  1  ~/.applications/startSnap
+|4,39,5,1,1645996257,"~/.applications/startSnap"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/.config/openbox/rc.xml
+	*	1646170751	0
+	"	206	21
+	^	206	22
+	.	206	21
+	+	69	0
+	+	70	0
+	+	74	0
+	+	75	0
+	+	72	0
+	+	77	0
+	+	78	0
+	+	91	0
+	+	92	0
+	+	94	0
+	+	95	0
+	+	96	0
+	+	85	0
+	+	87	0
+	+	98	0
+	+	102	0
+	+	105	0
+	+	104	0
+	+	100	0
+	+	155	0
+	+	156	0
+	+	159	0
+	+	164	0
+	+	166	0
+	+	172	0
+	+	178	0
+	+	182	0
+	+	184	0
+	+	213	0
+	+	215	0
+	+	221	0
+	+	230	0
+	+	236	0
+	+	242	0
+	+	245	0
+	+	246	0
+	+	250	0
+	+	259	0
+	+	268	0
+	+	277	0
+	+	286	0
+	+	295	0
+	+	302	0
+	+	298	0
+	+	292	0
+	+	308	0
+	+	314	0
+	+	318	0
+	+	322	0
+	+	323	0
+	+	324	0
+	+	325	0
+	+	327	0
+	+	326	0
+	+	328	0
+	+	329	26
+	+	330	0
+	+	333	0
+	+	337	0
+	+	341	0
+	+	347	0
+	+	349	0
+	+	372	0
+	+	392	0
+	+	371	0
+	+	394	0
+	+	318	0
+	+	318	36
+	+	318	0
+	+	331	0
+	+	351	83
+	+	351	0
+	+	351	50
+	+	351	0
+	+	351	23
+	+	364	0
+	+	351	0
+	+	353	0
+	+	225	24
+	+	225	0
+	+	226	18
+	+	225	20
+	+	387	5
+	+	392	4
+	+	376	0
+	+	376	31
+	+	381	23
+	+	385	13
+	+	381	0
+	+	382	0
+	+	384	0
+	+	383	0
+	+	17	0
+	+	226	0
+	+	246	19
+	+	255	19
+	+	199	0
+	+	199	22
+	+	206	21
+
+> ~/.applications/startSnap
+	*	1645996255	0
+	"	5	1
+	^	5	16
+	.	5	0
+	+	3	95
+	+	4	7
+	+	7	1
+	+	1	10
+	+	7	0
+	+	7	3
+	+	3	0
+	+	6	0
+	+	7	0
+	+	6	83
+	+	8	0
+	+	6	96
+	+	13	3
+	+	10	22
+	+	11	17
+	+	12	20
+	+	5	0
+
+> ~/.config/NERD_tree_1
+	*	1645721593	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> /usr/share/applications/cxmenu-cxoffice-0-29ra4ke-Uninstall CrossOver Linux.desktop
+	*	1645407544	0
+	"	1	0
+
+> ~/back4.sh
+	*	1645404544	0
+	"	1	0
+	.	1	0
+	+	1	0
 
 > ~/dotfile
 	*	1645381095	0
@@ -589,109 +762,6 @@ $\t
 	+	29	0
 	+	27	0
 	+	26	44
-
-> ~/.config/openbox/rc.xml
-	*	1645362672	0
-	"	2	0
-	^	353	0
-	.	353	0
-	+	46	25
-	+	47	0
-	+	48	0
-	+	51	0
-	+	51	25
-	+	52	0
-	+	36	0
-	+	38	0
-	+	36	23
-	+	37	0
-	+	41	23
-	+	42	0
-	+	46	25
-	+	47	0
-	+	51	25
-	+	52	0
-	+	53	0
-	+	56	0
-	+	56	23
-	+	57	0
-	+	58	0
-	+	61	0
-	+	61	23
-	+	62	0
-	+	63	0
-	+	28	0
-	+	64	0
-	+	63	0
-	+	66	0
-	+	69	0
-	+	68	0
-	+	69	0
-	+	70	0
-	+	74	0
-	+	75	0
-	+	72	0
-	+	77	0
-	+	78	0
-	+	91	0
-	+	92	0
-	+	94	0
-	+	95	0
-	+	96	0
-	+	85	0
-	+	87	0
-	+	98	0
-	+	102	0
-	+	105	0
-	+	104	0
-	+	100	0
-	+	155	0
-	+	156	0
-	+	159	0
-	+	164	0
-	+	166	0
-	+	172	0
-	+	178	0
-	+	182	0
-	+	184	0
-	+	199	0
-	+	201	0
-	+	207	0
-	+	217	0
-	+	223	0
-	+	229	0
-	+	232	0
-	+	233	0
-	+	237	0
-	+	246	0
-	+	255	0
-	+	264	0
-	+	273	0
-	+	282	0
-	+	289	0
-	+	285	0
-	+	279	0
-	+	295	0
-	+	301	0
-	+	304	0
-	+	309	0
-	+	310	0
-	+	311	0
-	+	312	0
-	+	314	0
-	+	313	0
-	+	315	0
-	+	316	26
-	+	317	0
-	+	320	0
-	+	324	0
-	+	328	0
-	+	334	0
-	+	336	0
-	+	343	0
-	+	351	0
-	+	342	0
-	+	353	0
 
 > ~/margarita
 	*	1645324862	0
@@ -1423,40 +1493,3 @@ $\t
 	"	21	8
 	.	21	0
 	+	21	0
-
-> ~/lemp/www/farmacia/app/Http/Controllers/Auth/LoginController.php
-	*	1634699004	0
-	"	46	0
-
-> ~/lemp/www/livewire/.env
-	*	1634691355	0
-	"	15	16
-	^	15	17
-	.	15	16
-	+	13	16
-	+	14	19
-	+	15	16
-
-> ~/lemp/www/crud2/.env
-	*	1634688528	0
-	"	15	16
-	^	15	17
-	.	15	16
-	+	13	16
-	+	14	19
-	+	15	16
-
-> /tmp/ggw
-	*	1634596052	0
-	"	1	335
-	^	1	401
-	.	2	0
-	+	1	32
-	+	1	190
-	+	1	32
-	+	1	166
-	+	1	190
-	+	1	400
-	+	1	167
-	+	1	335
-	+	2	0
