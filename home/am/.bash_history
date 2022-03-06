@@ -17949,3 +17949,244 @@ git status
 git commit -m "Some Openbox.rc changes"
 git push --force remote master 
 cd
+sudo apt-get install mousepad 
+sudo apt-get purge gedit
+sudo apt-get purge gedit --autoremove
+sudo apt-get purge gedit* --autoremove
+vim .config/openbox/rc.xml
+pkill xarchiver 
+htop
+rar --help
+rar -help
+rar -h
+rar help
+rar a -m5 Proteus.8.8.SP1.rar Proteus.8.8.SP1\ FULL
+mv Proteus.8.8.SP1.rar fvckingmore/UNIX/zips/
+sudo apt-get install nomacs
+sudo apt-get install ristretto 
+sudo service postgresql start
+vim .config/openbox/rc.xml
+bash dotfile
+cd DOTFILES/
+git status 
+git add .
+git status 
+git commit --amend 
+git push --force remote master 
+cd
+sudo service postgresql stop
+git clone --depth=1 'https://github.com/fvckingmore/dbproject'
+sudo service postgresql start
+su - postgres 
+sudo service postgresql stop
+sudo apt-get install webmin 
+sudo apt-get purge --autoremove webmin 
+sudo rm -rf /usr/share/webmin/authentic-theme/
+sudo apt-get update
+htop
+service --status-all
+sudo openvpn --config VPN/us-free-02.protonvpn.com.udp.ovpn 
+cd SMBLDAP-DOMAIN-UNEG-INSTALLATION/
+ls
+vim step1-ldap-installation.sh 
+sudo service postgresql start
+vim .config/openbox/rc.xml
+cd farmacia/
+s
+git branch 
+git status 
+php artisan migrate 
+vim .env
+php artisan 
+php artisan | egrep migra
+cd database/
+ls
+cd migrations/
+ls
+cd
+php artisan | egrep migra
+cd farmacia/
+php artisan | egrep migra
+php artisan make:migration --help
+php artisan make:migration create_farmacias_table --table=farmacias
+php artisan migrate:fresh
+php artisan make:migration create_farmacias_table 
+php artisan migrate:fresh
+php artisan make:migration create_empleados_table 
+php artisan migrate:fresh
+php artisan make:migration create_titulos_table 
+su - postgres 
+sudo service postgresql stop
+scp footer.mustache churun-meru:/root/
+lsblk 
+cfdisk /dev/sdb
+sudo cfdisk /dev/sdb
+sudo mkfs.fat /dev/sdb1 
+cd fvckingmore/UNIX/isos/
+sudo dd if=Parted_Magic_2018.04.30.iso of=/dev/sdb bs=4M status=progress 
+lsblk 
+cd
+mpv 'https://videos.yespornplease.sexy/videos/6/2/1/d/7/621d75c55c6ca.mp4?md5=Z-2QHomr7LM5FmaUB6atWQ&expires=1646248125'
+mpv 'https://videos.yespornplease.sexy/videos/6/2/1/d/7/621d783f569ca.mp4?md5=uVuE5uQjwEjtilLwXJbXoQ&expires=1646248139'
+ls
+scp theme_eguru.php footer.mustache churun-meru:/root/
+scp -v footer.mustache theme_eguru.php 200.6.152.106:/home/joriguay/
+scp -v footer.mustache theme_eguru.php root@200.6.152.106:/home/joriguay/
+ssh -CX churun-meru -t ssh -CX hephaestus
+ssh gconex 
+ping gconex 
+ps -e | egrep chro
+ssh -CX churun-meru -t ssh -CX hephaestus
+mv -v *deb fvckingmore/UNIX/debs/
+pkill nfs.exe 
+sudo apt-get install webmin 
+sudo apt-get purge --autoremove webmin
+ssh -CX churun-meru -t ssh -CX hephaestus
+ping 186.90.93.162
+nmap 186.90.93.162
+nmap 186.90.93.162 -Pn
+ping 186.90.93.162
+ping 20.0.0.1
+ping google.com
+ping 186.90.93.162
+nmap 186.90.93.162 -Pn
+ping google.com
+ping 186.90.93.162
+nmap 186.90.93.162 -Pn
+ping google.com
+ping 8.8.8.8
+sudo ifdown -av
+sudo ifup -av
+ping 8.8.8.8
+ping google.com
+ping 8.8.8.8
+ping google.com
+ping 8.8.8.8
+sudo vim /etc/resolv.conf 
+ping google.com
+sudo apt-get install gnome-screenshot 
+gnome-screenshot --help
+gnome-screenshot -i
+gnome-screenshot -a
+gnome-screenshot -i
+vim .config/openbox/rc.xml
+ping 8.8.8.8
+ping google.com
+ping 8.8.8.8
+ping google.com
+sudo service mysql start
+mysql -u root -p 
+sudo mysql -u root -p 
+mysql_secure_installation 
+sudo mysql_secure_installation 
+sudo mysql -u root -p
+mysql -u root -p
+sudo mysql -u root -p
+mysql -u admin -p
+sudo service postgresql start
+su - postgres 
+ssh -CX churun-meru -t ssh -CX hephaestus
+sudo systemctl stop mysql.service postgresql
+service --status-all
+sudo service mysql start
+sudo service mysql stop
+htop
+dig canaima.uneg.edu.ve
+dig kamaruay.uneg.edu.ve
+man sed
+ssh unegch.ddns.net
+dig unegch.ddns.net
+nmap unegch.ddns.net -p22
+dig canaima.uneg.edu.ve
+sudo apt-get install xfce4-appmenu-plugin -s
+xfce4-panel -s
+xfce4-panel 
+rm -rf .config/xfce4/panel/
+xfce4-panel 
+cd .config/
+ls
+cd xfce4/
+ls
+cd .
+cd ..
+ls
+cd xfe/
+ls
+cd ..
+cd
+ls
+ls -A
+cd .config/xfce4/xfconf/
+ls
+cd xfce-perchannel-xml/
+ls
+rm -rf xfce4-panel.xml 
+cd
+xfce4-panel 
+ssh -CX churun-meru -t ssh -CX hephaestus
+pkill lxpanel 
+sudo apt-get install xfce4-appmenu-plugin 
+sudo apt-get purge --autoremove xfce4-appmenu-plugin 
+dig teipun.uneg.edu.ve
+dig canaima.uneg.edu.ve
+dig teipun.uneg.edu.ve
+pkill xfconfd 
+xfce4-panel 
+xfce4-panel 
+cd .config/
+ls
+find . -iname "*panel*"
+cd xfce4/panel/
+ls
+cd ..
+rm -rf panel/
+ls
+cd xfconf/
+ls
+cd xfce-perchannel-xml/
+ls
+d
+cd /etc/xdg/
+ls
+cd xfce4/
+ls
+cd panel/
+ls
+cat default.xml 
+cd ..
+ls
+cd xfconf/
+ls
+cd xfce-perchannel-xml/
+ls
+cd
+ssh -CX churun-meru -t ssh -CX hephaestus
+vim .config/openbox/rc.xml
+htop
+scp Logo-Principal.png churun-meru:/root/
+ssh -CX churun-meru -t ssh -CX hephaestus
+vim .xsession
+openbox exit
+openbox-session --help
+openbox --help
+openbox --exit
+openbox --restart
+vim .config/i3/config
+fg "%vim" 
+cd .config/
+cat openbox/autostart 
+cd .config/i3
+vim autostart
+cp ~/.config/openbox/autostart ./
+vim autostart 
+vim config
+vim .config/i3/autostart 
+cd .config/i3
+ls
+rm -rf i3blocks.conf yabar.conf log.log 
+ls
+vim config
+vim .config/i3/config
+vim .config/i3/autostart 
+htop
+vim .config/i3/autostart 

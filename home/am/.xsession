@@ -14,8 +14,8 @@ xinput set-prop 12 317 1 &
 xinput set-prop 12 294 1 &
 
 
-#exec i3
-exec openbox-session
+exec i3
+#exec openbox-session
 #exec spectrwm
 #exec dwm
 #exec dwm61

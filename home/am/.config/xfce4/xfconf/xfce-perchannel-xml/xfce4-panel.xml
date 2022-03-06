@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <channel name="xfce4-panel" version="1.0">
-  <property name="plugins" type="empty">
-    <property name="clipman" type="empty">
-      <property name="settings" type="empty">
-        <property name="show-qr-code" type="bool" value="false"/>
-        <property name="max-texts-in-history" type="uint" value="300"/>
-        <property name="max-images-in-history" type="uint" value="0"/>
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="42"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="16"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="6"/>
+        <value type="int" value="2"/>
       </property>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-color" type="array">
+        <value type="uint" value="0"/>
+        <value type="uint" value="0"/>
+        <value type="uint" value="0"/>
+        <value type="uint" value="65535"/>
+      </property>
+      <property name="background-alpha" type="uint" value="0"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="nrows" type="uint" value="1"/>
     </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-6" type="string" value="systray"/>
+    <property name="plugin-2" type="string" value="appmenu"/>
   </property>
 </channel>

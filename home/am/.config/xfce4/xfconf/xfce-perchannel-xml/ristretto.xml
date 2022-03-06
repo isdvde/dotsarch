@@ -11,5 +11,7 @@
     <property name="thumbnails" type="empty">
       <property name="size" type="uint" value="1"/>
     </property>
+    <property name="height" type="uint" value="340"/>
+    <property name="width" type="uint" value="628"/>
   </property>
 </channel>
