@@ -5,12 +5,6 @@
 set $mod Mod4
 font pango:Sans 0
 
-#for_window [class="^.*"] border pixel 3
-#for_window [class="^.*"] border pixel 2
-#for_window [class="^.*"] border normal 2
-#for_window [class="^.*"] font pango:monospace 5
-
-
 default_border pixel 2
 default_floating_border pixel 2
 workspace_layout tabbed
@@ -120,6 +114,7 @@ smart_borders on
 
 #######################################################
 #SCRATCHPAD
+#######################################################
 
 # Make the currently focused window a scratchpad
 bindsym $mod+Shift+m move scratchpad
@@ -131,6 +126,7 @@ bindsym $mod+Tab scratchpad show; scratchpad show
 
 #######################################################
 #USER KEYMAP
+#######################################################
 
 #File Manager keymap
 bindsym $mod+e exec --no-startup-id thunar
@@ -164,6 +160,7 @@ bindsym $mod+Shift+Return exec "i3-msg open"
 #######################################################
 #USER INIT APPS
 exec --no-startup-id bash /home/am/.config/i3/autostart
+#######################################################
 
 
 
@@ -194,5 +191,3 @@ bar {
 }
 
 bindsym $mod+b bar mode toggle
-
-

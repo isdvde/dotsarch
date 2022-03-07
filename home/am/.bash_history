@@ -18190,3 +18190,39 @@ vim .config/i3/config
 vim .config/i3/autostart 
 htop
 vim .config/i3/autostart 
+htop
+cd .applications/
+ls
+du -csh *
+cd i3-gaps-next/
+ls -A
+du -csh $(ls -A) 
+du -csh $(ls -A)  | sort -h
+cd build/
+ls
+cd ..
+l
+vim install-sh 
+cd
+bash dotfile
+cd DOTFILES/
+git status 
+git add .
+git commit -m "Some i3 changes, back to default WM"
+git push remote master 
+cd
+cd fvckingmore
+ls
+cd am/
+ls
+cd .applications/
+ls
+ls -thl
+cd i3
+ls
+vim i3-gaps_installation_guide.md 
+cd
+ssh -CX churun-meru -t ssh -CX hephaestus
+cp .vf msvcr80.dll PSCS5/drive_c/windows/system32/
+cp -vf msvcr80.dll PSCS5/drive_c/windows/system32/
+WINEARCH=win32 WINEPREFIX=~/PSCS5 wine APCS5/Photoshop.exe 

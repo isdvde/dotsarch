@@ -20,10 +20,10 @@
 $\t
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
-:q!
-|2,0,1646581673,,"q!"
 :wq
-|2,0,1646581480,,"wq"
+|2,0,1646612986,,"wq"
+:q!
+|2,0,1646612850,,"q!"
 :w
 |2,0,1646581198,,"w"
 :W
@@ -261,12 +261,28 @@ $\t
 
 # Registros:
 "0	LINE	0
-	exec --no-startup-id bash /home/am/.config/i3/autostart
-|3,0,0,1,1,0,1646581298,"exec --no-startup-id bash /home/am/.config/i3/autostart"
-"1	LINE	0
-	exec --no-startup-id bash ./autostart
-|3,0,1,1,1,0,1646581334,"exec --no-startup-id bash ./autostart"
+	#######################################################
+|3,0,0,1,1,0,1646612906,"#######################################################"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1646612985,""
 "2	LINE	0
+	
+|3,0,2,1,1,0,1646612983,""
+"3	LINE	0
+	
+|3,0,3,1,1,0,1646612886,""
+"4	LINE	0
+	#for_window [class="^.*"] border pixel 3
+	#for_window [class="^.*"] border pixel 2
+	#for_window [class="^.*"] border normal 2
+	#for_window [class="^.*"] font pango:monospace 5
+	
+|3,0,4,1,5,0,1646612885,"#for_window [class=\"^.*\"] border pixel 3","#for_window [class=\"^.*\"] border pixel 2","#for_window [class=\"^.*\"] border normal 2","#for_window [class=\"^.*\"] font pango:monospace 5",""
+"5	LINE	0
+	exec --no-startup-id bash ./autostart
+|3,0,5,1,1,0,1646581334,"exec --no-startup-id bash ./autostart"
+"6	LINE	0
 	
 	##exec --no-startup-id nm-applet
 	#exec --no-startup-id nitrogen --restore
@@ -281,292 +297,332 @@ $\t
 	## exec --no-startup-id xcompmgr -c -t-5 -l-3 -r6 -o1 -fF -I.09 -O.09 -D2
 	## exec --no-startup-id /usr/lib/vino/vino-server
 	#exec --no-startup-id xfce4-clipman
-|3,0,2,1,14,0,1646581286,"","##exec --no-startup-id nm-applet","#exec --no-startup-id nitrogen --restore","##exec --no-startup-id hwclock -s","##exec --no-startup-id sudo /etc/init.d/network-manager restart","#exec --no-startup-id xset s off","#exec --no-startup-id xset -dpms","#exec --no-startup-id redshift -O 3400","## exec --no-startup-id xcompmgr","##exec --no-startup-id xcompmgr -c -t-5 -l-5 -r5 -o.55 -fF -I.04 -O.04 -D3",>74
+|3,0,6,1,14,0,1646581286,"","##exec --no-startup-id nm-applet","#exec --no-startup-id nitrogen --restore","##exec --no-startup-id hwclock -s","##exec --no-startup-id sudo /etc/init.d/network-manager restart","#exec --no-startup-id xset s off","#exec --no-startup-id xset -dpms","#exec --no-startup-id redshift -O 3400","## exec --no-startup-id xcompmgr","##exec --no-startup-id xcompmgr -c -t-5 -l-5 -r5 -o.55 -fF -I.04 -O.04 -D3",>74
 |<"##exec --no-startup-id xcompmgr -c -t-5 -l-5 -r6 -o1 -fF -I.09 -O.09 -D2","## exec --no-startup-id xcompmgr -c -t-5 -l-3 -r6 -o1 -fF -I.09 -O.09 -D2","## exec --no-startup-id /usr/lib/vino/vino-server","#exec --no-startup-id xfce4-clipman"
-"3	LINE	0
-	
-|3,0,3,1,1,0,1646581258,""
-"4	LINE	0
-	
-|3,0,4,1,1,0,1646581257,""
-"5	LINE	0
-	
-|3,0,5,1,1,0,1646581257,""
-"6	LINE	0
-	#client.focused_inactive $cBlack2 $cBlack2 $cWhite $cRed   $cBlack2
-	#client.unfocused        $cBlack2 $cBlack2 $cWhite $cRed   $cBlack2
-	#client.urgent           $cRed $cRed $cWhite2 $cRed   $cBlack2
-	#client.placeholder      $cBlue $cBlue $cWhite2 $cRed   $cBlack2
-	
-	#client.background       $cBlack2
-|3,0,6,1,6,0,1646581255,"#client.focused_inactive $cBlack2 $cBlack2 $cWhite $cRed   $cBlack2","#client.unfocused        $cBlack2 $cBlack2 $cWhite $cRed   $cBlack2","#client.urgent           $cRed $cRed $cWhite2 $cRed   $cBlack2","#client.placeholder      $cBlue $cBlue $cWhite2 $cRed   $cBlack2","","#client.background       $cBlack2"
 "7	LINE	0
-	# class                 border  bground text    indicator child_border
-	#client.focused          $cYellow $cYellow $cBlack2 $cRed   $cYellow
-|3,0,7,1,2,0,1646581253,"# class                 border  bground text    indicator child_border","#client.focused          $cYellow $cYellow $cBlack2 $cRed   $cYellow"
+	
+|3,0,7,1,1,0,1646581258,""
 "8	LINE	0
-	# Start i3bar to display a workspace bar (plus the system information i3status
-	# finds out, if available)
-|3,0,8,1,2,0,1646581246,"# Start i3bar to display a workspace bar (plus the system information i3status","# finds out, if available)"
+	
+|3,0,8,1,1,0,1646581257,""
 "9	LINE	0
 	
-	
-	#bar {
-	
-	#	status_command i3blocks -c ~/.config/i3/i3blocks.conf
-	#   tray_output primary
-	#	position top
-		
-	#	font pango:SFNS Display Bold 8
-			
-	# 	colors {
-			
-	#			background $cBlack
-	#    		statusline #FFFFFF
-	#    		separator  $cGreen
-	
-	#    		focused_workspace  $cGreen $cGreen #FFFFFF
-	#    		active_workspace   $cBlue $cBlue #FFFFFF
-	#    		inactive_workspace $cBlack $cBlack #FFFFFF
-	#    		urgent_workspace   $cRed $cRed #FFFFFF
-	#    		binding_mode       $cRed $cRed #FFFFFF
-	#  	}
-	
-	#	mode hide
-	#	hidden_state hide
-	#	modifier $mod
-	#}
-|3,0,9,1,27,0,1646581227,"","","#bar {","","#	status_command i3blocks -c ~/.config/i3/i3blocks.conf","#   tray_output primary","#	position top","	","#	font pango:SFNS Display Bold 8","		","# 	colors {","		","#			background $cBlack","#    		statusline #FFFFFF","#    		separator  $cGreen","","#    		focused_workspace  $cGreen $cGreen #FFFFFF","#    		active_workspace   $cBlue $cBlue #FFFFFF","#    		inactive_workspace $cBlack $cBlack #FFFFFF",>47
-|<"#    		urgent_workspace   $cRed $cRed #FFFFFF","#    		binding_mode       $cRed $cRed #FFFFFF","#  	}","","#	mode hide","#	hidden_state hide","#	modifier $mod","#}"
-""-	CHAR	0
+|3,0,9,1,1,0,1646581257,""
+"-	CHAR	0
 	#
-|3,1,36,0,1,0,1646581335,"#"
+|3,0,36,0,1,0,1646581335,"#"
 
 # Marcas en el archivo:
-'0  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,48,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
-'1  1  12  ~/.config/i3/autostart
-|4,49,1,12,1646581480,"~/.config/i3/autostart"
-'2  12  19  ~/.config/i3/autostart
-|4,50,12,19,1646581373,"~/.config/i3/autostart"
-'3  11  19  ~/.config/i3/autostart
-|4,51,11,19,1646581373,"~/.config/i3/autostart"
-'4  166  0  ~/.config/i3/config
-|4,52,166,0,1646581336,"~/.config/i3/config"
-'5  167  26  ~/.config/i3/config
-|4,53,167,26,1646581308,"~/.config/i3/config"
-'6  167  26  ~/.config/i3/config
-|4,54,167,26,1646581308,"~/.config/i3/config"
-'7  2  0  ~/.config/i3/autostart
-|4,55,2,0,1646580782,"~/.config/i3/autostart"
-'8  2  0  ~/.config/i3/autostart
-|4,56,2,0,1646580782,"~/.config/i3/autostart"
-'9  1  0  ~/.config/i3/autostart
-|4,57,1,0,1646580782,"~/.config/i3/autostart"
+'0  193  0  ~/.config/i3/config
+|4,48,193,0,1646612986,"~/.config/i3/config"
+'1  43  0  ~/.config/i3/scripts/bandwidthImprove2
+|4,49,43,0,1646612850,"~/.config/i3/scripts/bandwidthImprove2"
+'2  120  1  ~/.config/i3/bar.sh
+|4,50,120,1,1646612830,"~/.config/i3/bar.sh"
+'3  65  0  ~/.config/i3/bar2.sh
+|4,51,65,0,1646612818,"~/.config/i3/bar2.sh"
+'4  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
+|4,52,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
+'5  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,53,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+'6  1  12  ~/.config/i3/autostart
+|4,54,1,12,1646581480,"~/.config/i3/autostart"
+'7  12  19  ~/.config/i3/autostart
+|4,55,12,19,1646581373,"~/.config/i3/autostart"
+'8  11  19  ~/.config/i3/autostart
+|4,56,11,19,1646581373,"~/.config/i3/autostart"
+'9  162  0  ~/.config/i3/config
+|4,57,162,0,1646581336,"~/.config/i3/config"
 
 # Lista de saltos (el más reciente va primero):
+-'  193  0  ~/.config/i3/config
+|4,39,193,0,1646612986,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1646612872,"~/.config/i3/config"
+-'  43  0  ~/.config/i3/scripts/bandwidthImprove2
+|4,39,43,0,1646612850,"~/.config/i3/scripts/bandwidthImprove2"
+-'  43  0  ~/.config/i3/scripts/bandwidthImprove2
+|4,39,43,0,1646612850,"~/.config/i3/scripts/bandwidthImprove2"
+-'  1  0  ~/.config/i3/scripts/bandwidthImprove2
+|4,39,1,0,1646612846,"~/.config/i3/scripts/bandwidthImprove2"
+-'  1  0  ~/.config/i3/scripts/bandwidthImprove2
+|4,39,1,0,1646612846,"~/.config/i3/scripts/bandwidthImprove2"
+-'  120  1  ~/.config/i3/bar.sh
+|4,39,120,1,1646612830,"~/.config/i3/bar.sh"
+-'  120  1  ~/.config/i3/bar.sh
+|4,39,120,1,1646612830,"~/.config/i3/bar.sh"
+-'  120  1  ~/.config/i3/bar.sh
+|4,39,120,1,1646612830,"~/.config/i3/bar.sh"
+-'  120  1  ~/.config/i3/bar.sh
+|4,39,120,1,1646612830,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1646612820,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1646612820,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1646612820,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1646612820,"~/.config/i3/bar.sh"
+-'  65  0  ~/.config/i3/bar2.sh
+|4,39,65,0,1646612818,"~/.config/i3/bar2.sh"
+-'  65  0  ~/.config/i3/bar2.sh
+|4,39,65,0,1646612818,"~/.config/i3/bar2.sh"
+-'  65  0  ~/.config/i3/bar2.sh
+|4,39,65,0,1646612818,"~/.config/i3/bar2.sh"
+-'  65  0  ~/.config/i3/bar2.sh
+|4,39,65,0,1646612818,"~/.config/i3/bar2.sh"
+-'  65  0  ~/.config/i3/bar2.sh
+|4,39,65,0,1646612818,"~/.config/i3/bar2.sh"
+-'  65  0  ~/.config/i3/bar2.sh
+|4,39,65,0,1646612818,"~/.config/i3/bar2.sh"
+-'  65  0  ~/.config/i3/bar2.sh
+|4,39,65,0,1646612818,"~/.config/i3/bar2.sh"
+-'  65  0  ~/.config/i3/bar2.sh
+|4,39,65,0,1646612818,"~/.config/i3/bar2.sh"
+-'  1  0  ~/.config/i3/bar2.sh
+|4,39,1,0,1646612684,"~/.config/i3/bar2.sh"
+-'  1  0  ~/.config/i3/bar2.sh
+|4,39,1,0,1646612684,"~/.config/i3/bar2.sh"
+-'  1  0  ~/.config/i3/bar2.sh
+|4,39,1,0,1646612684,"~/.config/i3/bar2.sh"
+-'  1  0  ~/.config/i3/bar2.sh
+|4,39,1,0,1646612684,"~/.config/i3/bar2.sh"
+-'  1  0  ~/.config/i3/bar2.sh
+|4,39,1,0,1646612684,"~/.config/i3/bar2.sh"
+-'  1  0  ~/.config/i3/bar2.sh
+|4,39,1,0,1646612684,"~/.config/i3/bar2.sh"
+-'  1  0  ~/.config/i3/bar2.sh
+|4,39,1,0,1646612684,"~/.config/i3/bar2.sh"
+-'  1  0  ~/.config/i3/bar2.sh
+|4,39,1,0,1646612684,"~/.config/i3/bar2.sh"
+-'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
+|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
+-'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
+|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
+-'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
+|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
+-'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
+|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
+-'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
+|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
+-'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
+|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
+-'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
+|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
+-'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
+|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
+-'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
+|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
+-'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
+|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
+-'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
+|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
+-'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
+|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
+-'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
+|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
+-'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
+|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
+-'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
+|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
+-'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
+|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
+-'  124  4  ~/.applications/i3-gaps-next/install-sh
+|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
 -'  124  4  ~/.applications/i3-gaps-next/install-sh
 |4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
 -'  1  0  ~/.applications/i3-gaps-next/install-sh
 |4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  12  ~/.config/i3/autostart
-|4,39,1,12,1646581480,"~/.config/i3/autostart"
--'  1  12  ~/.config/i3/autostart
-|4,39,1,12,1646581480,"~/.config/i3/autostart"
--'  2  0  ~/.config/i3/autostart
-|4,39,2,0,1646581468,"~/.config/i3/autostart"
--'  2  0  ~/.config/i3/autostart
-|4,39,2,0,1646581468,"~/.config/i3/autostart"
--'  12  19  ~/.config/i3/autostart
-|4,39,12,19,1646581373,"~/.config/i3/autostart"
--'  11  19  ~/.config/i3/autostart
-|4,39,11,19,1646581373,"~/.config/i3/autostart"
--'  12  19  ~/.config/i3/autostart
-|4,39,12,19,1646581373,"~/.config/i3/autostart"
--'  11  19  ~/.config/i3/autostart
-|4,39,11,19,1646581373,"~/.config/i3/autostart"
--'  1  0  ~/.config/i3/autostart
-|4,39,1,0,1646581361,"~/.config/i3/autostart"
--'  1  0  ~/.config/i3/autostart
-|4,39,1,0,1646581361,"~/.config/i3/autostart"
--'  166  0  ~/.config/i3/config
-|4,39,166,0,1646581336,"~/.config/i3/config"
--'  166  0  ~/.config/i3/config
-|4,39,166,0,1646581336,"~/.config/i3/config"
--'  166  0  ~/.config/i3/config
-|4,39,166,0,1646581336,"~/.config/i3/config"
--'  166  0  ~/.config/i3/config
-|4,39,166,0,1646581336,"~/.config/i3/config"
--'  166  0  ~/.config/i3/config
-|4,39,166,0,1646581336,"~/.config/i3/config"
--'  166  0  ~/.config/i3/config
-|4,39,166,0,1646581336,"~/.config/i3/config"
--'  166  0  ~/.config/i3/config
-|4,39,166,0,1646581336,"~/.config/i3/config"
--'  166  0  ~/.config/i3/config
-|4,39,166,0,1646581336,"~/.config/i3/config"
--'  167  0  ~/.config/i3/config
-|4,39,167,0,1646581331,"~/.config/i3/config"
--'  167  0  ~/.config/i3/config
-|4,39,167,0,1646581331,"~/.config/i3/config"
--'  167  0  ~/.config/i3/config
-|4,39,167,0,1646581331,"~/.config/i3/config"
--'  167  0  ~/.config/i3/config
-|4,39,167,0,1646581331,"~/.config/i3/config"
--'  167  0  ~/.config/i3/config
-|4,39,167,0,1646581331,"~/.config/i3/config"
--'  167  0  ~/.config/i3/config
-|4,39,167,0,1646581331,"~/.config/i3/config"
--'  167  0  ~/.config/i3/config
-|4,39,167,0,1646581331,"~/.config/i3/config"
--'  167  0  ~/.config/i3/config
-|4,39,167,0,1646581331,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1646581327,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1646581327,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1646581327,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1646581327,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1646581327,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1646581327,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1646581327,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1646581327,"~/.config/i3/config"
--'  167  26  ~/.config/i3/config
-|4,39,167,26,1646581308,"~/.config/i3/config"
--'  167  26  ~/.config/i3/config
-|4,39,167,26,1646581308,"~/.config/i3/config"
--'  167  26  ~/.config/i3/config
-|4,39,167,26,1646581308,"~/.config/i3/config"
--'  167  26  ~/.config/i3/config
-|4,39,167,26,1646581308,"~/.config/i3/config"
--'  167  26  ~/.config/i3/config
-|4,39,167,26,1646581308,"~/.config/i3/config"
--'  167  26  ~/.config/i3/config
-|4,39,167,26,1646581308,"~/.config/i3/config"
--'  167  26  ~/.config/i3/config
-|4,39,167,26,1646581308,"~/.config/i3/config"
--'  167  26  ~/.config/i3/config
-|4,39,167,26,1646581308,"~/.config/i3/config"
--'  166  26  ~/.config/i3/config
-|4,39,166,26,1646581297,"~/.config/i3/config"
--'  166  26  ~/.config/i3/config
-|4,39,166,26,1646581297,"~/.config/i3/config"
--'  166  26  ~/.config/i3/config
-|4,39,166,26,1646581297,"~/.config/i3/config"
--'  166  26  ~/.config/i3/config
-|4,39,166,26,1646581297,"~/.config/i3/config"
--'  166  26  ~/.config/i3/config
-|4,39,166,26,1646581297,"~/.config/i3/config"
--'  166  26  ~/.config/i3/config
-|4,39,166,26,1646581297,"~/.config/i3/config"
--'  166  26  ~/.config/i3/config
-|4,39,166,26,1646581297,"~/.config/i3/config"
--'  166  26  ~/.config/i3/config
-|4,39,166,26,1646581297,"~/.config/i3/config"
--'  113  0  ~/.config/i3/config
-|4,39,113,0,1646581058,"~/.config/i3/config"
--'  113  0  ~/.config/i3/config
-|4,39,113,0,1646581058,"~/.config/i3/config"
--'  113  0  ~/.config/i3/config
-|4,39,113,0,1646581058,"~/.config/i3/config"
--'  113  0  ~/.config/i3/config
-|4,39,113,0,1646581058,"~/.config/i3/config"
--'  113  0  ~/.config/i3/config
-|4,39,113,0,1646581058,"~/.config/i3/config"
--'  113  0  ~/.config/i3/config
-|4,39,113,0,1646581058,"~/.config/i3/config"
--'  113  0  ~/.config/i3/config
-|4,39,113,0,1646581058,"~/.config/i3/config"
--'  113  0  ~/.config/i3/config
-|4,39,113,0,1646581058,"~/.config/i3/config"
--'  113  0  ~/.config/i3/config
-|4,39,113,0,1646581058,"~/.config/i3/config"
--'  113  0  ~/.config/i3/config
-|4,39,113,0,1646581058,"~/.config/i3/config"
--'  113  0  ~/.config/i3/config
-|4,39,113,0,1646581058,"~/.config/i3/config"
--'  113  0  ~/.config/i3/config
-|4,39,113,0,1646581058,"~/.config/i3/config"
--'  113  0  ~/.config/i3/config
-|4,39,113,0,1646581058,"~/.config/i3/config"
--'  113  0  ~/.config/i3/config
-|4,39,113,0,1646581058,"~/.config/i3/config"
--'  113  0  ~/.config/i3/config
-|4,39,113,0,1646581058,"~/.config/i3/config"
--'  113  0  ~/.config/i3/config
-|4,39,113,0,1646581058,"~/.config/i3/config"
--'  98  0  ~/.config/i3/config
-|4,39,98,0,1646581007,"~/.config/i3/config"
--'  98  0  ~/.config/i3/config
-|4,39,98,0,1646581007,"~/.config/i3/config"
--'  98  0  ~/.config/i3/config
-|4,39,98,0,1646581007,"~/.config/i3/config"
--'  98  0  ~/.config/i3/config
-|4,39,98,0,1646581007,"~/.config/i3/config"
--'  98  0  ~/.config/i3/config
-|4,39,98,0,1646581007,"~/.config/i3/config"
--'  98  0  ~/.config/i3/config
-|4,39,98,0,1646581007,"~/.config/i3/config"
--'  98  0  ~/.config/i3/config
-|4,39,98,0,1646581007,"~/.config/i3/config"
--'  98  0  ~/.config/i3/config
-|4,39,98,0,1646581007,"~/.config/i3/config"
--'  98  0  ~/.config/i3/config
-|4,39,98,0,1646581007,"~/.config/i3/config"
--'  98  0  ~/.config/i3/config
-|4,39,98,0,1646581007,"~/.config/i3/config"
--'  98  0  ~/.config/i3/config
-|4,39,98,0,1646581007,"~/.config/i3/config"
--'  98  0  ~/.config/i3/config
-|4,39,98,0,1646581007,"~/.config/i3/config"
--'  98  0  ~/.config/i3/config
-|4,39,98,0,1646581007,"~/.config/i3/config"
--'  98  0  ~/.config/i3/config
-|4,39,98,0,1646581007,"~/.config/i3/config"
--'  98  0  ~/.config/i3/config
-|4,39,98,0,1646581007,"~/.config/i3/config"
--'  98  0  ~/.config/i3/config
-|4,39,98,0,1646581007,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1646580856,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1646580856,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1646580856,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1646580856,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1646580856,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1646580856,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1646580856,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1646580856,"~/.config/i3/config"
--'  1  0  ~/.config/i3/autostart
-|4,39,1,0,1646580782,"~/.config/i3/autostart"
--'  1  0  ~/.config/i3/autostart
-|4,39,1,0,1646580782,"~/.config/i3/autostart"
--'  1  0  ~/.config/i3/autostart
-|4,39,1,0,1646580782,"~/.config/i3/autostart"
--'  1  0  ~/.config/i3/autostart
-|4,39,1,0,1646580782,"~/.config/i3/autostart"
--'  1  0  ~/.config/i3/autostart
-|4,39,1,0,1646580782,"~/.config/i3/autostart"
--'  1  0  ~/.config/i3/autostart
-|4,39,1,0,1646580782,"~/.config/i3/autostart"
--'  1  0  ~/.config/i3/autostart
-|4,39,1,0,1646580782,"~/.config/i3/autostart"
--'  1  0  ~/.config/i3/autostart
-|4,39,1,0,1646580782,"~/.config/i3/autostart"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  1  0  ~/.applications/i3-gaps-next/install-sh
+|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/.config/i3/config
+	*	1646612985	0
+	"	193	0
+	.	194	0
+	+	24	0
+	+	25	0
+	+	6	16
+	+	209	0
+	+	25	36
+	+	164	0
+	+	164	253
+	+	162	0
+	+	164	0
+	+	162	25
+	+	1	0
+	+	4	0
+	+	6	0
+	+	8	0
+	+	17	2
+	+	19	0
+	+	24	0
+	+	23	10
+	+	25	0
+	+	26	14
+	+	32	13
+	+	48	0
+	+	49	0
+	+	50	33
+	+	51	0
+	+	88	12
+	+	93	0
+	+	99	0
+	+	98	0
+	+	107	0
+	+	105	0
+	+	107	0
+	+	114	0
+	+	113	0
+	+	115	0
+	+	91	0
+	+	115	0
+	+	121	0
+	+	123	0
+	+	132	0
+	+	139	0
+	+	140	41
+	+	144	0
+	+	157	0
+	+	156	16
+	+	158	0
+	+	183	0
+	+	182	0
+	+	183	0
+	+	182	0
+	+	183	0
+	+	162	0
+	+	164	0
+	+	162	0
+	+	164	0
+	+	162	0
+	+	8	0
+	+	117	0
+	+	129	0
+	+	163	0
+	+	194	0
+
+> ~/.config/i3/scripts/bandwidthImprove2
+	*	1646612848	0
+	"	43	0
+
+> ~/.config/i3/bar.sh
+	*	1646612828	0
+	"	120	1
+
+> ~/.config/i3/bar2.sh
+	*	1646612811	0
+	"	65	0
+	^	50	41
+	.	39	0
+	+	50	41
+	+	39	0
+
+> /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
+	*	1646581799	0
+	"	1	0
 
 > ~/.applications/i3-gaps-next/install-sh
 	*	1646581671	0
@@ -582,67 +638,6 @@ $\t
 	+	7	0
 	+	12	19
 	+	1	12
-
-> ~/.config/i3/config
-	*	1646581335	0
-	"	166	0
-	.	166	0
-	+	30	0
-	+	31	0
-	+	6	16
-	+	214	0
-	+	31	36
-	+	167	0
-	+	167	253
-	+	166	0
-	+	167	0
-	+	166	25
-	+	1	0
-	+	4	0
-	+	6	0
-	+	8	0
-	+	23	2
-	+	25	0
-	+	30	0
-	+	29	10
-	+	31	0
-	+	32	14
-	+	38	13
-	+	54	0
-	+	55	0
-	+	56	33
-	+	57	0
-	+	94	12
-	+	99	0
-	+	105	0
-	+	104	0
-	+	113	0
-	+	111	0
-	+	113	0
-	+	120	0
-	+	119	0
-	+	121	0
-	+	97	0
-	+	121	0
-	+	126	0
-	+	128	0
-	+	136	0
-	+	143	0
-	+	144	41
-	+	148	0
-	+	161	0
-	+	160	16
-	+	162	0
-	+	186	0
-	+	185	0
-	+	186	0
-	+	185	0
-	+	186	0
-	+	166	0
-	+	167	0
-	+	166	0
-	+	167	0
-	+	166	0
 
 > ~/.xsession
 	*	1646580245	0
@@ -1467,14 +1462,6 @@ $\t
 	+	14	13
 	+	12	25
 
-> ~/.config/i3/bar2.sh
-	*	1636895248	0
-	"	40	1
-	^	50	41
-	.	39	0
-	+	50	41
-	+	39	0
-
 > /etc/chromium-browser/default
 	*	1636893462	0
 	"	1	0
@@ -1548,21 +1535,3 @@ $\t
 > ~/lemp/www/slim/Slim/App.php
 	*	1635599917	0
 	"	231	4
-
-> ~/lemp/www/slim/public/index.php
-	*	1635566218	0
-	"	10	0
-	^	15	12
-	.	15	11
-	+	15	11
-
-> ~/lemp/www/prueba/composer.json
-	*	1635546827	0
-	"	14	26
-	^	14	27
-	.	14	26
-	+	14	26
-
-> ~/docs/monitor.sh
-	*	1635463295	0
-	"	45	0
