@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último Patrón de búsqueda:
-~MSle0~/autos
+~MSle0~/ga
 
 # Último SustituciónPatrón de búsqueda:
 ~MSle0&   *
@@ -21,13 +21,13 @@ $\t
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
 :wq
-|2,0,1646612986,,"wq"
+|2,0,1647617582,,"wq"
 :q!
-|2,0,1646612850,,"q!"
+|2,0,1647615952,,"q!"
 :w
-|2,0,1646581198,,"w"
+|2,0,1647472214,,"w"
 :W
-|2,0,1646580921,,"W"
+|2,0,1647472127,,"W"
 :'<,'>s/   */\t/g
 |2,0,1646182023,,"'<,'>s/   */\\t/g"
 :Q!
@@ -164,6 +164,14 @@ $\t
 |2,0,1631476210,,"b"
 
 # Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+?/ga
+|2,1,1646668539,47,"ga"
+?/smar
+|2,1,1646668453,47,"smar"
+?/gaps
+|2,1,1646668415,47,"gaps"
+?/rofi
+|2,1,1646656323,47,"rofi"
 ?/autos
 |2,1,1646581331,47,"autos"
 ?/exec
@@ -210,8 +218,6 @@ $\t
 |2,1,1644763720,47,"xfce4"
 ?/igno
 |2,1,1644294715,47,"igno"
-?/rofi
-|2,1,1642780574,47,"rofi"
 ? \<usr\>
 |2,1,1636922135,,"\\<usr\\>"
 ? home\/am
@@ -261,297 +267,408 @@ $\t
 
 # Registros:
 "0	LINE	0
-	#######################################################
-|3,0,0,1,1,0,1646612906,"#######################################################"
+	exec i3
+|3,0,0,1,1,0,1646668386,"exec i3"
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1646612985,""
+	i3bar_command i3bar -t
+|3,1,1,1,1,0,1647471923,"i3bar_command i3bar -t"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1646612983,""
+		i3bar_command i3bar -t
+|3,0,2,1,1,0,1647471914,"	i3bar_command i3bar -t"
 "3	LINE	0
 	
-|3,0,3,1,1,0,1646612886,""
+|3,0,3,1,1,0,1647471759,""
 "4	LINE	0
-	#for_window [class="^.*"] border pixel 3
-	#for_window [class="^.*"] border pixel 2
-	#for_window [class="^.*"] border normal 2
-	#for_window [class="^.*"] font pango:monospace 5
-	
-|3,0,4,1,5,0,1646612885,"#for_window [class=\"^.*\"] border pixel 3","#for_window [class=\"^.*\"] border pixel 2","#for_window [class=\"^.*\"] border normal 2","#for_window [class=\"^.*\"] font pango:monospace 5",""
+		background #000000
+|3,0,4,1,1,0,1647471709,"	background #000000"
 "5	LINE	0
-	exec --no-startup-id bash ./autostart
-|3,0,5,1,1,0,1646581334,"exec --no-startup-id bash ./autostart"
+	exec /usr/bin/i3
+|3,0,5,1,1,0,1646668565,"exec /usr/bin/i3"
 "6	LINE	0
 	
-	##exec --no-startup-id nm-applet
-	#exec --no-startup-id nitrogen --restore
-	##exec --no-startup-id hwclock -s
-	##exec --no-startup-id sudo /etc/init.d/network-manager restart
-	#exec --no-startup-id xset s off
-	#exec --no-startup-id xset -dpms
-	#exec --no-startup-id redshift -O 3400
-	## exec --no-startup-id xcompmgr
-	##exec --no-startup-id xcompmgr -c -t-5 -l-5 -r5 -o.55 -fF -I.04 -O.04 -D3
-	##exec --no-startup-id xcompmgr -c -t-5 -l-5 -r6 -o1 -fF -I.09 -O.09 -D2
-	## exec --no-startup-id xcompmgr -c -t-5 -l-3 -r6 -o1 -fF -I.09 -O.09 -D2
-	## exec --no-startup-id /usr/lib/vino/vino-server
-	#exec --no-startup-id xfce4-clipman
-|3,0,6,1,14,0,1646581286,"","##exec --no-startup-id nm-applet","#exec --no-startup-id nitrogen --restore","##exec --no-startup-id hwclock -s","##exec --no-startup-id sudo /etc/init.d/network-manager restart","#exec --no-startup-id xset s off","#exec --no-startup-id xset -dpms","#exec --no-startup-id redshift -O 3400","## exec --no-startup-id xcompmgr","##exec --no-startup-id xcompmgr -c -t-5 -l-5 -r5 -o.55 -fF -I.04 -O.04 -D3",>74
-|<"##exec --no-startup-id xcompmgr -c -t-5 -l-5 -r6 -o1 -fF -I.09 -O.09 -D2","## exec --no-startup-id xcompmgr -c -t-5 -l-3 -r6 -o1 -fF -I.09 -O.09 -D2","## exec --no-startup-id /usr/lib/vino/vino-server","#exec --no-startup-id xfce4-clipman"
+|3,0,6,1,1,0,1646668546,""
 "7	LINE	0
-	
-|3,0,7,1,1,0,1646581258,""
+	#gaps inner 4
+|3,0,7,1,1,0,1646668417,"#gaps inner 4"
 "8	LINE	0
 	
-|3,0,8,1,1,0,1646581257,""
+|3,0,8,1,1,0,1646612985,""
 "9	LINE	0
 	
-|3,0,9,1,1,0,1646581257,""
+|3,0,9,1,1,0,1646612983,""
 "-	CHAR	0
 	#
-|3,0,36,0,1,0,1646581335,"#"
+|3,0,36,0,1,0,1646668566,"#"
 
 # Marcas en el archivo:
-'0  193  0  ~/.config/i3/config
-|4,48,193,0,1646612986,"~/.config/i3/config"
-'1  43  0  ~/.config/i3/scripts/bandwidthImprove2
-|4,49,43,0,1646612850,"~/.config/i3/scripts/bandwidthImprove2"
-'2  120  1  ~/.config/i3/bar.sh
-|4,50,120,1,1646612830,"~/.config/i3/bar.sh"
-'3  65  0  ~/.config/i3/bar2.sh
-|4,51,65,0,1646612818,"~/.config/i3/bar2.sh"
-'4  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
-|4,52,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
-'5  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,53,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
-'6  1  12  ~/.config/i3/autostart
-|4,54,1,12,1646581480,"~/.config/i3/autostart"
-'7  12  19  ~/.config/i3/autostart
-|4,55,12,19,1646581373,"~/.config/i3/autostart"
-'8  11  19  ~/.config/i3/autostart
-|4,56,11,19,1646581373,"~/.config/i3/autostart"
-'9  162  0  ~/.config/i3/config
-|4,57,162,0,1646581336,"~/.config/i3/config"
+'0  19  27  ~/dotfile
+|4,48,19,27,1647617582,"~/dotfile"
+'1  61  1  ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+|4,49,61,1,1647615952,"~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+'2  1  0  ~/.config/sublime-text-3/Packages/User/Package Control.user-ca-bundle
+|4,50,1,0,1647615941,"~/.config/sublime-text-3/Packages/User/Package Control.user-ca-bundle"
+'3  1  0  ~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings
+|4,51,1,0,1647615929,"~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
+'4  946  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,52,946,0,1647615744,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+'5  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,53,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+'6  83  0  /usr/local/bin/i3-dmenu-desktop
+|4,54,83,0,1647612949,"/usr/local/bin/i3-dmenu-desktop"
+'7  50  0  ~/segurity-uneg.2/database/migrations/2014_10_12_000000_create_users_table.php
+|4,55,50,0,1647552615,"~/segurity-uneg.2/database/migrations/2014_10_12_000000_create_users_table.php"
+'8  1  0  ~/segurity-uneg.2/database/migrations/2021_11_30_194318_update_user_last_login_table.php
+|4,56,1,0,1647552591,"~/segurity-uneg.2/database/migrations/2021_11_30_194318_update_user_last_login_table.php"
+'9  86  12  ~/segurity-uneg.2/config/database.php
+|4,57,86,12,1647485359,"~/segurity-uneg.2/config/database.php"
 
 # Lista de saltos (el más reciente va primero):
--'  193  0  ~/.config/i3/config
-|4,39,193,0,1646612986,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1646612872,"~/.config/i3/config"
--'  43  0  ~/.config/i3/scripts/bandwidthImprove2
-|4,39,43,0,1646612850,"~/.config/i3/scripts/bandwidthImprove2"
--'  43  0  ~/.config/i3/scripts/bandwidthImprove2
-|4,39,43,0,1646612850,"~/.config/i3/scripts/bandwidthImprove2"
--'  1  0  ~/.config/i3/scripts/bandwidthImprove2
-|4,39,1,0,1646612846,"~/.config/i3/scripts/bandwidthImprove2"
--'  1  0  ~/.config/i3/scripts/bandwidthImprove2
-|4,39,1,0,1646612846,"~/.config/i3/scripts/bandwidthImprove2"
--'  120  1  ~/.config/i3/bar.sh
-|4,39,120,1,1646612830,"~/.config/i3/bar.sh"
--'  120  1  ~/.config/i3/bar.sh
-|4,39,120,1,1646612830,"~/.config/i3/bar.sh"
--'  120  1  ~/.config/i3/bar.sh
-|4,39,120,1,1646612830,"~/.config/i3/bar.sh"
--'  120  1  ~/.config/i3/bar.sh
-|4,39,120,1,1646612830,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1646612820,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1646612820,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1646612820,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1646612820,"~/.config/i3/bar.sh"
--'  65  0  ~/.config/i3/bar2.sh
-|4,39,65,0,1646612818,"~/.config/i3/bar2.sh"
--'  65  0  ~/.config/i3/bar2.sh
-|4,39,65,0,1646612818,"~/.config/i3/bar2.sh"
--'  65  0  ~/.config/i3/bar2.sh
-|4,39,65,0,1646612818,"~/.config/i3/bar2.sh"
--'  65  0  ~/.config/i3/bar2.sh
-|4,39,65,0,1646612818,"~/.config/i3/bar2.sh"
--'  65  0  ~/.config/i3/bar2.sh
-|4,39,65,0,1646612818,"~/.config/i3/bar2.sh"
--'  65  0  ~/.config/i3/bar2.sh
-|4,39,65,0,1646612818,"~/.config/i3/bar2.sh"
--'  65  0  ~/.config/i3/bar2.sh
-|4,39,65,0,1646612818,"~/.config/i3/bar2.sh"
--'  65  0  ~/.config/i3/bar2.sh
-|4,39,65,0,1646612818,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1646612684,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1646612684,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1646612684,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1646612684,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1646612684,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1646612684,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1646612684,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1646612684,"~/.config/i3/bar2.sh"
--'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
-|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
--'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
-|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
--'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
-|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
--'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
-|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
--'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
-|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
--'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
-|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
--'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
-|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
--'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
-|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
--'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
-|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
--'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
-|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
--'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
-|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
--'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
-|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
--'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
-|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
--'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
-|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
--'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
-|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
--'  1  0  /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
-|4,39,1,0,1646581821,"/mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  124  4  ~/.applications/i3-gaps-next/install-sh
-|4,39,124,4,1646581673,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
--'  1  0  ~/.applications/i3-gaps-next/install-sh
-|4,39,1,0,1646581648,"~/.applications/i3-gaps-next/install-sh"
+-'  19  27  ~/dotfile
+|4,39,19,27,1647617582,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1647617552,"~/dotfile"
+-'  61  1  ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+|4,39,61,1,1647615952,"~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+-'  61  1  ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+|4,39,61,1,1647615952,"~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+-'  1  0  ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+|4,39,1,0,1647615947,"~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+-'  1  0  ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+|4,39,1,0,1647615947,"~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+-'  1  0  ~/.config/sublime-text-3/Packages/User/Package Control.user-ca-bundle
+|4,39,1,0,1647615941,"~/.config/sublime-text-3/Packages/User/Package Control.user-ca-bundle"
+-'  1  0  ~/.config/sublime-text-3/Packages/User/Package Control.user-ca-bundle
+|4,39,1,0,1647615941,"~/.config/sublime-text-3/Packages/User/Package Control.user-ca-bundle"
+-'  1  0  ~/.config/sublime-text-3/Packages/User/Package Control.user-ca-bundle
+|4,39,1,0,1647615941,"~/.config/sublime-text-3/Packages/User/Package Control.user-ca-bundle"
+-'  1  0  ~/.config/sublime-text-3/Packages/User/Package Control.user-ca-bundle
+|4,39,1,0,1647615941,"~/.config/sublime-text-3/Packages/User/Package Control.user-ca-bundle"
+-'  1  0  ~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings
+|4,39,1,0,1647615929,"~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
+-'  1  0  ~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings
+|4,39,1,0,1647615929,"~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
+-'  1  0  ~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings
+|4,39,1,0,1647615929,"~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
+-'  1  0  ~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings
+|4,39,1,0,1647615929,"~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
+-'  1  0  ~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings
+|4,39,1,0,1647615929,"~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
+-'  1  0  ~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings
+|4,39,1,0,1647615929,"~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
+-'  1  0  ~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings
+|4,39,1,0,1647615929,"~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
+-'  1  0  ~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings
+|4,39,1,0,1647615929,"~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
+-'  946  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,946,0,1647615744,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  946  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,946,0,1647615744,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  946  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,946,0,1647615744,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  946  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,946,0,1647615744,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  946  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,946,0,1647615744,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  946  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,946,0,1647615744,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  946  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,946,0,1647615744,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  946  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,946,0,1647615744,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  946  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,946,0,1647615744,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  946  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,946,0,1647615744,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  946  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,946,0,1647615744,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  946  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,946,0,1647615744,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  946  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,946,0,1647615744,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  946  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,946,0,1647615744,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  946  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,946,0,1647615744,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  946  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,946,0,1647615744,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,1,0,1647615736,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,1,0,1647615736,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,1,0,1647615736,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,1,0,1647615736,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,1,0,1647615736,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,1,0,1647615736,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,1,0,1647615736,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,1,0,1647615736,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,1,0,1647615736,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,1,0,1647615736,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,1,0,1647615736,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,1,0,1647615736,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,1,0,1647615736,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,1,0,1647615736,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,1,0,1647615736,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+|4,39,1,0,1647615736,"~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  83  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,83,0,1647615732,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,1,0,1647615720,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,1,0,1647615720,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,1,0,1647615720,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,1,0,1647615720,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,1,0,1647615720,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,1,0,1647615720,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,1,0,1647615720,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,1,0,1647615720,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,1,0,1647615720,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,1,0,1647615720,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,1,0,1647615720,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,1,0,1647615720,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,1,0,1647615720,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,1,0,1647615720,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,1,0,1647615720,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,1,0,1647615720,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,1,0,1647615720,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
+-'  1  0  ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+|4,39,1,0,1647615720,"~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
 
+> ~/dotfile
+	*	1647617580	0
+	"	19	27
+	^	19	28
+	.	19	27
+	+	36	0
+	+	6	7
+	+	7	0
+	+	3	14
+	+	4	26
+	+	25	52
+	+	28	24
+	+	32	3
+	+	30	45
+	+	29	43
+	+	31	3
+	+	30	48
+	+	25	8
+	+	26	0
+	+	27	25
+	+	32	0
+	+	34	21
+	+	13	14
+	+	14	9
+	+	9	4
+	+	10	5
+	+	11	4
+	+	12	4
+	+	18	13
+	+	30	9
+	+	21	0
+	+	22	8
+	+	38	26
+	+	38	0
+	+	38	29
+	+	23	38
+	+	23	21
+	+	38	0
+	+	23	13
+	+	20	10
+	+	36	23
+	+	20	3
+	+	23	26
+	+	36	15
+	+	37	28
+	+	36	19
+	+	20	0
+	+	36	0
+	+	23	0
+	+	36	0
+	+	20	0
+	+	19	27
+
+> ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+	*	1647615950	0
+	"	61	1
+
+> ~/.config/sublime-text-3/Packages/User/Package Control.user-ca-bundle
+	*	1647615940	0
+	"	1	0
+
+> ~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings
+	*	1647615771	0
+	"	1	0
+
+> ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package
+	*	1647615742	0
+	"	946	0
+
+> ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package
+	*	1647615729	0
+	"	83	0
+
+> /usr/local/bin/i3-dmenu-desktop
+	*	1647612947	0
+	"	83	0
+
+> ~/segurity-uneg.2/database/migrations/2014_10_12_000000_create_users_table.php
+	*	1647552614	0
+	"	50	0
+
+> ~/segurity-uneg.2/database/migrations/2021_11_30_194318_update_user_last_login_table.php
+	*	1647552588	0
+	"	1	0
+
+> ~/segurity-uneg.2/config/database.php
+	*	1647485357	0
+	"	86	12
+
+> ~/segurity-uneg.2/NERD_tree_1
+	*	1647485335	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> config/database.php
+	*	1647485292	0
+	"	1	0
+
+> ~/segurity-uneg.2/database/factories/UserFactory.php
+	*	1647484776	0
+	"	42	4
+
+> ~/segurity-uneg.2/database/NERD_tree_1
+	*	1647484744	0
+	"	5	0
+	.	1	0
+	+	1	0
+
+> ~/segurity-uneg.2/database/seeders/LaratrustSeeder.php
+	*	1647484726	0
+	"	43	12
+
+> ~/segurity-uneg.2/database/seeders/DatabaseSeeder.php
+	*	1647484688	0
+	"	1	0
+
+> ~/segurity-uneg.2/.env
+	*	1647483494	0
+	"	4	0
+	^	15	17
+	.	15	16
+	+	10	18
+	+	12	11
+	+	13	15
+	+	14	16
+	+	15	16
+
 > ~/.config/i3/config
-	*	1646612985	0
-	"	193	0
-	.	194	0
+	*	1647472218	0
+	"	185	21
+	^	185	22
+	.	185	21
 	+	24	0
 	+	25	0
 	+	6	16
-	+	209	0
+	+	212	0
 	+	25	36
-	+	164	0
-	+	164	253
 	+	162	0
-	+	164	0
-	+	162	25
+	+	162	253
+	+	160	0
+	+	162	0
+	+	160	25
 	+	1	0
 	+	4	0
 	+	6	0
@@ -571,38 +688,96 @@ $\t
 	+	93	0
 	+	99	0
 	+	98	0
-	+	107	0
 	+	105	0
-	+	107	0
-	+	114	0
+	+	104	0
+	+	105	0
+	+	112	0
+	+	111	0
 	+	113	0
-	+	115	0
 	+	91	0
-	+	115	0
+	+	113	0
+	+	119	0
 	+	121	0
-	+	123	0
-	+	132	0
-	+	139	0
-	+	140	41
-	+	144	0
-	+	157	0
-	+	156	16
-	+	158	0
-	+	183	0
-	+	182	0
-	+	183	0
-	+	182	0
-	+	183	0
+	+	130	0
+	+	137	0
+	+	138	41
+	+	142	0
+	+	155	0
+	+	154	16
+	+	156	0
+	+	181	0
+	+	180	0
+	+	181	0
+	+	180	0
+	+	181	0
+	+	160	0
 	+	162	0
-	+	164	0
+	+	160	0
 	+	162	0
-	+	164	0
-	+	162	0
+	+	160	0
 	+	8	0
-	+	117	0
-	+	129	0
-	+	163	0
-	+	194	0
+	+	115	0
+	+	127	0
+	+	161	0
+	+	197	0
+	+	24	50
+	+	103	0
+	+	193	1
+	+	104	0
+	+	193	1
+	+	192	1
+	+	103	0
+	+	104	0
+	+	192	1
+	+	193	1
+	+	189	19
+	+	184	9
+	+	186	1
+	+	189	0
+	+	185	21
+	+	186	0
+	+	187	0
+	+	189	0
+	+	170	0
+	+	188	0
+	+	185	21
+
+> ~/.config/i3/autostart
+	*	1647375336	0
+	"	5	3
+	^	5	4
+	.	5	3
+	+	6	0
+	+	10	0
+	+	11	0
+	+	16	19
+	+	4	0
+	+	3	26
+	+	5	1
+	+	4	0
+	+	3	3
+	+	1	11
+	+	3	40
+	+	5	3
+
+> ~/.xsession
+	*	1646668566	0
+	"	17	0
+	.	17	0
+	+	12	21
+	+	13	25
+	+	18	0
+	+	17	0
+	+	18	0
+	+	17	0
+	+	18	0
+	+	17	0
+	+	18	0
+	+	17	0
+	+	18	0
+	+	17	0
+	+	18	0
+	+	17	0
 
 > ~/.config/i3/scripts/bandwidthImprove2
 	*	1646612848	0
@@ -627,34 +802,6 @@ $\t
 > ~/.applications/i3-gaps-next/install-sh
 	*	1646581671	0
 	"	124	4
-
-> ~/.config/i3/autostart
-	*	1646581480	0
-	"	1	12
-	^	1	13
-	.	1	12
-	+	2	0
-	+	6	0
-	+	7	0
-	+	12	19
-	+	1	12
-
-> ~/.xsession
-	*	1646580245	0
-	"	18	0
-	^	18	1
-	.	18	0
-	+	12	21
-	+	13	25
-	+	18	0
-	+	17	0
-	+	18	0
-	+	17	0
-	+	18	0
-	+	17	0
-	+	18	0
-	+	17	0
-	+	18	0
 
 > ~/.config/openbox/rc.xml
 	*	1646513928	0
@@ -840,58 +987,6 @@ $\t
 	"	1	0
 	.	1	0
 	+	1	0
-
-> ~/dotfile
-	*	1645381095	0
-	"	19	0
-	^	21	1
-	.	19	0
-	+	35	0
-	+	6	7
-	+	7	0
-	+	3	14
-	+	4	26
-	+	24	52
-	+	27	24
-	+	31	3
-	+	29	45
-	+	28	43
-	+	30	3
-	+	29	48
-	+	24	8
-	+	25	0
-	+	26	25
-	+	31	0
-	+	33	21
-	+	13	14
-	+	14	9
-	+	9	4
-	+	10	5
-	+	11	4
-	+	12	4
-	+	18	13
-	+	29	9
-	+	20	0
-	+	21	8
-	+	37	26
-	+	37	0
-	+	37	29
-	+	22	38
-	+	22	21
-	+	37	0
-	+	22	13
-	+	19	10
-	+	35	23
-	+	19	3
-	+	22	26
-	+	35	15
-	+	36	28
-	+	35	19
-	+	19	0
-	+	35	0
-	+	22	0
-	+	35	0
-	+	19	0
 
 > ~/DOTFILES/home/am/home/am/.ssh/config
 	*	1645379760	0
@@ -1439,99 +1534,3 @@ $\t
 	+	4	0
 	+	3	0
 	+	3	151
-
-> ~/NERD_tree_1
-	*	1636922129	0
-	"	5	0
-	.	1	0
-	+	1	0
-
-> ~/farmacia/app/Providers/AppServiceProvider.php
-	*	1636921125	0
-	"	7	37
-	^	7	38
-	.	7	37
-	+	29	34
-	+	7	37
-
-> /etc/fstab
-	*	1636902711	0
-	"	12	25
-	^	12	26
-	.	12	25
-	+	14	13
-	+	12	25
-
-> /etc/chromium-browser/default
-	*	1636893462	0
-	"	1	0
-
-> ~/dotfiles
-	*	1636768222	0
-	"	26	10
-	^	22	20
-	.	22	19
-	+	5	30
-	+	23	0
-	+	24	1
-	+	23	0
-	+	18	0
-	+	25	8
-	+	24	0
-	+	26	10
-	+	20	13
-	+	21	20
-	+	22	19
-
-> /mnt/data/home/am/Documentos/NERD_tree_1
-	*	1636767745	0
-	"	2	0
-	.	1	0
-	+	1	0
-
-> ~/.applications/i3/i3-gaps_installation_guide.md
-	*	1636766122	0
-	"	40	0
-
-> ~/.applications/i3/install-sh
-	*	1636766093	0
-	"	493	10
-
-> ~/slim/Slim/Routing/Route.php
-	*	1635990098	0
-	"	124	4
-
-> ~/slim/Slim/App.php
-	*	1635990077	0
-	"	206	5
-
-> ~/vba.cfg
-	*	1635985353	0
-	"	83	0
-	^	43	11
-	.	42	10
-	+	213	19
-	+	42	10
-
-> /etc/ssh/sshd_config
-	*	1635870884	0
-	"	74	0
-
-> ~/VPN/us-free-02.protonvpn.com.udp.ovpn
-	*	1635821137	0
-	"	53	27
-	^	53	28
-	.	53	27
-	+	53	27
-
-> /usr/share/pulseaudio/alsa-mixer/paths/analog-output-speaker.conf
-	*	1635705220	0
-	"	116	13
-
-> ~/lemp/www/slim/Slim/Routing/Route.php
-	*	1635599941	0
-	"	42	5
-
-> ~/lemp/www/slim/Slim/App.php
-	*	1635599917	0
-	"	231	4

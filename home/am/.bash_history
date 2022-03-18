@@ -18226,3 +18226,377 @@ ssh -CX churun-meru -t ssh -CX hephaestus
 cp .vf msvcr80.dll PSCS5/drive_c/windows/system32/
 cp -vf msvcr80.dll PSCS5/drive_c/windows/system32/
 WINEARCH=win32 WINEPREFIX=~/PSCS5 wine APCS5/Photoshop.exe 
+curl kamaruay.ddns.net
+htop
+service --status-all
+sudo systemctl stop openvpn.service 
+sudo systemctl sidable openvpn.service 
+sudo systemctl didable openvpn.service 
+sudo systemctl disable openvpn.service 
+ls
+service --status-all
+service --status-all | egrep +
+service --status-all | egrep "+"
+crontab -l
+sudo systemctl stop cron.service 
+sudo systemctl disable cron.service 
+rar x APCS5.rar 
+cd APCS5/
+ls
+WINEARCH=win32 WINEPREFIX=~/PSCS5 winecfg
+WINEARCH=win32 WINEPREFIX=~/PSCS5 winetricks msxml6 gdiplus gecko vcrun2005sp1 vcrun2008 msxml3 atmlib
+WINEARCH=win32 WINEPREFIX=~/PSCS5 winetricks corefonts 
+cd
+rm -rf APCS5* PSCS5
+ls
+cd .config/
+ls
+du -csh sublime-text-3/
+rar a -m5 sublime-text-3.rar sublime-text-3
+ls -lh
+rm -rf tint2/
+cd i3
+cd ..
+rm -rf i3.bak/
+cd i3/
+ls
+diff bar2.sh bar.sh 
+diff bar2.sh bar.sh | less
+ls
+rm -rf config.bak 
+less i3ConfigMan.txt 
+rm -rf i3ConfigMan.txt 
+ls -l
+ls scripts/
+vim bar2.sh 
+vim bar.sh 
+ls
+cd scripts/
+ls
+vim bandwidthImprove2 
+ls
+cat setup\ i3\ gaps.txt 
+ls
+cd ..
+rm -rf scripts/
+ls
+vim config 
+ls
+cd
+bash dotfile
+cd DOTFILES/
+git status 
+git add .
+git commit -m "some i3 changes"
+git push remote master 
+cd
+curl kamaruay.ddns.net
+ssh -CX churun-meru -t ssh -CX hephaestus
+htop
+cd .config/i3/
+ls
+bash bar2.sh 
+vim config 
+ls
+whereis i3
+Xephyr -br -ac -noreset -screen 800x600 :1 & DISPLAY=:1 /usr/bin/i3 
+jobs
+kill %1
+whereis i3
+Xephyr -br -ac -noreset -screen 800x600 :1 & DISPLAY=:1 /usr/bin/i3
+kill %1
+jobs
+Xephyr -br -ac -noreset -screen 800x600 :1 & DISPLAY=:1 /usr/local/bin/i3
+kill %1
+jobs
+Xephyr -br -ac -noreset -screen 800x600 :1 & DISPLAY=:1 openbox-session 
+kill %1
+jobs
+Xephyr -br -ac -noreset -screen 800x600 :1 & DISPLAY=:1 i3
+kill %1
+jobs
+i3 --help
+dmenu
+dmenu_run 
+dmenu_path 
+ls
+i3-dmenu-desktop 
+less /usr/bin/i3-dmenu-desktop 
+vim .config/i3/config 
+df -h
+ssh -CX churun-meru -t ssh -CX hephaestus
+vim .xsession
+vim .config/i3/config 
+vim .config/i3/autostart 
+vim .config/i3/config 
+vim .config/i3/autostart 
+vim .xsession
+htop
+if ps -e | egrep bar2; then echo si; fi
+vim .config/i3/autostart 
+htop
+ssh -CX churun-meru -t ssh -CX hephaestus
+ping google.com
+ping 8.8.8.8
+ping google.com
+alsamixer 
+htop
+pkill PDS.EXE 
+ssh -CX churun-meru -t ssh -CX hephaestus
+sudo apt-get install docker.io 
+sudo systemctl disable docker.service docker.socket 
+sudo systemctl stop docker.service 
+sudo systemctl stop docker.socket 
+sudo systemctl list-unit-files 
+sudo systemctl start docker.service 
+sudo service docker status
+sudo -i
+htop
+ssh -CX churun-meru -t ssh -CX hephaestus
+sudo service docker start
+sudo -i
+htop
+ls
+cd fvckingmore
+ls
+cd Desktop/
+s
+ls
+cd F_ckingmore/
+ls -l
+l
+ls -l
+cd
+curl uneg.ddns.net/oldsite
+curl uneg.ddns.net/oldsite/
+service --status-all
+aria2c 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css'
+aria2c 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js'
+ls -l *min*
+ls -lh *min*
+aria2c 'https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js'
+mv cdn.min.js alpinejs.min.js 
+ssh -CX churun-meru -t ssh -CX hephaestus
+if ps -e | egrep bar2; then echo si; fi
+ssh -CX churun-meru -t ssh -CX hephaestus
+ps -e | egrep chro
+ssh -CX churun-meru -t ssh -CX hephaestus
+dig www.uneg.edu.ve
+dig site.uneg.edu.ve
+curl www.uneg.edu.ve
+dig site.uneg.edu.ve
+dig uneg.edu.ve
+dig site.uneg.edu.ve
+nmap -p 554 unegch.ddns.net
+curl site.uneg.edu.ve
+curl uneg.ddns.net
+curl site.uneg.edu.ve
+curl wirinoku.uneg.edu.ve
+curl uneg.edu.ve
+ssh -CX churun-meru -t ssh -CX hephaestus
+nitrogen --restore
+ssh -CX churun-meru -t ssh -CX hephaestus
+ssh churun-meru u
+ssh churun-meru 
+./speedtest 
+dig uneg.ddns.net
+dig uneg.edu.ve
+dig glu.unge.edu.ve
+dig glu.uneg.edu.ve
+dig kamaruay.uneg.edu.ve
+dig uneg.edu.ve
+dig uneg.ddns.net
+curl uneg.ddns.net
+curl uneg.edu.ve
+curl uneg.ddns.net/glu
+curl uneg.ddns.net/glu/index.html
+vim .config/i3/autostart 
+aria2c 'https://www.adslzone.net/app/uploads-adslzone.net/2021/11/satelite-tierra.jpg'
+man bash
+gnome-screenshot -i
+nitrogen --restore
+ssh -CX churun-meru -t ssh -CX hephaestus
+nmap -p554 unegch.ddns.net
+mkdir blender
+cp blender-3.1.0-linux-x64.tar.xz blender/
+cd blender/
+tar -xvf blender-3.1.0-linux-x64.tar.xz 
+cd blender-3.1.0-linux-x64/
+ls
+./blender
+cd ..
+rm -rf blender
+ls -l
+sudo apt-get install blender
+sudo apt-get install olive-editor 
+sudo apt-get purge --autoremove olive-editor 
+sudo apt-get install blender
+blender 
+sudo apt-get purge --autoremove blender
+sudo apt-get install kdenlive
+htop
+zvim .config/i3/config 
+vim .config/i3/config 
+sudo service postgresql statr
+sudo service postgresql start
+su - postgres 
+cd segurity-uneg.2/
+ls
+ls -l
+vim config/database.php 
+cd
+vim config/database.php 
+cd segurity-uneg
+dc .
+cd ..
+cd segurity-uneg.2/
+ls
+vim database/
+vim config/database.php 
+ls
+ls -l
+ls
+ls -l
+ls
+ls -l
+nmap -p 554 unegch.ddns.net
+traceroute -p 554 unegch.ddns.net
+traceroute6 -p 554 unegch.ddns.net
+sudo apt-get install traceroute 
+traceroute -p 554 unegch.ddns.net
+nmap -Pn unegch.ddns.net
+traceroute -p22 unegch.ddns.net
+man traceroute
+traceroute -p554 unegch.ddns.net
+aria2c -x10 'http://download1525.mediafire.com/2e4u6py47n8g/nejel9i5mg1f0ro/filmora+9.2.0.35+full.tar.xz'
+tar -xvf filmora\ 9.2.0.35\ full.tar.xz 
+WINEARCH=win64 WINEPREFIX=~/FILMORA winecfg 
+WINEARCH=win64 WINEPREFIX=~/FILMORA winetricks corefonts 
+WINEARCH=win64 WINEPREFIX=~/FILMORA wine filmora_64bit_full846.exe 
+WINEARCH=win64 WINEPREFIX=~/FILMORA winecfg 
+cd Crack/
+ls
+cp -vf * ~/FILMORA/drive_c/Program\ Files/Wondershare/Filmora9/
+cd
+rm -rf filmora* Crack seriales\ para\ activacion\ sin\ internet.txt 
+rm -rf FILMORA/
+rm -rf .local/share/applications/wine/Programs/Wondershare/
+cd
+nmap -p 554 unegch.ddns.net
+traceroute -p 554 unegch.ddns.net
+git clone 'git@github.com:dit-cdms/segurity-uneg.git'
+git clone --depth=1 'git@github.com:dit-cdms/segurity-uneg.git'
+ls
+rar a -m5 segurity-uneg.rar segurity-uneg
+du -csh segurity-uneg*
+cp segurity-uneg segurity-uneg.2
+cp -r segurity-uneg segurity-uneg.2
+cd segurity-uneg
+ls
+cd ..
+cd segurity-uneg.2/
+ls
+composer update
+sudo service php8.1-fpm start
+composer update
+sudo apt-get install php8.1-gd 
+composer update
+npm install
+cp .env.example .env
+vim .env
+su - postgres 
+vim .env
+php artisan key:generate
+su - postgres 
+php artisan migrate:fresh --seed
+vim .env
+su - postgres 
+php artisan migrate:fresh --seed
+cd database/
+ls
+cd ..
+ls
+ls app/
+vim config/database.php 
+su - postgres 
+ls
+vim config/database.php 
+php artisan migrate:fresh --seed
+ls
+php artisan server.php 
+php artisan server
+php artisan serve
+ls
+cd database/
+ls
+cd migrations/
+ls
+cd ..
+cd seeders/
+ls
+vim DatabaseSeeder.php 
+vim LaratrustSeeder.php 
+ls
+cd ..
+ls
+vim factories/
+ls
+cd ..
+sl
+ls
+php artisan serve
+cd ..
+nitrogen --restore
+ssh -CX churun-meru -t ssh -CX hephaestus
+cd segurity-uneg.2/
+ls
+php artisan serve
+sudo service postgresql start
+php artisan serve
+vim database/migrations/2021_11_30_194318_update_user_last_login_table.php 
+vim database/migrations/2014_10_12_000000_create_users_table.php 
+php artisan serve
+cd
+sudo service postgresql stop
+cd farmacia/
+git status 
+git branch 
+git log --oneline 
+git checkout adrian
+git status 
+git diff
+git add .
+git status 
+git log --oneline 
+git commit -m "Finxing Migrations"
+git push 
+git log --oneline 
+git checkout main 
+git log --oneline 
+git diff adrian main 
+git branch adrian
+ls
+git status 
+git log --oneline 
+git checkout adrian
+git log --oneline 
+cd database/migrations/
+ls -l
+git log --oneline 
+cd
+man bash
+man egrep 
+man sed
+man split
+cut --hrlp
+cut --hlp
+cut --help
+echo "spcdb" | cut -c -f-2 
+echo "spcdb" | cut -c -f2 
+echo "spcdb" | cut -c -2 
+echo "spcdb" | cut -c -3 
+echo "spcdb" | cut -c 3- 
+echo "spcdb" | cut -c 2- 
+echo "spcdb" | cut -c -3 
+echo "spcdb" | cut -c-3 
+ssh -CX churun-meru -t ssh -CX hephaestus

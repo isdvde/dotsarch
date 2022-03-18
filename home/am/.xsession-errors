@@ -4,7 +4,7 @@ dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
 dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
 dbus-update-activation-environment: setting SHELL=/bin/bash
 dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-default:/etc/xdg
-dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session8
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session1
 dbus-update-activation-environment: setting LANGUAGE=es_ES:en
 dbus-update-activation-environment: setting MANDATORY_PATH=/usr/share/gconf/default.mandatory.path
 dbus-update-activation-environment: setting LC_ADDRESS=en_US.UTF-8
@@ -43,7 +43,7 @@ dbus-update-activation-environment: setting GDMSESSION=default
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 dbus-update-activation-environment: setting LC_NUMERIC=en_US.UTF-8
 dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
-Xsession: X session started for am at Sun 06 Mar 2022 11:44:45 AM -04
+Xsession: X session started for am at Fri 18 Mar 2022 09:05:39 AM -04
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 dbus-update-activation-environment: setting DISPLAY=:0
 dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
@@ -54,7 +54,7 @@ dbus-update-activation-environment: setting LANGUAGE=es_ES:en
 dbus-update-activation-environment: setting USER=am
 dbus-update-activation-environment: setting LC_TIME=en_US.UTF-8
 dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
-dbus-update-activation-environment: setting SSH_AGENT_PID=153445
+dbus-update-activation-environment: setting SSH_AGENT_PID=1303
 dbus-update-activation-environment: setting SHLVL=0
 dbus-update-activation-environment: setting HOME=/home/am
 dbus-update-activation-environment: setting DESKTOP_SESSION=default
@@ -70,7 +70,7 @@ dbus-update-activation-environment: setting DEFAULTS_PATH=/usr/share/gconf/defau
 dbus-update-activation-environment: setting PATH=/home/am/bin:/home/am/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 dbus-update-activation-environment: setting GDM_LANG=es_ES
 dbus-update-activation-environment: setting PAPERSIZE=letter
-dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session8
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session1
 dbus-update-activation-environment: setting LC_ADDRESS=en_US.UTF-8
 dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
 dbus-update-activation-environment: setting DISPLAY=:0
@@ -79,7 +79,7 @@ dbus-update-activation-environment: setting LC_TELEPHONE=en_US.UTF-8
 dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=default
 dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
 dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/am
-dbus-update-activation-environment: setting SSH_AUTH_SOCK=/tmp/ssh-SA1NlwoF2GJg/agent.153386
+dbus-update-activation-environment: setting SSH_AUTH_SOCK=/tmp/ssh-oIBJqYKKSgC3/agent.1244
 dbus-update-activation-environment: setting SHELL=/bin/bash
 dbus-update-activation-environment: setting LC_NAME=en_US.UTF-8
 dbus-update-activation-environment: setting GDMSESSION=default
@@ -91,1560 +91,695 @@ dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-default
 dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/default:/usr/local/share/:/usr/share/
 dbus-update-activation-environment: setting LC_NUMERIC=en_US.UTF-8
 dbus-update-activation-environment: setting LC_PAPER=en_US.UTF-8
-property '294' doesn't exist, you need to specify its type and format
 unexpected type for property '290'
+property '294' doesn't exist, you need to specify its type and format
 Usando el método «randr».
 
-(nitrogen:153522): dbind-WARNING **: 11:44:46.161: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+(nitrogen:1379): dbind-WARNING **: 09:05:40.101: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 
-(xfce4-clipman:153526): dbind-WARNING **: 11:44:46.171: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-error 140: BadRegion request 138 minor 14 serial 888
-error 140: BadRegion request 138 minor 14 serial 897
-error 140: BadRegion request 138 minor 14 serial 955
-error 140: BadRegion request 138 minor 14 serial 960
-error 140: BadRegion request 138 minor 14 serial 1039
-error 140: BadRegion request 138 minor 14 serial 1044
-error 140: BadRegion request 138 minor 14 serial 1100
-error 140: BadRegion request 138 minor 14 serial 1109
-error 140: BadRegion request 138 minor 14 serial 1169
-error 140: BadRegion request 138 minor 14 serial 1178
-error 140: BadRegion request 138 minor 14 serial 1238
-error 140: BadRegion request 138 minor 14 serial 1247
-error 140: BadRegion request 138 minor 14 serial 1307
-error 140: BadRegion request 138 minor 14 serial 1316
-error 140: BadRegion request 138 minor 14 serial 1376
-error 140: BadRegion request 138 minor 14 serial 1385
-error 140: BadRegion request 138 minor 14 serial 1445
-error 140: BadRegion request 138 minor 14 serial 1454
+(xfce4-clipman:1385): dbind-WARNING **: 09:05:40.129: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+error 140: BadRegion request 138 minor 14 serial 654
+error 140: BadRegion request 138 minor 14 serial 659
+error 140: BadRegion request 138 minor 14 serial 717
+error 140: BadRegion request 138 minor 14 serial 726
+error 140: BadRegion request 138 minor 14 serial 786
+error 140: BadRegion request 138 minor 14 serial 795
+error 140: BadRegion request 138 minor 14 serial 855
+error 140: BadRegion request 138 minor 14 serial 864
+error 140: BadRegion request 138 minor 14 serial 924
+error 140: BadRegion request 138 minor 14 serial 933
+error 140: BadRegion request 138 minor 14 serial 982
 
-** (xfce4-clipman:153526): WARNING **: 11:44:46.547: Unable to register GApplication: Ya existe un objeto exportado para la interfaz org.gtk.Application en /org/xfce/clipman
+** (xfce4-clipman:1385): WARNING **: 09:05:40.510: Unable to register GApplication: Ya existe un objeto exportado para la interfaz org.gtk.Application en /org/xfce/clipman
 
-(xfce4-clipman:153526): GLib-GIO-CRITICAL **: 11:44:46.548: g_application_get_is_remote: assertion 'application->priv->is_registered' failed
+(xfce4-clipman:1385): GLib-GIO-CRITICAL **: 09:05:40.510: g_application_get_is_remote: assertion 'application->priv->is_registered' failed
 
-(xfce4-clipman:153526): GLib-WARNING **: 11:44:46.548: g_set_application_name() called multiple times
-error 140: BadRegion request 138 minor 14 serial 2012
-error 140: BadRegion request 138 minor 14 serial 2021
-error 140: BadRegion request 138 minor 14 serial 2068
-error 140: BadRegion request 138 minor 14 serial 2077
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 143 minor 1 serial 2102
-error 3: BadWindow (invalid Window parameter) request 129 minor 6 serial 2103
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 2104
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 2105
-error 140: BadRegion request 138 minor 14 serial 2158
-error 140: BadRegion request 138 minor 14 serial 2163
-error 140: BadRegion request 138 minor 14 serial 2191
-error 140: BadRegion request 138 minor 14 serial 2200
+(xfce4-clipman:1385): GLib-WARNING **: 09:05:40.510: g_set_application_name() called multiple times
+error 140: BadRegion request 138 minor 14 serial 1295
+error 140: BadRegion request 138 minor 14 serial 1300
+error 140: BadRegion request 138 minor 14 serial 1343
+error 140: BadRegion request 138 minor 14 serial 1352
 
-(nitrogen:153633): dbind-WARNING **: 11:44:46.629: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+(nitrogen:1474): dbind-WARNING **: 09:05:40.530: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+error 3: BadWindow (invalid Window parameter) request 2 minor 0 serial 1395
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 1396
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 1397
+error 140: BadRegion request 138 minor 14 serial 1441
+error 140: BadRegion request 138 minor 14 serial 1446
+error 140: BadRegion request 138 minor 14 serial 1474
+error 140: BadRegion request 138 minor 14 serial 1483
+error 140: BadRegion request 138 minor 14 serial 1528
+error 140: BadRegion request 138 minor 14 serial 1533
+error 140: BadRegion request 138 minor 14 serial 1591
+error 140: BadRegion request 138 minor 14 serial 1596
+error 140: BadRegion request 138 minor 14 serial 1640
+error 140: BadRegion request 138 minor 14 serial 1649
 
-(xfce4-terminal:154941): dbind-WARNING **: 11:44:54.897: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+(xfce4-terminal:2701): dbind-WARNING **: 09:05:48.185: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 No se pudo conectar con el Gestor se sesiones: No se pudo conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
 
-(xfce4-terminal:154941): VTE-CRITICAL **: 11:44:55.083: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:154941): VTE-CRITICAL **: 11:44:55.083: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:154941): VTE-CRITICAL **: 11:44:55.083: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:154941): VTE-CRITICAL **: 11:44:55.083: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:154941): VTE-CRITICAL **: 11:44:55.083: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:154941): Gdk-CRITICAL **: 11:45:12.258: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
-error 140: BadRegion request 138 minor 14 serial 44742
-error 140: BadRegion request 138 minor 14 serial 44750
-error 140: BadRegion request 138 minor 14 serial 44807
-error 140: BadRegion request 138 minor 14 serial 44812
-error 140: BadRegion request 138 minor 14 serial 44846
-error 140: BadRegion request 138 minor 14 serial 44855
-error 140: BadRegion request 138 minor 14 serial 44891
-error 140: BadRegion request 138 minor 14 serial 44900
-error 140: BadRegion request 138 minor 14 serial 44936
-error 140: BadRegion request 138 minor 14 serial 44945
-error 140: BadRegion request 138 minor 14 serial 44981
-error 140: BadRegion request 138 minor 14 serial 44990
-error 140: BadRegion request 138 minor 14 serial 45026
-error 140: BadRegion request 138 minor 14 serial 45035
-error 140: BadRegion request 138 minor 14 serial 45071
-error 140: BadRegion request 138 minor 14 serial 45080
-error 140: BadRegion request 138 minor 14 serial 45116
-error 140: BadRegion request 138 minor 14 serial 45125
-error 140: BadRegion request 138 minor 14 serial 45161
-error 140: BadRegion request 138 minor 14 serial 45170
-error 140: BadRegion request 138 minor 14 serial 45206
-error 140: BadRegion request 138 minor 14 serial 45215
-error 140: BadRegion request 138 minor 14 serial 45251
-error 140: BadRegion request 138 minor 14 serial 45260
-error 140: BadRegion request 138 minor 14 serial 45296
-error 140: BadRegion request 138 minor 14 serial 45305
-error 140: BadRegion request 138 minor 14 serial 45341
-error 140: BadRegion request 138 minor 14 serial 45350
-
-(xfce4-terminal:209121): dbind-WARNING **: 11:50:35.922: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-No se pudo conectar con el Gestor se sesiones: No se pudo conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:209121): VTE-CRITICAL **: 11:50:36.071: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:209121): VTE-CRITICAL **: 11:50:36.071: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:209121): VTE-CRITICAL **: 11:50:36.071: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:209121): VTE-CRITICAL **: 11:50:36.071: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:209121): VTE-CRITICAL **: 11:50:36.071: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-error 140: BadRegion request 138 minor 14 serial 46564
-error 140: BadRegion request 138 minor 14 serial 46572
-error 140: BadRegion request 138 minor 14 serial 46629
-error 140: BadRegion request 138 minor 14 serial 46634
-error 140: BadRegion request 138 minor 14 serial 46668
-error 140: BadRegion request 138 minor 14 serial 46677
-error 140: BadRegion request 138 minor 14 serial 46713
-error 140: BadRegion request 138 minor 14 serial 46722
-error 140: BadRegion request 138 minor 14 serial 46758
-error 140: BadRegion request 138 minor 14 serial 46767
-error 140: BadRegion request 138 minor 14 serial 46803
-error 140: BadRegion request 138 minor 14 serial 46812
-error 140: BadRegion request 138 minor 14 serial 46848
-error 140: BadRegion request 138 minor 14 serial 46857
-error 140: BadRegion request 138 minor 14 serial 46909
-error 140: BadRegion request 138 minor 14 serial 46918
-error 140: BadRegion request 138 minor 14 serial 46971
-error 140: BadRegion request 138 minor 14 serial 46980
-error 140: BadRegion request 138 minor 14 serial 47016
-error 140: BadRegion request 138 minor 14 serial 47025
-error 140: BadRegion request 138 minor 14 serial 47061
-error 140: BadRegion request 138 minor 14 serial 47070
-error 140: BadRegion request 138 minor 14 serial 47106
-error 140: BadRegion request 138 minor 14 serial 47115
-error 140: BadRegion request 138 minor 14 serial 47151
-error 140: BadRegion request 138 minor 14 serial 47160
-
-(xfce4-terminal:327984): dbind-WARNING **: 12:03:05.755: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-No se pudo conectar con el Gestor se sesiones: No se pudo conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:327984): VTE-CRITICAL **: 12:03:05.912: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:327984): VTE-CRITICAL **: 12:03:05.912: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:327984): VTE-CRITICAL **: 12:03:05.912: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:327984): VTE-CRITICAL **: 12:03:05.912: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:327984): VTE-CRITICAL **: 12:03:05.912: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-[687513:687513:0306/124052.836925:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
-[687377:687525:0306/124052.987503:ERROR:login_database.cc(599)] Password store database is too new, kCurrentVersionNumber=26, GetCompatibleVersionNumber=31
-[687377:687525:0306/124052.989956:ERROR:password_store_default.cc(42)] Could not create/open login database.
-[687377:687525:0306/124052.990035:ERROR:password_store_x.cc(225)] Could not start the migration into the encrypted LoginDatabase because the database failed to initialise.
-[687377:687670:0306/124053.481290:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[687377:687670:0306/124053.481804:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[687377:687670:0306/124053.482170:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-
-(xfce4-terminal:327984): VTE-CRITICAL **: 12:46:04.531: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:327984): VTE-CRITICAL **: 12:46:04.531: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:327984): VTE-CRITICAL **: 12:46:04.531: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:327984): VTE-CRITICAL **: 12:46:04.531: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:327984): VTE-CRITICAL **: 12:46:04.531: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-libpng warning: iCCP: known incorrect sRGB profile
-error 140: BadRegion request 138 minor 14 serial 705203
-error 140: BadRegion request 138 minor 14 serial 705259
-error 140: BadRegion request 138 minor 14 serial 705315
-error 140: BadRegion request 138 minor 14 serial 705371
-error 140: BadRegion request 138 minor 14 serial 705427
-libpng warning: iCCP: known incorrect sRGB profile
-libpng warning: iCCP: known incorrect sRGB profile
-error 140: BadRegion request 138 minor 14 serial 6617702
-error 140: BadRegion request 138 minor 14 serial 6617758
-error 140: BadRegion request 138 minor 14 serial 6617814
-error 140: BadRegion request 138 minor 14 serial 6617870
-error 140: BadRegion request 138 minor 14 serial 6617926
-error 140: BadRegion request 138 minor 14 serial 6617982
-error 140: BadRegion request 138 minor 14 serial 6628729
-error 140: BadRegion request 138 minor 14 serial 6628785
-error 140: BadRegion request 138 minor 14 serial 6628841
-error 140: BadRegion request 138 minor 14 serial 6628897
-error 140: BadRegion request 138 minor 14 serial 6632144
-error 140: BadRegion request 138 minor 14 serial 6632200
-error 140: BadRegion request 138 minor 14 serial 6632256
-error 140: BadRegion request 138 minor 14 serial 6632312
-error 140: BadRegion request 138 minor 14 serial 6632368
-error 140: BadRegion request 138 minor 14 serial 6632424
-error 140: BadRegion request 138 minor 14 serial 6632480
-error 140: BadRegion request 138 minor 14 serial 6636011
-error 140: BadRegion request 138 minor 14 serial 6636067
-error 140: BadRegion request 138 minor 14 serial 6636123
-error 140: BadRegion request 138 minor 14 serial 6636179
-error 140: BadRegion request 138 minor 14 serial 6641497
-error 140: BadRegion request 138 minor 14 serial 6641553
-error 140: BadRegion request 138 minor 14 serial 6641609
-error 140: BadRegion request 138 minor 14 serial 6641665
-error 140: BadRegion request 138 minor 14 serial 6641721
-error 140: BadRegion request 138 minor 14 serial 6641777
-error 140: BadRegion request 138 minor 14 serial 6641833
-error 140: BadRegion request 138 minor 14 serial 6641889
-error 140: BadRegion request 138 minor 14 serial 6645075
-error 140: BadRegion request 138 minor 14 serial 6645131
-error 140: BadRegion request 138 minor 14 serial 6645187
-error 140: BadRegion request 138 minor 14 serial 6645243
-error 140: BadRegion request 138 minor 14 serial 6648840
-error 140: BadRegion request 138 minor 14 serial 6648896
-error 140: BadRegion request 138 minor 14 serial 6648952
-error 140: BadRegion request 138 minor 14 serial 6649008
-error 140: BadRegion request 138 minor 14 serial 6652215
-error 140: BadRegion request 138 minor 14 serial 6652271
-error 140: BadRegion request 138 minor 14 serial 6652327
-error 140: BadRegion request 138 minor 14 serial 6652383
-
-(lxappearance:1131785): dbind-WARNING **: 13:31:32.598: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-error 140: BadRegion request 138 minor 14 serial 6694697
-error 140: BadRegion request 138 minor 14 serial 6694757
-error 140: BadRegion request 138 minor 14 serial 6694817
-error 140: BadRegion request 138 minor 14 serial 6694877
-error 140: BadRegion request 138 minor 14 serial 6694937
-error 140: BadRegion request 138 minor 14 serial 6694997
-error 140: BadRegion request 138 minor 14 serial 6695057
-error 140: BadRegion request 138 minor 14 serial 6695117
-error 140: BadRegion request 138 minor 14 serial 6695177
-error 140: BadRegion request 138 minor 14 serial 6695237
-
-(dbeaver-bin:1134600): dbind-WARNING **: 13:31:50.589: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-
-(java:1134914): dbind-WARNING **: 13:31:54.035: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-2022-03-06 13:31:59.863 - Create display
-2022-03-06 13:32:01.613 - > Start org.jkiss.dbeaver.core [6.1.0.201906091949]
-2022-03-06 13:32:01.717 - DBeaver 6.1.0.201906091949 is starting
-2022-03-06 13:32:01.717 - OS: Linux 5.4.0-54-generic (amd64)
-2022-03-06 13:32:01.718 - Java version: 1.8.0_312 by Private Build (64bit)
-2022-03-06 13:32:01.719 - Install path: '/usr/share/dbeaver'
-2022-03-06 13:32:01.719 - Instance path: 'file:/home/am/.dbeaver4/'
-2022-03-06 13:32:01.720 - Memory available 77Mb/910Mb
-2022-03-06 13:32:01.810 - Starting RMI server at 34803
-2022-03-06 13:32:02.290 - Run workbench
-2022-03-06 13:32:02.369 - > Start org.eclipse.e4.ui.workbench.swt [0.14.500.v20190214-0851]
-2022-03-06 13:32:02.373 - > Start org.eclipse.e4.core.services [2.1.400.v20181215-2145]
-2022-03-06 13:32:02.385 - > Start org.eclipse.e4.core.contexts [1.8.0.v20190214-1713]
-2022-03-06 13:32:02.420 - > Start org.eclipse.e4.ui.services [1.3.400.v20190212-2214]
-2022-03-06 13:32:02.603 - > Start org.eclipse.e4.ui.di [1.2.500.v20190214-1316]
-2022-03-06 13:32:02.860 - > Start org.eclipse.emf.common [2.15.0.v20181220-0846]
-2022-03-06 13:32:02.996 - > Start org.eclipse.emf.ecore [2.17.0.v20190116-0940]
-2022-03-06 13:32:03.198 - > Start org.eclipse.emf.ecore.xmi [2.15.0.v20180706-1146]
-2022-03-06 13:32:03.859 - > Start org.eclipse.core.filesystem [1.7.300.v20190218-2054]
-2022-03-06 13:32:04.079 - > Start org.eclipse.core.resources [3.13.300.v20190218-2054]
-2022-03-06 13:32:04.728 - > Start org.eclipse.e4.ui.workbench.addons.swt [1.3.400.v20190224-1542]
-2022-03-06 13:32:04.803 - > Start org.eclipse.core.expressions [3.6.300.v20190218-1215]
-2022-03-06 13:32:04.909 - > Start org.eclipse.e4.ui.workbench.renderers.swt [0.14.500.v20190220-1002]
-2022-03-06 13:32:05.323 - > Start org.eclipse.e4.ui.bindings [0.12.400.v20190131-1604]
-2022-03-06 13:32:05.565 - > Start org.eclipse.e4.core.di.extensions [0.15.300.v20190213-1308]
-2022-03-06 13:32:07.642 - > Start org.eclipse.e4.ui.css.swt [0.13.400.v20190223-1254]
-2022-03-06 13:32:08.139 - > Start org.eclipse.e4.ui.css.swt.theme [0.12.200.v20190212-2214]
-2022-03-06 13:32:08.833 - > Start org.jkiss.dbeaver.ui [5.1.25.201906091949]
-2022-03-06 13:32:10.878 - Initializing DBeaver 6.1.0
-2022-03-06 13:32:10.879 - Host plugin: org.jkiss.dbeaver.core.application 6.1.0.201906091949
-2022-03-06 13:32:10.881 - Initialize Core...
-2022-03-06 13:32:10.916 - Can't find BC security provider. Use default JCE.
-2022-03-06 13:32:10.918 - BouncyCastle not registered, using the default JCE provider
-2022-03-06 13:32:10.941 - > Start org.jkiss.dbeaver.registry [1.0.4.201906091949]
-2022-03-06 13:32:11.388 - > Start org.eclipse.team.core [3.8.500.v20190216-2155]
-2022-03-06 13:32:11.464 - > Start org.jkiss.dbeaver.ui.navigator [1.0.10.201906091949]
-2022-03-06 13:32:11.929 - Total database drivers: 72 (72)
-2022-03-06 13:32:11.998 - > Start org.eclipse.equinox.security [1.3.100.v20190215-2139]
-2022-03-06 13:32:12.070 - > Start org.eclipse.ui.net [1.3.300.v20180827-1041]
-2022-03-06 13:32:12.071 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
-2022-03-06 13:32:12.072 - > Start org.eclipse.core.net [1.3.400.v20181030-1645]
-2022-03-06 13:32:12.089 - Core initialized (1208ms)
-2022-03-06 13:32:12.090 - Configure workbench window
-2022-03-06 13:32:12.168 - > Start org.eclipse.help [3.8.300.v20190216-1017]
-2022-03-06 13:32:14.364 - Create actions
-2022-03-06 13:32:14.366 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2022-03-06 13:32:14.368 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-Warning: NLS unused message: IDEApplication_workspaceInUse_Cancel in: org.eclipse.ui.internal.ide.messages
-2022-03-06 13:32:14.741 - > Start org.eclipse.ui.editors [3.11.400.v20190218-1547]
-2022-03-06 13:32:14.758 - > Start org.eclipse.core.filebuffers [3.6.500.v20190218-1547]
-2022-03-06 13:32:19.009 - > Start org.eclipse.ui.workbench.texteditor [3.11.300.v20190218-2126]
-2022-03-06 13:32:19.067 - Initialize workbench window
-2022-03-06 13:32:19.130 - Finish initialization
-2022-03-06 13:32:19.329 - > Start org.jkiss.dbeaver.ui.editors.sql [1.0.10.201906091949]
-2022-03-06 13:32:19.366 - > Start org.jkiss.dbeaver.ext.erd [2.0.112.201906091949]
-2022-03-06 13:32:21.133 - > Start org.jkiss.dbeaver.ui.editors.base [1.0.10.201906091949]
-2022-03-06 13:32:22.114 - > Start org.jkiss.dbeaver.model.sql [1.0.0.201906091949]
-2022-03-06 13:32:24.162 - > Start org.eclipse.compare.core [3.6.400.v20190214-2156]
-2022-03-06 13:32:24.399 - > Start org.jkiss.dbeaver.ui.editors.data [1.0.10.201906091949]
-
-(DBeaver:1134914): Gtk-WARNING **: 13:32:24.894: Negative content width -8 (allocation 5, extents 6x7) while allocating gadget (node separator, owner GtkSeparatorToolItem)
-
-(DBeaver:1134914): Gtk-WARNING **: 13:32:24.945: Negative content width -8 (allocation 5, extents 6x7) while allocating gadget (node separator, owner GtkSeparatorToolItem)
-
-(DBeaver:1134914): Gtk-WARNING **: 13:32:24.997: Negative content width -8 (allocation 5, extents 6x7) while allocating gadget (node separator, owner GtkSeparatorToolItem)
-
-(DBeaver:1134914): Gtk-WARNING **: 13:32:25.226: Negative content width -12 (allocation 1, extents 6x7) while allocating gadget (node separator, owner GtkSeparatorToolItem)
-
-(DBeaver:1134914): Gtk-WARNING **: 13:32:25.458: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node scrolledwindow, owner GtkScrolledWindow)
-
-(DBeaver:1134914): Gtk-WARNING **: 13:32:26.341: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node scrolledwindow, owner GtkScrolledWindow)
-error 140: BadRegion request 138 minor 14 serial 6701278
-2022-03-06 13:32:26.897 - > Start org.eclipse.equinox.p2.core [2.6.0.v20190215-2242]
-error 140: BadRegion request 138 minor 14 serial 6701323
-error 140: BadRegion request 138 minor 14 serial 6701368
-error 140: BadRegion request 138 minor 14 serial 6701413
-error 140: BadRegion request 138 minor 14 serial 6701458
-error 140: BadRegion request 138 minor 14 serial 6701503
-2022-03-06 13:32:26.917 - > Start org.eclipse.equinox.p2.operations [2.5.300.v20190202-1801]
-error 140: BadRegion request 138 minor 14 serial 6701548
-error 140: BadRegion request 138 minor 14 serial 6701593
-2022-03-06 13:32:26.955 - > Start org.eclipse.equinox.p2.engine [2.6.200.v20190215-2242]
-2022-03-06 13:32:27.050 - > Start org.eclipse.equinox.p2.metadata [2.4.300.v20190215-2242]
-2022-03-06 13:32:27.173 - > Start org.eclipse.equinox.p2.ui.sdk.scheduler [1.4.200.v20181102-0649]
-2022-03-06 13:32:27.196 - > Start org.eclipse.equinox.p2.updatechecker [1.2.100.v20180827-1122]
-2022-03-06 13:32:27.307 - > Start org.eclipse.equinox.p2.metadata.repository [1.3.100.v20180822-1302]
-2022-03-06 13:32:27.309 - > Start org.eclipse.equinox.p2.repository [2.4.300.v20190215-2242]
-2022-03-06 13:32:28.427 - > Start org.eclipse.equinox.p2.ui [2.5.500.v20190220-1158]
-2022-03-06 13:32:29.319 - > Start org.jkiss.dbeaver.ext.sample.database [1.0.47.201906091949]
-2022-03-06 13:32:29.350 - > Start org.jkiss.dbeaver.ext.ui.tipoftheday [1.0.16.201906091949]
-
-(DBeaver:1134914): Gtk-WARNING **: 13:32:29.419: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node scrolledwindow, owner GtkScrolledWindow)
-2022-03-06 13:32:29.756 - Open [https://dbeaver.io/product/version.xml]
-
-(DBeaver:1134914): Gtk-WARNING **: 13:32:39.755: Negative content width -8 (allocation 5, extents 6x7) while allocating gadget (node separator, owner GtkSeparatorToolItem)
-
-(DBeaver:1134914): Gtk-WARNING **: 13:32:39.818: Negative content width -8 (allocation 5, extents 6x7) while allocating gadget (node separator, owner GtkSeparatorToolItem)
-
-(DBeaver:1134914): Gtk-WARNING **: 13:32:39.862: Negative content width -8 (allocation 5, extents 6x7) while allocating gadget (node separator, owner GtkSeparatorToolItem)
-
-(DBeaver:1134914): Gtk-WARNING **: 13:32:39.916: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node scrolledwindow, owner GtkScrolledWindow)
-
-(DBeaver:1134914): Gtk-WARNING **: 13:32:40.115: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node scrolledwindow, owner GtkScrolledWindow)
-
-(DBeaver:1134914): Gtk-WARNING **: 13:32:40.352: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node scrolledwindow, owner GtkScrolledWindow)
-
-(DBeaver:1134914): Gtk-WARNING **: 13:32:42.650: Negative content width -8 (allocation 5, extents 6x7) while allocating gadget (node separator, owner GtkSeparatorToolItem)
-
-(DBeaver:1134914): Gtk-WARNING **: 13:32:42.673: Negative content width -8 (allocation 5, extents 6x7) while allocating gadget (node separator, owner GtkSeparatorToolItem)
-
-(DBeaver:1134914): Gtk-WARNING **: 13:32:42.686: Negative content width -8 (allocation 5, extents 6x7) while allocating gadget (node separator, owner GtkSeparatorToolItem)
-
-(DBeaver:1134914): Gtk-WARNING **: 13:32:42.759: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node scrolledwindow, owner GtkScrolledWindow)
-
-(DBeaver:1134914): Gtk-WARNING **: 13:32:42.956: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node scrolledwindow, owner GtkScrolledWindow)
-2022-03-06 13:32:43.210 - Connect with 'PostgreSQL - empresa' (postgres-jdbc-17f47954479-35735849b09e0502)
-2022-03-06 13:32:43.229 - > Start org.jkiss.dbeaver.ext.postgresql [2.1.83.201906091949]
-2022-03-06 13:32:43.559 - Initiate connection to PostgreSQL database [empresa@localhost] for Main
-2022-03-06 13:32:43.742 - Connection failed (postgres-jdbc-17f47954479-35735849b09e0502)
-2022-03-06 13:32:43.744 - org.jkiss.dbeaver.model.exec.DBCConnectException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-org.jkiss.dbeaver.model.exec.DBCConnectException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:179)
-	at org.jkiss.dbeaver.ext.postgresql.model.PostgreDataSource.openConnection(PostgreDataSource.java:357)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:89)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:88)
-	at org.jkiss.dbeaver.ext.postgresql.model.PostgreDatabase.checkInstanceConnection(PostgreDatabase.java:195)
-	at org.jkiss.dbeaver.ext.postgresql.model.PostgreDatabase.<init>(PostgreDatabase.java:128)
-	at org.jkiss.dbeaver.ext.postgresql.model.PostgreDataSource.initializeRemoteInstance(PostgreDataSource.java:101)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:100)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:89)
-	at org.jkiss.dbeaver.ext.postgresql.model.PostgreDataSource.<init>(PostgreDataSource.java:75)
-	at org.jkiss.dbeaver.ext.postgresql.PostgreDataSourceProvider.openDataSource(PostgreDataSourceProvider.java:97)
-	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:778)
-	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:70)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:102)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-	at org.postgresql.Driver$ConnectThread.getResult(Driver.java:405)
-	at org.postgresql.Driver.connect(Driver.java:263)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.lambda$0(JDBCDataSource.java:148)
-	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:157)
-	... 14 more
-Caused by: java.net.ConnectException: Conexión rehusada (Connection refused)
-	at java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:607)
-	at org.postgresql.core.PGStream.<init>(PGStream.java:70)
-	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91)
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
-	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
-	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
-	at org.postgresql.Driver.makeConnection(Driver.java:454)
-	at org.postgresql.Driver.access$100(Driver.java:57)
-	at org.postgresql.Driver$ConnectThread.run(Driver.java:364)
-	at java.lang.Thread.run(Thread.java:748)
-error 140: BadRegion request 138 minor 14 serial 6720937
-error 140: BadRegion request 138 minor 14 serial 6720993
-error 140: BadRegion request 138 minor 14 serial 6721049
-error 140: BadRegion request 138 minor 14 serial 6721105
-2022-03-06 13:32:53.100 - DBeaver is stopping
-2022-03-06 13:32:53.100 - Stop RMI server
-error 140: BadRegion request 138 minor 14 serial 6726301
-error 140: BadRegion request 138 minor 14 serial 6726383
-error 140: BadRegion request 138 minor 14 serial 6726431
-error 140: BadRegion request 138 minor 14 serial 6726441
-error 140: BadRegion request 138 minor 14 serial 6726488
-error 140: BadRegion request 138 minor 14 serial 6726498
-error 140: BadRegion request 138 minor 14 serial 6726545
-error 140: BadRegion request 138 minor 14 serial 6726555
-error 140: BadRegion request 138 minor 14 serial 6726602
-error 140: BadRegion request 138 minor 14 serial 6726612
-error 140: BadRegion request 138 minor 14 serial 6726659
-error 140: BadRegion request 138 minor 14 serial 6726669
-2022-03-06 13:32:53.604 - < Stop org.jkiss.dbeaver.ext.mssql.ui [1.0.9.201906091949]
-2022-03-06 13:32:53.605 - < Stop org.jkiss.dbeaver.ext.mssql [1.0.104.201906091949]
-2022-03-06 13:32:53.605 - < Stop org.jkiss.dbeaver.ext.oracle [2.1.95.201906091949]
-2022-03-06 13:32:53.608 - Shutdown Core...
-2022-03-06 13:32:54.504 - Shutdown completed in 896ms
-error 140: BadRegion request 138 minor 14 serial 6733708
-error 140: BadRegion request 138 minor 14 serial 6733756
-error 140: BadRegion request 138 minor 14 serial 6733766
-error 140: BadRegion request 138 minor 14 serial 6733813
-error 140: BadRegion request 138 minor 14 serial 6733823
-error 140: BadRegion request 138 minor 14 serial 6733870
-error 140: BadRegion request 138 minor 14 serial 6733880
-error 140: BadRegion request 138 minor 14 serial 6733927
-error 140: BadRegion request 138 minor 14 serial 6733937
-error 140: BadRegion request 138 minor 14 serial 6804699
-error 140: BadRegion request 138 minor 14 serial 6804747
-error 140: BadRegion request 138 minor 14 serial 6804757
-error 140: BadRegion request 138 minor 14 serial 6804804
-error 140: BadRegion request 138 minor 14 serial 6804814
-error 140: BadRegion request 138 minor 14 serial 6804861
-error 140: BadRegion request 138 minor 14 serial 6804871
-error 140: BadRegion request 138 minor 14 serial 6804918
-error 140: BadRegion request 138 minor 14 serial 6804928
-003e:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003e:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003e:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003e:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003e:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003e:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003e:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003e:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003e:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003e:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003e:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003e:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003e:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003e:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003e:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-error 140: BadRegion request 138 minor 14 serial 6806071
-error 140: BadRegion request 138 minor 14 serial 6806125
-error 140: BadRegion request 138 minor 14 serial 6806179
-error 140: BadRegion request 138 minor 14 serial 6806233
-error 140: BadRegion request 138 minor 14 serial 6806287
-error 140: BadRegion request 138 minor 14 serial 6806320
-error 140: BadRegion request 138 minor 14 serial 6806370
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 01400002
-0050:err:service:process_send_command service protocol error - failed to read pipe r = 0  count = 0!
-003e:err:d3d:resource_unload Resource 0xc804bd0 is being unloaded while mapped.
-003e:err:d3d:resource_unload Resource 0xc804e80 is being unloaded while mapped.
-003e:err:d3d:resource_unload Resource 0xc805130 is being unloaded while mapped.
-003e:err:d3d:resource_unload Resource 0xc75b010 is being unloaded while mapped.
-003e:err:d3d:resource_unload Resource 0xc75b200 is being unloaded while mapped.
-003e:err:d3d:resource_unload Resource 0xc7938d0 is being unloaded while mapped.
-003e:err:d3d:resource_unload Resource 0xc138d90 is being unloaded while mapped.
-003e:err:d3d:resource_unload Resource 0xc1eef30 is being unloaded while mapped.
-003e:err:d3d:resource_unload Resource 0xc1ef120 is being unloaded while mapped.
-003e:err:d3d:resource_unload Resource 0xbae84f0 is being unloaded while mapped.
-003e:err:d3d:resource_unload Resource 0xbae87a0 is being unloaded while mapped.
-003e:err:d3d:resource_unload Resource 0xc793370 is being unloaded while mapped.
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 01400011
-error 140: BadRegion request 138 minor 14 serial 6958362
-error 140: BadRegion request 138 minor 14 serial 6958411
-error 140: BadRegion request 138 minor 14 serial 6958456
-error 140: BadRegion request 138 minor 14 serial 6958501
-
-(xfce4-terminal:327984): Gdk-CRITICAL **: 14:17:53.231: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 7085982
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 7085983
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 7086712
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 14:18:46.941: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 14:18:50.886: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-[libi3] ../../i3/libi3/font.c Using Pango font Sans, size 8
-
-(process:153386): Pango-CRITICAL **: 14:51:51.364: pango_font_description_set_size: assertion 'size >= 0' failed
-03/06/2022 02:51:51 PM - ERROR: Received ConfigureNotify for unknown window 0x00800000
-03/06/2022 02:51:51 PM - ERROR: Received ConfigureNotify for unknown window 0x00800000
-03/06/2022 02:51:51 PM - ERROR: Received ConfigureNotify for unknown window 0x00800001
-03/06/2022 02:51:51 PM - ERROR: Received ConfigureNotify for unknown window 0x00800001
-03/06/2022 02:51:51 PM - ERROR: Received ExposeEvent for unknown window 0x00800002
-03/06/2022 02:51:51 PM - ERROR: Received ConfigureNotify for unknown window 0x00800002
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 143 minor 1 serial 7264641
-error 3: BadWindow (invalid Window parameter) request 129 minor 6 serial 7264642
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 7264643
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 7264644
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 01400029
-error 140: BadRegion request 138 minor 14 serial 7414357
-error 140: BadRegion request 138 minor 14 serial 7414404
-error 140: BadRegion request 138 minor 14 serial 7414451
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 143 minor 1 serial 7414574
-error 3: BadWindow (invalid Window parameter) request 129 minor 6 serial 7414575
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 7414576
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 7414577
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 0140002d
-error 140: BadRegion request 138 minor 14 serial 7414708
-error 140: BadRegion request 138 minor 14 serial 7414736
-error 140: BadRegion request 138 minor 14 serial 7414781
-error 140: BadRegion request 138 minor 14 serial 7414820
-error 140: BadRegion request 138 minor 14 serial 7414865
-error 140: BadRegion request 138 minor 14 serial 7414902
-error 140: BadRegion request 138 minor 14 serial 7414939
-error 140: BadRegion request 138 minor 14 serial 7414967
-error 140: BadRegion request 138 minor 14 serial 7415000
-error 140: BadRegion request 138 minor 14 serial 7415037
-error 140: BadRegion request 138 minor 14 serial 7415074
-error 140: BadRegion request 138 minor 14 serial 7415111
-[1914490:1914490:0306/150522.244793:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
-[1913722:1914609:0306/150524.219097:ERROR:login_database.cc(599)] Password store database is too new, kCurrentVersionNumber=26, GetCompatibleVersionNumber=31
-[1913722:1914609:0306/150524.219349:ERROR:password_store_default.cc(42)] Could not create/open login database.
-[1913722:1914609:0306/150524.219376:ERROR:password_store_x.cc(225)] Could not start the migration into the encrypted LoginDatabase because the database failed to initialise.
-[1913722:1915420:0306/150528.701129:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[1913722:1915420:0306/150528.701591:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[1913722:1915420:0306/150528.701931:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 15:08:14.915: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 17:06:54.420: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(thunar:3058016): dbind-WARNING **: 17:07:58.687: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-
-(evince:3061353): dbind-WARNING **: 17:08:19.455: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 9058618
-002b:err:clipboard:convert_selection Timed out waiting for SelectionNotify event
-002f:err:mscoree:CLRRuntimeInfo_GetRuntimeDirectory error reading registry key for installroot
-002f:err:ole:StdMarshalImpl_ReleaseMarshalData could not map object ID to stub manager, oxid=2e0000002f, oid=2
-002f:err:ole:CoReleaseMarshalData IMarshal::ReleaseMarshalData failed with error 0x8001011d
-error 140: BadRegion request 138 minor 14 serial 9206743
-error 140: BadRegion request 138 minor 14 serial 9206804
-error 140: BadRegion request 138 minor 14 serial 9206875
-002f:err:ole:StdMarshalImpl_ReleaseMarshalData could not map object ID to stub manager, oxid=2e0000002f, oid=9
-002f:err:ole:CoReleaseMarshalData IMarshal::ReleaseMarshalData failed with error 0x8001011d
-error 140: BadRegion request 138 minor 14 serial 9222741
-002f:err:ole:CoReleaseMarshalData IMarshal::ReleaseMarshalData failed with error 0x8001011d
-error 140: BadRegion request 138 minor 14 serial 9223619
-error 140: BadRegion request 138 minor 14 serial 9223683
-error 140: BadRegion request 138 minor 14 serial 9223747
-error 140: BadRegion request 138 minor 14 serial 9225843
-error 140: BadRegion request 138 minor 14 serial 9225883
-error 140: BadRegion request 138 minor 14 serial 9225923
-error 140: BadRegion request 138 minor 14 serial 9225963
-error 140: BadRegion request 138 minor 14 serial 9226003
-error 140: BadRegion request 138 minor 14 serial 9226043
-error 140: BadRegion request 138 minor 14 serial 9243378
-error 140: BadRegion request 138 minor 14 serial 9243433
-error 140: BadRegion request 138 minor 14 serial 9243488
-error 140: BadRegion request 138 minor 14 serial 9243996
-error 140: BadRegion request 138 minor 14 serial 9244043
-error 140: BadRegion request 138 minor 14 serial 9244053
-error 140: BadRegion request 138 minor 14 serial 9244099
-error 140: BadRegion request 138 minor 14 serial 9244109
-error 140: BadRegion request 138 minor 14 serial 9244172
-error 140: BadRegion request 138 minor 14 serial 9244182
-error 140: BadRegion request 138 minor 14 serial 9244208
-error 140: BadRegion request 138 minor 14 serial 9244214
-
-(xfce4-clipman:153526): GLib-CRITICAL **: 17:21:22.921: Source ID 77 was not found when attempting to remove it
-error 140: BadRegion request 138 minor 14 serial 9248565
-error 140: BadRegion request 138 minor 14 serial 9248612
-error 140: BadRegion request 138 minor 14 serial 9248622
-error 140: BadRegion request 138 minor 14 serial 9248668
-error 140: BadRegion request 138 minor 14 serial 9248678
-error 140: BadRegion request 138 minor 14 serial 9248724
-error 140: BadRegion request 138 minor 14 serial 9248734
-error 140: BadRegion request 138 minor 14 serial 9248780
-error 140: BadRegion request 138 minor 14 serial 9248790
-003d:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003d:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003d:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003d:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003d:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003d:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003d:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003d:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003d:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003d:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003d:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003d:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003d:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003d:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003d:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 9249805
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 01400036
-error 140: BadRegion request 138 minor 14 serial 9249992
-error 140: BadRegion request 138 minor 14 serial 9250021
-error 140: BadRegion request 138 minor 14 serial 9250050
-error 140: BadRegion request 138 minor 14 serial 9250079
-error 140: BadRegion request 138 minor 14 serial 9250108
-error 140: BadRegion request 138 minor 14 serial 9250137
-0039:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-0039:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-0039:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-0039:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-0039:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-0039:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-0039:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-0039:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-0039:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-0039:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-0039:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-0039:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-0039:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-0039:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-0039:err:d3d:wined3d_adapter_find_polyoffset_scale PolygonOffset scale factor detection failed, using fallback value 2^23.
-003d:err:d3d:resource_unload Resource 0xc77a728 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0xc77a950 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0xc7b3020 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0xc7ebf00 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0xc7ec1b0 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0xc7ec460 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0x116f29e0 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0xc80ed00 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0x11191d40 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0xc80f2d0 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0x10993a20 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0x11cda3d8 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0xc6fb728 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0xc6fb918 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0xc6fbbc8 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0xc6fc688 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0xc6fc938 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0xc6fcbe8 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0x12094518 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0x16673e88 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0x1256eb58 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0x174fbb10 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0x12094748 is being unloaded while mapped.
-003d:err:d3d:resource_unload Resource 0x1249e518 is being unloaded while mapped.
-error 140: BadRegion request 138 minor 14 serial 10291345
-error 140: BadRegion request 138 minor 14 serial 10291403
-error 140: BadRegion request 138 minor 14 serial 10291461
-error 140: BadRegion request 138 minor 14 serial 10291519
-error 140: BadRegion request 138 minor 14 serial 10291594
-error 140: BadRegion request 138 minor 14 serial 10291648
-error 140: BadRegion request 138 minor 14 serial 10291706
-error 140: BadRegion request 138 minor 14 serial 10291755
-error 140: BadRegion request 138 minor 14 serial 10291809
-error 140: BadRegion request 138 minor 14 serial 10291867
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 0140003f
-error 140: BadRegion request 138 minor 14 serial 10291925
-error 140: BadRegion request 138 minor 14 serial 10292010
-[libi3] ../../i3/libi3/font.c Using Pango font Sans, size 8
-
-(process:153386): Pango-CRITICAL **: 18:00:35.426: pango_font_description_set_size: assertion 'size >= 0' failed
-03/06/2022 06:00:35 PM - ERROR: Received ConfigureNotify for unknown window 0x00800000
-03/06/2022 06:00:35 PM - ERROR: Received ConfigureNotify for unknown window 0x00800000
-03/06/2022 06:00:35 PM - ERROR: Received ConfigureNotify for unknown window 0x00800001
-03/06/2022 06:00:35 PM - ERROR: Received ConfigureNotify for unknown window 0x00800001
-03/06/2022 06:00:35 PM - ERROR: Received ExposeEvent for unknown window 0x00800002
-03/06/2022 06:00:35 PM - ERROR: Received ConfigureNotify for unknown window 0x00800002
-error 140: BadRegion request 138 minor 14 serial 10352842
-error 140: BadRegion request 138 minor 14 serial 10352898
-error 140: BadRegion request 138 minor 14 serial 10352954
-error 3: BadWindow (invalid Window parameter) request 142 minor 6 serial 10353039
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 10353040
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 0140004f
-error 140: BadRegion request 138 minor 14 serial 10353195
-error 140: BadRegion request 138 minor 14 serial 10353241
-error 140: BadRegion request 138 minor 14 serial 10353270
-error 140: BadRegion request 138 minor 14 serial 10353312
-error 140: BadRegion request 138 minor 14 serial 10353352
-error 140: BadRegion request 138 minor 14 serial 10353394
-error 140: BadRegion request 138 minor 14 serial 10353440
-error 140: BadRegion request 138 minor 14 serial 10353500
-error 140: BadRegion request 138 minor 14 serial 10353546
-error 140: BadRegion request 138 minor 14 serial 10353592
-error 140: BadRegion request 138 minor 14 serial 10353634
-error 140: BadRegion request 138 minor 14 serial 10353680
-error 140: BadRegion request 138 minor 14 serial 10353728
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 10353763
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 18:08:46.063: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 18:11:53.243: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 18:16:23.382: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 18:16:38.814: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 18:17:17.078: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-0027:err:ntdll:RtlpWaitForCriticalSection section 0x7bd017c0 "loader.c: loader_section" wait timed out in thread 0027, blocked by 0026, retrying (60 sec)
-0031:err:ntdll:RtlLeaveCriticalSection section 0x33e8e8 is not acquired
-error 140: BadRegion request 138 minor 14 serial 10499159
-error 140: BadRegion request 138 minor 14 serial 10499196
-error 140: BadRegion request 138 minor 14 serial 10499233
-error 140: BadRegion request 138 minor 14 serial 10499270
-error 140: BadRegion request 138 minor 14 serial 10499307
-error 140: BadRegion request 138 minor 14 serial 10499344
-error 140: BadRegion request 138 minor 14 serial 10499381
-error 140: BadRegion request 138 minor 14 serial 10499418
-error 140: BadRegion request 138 minor 14 serial 10499455
-error 140: BadRegion request 138 minor 14 serial 10499492
-error 140: BadRegion request 138 minor 14 serial 10499529
-error 140: BadRegion request 138 minor 14 serial 10499566
-error 140: BadRegion request 138 minor 14 serial 10499603
-error 140: BadRegion request 138 minor 14 serial 10959270
-error 140: BadRegion request 138 minor 14 serial 10959324
-error 140: BadRegion request 138 minor 14 serial 10959364
-error 140: BadRegion request 138 minor 14 serial 10959418
-error 140: BadRegion request 138 minor 14 serial 10959458
-
-(thunar:3677456): dbind-WARNING **: 18:22:04.980: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-0031:err:mscoree:CLRRuntimeInfo_GetRuntimeDirectory error reading registry key for installroot
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 11867944
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 11867945
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 11869298
-0031:err:tooltips:TOOLTIPS_WindowProc unknown msg 0422 wp=00000000 lp=00000000
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 11900034
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 11900035
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 11901388
-0031:err:tooltips:TOOLTIPS_WindowProc unknown msg 0422 wp=00000000 lp=00000000
-error 140: BadRegion request 138 minor 14 serial 12011953
-error 140: BadRegion request 138 minor 14 serial 12012021
-error 140: BadRegion request 138 minor 14 serial 12012089
-error 140: BadRegion request 138 minor 14 serial 12012145
-error 140: BadRegion request 138 minor 14 serial 12012213
-0031:err:ole:StdMarshalImpl_ReleaseMarshalData could not map object ID to stub manager, oxid=3000000031, oid=2
-0031:err:ole:CoReleaseMarshalData IMarshal::ReleaseMarshalData failed with error 0x8001011d
-error 140: BadRegion request 138 minor 14 serial 12404119
-error 140: BadRegion request 138 minor 14 serial 12404209
-0031:err:ole:CoReleaseMarshalData IMarshal::ReleaseMarshalData failed with error 0x8001011d
-error 140: BadRegion request 138 minor 14 serial 12698401
-error 140: BadRegion request 138 minor 14 serial 12698448
-error 140: BadRegion request 138 minor 14 serial 12698504
-error 140: BadRegion request 138 minor 14 serial 12698560
-error 140: BadRegion request 138 minor 14 serial 12723746
-error 140: BadRegion request 138 minor 14 serial 12723798
-error 140: BadRegion request 138 minor 14 serial 12723873
-error 140: BadRegion request 138 minor 14 serial 12723931
-error 140: BadRegion request 138 minor 14 serial 12723940
-error 140: BadRegion request 138 minor 14 serial 12724062
-error 140: BadRegion request 138 minor 14 serial 12724073
-0031:err:ole:RevokeDragDrop invalid hwnd 0x100b0
-0031:err:ole:CoReleaseMarshalData IMarshal::ReleaseMarshalData failed with error 0x8001011d
-0031:err:ole:CoRevokeClassObject COM was not initialized
-error 140: BadRegion request 138 minor 14 serial 12724980
-error 140: BadRegion request 138 minor 14 serial 12725027
-error 140: BadRegion request 138 minor 14 serial 12725037
-error 140: BadRegion request 138 minor 14 serial 12725083
-error 140: BadRegion request 138 minor 14 serial 12725093
-error 140: BadRegion request 138 minor 14 serial 12725139
-error 140: BadRegion request 138 minor 14 serial 12725149
-error 140: BadRegion request 138 minor 14 serial 12725195
-error 140: BadRegion request 138 minor 14 serial 12725205
-error 140: BadRegion request 138 minor 14 serial 12725251
-error 140: BadRegion request 138 minor 14 serial 12725261
-error 140: BadRegion request 138 minor 14 serial 12725307
-error 140: BadRegion request 138 minor 14 serial 12725317
-
-(thunar:3738214): dbind-WARNING **: 18:28:52.734: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 12757215
-0030:err:mscoree:CLRRuntimeInfo_GetRuntimeDirectory error reading registry key for installroot
-002f:err:ntdll:RtlLeaveCriticalSection section 0x33e8e8 is not acquired
-error 140: BadRegion request 138 minor 14 serial 12805333
-error 140: BadRegion request 138 minor 14 serial 12805393
-error 140: BadRegion request 138 minor 14 serial 12805453
-error 140: BadRegion request 138 minor 14 serial 12805513
-error 140: BadRegion request 138 minor 14 serial 12805573
-error 140: BadRegion request 138 minor 14 serial 12805633
-03/06/2022 06:31:23 PM - [libi3] ERROR: Surface 0x5608799a03b0 is not initialized, skipping drawing.
-03/06/2022 06:31:29 PM - [libi3] ERROR: Surface 0x5608799a03b0 is not initialized, skipping drawing.
-03/06/2022 06:31:30 PM - [libi3] ERROR: Surface 0x5608799a03b0 is not initialized, skipping drawing.
-error 140: BadRegion request 138 minor 14 serial 13458809
-error 140: BadRegion request 138 minor 14 serial 13458878
-error 140: BadRegion request 138 minor 14 serial 13458934
-error 140: BadRegion request 138 minor 14 serial 13459003
-error 140: BadRegion request 138 minor 14 serial 13459072
-error 140: BadRegion request 138 minor 14 serial 13459128
-error 140: BadRegion request 138 minor 14 serial 13459197
-error 140: BadRegion request 138 minor 14 serial 13459253
-error 140: BadRegion request 138 minor 14 serial 13459322
-error 140: BadRegion request 138 minor 14 serial 13459391
-error 140: BadRegion request 138 minor 14 serial 13459447
-002f:err:tooltips:TOOLTIPS_WindowProc unknown msg 0422 wp=00000000 lp=00000000
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 13681721
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 13681722
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 13683131
-error 140: BadRegion request 138 minor 14 serial 13689321
-error 140: BadRegion request 138 minor 14 serial 13689389
-error 140: BadRegion request 138 minor 14 serial 13689457
-error 140: BadRegion request 138 minor 14 serial 13689558
-error 140: BadRegion request 138 minor 14 serial 13689626
-error 140: BadRegion request 138 minor 14 serial 13689694
-error 140: BadRegion request 138 minor 14 serial 13689750
-error 140: BadRegion request 138 minor 14 serial 13689818
-error 140: BadRegion request 138 minor 14 serial 13689886
-error 140: BadRegion request 138 minor 14 serial 13689942
-error 140: BadRegion request 138 minor 14 serial 14716729
-error 140: BadRegion request 138 minor 14 serial 14716790
-002f:err:tooltips:TOOLTIPS_WindowProc unknown msg 0422 wp=00000000 lp=00000000
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 14755069
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 14755070
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 14756479
-error 140: BadRegion request 138 minor 14 serial 15016282
-error 140: BadRegion request 138 minor 14 serial 15016383
-error 140: BadRegion request 138 minor 14 serial 15016451
-error 140: BadRegion request 138 minor 14 serial 15016519
-error 140: BadRegion request 138 minor 14 serial 15016621
-error 140: BadRegion request 138 minor 14 serial 15016689
-error 140: BadRegion request 138 minor 14 serial 15016790
-error 140: BadRegion request 138 minor 14 serial 15016858
-error 140: BadRegion request 138 minor 14 serial 15016926
-error 140: BadRegion request 138 minor 14 serial 15016982
-error 140: BadRegion request 138 minor 14 serial 15017050
-error 140: BadRegion request 138 minor 14 serial 15017106
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 15118742
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 15118743
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 15119972
-002f:err:tooltips:TOOLTIPS_WindowProc unknown msg 0422 wp=00000000 lp=00000000
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 15432224
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 15432225
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 15433746
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 16094869
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 16094870
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 16096723
-error 140: BadRegion request 138 minor 14 serial 16296556
-error 140: BadRegion request 138 minor 14 serial 16296625
-error 140: BadRegion request 138 minor 14 serial 16296681
-error 140: BadRegion request 138 minor 14 serial 16296750
-error 140: BadRegion request 138 minor 14 serial 16296806
-error 140: BadRegion request 138 minor 14 serial 16296875
-error 140: BadRegion request 138 minor 14 serial 16296931
-error 140: BadRegion request 138 minor 14 serial 16809664
-error 140: BadRegion request 138 minor 14 serial 16809732
-error 140: BadRegion request 138 minor 14 serial 16809832
-error 140: BadRegion request 138 minor 14 serial 16809933
-error 140: BadRegion request 138 minor 14 serial 16810001
-error 140: BadRegion request 138 minor 14 serial 16810069
-error 140: BadRegion request 138 minor 14 serial 16810137
-error 140: BadRegion request 138 minor 14 serial 16810205
-error 140: BadRegion request 138 minor 14 serial 16810273
-error 140: BadRegion request 138 minor 14 serial 16810341
-error 140: BadRegion request 138 minor 14 serial 16810409
-error 140: BadRegion request 138 minor 14 serial 16810477
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 17027824
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 17027825
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 17028214
-error 140: BadRegion request 138 minor 14 serial 17183996
-error 140: BadRegion request 138 minor 14 serial 17184064
-error 140: BadRegion request 138 minor 14 serial 17184132
-error 140: BadRegion request 138 minor 14 serial 17184200
-error 140: BadRegion request 138 minor 14 serial 17184268
-error 140: BadRegion request 138 minor 14 serial 17184336
-error 140: BadRegion request 138 minor 14 serial 17184404
-error 140: BadRegion request 138 minor 14 serial 17184460
-error 140: BadRegion request 138 minor 14 serial 17788111
-error 140: BadRegion request 138 minor 14 serial 17788214
-error 140: BadRegion request 138 minor 14 serial 17788282
-error 140: BadRegion request 138 minor 14 serial 17788350
-error 140: BadRegion request 138 minor 14 serial 17788418
-error 140: BadRegion request 138 minor 14 serial 17788486
-error 140: BadRegion request 138 minor 14 serial 17788554
-error 140: BadRegion request 138 minor 14 serial 17788622
-error 140: BadRegion request 138 minor 14 serial 17788690
-error 140: BadRegion request 138 minor 14 serial 17788758
-error 140: BadRegion request 138 minor 14 serial 17788826
-error 140: BadRegion request 138 minor 14 serial 17788894
-error 140: BadRegion request 138 minor 14 serial 17788962
-error 140: BadRegion request 138 minor 14 serial 18800257
-error 140: BadRegion request 138 minor 14 serial 18800368
-error 140: BadRegion request 138 minor 14 serial 18800471
-error 140: BadRegion request 138 minor 14 serial 18800539
-error 140: BadRegion request 138 minor 14 serial 18800607
-error 140: BadRegion request 138 minor 14 serial 18800675
-error 140: BadRegion request 138 minor 14 serial 18800743
-error 140: BadRegion request 138 minor 14 serial 18800811
-error 140: BadRegion request 138 minor 14 serial 18800879
-error 140: BadRegion request 138 minor 14 serial 18800947
-[3828774:3830687:0306/183952.188873:ERROR:login_database.cc(599)] Password store database is too new, kCurrentVersionNumber=26, GetCompatibleVersionNumber=31
-[3828774:3830687:0306/183952.189183:ERROR:password_store_default.cc(42)] Could not create/open login database.
-[3828774:3830687:0306/183952.189220:ERROR:password_store_x.cc(225)] Could not start the migration into the encrypted LoginDatabase because the database failed to initialise.
-[3828774:3831271:0306/183955.749333:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[3828774:3831271:0306/183955.751634:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[3828774:3831271:0306/183955.755197:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 18:40:19.755: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 18:40:37.362: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-03/06/2022 06:40:57 PM - [libi3] ERROR: Surface 0x5608799a03b0 is not initialized, skipping drawing.
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 18:41:14.369: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-03/06/2022 06:41:26 PM - [libi3] ERROR: Surface 0x5608799a03b0 is not initialized, skipping drawing.
-error 140: BadRegion request 138 minor 14 serial 19111882
-error 140: BadRegion request 138 minor 14 serial 19111982
-error 140: BadRegion request 138 minor 14 serial 19112083
-error 140: BadRegion request 138 minor 14 serial 19112151
-error 140: BadRegion request 138 minor 14 serial 19112219
-error 140: BadRegion request 138 minor 14 serial 19112275
-error 140: BadRegion request 138 minor 14 serial 19112343
-error 140: BadRegion request 138 minor 14 serial 19112411
-error 140: BadRegion request 138 minor 14 serial 19112479
-error 140: BadRegion request 138 minor 14 serial 19112535
-error 140: BadRegion request 138 minor 14 serial 20275296
-error 140: BadRegion request 138 minor 14 serial 20275352
-error 140: BadRegion request 138 minor 14 serial 20275421
-error 140: BadRegion request 138 minor 14 serial 20275490
-error 140: BadRegion request 138 minor 14 serial 20275546
-error 140: BadRegion request 138 minor 14 serial 20275615
-error 140: BadRegion request 138 minor 14 serial 20275671
-error 140: BadRegion request 138 minor 14 serial 20275740
-error 140: BadRegion request 138 minor 14 serial 20275796
-03/06/2022 06:44:06 PM - [libi3] ERROR: Surface 0x5608799a03b0 is not initialized, skipping drawing.
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 20368810
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 20368811
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 20370388
-002f:err:tooltips:TOOLTIPS_WindowProc unknown msg 0422 wp=00000000 lp=00000000
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 20390521
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 20390522
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 20392009
-03/06/2022 06:44:26 PM - [libi3] ERROR: Surface 0x5608799a03b0 is not initialized, skipping drawing.
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 20541364
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 20541365
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 20542830
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 20568146
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 20568147
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 20569500
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 20593421
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 20593422
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 20594831
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 20620860
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 20620861
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 20622158
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 20654774
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 20654775
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 20656184
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 20675641
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 20675642
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 20676995
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 20775114
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 20775115
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 20776524
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 20790664
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 20790665
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 20792332
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 20815708
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 20815709
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 20817118
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 20838241
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 20838242
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 20839651
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 20858283
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 20858284
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 20859749
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 20899434
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 20899435
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 20900844
-03/06/2022 06:45:06 PM - [libi3] ERROR: Surface 0x5608799a03b0 is not initialized, skipping drawing.
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21035508
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21035509
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21036862
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21068240
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21068241
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21069650
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21123632
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21123633
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21124986
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21162993
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21162994
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21164347
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21195896
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21195897
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21197250
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21264122
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21264123
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21265588
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21309299
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21309300
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21310709
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21429228
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21429229
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21430862
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21452043
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21452044
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21453453
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21488639
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21488640
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21489993
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21526648
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21526649
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21528058
-03/06/2022 06:46:31 PM - [libi3] ERROR: Surface 0x5608799a03b0 is not initialized, skipping drawing.
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21708291
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21708292
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21709701
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21741272
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21741273
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21742514
-error 140: BadRegion request 138 minor 14 serial 21754785
-error 140: BadRegion request 138 minor 14 serial 21754872
-error 140: BadRegion request 138 minor 14 serial 21754992
-error 140: BadRegion request 138 minor 14 serial 21756387
-error 140: BadRegion request 138 minor 14 serial 21756474
-error 140: BadRegion request 138 minor 14 serial 21756587
-error 140: BadRegion request 138 minor 14 serial 21758249
-error 140: BadRegion request 138 minor 14 serial 21758317
-error 140: BadRegion request 138 minor 14 serial 21758404
-error 140: BadRegion request 138 minor 14 serial 21758524
-error 140: BadRegion request 138 minor 14 serial 21758604
-error 140: BadRegion request 138 minor 14 serial 21758684
-error 140: BadRegion request 138 minor 14 serial 21758760
-error 140: BadRegion request 138 minor 14 serial 21758853
-error 140: BadRegion request 138 minor 14 serial 21760267
-error 140: BadRegion request 138 minor 14 serial 21760335
-error 140: BadRegion request 138 minor 14 serial 21760422
-error 140: BadRegion request 138 minor 14 serial 21760542
-error 140: BadRegion request 138 minor 14 serial 21760613
-error 140: BadRegion request 138 minor 14 serial 21760706
-error 140: BadRegion request 138 minor 14 serial 21760775
-error 140: BadRegion request 138 minor 14 serial 21760868
-error 140: BadRegion request 138 minor 14 serial 21760961
-error 140: BadRegion request 138 minor 14 serial 21761054
-error 140: BadRegion request 138 minor 14 serial 21761147
-error 140: BadRegion request 138 minor 14 serial 21762481
-error 140: BadRegion request 138 minor 14 serial 21762568
-error 140: BadRegion request 138 minor 14 serial 21762681
-error 140: BadRegion request 138 minor 14 serial 21762774
-error 140: BadRegion request 138 minor 14 serial 21762867
-error 140: BadRegion request 138 minor 14 serial 21762936
-error 140: BadRegion request 138 minor 14 serial 21764354
-error 140: BadRegion request 138 minor 14 serial 21764447
-error 140: BadRegion request 138 minor 14 serial 21764518
-error 140: BadRegion request 138 minor 14 serial 21764611
-error 140: BadRegion request 138 minor 14 serial 21764704
-error 140: BadRegion request 138 minor 14 serial 21766014
-error 140: BadRegion request 138 minor 14 serial 21766101
-error 140: BadRegion request 138 minor 14 serial 21766221
-error 140: BadRegion request 138 minor 14 serial 21766292
-error 140: BadRegion request 138 minor 14 serial 21766385
-error 140: BadRegion request 138 minor 14 serial 21766478
-error 140: BadRegion request 138 minor 14 serial 21766547
-error 140: BadRegion request 138 minor 14 serial 21766640
-error 140: BadRegion request 138 minor 14 serial 21766733
-error 140: BadRegion request 138 minor 14 serial 21766826
-error 140: BadRegion request 138 minor 14 serial 21766919
-error 140: BadRegion request 138 minor 14 serial 21767012
-error 140: BadRegion request 138 minor 14 serial 21767105
-error 140: BadRegion request 138 minor 14 serial 21767198
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21825561
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21825562
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21826803
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21850467
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21850468
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21851877
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21864789
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21864790
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21866199
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21871855
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21871856
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21873265
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21887617
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21887618
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21889027
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21921806
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21921807
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21923160
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21942160
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21942161
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21943626
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21963498
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21963499
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21964908
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21977484
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21977485
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21978838
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 21998314
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 21998315
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 21999668
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 22017252
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 22017253
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 22018662
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 22043238
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 22043239
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 22044568
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 22055160
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 22055161
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 22056682
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 22146702
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 22146703
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 22148112
-error 140: BadRegion request 138 minor 14 serial 22222195
-error 140: BadRegion request 138 minor 14 serial 22222263
-error 140: BadRegion request 138 minor 14 serial 22222319
-error 140: BadRegion request 138 minor 14 serial 22222387
-error 140: BadRegion request 138 minor 14 serial 22222455
-error 140: BadRegion request 138 minor 14 serial 22222511
-error 140: BadRegion request 138 minor 14 serial 22222579
-error 140: BadRegion request 138 minor 14 serial 22222647
-error 140: BadRegion request 138 minor 14 serial 22222703
-error 140: BadRegion request 138 minor 14 serial 22222771
-error 140: BadRegion request 138 minor 14 serial 22222827
-error 140: BadRegion request 138 minor 14 serial 22222895
-error 140: BadRegion request 138 minor 14 serial 22222951
-error 140: BadRegion request 138 minor 14 serial 22223019
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 22257562
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 22257563
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 22259196
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 22274220
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 22274221
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 22275686
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 22477577
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 22477578
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 22478676
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 22496368
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 22496369
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 22497812
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 22531955
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 22531956
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 22533589
-error 140: BadRegion request 138 minor 14 serial 23108396
-error 140: BadRegion request 138 minor 14 serial 23108497
-error 140: BadRegion request 138 minor 14 serial 23108565
-error 140: BadRegion request 138 minor 14 serial 23108633
-error 140: BadRegion request 138 minor 14 serial 23108701
-error 140: BadRegion request 138 minor 14 serial 23108769
-error 140: BadRegion request 138 minor 14 serial 23108837
-error 140: BadRegion request 138 minor 14 serial 23108905
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 23252609
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 23252610
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 23254243
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 23302068
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 23302069
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 23303646
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 23350998
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 23350999
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 23352128
-error 140: BadRegion request 138 minor 14 serial 23926239
-error 140: BadRegion request 138 minor 14 serial 23926332
-error 140: BadRegion request 138 minor 14 serial 23926425
-error 140: BadRegion request 138 minor 14 serial 23926493
-error 140: BadRegion request 138 minor 14 serial 23926586
-error 140: BadRegion request 138 minor 14 serial 23926652
-error 140: BadRegion request 138 minor 14 serial 23941232
-error 140: BadRegion request 138 minor 14 serial 24070839
-error 140: BadRegion request 138 minor 14 serial 24070907
-error 140: BadRegion request 138 minor 14 serial 24071010
-error 140: BadRegion request 138 minor 14 serial 24071078
-error 140: BadRegion request 138 minor 14 serial 24071146
-error 140: BadRegion request 138 minor 14 serial 24071202
-error 140: BadRegion request 138 minor 14 serial 24071270
-error 140: BadRegion request 138 minor 14 serial 24071338
-error 140: BadRegion request 138 minor 14 serial 24071394
-error 140: BadRegion request 138 minor 14 serial 24071462
-error 140: BadRegion request 138 minor 14 serial 24071518
-error 140: BadRegion request 138 minor 14 serial 24071586
-error 140: BadRegion request 138 minor 14 serial 24071654
-error 140: BadRegion request 138 minor 14 serial 24071710
-error 140: BadRegion request 138 minor 14 serial 25032217
-error 140: BadRegion request 138 minor 14 serial 25032285
-error 140: BadRegion request 138 minor 14 serial 25032385
-error 140: BadRegion request 138 minor 14 serial 25032486
-error 140: BadRegion request 138 minor 14 serial 25032554
-error 140: BadRegion request 138 minor 14 serial 25032622
-error 140: BadRegion request 138 minor 14 serial 25032690
-error 140: BadRegion request 138 minor 14 serial 25032758
-error 140: BadRegion request 138 minor 14 serial 25032826
-error 140: BadRegion request 138 minor 14 serial 25472666
-error 140: BadRegion request 138 minor 14 serial 25472769
-error 140: BadRegion request 138 minor 14 serial 25472837
-error 140: BadRegion request 138 minor 14 serial 25472905
-error 140: BadRegion request 138 minor 14 serial 25473006
-error 140: BadRegion request 138 minor 14 serial 25473074
-error 140: BadRegion request 138 minor 14 serial 25473142
-error 140: BadRegion request 138 minor 14 serial 25473210
-error 140: BadRegion request 138 minor 14 serial 25473278
-error 140: BadRegion request 138 minor 14 serial 25473346
-error 140: BadRegion request 138 minor 14 serial 25642583
-error 140: BadRegion request 138 minor 14 serial 25642686
-error 140: BadRegion request 138 minor 14 serial 25642754
-error 140: BadRegion request 138 minor 14 serial 25642822
-error 140: BadRegion request 138 minor 14 serial 25642890
-error 140: BadRegion request 138 minor 14 serial 25642958
-error 140: BadRegion request 138 minor 14 serial 25643026
-error 140: BadRegion request 138 minor 14 serial 25643082
-002f:err:tooltips:TOOLTIPS_WindowProc unknown msg 0422 wp=00000000 lp=00000000
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 26648967
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 26648968
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 26650421
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 143 minor 1 serial 26858741
-error 3: BadWindow (invalid Window parameter) request 129 minor 6 serial 26858742
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 26858743
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 26858744
-002f:err:ole:RevokeDragDrop invalid hwnd 0x100b0
-002f:err:ole:CoReleaseMarshalData IMarshal::ReleaseMarshalData failed with error 0x8001011d
-002f:err:ole:CoRevokeClassObject COM was not initialized
-0030:err:ole:StdMarshalImpl_ReleaseMarshalData could not map object ID to stub manager, oxid=2f00000030, oid=2
-0030:err:ole:CoReleaseMarshalData IMarshal::ReleaseMarshalData failed with error 0x8001011d
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 26860951
-error 140: BadRegion request 138 minor 14 serial 26861163
-error 140: BadRegion request 138 minor 14 serial 26861218
-error 140: BadRegion request 138 minor 14 serial 26861295
-error 140: BadRegion request 138 minor 14 serial 26861350
-error 140: BadRegion request 138 minor 14 serial 26861405
-0030:err:ole:CoReleaseMarshalData IMarshal::ReleaseMarshalData failed with error 0x8001011d
-error 140: BadRegion request 138 minor 14 serial 26861876
-error 140: BadRegion request 138 minor 14 serial 26861958
-error 140: BadRegion request 138 minor 14 serial 26862005
-error 140: BadRegion request 138 minor 14 serial 26862015
-error 140: BadRegion request 138 minor 14 serial 26862061
-error 140: BadRegion request 138 minor 14 serial 26862071
-error 140: BadRegion request 138 minor 14 serial 26862117
-error 140: BadRegion request 138 minor 14 serial 26862127
-error 140: BadRegion request 138 minor 14 serial 26862173
-error 140: BadRegion request 138 minor 14 serial 26862183
-error 140: BadRegion request 138 minor 14 serial 26862229
-error 140: BadRegion request 138 minor 14 serial 26862239
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 19:20:32.849: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 19:20:48.231: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-[3828774:258925:0306/195052.261689:ERROR:indexed_db_factory_impl.cc(940)] IndexedDB backing store had unknown schema, treating it as failure to open.
-[3828774:258925:0306/195052.261875:ERROR:indexed_db_factory_impl.cc(729)] Got corruption for https://www.genbeta.com, Unknown corruption
-[3828774:258925:0306/195052.294583:ERROR:indexed_db_factory_impl.cc(863)] IndexedDB recovering from a corrupted (and deleted) database.
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 19:53:12.534: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-error 140: BadRegion request 138 minor 14 serial 27318765
-error 140: BadRegion request 138 minor 14 serial 27318820
-error 140: BadRegion request 138 minor 14 serial 27318875
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 20:01:16.010: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 20:01:17.008: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 20:01:18.918: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-error 140: BadRegion request 138 minor 14 serial 27442445
-error 140: BadRegion request 138 minor 14 serial 27442536
-error 140: BadRegion request 138 minor 14 serial 27442596
-error 140: BadRegion request 138 minor 14 serial 27442656
-error 140: BadRegion request 138 minor 14 serial 27442716
-error 140: BadRegion request 138 minor 14 serial 27442776
-error 140: BadRegion request 138 minor 14 serial 27442836
-error 140: BadRegion request 138 minor 14 serial 27442896
-error 140: BadRegion request 138 minor 14 serial 27442956
-error 140: BadRegion request 138 minor 14 serial 27445558
-error 140: BadRegion request 138 minor 14 serial 27445634
-error 140: BadRegion request 138 minor 14 serial 27445726
-error 140: BadRegion request 138 minor 14 serial 27445812
-error 140: BadRegion request 138 minor 14 serial 27445872
-error 140: BadRegion request 138 minor 14 serial 27445932
-error 140: BadRegion request 138 minor 14 serial 27445992
-error 140: BadRegion request 138 minor 14 serial 27446052
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 20:02:25.553: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:153526): Gdk-CRITICAL **: 20:02:27.103: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(thunar:432120): dbind-WARNING **: 20:07:02.434: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-
-(xfce4-clipman:153526): GLib-CRITICAL **: 20:07:10.935: Source ID 278 was not found when attempting to remove it
-error 140: BadRegion request 138 minor 14 serial 27564673
-error 140: BadRegion request 138 minor 14 serial 27564725
-error 140: BadRegion request 138 minor 14 serial 27564777
-error 140: BadRegion request 138 minor 14 serial 27564829
-error 140: BadRegion request 138 minor 14 serial 27564881
-error 140: BadRegion request 138 minor 14 serial 27564933
-error 140: BadRegion request 138 minor 14 serial 27569188
-error 140: BadRegion request 138 minor 14 serial 27569240
-error 140: BadRegion request 138 minor 14 serial 27569292
-error 140: BadRegion request 138 minor 14 serial 27569344
-error 140: BadRegion request 138 minor 14 serial 27569396
-error 140: BadRegion request 138 minor 14 serial 27569448
-error 140: BadRegion request 138 minor 14 serial 27569500
-error 140: BadRegion request 138 minor 14 serial 27569552
-
-(xarchiver:434635): dbind-WARNING **: 20:07:18.666: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+(xfce4-terminal:2701): VTE-CRITICAL **: 09:05:48.337: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:2701): VTE-CRITICAL **: 09:05:48.337: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:2701): VTE-CRITICAL **: 09:05:48.337: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:2701): VTE-CRITICAL **: 09:05:48.338: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:2701): VTE-CRITICAL **: 09:05:48.338: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+[119533:121088:0318/091813.699736:ERROR:login_database.cc(599)] Password store database is too new, kCurrentVersionNumber=26, GetCompatibleVersionNumber=31
+[119533:121088:0318/091813.699939:ERROR:password_store_default.cc(42)] Could not create/open login database.
+[119533:121088:0318/091813.699962:ERROR:password_store_x.cc(225)] Could not start the migration into the encrypted LoginDatabase because the database failed to initialise.
+[119533:121815:0318/091818.100404:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[119533:121815:0318/091818.100805:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[119533:121815:0318/091818.106726:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 62448
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 09:24:31.545: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+error 140: BadRegion request 138 minor 14 serial 166958
+error 140: BadRegion request 138 minor 14 serial 167013
+error 140: BadRegion request 138 minor 14 serial 167068
+error 140: BadRegion request 138 minor 14 serial 167123
+error 140: BadRegion request 138 minor 14 serial 167178
+
+(thunar:215132): dbind-WARNING **: 09:28:17.291: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(evince:218180): dbind-WARNING **: 09:28:36.980: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 09:34:38.797: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 09:37:23.840: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+error 140: BadRegion request 138 minor 14 serial 297684
+
+(xfce4-clipman:1385): GLib-CRITICAL **: 09:40:10.341: Source ID 67 was not found when attempting to remove it
+error 140: BadRegion request 138 minor 14 serial 413971
+error 140: BadRegion request 138 minor 14 serial 414026
+error 140: BadRegion request 138 minor 14 serial 414081
+error 140: BadRegion request 138 minor 14 serial 415683
+error 140: BadRegion request 138 minor 14 serial 415730
+error 140: BadRegion request 138 minor 14 serial 415740
+error 140: BadRegion request 138 minor 14 serial 415786
+error 140: BadRegion request 138 minor 14 serial 415796
+error 140: BadRegion request 138 minor 14 serial 415842
+error 140: BadRegion request 138 minor 14 serial 415852
+error 140: BadRegion request 138 minor 14 serial 415898
+error 140: BadRegion request 138 minor 14 serial 415908
+error 140: BadRegion request 138 minor 14 serial 415954
+error 140: BadRegion request 138 minor 14 serial 415964
+error 140: BadRegion request 138 minor 14 serial 416010
+error 140: BadRegion request 138 minor 14 serial 416020
+error 140: BadRegion request 138 minor 14 serial 416066
+error 140: BadRegion request 138 minor 14 serial 416076
+
+(xfce4-terminal:2701): VTE-CRITICAL **: 10:15:02.482: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:2701): VTE-CRITICAL **: 10:15:02.482: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:2701): VTE-CRITICAL **: 10:15:02.483: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:2701): VTE-CRITICAL **: 10:15:02.483: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:2701): VTE-CRITICAL **: 10:15:02.483: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 10:22:31.005: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 10:23:47.311: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 10:26:11.538: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 10:30:31.779: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+libpng warning: Image width is zero in IHDR
+[1020334:1020848:0318/105331.218570:ERROR:audio_rtp_receiver.cc(89)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
+[1020334:1020848:0318/105331.247608:ERROR:audio_rtp_receiver.cc(89)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
+[1020334:1020848:0318/105351.882932:ERROR:audio_rtp_receiver.cc(89)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
+[1020334:1020848:0318/105401.830718:ERROR:audio_rtp_receiver.cc(89)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
+error 140: BadRegion request 138 minor 14 serial 1134539
+error 140: BadRegion request 138 minor 14 serial 1134584
+error 140: BadRegion request 138 minor 14 serial 1134629
+error 140: BadRegion request 138 minor 14 serial 1134674
+error 140: BadRegion request 138 minor 14 serial 1134904
+error 140: BadRegion request 138 minor 14 serial 1134941
+error 140: BadRegion request 138 minor 14 serial 1134978
+error 140: BadRegion request 138 minor 14 serial 1135015
+error 140: BadRegion request 138 minor 14 serial 1135052
+error 140: BadRegion request 138 minor 14 serial 1135089
+error 140: BadRegion request 138 minor 14 serial 1135126
+error 140: BadRegion request 138 minor 14 serial 1135163
+error 140: BadRegion request 138 minor 14 serial 1141176
+error 140: BadRegion request 138 minor 14 serial 1141228
+error 140: BadRegion request 138 minor 14 serial 1141280
+error 140: BadRegion request 138 minor 14 serial 1141332
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 10:56:45.461: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 10:59:30.550: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+error 140: BadRegion request 138 minor 14 serial 1261492
+error 140: BadRegion request 138 minor 14 serial 1261547
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 1275087
+error 140: BadRegion request 138 minor 14 serial 1276707
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:00:39.537: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:03:03.512: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:03:06.777: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:03:07.028: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:03:22.712: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:03:30.957: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:03:34.732: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:03:44.846: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:03:45.570: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:25.936: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:26.411: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:27.139: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:27.523: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:27.937: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:28.951: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:29.969: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:30.260: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:30.518: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:36.261: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:36.512: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:07:37.564: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:09:42.876: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:09:44.316: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:09:47.441: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:09:47.861: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:09:48.471: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:09:48.918: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:09:49.265: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:09:52.514: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:09:55.436: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:00.164: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:01.279: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:02.509: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+error 140: BadRegion request 138 minor 14 serial 1459625
+error 140: BadRegion request 138 minor 14 serial 1459685
+error 140: BadRegion request 138 minor 14 serial 1459733
+error 140: BadRegion request 138 minor 14 serial 1459793
+error 140: BadRegion request 138 minor 14 serial 1459853
+error 140: BadRegion request 138 minor 14 serial 1459913
+error 140: BadRegion request 138 minor 14 serial 1459973
+error 140: BadRegion request 138 minor 14 serial 1460033
+error 140: BadRegion request 138 minor 14 serial 1460093
+error 140: BadRegion request 138 minor 14 serial 1460153
+error 140: BadRegion request 138 minor 14 serial 1460213
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:06.596: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:12.135: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:16.908: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:23.370: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:29.619: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:34.234: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:57.027: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:57.942: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:58.579: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:01.454: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:01.862: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:05.925: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:08.362: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:11.863: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:14.709: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:17.257: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:32.170: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:34.812: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:35.403: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:37.017: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:37.524: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:38.102: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:40.932: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:47.219: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:12:19.346: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:12:21.680: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+error 140: BadRegion request 138 minor 14 serial 1533988
+error 140: BadRegion request 138 minor 14 serial 1534048
+error 140: BadRegion request 138 minor 14 serial 1534108
+error 140: BadRegion request 138 minor 14 serial 1534168
+error 140: BadRegion request 138 minor 14 serial 1534228
+error 140: BadRegion request 138 minor 14 serial 1534288
+error 140: BadRegion request 138 minor 14 serial 1534348
+error 140: BadRegion request 138 minor 14 serial 1534408
+error 140: BadRegion request 138 minor 14 serial 1534468
+error 140: BadRegion request 138 minor 14 serial 1534528
+error 140: BadRegion request 138 minor 14 serial 1534588
+error 140: BadRegion request 138 minor 14 serial 1534648
+error 140: BadRegion request 138 minor 14 serial 1534708
+error 140: BadRegion request 138 minor 14 serial 1534768
+error 140: BadRegion request 138 minor 14 serial 1537448
+error 140: BadRegion request 138 minor 14 serial 1537508
+error 140: BadRegion request 138 minor 14 serial 1537568
+error 140: BadRegion request 138 minor 14 serial 1537628
+error 140: BadRegion request 138 minor 14 serial 1537688
+error 140: BadRegion request 138 minor 14 serial 1537748
+error 140: BadRegion request 138 minor 14 serial 1537796
+error 140: BadRegion request 138 minor 14 serial 1537844
+error 140: BadRegion request 138 minor 14 serial 1537904
+error 140: BadRegion request 138 minor 14 serial 1537952
+error 140: BadRegion request 138 minor 14 serial 1538012
+error 140: BadRegion request 138 minor 14 serial 1538072
+error 140: BadRegion request 138 minor 14 serial 1557441
+error 140: BadRegion request 138 minor 14 serial 1557501
+error 140: BadRegion request 138 minor 14 serial 1557561
+error 140: BadRegion request 138 minor 14 serial 1557621
+error 140: BadRegion request 138 minor 14 serial 1557681
+error 140: BadRegion request 138 minor 14 serial 1557741
+error 140: BadRegion request 138 minor 14 serial 1557898
+error 140: BadRegion request 138 minor 14 serial 1557983
+error 140: BadRegion request 138 minor 14 serial 1558068
+error 140: BadRegion request 138 minor 14 serial 1558153
+error 140: BadRegion request 138 minor 14 serial 1558238
+error 140: BadRegion request 138 minor 14 serial 1559547
+error 140: BadRegion request 138 minor 14 serial 1559607
+error 140: BadRegion request 138 minor 14 serial 1559667
+error 140: BadRegion request 138 minor 14 serial 1559727
+error 140: BadRegion request 138 minor 14 serial 1559787
+error 140: BadRegion request 138 minor 14 serial 1559847
+error 140: BadRegion request 138 minor 14 serial 1559907
+error 140: BadRegion request 138 minor 14 serial 1559967
+error 140: BadRegion request 138 minor 14 serial 1560027
+error 140: BadRegion request 138 minor 14 serial 1560087
+error 140: BadRegion request 138 minor 14 serial 1560147
+error 140: BadRegion request 138 minor 14 serial 1560207
+error 140: BadRegion request 138 minor 14 serial 1560255
+error 140: BadRegion request 138 minor 14 serial 1560303
+error 140: BadRegion request 138 minor 14 serial 1560363
+error 140: BadRegion request 138 minor 14 serial 1563116
+error 140: BadRegion request 138 minor 14 serial 1563164
+error 140: BadRegion request 138 minor 14 serial 1563224
+error 140: BadRegion request 138 minor 14 serial 1563284
+error 140: BadRegion request 138 minor 14 serial 1563344
+error 140: BadRegion request 138 minor 14 serial 1563404
+error 140: BadRegion request 138 minor 14 serial 1563452
+error 140: BadRegion request 138 minor 14 serial 1563512
+error 140: BadRegion request 138 minor 14 serial 1563572
+error 140: BadRegion request 138 minor 14 serial 1563632
+error 140: BadRegion request 138 minor 14 serial 1563692
+error 140: BadRegion request 138 minor 14 serial 1563752
+error 140: BadRegion request 138 minor 14 serial 1563812
+error 140: BadRegion request 138 minor 14 serial 1563872
+error 140: BadRegion request 138 minor 14 serial 1563932
+error 140: BadRegion request 138 minor 14 serial 1566545
+error 140: BadRegion request 138 minor 14 serial 1566605
+error 140: BadRegion request 138 minor 14 serial 1566665
+error 140: BadRegion request 138 minor 14 serial 1566725
+error 140: BadRegion request 138 minor 14 serial 1566785
+error 140: BadRegion request 138 minor 14 serial 1566845
+error 140: BadRegion request 138 minor 14 serial 1566905
+error 140: BadRegion request 138 minor 14 serial 1566958
+error 140: BadRegion request 138 minor 14 serial 1567018
+error 140: BadRegion request 138 minor 14 serial 1567078
+error 140: BadRegion request 138 minor 14 serial 1567138
+error 140: BadRegion request 138 minor 14 serial 1568581
+error 140: BadRegion request 138 minor 14 serial 1568636
+error 140: BadRegion request 138 minor 14 serial 1568691
+error 140: BadRegion request 138 minor 14 serial 1568746
+error 140: BadRegion request 138 minor 14 serial 1568801
+error 140: BadRegion request 138 minor 14 serial 1570911
+error 140: BadRegion request 138 minor 14 serial 1570963
+error 140: BadRegion request 138 minor 14 serial 1571015
+error 140: BadRegion request 138 minor 14 serial 1571067
+error 140: BadRegion request 138 minor 14 serial 1571119
+error 140: BadRegion request 138 minor 14 serial 1571164
+error 140: BadRegion request 138 minor 14 serial 1571216
+error 140: BadRegion request 138 minor 14 serial 1571268
+error 140: BadRegion request 138 minor 14 serial 1571320
+error 140: BadRegion request 138 minor 14 serial 1571372
+error 140: BadRegion request 138 minor 14 serial 1571424
+error 140: BadRegion request 138 minor 14 serial 1571476
+error 140: BadRegion request 138 minor 14 serial 1571721
+error 140: BadRegion request 138 minor 14 serial 1571768
+error 140: BadRegion request 138 minor 14 serial 1571778
+error 140: BadRegion request 138 minor 14 serial 1571824
+error 140: BadRegion request 138 minor 14 serial 1571834
+error 140: BadRegion request 138 minor 14 serial 1571880
+error 140: BadRegion request 138 minor 14 serial 1571890
+error 140: BadRegion request 138 minor 14 serial 1571916
+error 140: BadRegion request 138 minor 14 serial 1571922
+error 140: BadRegion request 138 minor 14 serial 1571968
+error 140: BadRegion request 138 minor 14 serial 1571978
+
+(xfce4-clipman:1385): GLib-CRITICAL **: 11:14:34.249: Source ID 508 was not found when attempting to remove it
+error 140: BadRegion request 138 minor 14 serial 1576094
+error 140: BadRegion request 138 minor 14 serial 1576146
+error 140: BadRegion request 138 minor 14 serial 1576186
+error 140: BadRegion request 138 minor 14 serial 1576238
+error 140: BadRegion request 138 minor 14 serial 1576290
+error 140: BadRegion request 138 minor 14 serial 1576342
+error 140: BadRegion request 138 minor 14 serial 1576394
+error 140: BadRegion request 138 minor 14 serial 1585998
+error 140: BadRegion request 138 minor 14 serial 1586058
+error 140: BadRegion request 138 minor 14 serial 1586118
+error 140: BadRegion request 138 minor 14 serial 1586178
+error 140: BadRegion request 138 minor 14 serial 1586238
+error 140: BadRegion request 138 minor 14 serial 1586298
+error 140: BadRegion request 138 minor 14 serial 1586358
+error 140: BadRegion request 138 minor 14 serial 1586418
+error 140: BadRegion request 138 minor 14 serial 1586478
+error 140: BadRegion request 138 minor 14 serial 1586538
+error 140: BadRegion request 138 minor 14 serial 1586598
+error 140: BadRegion request 138 minor 14 serial 1586658
+error 140: BadRegion request 138 minor 14 serial 1586718
+error 140: BadRegion request 138 minor 14 serial 1586778
+error 140: BadRegion request 138 minor 14 serial 1597141
+error 140: BadRegion request 138 minor 14 serial 1597201
+error 140: BadRegion request 138 minor 14 serial 1597249
+error 140: BadRegion request 138 minor 14 serial 1597309
+error 140: BadRegion request 138 minor 14 serial 1597369
+error 140: BadRegion request 138 minor 14 serial 1597429
+error 140: BadRegion request 138 minor 14 serial 1597489
+error 140: BadRegion request 138 minor 14 serial 1597549
+error 140: BadRegion request 138 minor 14 serial 1597609
+error 140: BadRegion request 138 minor 14 serial 1597657
+error 140: BadRegion request 138 minor 14 serial 1597717
+error 140: BadRegion request 138 minor 14 serial 1597777
+error 140: BadRegion request 138 minor 14 serial 1597837
+error 140: BadRegion request 138 minor 14 serial 1597897
+error 140: BadRegion request 138 minor 14 serial 1597957
+error 140: BadRegion request 138 minor 14 serial 1598017
+error 140: BadRegion request 138 minor 14 serial 1604132
+error 140: BadRegion request 138 minor 14 serial 1604192
+error 140: BadRegion request 138 minor 14 serial 1604252
+error 140: BadRegion request 138 minor 14 serial 1604312
+error 140: BadRegion request 138 minor 14 serial 1604372
+error 140: BadRegion request 138 minor 14 serial 1604432
+error 140: BadRegion request 138 minor 14 serial 1604492
+error 140: BadRegion request 138 minor 14 serial 1604552
+error 140: BadRegion request 138 minor 14 serial 1604612
+error 140: BadRegion request 138 minor 14 serial 1604672
+error 140: BadRegion request 138 minor 14 serial 1604837
+error 140: BadRegion request 138 minor 14 serial 1607020
+error 140: BadRegion request 138 minor 14 serial 1607080
+error 140: BadRegion request 138 minor 14 serial 1607140
+error 140: BadRegion request 138 minor 14 serial 1607200
+error 140: BadRegion request 138 minor 14 serial 1607248
+error 140: BadRegion request 138 minor 14 serial 1607308
+error 140: BadRegion request 138 minor 14 serial 1607368
+error 140: BadRegion request 138 minor 14 serial 1607428
+error 140: BadRegion request 138 minor 14 serial 1607488
+error 140: BadRegion request 138 minor 14 serial 1607548
+error 140: BadRegion request 138 minor 14 serial 1607596
+error 140: BadRegion request 138 minor 14 serial 1607656
+error 140: BadRegion request 138 minor 14 serial 1607716
+error 140: BadRegion request 138 minor 14 serial 1610681
+error 140: BadRegion request 138 minor 14 serial 1610741
+error 140: BadRegion request 138 minor 14 serial 1610801
+error 140: BadRegion request 138 minor 14 serial 1610861
+error 140: BadRegion request 138 minor 14 serial 1610921
+error 140: BadRegion request 138 minor 14 serial 1610981
+error 140: BadRegion request 138 minor 14 serial 1611041
+error 140: BadRegion request 138 minor 14 serial 1611101
+error 140: BadRegion request 138 minor 14 serial 1611161
+error 140: BadRegion request 138 minor 14 serial 1611221
+error 140: BadRegion request 138 minor 14 serial 1611281
+error 140: BadRegion request 138 minor 14 serial 1611341
+error 140: BadRegion request 138 minor 14 serial 1611401
+error 140: BadRegion request 138 minor 14 serial 1611461
+error 140: BadRegion request 138 minor 14 serial 1614584
+error 140: BadRegion request 138 minor 14 serial 1614644
+error 140: BadRegion request 138 minor 14 serial 1614704
+error 140: BadRegion request 138 minor 14 serial 1614764
+error 140: BadRegion request 138 minor 14 serial 1614824
+error 140: BadRegion request 138 minor 14 serial 1614884
+error 140: BadRegion request 138 minor 14 serial 1614944
+error 140: BadRegion request 138 minor 14 serial 1615004
+error 140: BadRegion request 138 minor 14 serial 1615064
+error 140: BadRegion request 138 minor 14 serial 1615124
+error 140: BadRegion request 138 minor 14 serial 1615184
+error 140: BadRegion request 138 minor 14 serial 1615244
+error 140: BadRegion request 138 minor 14 serial 1615304
+error 140: BadRegion request 138 minor 14 serial 1615364
+error 140: BadRegion request 138 minor 14 serial 1619161
+error 140: BadRegion request 138 minor 14 serial 1619209
+error 140: BadRegion request 138 minor 14 serial 1619269
+error 140: BadRegion request 138 minor 14 serial 1619329
+error 140: BadRegion request 138 minor 14 serial 1619389
+error 140: BadRegion request 138 minor 14 serial 1619449
+error 140: BadRegion request 138 minor 14 serial 1619509
+error 140: BadRegion request 138 minor 14 serial 1619569
+error 140: BadRegion request 138 minor 14 serial 1619617
+error 140: BadRegion request 138 minor 14 serial 1619677
+error 140: BadRegion request 138 minor 14 serial 1619737
+error 140: BadRegion request 138 minor 14 serial 1619797
+error 140: BadRegion request 138 minor 14 serial 1619857
+error 140: BadRegion request 138 minor 14 serial 1619917
+error 140: BadRegion request 138 minor 14 serial 1622291
+error 140: BadRegion request 138 minor 14 serial 1622351
+error 140: BadRegion request 138 minor 14 serial 1622411
+error 140: BadRegion request 138 minor 14 serial 1622459
+error 140: BadRegion request 138 minor 14 serial 1622519
+error 140: BadRegion request 138 minor 14 serial 1622579
+error 140: BadRegion request 138 minor 14 serial 1622639
+error 140: BadRegion request 138 minor 14 serial 1622699
+error 140: BadRegion request 138 minor 14 serial 1622759
+error 140: BadRegion request 138 minor 14 serial 1622819
+error 140: BadRegion request 138 minor 14 serial 1622879
+error 140: BadRegion request 138 minor 14 serial 1622939
+error 140: BadRegion request 138 minor 14 serial 1622999
+error 140: BadRegion request 138 minor 14 serial 1623059
+error 140: BadRegion request 138 minor 14 serial 1623119
+error 140: BadRegion request 138 minor 14 serial 1626671
+error 140: BadRegion request 138 minor 14 serial 1626731
+error 140: BadRegion request 138 minor 14 serial 1626791
+error 140: BadRegion request 138 minor 14 serial 1626851
+error 140: BadRegion request 138 minor 14 serial 1626911
+error 140: BadRegion request 138 minor 14 serial 1626971
+error 140: BadRegion request 138 minor 14 serial 1627031
+error 140: BadRegion request 138 minor 14 serial 1627091
+error 140: BadRegion request 138 minor 14 serial 1627151
+error 140: BadRegion request 138 minor 14 serial 1627211
+error 140: BadRegion request 138 minor 14 serial 1627271
+error 140: BadRegion request 138 minor 14 serial 1627331
+error 140: BadRegion request 138 minor 14 serial 1627391
+error 140: BadRegion request 138 minor 14 serial 1630395
+error 140: BadRegion request 138 minor 14 serial 1630455
+error 140: BadRegion request 138 minor 14 serial 1630515
+error 140: BadRegion request 138 minor 14 serial 1630563
+error 140: BadRegion request 138 minor 14 serial 1630623
+error 140: BadRegion request 138 minor 14 serial 1630683
+error 140: BadRegion request 138 minor 14 serial 1630743
+error 140: BadRegion request 138 minor 14 serial 1630803
+error 140: BadRegion request 138 minor 14 serial 1630863
+error 140: BadRegion request 138 minor 14 serial 1630923
+error 140: BadRegion request 138 minor 14 serial 1630983
+error 140: BadRegion request 138 minor 14 serial 1631043
+error 140: BadRegion request 138 minor 14 serial 1631103
+error 140: BadRegion request 138 minor 14 serial 1631163
+error 140: BadRegion request 138 minor 14 serial 1635063
+error 140: BadRegion request 138 minor 14 serial 1635123
+error 140: BadRegion request 138 minor 14 serial 1635183
+error 140: BadRegion request 138 minor 14 serial 1635243
+error 140: BadRegion request 138 minor 14 serial 1635291
+error 140: BadRegion request 138 minor 14 serial 1635339
+error 140: BadRegion request 138 minor 14 serial 1635399
+error 140: BadRegion request 138 minor 14 serial 1635459
+error 140: BadRegion request 138 minor 14 serial 1635512
+error 140: BadRegion request 138 minor 14 serial 1637074
+error 140: BadRegion request 138 minor 14 serial 1637154
+error 140: BadRegion request 138 minor 14 serial 1637234
+error 140: BadRegion request 138 minor 14 serial 1637314
+error 140: BadRegion request 138 minor 14 serial 1638668
+error 140: BadRegion request 138 minor 14 serial 1638720
+error 140: BadRegion request 138 minor 14 serial 1638772
+error 140: BadRegion request 138 minor 14 serial 1638817
+error 140: BadRegion request 138 minor 14 serial 1638869
+error 140: BadRegion request 138 minor 14 serial 1638921
+error 140: BadRegion request 138 minor 14 serial 1638973
+error 140: BadRegion request 138 minor 14 serial 1642354
+error 140: BadRegion request 138 minor 14 serial 1642406
+error 140: BadRegion request 138 minor 14 serial 1642458
+error 140: BadRegion request 138 minor 14 serial 1642510
+error 140: BadRegion request 138 minor 14 serial 1642562
+error 140: BadRegion request 138 minor 14 serial 1642614
+error 140: BadRegion request 138 minor 14 serial 1642654
+error 140: BadRegion request 138 minor 14 serial 1642694
+error 140: BadRegion request 138 minor 14 serial 1642746
+error 140: BadRegion request 138 minor 14 serial 1642798
+error 140: BadRegion request 138 minor 14 serial 1642850
+error 140: BadRegion request 138 minor 14 serial 1642902
+error 140: BadRegion request 138 minor 14 serial 1642954
+error 140: BadRegion request 138 minor 14 serial 1643006
+error 140: BadRegion request 138 minor 14 serial 1643046
+error 140: BadRegion request 138 minor 14 serial 1643086
+error 140: BadRegion request 138 minor 14 serial 1643138
+error 140: BadRegion request 138 minor 14 serial 1643190
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 1646263
+error 140: BadRegion request 138 minor 14 serial 1648072
+error 140: BadRegion request 138 minor 14 serial 1648127
+error 140: BadRegion request 138 minor 14 serial 1648192
+
+(thunar:1240706): dbind-WARNING **: 11:17:10.329: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:17:15.137: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:17:16.010: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-clipman:1385): GLib-CRITICAL **: 11:17:16.607: Source ID 526 was not found when attempting to remove it
+error 140: BadRegion request 138 minor 14 serial 1676209
+error 140: BadRegion request 138 minor 14 serial 1676261
+error 140: BadRegion request 138 minor 14 serial 1676313
+error 140: BadRegion request 138 minor 14 serial 1676365
+error 140: BadRegion request 138 minor 14 serial 1676417
+error 140: BadRegion request 138 minor 14 serial 1676469
+error 140: BadRegion request 138 minor 14 serial 1676521
+error 140: BadRegion request 138 minor 14 serial 1676573
+error 140: BadRegion request 138 minor 14 serial 1676625
+error 140: BadRegion request 138 minor 14 serial 1676677
+error 140: BadRegion request 138 minor 14 serial 1676717
+error 140: BadRegion request 138 minor 14 serial 1676757
+
+(xarchiver:1242991): dbind-WARNING **: 11:17:24.808: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 xarchiver 0.5.4 ©  2005-2014 Giuseppe Torelli
 xarchiver 0.5.4.14 Ingo Brückl
-error 140: BadRegion request 138 minor 14 serial 27571265
-error 140: BadRegion request 138 minor 14 serial 27571317
-error 140: BadRegion request 138 minor 14 serial 27571369
-error 140: BadRegion request 138 minor 14 serial 27571421
-error 140: BadRegion request 138 minor 14 serial 27571473
-error 140: BadRegion request 138 minor 14 serial 27571525
-error 140: BadRegion request 138 minor 14 serial 27571577
-error 140: BadRegion request 138 minor 14 serial 27571629
-error 140: BadRegion request 138 minor 14 serial 27571681
-error 140: BadRegion request 138 minor 14 serial 27571733
 
-(xfce4-terminal:327984): VTE-CRITICAL **: 20:07:29.046: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:17:25.955: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+error 140: BadRegion request 138 minor 14 serial 1682600
+error 140: BadRegion request 138 minor 14 serial 1682693
+error 140: BadRegion request 138 minor 14 serial 1682799
+error 140: BadRegion request 138 minor 14 serial 1682876
+error 140: BadRegion request 138 minor 14 serial 1682953
+error 140: BadRegion request 138 minor 14 serial 1683030
+error 140: BadRegion request 138 minor 14 serial 1683107
+error 140: BadRegion request 138 minor 14 serial 1683184
+error 140: BadRegion request 138 minor 14 serial 1683261
 
-(xfce4-terminal:327984): VTE-CRITICAL **: 20:07:29.063: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+(xfce4-clipman:1385): GLib-CRITICAL **: 11:17:30.663: Source ID 530 was not found when attempting to remove it
+error 140: BadRegion request 138 minor 14 serial 1684385
+error 140: BadRegion request 138 minor 14 serial 1684437
+error 140: BadRegion request 138 minor 14 serial 1684489
+error 140: BadRegion request 138 minor 14 serial 1684541
+error 140: BadRegion request 138 minor 14 serial 1684593
+error 140: BadRegion request 138 minor 14 serial 1684645
+error 140: BadRegion request 138 minor 14 serial 1684697
+error 140: BadRegion request 138 minor 14 serial 1684749
+error 140: BadRegion request 138 minor 14 serial 1684801
 
-(xfce4-terminal:327984): VTE-CRITICAL **: 20:07:29.063: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:17:57.800: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
 
-(xfce4-terminal:327984): VTE-CRITICAL **: 20:07:29.063: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:18:00.011: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+error 140: BadRegion request 138 minor 14 serial 1696166
+error 140: BadRegion request 138 minor 14 serial 1696241
+error 140: BadRegion request 138 minor 14 serial 1696294
+error 140: BadRegion request 138 minor 14 serial 1696347
+error 140: BadRegion request 138 minor 14 serial 1696400
 
-(xfce4-terminal:327984): VTE-CRITICAL **: 20:07:29.063: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+(xfce4-clipman:1385): GLib-CRITICAL **: 11:18:01.446: Source ID 558 was not found when attempting to remove it
 
-(xfce4-clipman:153526): GLib-CRITICAL **: 20:07:41.962: Source ID 279 was not found when attempting to remove it
-03/06/2022 08:08:40 PM - [libi3] ERROR: Surface 0x5608799ad8e0 is not initialized, skipping drawing.
-error 140: BadRegion request 138 minor 14 serial 27598526
-error 140: BadRegion request 138 minor 14 serial 27598614
-error 140: BadRegion request 138 minor 14 serial 27598670
-error 140: BadRegion request 138 minor 14 serial 27598726
-error 140: BadRegion request 138 minor 14 serial 27598782
-error 140: BadRegion request 138 minor 14 serial 27598838
-error 140: BadRegion request 138 minor 14 serial 27598894
-error 140: BadRegion request 138 minor 14 serial 27598950
-error 140: BadRegion request 138 minor 14 serial 27599006
-error 140: BadRegion request 138 minor 14 serial 27599062
-error 140: BadRegion request 138 minor 14 serial 27599118
-error 140: BadRegion request 138 minor 14 serial 27599174
-error 140: BadRegion request 138 minor 14 serial 27599226
-error 140: BadRegion request 138 minor 14 serial 27609351
-error 140: BadRegion request 138 minor 14 serial 27609482
-03/06/2022 08:10:43 PM - [libi3] ERROR: Surface 0x5608799ad8e0 is not initialized, skipping drawing.
-error 140: BadRegion request 138 minor 14 serial 27642678
-error 140: BadRegion request 138 minor 14 serial 27642779
-error 140: BadRegion request 138 minor 14 serial 27642834
-error 140: BadRegion request 138 minor 14 serial 27642890
-error 140: BadRegion request 138 minor 14 serial 27642946
-error 140: BadRegion request 138 minor 14 serial 27643002
-error 140: BadRegion request 138 minor 14 serial 27643058
-error 140: BadRegion request 138 minor 14 serial 27643114
-error 140: BadRegion request 138 minor 14 serial 27643170
-error 140: BadRegion request 138 minor 14 serial 27643226
-error 140: BadRegion request 138 minor 14 serial 27643282
-error 140: BadRegion request 138 minor 14 serial 27643338
-error 140: BadRegion request 138 minor 14 serial 27643394
-error 140: BadRegion request 138 minor 14 serial 27643450
-error 140: BadRegion request 138 minor 14 serial 27643506
-error 140: BadRegion request 138 minor 14 serial 27643562
-error 140: BadRegion request 138 minor 14 serial 27689215
-error 140: BadRegion request 138 minor 14 serial 27689283
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:18:10.600: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
 
-(xfce4-clipman:153526): Gdk-CRITICAL **: 20:17:06.255: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:19:26.755: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
 
-(xfce4-clipman:153526): Gdk-CRITICAL **: 20:17:06.530: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-error 140: BadRegion request 138 minor 14 serial 27754508
-error 140: BadRegion request 138 minor 14 serial 27754576
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:19:27.461: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
 
-(xfce4-clipman:153526): GLib-CRITICAL **: 20:17:37.611: Source ID 288 was not found when attempting to remove it
-error 140: BadRegion request 138 minor 14 serial 27759556
-error 140: BadRegion request 138 minor 14 serial 27759609
-error 140: BadRegion request 138 minor 14 serial 27759657
-error 140: BadRegion request 138 minor 14 serial 27759706
-error 140: BadRegion request 138 minor 14 serial 27759755
-error 140: BadRegion request 138 minor 14 serial 27759804
-error 140: BadRegion request 138 minor 14 serial 27759853
-error 140: BadRegion request 138 minor 14 serial 27759902
-error 140: BadRegion request 138 minor 14 serial 27759951
-error 140: BadRegion request 138 minor 14 serial 27760000
-error 140: BadRegion request 138 minor 14 serial 27760049
-error 140: BadRegion request 138 minor 14 serial 27760098
-error 140: BadRegion request 138 minor 14 serial 27760143
-error 140: BadRegion request 138 minor 14 serial 27803946
-error 140: BadRegion request 138 minor 14 serial 27804023
-error 140: BadRegion request 138 minor 14 serial 27804064
-error 140: BadRegion request 138 minor 14 serial 27804102
-error 140: BadRegion request 138 minor 14 serial 27804144
-error 140: BadRegion request 138 minor 14 serial 27804186
-error 140: BadRegion request 138 minor 14 serial 27804228
-error 140: BadRegion request 138 minor 14 serial 27804270
-error 140: BadRegion request 138 minor 14 serial 27804312
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:19:30.342: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
 
-(thunar:548955): dbind-WARNING **: 20:19:40.554: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:19:30.891: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
 
-(xfce4-clipman:153526): GLib-CRITICAL **: 20:19:47.513: Source ID 295 was not found when attempting to remove it
-error 140: BadRegion request 138 minor 14 serial 27808394
-error 140: BadRegion request 138 minor 14 serial 27808446
-error 140: BadRegion request 138 minor 14 serial 27808498
-error 140: BadRegion request 138 minor 14 serial 27808550
-error 140: BadRegion request 138 minor 14 serial 27808602
-error 140: BadRegion request 138 minor 14 serial 27808654
-error 140: BadRegion request 138 minor 14 serial 27808706
-error 140: BadRegion request 138 minor 14 serial 27808758
-error 140: BadRegion request 138 minor 14 serial 27808810
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:19:32.757: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
 
-(xfce4-clipman:153526): Gdk-CRITICAL **: 20:19:47.763: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:19:37.729: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+error 140: BadRegion request 138 minor 14 serial 1742852
+error 140: BadRegion request 138 minor 14 serial 1742897
+error 140: BadRegion request 138 minor 14 serial 1742952
+error 140: BadRegion request 138 minor 14 serial 1743007
+error 140: BadRegion request 138 minor 14 serial 1743047
+error 140: BadRegion request 138 minor 14 serial 1743290
+error 140: BadRegion request 138 minor 14 serial 1743350
+error 140: BadRegion request 138 minor 14 serial 1743397
+error 140: BadRegion request 138 minor 14 serial 1743407
+error 140: BadRegion request 138 minor 14 serial 1743453
+error 140: BadRegion request 138 minor 14 serial 1743463
+error 140: BadRegion request 138 minor 14 serial 1743509
+error 140: BadRegion request 138 minor 14 serial 1743519
+error 140: BadRegion request 138 minor 14 serial 1743565
+error 140: BadRegion request 138 minor 14 serial 1743575
+error 140: BadRegion request 138 minor 14 serial 1743621
+error 140: BadRegion request 138 minor 14 serial 1743631
 
-(mousepad:550770): dbind-WARNING **: 20:19:52.086: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-error 140: BadRegion request 138 minor 14 serial 27813449
-error 140: BadRegion request 138 minor 14 serial 27813504
-error 140: BadRegion request 138 minor 14 serial 27813559
-error 140: BadRegion request 138 minor 14 serial 27813614
-error 140: BadRegion request 138 minor 14 serial 27819403
-error 140: BadRegion request 138 minor 14 serial 27819440
-error 140: BadRegion request 138 minor 14 serial 27819477
-error 140: BadRegion request 138 minor 14 serial 27819514
-error 140: BadRegion request 138 minor 14 serial 27819551
-error 140: BadRegion request 138 minor 14 serial 27819588
-error 140: BadRegion request 138 minor 14 serial 27819625
-error 140: BadRegion request 138 minor 14 serial 27819662
-error 140: BadRegion request 138 minor 14 serial 27819699
-error 140: BadRegion request 138 minor 14 serial 27819736
-error 140: BadRegion request 138 minor 14 serial 27870020
-error 140: BadRegion request 138 minor 14 serial 27870083
-error 140: BadRegion request 138 minor 14 serial 27870146
-error 140: BadRegion request 138 minor 14 serial 27870199
-error 140: BadRegion request 138 minor 14 serial 27874621
-error 140: BadRegion request 138 minor 14 serial 27874676
-error 140: BadRegion request 138 minor 14 serial 27958885
-error 140: BadRegion request 138 minor 14 serial 27958920
-error 140: BadRegion request 138 minor 14 serial 27958955
-error 140: BadRegion request 138 minor 14 serial 27958990
-error 140: BadRegion request 138 minor 14 serial 27959025
-error 140: BadRegion request 138 minor 14 serial 27959060
-error 140: BadRegion request 138 minor 14 serial 27959095
-error 140: BadRegion request 138 minor 14 serial 27959130
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 01400058
-error 140: BadRegion request 138 minor 14 serial 27960263
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 0140008f
-error 140: BadRegion request 138 minor 14 serial 27961302
-error 3: BadWindow (invalid Window parameter) request 2 minor 0 serial 27961320
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27961321
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 0140009a
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27961322
-error 140: BadRegion request 138 minor 14 serial 27961405
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 014000a5
-error 140: BadRegion request 138 minor 14 serial 27973714
-error 3: BadWindow (invalid Window parameter) request 2 minor 0 serial 27974251
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27974252
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 014000be
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27974253
-error 140: BadRegion request 138 minor 14 serial 27974377
-error 140: BadRegion request 138 minor 14 serial 27974419
-error 140: BadRegion request 138 minor 14 serial 27974457
-error 140: BadRegion request 138 minor 14 serial 27974504
-error 140: BadRegion request 138 minor 14 serial 27974546
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 014000c5
-error 140: BadRegion request 138 minor 14 serial 27975003
-error 140: BadRegion request 138 minor 14 serial 27975054
-error 140: BadRegion request 138 minor 14 serial 27975092
-error 140: BadRegion request 138 minor 14 serial 27975143
-error 140: BadRegion request 138 minor 14 serial 27975181
-error 140: BadRegion request 138 minor 14 serial 27975232
-error 140: BadRegion request 138 minor 14 serial 27975283
-error 140: BadRegion request 138 minor 14 serial 27975640
-error 140: BadRegion request 138 minor 14 serial 27975680
-error 140: BadRegion request 138 minor 14 serial 27975731
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 014000cc
-error 140: BadRegion request 138 minor 14 serial 27975855
-error 140: BadRegion request 138 minor 14 serial 27975874
-error 140: BadRegion request 138 minor 14 serial 27975908
-error 140: BadRegion request 138 minor 14 serial 27975923
-error 140: BadRegion request 138 minor 14 serial 27975992
-error 140: BadRegion request 138 minor 14 serial 27976034
-error 140: BadRegion request 138 minor 14 serial 27976072
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 014000d5
-error 3: BadWindow (invalid Window parameter) request 2 minor 0 serial 27976506
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27976507
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27976508
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 143 minor 1 serial 27976851
-error 3: BadWindow (invalid Window parameter) request 129 minor 6 serial 27976852
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27976853
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 27976854
-error 3: BadWindow (invalid Window parameter) request 2 minor 0 serial 27976894
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27976895
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27976896
-error 140: BadRegion request 138 minor 14 serial 27977033
-error 140: BadRegion request 138 minor 14 serial 27977068
-error 140: BadRegion request 138 minor 14 serial 27977103
-error 140: BadRegion request 138 minor 14 serial 27977138
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 014000dc
-error 140: BadRegion request 138 minor 14 serial 27977173
-error 140: BadRegion request 138 minor 14 serial 27977241
-error 140: BadRegion request 138 minor 14 serial 27977283
-error 140: BadRegion request 138 minor 14 serial 27977321
-error 140: BadRegion request 138 minor 14 serial 27977359
-error 140: BadRegion request 138 minor 14 serial 27977397
-error 140: BadRegion request 138 minor 14 serial 27977440
-error 140: BadRegion request 138 minor 14 serial 27977478
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 014000e5
-error 3: BadWindow (invalid Window parameter) request 2 minor 0 serial 27977799
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27977800
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27977801
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 143 minor 1 serial 27978120
-error 3: BadWindow (invalid Window parameter) request 129 minor 6 serial 27978121
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27978122
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 27978123
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 014000ec
-error 3: BadWindow (invalid Window parameter) request 2 minor 0 serial 27978163
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27978164
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27978165
-error 140: BadRegion request 138 minor 14 serial 27978297
-error 140: BadRegion request 138 minor 14 serial 27978339
-error 140: BadRegion request 138 minor 14 serial 27978650
-error 140: BadRegion request 138 minor 14 serial 27978685
-error 140: BadRegion request 138 minor 14 serial 27978716
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 014000f3
-error 140: BadRegion request 138 minor 14 serial 27978751
-error 140: BadRegion request 138 minor 14 serial 27978868
-error 140: BadRegion request 138 minor 14 serial 27978906
-error 140: BadRegion request 138 minor 14 serial 27978957
-error 140: BadRegion request 138 minor 14 serial 27978995
-error 140: BadRegion request 138 minor 14 serial 27979033
-error 140: BadRegion request 138 minor 14 serial 27979460
-error 3: BadWindow (invalid Window parameter) request 2 minor 0 serial 27979478
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27979479
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27979480
-error 140: BadRegion request 138 minor 14 serial 27979542
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 014000fa
-error 140: BadRegion request 138 minor 14 serial 27979577
-error 140: BadRegion request 138 minor 14 serial 27979645
-error 140: BadRegion request 138 minor 14 serial 27979687
-error 140: BadRegion request 138 minor 14 serial 27979734
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 01400101
-error 140: BadRegion request 138 minor 14 serial 27980496
-error 140: BadRegion request 138 minor 14 serial 27980534
-error 140: BadRegion request 138 minor 14 serial 27980572
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 0140010c
-error 140: BadRegion request 138 minor 14 serial 27980947
-error 140: BadRegion request 138 minor 14 serial 27980989
-error 140: BadRegion request 138 minor 14 serial 27981036
-error 140: BadRegion request 138 minor 14 serial 27981087
-error 140: BadRegion request 138 minor 14 serial 27981129
-error 140: BadRegion request 138 minor 14 serial 27981176
-error 140: BadRegion request 138 minor 14 serial 27981227
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 01400113
-error 140: BadRegion request 138 minor 14 serial 27982035
-error 140: BadRegion request 138 minor 14 serial 27982070
-error 3: BadWindow (invalid Window parameter) request 2 minor 0 serial 27982088
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27982089
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27982090
-error 140: BadRegion request 138 minor 14 serial 27982157
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 0140011c
-error 140: BadRegion request 138 minor 14 serial 27983538
-error 140: BadRegion request 138 minor 14 serial 27983589
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 01400123
-error 140: BadRegion request 138 minor 14 serial 27983658
-error 140: BadRegion request 138 minor 14 serial 27984156
-error 3: BadWindow (invalid Window parameter) request 2 minor 0 serial 27984174
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27984175
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 27984176
-error 140: BadRegion request 138 minor 14 serial 27984238
-error 140: BadRegion request 138 minor 14 serial 27984273
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 0140012c
-error 140: BadRegion request 138 minor 14 serial 27984320
-error 140: BadRegion request 138 minor 14 serial 27984362
-error 140: BadRegion request 138 minor 14 serial 27984413
-error 140: BadRegion request 138 minor 14 serial 27984455
-error 140: BadRegion request 138 minor 14 serial 27984502
-error 140: BadRegion request 138 minor 14 serial 27984544
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 01400133
-error 140: BadRegion request 138 minor 14 serial 27985303
-error 140: BadRegion request 138 minor 14 serial 27985338
-error 140: BadRegion request 138 minor 14 serial 27985405
-error 140: BadRegion request 138 minor 14 serial 27985440
-error 140: BadRegion request 138 minor 14 serial 27985492
-error 140: BadRegion request 138 minor 14 serial 27985572
-error 140: BadRegion request 138 minor 14 serial 27985623
-error 140: BadRegion request 138 minor 14 serial 27985674
-error 140: BadRegion request 138 minor 14 serial 27985725
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 0140013c
-error 140: BadRegion request 138 minor 14 serial 27986489
-error 140: BadRegion request 138 minor 14 serial 27986531
-error 140: BadRegion request 138 minor 14 serial 27986578
-error 140: BadRegion request 138 minor 14 serial 27986620
-error 140: BadRegion request 138 minor 14 serial 27986667
-error 140: BadRegion request 138 minor 14 serial 27986718
-error 140: BadRegion request 138 minor 14 serial 27986760
-error 140: BadRegion request 138 minor 14 serial 27986807
-error 140: BadRegion request 138 minor 14 serial 27986849
-error 140: BadRegion request 138 minor 14 serial 27986896
-error 140: BadRegion request 138 minor 14 serial 27986938
-error 140: BadRegion request 138 minor 14 serial 27986985
-error 140: BadRegion request 138 minor 14 serial 27987027
-[../../i3/i3bar/src/xcb.c:1008] ERROR: PropertyNotify received for unknown window 01400145
-error 140: BadRegion request 138 minor 14 serial 28045538
-error 140: BadRegion request 138 minor 14 serial 28045642
+(xfce4-clipman:1385): GLib-CRITICAL **: 11:19:50.709: Source ID 580 was not found when attempting to remove it
+error 140: BadRegion request 138 minor 14 serial 1791434
+error 140: BadRegion request 138 minor 14 serial 1791474
+error 140: BadRegion request 138 minor 14 serial 1791529
+error 140: BadRegion request 138 minor 14 serial 1791584
+error 140: BadRegion request 138 minor 14 serial 1791639
+error 140: BadRegion request 138 minor 14 serial 1791694
+error 140: BadRegion request 138 minor 14 serial 1801633
+error 140: BadRegion request 138 minor 14 serial 1801688
+error 140: BadRegion request 138 minor 14 serial 1801743
+error 140: BadRegion request 138 minor 14 serial 1801798
+error 140: BadRegion request 138 minor 14 serial 1801838
+error 140: BadRegion request 138 minor 14 serial 1801878
+error 140: BadRegion request 138 minor 14 serial 1820192
+error 140: BadRegion request 138 minor 14 serial 1820247
+error 140: BadRegion request 138 minor 14 serial 1820287
+error 140: BadRegion request 138 minor 14 serial 1825729
+error 140: BadRegion request 138 minor 14 serial 1825774
+error 140: BadRegion request 138 minor 14 serial 1825829
+error 140: BadRegion request 138 minor 14 serial 1825884
+error 140: BadRegion request 138 minor 14 serial 1825924
+error 140: BadRegion request 138 minor 14 serial 1830646
+error 140: BadRegion request 138 minor 14 serial 1830701
+error 140: BadRegion request 138 minor 14 serial 1837021
+error 140: BadRegion request 138 minor 14 serial 1837066
+error 140: BadRegion request 138 minor 14 serial 1837121
+
+(xfce4-clipman:1385): Gdk-CRITICAL **: 11:31:47.163: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+error 140: BadRegion request 138 minor 14 serial 1902864
+error 140: BadRegion request 138 minor 14 serial 1902909
+error 140: BadRegion request 138 minor 14 serial 1902964
+error 140: BadRegion request 138 minor 14 serial 1903019
+error 140: BadRegion request 138 minor 14 serial 1903074

@@ -100,9 +100,7 @@ bindsym Control+$mod+Right resize grow width 5 px or 5 ppt
 #i3 GAPS
 #######################################################
 
-#gaps inner 4
 gaps outer 8
-
 smart_borders on
 
 
@@ -183,6 +181,11 @@ client.focused          $cRed $cRed $cBlack2 $cBlue   $cRed
 set $cBlack2 #282a36
 
 bar {
+	colors {
+		background #000000BF
+	}
+
+	i3bar_command i3bar -t
 	status_command exec ~/.config/i3/bar2.sh
 	tray_output primary
 	position top

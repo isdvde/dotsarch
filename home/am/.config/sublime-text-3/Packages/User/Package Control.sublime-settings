@@ -1,0 +1,29 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"AutoFileName",
+		"Blade Snippets",
+		"Bootstrap 4x Autocomplete",
+		"Bootstrap 4x Snippets",
+		"Emmet",
+		"FileIcons",
+		"gruvbox",
+		"jQuery",
+		"Laravel Blade AutoComplete",
+		"Laravel Blade Highlighter",
+		"Laravel Blade Spacer",
+		"Laravel Goto",
+		"Laravel Helper Completions",
+		"MarkdownComplements",
+		"MarkdownEditing",
+		"MarkdownPreview",
+		"Package Control",
+		"SideBarEnhancements",
+		"Tailwind CSS Autocomplete",
+	],
+}

@@ -1,4 +1,8 @@
-pkill bar2.sh
+#!/bin/bash
+
+if [ $(ps -e | egrep bar2 | wc -l) -gt 1 ]; then
+	pkill bar2.sh
+fi &
 nitrogen --restore &
 xset s off &
 xset -dpms &

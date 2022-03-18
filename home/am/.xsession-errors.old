@@ -4,7 +4,7 @@ dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
 dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
 dbus-update-activation-environment: setting SHELL=/bin/bash
 dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-default:/etc/xdg
-dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session7
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
 dbus-update-activation-environment: setting LANGUAGE=es_ES:en
 dbus-update-activation-environment: setting MANDATORY_PATH=/usr/share/gconf/default.mandatory.path
 dbus-update-activation-environment: setting LC_ADDRESS=en_US.UTF-8
@@ -43,7 +43,7 @@ dbus-update-activation-environment: setting GDMSESSION=default
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 dbus-update-activation-environment: setting LC_NUMERIC=en_US.UTF-8
 dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
-Xsession: X session started for am at Sun 06 Mar 2022 11:42:58 AM -04
+Xsession: X session started for am at Fri 18 Mar 2022 08:48:42 AM -04
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 dbus-update-activation-environment: setting DISPLAY=:0
 dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
@@ -54,7 +54,7 @@ dbus-update-activation-environment: setting LANGUAGE=es_ES:en
 dbus-update-activation-environment: setting USER=am
 dbus-update-activation-environment: setting LC_TIME=en_US.UTF-8
 dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
-dbus-update-activation-environment: setting SSH_AGENT_PID=136827
+dbus-update-activation-environment: setting SSH_AGENT_PID=972
 dbus-update-activation-environment: setting SHLVL=0
 dbus-update-activation-environment: setting HOME=/home/am
 dbus-update-activation-environment: setting DESKTOP_SESSION=default
@@ -70,7 +70,7 @@ dbus-update-activation-environment: setting DEFAULTS_PATH=/usr/share/gconf/defau
 dbus-update-activation-environment: setting PATH=/home/am/bin:/home/am/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 dbus-update-activation-environment: setting GDM_LANG=es_ES
 dbus-update-activation-environment: setting PAPERSIZE=letter
-dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session7
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
 dbus-update-activation-environment: setting LC_ADDRESS=en_US.UTF-8
 dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
 dbus-update-activation-environment: setting DISPLAY=:0
@@ -79,7 +79,7 @@ dbus-update-activation-environment: setting LC_TELEPHONE=en_US.UTF-8
 dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=default
 dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
 dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/am
-dbus-update-activation-environment: setting SSH_AUTH_SOCK=/tmp/ssh-74NInqHA7gS8/agent.136768
+dbus-update-activation-environment: setting SSH_AUTH_SOCK=/tmp/ssh-dRLtAjBACGcY/agent.909
 dbus-update-activation-environment: setting SHELL=/bin/bash
 dbus-update-activation-environment: setting LC_NAME=en_US.UTF-8
 dbus-update-activation-environment: setting GDMSESSION=default
@@ -91,129 +91,78 @@ dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-default
 dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/default:/usr/local/share/:/usr/share/
 dbus-update-activation-environment: setting LC_NUMERIC=en_US.UTF-8
 dbus-update-activation-environment: setting LC_PAPER=en_US.UTF-8
-unexpected type for property '290'
 property '294' doesn't exist, you need to specify its type and format
+unexpected type for property '290'
+[../../i3/i3bar/src/child.c:487] ERROR: Child (pid: 1062) unexpectedly exited with status 0
 Usando el método «randr».
 
-(nitrogen:136903): dbind-WARNING **: 11:42:58.877: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+(xfce4-clipman:1053): dbind-WARNING **: 08:48:44.214: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 
-(xfce4-clipman:136907): dbind-WARNING **: 11:42:58.878: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-error 140: BadRegion request 138 minor 14 serial 498
-error 140: BadRegion request 138 minor 14 serial 507
-error 140: BadRegion request 138 minor 14 serial 565
-error 140: BadRegion request 138 minor 14 serial 570
-error 140: BadRegion request 138 minor 14 serial 614
-error 140: BadRegion request 138 minor 14 serial 623
-error 140: BadRegion request 138 minor 14 serial 667
-error 140: BadRegion request 138 minor 14 serial 676
-error 140: BadRegion request 138 minor 14 serial 720
-error 140: BadRegion request 138 minor 14 serial 729
-error 140: BadRegion request 138 minor 14 serial 808
-error 140: BadRegion request 138 minor 14 serial 813
-error 140: BadRegion request 138 minor 14 serial 869
-error 140: BadRegion request 138 minor 14 serial 878
-error 140: BadRegion request 138 minor 14 serial 938
-error 140: BadRegion request 138 minor 14 serial 947
-error 140: BadRegion request 138 minor 14 serial 1007
-error 140: BadRegion request 138 minor 14 serial 1016
-error 140: BadRegion request 138 minor 14 serial 1076
-error 140: BadRegion request 138 minor 14 serial 1085
-error 140: BadRegion request 138 minor 14 serial 1134
+** (xfce4-clipman:1053): WARNING **: 08:48:44.422: Unable to register GApplication: Ya existe un objeto exportado para la interfaz org.gtk.Application en /org/xfce/clipman
+
+(xfce4-clipman:1053): GLib-GIO-CRITICAL **: 08:48:44.422: g_application_get_is_remote: assertion 'application->priv->is_registered' failed
+
+(xfce4-clipman:1053): GLib-WARNING **: 08:48:44.423: g_set_application_name() called multiple times
+
+(nitrogen:1080): dbind-WARNING **: 08:48:45.375: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(nitrogen:1049): dbind-WARNING **: 08:48:45.377: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 The program 'nitrogen' received an X Window System error.
 This probably reflects a bug in the program.
-The error was 'BadWindow (invalid Window parameter)'.
-  (Details: serial 157 error_code 3 request_code 20 minor_code 0)
+The error was 'BadValue (integer parameter out of range for operation)'.
+  (Details: serial 114 error_code 2 request_code 113 minor_code 0)
   (Note to programmers: normally, X errors are reported asynchronously;
    that is, you will receive the error a while after causing it.
    To debug your program, run it with the --sync command line
    option to change this behavior. You can then get a meaningful
    backtrace from your debugger if you break on the gdk_x_error() function.)
 
-** (xfce4-clipman:136907): WARNING **: 11:42:59.243: Unable to register GApplication: Ya existe un objeto exportado para la interfaz org.gtk.Application en /org/xfce/clipman
-
-(xfce4-clipman:136907): GLib-GIO-CRITICAL **: 11:42:59.243: g_application_get_is_remote: assertion 'application->priv->is_registered' failed
-
-(xfce4-clipman:136907): GLib-WARNING **: 11:42:59.244: g_set_application_name() called multiple times
-error 140: BadRegion request 138 minor 14 serial 1441
-error 140: BadRegion request 138 minor 14 serial 1450
-error 140: BadRegion request 138 minor 14 serial 1490
-error 140: BadRegion request 138 minor 14 serial 1499
-error 140: BadRegion request 138 minor 14 serial 1527
-error 140: BadRegion request 138 minor 14 serial 1536
-error 140: BadRegion request 138 minor 14 serial 1576
-error 140: BadRegion request 138 minor 14 serial 1585
-error 140: BadRegion request 138 minor 14 serial 1624
-error 140: BadRegion request 138 minor 14 serial 1633
-error 140: BadRegion request 138 minor 14 serial 1680
-error 140: BadRegion request 138 minor 14 serial 1685
-error 140: BadRegion request 138 minor 14 serial 1713
-error 140: BadRegion request 138 minor 14 serial 1722
-
-(nitrogen:137014): dbind-WARNING **: 11:42:59.262: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-error 140: BadRegion request 138 minor 14 serial 1750
-error 140: BadRegion request 138 minor 14 serial 1759
-
-(xfce4-terminal:137822): dbind-WARNING **: 11:43:03.998: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+(xfce4-terminal:1105): dbind-WARNING **: 08:48:47.948: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 No se pudo conectar con el Gestor se sesiones: No se pudo conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
 
-(xfce4-terminal:137822): VTE-CRITICAL **: 11:43:04.147: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+(xfce4-terminal:1105): VTE-CRITICAL **: 08:48:48.291: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(xfce4-terminal:137822): VTE-CRITICAL **: 11:43:04.147: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+(xfce4-terminal:1105): VTE-CRITICAL **: 08:48:48.291: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(xfce4-terminal:137822): VTE-CRITICAL **: 11:43:04.147: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+(xfce4-terminal:1105): VTE-CRITICAL **: 08:48:48.291: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(xfce4-terminal:137822): VTE-CRITICAL **: 11:43:04.147: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+(xfce4-terminal:1105): VTE-CRITICAL **: 08:48:48.291: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 
-(xfce4-terminal:137822): VTE-CRITICAL **: 11:43:04.147: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+(xfce4-terminal:1105): VTE-CRITICAL **: 08:48:48.291: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
 [libi3] ../../i3/libi3/font.c Using Pango font Sans, size 8
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 143 minor 1 serial 13371
-error 3: BadWindow (invalid Window parameter) request 129 minor 6 serial 13372
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 13373
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 13374
-error 3: BadWindow (invalid Window parameter) request 2 minor 0 serial 13375
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 13376
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 13377
-error 3: BadWindow (invalid Window parameter) request 2 minor 0 serial 13378
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 13379
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 13380
-error 140: BadRegion request 138 minor 14 serial 13513
-error 140: BadRegion request 138 minor 14 serial 13518
-error 140: BadRegion request 138 minor 14 serial 13566
-error 140: BadRegion request 138 minor 14 serial 13575
-error 140: BadRegion request 138 minor 14 serial 13584
-error 140: BadRegion request 138 minor 14 serial 13635
-error 140: BadRegion request 138 minor 14 serial 13644
-error 140: BadRegion request 138 minor 14 serial 13653
-error 140: BadRegion request 138 minor 14 serial 13704
-error 140: BadRegion request 138 minor 14 serial 13713
-error 140: BadRegion request 138 minor 14 serial 13722
-error 140: BadRegion request 138 minor 14 serial 13773
-error 140: BadRegion request 138 minor 14 serial 13782
-error 140: BadRegion request 138 minor 14 serial 13791
-error 140: BadRegion request 138 minor 14 serial 13842
-error 140: BadRegion request 138 minor 14 serial 13851
-error 140: BadRegion request 138 minor 14 serial 13860
-error 140: BadRegion request 138 minor 14 serial 13911
-error 140: BadRegion request 138 minor 14 serial 13920
-error 140: BadRegion request 138 minor 14 serial 13929
-error 140: BadRegion request 138 minor 14 serial 13980
-error 140: BadRegion request 138 minor 14 serial 13989
-error 140: BadRegion request 138 minor 14 serial 13998
-error 140: BadRegion request 138 minor 14 serial 14049
-error 140: BadRegion request 138 minor 14 serial 14058
-error 140: BadRegion request 138 minor 14 serial 14067
-error 140: BadRegion request 138 minor 14 serial 14118
-error 140: BadRegion request 138 minor 14 serial 14127
-error 140: BadRegion request 138 minor 14 serial 14136
-error 140: BadRegion request 138 minor 14 serial 14187
-error 140: BadRegion request 138 minor 14 serial 14196
-error 140: BadRegion request 138 minor 14 serial 14205
-error 140: BadRegion request 138 minor 14 serial 14237
-error 140: BadRegion request 138 minor 14 serial 14242
-error 140: BadRegion request 138 minor 14 serial 14247
-Gdk-Message: 11:44:41.956: xfce4-terminal: Fatal IO error 11 (Recurso no disponible temporalmente) on X server :0.
+error 140: BadRegion request 138 minor 14 serial 27054
+error 140: BadRegion request 138 minor 14 serial 27059
+error 140: BadRegion request 138 minor 14 serial 27064
+error 140: BadRegion request 138 minor 14 serial 27112
+error 140: BadRegion request 138 minor 14 serial 27121
+error 140: BadRegion request 138 minor 14 serial 27130
+error 140: BadRegion request 138 minor 14 serial 27181
+error 140: BadRegion request 138 minor 14 serial 27190
+error 140: BadRegion request 138 minor 14 serial 27199
+error 140: BadRegion request 138 minor 14 serial 27250
+error 140: BadRegion request 138 minor 14 serial 27259
+error 140: BadRegion request 138 minor 14 serial 27268
+error 140: BadRegion request 138 minor 14 serial 27300
+error 140: BadRegion request 138 minor 14 serial 27305
+error 140: BadRegion request 138 minor 14 serial 27310
+error 140: BadRegion request 138 minor 14 serial 27357
+error 140: BadRegion request 138 minor 14 serial 27366
+error 140: BadRegion request 138 minor 14 serial 27375
+error 140: BadRegion request 138 minor 14 serial 27426
+error 140: BadRegion request 138 minor 14 serial 27435
+error 140: BadRegion request 138 minor 14 serial 27444
+error 140: BadRegion request 138 minor 14 serial 27495
+error 140: BadRegion request 138 minor 14 serial 27504
+error 140: BadRegion request 138 minor 14 serial 27513
+error 140: BadRegion request 138 minor 14 serial 27564
+error 140: BadRegion request 138 minor 14 serial 27573
+error 140: BadRegion request 138 minor 14 serial 27582
+error 140: BadRegion request 138 minor 14 serial 27633
+error 140: BadRegion request 138 minor 14 serial 27642
+error 140: BadRegion request 138 minor 14 serial 27651
+Gdk-Message: 09:05:34.883: xfce4-terminal: Fatal IO error 11 (Recurso no disponible temporalmente) on X server :0.
 
-error 140: BadRegion request 138 minor 14 serial 14294
+error 140: BadRegion request 138 minor 14 serial 27702
 X connection to :0 broken (explicit kill or server shutdown).
-Gdk-Message: 11:44:41.959: xfce4-clipman: Fatal IO error 11 (Recurso no disponible temporalmente) on X server :0.
+Gdk-Message: 09:05:34.889: xfce4-clipman: Fatal IO error 11 (Recurso no disponible temporalmente) on X server :0.
 
