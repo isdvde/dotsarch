@@ -1,0 +1,13 @@
+[
+	{ "keys": ["f8"], "command": "build", "args": {"select": true} },
+	{ "keys": ["ctrl+."], "command": "toggle_side_bar" },
+
+	{ "keys": ["ctrl+<"], "command": "toggle_comment", "args": { "block": true } },
+
+	{ "keys": ["ctrl+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+
+	{ "keys": ["ctrl+,"], "command": "sublime_linter_panel_toggle" },
+	{ "keys": ["ctrl+space"], "command": "auto_complete" },
+	{ "keys": ["ctrl+shift+."], "command": "toggle_minimap" },
+
+]

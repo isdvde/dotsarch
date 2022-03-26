@@ -43,7 +43,7 @@ dbus-update-activation-environment: setting GDMSESSION=default
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 dbus-update-activation-environment: setting LC_NUMERIC=en_US.UTF-8
 dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
-Xsession: X session started for am at Fri 18 Mar 2022 09:05:39 AM -04
+Xsession: X session started for am at Sat 19 Mar 2022 01:47:41 PM -04
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 dbus-update-activation-environment: setting DISPLAY=:0
 dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
@@ -54,7 +54,7 @@ dbus-update-activation-environment: setting LANGUAGE=es_ES:en
 dbus-update-activation-environment: setting USER=am
 dbus-update-activation-environment: setting LC_TIME=en_US.UTF-8
 dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
-dbus-update-activation-environment: setting SSH_AGENT_PID=1303
+dbus-update-activation-environment: setting SSH_AGENT_PID=1296
 dbus-update-activation-environment: setting SHLVL=0
 dbus-update-activation-environment: setting HOME=/home/am
 dbus-update-activation-environment: setting DESKTOP_SESSION=default
@@ -79,7 +79,7 @@ dbus-update-activation-environment: setting LC_TELEPHONE=en_US.UTF-8
 dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=default
 dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
 dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/am
-dbus-update-activation-environment: setting SSH_AUTH_SOCK=/tmp/ssh-oIBJqYKKSgC3/agent.1244
+dbus-update-activation-environment: setting SSH_AUTH_SOCK=/tmp/ssh-Et8B9nTjueSP/agent.1237
 dbus-update-activation-environment: setting SHELL=/bin/bash
 dbus-update-activation-environment: setting LC_NAME=en_US.UTF-8
 dbus-update-activation-environment: setting GDMSESSION=default
@@ -95,691 +95,92 @@ unexpected type for property '290'
 property '294' doesn't exist, you need to specify its type and format
 Usando el método «randr».
 
-(nitrogen:1379): dbind-WARNING **: 09:05:40.101: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+(nitrogen:1373): dbind-WARNING **: 13:47:42.417: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 
-(xfce4-clipman:1385): dbind-WARNING **: 09:05:40.129: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-error 140: BadRegion request 138 minor 14 serial 654
-error 140: BadRegion request 138 minor 14 serial 659
-error 140: BadRegion request 138 minor 14 serial 717
-error 140: BadRegion request 138 minor 14 serial 726
-error 140: BadRegion request 138 minor 14 serial 786
-error 140: BadRegion request 138 minor 14 serial 795
-error 140: BadRegion request 138 minor 14 serial 855
-error 140: BadRegion request 138 minor 14 serial 864
-error 140: BadRegion request 138 minor 14 serial 924
-error 140: BadRegion request 138 minor 14 serial 933
-error 140: BadRegion request 138 minor 14 serial 982
+(xfce4-clipman:1377): dbind-WARNING **: 13:47:42.433: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+error 140: BadRegion request 138 minor 14 serial 373
+error 140: BadRegion request 138 minor 14 serial 378
+error 140: BadRegion request 138 minor 14 serial 492
+error 140: BadRegion request 138 minor 14 serial 596
+error 140: BadRegion request 138 minor 14 serial 825
+error 140: BadRegion request 138 minor 14 serial 852
+error 140: BadRegion request 138 minor 14 serial 896
+error 140: BadRegion request 138 minor 14 serial 901
 
-** (xfce4-clipman:1385): WARNING **: 09:05:40.510: Unable to register GApplication: Ya existe un objeto exportado para la interfaz org.gtk.Application en /org/xfce/clipman
+** (xfce4-clipman:1377): WARNING **: 13:47:42.787: Unable to register GApplication: Ya existe un objeto exportado para la interfaz org.gtk.Application en /org/xfce/clipman
 
-(xfce4-clipman:1385): GLib-GIO-CRITICAL **: 09:05:40.510: g_application_get_is_remote: assertion 'application->priv->is_registered' failed
+(xfce4-clipman:1377): GLib-GIO-CRITICAL **: 13:47:42.787: g_application_get_is_remote: assertion 'application->priv->is_registered' failed
 
-(xfce4-clipman:1385): GLib-WARNING **: 09:05:40.510: g_set_application_name() called multiple times
-error 140: BadRegion request 138 minor 14 serial 1295
-error 140: BadRegion request 138 minor 14 serial 1300
-error 140: BadRegion request 138 minor 14 serial 1343
-error 140: BadRegion request 138 minor 14 serial 1352
+(xfce4-clipman:1377): GLib-WARNING **: 13:47:42.787: g_set_application_name() called multiple times
+error 140: BadRegion request 138 minor 14 serial 927
+error 140: BadRegion request 138 minor 14 serial 936
+error 140: BadRegion request 138 minor 14 serial 976
+error 140: BadRegion request 138 minor 14 serial 985
+error 140: BadRegion request 138 minor 14 serial 1020
+error 140: BadRegion request 138 minor 14 serial 1029
 
-(nitrogen:1474): dbind-WARNING **: 09:05:40.530: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-error 3: BadWindow (invalid Window parameter) request 2 minor 0 serial 1395
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 1396
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 1397
-error 140: BadRegion request 138 minor 14 serial 1441
-error 140: BadRegion request 138 minor 14 serial 1446
-error 140: BadRegion request 138 minor 14 serial 1474
-error 140: BadRegion request 138 minor 14 serial 1483
-error 140: BadRegion request 138 minor 14 serial 1528
-error 140: BadRegion request 138 minor 14 serial 1533
-error 140: BadRegion request 138 minor 14 serial 1591
-error 140: BadRegion request 138 minor 14 serial 1596
-error 140: BadRegion request 138 minor 14 serial 1640
-error 140: BadRegion request 138 minor 14 serial 1649
+(nitrogen:1486): dbind-WARNING **: 13:47:42.822: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+error 140: BadRegion request 138 minor 14 serial 1113
+error 140: BadRegion request 138 minor 14 serial 1118
+The program 'nitrogen' received an X Window System error.
+This probably reflects a bug in the program.
+The error was 'BadValue (integer parameter out of range for operation)'.
+  (Details: serial 114 error_code 2 request_code 113 minor_code 0)
+  (Note to programmers: normally, X errors are reported asynchronously;
+   that is, you will receive the error a while after causing it.
+   To debug your program, run it with the --sync command line
+   option to change this behavior. You can then get a meaningful
+   backtrace from your debugger if you break on the gdk_x_error() function.)
 
-(xfce4-terminal:2701): dbind-WARNING **: 09:05:48.185: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+(xfce4-terminal:3809): dbind-WARNING **: 13:47:57.415: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 No se pudo conectar con el Gestor se sesiones: No se pudo conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
 
-(xfce4-terminal:2701): VTE-CRITICAL **: 09:05:48.337: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:2701): VTE-CRITICAL **: 09:05:48.337: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:2701): VTE-CRITICAL **: 09:05:48.337: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:2701): VTE-CRITICAL **: 09:05:48.338: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:2701): VTE-CRITICAL **: 09:05:48.338: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-[119533:121088:0318/091813.699736:ERROR:login_database.cc(599)] Password store database is too new, kCurrentVersionNumber=26, GetCompatibleVersionNumber=31
-[119533:121088:0318/091813.699939:ERROR:password_store_default.cc(42)] Could not create/open login database.
-[119533:121088:0318/091813.699962:ERROR:password_store_x.cc(225)] Could not start the migration into the encrypted LoginDatabase because the database failed to initialise.
-[119533:121815:0318/091818.100404:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[119533:121815:0318/091818.100805:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[119533:121815:0318/091818.106726:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 62448
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 09:24:31.545: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-error 140: BadRegion request 138 minor 14 serial 166958
-error 140: BadRegion request 138 minor 14 serial 167013
-error 140: BadRegion request 138 minor 14 serial 167068
-error 140: BadRegion request 138 minor 14 serial 167123
-error 140: BadRegion request 138 minor 14 serial 167178
-
-(thunar:215132): dbind-WARNING **: 09:28:17.291: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-
-(evince:218180): dbind-WARNING **: 09:28:36.980: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 09:34:38.797: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 09:37:23.840: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-error 140: BadRegion request 138 minor 14 serial 297684
-
-(xfce4-clipman:1385): GLib-CRITICAL **: 09:40:10.341: Source ID 67 was not found when attempting to remove it
-error 140: BadRegion request 138 minor 14 serial 413971
-error 140: BadRegion request 138 minor 14 serial 414026
-error 140: BadRegion request 138 minor 14 serial 414081
-error 140: BadRegion request 138 minor 14 serial 415683
-error 140: BadRegion request 138 minor 14 serial 415730
-error 140: BadRegion request 138 minor 14 serial 415740
-error 140: BadRegion request 138 minor 14 serial 415786
-error 140: BadRegion request 138 minor 14 serial 415796
-error 140: BadRegion request 138 minor 14 serial 415842
-error 140: BadRegion request 138 minor 14 serial 415852
-error 140: BadRegion request 138 minor 14 serial 415898
-error 140: BadRegion request 138 minor 14 serial 415908
-error 140: BadRegion request 138 minor 14 serial 415954
-error 140: BadRegion request 138 minor 14 serial 415964
-error 140: BadRegion request 138 minor 14 serial 416010
-error 140: BadRegion request 138 minor 14 serial 416020
-error 140: BadRegion request 138 minor 14 serial 416066
-error 140: BadRegion request 138 minor 14 serial 416076
-
-(xfce4-terminal:2701): VTE-CRITICAL **: 10:15:02.482: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:2701): VTE-CRITICAL **: 10:15:02.482: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:2701): VTE-CRITICAL **: 10:15:02.483: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:2701): VTE-CRITICAL **: 10:15:02.483: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:2701): VTE-CRITICAL **: 10:15:02.483: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 10:22:31.005: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 10:23:47.311: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 10:26:11.538: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 10:30:31.779: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-libpng warning: Image width is zero in IHDR
-[1020334:1020848:0318/105331.218570:ERROR:audio_rtp_receiver.cc(89)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
-[1020334:1020848:0318/105331.247608:ERROR:audio_rtp_receiver.cc(89)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
-[1020334:1020848:0318/105351.882932:ERROR:audio_rtp_receiver.cc(89)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
-[1020334:1020848:0318/105401.830718:ERROR:audio_rtp_receiver.cc(89)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
-error 140: BadRegion request 138 minor 14 serial 1134539
-error 140: BadRegion request 138 minor 14 serial 1134584
-error 140: BadRegion request 138 minor 14 serial 1134629
-error 140: BadRegion request 138 minor 14 serial 1134674
-error 140: BadRegion request 138 minor 14 serial 1134904
-error 140: BadRegion request 138 minor 14 serial 1134941
-error 140: BadRegion request 138 minor 14 serial 1134978
-error 140: BadRegion request 138 minor 14 serial 1135015
-error 140: BadRegion request 138 minor 14 serial 1135052
-error 140: BadRegion request 138 minor 14 serial 1135089
-error 140: BadRegion request 138 minor 14 serial 1135126
-error 140: BadRegion request 138 minor 14 serial 1135163
-error 140: BadRegion request 138 minor 14 serial 1141176
-error 140: BadRegion request 138 minor 14 serial 1141228
-error 140: BadRegion request 138 minor 14 serial 1141280
-error 140: BadRegion request 138 minor 14 serial 1141332
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 10:56:45.461: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 10:59:30.550: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-error 140: BadRegion request 138 minor 14 serial 1261492
-error 140: BadRegion request 138 minor 14 serial 1261547
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 1275087
-error 140: BadRegion request 138 minor 14 serial 1276707
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:00:39.537: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:03:03.512: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:03:06.777: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:03:07.028: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:03:22.712: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:03:30.957: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:03:34.732: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:03:44.846: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:03:45.570: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:25.936: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:26.411: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:27.139: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:27.523: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:27.937: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:28.951: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:29.969: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:30.260: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:30.518: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:36.261: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:04:36.512: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:07:37.564: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:09:42.876: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:09:44.316: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:09:47.441: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:09:47.861: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:09:48.471: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:09:48.918: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:09:49.265: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:09:52.514: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:09:55.436: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:00.164: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:01.279: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:02.509: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-error 140: BadRegion request 138 minor 14 serial 1459625
-error 140: BadRegion request 138 minor 14 serial 1459685
-error 140: BadRegion request 138 minor 14 serial 1459733
-error 140: BadRegion request 138 minor 14 serial 1459793
-error 140: BadRegion request 138 minor 14 serial 1459853
-error 140: BadRegion request 138 minor 14 serial 1459913
-error 140: BadRegion request 138 minor 14 serial 1459973
-error 140: BadRegion request 138 minor 14 serial 1460033
-error 140: BadRegion request 138 minor 14 serial 1460093
-error 140: BadRegion request 138 minor 14 serial 1460153
-error 140: BadRegion request 138 minor 14 serial 1460213
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:06.596: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:12.135: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:16.908: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:23.370: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:29.619: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:34.234: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:57.027: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:57.942: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:10:58.579: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:01.454: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:01.862: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:05.925: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:08.362: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:11.863: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:14.709: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:17.257: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:32.170: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:34.812: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:35.403: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:37.017: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:37.524: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:38.102: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:40.932: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:11:47.219: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:12:19.346: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:12:21.680: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-error 140: BadRegion request 138 minor 14 serial 1533988
-error 140: BadRegion request 138 minor 14 serial 1534048
-error 140: BadRegion request 138 minor 14 serial 1534108
-error 140: BadRegion request 138 minor 14 serial 1534168
-error 140: BadRegion request 138 minor 14 serial 1534228
-error 140: BadRegion request 138 minor 14 serial 1534288
-error 140: BadRegion request 138 minor 14 serial 1534348
-error 140: BadRegion request 138 minor 14 serial 1534408
-error 140: BadRegion request 138 minor 14 serial 1534468
-error 140: BadRegion request 138 minor 14 serial 1534528
-error 140: BadRegion request 138 minor 14 serial 1534588
-error 140: BadRegion request 138 minor 14 serial 1534648
-error 140: BadRegion request 138 minor 14 serial 1534708
-error 140: BadRegion request 138 minor 14 serial 1534768
-error 140: BadRegion request 138 minor 14 serial 1537448
-error 140: BadRegion request 138 minor 14 serial 1537508
-error 140: BadRegion request 138 minor 14 serial 1537568
-error 140: BadRegion request 138 minor 14 serial 1537628
-error 140: BadRegion request 138 minor 14 serial 1537688
-error 140: BadRegion request 138 minor 14 serial 1537748
-error 140: BadRegion request 138 minor 14 serial 1537796
-error 140: BadRegion request 138 minor 14 serial 1537844
-error 140: BadRegion request 138 minor 14 serial 1537904
-error 140: BadRegion request 138 minor 14 serial 1537952
-error 140: BadRegion request 138 minor 14 serial 1538012
-error 140: BadRegion request 138 minor 14 serial 1538072
-error 140: BadRegion request 138 minor 14 serial 1557441
-error 140: BadRegion request 138 minor 14 serial 1557501
-error 140: BadRegion request 138 minor 14 serial 1557561
-error 140: BadRegion request 138 minor 14 serial 1557621
-error 140: BadRegion request 138 minor 14 serial 1557681
-error 140: BadRegion request 138 minor 14 serial 1557741
-error 140: BadRegion request 138 minor 14 serial 1557898
-error 140: BadRegion request 138 minor 14 serial 1557983
-error 140: BadRegion request 138 minor 14 serial 1558068
-error 140: BadRegion request 138 minor 14 serial 1558153
-error 140: BadRegion request 138 minor 14 serial 1558238
-error 140: BadRegion request 138 minor 14 serial 1559547
-error 140: BadRegion request 138 minor 14 serial 1559607
-error 140: BadRegion request 138 minor 14 serial 1559667
-error 140: BadRegion request 138 minor 14 serial 1559727
-error 140: BadRegion request 138 minor 14 serial 1559787
-error 140: BadRegion request 138 minor 14 serial 1559847
-error 140: BadRegion request 138 minor 14 serial 1559907
-error 140: BadRegion request 138 minor 14 serial 1559967
-error 140: BadRegion request 138 minor 14 serial 1560027
-error 140: BadRegion request 138 minor 14 serial 1560087
-error 140: BadRegion request 138 minor 14 serial 1560147
-error 140: BadRegion request 138 minor 14 serial 1560207
-error 140: BadRegion request 138 minor 14 serial 1560255
-error 140: BadRegion request 138 minor 14 serial 1560303
-error 140: BadRegion request 138 minor 14 serial 1560363
-error 140: BadRegion request 138 minor 14 serial 1563116
-error 140: BadRegion request 138 minor 14 serial 1563164
-error 140: BadRegion request 138 minor 14 serial 1563224
-error 140: BadRegion request 138 minor 14 serial 1563284
-error 140: BadRegion request 138 minor 14 serial 1563344
-error 140: BadRegion request 138 minor 14 serial 1563404
-error 140: BadRegion request 138 minor 14 serial 1563452
-error 140: BadRegion request 138 minor 14 serial 1563512
-error 140: BadRegion request 138 minor 14 serial 1563572
-error 140: BadRegion request 138 minor 14 serial 1563632
-error 140: BadRegion request 138 minor 14 serial 1563692
-error 140: BadRegion request 138 minor 14 serial 1563752
-error 140: BadRegion request 138 minor 14 serial 1563812
-error 140: BadRegion request 138 minor 14 serial 1563872
-error 140: BadRegion request 138 minor 14 serial 1563932
-error 140: BadRegion request 138 minor 14 serial 1566545
-error 140: BadRegion request 138 minor 14 serial 1566605
-error 140: BadRegion request 138 minor 14 serial 1566665
-error 140: BadRegion request 138 minor 14 serial 1566725
-error 140: BadRegion request 138 minor 14 serial 1566785
-error 140: BadRegion request 138 minor 14 serial 1566845
-error 140: BadRegion request 138 minor 14 serial 1566905
-error 140: BadRegion request 138 minor 14 serial 1566958
-error 140: BadRegion request 138 minor 14 serial 1567018
-error 140: BadRegion request 138 minor 14 serial 1567078
-error 140: BadRegion request 138 minor 14 serial 1567138
-error 140: BadRegion request 138 minor 14 serial 1568581
-error 140: BadRegion request 138 minor 14 serial 1568636
-error 140: BadRegion request 138 minor 14 serial 1568691
-error 140: BadRegion request 138 minor 14 serial 1568746
-error 140: BadRegion request 138 minor 14 serial 1568801
-error 140: BadRegion request 138 minor 14 serial 1570911
-error 140: BadRegion request 138 minor 14 serial 1570963
-error 140: BadRegion request 138 minor 14 serial 1571015
-error 140: BadRegion request 138 minor 14 serial 1571067
-error 140: BadRegion request 138 minor 14 serial 1571119
-error 140: BadRegion request 138 minor 14 serial 1571164
-error 140: BadRegion request 138 minor 14 serial 1571216
-error 140: BadRegion request 138 minor 14 serial 1571268
-error 140: BadRegion request 138 minor 14 serial 1571320
-error 140: BadRegion request 138 minor 14 serial 1571372
-error 140: BadRegion request 138 minor 14 serial 1571424
-error 140: BadRegion request 138 minor 14 serial 1571476
-error 140: BadRegion request 138 minor 14 serial 1571721
-error 140: BadRegion request 138 minor 14 serial 1571768
-error 140: BadRegion request 138 minor 14 serial 1571778
-error 140: BadRegion request 138 minor 14 serial 1571824
-error 140: BadRegion request 138 minor 14 serial 1571834
-error 140: BadRegion request 138 minor 14 serial 1571880
-error 140: BadRegion request 138 minor 14 serial 1571890
-error 140: BadRegion request 138 minor 14 serial 1571916
-error 140: BadRegion request 138 minor 14 serial 1571922
-error 140: BadRegion request 138 minor 14 serial 1571968
-error 140: BadRegion request 138 minor 14 serial 1571978
-
-(xfce4-clipman:1385): GLib-CRITICAL **: 11:14:34.249: Source ID 508 was not found when attempting to remove it
-error 140: BadRegion request 138 minor 14 serial 1576094
-error 140: BadRegion request 138 minor 14 serial 1576146
-error 140: BadRegion request 138 minor 14 serial 1576186
-error 140: BadRegion request 138 minor 14 serial 1576238
-error 140: BadRegion request 138 minor 14 serial 1576290
-error 140: BadRegion request 138 minor 14 serial 1576342
-error 140: BadRegion request 138 minor 14 serial 1576394
-error 140: BadRegion request 138 minor 14 serial 1585998
-error 140: BadRegion request 138 minor 14 serial 1586058
-error 140: BadRegion request 138 minor 14 serial 1586118
-error 140: BadRegion request 138 minor 14 serial 1586178
-error 140: BadRegion request 138 minor 14 serial 1586238
-error 140: BadRegion request 138 minor 14 serial 1586298
-error 140: BadRegion request 138 minor 14 serial 1586358
-error 140: BadRegion request 138 minor 14 serial 1586418
-error 140: BadRegion request 138 minor 14 serial 1586478
-error 140: BadRegion request 138 minor 14 serial 1586538
-error 140: BadRegion request 138 minor 14 serial 1586598
-error 140: BadRegion request 138 minor 14 serial 1586658
-error 140: BadRegion request 138 minor 14 serial 1586718
-error 140: BadRegion request 138 minor 14 serial 1586778
-error 140: BadRegion request 138 minor 14 serial 1597141
-error 140: BadRegion request 138 minor 14 serial 1597201
-error 140: BadRegion request 138 minor 14 serial 1597249
-error 140: BadRegion request 138 minor 14 serial 1597309
-error 140: BadRegion request 138 minor 14 serial 1597369
-error 140: BadRegion request 138 minor 14 serial 1597429
-error 140: BadRegion request 138 minor 14 serial 1597489
-error 140: BadRegion request 138 minor 14 serial 1597549
-error 140: BadRegion request 138 minor 14 serial 1597609
-error 140: BadRegion request 138 minor 14 serial 1597657
-error 140: BadRegion request 138 minor 14 serial 1597717
-error 140: BadRegion request 138 minor 14 serial 1597777
-error 140: BadRegion request 138 minor 14 serial 1597837
-error 140: BadRegion request 138 minor 14 serial 1597897
-error 140: BadRegion request 138 minor 14 serial 1597957
-error 140: BadRegion request 138 minor 14 serial 1598017
-error 140: BadRegion request 138 minor 14 serial 1604132
-error 140: BadRegion request 138 minor 14 serial 1604192
-error 140: BadRegion request 138 minor 14 serial 1604252
-error 140: BadRegion request 138 minor 14 serial 1604312
-error 140: BadRegion request 138 minor 14 serial 1604372
-error 140: BadRegion request 138 minor 14 serial 1604432
-error 140: BadRegion request 138 minor 14 serial 1604492
-error 140: BadRegion request 138 minor 14 serial 1604552
-error 140: BadRegion request 138 minor 14 serial 1604612
-error 140: BadRegion request 138 minor 14 serial 1604672
-error 140: BadRegion request 138 minor 14 serial 1604837
-error 140: BadRegion request 138 minor 14 serial 1607020
-error 140: BadRegion request 138 minor 14 serial 1607080
-error 140: BadRegion request 138 minor 14 serial 1607140
-error 140: BadRegion request 138 minor 14 serial 1607200
-error 140: BadRegion request 138 minor 14 serial 1607248
-error 140: BadRegion request 138 minor 14 serial 1607308
-error 140: BadRegion request 138 minor 14 serial 1607368
-error 140: BadRegion request 138 minor 14 serial 1607428
-error 140: BadRegion request 138 minor 14 serial 1607488
-error 140: BadRegion request 138 minor 14 serial 1607548
-error 140: BadRegion request 138 minor 14 serial 1607596
-error 140: BadRegion request 138 minor 14 serial 1607656
-error 140: BadRegion request 138 minor 14 serial 1607716
-error 140: BadRegion request 138 minor 14 serial 1610681
-error 140: BadRegion request 138 minor 14 serial 1610741
-error 140: BadRegion request 138 minor 14 serial 1610801
-error 140: BadRegion request 138 minor 14 serial 1610861
-error 140: BadRegion request 138 minor 14 serial 1610921
-error 140: BadRegion request 138 minor 14 serial 1610981
-error 140: BadRegion request 138 minor 14 serial 1611041
-error 140: BadRegion request 138 minor 14 serial 1611101
-error 140: BadRegion request 138 minor 14 serial 1611161
-error 140: BadRegion request 138 minor 14 serial 1611221
-error 140: BadRegion request 138 minor 14 serial 1611281
-error 140: BadRegion request 138 minor 14 serial 1611341
-error 140: BadRegion request 138 minor 14 serial 1611401
-error 140: BadRegion request 138 minor 14 serial 1611461
-error 140: BadRegion request 138 minor 14 serial 1614584
-error 140: BadRegion request 138 minor 14 serial 1614644
-error 140: BadRegion request 138 minor 14 serial 1614704
-error 140: BadRegion request 138 minor 14 serial 1614764
-error 140: BadRegion request 138 minor 14 serial 1614824
-error 140: BadRegion request 138 minor 14 serial 1614884
-error 140: BadRegion request 138 minor 14 serial 1614944
-error 140: BadRegion request 138 minor 14 serial 1615004
-error 140: BadRegion request 138 minor 14 serial 1615064
-error 140: BadRegion request 138 minor 14 serial 1615124
-error 140: BadRegion request 138 minor 14 serial 1615184
-error 140: BadRegion request 138 minor 14 serial 1615244
-error 140: BadRegion request 138 minor 14 serial 1615304
-error 140: BadRegion request 138 minor 14 serial 1615364
-error 140: BadRegion request 138 minor 14 serial 1619161
-error 140: BadRegion request 138 minor 14 serial 1619209
-error 140: BadRegion request 138 minor 14 serial 1619269
-error 140: BadRegion request 138 minor 14 serial 1619329
-error 140: BadRegion request 138 minor 14 serial 1619389
-error 140: BadRegion request 138 minor 14 serial 1619449
-error 140: BadRegion request 138 minor 14 serial 1619509
-error 140: BadRegion request 138 minor 14 serial 1619569
-error 140: BadRegion request 138 minor 14 serial 1619617
-error 140: BadRegion request 138 minor 14 serial 1619677
-error 140: BadRegion request 138 minor 14 serial 1619737
-error 140: BadRegion request 138 minor 14 serial 1619797
-error 140: BadRegion request 138 minor 14 serial 1619857
-error 140: BadRegion request 138 minor 14 serial 1619917
-error 140: BadRegion request 138 minor 14 serial 1622291
-error 140: BadRegion request 138 minor 14 serial 1622351
-error 140: BadRegion request 138 minor 14 serial 1622411
-error 140: BadRegion request 138 minor 14 serial 1622459
-error 140: BadRegion request 138 minor 14 serial 1622519
-error 140: BadRegion request 138 minor 14 serial 1622579
-error 140: BadRegion request 138 minor 14 serial 1622639
-error 140: BadRegion request 138 minor 14 serial 1622699
-error 140: BadRegion request 138 minor 14 serial 1622759
-error 140: BadRegion request 138 minor 14 serial 1622819
-error 140: BadRegion request 138 minor 14 serial 1622879
-error 140: BadRegion request 138 minor 14 serial 1622939
-error 140: BadRegion request 138 minor 14 serial 1622999
-error 140: BadRegion request 138 minor 14 serial 1623059
-error 140: BadRegion request 138 minor 14 serial 1623119
-error 140: BadRegion request 138 minor 14 serial 1626671
-error 140: BadRegion request 138 minor 14 serial 1626731
-error 140: BadRegion request 138 minor 14 serial 1626791
-error 140: BadRegion request 138 minor 14 serial 1626851
-error 140: BadRegion request 138 minor 14 serial 1626911
-error 140: BadRegion request 138 minor 14 serial 1626971
-error 140: BadRegion request 138 minor 14 serial 1627031
-error 140: BadRegion request 138 minor 14 serial 1627091
-error 140: BadRegion request 138 minor 14 serial 1627151
-error 140: BadRegion request 138 minor 14 serial 1627211
-error 140: BadRegion request 138 minor 14 serial 1627271
-error 140: BadRegion request 138 minor 14 serial 1627331
-error 140: BadRegion request 138 minor 14 serial 1627391
-error 140: BadRegion request 138 minor 14 serial 1630395
-error 140: BadRegion request 138 minor 14 serial 1630455
-error 140: BadRegion request 138 minor 14 serial 1630515
-error 140: BadRegion request 138 minor 14 serial 1630563
-error 140: BadRegion request 138 minor 14 serial 1630623
-error 140: BadRegion request 138 minor 14 serial 1630683
-error 140: BadRegion request 138 minor 14 serial 1630743
-error 140: BadRegion request 138 minor 14 serial 1630803
-error 140: BadRegion request 138 minor 14 serial 1630863
-error 140: BadRegion request 138 minor 14 serial 1630923
-error 140: BadRegion request 138 minor 14 serial 1630983
-error 140: BadRegion request 138 minor 14 serial 1631043
-error 140: BadRegion request 138 minor 14 serial 1631103
-error 140: BadRegion request 138 minor 14 serial 1631163
-error 140: BadRegion request 138 minor 14 serial 1635063
-error 140: BadRegion request 138 minor 14 serial 1635123
-error 140: BadRegion request 138 minor 14 serial 1635183
-error 140: BadRegion request 138 minor 14 serial 1635243
-error 140: BadRegion request 138 minor 14 serial 1635291
-error 140: BadRegion request 138 minor 14 serial 1635339
-error 140: BadRegion request 138 minor 14 serial 1635399
-error 140: BadRegion request 138 minor 14 serial 1635459
-error 140: BadRegion request 138 minor 14 serial 1635512
-error 140: BadRegion request 138 minor 14 serial 1637074
-error 140: BadRegion request 138 minor 14 serial 1637154
-error 140: BadRegion request 138 minor 14 serial 1637234
-error 140: BadRegion request 138 minor 14 serial 1637314
-error 140: BadRegion request 138 minor 14 serial 1638668
-error 140: BadRegion request 138 minor 14 serial 1638720
-error 140: BadRegion request 138 minor 14 serial 1638772
-error 140: BadRegion request 138 minor 14 serial 1638817
-error 140: BadRegion request 138 minor 14 serial 1638869
-error 140: BadRegion request 138 minor 14 serial 1638921
-error 140: BadRegion request 138 minor 14 serial 1638973
-error 140: BadRegion request 138 minor 14 serial 1642354
-error 140: BadRegion request 138 minor 14 serial 1642406
-error 140: BadRegion request 138 minor 14 serial 1642458
-error 140: BadRegion request 138 minor 14 serial 1642510
-error 140: BadRegion request 138 minor 14 serial 1642562
-error 140: BadRegion request 138 minor 14 serial 1642614
-error 140: BadRegion request 138 minor 14 serial 1642654
-error 140: BadRegion request 138 minor 14 serial 1642694
-error 140: BadRegion request 138 minor 14 serial 1642746
-error 140: BadRegion request 138 minor 14 serial 1642798
-error 140: BadRegion request 138 minor 14 serial 1642850
-error 140: BadRegion request 138 minor 14 serial 1642902
-error 140: BadRegion request 138 minor 14 serial 1642954
-error 140: BadRegion request 138 minor 14 serial 1643006
-error 140: BadRegion request 138 minor 14 serial 1643046
-error 140: BadRegion request 138 minor 14 serial 1643086
-error 140: BadRegion request 138 minor 14 serial 1643138
-error 140: BadRegion request 138 minor 14 serial 1643190
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 1646263
-error 140: BadRegion request 138 minor 14 serial 1648072
-error 140: BadRegion request 138 minor 14 serial 1648127
-error 140: BadRegion request 138 minor 14 serial 1648192
-
-(thunar:1240706): dbind-WARNING **: 11:17:10.329: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:17:15.137: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:17:16.010: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): GLib-CRITICAL **: 11:17:16.607: Source ID 526 was not found when attempting to remove it
-error 140: BadRegion request 138 minor 14 serial 1676209
-error 140: BadRegion request 138 minor 14 serial 1676261
-error 140: BadRegion request 138 minor 14 serial 1676313
-error 140: BadRegion request 138 minor 14 serial 1676365
-error 140: BadRegion request 138 minor 14 serial 1676417
-error 140: BadRegion request 138 minor 14 serial 1676469
-error 140: BadRegion request 138 minor 14 serial 1676521
-error 140: BadRegion request 138 minor 14 serial 1676573
-error 140: BadRegion request 138 minor 14 serial 1676625
-error 140: BadRegion request 138 minor 14 serial 1676677
-error 140: BadRegion request 138 minor 14 serial 1676717
-error 140: BadRegion request 138 minor 14 serial 1676757
-
-(xarchiver:1242991): dbind-WARNING **: 11:17:24.808: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-xarchiver 0.5.4 ©  2005-2014 Giuseppe Torelli
-xarchiver 0.5.4.14 Ingo Brückl
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:17:25.955: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-error 140: BadRegion request 138 minor 14 serial 1682600
-error 140: BadRegion request 138 minor 14 serial 1682693
-error 140: BadRegion request 138 minor 14 serial 1682799
-error 140: BadRegion request 138 minor 14 serial 1682876
-error 140: BadRegion request 138 minor 14 serial 1682953
-error 140: BadRegion request 138 minor 14 serial 1683030
-error 140: BadRegion request 138 minor 14 serial 1683107
-error 140: BadRegion request 138 minor 14 serial 1683184
-error 140: BadRegion request 138 minor 14 serial 1683261
-
-(xfce4-clipman:1385): GLib-CRITICAL **: 11:17:30.663: Source ID 530 was not found when attempting to remove it
-error 140: BadRegion request 138 minor 14 serial 1684385
-error 140: BadRegion request 138 minor 14 serial 1684437
-error 140: BadRegion request 138 minor 14 serial 1684489
-error 140: BadRegion request 138 minor 14 serial 1684541
-error 140: BadRegion request 138 minor 14 serial 1684593
-error 140: BadRegion request 138 minor 14 serial 1684645
-error 140: BadRegion request 138 minor 14 serial 1684697
-error 140: BadRegion request 138 minor 14 serial 1684749
-error 140: BadRegion request 138 minor 14 serial 1684801
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:17:57.800: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:18:00.011: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-error 140: BadRegion request 138 minor 14 serial 1696166
-error 140: BadRegion request 138 minor 14 serial 1696241
-error 140: BadRegion request 138 minor 14 serial 1696294
-error 140: BadRegion request 138 minor 14 serial 1696347
-error 140: BadRegion request 138 minor 14 serial 1696400
-
-(xfce4-clipman:1385): GLib-CRITICAL **: 11:18:01.446: Source ID 558 was not found when attempting to remove it
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:18:10.600: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:19:26.755: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:19:27.461: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:19:30.342: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:19:30.891: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:19:32.757: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:19:37.729: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-error 140: BadRegion request 138 minor 14 serial 1742852
-error 140: BadRegion request 138 minor 14 serial 1742897
-error 140: BadRegion request 138 minor 14 serial 1742952
-error 140: BadRegion request 138 minor 14 serial 1743007
-error 140: BadRegion request 138 minor 14 serial 1743047
-error 140: BadRegion request 138 minor 14 serial 1743290
-error 140: BadRegion request 138 minor 14 serial 1743350
-error 140: BadRegion request 138 minor 14 serial 1743397
-error 140: BadRegion request 138 minor 14 serial 1743407
-error 140: BadRegion request 138 minor 14 serial 1743453
-error 140: BadRegion request 138 minor 14 serial 1743463
-error 140: BadRegion request 138 minor 14 serial 1743509
-error 140: BadRegion request 138 minor 14 serial 1743519
-error 140: BadRegion request 138 minor 14 serial 1743565
-error 140: BadRegion request 138 minor 14 serial 1743575
-error 140: BadRegion request 138 minor 14 serial 1743621
-error 140: BadRegion request 138 minor 14 serial 1743631
-
-(xfce4-clipman:1385): GLib-CRITICAL **: 11:19:50.709: Source ID 580 was not found when attempting to remove it
-error 140: BadRegion request 138 minor 14 serial 1791434
-error 140: BadRegion request 138 minor 14 serial 1791474
-error 140: BadRegion request 138 minor 14 serial 1791529
-error 140: BadRegion request 138 minor 14 serial 1791584
-error 140: BadRegion request 138 minor 14 serial 1791639
-error 140: BadRegion request 138 minor 14 serial 1791694
-error 140: BadRegion request 138 minor 14 serial 1801633
-error 140: BadRegion request 138 minor 14 serial 1801688
-error 140: BadRegion request 138 minor 14 serial 1801743
-error 140: BadRegion request 138 minor 14 serial 1801798
-error 140: BadRegion request 138 minor 14 serial 1801838
-error 140: BadRegion request 138 minor 14 serial 1801878
-error 140: BadRegion request 138 minor 14 serial 1820192
-error 140: BadRegion request 138 minor 14 serial 1820247
-error 140: BadRegion request 138 minor 14 serial 1820287
-error 140: BadRegion request 138 minor 14 serial 1825729
-error 140: BadRegion request 138 minor 14 serial 1825774
-error 140: BadRegion request 138 minor 14 serial 1825829
-error 140: BadRegion request 138 minor 14 serial 1825884
-error 140: BadRegion request 138 minor 14 serial 1825924
-error 140: BadRegion request 138 minor 14 serial 1830646
-error 140: BadRegion request 138 minor 14 serial 1830701
-error 140: BadRegion request 138 minor 14 serial 1837021
-error 140: BadRegion request 138 minor 14 serial 1837066
-error 140: BadRegion request 138 minor 14 serial 1837121
-
-(xfce4-clipman:1385): Gdk-CRITICAL **: 11:31:47.163: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-error 140: BadRegion request 138 minor 14 serial 1902864
-error 140: BadRegion request 138 minor 14 serial 1902909
-error 140: BadRegion request 138 minor 14 serial 1902964
-error 140: BadRegion request 138 minor 14 serial 1903019
-error 140: BadRegion request 138 minor 14 serial 1903074
+(xfce4-terminal:3809): VTE-CRITICAL **: 13:47:57.748: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:3809): VTE-CRITICAL **: 13:47:57.748: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:3809): VTE-CRITICAL **: 13:47:57.748: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:3809): VTE-CRITICAL **: 13:47:57.748: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+
+(xfce4-terminal:3809): VTE-CRITICAL **: 13:47:57.748: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
+[6538:8194:0319/134824.962120:ERROR:login_database.cc(599)] Password store database is too new, kCurrentVersionNumber=26, GetCompatibleVersionNumber=31
+[6538:8194:0319/134824.962339:ERROR:password_store_default.cc(42)] Could not create/open login database.
+[6538:8194:0319/134824.962366:ERROR:password_store_x.cc(225)] Could not start the migration into the encrypted LoginDatabase because the database failed to initialise.
+[6538:9029:0319/134829.728147:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[6538:9029:0319/134829.728704:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[6538:9029:0319/134829.729081:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+
+(xfce4-clipman:1377): Gdk-CRITICAL **: 13:54:05.831: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+error 140: BadRegion request 138 minor 14 serial 238276
+error 140: BadRegion request 138 minor 14 serial 238353
+error 140: BadRegion request 138 minor 14 serial 238404
+error 140: BadRegion request 138 minor 14 serial 238455
+error 140: BadRegion request 138 minor 14 serial 238506
+error 140: BadRegion request 138 minor 14 serial 238557
+error 140: BadRegion request 138 minor 14 serial 238604
+error 140: BadRegion request 138 minor 14 serial 238655
+error 140: BadRegion request 138 minor 14 serial 238702
+error 140: BadRegion request 138 minor 14 serial 238753
+error 140: BadRegion request 138 minor 14 serial 238804
+error 140: BadRegion request 138 minor 14 serial 238855
+error 140: BadRegion request 138 minor 14 serial 238906
+
+(pavucontrol:85454): dbind-WARNING **: 13:56:59.034: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+error 140: BadRegion request 138 minor 14 serial 547605
+error 140: BadRegion request 138 minor 14 serial 547668
+error 140: BadRegion request 138 minor 14 serial 1234107
+
+(xfce4-clipman:1377): Gdk-CRITICAL **: 15:42:49.185: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
+[libi3] ../../i3/libi3/font.c Using Pango font Sans, size 8
+[6538:7656:0319/171350.111362:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
+[6538:6538:0319/171350.113012:ERROR:chrome_browser_main_extra_parts_x11.cc(62)] X IO error received (X server probably went away)
+[6538:6538:0319/171350.120001:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
+[6538:6538:0319/171350.123980:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
+[6538:6538:0319/171350.150862:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
+[6538:6538:0319/171350.201737:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
+[6538:6538:0319/171350.205513:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
+[6538:6538:0319/171350.214219:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
+[6538:6538:0319/171350.217698:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
+[6538:6538:0319/171350.223941:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
+[6538:6538:0319/171350.229744:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote

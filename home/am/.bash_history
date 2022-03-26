@@ -18600,3 +18600,1411 @@ echo "spcdb" | cut -c 2-
 echo "spcdb" | cut -c -3 
 echo "spcdb" | cut -c-3 
 ssh -CX churun-meru -t ssh -CX hephaestus
+cd /media/am/a/
+ls
+rsync -P --partial --inplace *mkv *mp4 /mnt/fvckingmore/
+ls
+rm -rf El\ Viaje\ De\ Chihiro\ \(2001\).mkv Ponyo\ Y\ El\ Secreto\ De\ La\ Sirenita\ \(2008\)\ HD-720p.mkv La\ tumba\ de\ las\ luciernagas\ 1988\ HD-720p.mkv InShot_20220312_161935220.mp4 
+df -h
+cd
+cd /media/am/a/
+ls
+rsync -P --no-compress --partial --inplace *iso /mnt/fvckingmore/UNIX/isos/
+cd
+aria2c -x10 'https://www.sarducd.it/linux-download/sardu_4.0.0-linux.tar.gz'
+mkdir sardu
+cp sardu_4.0.0-linux.tar.gz sardu/
+cd sardu/
+tar -xvf sardu_4.0.0-linux.tar.gz 
+cd sardu-400-linux/
+ls -l
+./sardu_4 
+cd
+mkdri sys
+mkdir sys
+cp syslinux-4.06-pre2.tar.xz sys/
+cd sys/
+tar -xvf syslinux-4.06-pre2.tar.xz 
+cd syslinux-4.06-pre2/
+ls
+cd linux/
+ls
+cd ..
+find . -iname "*c32*"
+find . -iname "*linux.c32*"
+cd com32/modules/
+ls
+cp linux.c32 ~/MultiCD/
+sudo apt-get install k3b
+less /etc/X11/xinit/xinitrc 
+!
+cd sardu/
+ls
+cd sardu-400-linux/
+ls
+cd ISO/
+ls -lh
+cd ..
+ls
+cd ..
+ls
+cd ..
+rm -rf sardu*
+cd MultiCD/temporary-mountpoints/
+ls
+ls pmagic/
+ls pmagic/boot/
+ls pmagic/boot/syslinux/
+cp ../linux.c32 pmagic/boot/syslinux/
+ls pmagic/boot/syslinux/
+cd
+cd fvckingmore/UNIX/isos/
+ls
+ls -l
+mv Parted_Magic_2018.04.30.iso Parted_Magic_2018.iso 
+mv trinity-rescue-kit.3.4-build-372.iso Trinity_Rescue_Kit_3.iso 
+mv ubcd538.iso Ultimate_Boot_CD.iso 
+du -csh * | sort -h
+ln -rsf Parted_Magic_2018.iso ~/MultiCD/
+ln -rsf Ultimate_Boot_CD.iso ~/MultiCD/
+ln -rsf Trinity_Rescue_Kit_3.iso ~/MultiCD/
+ln -rsf Hirens.BootCD.15.2.iso ~/MultiCD/
+rsync -P --partial --inplace Parted_Magic_2018.iso Trinity_Rescue_Kit_3.iso Ultimate_Boot_CD.iso Hirens.BootCD.15.2.iso /home/am/MultiCD/
+ln -rsf Parted_Magic_2018.iso ~/MultiCD/pmagic.iso
+ln -rsf Hirens.BootCD.15.2.iso ~/MultiCD/hirens.iso
+ln -rsf Trinity_Rescue_Kit_3.iso ~/MultiCD/trk.iso
+ln -rsf Ultimate_Boot_CD.iso ~/MultiCD/ubcd.iso
+htop
+ln -rsf Parted_Magic_2018.iso ~/MultiCD/pmagic.iso
+cd
+whereis i3-dmenu
+whereis i3-dmenu*
+whereis i3-dmenu-desktop
+vim /usr/local/bin/i3-dmenu-desktop 
+i3-dmenu-desktop 
+dmenu_run 
+cd farmacia/
+git log --oneline 
+git reset 3569fd6 --hard 
+git log --oneline 
+git status 
+git checkout remote/adrian 
+git log --oneline 
+git reset 3569fd6 --hard 
+git log --oneline 
+git branch 
+git push --force
+git checkout adrian
+git log --oneline 
+git push --force
+git log --oneline 
+git branch -a
+git branch -D devtmp tutorial livewire adrianRoles 
+git push --delete devtmp
+git push remote --delete devtmp
+git push remote --delete devtmp --force
+git push remote --delete livewire --force
+git branch -a
+git pull remote margarita 
+git branch -a
+git log --oneline 
+git reset 3569fd6 --hard 
+git log --oneline 
+git checkout margarita 
+git branch -a
+git pull 
+git log --oneline 
+c
+cd
+cd .config/sublime-text-3/
+ls
+cd Installed\ Packages/
+ls
+vim 0_package_control_loader.sublime-package 
+vim Package\ Control.sublime-package 
+ls
+cd ..
+cd Packages/
+ls
+cd User/
+ls
+vim Package\ Control.sublime-settings 
+ls
+vim Package\ Control.user-ca-bundle 
+vim Preferences.sublime-settings
+cd ..
+ls
+cd ..
+ls
+cd Local/
+ls
+cd ..
+ls
+cd Installed\ Packages/
+ls
+cd ..
+ls
+cd Lib/
+ls
+cd ..
+cd
+cd .config/
+ls
+cd
+cd .applications/
+ls
+cd sublime_text/
+s
+ls
+cd Packages/
+ls
+ls -1
+ls -1 | xargs -I% -n1 | sed -E "s/%/\'%\',/g"
+ls -1 | xargs -I% -n1 | sed -E "s/%/%/g"
+ls -1 | xargs -I% -n1 | sed -E "s/\%/%/g"
+ls -1 | xargs -I% -n1 
+ls -1 | xargs -I% -n1 | echo %
+ls | xargs -I% -n1 | echo %
+ls
+cd
+cd .config/sublime-text-3/
+ls
+cd Packages/
+ls
+cd Theme\ -\ Default/
+ls
+cd ..
+sl
+cd User/
+ls
+cd ..
+ls
+cd ..
+ls
+cd Installed\ Packages/
+ls
+cd
+ls
+cd .config/sublime-text-3/
+du -csh *
+cd Packages/
+du -csh *
+cp gruvbox\ \(Dark\)\ \(Hard\).sublime-color-scheme User/
+ls
+ls -l
+du -csh *
+du -csh * | sort -h
+cd ..
+ls
+du -csh * | sort -h
+cd
+vim dotfile
+bash dotfile
+cd DOTFILES/
+ls
+git status 
+git add .
+git status 
+git commit -m "Adding SublimeText Settings"
+git push 
+git push remote master 
+cd
+cd .config/sublime-text-3/Packages/User/
+ls
+vim Preferences.sublime-settings.bak 
+vim Preferences.sublime-settings
+vim Emmet.sublime-settings 
+vim Default\ \(Linux\).sublime-keymap 
+vim Phpactor.sublime-settings 
+vim Package\ Control.sublime-settings 
+htop
+cd
+cd farmacia/
+ls
+git branch 
+git checkout adrian 
+git log --oneline 
+git checkout main 
+git log --oneline --graph 
+git checkout adrian 
+git branch -m adrian2
+git branch 
+git merge --help
+git merge main 
+git log --oneline 
+git status 
+git log --oneline --graph --color
+git branch -m livewireMain
+git log --oneline 
+git log --oneline --graph 
+git branch -a
+php artisan server.php 
+php artisan server
+php artisan serve
+vim .env
+sudo service postgresql start
+sudo service postgresql stop
+sudo service mysql start
+mysql -U admin -p
+sudo -i
+mysql -u root -p
+mysql -u admin -p
+php artisan migrate::fresh --seed
+php artisan migrate:fresh --seed
+php artisan serve
+sudo service mysql stop
+cd database/migrations/
+ls
+ls *forening*
+ls *foreing*
+ls *foreign*
+cd ..
+git status 
+git checkout -- database/.
+git status 
+git add .
+git status 
+git commit -m "Direct Livewire Component bind"
+git log --oneline 
+php artisan  | egrep migra
+php artisan make:migration --help
+php artisan make:migration cretae_foreign_key
+php artisan make:migration create_foreign_key
+php artisan make:migration add_foreign_keys
+cd
+git clone git://github.com/IsaacSchemm/MultiCD.git
+git clone https://github.com/IsaacSchemm/MultiCD.git
+cd MultiCD/
+ls
+vim multicd.sh 
+ls
+ls -l
+bash multicd.sh 
+ls -l
+rm -rf *iso
+bash multicd.sh 
+bash localize.sh 
+ls -l
+ls build
+ls -lh build
+rm -rf build/multicd.iso 
+bash multicd.sh 
+bash multicd.sh --help
+bash multicd.sh -h
+mv Parted_Magic_2018.iso pmagic.iso
+mv Trinity_Rescue_Kit_3.iso trk.iso
+mv Ultimate_Boot_CD.iso ubcd.iso
+mv Hirens.BootCD.15.2.iso hirens.iso
+ls -l
+bash multicd.sh 
+ls
+ls -l
+cd build/
+ls
+ls -lh
+cd ..
+rm -rfv *iso
+ls -lh
+rm -rf build/multicd.iso 
+bash localize.sh 
+ls
+ls -lh
+cd temporary-mountpoints/
+ls
+rm -rf *
+cd ..
+bash localize.sh 
+cd temporary-mountpoints/
+ls -l
+rm -rf pmagic/
+cd ..
+cd multicd-working/
+ls
+cd boot/
+ls
+cd ..
+cd HBCD/
+ls
+cd ..
+rm -rf *
+cd ..
+sudo bash multicd.sh 
+ls -lh
+sudo rm -rf 1_ubcd.* multicd-working temporary-mountpoints/
+sudo -i
+ls
+ls -l
+cd build/
+ls
+cd ..
+rm -rf pmagic.iso 
+bash multicd.sh 
+ls -lh
+cd build/
+ls -l
+ls -lh
+cd ..
+ls
+bash multicd.sh 
+cal -3
+Bcd temporary-mountpoints/pmagic/boot/
+cd temporary-mountpoints/pmagic/boot/
+ls
+cd syslinux/
+ls
+ls -l
+vim syslinux.cfg 
+la
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+bash multicd.sh 
+cd build/
+ls -l
+ls -lh
+vim .xsession
+sudo -i
+lsblk 
+sudo -i
+lsblk 
+ip a
+ping google.com
+ls -l /dev/sr* /dev/cd*
+ls /dev/sr0 
+lsblk 
+groups 
+sudo -i
+sudo apt-get install growisofs 
+nitrogen --restore
+sudo init 6
+ls
+ssh -CX churun-meru -t ssh -CX hephaestus
+WINEARCH=win32 WINEPREFIX=~/NFSUC winecfg
+ls -l
+WINEPREFIX=~/PRTS winecfg
+pkill xfce4-screensho 
+ls
+WINEARCH=win32 WINEPREFIX=~/NFSU2 winecfg 
+cd nfs
+ls
+WINEARCH=win32 WINEPREFIX=~/NFSU2 wine SPEED2.EXE 
+ls -l
+cd
+ls -l
+rm -rf HPC.pdf 
+ssh -CX churun-meru -t ssh -CX hephaestus
+cat .xsession
+cat .xinitrc 
+cat .xsession > .xinitrc 
+vim .xinitrc 
+sudo systemctl disable lightdm
+sudo vim /etc/pam.d/login 
+sudo init 6
+htop
+xinput 
+xinput list-props 12
+xinput set-prop 12 316 1
+xinput set-prop 12 317 1
+vim .xinitrc 
+sudo -i
+sudo -i
+X
+startx 
+xx
+sudo -i
+sudo init 6
+sudo -i
+xx
+nitrogen --restore
+chromium --help
+chromium --help | less
+vim .xinitrc 
+ssh -CX churun-meru -t ssh -CX hephaestus
+nitrogen --restart
+cd farmacia/r
+cd farmacia/
+vim routes/web.php 
+cd farmacia/
+vim routes/web.php 
+aria2c -x10 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/297651416/3f229800-fcea-11ea-9cf9-630dd64375a7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220319%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220319T221958Z&X-Amz-Expires=300&X-Amz-Signature=07123865ea8702bccbc3204cbec630cbf2ac232120dc7434462ffcc4f139cd97&X-Amz-SignedHeaders=host&actor_id=46464207&key_id=0&repo_id=297651416&response-content-disposition=attachment%3B%20filename%3DVisual_Studio_Code-x86_64.AppImage&response-content-type=application%2Foctet-stream'
+du -csh $(ls -A) | sort -h
+cd MultiCD/
+ls
+cd build/
+ls
+rm -rf multicd.iso 
+cd ..
+du -csh $(ls -A) | sort -h
+rm -rf .epsxe/
+rm -rf .oh-my-zsh/
+du -csh $(ls -A) | sort -h
+mkdir nodeCRUD
+cd nodeCRUD/
+npm install express-generator
+ls
+npm install express ejs nodemon pg
+node ./node_modules/express-generator/bin/express-cli.js --view=ejs -e crud 
+npm install
+cd crud/
+npm install
+node bin/www 
+npm install express nodemon ejs pg
+cd ..
+rm -rf nodeCRUD/
+composer create-project laravel/laravel --prefer-dist sveltecrud
+cd sveltecrud/
+ls
+sudo service postgresql start
+su - postgres 
+vim .env
+php artisan key:generate
+curl locahost:8000/api/show -i
+curl localhost:8000/api/show -i
+curl localhost:8000/api/edit -i
+curl localhost:8000/api/edit/1 -i
+cd sveltecrud/
+ls
+php artisan create:model --help
+php artisan  egrep model
+php artisan | egrep model
+php artisan make:model --help
+php artisan make:model -a Users
+git status
+php artisan migrate:fresh 
+php artisan config:clear
+php artisan migrate:fresh 
+php artisan serve
+php artisan migrate:fresh 
+php artisan serve
+php artisan migrate:fresh 
+php artisan serve
+cd ..
+rm -rf sveltecrud/
+composer create-project laravel/laravel --prefer-dist crud-livewire-alpine
+cd crud-livewire-alpine/
+php artisan make:model --help
+php artisan make:model -c -m -r 
+php artisan make:model -c -m -r Articles
+php artisan migrate:fresh
+cd public/
+ls
+mkdir css js
+cd css/
+aria2c 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css'
+cd ..
+cd js/
+aria2c 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js'
+cd ..
+php artisan serve
+composer require livewire/livewire
+php artisan make:livewire --help
+php artisan make:livewire form
+php artisan make:livewire table
+php artisan serve
+git init
+git status 
+git add .
+git commit -m "Init commit with Model, Migration, Controller, Livewire Component"
+git log --oneline 
+gh 
+gh repo
+gh repo create
+git remote add https://git@github/fvckingmore/crud-livewire-alpine
+git remote add remote https://git@github/fvckingmore/crud-livewire-alpine
+git push remote master 
+git remote remove remote 
+git remote add remote https://git@github:fvckingmore/crud-livewire-alpine
+git push remote master 
+git remote remove remote 
+git remote add remote https://git@github:/fvckingmore/crud-livewire-alpine
+git push remote master 
+git remote remove remote 
+git remote add remote git@github:/fvckingmore/crud-livewire-alpine
+git push remote master 
+git remote remove remote 
+git remote add remote git@github.com:/fvckingmore/crud-livewire-alpine
+git push remote master 
+git branch -m dev
+git branch -a
+cd crud-livewire-alpine/
+php artisan serve
+ssh -CX churun-meru -t ssh -CX hephaestus
+su - postgres -c "echo "drop database svelte | psql""
+su - postgres -c "echo \"drop database svelte | psql\""
+su - postgres -c "echo \"drop database svelte\" | psql"
+su - postgres -c "echo \"create database crud\" | psql"
+man sudo
+sudo -u postgres -c "echo \"grant all privileges on database crud to admin\" | psql"
+sudo -u postgres "echo \"grant all privileges on database crud to admin\" | psql"
+sudo -u postgres echo "grant all privileges on database crud to admin" | psql
+su -postgres -c "echo \"grant all privileges on database crud to admin\" | psql"
+su - postgres -c "echo \"grant all privileges on database crud to admin\" | psql"
+ssh -CX churun-meru -t ssh -CX hephaestus
+cd farmacia/
+git remote show
+git remote get-url 
+git remote get-url remote 
+sudo init 0
+startx chromium
+xx
+startx chromium --
+startx chromium --kiosk --
+xx
+cd crud-livewire-alpine/
+ls
+php artisan serve
+php artisan migrate:fresh
+php artisan serve
+cd crud-livewire-alpine/
+php artisan livewire:publish --pagination
+git status 
+git add .
+git commit -m "Table Component, Custom Pagination"
+git branch 
+git push 
+git push remote dev 
+git branch -m livewire
+git status 
+git log --oneline 
+git push remote livewire 
+git push --delete remote dev 
+git branch -a
+git log --oneline --graph 
+php artisan migrate:fresh
+touch articles.db
+sqlite articles.db 
+echo "create database articles" | sqlite articles.db 
+php artisan migrate:fresh
+pwd
+php artisan migrate:fresh
+sudo service postgresql restart
+php artisan migrate:fresh
+git status 
+rm -rf articles.db 
+git sta
+git status 
+git add .
+git commit -m "Working Stable" 
+git push remote 
+git branch 
+git push remote livewire 
+git branch -a
+git status 
+git add .
+git commit --amend 
+git push remote livewire 
+git push remote livewire --force
+git branch -m livewire-same-page
+git push remote livewire-same-page 
+git branch -a
+git checkout livewire
+git branch -m livewire-modal
+git branch 
+git branch -a
+git log --oneline --graph 
+git diff livewire-same-page livewire-modal 
+php artisan migrate:fresh
+git branch 
+git status 
+git add .
+git commit -m "Working Model"
+git branch a
+git branch 
+git branch -D a
+git push remote livewire-modal 
+git branch -a
+git checkout livewire-same-page 
+git checkout livewire-modal 
+git log --oneline 
+git status 
+git add .
+git commit -m "Working on delete"
+git checkout livewire-same-page 
+git checkout livewire-modal 
+php artisan migrate:fresh
+git log --oneline
+git status
+git add .
+git commit -m "Working Stable"
+git push remote livewire-modal 
+git branch -a
+git branch -m livewire-same-page-component
+git branch 
+git branch -a
+git status 
+git add .
+git commit -m "Working Stable"
+git push remote livewire-same-page-component 
+git log --oneline --graph 
+git push --delete remote livewire
+git branch -a
+git branch -m simple-controller
+git branch 
+git status 
+git branch 
+git add .
+git commit -m "Working Stable, Controllers, Views"
+git push remote simple-controller 
+git add .
+git status 
+git commit --amend 
+git push remote simple-controller --force
+git checkout livewire-same-page
+git checkout livewire-modal 
+git checkout simple-controller 
+php artisan migrate:fresh
+git status 
+git diff
+git log --oneline 
+git reset 
+git status 
+git reset --hard 
+git status 
+git add .
+git commit --amend 
+git push remote simple-controller --force
+ssh -CX churun-meru -t ssh -CX hephaestus
+sudo service postgresql start
+sudo service postgresql stop
+sudo apt-get install sqlite
+cd crud-livewire-alpine/public/
+ls
+aria2c 'https://github.com/twbs/bootstrap/releases/download/v5.1.3/bootstrap-5.1.3-dist.zip'
+mkdir bs
+mv bootstrap-5.1.3-dist.zip bs/
+cd bs/
+unzip bootstrap-5.1.3-dist.zip 
+mv bootstrap-5.1.3-dist/css ../
+mv - fbootstrap-5.1.3-dist/css ../
+mv -f bootstrap-5.1.3-dist/css ../
+rm -rf ../css/
+mv -f bootstrap-5.1.3-dist/css ../
+pwd
+rm -rf ../js/
+mv bootstrap-5.1.3-dist/js ../
+cd ..
+ls
+ls css/
+ls js/
+ls
+rm -rf bs css js
+ls
+mkdir css js
+cd css/
+aria2c 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css'
+cd ..
+cd js/
+aria2c 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js'
+mv bootstrap.bundle.min.js bootstrap.min.js 
+aria2c 'https://code.jquery.com/jquery-3.6.0.min.js'
+mv jquery-3.6.0.min.js jquery.min.js 
+cd
+cd crud-livewire-alpine/
+ls
+cd public/
+cd css/
+aria2c 'http://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css'
+mv jquery.dataTables.min.css datatable.min.css 
+cd ..
+cd js/
+aria2c 'http://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js'
+mv jquery.dataTables.min.js datatables.min.js 
+ls -l
+ls ../css/
+mv datatables.min.js datatable.min.js 
+rm -rf datatable.min.js 
+ls
+aria2c 'https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.11.5/datatables.min.css'
+mv datatables.min.css ../css/
+aria2c 'https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.11.5/datatables.min.js'
+ls -l
+cd
+wine desktop
+wine --help
+rm -rf .wine/
+htop
+sudo apt-get install compton compton-conf 
+pkill xcompmgr 
+compton
+ls .config/
+compton --htlp
+compton --help
+compton --help | less
+cp /usr/share/doc/compton/examples/compton.sample.conf .config/compton.conf 
+man compton
+vim .config/compton.conf 
+compton --config .config/compton.conf 
+vim .config/compton.conf 
+cat .config/i3/autostart 
+xcompmgr -c -t-5 -l-5 -r6 -o1 -fF -I.07 -O.07 -D2 -C &
+pkill xcompmgr 
+vim .config/compton.conf 
+rm -rf .config/compton.conf 
+cat .config/i3/autostart 
+xcompmgr -c -t-5 -l-5 -r6 -o1 -fF -I.07 -O.07 -D2 -C &
+cd crud-livewire-alpine/
+ls
+git status 
+git checkout livewire-modal 
+git status 
+git checkout -- .
+git status 
+cd crud-livewire-alpine/
+php artisan serve
+sudo service postgresql start
+sudo service postgresql stop
+htop
+cd fvckingmore
+ls
+cd Desktop/F_ckingmore/
+ls
+cp CS\ 1.6.rar ~/
+rsync -P --partial --inplace CS\ 1.6.rar ~/
+cd
+ls
+mkdir cs 
+mv CS\ 1.6.rar cs/
+cd cs/
+rar x CS\ 1.6.rar 
+cd CS\ 1.6/
+ls
+WINEARCH=win32 WINEREFIX=~/CS1.6 winecfg
+WINEARCH=win32 WINEPREFIX=~/CS1.6 winecfg
+WINEARCH=win32 WINEPREFIX=~/CS1.6 wine Counter\ Strike\ 1.6.exe 
+WINEARCH=win32 WINEPREFIX=~/CS1.6 wine CS\ Parche.exe 
+cd
+WINEARCH=win32 WINEPREFIX=~/CS1.6 winetrick corefonts
+WINEARCH=win32 WINEPREFIX=~/CS1.6 winetricks corefonts
+WINEARCH=win32 WINEPREFIX=~/CS1.6 wine explorer
+cd
+ls
+rm -rf cs
+du -csh $(ls -A) | sort -h
+rm  -rf blender-3.1.0-linux-x64.tar.xz 
+rm -rf Visual_Studio_Code-x86_64.AppImage*
+du -csh $(ls -A) | sort -h
+cd .applications/
+s
+du -csh $(ls -A) | sort -h
+rm -rf startSnap 
+cd
+ls
+du -csh $(ls -A) | sort -h
+cd .config/
+du -csh $(ls -A) | sort -h
+cd
+du -csh $(ls -A) | sort -h
+aria2c -x10 'https://github.com/zilti/VSCode.AppImage/releases/download/continuous/Visual_Studio_Code-x86_64.AppImage'
+chmod +x Visual_Studio_Code-x86_64.AppImage 
+./Visual_Studio_Code-x86_64.AppImage 
+WINEARCH=win32 WINEPREFIX=~/NFSUC winecfg
+aria2c -x10 'http://fs72.thefileslocker.com:182/d/kngd2dr4gygmyaashvxf4tq7te7epumkpps4lavcqwtwpzcyh3akghlpod5u7a6sp5ggdklm/Need%20For%20Speed%20Most%20Wanted.rar'
+compton --config .config/compton.conf 
+sudo apt-get purge --autoremove compton*
+ssh -CX churun-meru -t ssh -CX hephaestus
+xx
+mkdir usbBak
+rsync -P --partial --inplace /media/am/a/ ./usbBak/
+rsync -Pr --partial --inplace /media/am/a/ ./usbBak/
+sudo gparted
+cd .config/
+scp -r i3/ root@20.0.0.11:/root/
+cd
+scp -r .xinitrc .X* .bash* root@20.0.0.11:/root/bak/
+scp -r .vimrc  root@20.0.0.11:/root/bak/
+scp -r .ssh  root@20.0.0.11:/root/bak/
+aria2c -x10 'http://fs72.thefileslocker.com:182/d/kngd2dr4gygmyaashvxf4tq7te7epumkpps4lavcqwtwpzcyh3akghlpod5u7a6sp5ggdklm/Need%20For%20Speed%20Most%20Wanted.rar'
+aria2c -x10 'https://ftp.sh.cvut.cz/slax/Slax-11.x/slax-32bit-11.2.1.iso'
+rsync -Pr --partial --inplace sl/slax /media/am/slax/
+ls -lh /media/am/
+sudo rsync -Pr --partial --inplace sl/slax /media/am/slax/
+cd /media/am/slax/
+ls
+cd slax/
+ls
+cd boot/
+ls
+sudo ./bootinst.sh 
+cd
+vim .config/i3/config 
+cat /etc/network/interfaces
+ssh 20.0.0.11
+ssh root@20.0.0.11
+ping google.com
+sudo -i
+ifdown usb0 
+sudo ifdown usb0 
+sudo ip r add default via 20.0.0.1
+ping google.com
+ssh -CX churun-meru -t ssh -CX hephaestus
+htop
+sudo apt-get install simple-scan 
+ls
+cat Extraction\ Password.txt 
+mkdir mw
+cp Need\ For\ Speed\ Most\ Wanted.rar mw/
+cd mw/
+rar x Need\ For\ Speed\ Most\ Wanted.rar 
+ls
+cd Need\ For\ Speed\ Most\ Wanted/
+ls
+WINEARCH=win32 WINEPREFIX=~/NFSMW winecfg
+WINEARCH=win32 WINEPREFIX=~/NFSMW wine NMW.exe 
+cd
+ls
+cd NFSMW/
+ls
+cd drive_c/
+ls
+cd NFSMW/
+ls
+cd Need\ for\ Speed\ Most\ Wanted/
+ls
+WINEARCH=win32 WINEPREFIX=~/NFSMW wine Speed.exe 
+cd
+cd .local/share/applications/
+ls
+cd wine/
+ls
+cd Programs/
+ls
+cd Counter-Strike\ 1.6/
+ls
+cd
+ls
+cd crud-livewire-alpine/
+php artisan | egrep migra
+php artisan make:migration --help
+php artisan make:migration foreing_keys --table=articles
+cd database/migrations/
+vim 2022_03_22_021217_foreing_keys.php 
+rm rf 2022_03_22_021217_foreing_keys.php 
+rm -rf 2022_03_22_021217_foreing_keys.php 
+git status 
+ssh -CX churun-meru -t ssh -CX hephaestus
+cd .config/
+ls
+rm -rf caja/
+rm -rf Code/
+rm -rf onlyoffice/
+rm -rf ookla/
+rm -rf nautilus/
+rm -rf evolution/
+ls
+sudo apt-get update
+apt-get upgrade -s
+apt-get upgrade -s | less
+cd
+ssh -CX churun-meru -t ssh -CX hephaestus
+sudo systemctl start nmbd.service smbd.service 
+ssh -CX churun-meru -t ssh -CX hephaestus
+xx
+ssh -CX churun-meru -t ssh -CX hephaestus
+cd NFSMW/
+ls
+cd drive_c/
+ls
+cd NFSMW/
+ls
+cd Need\ for\ Speed\ Most\ Wanted/
+ls
+cd
+cd .local/share/applications/wine/Programs/Need\ for\ Speed\ Undercover/
+ls
+cat Need\ for\ Speed\ Undercover.desktop 
+cp Need\ for\ Speed\ Undercover.desktop Need\ for\ Speed\ Most\ Wanted.desktop 
+vim Need\ for\ Speed\ Most\ Wanted.desktop 
+rm -rf Need\ for\ Speed\ Most\ Wanted.desktop 
+cd
+cd NFSMW/drive_c/NFSMW/Need\ for\ Speed\ Most\ Wanted/
+ls
+WINEARCH=win32 WINEPREFIX=~/NFSMW wine Speed.exe 
+cd
+mkdir svelte
+cd svelte/
+npx degit sveltejs/template crud
+cd crud/
+ls
+npm i
+cd
+rm -rf svelte/
+mkdir vue
+cd vue/
+ls
+npm install vue-cli
+ls -l
+vue create prueba
+node node_modules/vue-cli/bin/vue create prueba
+npm u vue-cli
+npm uninstall vue-cli
+npm install  @vue/cli
+ls
+rm -rf *
+ls -A
+npm i
+npm init
+ls -lA
+rm -rf package-lock.json 
+npm install @vue/cli
+ls
+npm install @vue/cli
+ls
+cd node_modules/
+ls
+cd vue
+ls
+cd ..
+cd vue-codemod/
+ls
+cd node_modules/
+ls
+cd 
+cd vou
+cd vue/
+ls
+cd node_modules/
+ls
+cd ..
+ls
+rm -rf *
+npm install vue-cli
+./node_modules/vue-cli/bin/vue create gge
+./node_modules/vue-cli/bin/vue-create --help
+ls
+rm -rf *
+nom install @vue/cli
+nm install @vue/cli
+nmp install @vue/cli
+npm install @vue/cli
+ls
+cd node_modules/
+ls
+find . -iname "*vue*"
+ls
+cd .bin/
+ls
+cd
+cd vue/
+ls
+./node_modules/.bin/vue create gge
+cd gge/
+ls
+ls public/
+ls src/
+cd src/
+ls
+cat App.vue 
+ls
+la assets/
+ls components/
+vim components/HelloWorld.vue 
+ls
+ls router/
+ls router/index.js 
+cat router/index.js 
+ls
+cd ..
+ls
+cd ..
+ls
+rm -rf *
+npm i vue-seed
+ls
+find . -iname "*bin*"
+ls
+npm install
+ls
+npm i
+cd node_modules/
+ls
+cd vue
+ls
+ls dist/
+ls
+cd ..
+ls
+cd ..
+ls
+rm -rf *
+ls
+cd ..
+ls
+cd vue/
+ls
+cd
+ls NFSMW/drive_c/NFSMW/Need\ for\ Speed\ Most\ Wanted/
+mkdir prueba
+cd prueba/
+composer create-project laravel/laravel --prefer-dist prueba
+git init
+git add .
+git commit -m "init"
+git status 
+composer require laravel/ui
+git status 
+ls
+rm -rf composer.* vendor .git
+ls -lA
+cd prueba/
+git init
+cit add .
+git add .
+git commit -m "init"
+git status 
+composer require laravel/ui
+php artisan 
+php artisan ui --hrlp
+php artisan ui --help
+git status 
+php artisan ui vue
+git status 
+npm i
+npm run dev
+ls
+git status
+cd resources/
+ls
+cd js/
+ls
+ls -l
+vim app.js 
+ls
+vim bootstrap.js 
+cd components/
+ls
+vim ExampleComponent.vue 
+ls
+cd ..
+ls
+vim app.js 
+cd ..
+ls
+vim views/
+ls
+cd ..
+ls
+git status 
+git checkout -- .
+php artisan ui vue
+npm i
+npm run dev
+ls
+cd resources/
+ls
+cd js/
+ls
+vim app.js 
+cd
+htop
+sudo systemctl disable systemd-timesyncd.service 
+sudo systemctl stop systemd-timesyncd.service 
+htop
+sudo hwclock 
+sudo hwclock --set --date "19:48"
+sudo hwclock -s
+hyop
+htop
+cd vue/
+ls
+cd ..
+cd prueba/
+ls
+cd prueba/
+ls
+vim webpack.mix.js 
+vim package
+vim package.json 
+cd ..
+mv prueba vue/
+cd vue/
+ls
+mkdir vue
+cd vue/
+npm install vue-seed
+npm i
+ls -l
+rm -rf *
+npm i @vue/cli
+ls
+./node_modules/.bin/vue --help
+./node_modules/.bin/vue ui
+./node_modules/.bin/vue create prueba-vue
+ls
+cd ..
+ls
+ls -A
+rm -rf *
+ls ..
+composer create-project laravel/laravel --prefer-dist crud-laravel-vue
+git status 
+ls
+npm init vue@3
+cd prueba/
+ls
+ls src/
+less src/App.vue 
+less src/main.js 
+ls -l
+cd src/
+ls
+ls assets/
+ls components/
+vim main.js 
+ls
+cd components/
+ls
+vim HelloWorld.vue 
+ls
+vim TheWelcome.vue 
+ls
+vim WelcomeItem.vue 
+ls
+cd ..
+ls
+vim App.vue 
+cd ..
+ls
+vim main.js 
+cd ..
+ls
+cd prueba/
+ls
+vim main.js 
+ssh -CX churun-meru -t ssh -CX hephaestus
+su - postgres 
+cd farmacia/
+cat composer.json 
+less composer.json 
+cd
+youtube-dl -F 'https://www.youtube.com/watch?v=rnoHztYWd6o'
+youtube-dl -f22 'https://www.youtube.com/watch?v=rnoHztYWd6o'
+youtube-dl -f22 'https://www.youtube.com/watch?v=rnoHztYWd6o' --external-downloader 'aria2' --external-downloader-args '-x10'
+youtube-dl -f22 'https://www.youtube.com/watch?v=rnoHztYWd6o' --external-downloader 'aria2c' --external-downloader-args '-x10'
+youtube-dl -f22 'https://www.youtube.com/watch?v=rnoHztYWd6o' --external-downloader 'aria2c' --external-downloader-args '-x10' -wc
+youtube-dl -f22 'https://www.youtube.com/watch?v=Zc3Jtz94DMg' --external-downloader 'aria2c' --external-downloader-args '-x10' -wc
+youtube-dl --help
+youtube-dl --help | less
+cd vue/crud-laravel-vue/
+php artisan serve
+cd vue/crud-laravel-vue/
+npm watch
+npm run watch
+npm run dev
+cd vue/crud-laravel-vue/
+sudo service postgresql start
+su - postgres 
+man sudo
+sudo -u postgres 
+man sudo
+sudo -u postgres echo "create database vue-crud;" | psql 
+sudo -u postgres "echo \"create database vue-crud;\" | psql" 
+su - 
+php artisan make:model --help 
+git init
+git status 
+git add .
+git commit -m "init commit"
+git log --oneline 
+php artisan make:model --help 
+php artisan make:model data -mcr
+git status 
+git checkout -- .
+git status 
+git checkout -- .
+git status 
+git reset --hard 
+git status 
+git log --oneline 
+git clean -d -n
+git clean 
+git clean -d
+git status 
+git clean -d -n
+git clean -d 
+git clean -d f
+git clean --help
+git clean -d -f
+git status 
+php artisan make:model Data -mcr
+php artisan migrate:fresh
+cd public/
+ls
+aria2c 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css'
+aria2c 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js'
+mv bootstrap.bundle.min.js bootstrap.min.js 
+cd .
+cd ..
+ls
+php artisan route:list
+git status 
+git add .
+git commit -m "api base"
+composer require laravel/ui
+git status 
+php artisan ui vue
+npm install
+git status
+git checkout -- .
+git status 
+git clean -d -f
+git sta
+git status 
+git add .
+git commit --amend
+git status 
+npm install vue axios
+npm install vue vue-axios
+npm i
+git status
+git checkout -- .
+git status 
+git clean -d -f
+composer require laravel/ui
+php artisan ui vue
+npm i
+npm run dev
+npm update vue-loader
+npm run dev
+git status
+git checkout -- .
+git clean -df
+npm i vue axios
+git checkout -- .
+git clean -df
+composer require laravel/ui
+php artisan ui vue
+npm i
+npm run dev
+npm run watch
+npm run dev
+npm i vue axios;5~;5~;5~
+npm run dev
+git checkout -- .
+git clean -df
+composer require laravel/ui
+php artisan ui --help
+php artisan ui vuw
+php artisan ui vue
+npm i
+npm run dev
+xx
+sudo apt-get install jmeter 
+sudo apt-get install jmeter-http 
+curl -i localhost:8000/get
+man curl
+curl -i localhost:8000/get
+curl -i localhost:8000/api/get
+cd .config/
+rm -rf sublime-text-3/
+rm -rf sublime-text
+mv subl4.bak sublime-text
+ssh -CX churun-meru -t ssh -CX hephaestus
+cd vue/crud-laravel-vue/
+php artisan serve
+cd vue/crud-laravel-vue/
+sudo service postgresql start
+cd vue/crud-laravel-vue/
+php artisan route:list
+git status 
+git checkout -- .
+git status 
+git clean -d -f
+composer requiere laravel/ui
+composer require laravel/ui
+php artisan ui vue
+npm i
+npm run dev
+git status 
+git add .
+git commit -m "installing laravel.ui, scaffolding vue, created main component"
+npm run dev
+npm run watch
+htop
+aria2c -x10 'https://atom-installer.github.com/v1.60.0/atom-amd64.deb?s=1646703804&ext=.deb'
+sudo apt-get install ./atom-amd64.deb 
+htop
+cd .config/
+rm -rf sublime-text-3.rar 
+mv sublime-text-3 subl4.bak
+cd
+tar -xvf sublime_text_3_build_3211_x64.tar.bz2 
+cd sublime_text_3/
+ls
+./sublime_text 
+cd
+ls .config/
+cd .config/
+rm -rf sublime-text-3/Packages/User
+cp -vfr subl4.bak/Packages/User sublime-text-3/Packages/
+cd
+cd sublime_text_3/
+./sublime_text 
+cd
+rm -rf sublime_text_3*
+ls
+ll
+l
+mpv 1_2\ -\ Laravel\ 8\ +\ Vue\ +\ SPA\ +\ CRUD-rnoHztYWd6o.mp4 
+mpv 2_2\ -\ Laravel\ 8\ +\ Vue\ +\ SPA\ +\ CRUD-Zc3Jtz94DMg.mp4 
+curl -i localhost:8000/api/get
+mpv 1_2\ -\ Laravel\ 8\ +\ Vue\ +\ SPA\ +\ CRUD-rnoHztYWd6o.mp4 
+ssh -CX churun-meru -t ssh -CX hephaestus
+sudo service postgresql stop
+cd vue/
+ls
+cd crud-laravel-vue/
+gh repo create
+git repo --help
+gh repo -help
+gh repo list
+gh repo view
+gh repo view fvckingmore/craud-laravel-vue
+cd ..
+ls
+cd crud-laravel-vue/
+git remote add remote https://git@github.com/fvckingmore/crud-laravel-vue
+git push --force remote master 
+git remote remove 
+git remote add remote git@github.com:/fvckingmore/crud-laravel-vue
+git remote remove 
+git remote remove remote 
+git remote add remote git@github.com:/fvckingmore/crud-laravel-vue
+git push --force 
+git push --force remote master 
+xx
+htop
+xprop 
+dig mail.uneg.edu.ve
+sudo apt-get install compton
+pkill xcompmgr 
+cp /usr/share/doc/compton/examples/compton.sample.conf .config/compton.conf
+vim .config/compton.conf 
+htop
+
+compton
+[A
+compton
+cd .config/i3/
+ls
+vim autostart 
+ssh -CX churun-meru -t ssh -CX hephaestus
+cd NFSMW/drive_c/NFSMW/Need\ for\ Speed\ Most\ Wanted/
+ls
+WINEARCH=win32 WINEPREFIX=~/NFSMW wine Speed.exe 
+cd
+vim .config/compton.conf 
+vim .config/i3/config 
+cd vue/crud-laravel-vue/
+npm run watch
+cd vue/crud-laravel-vue/
+php artisan serve
+cd vue/crud-laravel-vue/
+sudo service postgresql start
+htop
+sudo service postgresql stop
+htop
