@@ -25,14 +25,15 @@ MiscUseShiftArrowsToScroll=FALSE
 MiscSlimTabs=FALSE
 MiscNewTabAdjacent=FALSE
 ScrollingUnlimited=TRUE
-FontName=Monospace 9
+FontName=DroidSansMono Nerd Font Mono 9
 ColorBold=#f3f2f3f2f3f2
 ColorBoldUseDefault=FALSE
 TabActivityColor=#dc322f
-BackgroundDarkness=0,940000
+BackgroundDarkness=0,900000
 ColorForeground=#f2f2e5e5bcbc
 ColorBackground=#323230302f2f
 ColorCursor=#d65bc4cd8ca1
 ColorPalette=rgb(50,48,47);rgb(204,36,29);rgb(152,151,26);rgb(215,153,33);rgb(69,133,136);rgb(177,98,134);rgb(104,157,106);rgb(242,229,188);rgb(58,64,65);rgb(251,73,52);rgb(184,187,38);rgb(250,189,47);rgb(131,165,152);rgb(211,134,155);rgb(142,192,124);rgb(255,241,198)
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+BackgroundImageShading=0,930000
 

@@ -28,5 +28,10 @@
   <property name="plugins" type="empty">
     <property name="plugin-6" type="string" value="systray"/>
     <property name="plugin-2" type="string" value="appmenu"/>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="never-confirm-history-clear" type="bool" value="true"/>
+      </property>
+    </property>
   </property>
 </channel>

@@ -20008,3 +20008,1391 @@ sudo service postgresql start
 htop
 sudo service postgresql stop
 htop
+cd vue/crud-laravel-vue/
+sudo service postgresql start
+php artisan mig
+php artisan migrate:fresh
+cd vue/crud-laravel-vue/
+php artisan serve
+less storage/logs/laravel.log 
+php artisan serve
+less storage/logs/laravel.log 
+php artisan serve
+cd vue/crud-laravel-vue/
+npm run watch
+ssh -CX churun-meru -t ssh -CX hephaestus
+mkdir svelte
+cd svelte/
+composer create-project laravel/laravel --prefer-dist laravel-svelte
+cd laravel-svelte/
+ls
+git init 
+git add .
+git commit -m "init project"
+ls
+npx degit sveltejs/template resources/js
+npm i laravel-mix-svelte
+git status 
+npx degit sveltejs/template svelte
+cd svelte/
+ls
+ls -l
+cat package.json 
+ls
+ls scripts/
+ls src/
+cd
+rm -rf svelte/
+curl -i -X POST -F 'name=linuxize' -F 'dni=123' http://localhost:8000/api/store
+su - postgres 
+tar -xvf postman-9.15.2-linux-x64.tar.gz 
+cd Postman/
+ls
+ls -l
+./Postman 
+sudo service postgresql stop
+cd
+htop
+sudo apt-get install php8.0-sqlite3 
+sudo apt-get install php8.1-sqlite3 
+cd Postman/
+ls
+./Postman 
+cd
+vim .config/compton.conf 
+cd vue/crud-laravel-vue/
+php artisan serve
+pkill compton 
+comp
+compton
+du -csh $(ls -A)
+du -csh 
+du -csh $(ls -A)
+du -csh $(ls)
+cd
+cd vue/crud-laravel-vue/
+npm run watch
+cd vue/crud-laravel-vue/
+touch vue_crud.db
+php artisan migrate:fresh
+php -v
+php artisan migrate:fresh
+git status 
+git diff
+git add .
+git commit -m "working crud, need some improvements"
+git status 
+git push remote master 
+du -csh $(ls -A)
+ls
+ls -A
+du -csh $(ls -A)
+du -csh $(ls -A) | sort -h
+xx
+ma
+xx
+vim .xinitrc 
+xinput 
+xinput list-props 13
+xinput set-prop 13 310 1
+vim .xinitrc 
+xinput 
+xinput  | egrep Touch
+xinput  | egrep Touch | sed -E 's/(  +|\t)/ /g'
+xinput  | egrep Touch | egrep -E -w "id=[0-9]+" 
+xinput  | egrep Touch | egrep -E -w -o "id=[0-9]+" 
+xinput  | egrep Touch | egrep -E -w -o "id=[0-9]+" | sed -E "s/id=//g"
+xinput list-props 13
+xinput list-props 13 | egrep "Accel"
+xinput list-props 13 | egrep "Accel" | head -1
+xinput list-props 13 | egrep "Accel" | head -1 | egrep -E -o -w "\([0-9]+\)"
+xinput list-props 13 | egrep "Accel" | head -1 | egrep -E -o -w "\([0-9]+\)" | sed -E "s/\(([0-9]+)\)/\1/g"
+man egrep
+aria2c -x10 'https://download2273.mediafire.com/wb7nj4xyj04g/w56wsiea07zpfe5/UnrealTournament+de+Adictyutube.rar'
+rar x UnrealTournament\ de\ Adictyutube.rar 
+cd UnrealTournament\ by\ Adictyutube/
+ls
+ls -l
+cd System/
+ls
+cd ..
+ls -l
+ls -lA
+ls 
+cd Ma
+ls Manual/
+ls
+ls ls Cache
+ls Cache
+ls -l
+cd ..
+ls
+cd UnrealTournament\ by\ Adictyutube/
+ls
+cd Web/
+s
+ls
+cd ..
+ls
+find . -iname "*exe*"
+cd System/
+ls -l
+ls
+WINEARCH=win32 WINEPREFIX=~/UE99 winecfg
+ls
+WINEARCH=win32 WINEPREFIX=~/UE99 wine UnrealTournament.exe 
+cd
+ls
+rm -rf CS1.6
+cd .local/share/applications/wine/Programs/
+rm -rf Counter-Strike\ 1.6/
+ls -l
+ls SharePoint/
+rm -rf Cheating-Death/
+cd
+ls -l
+du -csh *
+du -csh * | sort -h
+rm -rf nfs NFSU2
+du -csh * | sort -h
+rm -rf atom-amd64.deb 
+du -csh * | sort -h
+cd UnrealTournament\ by\ Adictyutube/System/
+WINEARCH=win32 WINEPREFIX=~/UE99 wine UnrealTournament.exe 
+cd
+du -csh $(ls -A)
+du -csh $(ls)
+ls
+mv 1_2\ -\ Laravel\ 8\ +\ Vue\ +\ SPA\ +\ CRUD-rnoHztYWd6o.mp4 1_2-Laravel8+Vue+SPA+CRUD-rnoHztYWd6o.mp4 
+mv 2_2\ -\ Laravel\ 8\ +\ Vue\ +\ SPA\ +\ CRUD-Zc3Jtz94DMg.mp4 2_2-Laravel8+Vue+SPA+CRUD-Zc3Jtz94DMg.mp4 
+du -csh $(ls)
+ls -lA
+ls
+du -csh *
+du -csh * | sort -h
+ls -A
+rm -rf .Komorebi.prop 
+ls -l ./.*
+du -csh $(ls -A)
+ls -l
+ll
+la
+l
+ls -A
+vi .bashrc
+ls -CF
+l
+vim .bashrc
+ls -XCF --group-directories-first
+ls -XCFA --group-directories-first
+rm -rf .zsh*
+ls -XCFA --group-directories-first
+sudo apt-get purge atom --autoremove
+ls -XCFA --group-directories-first
+rm -rf .atom/
+vim .fehbg 
+ls -XCFA --group-directories-first
+rm -rf .vscode/
+ls -XCFA --group-directories-first
+rm -rf .wine/
+ls -XCFA --group-directories-first
+rm -rf .vba .pcsxr/
+ls -XCFA --group-directories-first
+cd .local/share/applications/wine/Programs/
+l 
+cd
+mpv 2_2-Laravel8+Vue+SPA+CRUD-Zc3Jtz94DMg.mp4 
+ssh -CX churun-meru -t ssh -CX hephaestus
+vim .config/i3/config 
+vim .config/compton.conf 
+pkill compton 
+compton &
+cd /etc/xdg/
+ls
+cd
+vim /usr/share/doc/compton/examples/compton.sample.conf 
+compton 
+compton
+pkill compton 
+vim .config/compton.conf 
+ssh -CX churun-meru -t ssh -CX hephaestus
+ssh -CX churun-meru -t ssh -CX hephaestus
+ssh unegegs.ddns.net
+ssh root@unegegs.ddns.net
+ssh -CX churun-meru -t ssh -CX hephaestus
+ssh churun-meru 
+ls
+du -csh $(ls -A)
+ls -A
+du -csh $(ls -A)
+ls -A
+du -csh $(ls -A)
+du -csh $(ls -A) | sort -h
+ls .wallpapers/
+ls .wallpapers/video/
+ls .wallpapers/video/*
+rm -rf .wallpapers/
+du -csh $(ls -A) | sort -h
+cd .config/
+du -csh $(ls -A) | sort -h
+sudo apt-get purge google-chrome-stable --autoremove
+rm -rf google-chrome*
+cd
+du -csh $(ls -A) | sort -h
+cd .config/
+du -csh $(ls -A) | sort -h
+rm -rf Atom/
+cd chromium/
+rm -rf Atom/
+du -csh $(ls -A) | sort -h
+cd Default/
+du -csh $(ls -A) | sort -h
+cd
+ls
+mv Need\ For\ Speed\ Most\ Wanted.rar fvckingmore/UNIX/zips/
+du -csh $(ls -A) | sort -h
+cd .applications/
+ls -
+ls -l
+rm -rf epsxe*
+rm -rf ePSXe205linux_x64.zip 
+ls -l
+du -csh $(ls -A) | sort -h
+rm -rf xwinwrap/
+du -csh $(ls -A) | sort -h
+cd
+ls
+du -csh $(ls -A) | sort -h
+vim .config/compton.conf 
+pkill && compton &
+pkill compton && compton &
+sudo apt-get install breeze
+pkill compton && compton &
+nginx --help
+nginx -h
+nginx -V
+nginx -T
+nginx -h
+mv UnrealTournament\ de\ Adictyutube.rar fvckingmore/UNIX/zips/
+ssh -CX churun-meru -t ssh -CX hephaestus
+mv postman-9.15.2-linux-x64.tar.gz fvckingmore/UNIX/zips/
+mv Quickpic\ Gallery\ PRO\ 8.7.6\ \(AndroidApkData.net\).apk fvckingmore/UNIX/zips/
+cd vue/
+ls
+sudo apt-get install nginx nginx-extras -s
+sudo -i
+ls
+mkdir vue-app
+cd vue-app/
+ls
+composer create-project laravel/laravel --prefer-dist api 
+ls -lA | less
+sudo -i
+cd .applications/nginx/logs/
+ls
+cd vue-app/ls
+cd vue-app
+ls
+cat access.log 
+cat error.log 
+netstat -pnl
+netstat -pnl | less
+curl localhost:8000
+cat access.log 
+cat error.log 
+nginx -s reload
+cat error.log 
+nginx -s reload
+cat error.log 
+d
+nginx -s reload
+cat error.log 
+nginx -s reload
+cat error.log 
+nginx -s reload
+cat error.log 
+nginx -s reload
+cat error.log 
+nginx -s reload
+cat error.log 
+nginx -s reload
+ssh -CX churun-meru -t ssh -CX hephaestus
+ssh churun-meru 
+ssh router 
+cd .applications/nginx/conf/sites/
+ls
+cp template vue-app
+vim vue-app 
+nginx -s stop
+nginx -t
+nginx 
+ls
+vim www 
+nginx -t
+vim www 
+nginx -t
+mkdir ../../logs/vue-app
+nginx -t
+nginx -h
+nginx -s reopen
+nginx -s reload
+vim vue-app 
+nginx -s stop; nginx 
+nginx -t
+vim vue-app 
+nginx -s reload
+vim vue-app 
+cd
+cd vue/vue-app/api/
+cd ..
+ls
+./node_modules/.bin/vue --help
+./node_modules/.bin/vue list
+./node_modules/.bin/vue init pwa
+ls -l
+./node_modules/.bin/vue init pwa vue-app
+cd vue-app/
+ls
+ls -l
+ls
+cd ..
+rm -rf vue-app/
+./node_modules/.bin/vue init pwa vue-app
+./node_modules/.bin/vue init simple vue-app
+rm -rf vue-app/
+ls
+./node_modules/.bin/vue init pwa vue-app
+cd vue-app/
+ls
+npm i
+npm run dev
+cd ..
+ls
+cd vue-app/
+ls
+vim package.json 
+ls -l
+rm -rf package* node_modules/
+ls -l
+ls -lA
+rm -rf ./.*
+ls -lA
+npm i vue vue-router axios
+cd ..
+ls
+rm -rf vue-app/
+./node_modules/.bin/vue init simple vue-app
+cd vue-app/
+ls
+vim index.html 
+cd ..
+rm -rf vue-app/
+ls
+./node_modules/.bin/vue init webpack vue-app
+./node_modules/.bin/vue list
+./node_modules/.bin/vue init webpack-simple vue-app
+cd vue-app/
+ls
+cd scr
+cd src/
+ls
+cd ..
+ls
+cd ..
+ls
+rm -rf vue-app/
+./node_modules/.bin/vue create vue-app
+ls
+ls -l
+rm -rf node_modules package*
+ls -A
+rm -rf .phpintel/
+npm install @vue/cli
+ls
+./node_modules/.bin/vue --help
+vue create vue-app
+./node_modules/.bin/vue create vue-app
+ls
+rm -rf vue-app/
+./node_modules/.bin/vue create vue-app
+ls
+rm -rf vue-app package* node_modules
+ls -A
+npm i vue vue-router axios
+ls
+rm -rf node_modules package*
+ls -l
+npm i vue-cli
+./node_modules/.bin/vue --help
+./node_modules/.bin/vue list
+./node_modules/.bin/vue init pwa
+./node_modules/.bin/vue init pwa vue-app
+cd vue-app/
+ls
+npm run dev
+ls
+npm i
+npm run dev
+npm run watch
+cd ..
+rm -rf vue-app/
+l
+ls -l
+rm -rf node_modules package*
+rsync -arPh api/ ./
+ls
+ls -lA
+rm -rf api/
+php artisan serve
+cd vue/vue-app/
+ls
+cd api/
+php artisan make:migration --help
+php artisan make:migration create_products_table --create=products
+php artisan make:model Product -cmr
+php artisan migrate:fresh
+ls -l
+rm -rf app.db 
+touch app.db
+php artisan migrate:fresh
+sudo service php8.1-fpm start
+cd ..
+ls
+npm i vue-cli
+php ./api/artisan migrate:fresh
+ls
+git init 
+git add .
+git status 
+git commit -m "vue-app with ready api"
+composer require laravel/ui
+git status 
+php artisan ui vue
+npm i
+npm run dev
+npm install axios vue-router
+npm install axios 
+npm install vue-router
+npm update vue
+npm i axios
+npm i vue-router
+npm i vue-router --legacy-peer-deps
+ssh -CX churun-meru -t ssh -CX hephaestus
+cd .applications/
+ls
+aria2c -x10 'https://nodejs.org/dist/v16.14.2/node-v16.14.2-linux-x64.tar.xz'
+ls
+npm --help
+ls
+whereis node
+tar -xvf node-v16.14.2-linux-x64.tar.xz 
+cd /usr/local/bin/
+ls
+rm -rf epsxe startSnap node np*
+sudo rm -rf epsxe startSnap node np*
+cd
+cd .applications/
+ls
+cd node-v16.14.2-linux-x64/
+ls
+cd bin/
+ls
+for i in $(ls n*); sudo ln -rsf $i /usr/local/bin/; done
+for i in $(ls n*); do sudo ln -rsf $i /usr/local/bin/; done
+npm i vue
+npm update vue
+npm i vue-router
+npm install axios
+ls
+rm -rf node_modules package*
+ls
+cd
+cd .applications/
+ls
+cd n
+cd nginx-1.21.6/
+ls
+ls -l
+./configure --help
+./configure --help | less
+vim config
+bash config
+vim config
+bash config
+make install 
+ls
+cd ..
+du -csh * | sort -h
+cd nginx
+ls
+sudo ln -rsf sbin/nginx /usr/local/bin/
+cd conf/
+vim nginx.conf
+ls -l
+vim fastcgi.conf
+vim fastcgi_params
+cd ..
+ls
+nginx -h
+nginx -t
+vim conf/nginx.conf
+nginx -t
+nginx -T
+nginx -T | less
+nginx -t
+ls
+cd conf/
+nginx -h
+mkdir sites
+cd sites/
+vim www
+nginx -t
+fg "%vim" 
+nginx -t
+fg "%vim" 
+ls
+vim www
+ls
+nginx -t
+vim vue-app 
+cd ..
+ls
+cd ..
+rm -rf html/*
+cd conf/
+vim nginx.conf
+cd sites/
+vim www 
+cd ..
+vim nginx.conf
+nginx -s stop
+nginx 
+rm -rf sites/www 
+cd sites/
+vim vue-app 
+nginx -s reload
+htop
+ls
+cd ..
+vim nginx.conf
+ls
+cp sites/vue-app ./
+vim vue-app 
+vim nginx.conf
+nginx -t
+ls
+rm -rf vue-app 
+htop
+sudo service php8.1-fpm stop
+nginx -s stop
+cd .applications/nginx
+cd conf/
+vim nginx.conf
+nginx -s stop
+nginx 
+nginx -s stop
+xx
+cd vue/vue-app/
+ls
+git status 
+git checkout -- .
+git status 
+git clean -d -f
+git status 
+git log --oneline 
+cd ..
+ls
+mv vue-app-api
+mv vue-app vue-app-api
+npm i @vue/cli
+ls
+mkdir vue-app
+mv vue-app-api vue-app/api
+./node_modules/.bin/vue create vue-app/app
+cd vue-app/
+../node_modules/.bin/vue create app
+cd app/
+npm i
+cd ..
+cd api2/
+php artisan --help
+php artisan 
+php artisan make:model --help
+cd ..
+rm -rf api2/
+cd ap
+cd app/
+npm build
+npm run build
+npm run watch
+cp ~/bootstrap.min.css ./dist/
+cp ~/bootstrap.bundle.min.js ./dist/js/
+npm run watch
+cp ~/bootstrap.min.css src/assets/css/
+cp ~/bootstrap.bundle.min.js src/assets/js/
+npm run watch
+ssh -CX churun-meru -t ssh -CX hephaestus
+sudo service php8.1-fpm start
+cd .applications/nginx
+ls
+cd conf/
+ls
+vim sites/vue-app 
+nginx -s reload
+nginx -t
+fg "%vim" 
+nginx -t
+fg "%vim" 
+nginx -t
+fg "%vim" 
+nginx -s reload
+nginx -s stop
+ng
+nginx 
+fg "%vim" 
+vim sites/vue-app 
+nginx -s reload
+vim sites/vue-app 
+fg "%vim" 
+nginx -s reload
+cd vue/vue-app/
+ls
+composer create-project laravel/lumen --prefer-dist api2
+ssh -CX churun-meru -t ssh -CX hephaestus
+cd .applications/nginx/conf/
+vim sites/vue-app 
+nginx 
+netstat -pnl | less
+vim sites/vue-app 
+cd vue/
+l
+ls
+cd vue-app/
+ls
+ls -lA
+cd app/
+ls
+cd ..
+ls
+rm -rf node_modules package*
+ls -lA
+cd vue-app/
+ls
+rm -rf app/
+npm i vue-cli
+./node_modules/.bin/vue --help
+./node_modules/.bin/vue list
+./node_modules/.bin/vue-init --help
+./node_modules/.bin/vue init pwa app
+cd ap
+cd app/
+npm i
+npm run dev
+vim package.json 
+npm i axios
+npm run build
+cd ..
+ls
+rm -rf app/
+./node_modules/.bin/vue init webpack app
+cd app/
+npm run dev
+cd ..
+rm -rf app node_modules package*
+ls -l
+ls -lA
+npm i @vue/cli
+ls -l
+ls -lA
+mkdir app
+cd app/
+npm i @vue/cli
+ls
+./node_modules/.bin/vue --help
+./node_modules/.bin/vue create
+cd ..
+mv app/* ../
+ls -l
+ls -A
+cd ..
+mv node_modules package* vue-app/
+cd vue-app/
+ls
+./node_modules/.bin/vue create app
+cd app/
+ls
+npm i axios rou
+npm i axios router
+npm run watch
+npm i axios router
+cd vue/vue-app/app/
+npm run watch
+cp ~/bootstrap.* ./public/
+npm run watch
+cd ..
+ls
+rm -rf app/
+./node_modules/.bin/vue create app
+cd app/
+ls
+npm i
+npm i axios
+npm run watch
+cd ..
+ls
+rm -rf app
+./node_modules/.bin/vue create app
+cd app/
+cp -vfr ~/bootstrap.* ./public/
+npm run watch
+ls
+cd ..
+ls
+rm -rf app/
+ls
+mkdir app
+ls
+rm -rf node_modules package*
+npm i vue-cli
+ls
+./node_modules/.bin/vue --help
+./node_modules/.bin/vue list
+./node_modules/.bin/vue init webpack-simple
+./node_modules/.bin/vue init webpack-simple app
+cd ap
+cd app/
+npm i
+npm run dev
+./node_modules/.bin/webpack --watch
+npm run watch
+npm i axios router vue-router
+npm i axios 
+npm i vue-router
+npm i vue-router --legacy-peer-deps
+nom run watch
+npm run watch
+cd .applications/nginx/conf/
+vim sites/vue-app 
+nginx -s reload
+vim sites/vue-app 
+nginx -s reload
+vim sites/vue-app 
+nginx -s stop
+pkill compton 
+cat .config/i3/autostart 
+xcompmgr -c -t-5 -l-5 -r6 -o1 -fF -I.07 -O.07 -D2 -C &
+xcompmgr --help
+vim .config/i3/config 
+vim .config/i3/autostart 
+xcompmgr --help
+pkill xcompmgr 
+xcompmgr  -t-5 -l-5 -r6 -o1 -fF -I.07 -O.07 -D2 -C &
+xcompmgr  -c -t-5 -l-5 -r6 -o1 -fF -I.07 -O.07 -D2 -C &
+pkill xcompmgr 
+xcompmgr -c -t-5 -l-5 -r6 -o1 -fF -I.07 -O.07 -D2 -C &
+htop
+xcompmgr --help
+pkill xcompmgr 
+xcompmgr -c -t-5 -l-5 -r6 -o1 -fF -I.07 -O.07 -D2 -C -a &
+pkill xcompmgr 
+xcompmgr -c -t-5 -l-5 -r6 -o1 -fF -I.07 -O.07 -D2 -C -n &
+pkill xcompmgr 
+xcompmgr -c -t-5 -l-5 -r6 -o1 -fF -I.07 -O.07 -D2 -C &
+ping uneg.gconex.com
+curl uneg.gconex.com
+htop
+ls
+mv Jose\ Seijas* UNI/software2/
+ls
+ls -l
+ls
+mv Adrian\ Moreno\ -\ E* UNI/liderazgo/
+ls -l
+l
+mv Ensayo\ Software\ 2* UNI/software2/
+l
+mv MARIAN\ * UNI/liderazgo/
+l
+xx
+htop
+sudo apt-get purge policykit-* --autoremove
+sudo apt-get install rtkit colord
+sudo apt-get install rtkit 
+sudo apt-get install colord
+sudo init 6
+ssh -CX churun-meru -t ssh -CX hephaestus
+hotp
+htop
+ssh -CX churun-meru -t ssh -CX hephaestus
+cd vue/
+ls
+ls prueba/
+cd prueba/
+ls
+ls -A
+cat src/App.vue 
+rm -rf *
+ls -A
+rm -rf ./.*
+ls -l
+ls -A
+npm i @vue/cli
+ls
+./node_modules/.bin/vue --help
+./node_modules/.bin/vue init webpack-simple app
+./node_modules/.bin/vue create --help
+./node_modules/.bin/vue create app
+ls
+npm i webpack-cli
+./node_modules/.bin/webpack --help
+./node_modules/.bin/webpack-cli --help
+./node_modules/.bin/webpack-cli init --help
+ls
+npm i webpack-scaffold-vuejs
+./node_modules/.bin/webpack-cli init --help
+./node_modules/.bin/webpack-cli init
+./node_modules/.bin/webpack-cli init app
+ls
+cd app/
+ls
+vim webpack.config.js 
+vim index.html 
+cd ..
+ls
+rm -rf *
+npm -i vue-cli
+npm i vue-cli
+ls
+./node_modules/.bin/vue --help
+./node_modules/.bin/vue list
+./node_modules/.bin/vue init webpack-simple
+./node_modules/.bin/vue init webpack-simple app
+cd app/
+npm i 
+npm i vue-router axios
+npm i vue-router axios --legacy-peer-deps
+ls
+vim index.html 
+cd ..
+sl
+ls
+cd ..
+ls
+cd ..
+ls
+ssh -CX churun-meru -t ssh -CX hephaestus
+xx
+sudo apt-get install lxpolkit 
+htop
+lxpolkit 
+lxpolkit &
+htop
+sudo -i
+nvim 
+git clone --depth=1 https://github.com/kabinspace/AstroVim ~/.config/nvim
+nvim +PackerSync
+cd .local/share/fonts/
+ls
+aria2c 'https://github.com/vorillaz/devicons/archive/master.zip'
+unzip devicons-master.zip 
+cd devicons-master/
+ls
+cd fonts/
+ls
+mv * ../../
+fc-cache -fv
+fc-list
+ls
+cd ..
+lsl
+cd ..
+ls
+rm -rf devicons-master*
+fc-list  |less
+aria2c 'https://github.com/Templarian/MaterialDesign-Font/archive/refs/heads/master.zip'
+unzip MaterialDesign-Font-master.zip 
+mv MaterialDesign-Font-master/MaterialDesignIconsDesktop.ttf ./
+rm -rf MaterialDesign-Font-master*
+fc-cache -fv
+ls
+rm -rf 3270.zip 
+aria2c 'https://github.com/ryanoasis/powerline-extra-symbols/archive/refs/heads/master.zip'
+unzip powerline-extra-symbols-master.zip 
+mv powerline-extra-symbols-master/PowerlineExtraSymbols.otf ./
+mv powerline-extra-symbols-master/patched-fonts/DroidSansMonoForPowerlinePlusNerdFileTypesMono.otf ./
+rm -rf powerline-extra-symbols-master*
+fc-cache -fv
+aria2c 'https://github.com/FortAwesome/Font-Awesome/archive/refs/heads/6.x.zip'
+unzip Font-Awesome-6.x.zip 
+mv Font-Awesome-6.x/otfs/Font\ Awesome\ 6\ * ./
+rm -rf Font-Awesome-6.x*
+ls -l
+fc-cache -fv
+aria2c 'https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DroidSansMono.zip'
+unzip DroidSansMono.zip 
+fc-cache -fv
+unzip DroidSansMono.zip 
+cd .local/share/fonts/
+ls
+fc-cache -fv
+fc-list  | less
+s
+ls
+rm -rf DroidSansMono.zip 
+rsync --partial -P --inplace /media/am/a/spqweqwrqr2.rar ./
+rar x spqweqwrqr2.rar 
+cd vue/
+cd prueba/
+ls
+nvim app/
+ls
+cd app/
+ls
+nvim index.html 
+fg "%nvim" 
+nvim index.html 
+cd .fonts/
+aria2c -x10 'https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/3270.zip'
+ls
+unzip 3270.zip 
+cd
+nvim 
+sudo fc-cache -fv
+fc-cache -fv
+nvim 
+cd .fonts/
+ls
+rm -rf 3270*f
+ls -l
+mkdir -p ~/.local/share/fonts
+mv 3270.zip ~/.local/share/fonts/
+cd
+cd .local/share/fonts/
+unzip 3270.zip 
+fc-cache -fv
+nvim
+ls
+fc-list
+fc-list | less
+cd
+cd .config/nvim/
+ls
+egrep -i -r  font *
+ls
+cd
+cd .local/share/fonts/
+ls
+curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
+ls
+fc-cache -fv
+fc-list | less
+nvim
+nvim 
+ls
+cd
+cd .config/nvim/
+ls
+egrep -i -r nerd * 
+cd vue/prueba/app/
+nvim index.html 
+cd .cache/nvim/
+ls
+cd ..
+rm -rf nvim/
+nvim 
+ls
+cd nvim/
+ls
+cd ..
+cd .local/share/
+ls
+rm -rf nvim/
+nvim
+cd .config/
+ls
+cd nvim/
+ls
+cd ..
+mv nvim nvim.astro
+vim
+nvim 
+ls
+cd ..
+ls
+ls -A
+cd .config/
+ls
+cd nvim.astro/
+ls
+ls -A
+cd ..
+ls -A
+cd ..
+ls
+ls -A
+nvim 
+nvim .vimrc 
+ls
+ls lA
+ls -A
+cd Spider-Man.Sin.camino.a.casa.2021.720p-dual-lat/
+ls
+vlc Spider-Man.Sin.camino.a.casa.2021.720p-dual-lat.mkv 
+cd
+ls -A
+cd .config/
+ls
+mv nvim.astro astro
+rm -rf gnome-*
+ls -A
+nvim 
+cd 
+find . -iname "*nvim*"
+cd .config/
+mv astro nvim
+cd
+nvim 
+nvim +PackerSync
+nvim
+cd vue/prueba/
+ls
+nvim app/
+nvim 
+cd
+cd .config/
+ls
+cd nvim/
+ls
+cd lua/
+ls
+cp -vfr user_example user
+cd user
+ls
+vim init.lua 
+nvim 
+cd
+cd .config/
+mv nvim astro.vim
+cd
+cd .local/share/
+ls
+rm -rf nvim/
+cd
+rm -rf .cache/nvim/
+curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh
+curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh > lunar.vim.install.sh
+vim lunar.vim.install.sh 
+rm -rf lunar.vim.install.sh 
+git clone https://github.com/VapourNvim/VapourNvim ~/.config/nvim
+git clone --depth=1 https://github.com/VapourNvim/VapourNvim ~/.config/nvim
+nvim +PackerSync
+nvim 
+find . -iname "neo-tree" *
+find . -iname "neo-tree"
+htop
+rm -rf .config/nvim .local/share/nvim .cache/nvim
+git clone --depth 1 https://github.com/NTBBloodbath/doom-nvim.git .config/nvim
+nvim 
+rm -rf .config/nvim .local/share/nvim .cache/nvim/
+rm -rf .config/astro.vim/
+git clone --depth=2 https://github.com/kabinspace/AstroVim ~/.config/nvim
+git clone --depth=1 https://github.com/kabinspace/AstroVim ~/.config/nvim
+nvim +PackerSync
+cd vue/prueba/app/
+ls
+nvim index.html 
+fg "%nvim" 
+xx
+cd .config/nvim/lua/
+cd configs/
+ls
+vim neo-tree.lua 
+nvim neo-tree.lua 
+find . -iname "*neo-tree*"
+nvim
+nvim 
+rm -rf .config/nvim .local/share/nvim .cache/nvim/
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
+nvim +'hi NormalFloat guibg=#1e222a' +PackerSync
+nvim 
+nvim
+nvim 
+rm -rf .config/nvim/ rm -rf .local/share/nvim/ .cache/nvim/
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
+nvim +PackerSync
+nvim 
+rm -rf .config/nvim/ rm -rf .local/share/nvim/ .cache/nvim/
+curl -sLf https://spacevim.org/install.sh > space.vim.install
+vim space.vim.install 
+bash space.vim.install --install neovim
+vim space.vim.install 
+bash space.vim.install --install neovim
+vim space.vim.install 
+bash space.vim.install --install neovim
+bash -x space.vim.install --install neovim
+nvim 
+bash space.vim.install --uninstall
+ls
+nvim
+{ git clone https://github.com/kabinspace/AstroVim ~/.config/nvim; nvim +PackerSync; }
+nvim 
+cd vue/vue-app/
+ls
+cd app/
+ls
+npm run watch
+npm i vue-router
+npm i vue-router --legacy-peer-deps
+npm run watch
+cd
+vim 
+cd .config/nvim/lua/configs/
+nvim neo-tree.lua 
+cd
+ls
+cd vue/vue-app/
+ls
+cd app/
+npm run watch
+cd ..
+ls
+rm -rf node_modules package* app
+npm init
+ls
+rm -rf package.json 
+mkdir app
+cd app/
+npm init
+npm i vue vue-router axios webpack webpack-cli
+cd ..
+ls
+rm -rf app/
+mkdir app
+cd app/
+npm i vue-cli
+./node_modules/.bin/vue init webpack
+npm run dev
+npm run watch
+./node_modules/.bin/webpack --help
+./node_modules/.bin/webpack 
+kill %1
+fg "%./node_modules/.bin/webpack" 
+npm run watch 
+cd .
+cd ..
+ls
+rm -rf app/
+mkdir app
+cd ap
+cd app/
+ls
+npm i vue-cli
+./node_modules/.bin/vue init webpack-simple
+npm i
+ls
+npm i vue-router axios
+npm i vue-router axios --legacy-peer-deps
+ls
+cd ..
+rm -rf app/
+mkdir app
+cd app/
+npm i vue-cli
+./node_modules/.bin/vue init webpack
+npm run watch
+npm i axios
+npm run watch
+cd vue/vue-app/api/
+cd storage/logs/
+less laravel.log 
+cd ..
+php artisan route:list
+php artisan config:clear
+php artisan cache:clear
+php artisan config:cache
+htop
+ssh -CX churun-meru -t ssh -CX hephaestus
+nginx 
+cd .applications/nginx/
+ls
+cd conf/
+ls
+mv sites../
+mv sites ../
+cd ..
+vim sites/
+cd sites/
+ls
+vim vue-app 
+vim ../conf/nginx.conf
+nginx -t
+ls
+cd ..
+ls
+vim conf/nginx.conf
+nginx -t
+ls
+mv sites conf/
+nginx -t
+nginx -s reload
+cd conf/sites/
+vim vue-app 
+nginx -s reload
+vim vue-app 
+nginx -s reload
+ls
+sudo service postgresql start
+sudo service postgresql stop
+curl -i localhost:8000/get
+vim vue-app 
+nginx -s reload
+curl -i localhost:8000/get
+vim vue-app 
+sudo service php8.1-fpm start
+fg "%vim" 
+nginx -s reload
+curl -i localhost:8000/get
+fg "%vim" 
+curl -i localhost:8000/get
+curl -i localhost:8000/get | less
+curl -i localhost:8000/api/get 
+curl -i localhost:8000/api/get | less
+fg "%vim" 
+nginx -s reload
+curl -i localhost:8000/api/get | less
+fg "%vim" 
+nginx -s reload
+curl -i localhost:8000/api/get | less
+curl -i localhost:8000/api/get 
+fg "%vim" 
+nginx -s reload
+fg "%vim" 
+nginx -s reload
+curl -i localhost:8000/api/get 
+fg "%vim" 
+nginx -s reload
+curl -i localhost:8000/api/get 
+fg "%vim" 
+nginx -s reload
+curl -i localhost:8000/api/get 
+ls
+cd ..
+ls
+cd ..
+less logs/error.log 
+less logs/access.log 
+curl -i localhost:8000/api/get 
+curl -i localhost:8000/api/get | les
+curl -i localhost:8000/api/get 
+cd conf/sites/
+vim vue-app 
+nginx -s reload
+vim vue-app 
+nginx -s reload
+curl -i localhost:8000/api/get 
+fg "%vim" 
+jobs
+kill %1
+fg "%vim" 
+fg %1
+fg "%vim" 
+nginx -s reload
+curl -i localhost:8000/api/get 
+fg "%vim" 
+nginx -s reload
+curl -i localhost:8000/api/get 
+nginx -s stop
+sudo service php7.4-fpm stop
+sudo service php8.1-fpm stop
+htop
+ssh -CX churun-meru -t ssh -CX hephaestus
+xx
+cd UNI/
+ls
+rar a -m5 laboratorio.fisica.2.rar lap2
+ls -thl
+rar a -m5 sistemas.de.calidad.rar calidad
+ls
+ls -lh
+cd baseDeDatos/
+ls
+cd ..
+ls
+ls -lth
+cd
+find . -iname "*indice*"
+cat .config/i3/autostart 
+cvt 1440 820
+cvt 1440 810
+xrandr --newmode 1440x810 95.00  1440 1520 1664 1888  810 813 818 841 -hsync +vsync 
+xrandr --addmode VGA-1 1440x810
+xrandr -q
+cat .config/i3/autostart 
+xrandr --output VGA-1 --primary --mode 1440x810 --output LVDS-1 --off 
+xrandr --addmode VGA-1 720; xrandr --output VGA-1 --mode 720 --primary --output LVDS-1 --off
+cvt 1366 768
+xrandr --newmode 768 85.25  1368 1440 1576 1784  768 771 781 798 -hsync +vsync
+xrandr --addmode VGA-1 768
+xrandr --output VGA-1 --mode 768 --primary --output LVDS-1 --off
+xrandr --output VGA-1 --mode 1280x1024 --primary --output LVDS-1 --off
+xrandr --help | less
+xrandr --output VGA-1 --mode 720 --primary --output LVDS-1 --off
+cvt 1600 900
+xrandr --newmode 900 118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync
+xrandr --addmode VGA-1 900 
+xrandr --output VGA-1 --mode 900 --primary --output LVDS-1 --off
+nitrogen --restart
+nitrogen --reload
+nitrogen --help
+nitrogen --restore
+du -csh $(ls -A) | sort -h
+rm -rf PRTS/
+rm -rf .local/share/applications/wine/Programs/Proteus\ 8\ Professional/
+ls -l
+du -csh $(ls -A) | sort -h
+sudo apt-get install bleachbit 
+xrandr --output VGA-1 --mode 720 --primary --output LVDS-1 --off
+du -csh $(ls -A) | sort -h
+rm -rf .SpaceVim*
+cd UnrealTournament\ by\ Adictyutube/System/
+ls
+WINEARCH=win32 WINEPREFIX=~/UE99 wine UnrealTournament.exe 
+cd
+ls
+l
+ls
+du -csh $(ls -A) | sort -h
+vim .xinitrc 
+vim .config/openbox/rc.xml
+vim .xinitrc 
+car /usr/local/bin/chrome 
+cat /usr/local/bin/chrome 
+hotp
+htop
+aria2c -x10 'https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb'
+sudo apt-get install ./google-chrome-stable_current_amd64.deb 
+google-chrome --help
+google-chrome --help | less
+google-chrome --no-sandbox
+cd .config/
+ls
+ls -l
+du -csh * |sort -h
+mv google-chrome google-chrome.bak
+cp -a chromium google-chrome
+google-chrome --no-sandbox --disable-gpu --show-component-extension-options --no-default-browser-check  --no-proxy-server --process-per-site
+google-chrome --no-sandbox
+sudo vim /usr/local/bin/chrome 
+cd
+sudo ifdown -av, sudo ifup -av
+sudo ifdown -av; sudo ifup -av
+pkill WINWORD.EXE 
+htop 
+pkill WINWORD.EXE 
+ssh -CX churun-meru -t ssh -CX hephaestus
+cd /etc/
+egrep -r "The programs included" *
+sudo egrep -r "The programs included" *
+sudo egrep -r "legal" *
+sudo -i
+xx

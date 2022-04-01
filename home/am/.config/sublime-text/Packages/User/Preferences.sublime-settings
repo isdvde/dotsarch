@@ -106,4 +106,6 @@
 	"ui_scale": 0.9,
 	"word_wrap": true,
 	"wrap_width": 100,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
 }

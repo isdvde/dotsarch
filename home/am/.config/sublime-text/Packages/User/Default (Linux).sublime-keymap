@@ -9,5 +9,6 @@
 	{ "keys": ["ctrl+,"], "command": "sublime_linter_panel_toggle" },
 	{ "keys": ["ctrl+space"], "command": "auto_complete" },
 	{ "keys": ["ctrl+shift+."], "command": "toggle_minimap" },
+	{ "keys": ["ctrl+shift+f"], "command": "file_system_comp_trigger"}
 
 ]

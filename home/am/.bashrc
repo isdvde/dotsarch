@@ -142,16 +142,9 @@ PS1="\n$bold$red[$green\u$blue@$green\h:$yellow\W$bold$red]$default$ $reset\[$(t
 
 
 alias l='ls -XCF --group-directories-first'
-alias suspender='echo "kldhs" | sudo -S pm-suspend-hybrid'
-alias hibernar='sudo pm-hibernate'
-alias apagar='echo "kldhs" | sudo -S init 0'
 alias ll='ls -lXh --group-directories-first'
 alias la='ls -lXha --group-directories-first'
-alias root='sudo su --preserve-environment'
-alias sshChurunMeru='ssh -i ~/.ssh/churun_meru root@churun-meru'
-alias sshRouter='ssh -i ~/.ssh/id_rsa.firewall-router cit@150.188.128.3'
 alias xx='startx'
-alias d="docker"
 
 
 
