@@ -21396,3 +21396,387 @@ sudo egrep -r "The programs included" *
 sudo egrep -r "legal" *
 sudo -i
 xx
+df -h
+lsblk 
+sudo cfdisk /dev/sdb
+sudo mkfs.fat /dev/sdb1 
+lsblk 
+curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh > lunar.vim.install.sh
+vim lunar.vim.install.sh 
+bash lunar.vim.install.sh 
+lvim 
+nvim 
+lvim 
+aria2c 'https://archlinux.org/releng/releases/2022.04.01/torrent/'
+rm -rf archlinux-2022.04.01-x86_64.iso\ \(1\).torrent 
+rm -rf archlinux-2022.04.01-x86_64.iso
+ls
+rm -rf archlinux-2022.04.01-x86_64.iso.aria2 
+aria2c -x10 --seed-time=0 archlinux-2022.04.01-x86_64.iso.torrent 
+sudo dd if=archlinux-2022.04.01-x86_64.iso of=/dev/sdb1 bs=4M status=progress 
+lsblk 
+nvim
+rm -rf .config/nvim .local/share/nvim .cache/nvim/
+cd .config/
+ls
+cd
+vim dotfile
+bash dotfile
+cd DOTFILES/
+git status 
+git add .
+git commit -m "adding customKBLayout"
+git push remote master 
+sudo init 6
+sudo umount /mnt/usb 
+sudo dd if=archlinux-2022.04.01-x86_64.iso of=/dev/sdb1 bs=4M status=progress 
+sudo mount /dev/sdb1 /mnt/usb/ -o rw
+cd /mnt/usb/
+ls
+cd syslinux/
+ls
+sudo init 6
+xx
+sudo cfdisk /dev/sdb
+sudo mount /dev/sdb1 /mnt/usb/
+sudo umount /mnt/usb 
+sudo mkfs.fat /dev/sdb1 
+lsblk 
+sudo mount /dev/sdb1 /mnt/usb/
+cd /mnt/usb/
+touch a
+sudo touch  a
+ls -l
+cd
+sudo umount /mnt/usb 
+sha1sum archlinux-2022.04.01-x86_64.iso
+# 07941165933fe31e83385b0cd6f833db93e19926
+[ "07941165933fe31e83385b0cd6f833db93e19926" == "07941165933fe31e83385b0cd6f833db93e19926" ] && echo equal
+sudo dd if=archlinux-2022.04.01-x86_64.iso of=/dev/sdb1 bs=1m 
+sudo dd if=archlinux-2022.04.01-x86_64.iso of=/dev/sdb1 bs=1M
+sudo init 6
+rm -rf arcolinuxd-v22.03.08-x86_64.iso*
+aria2c -x10 --seed-time=0 arcolinuxd-v22.03.08.iso.torrent 
+aria2c -x10 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/45055693/2a01dc48-7b81-485f-8d36-14661a87d184?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220401T233426Z&X-Amz-Expires=300&X-Amz-Signature=6521371db798d7632c0c0b379a8986b3f0104f685890cca7396481e25b352213&X-Amz-SignedHeaders=host&actor_id=46464207&key_id=0&repo_id=45055693&response-content-disposition=attachment%3B%20filename%3Dbalena-etcher-electron-1.7.8-linux-x64.zip&response-content-type=application%2Foctet-stream'
+chmod +x balena-etcher-electron-1.7.8-linux-x64.zip 
+unzip n
+unzip balena-etcher-electron-1.7.8-linux-x64.zip 
+chmod +x balenaEtcher-1.7.8-x64.AppImage 
+./balenaEtcher-1.7.8-x64.AppImage 
+sudo ./balenaEtcher-1.7.8-x64.AppImage 
+sudo init 6
+xx
+ssh -CX churun-meru -t ssh -CX hephaestus
+ls
+lvim
+cd
+xx
+lvim
+ssh -CX churun-meru -t ssh -CX hephaestus
+sudo init 6
+xx
+sudo update-grub
+cd fvckingmore
+ls
+cd
+sudo vim /boot/grub/grub.cfg 
+sudo init 6
+sudo apt-get purge --autoremove visualboyadvance 
+sudo -i
+ls -l
+mv archlinux-2022.04.01-x86_64.iso fvckingmore/UNIX/isos/
+htop
+sudo -i
+nginx 
+sudo service php8.1-fpm start
+nginx -s reload
+nginx -s stop
+sudo service php8.1-fpm stop
+cd DOTFILES/
+ls
+cd home/am/.config/i3/
+ls
+rm -rf config.bak i3* log.log scripts yabar.conf 
+ls -l
+git status 
+cd ..
+cd. .
+cd ..
+git status 
+git add .
+git status 
+git commit -m "cleaning i3 folder"
+git push remote master 
+sudo init 6
+xx
+cd vue/
+ls
+cd vue-app/
+ls
+mv app app.bak
+ls
+mkdir app
+ls
+cd app
+npm i @vue/cli
+./node_modules/.bin/vue --help
+npm i @vue/cli-init
+./node_modules/.bin/vue --help
+./node_modules/.bin/vue list
+npm i @vue/cli
+./node_modules/.bin/vue --help
+ls
+rm -rf *
+npm i @vue/cli
+ls
+./node_modules/.bin/vue --help
+./node_modules/.bin/vue create --help
+./node_modules/.bin/vue create -b .
+cd vue/vue-app/app
+ls
+npm run watch
+npm run build
+npm i axios
+ls
+rm -rf *
+rm -rf .*
+npm i @vue/cli
+npm axios
+npm i axios
+./node_modules/.bin/vue create -b .
+npm run build
+cd public/
+ls
+cp ~/bootstrap.* ./
+cd .
+cd ..
+npm run build
+npm run build --watch
+npm run watch
+htop
+npm run watch
+vim .applications/nginx/conf/sites/vue-app 
+nginx 
+sudo service php8.1-fpm restart
+ls
+ssh -CX churun-meru -t ssh -CX hephaestus
+aria2c -x10 'https://dl3.myabandonware.com:8443/t/QSEOctej9Hd8u7H4wItvmGAy8Evf052a671D72x20Czl59G7f9/The-Typing-of-the-Dead_Win_EN_RIP-Version.zip'
+mkdir type.of.dead
+cp The-Typing-of-the-Dead_Win_EN_RIP-Version.zip type.of.dead/
+cd type.of.dead/
+ls
+unzip
+unzip The-Typing-of-the-Dead_Win_EN_RIP-Version.zip 
+la
+ls
+cd ttotd/
+ls
+cat INSTRUCTIONS.txt 
+WINEARCH=win32 WINEPREFIX=~/TTOD winecfg
+WINEARCH=win32 WINEPREFIX=~/TTOD wine start setup.bat 
+WINEARCH=win32 WINEPREFIX=~/TTOD wine regedit tod.reg 
+ls
+WINEARCH=win32 WINEPREFIX=~/TTOD wine start Tod_e.exe 
+ls
+cd
+cd vue/vue-app/app
+npm run build
+npm run watch
+pkill nginx 
+sudo service php8.1-fpm stop
+cd vue/vue-app/app
+ls
+nom run watch
+npm run watch
+d
+cd
+mkdir amorcito
+cd amorcito/
+ls
+htop
+nginx 
+sudo service php8.1-fpm start
+nginx 
+pkill nginx 
+ps -e |egrep  ngi
+nginx 
+sudo service php8.1-fpm status 
+cd Postman/
+ls
+./Postman 
+cd
+cd vue/vue-app/api/
+php artisan migrate:fresh 
+cd
+vim /sbin/ifdown 
+ssh -CX churun-meru -t ssh -CX hephaestus
+cd .applications/
+ls
+rm -rf firefox/
+cd
+rm -rf .mozilla/
+sudo -i
+ls
+cd /usr/local/src/
+ls
+sudo aria2c -x10 'https://ftp.mozilla.org/pub/firefox/releases/99.0b8/linux-x86_64/es-MX/firefox-99.0b8.tar.bz2'
+ls
+sudo tar -xvf firefox-99.0b8.tar.bz2 
+sudo ln -rsf firefox/firefox /usr/local/bin/
+cd
+cd .applications/
+ls
+ls -l
+cd
+cd vue/vue-app/api/
+php artisan migrate:fresh
+htop
+cd ..
+ls
+rm-
+rm -rf app.bak/
+ls -A
+git init
+git status 
+git add .
+cd api/
+ls
+git status 
+git log --oneline 
+ls -l
+cd ..
+ls
+cd api/
+ls
+rm -rf .git
+cat .gitignore 
+cp .gitignore ../
+cd ..
+vim .gitignore 
+git init 
+git status 
+ls
+rm -rf .git
+git init 
+ls -l
+git stt
+git status 
+vim .gitignore 
+git status 
+vim .gitignore 
+git status 
+git add .
+cd app/
+ls -lA
+rm -rf .git
+cat .gitignore 
+cd ..
+rm -rf .git
+vim .gitignore 
+git init 
+git status 
+vim .gitignore 
+git status 
+git add .
+git commit -m "vue-app separated app and api"
+cd amorcito/api/
+ls
+cd amorcito/
+composer create-project --prefer-dist api
+composer create-project laravel/laravel --prefer-dist api
+ls
+cd amorcito/api/
+ls
+php artisan make:model --help 
+php artisan make:model Product -cmr
+php artisan make:model Producto -cmr
+touch product.db
+php artisan migrate:fresh
+php artisan make:model Producto -cmr
+curl ifconfig.me
+php artisan route:list
+php artisan migrate:fresh
+sqlite product.db 
+sudo apt-get install sqlite3
+sqlite3 product.db 
+php artisan serve
+curl http://localhost:8000/api/index
+curl -X POST -d 'name=producto4&amount=20&price=40' http://localhost
+curl -X POST -d 'name=producto4&amount=20&price=40' http://localhost:8000/api/store -i
+curl -X POST -d 'name=producto4&amount=20&price=800' http://localhost:8000/api/update -i
+curl -X POST -d 'id=4&name=producto4&amount=20&price=800' http://localhost:8000/api/update -i
+curl -X POST -d 'id=2' http://localhost:8000/api/delete -i
+cd amorcito/api/
+sqlite3 product.db 
+ls
+xx
+cd vue/vue-app/app/
+npm run watch
+npm run build
+npm run watch
+cd ..
+git status 
+git diff
+git add . 
+git commit -m "some changes"
+git log --oneline 
+git branch -m vue-app.multiple.components
+git branch 
+git commit 
+git branch -a
+git branch --help
+git branch -m master
+git branch -a
+git log --oneline 
+git branch --help
+git branch -c master vue-app.multiple.views.components
+git 
+git branch -c master vue-app.modals
+git checkout vue-app.modals 
+git log --oneline 
+gi br
+git branch 
+cd app/
+npm run watch
+ssh -CX churun-meru -t ssh -CX hephaestus
+nginx 
+sudo service php8.1-fpm start
+anydesk
+vim .xinitrc 
+anydesk
+vim .xinitrc 
+cd vue/vue-app/app/
+npm run watch
+nitrogen --restore
+ping google.con
+ping google.com
+ls
+cat .config/i3/autostart 
+xrandr -q
+xrandr --output HDMI-1 --mode 720 --primary --output LVDS-1 --off;
+xrandr --output HDMI-1 --mode 1280x720 --primary --output LVDS-1 --off;
+xrandr -w
+xrandr -wq
+xrandr -q
+xrandr --output HDMI-1 --mode 1280x720 --primary --output LVDS-1 --off --output VGA-1 off;
+xrandr --output HDMI-1 --mode 1280x720 --primary --output LVDS-1 --off --output VGA-1 --off;
+xrandr --output HDMI-1 --mode 720 --primary --output LVDS-1 --off;
+xrandr --output VGA-1 --mode 720 --primary --output LVDS-1 --off;
+nginx 
+sudo service php8.1-fpm start
+nginx  -s stop
+sudo service php8.1-fpm 
+sudo service php8.1-fpm stop
+ls
+l
+rm -rf archlinux-2022.04.01-x86_64.iso.torrent arcolinuxd-v22.03.08.iso.torrent 
+du -csh $(ls -A)
+du -csh $(ls -A) | sort -h
+rm -rf spqweqwrqr2.rar 
+cd .local/share/fonts/
+ls
+du -csh *
+cd
+xx
+x
+xx

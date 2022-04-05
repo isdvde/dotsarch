@@ -22,6 +22,3 @@ xinput set-prop ${XINPUTDEV} ${XINPUTPROP} 1
 
 exec i3
 #exec openbox-session
-#exec spectrwm
-#exec dwm
-#exec dwm61

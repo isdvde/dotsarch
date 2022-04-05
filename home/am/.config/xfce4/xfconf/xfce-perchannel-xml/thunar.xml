@@ -35,6 +35,8 @@
     <value type="string" value="0d90f1fc-da60-4210-bd72-866128a8fa07"/>
     <value type="string" value="481808061807F22C"/>
     <value type="string" value="dbf2955b-08f8-4fdb-968b-786fafb6e883"/>
+    <value type="string" value="fb59dbf2-eaa3-40f3-8455-002407139870"/>
+    <value type="string" value="1c02a8da-f961-40ff-82c0-3a7cbab88843"/>
   </property>
   <property name="last-show-hidden" type="bool" value="false"/>
   <property name="last-details-view-column-order" type="string" value="THUNAR_COLUMN_NAME,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_TYPE,THUNAR_COLUMN_DATE_MODIFIED"/>
