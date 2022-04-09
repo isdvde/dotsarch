@@ -19,7 +19,7 @@ CPU() (
 )
 
 VOL() (
-	local VOL=$(amixer -M get Master | grep -E -o "\[[0-9]+%\]");
+	local VOL=$(amixer -M get Master | grep -E -o "\[[0-9]+%\]"	| head -1);
 	echo -n $VOL;
 )
 

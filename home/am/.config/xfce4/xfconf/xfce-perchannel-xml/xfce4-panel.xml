@@ -31,6 +31,12 @@
     <property name="clipman" type="empty">
       <property name="tweaks" type="empty">
         <property name="never-confirm-history-clear" type="bool" value="true"/>
+        <property name="max-menu-items" type="uint" value="5"/>
+        <property name="inhibit" type="bool" value="false"/>
+      </property>
+      <property name="settings" type="empty">
+        <property name="save-on-quit" type="bool" value="false"/>
+        <property name="max-texts-in-history" type="uint" value="10"/>
       </property>
     </property>
   </property>

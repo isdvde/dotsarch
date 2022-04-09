@@ -9,13 +9,14 @@ default_border pixel 2
 default_floating_border pixel 2
 workspace_layout tabbed
 hide_edge_borders both
-workspace_auto_back_and_forth yes
+#workspace_auto_back_and_forth yes
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # Start a terminal
-bindsym --release $mod+Return exec --no-startup-id xfce4-terminal.wrapper
+#bindsym --release $mod+Return exec --no-startup-id xfce4-terminal.wrapper
+bindsym --release $mod+Return exec --no-startup-id xfce4-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -159,7 +160,7 @@ bindsym $mod+Shift+Return exec "i3-msg open"
 
 #######################################################
 #USER INIT APPS
-exec --no-startup-id bash /home/am/.config/i3/autostart
+exec --no-startup-id bash /root/.config/i3/autostart
 #######################################################
 
 
@@ -191,8 +192,8 @@ bar {
 	status_command exec ~/.config/i3/bar2.sh
 	tray_output primary
 	position top
-	font pango:Sans 8
-	height 14
+	font pango:Dejavu Sans Book 8
+	height 15
 }
 
 bindsym $mod+b bar mode toggle

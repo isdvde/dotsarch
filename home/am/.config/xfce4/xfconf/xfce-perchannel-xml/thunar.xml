@@ -15,8 +15,8 @@
   <property name="shortcuts-icon-size" type="string" value="THUNAR_ICON_SIZE_SMALLEST"/>
   <property name="shortcuts-icon-emblems" type="bool" value="false"/>
   <property name="misc-open-new-window-as-tab" type="bool" value="true"/>
-  <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_SMALLEST"/>
-  <property name="last-details-view-column-widths" type="string" value="50,186,50,232,619,50,50,79,222"/>
+  <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_25_PERCENT"/>
+  <property name="last-details-view-column-widths" type="string" value="50,165,50,232,711,50,50,77,222,176"/>
   <property name="last-separator-position" type="int" value="134"/>
   <property name="last-sort-column" type="string" value="THUNAR_COLUMN_TYPE"/>
   <property name="last-sort-order" type="string" value="GTK_SORT_ASCENDING"/>
@@ -27,6 +27,7 @@
     <value type="string" value="network:///"/>
     <value type="string" value="file:///home/am/Escritorio"/>
     <value type="string" value="trash:///"/>
+    <value type="string" value="computer:///"/>
   </property>
   <property name="hidden-devices" type="array">
     <value type="string" value="0e0969e6-2de2-4eef-ad1b-56a58dcd65eb"/>
@@ -35,8 +36,6 @@
     <value type="string" value="0d90f1fc-da60-4210-bd72-866128a8fa07"/>
     <value type="string" value="481808061807F22C"/>
     <value type="string" value="dbf2955b-08f8-4fdb-968b-786fafb6e883"/>
-    <value type="string" value="fb59dbf2-eaa3-40f3-8455-002407139870"/>
-    <value type="string" value="1c02a8da-f961-40ff-82c0-3a7cbab88843"/>
   </property>
   <property name="last-show-hidden" type="bool" value="false"/>
   <property name="last-details-view-column-order" type="string" value="THUNAR_COLUMN_NAME,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_TYPE,THUNAR_COLUMN_DATE_MODIFIED"/>
@@ -44,4 +43,5 @@
   <property name="misc-middle-click-in-tab" type="bool" value="true"/>
   <property name="last-details-view-fixed-columns" type="bool" value="false"/>
   <property name="misc-thumbnail-mode" type="string" value="THUNAR_THUMBNAIL_MODE_NEVER"/>
+  <property name="misc-confirm-close-multiple-tabs" type="bool" value="false"/>
 </channel>

@@ -32,12 +32,12 @@
 		<group>0</group>
 		<commands>
 			<command>
-				<name>Editar con GIMP</name>
-				<exec>gimp-remote &quot;\0&quot;</exec>
-			</command>
-			<command>
 				<name>Ver con Ristretto</name>
 				<exec>ristretto &quot;\0&quot;</exec>
+			</command>
+			<command>
+				<name>Editar con GIMP</name>
+				<exec>gimp-remote &quot;\0&quot;</exec>
 			</command>
 		</commands>
 	</action>

@@ -1,0 +1,31 @@
+#!/bin/bash
+
+#COM="wget --spider -t 2 -q www.google.com"
+GREEN="#859900"
+RED="#DC322F"
+
+OUT() {
+	
+	echo "$1 $2" | awk '{
+
+		print $1,"\n"
+		exit 0
+
+	} END {
+
+		print $2
+
+	}'
+	
+}
+
+
+wget --spider -t 1 -q 1.1.1.1 && {
+
+	OUT ON $GREEN;
+	exit 0;
+} || {
+	
+	OUT OFF $RED;
+	exit 33;
+}

@@ -1,8 +1,10 @@
 delay=0
-region=2
+region=3
 show_mouse=0
 screenshot_dir=file:/home/am
-app=ristretto
+app=env
 last_user=
 action=2
+last_extension=png
+enable_imgur_upload=true
 

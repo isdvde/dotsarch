@@ -1,24 +1,14 @@
 [
-	// { "keys": ["f8"], "command": "build", "args": {"select": true} },
+	{ "keys": ["f8"], "command": "build", "args": {"select": true} },
 	{ "keys": ["ctrl+."], "command": "toggle_side_bar" },
 
-	{ "keys": ["ctrl+shift+z"], "command": "toggle_comment", "args": { "block": true } },
-	{ "keys": ["control+alt+z"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+<"], "command": "toggle_comment", "args": { "block": true } },
 
-	// { "keys": ["ctrl+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["ctrl+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 
-	// { "keys": ["ctrl+,"], "command": "sublime_linter_panel_toggle" },
+	{ "keys": ["ctrl+,"], "command": "sublime_linter_panel_toggle" },
 	{ "keys": ["ctrl+space"], "command": "auto_complete" },
 	{ "keys": ["ctrl+shift+."], "command": "toggle_minimap" },
-	{ "keys": ["ctrl+shift+f"], "command": "file_system_comp_trigger"},
-
-	{ "keys": ["ctrl+tab"], "command": "indent" },
-	{ "keys": ["ctrl+shift+tab"], "command": "unindent" },
-	{ "keys": ["ctrl+t"], "command": "reindent" },
-	{
-	    "keys": ["ctrl+alt+j"],
-	    "command": "emmet_go_to_tag_pair"
-	},
-
+	{ "keys": ["ctrl+shift+f"], "command": "file_system_comp_trigger"}
 
 ]

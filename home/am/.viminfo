@@ -1,4 +1,4 @@
-# Vim 8.1 generó este archivo "viminfo".
+# Vim 8.2 generó este archivo "viminfo".
 # Puede editarlo, ¡sólo si tiene cuidado!
 
 # Viminfo version
@@ -11,21 +11,29 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último Patrón de búsqueda:
-~MSle0~/Ico
+~MSle0~/VOL
 
 # Último SustituciónPatrón de búsqueda:
-~MSle0&   \+
+~MSle0&VGA-1
 
 # Última cadena de sustitución:
-$\t
+$VGA1
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
 :q!
-|2,0,1649198936,,"q!"
+|2,0,1649469432,,"q!"
+:Q!
+|2,0,1649469429,,"Q!"
 :wq
-|2,0,1649109987,,"wq"
+|2,0,1649388089,,"wq"
 :w
-|2,0,1648695368,,"w"
+|2,0,1649213555,,"w"
+:W
+|2,0,1649213506,,"W"
+:w!
+|2,0,1649210633,,"w!"
+:'<,'>s/VGA-1/VGA1/g
+|2,0,1648937435,,"'<,'>s/VGA-1/VGA1/g"
 :%s/   \+/\t/g
 |2,0,1648421660,,"%s/   \\+/\\t/g"
 :w! template
@@ -38,14 +46,10 @@ $\t
 |2,0,1648416651,,"% s/   \\+/\\t/g"
 :% s/  \+/\t/g
 |2,0,1648416562,,"% s/  \\+/\\t/g"
-:W
-|2,0,1648384210,,"W"
 :tabe bootstrap.js
 |2,0,1648002086,,"tabe bootstrap.js"
 :'<,'>s/   */\t/g
 |2,0,1646182023,,"'<,'>s/   */\\t/g"
-:Q!
-|2,0,1646178638,,"Q!"
 :tabe step2-ldap-installation.sh
 |2,0,1646178561,,"tabe step2-ldap-installation.sh"
 :tabe conf/ldapgroup.ldif
@@ -104,8 +108,6 @@ $\t
 |2,0,1636895248,,"'<,'>s/home\\/am/mnt/g"
 :'<,'>s/mnt/home\/am/g
 |2,0,1636895050,,"'<,'>s/mnt/home\\/am/g"
-:w!
-|2,0,1633916767,,"w!"
 :set rnu!
 |2,0,1632265531,,"set rnu!"
 :set nu!
@@ -178,6 +180,24 @@ $\t
 |2,0,1631476210,,"b"
 
 # Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+?/VOL
+|2,1,1649210546,47,"VOL"
+?/user
+|2,1,1649196142,47,"user"
+?/LC
+|2,1,1649131630,47,"LC"
+?/en_US
+|2,1,1649131377,47,"en_US"
+?/U
+|2,1,1649131374,47,"U"
+? VGA-1
+|2,1,1648937435,,"VGA-1"
+?/VGA
+|2,1,1648937416,47,"VGA"
+?/autos
+|2,1,1648937295,47,"autos"
+?/xfce
+|2,1,1648946490,47,"xfce"
 ?/Ico
 |2,1,1648767675,47,"Ico"
 ?/Mini
@@ -202,8 +222,6 @@ $\t
 |2,1,1646668415,47,"gaps"
 ?/rofi
 |2,1,1646656323,47,"rofi"
-?/autos
-|2,1,1646581331,47,"autos"
 ?/exec
 |2,1,1646580563,47,"exec"
 ?/screen
@@ -295,278 +313,559 @@ $\t
 
 # Registros:
 "0	LINE	0
-	.config/compton*
-|3,0,0,1,1,0,1648850886,".config/compton*"
+		include sites/vue-app;
+|3,0,0,1,1,0,1649372152,"	include sites/vue-app;"
 ""1	LINE	0
-	#exec spectrwm
-	#exec dwm
-	#exec dwm61
-|3,1,1,1,3,0,1649109911,"#exec spectrwm","#exec dwm","#exec dwm61"
+	volumeicon 2>&1 | tee ~/log.log &
+|3,1,1,1,1,0,1649388079,"volumeicon 2>&1 | tee ~/log.log &"
 "2	LINE	0
-	app/# Editor directories and files
-|3,0,2,1,1,0,1649031665,"app/# Editor directories and files"
+	    server_name example.com;
+|3,0,2,1,1,0,1649368980,"    server_name example.com;"
 "3	LINE	0
-	app/# local env files
-|3,0,3,1,1,0,1649031663,"app/# local env files"
+	    listen [::]:80;
+|3,0,3,1,1,0,1649368975,"    listen [::]:80;"
 "4	LINE	0
-	app/
-|3,0,4,1,1,0,1649031659,"app/"
+	 
+	    location = /favicon.ico { access_log off; log_not_found off; }
+	    location = /robots.txt  { access_log off; log_not_found off; }
+	 
+	    error_page 404 /index.php;
+	V
+|3,0,4,1,6,0,1649368971," ","    location = /favicon.ico { access_log off; log_not_found off; }","    location = /robots.txt  { access_log off; log_not_found off; }"," ","    error_page 404 /index.php;","V"
 "5	LINE	0
-	app/
-|3,0,5,1,1,0,1649031657,"app/"
+	 
+	    location ~ /\.(?!well-known).* {
+	        deny all;
+	    }
+|3,0,5,1,4,0,1649368964," ","    location ~ /\\.(?!well-known).* {","        deny all;","    }"
 "6	LINE	0
-	app/
-	app/
-|3,0,6,1,2,0,1649031656,"app/","app/"
+	    root /home/am/development/vue/vue-app/api/README.md
+|3,0,6,1,1,0,1649285450,"    root /home/am/development/vue/vue-app/api/README.md"
 "7	LINE	0
-	    add_header Access-Control-Allow-Origin  "*";
-|3,0,7,1,1,0,1648694195,"    add_header Access-Control-Allow-Origin  \"*\";"
+	 
+|3,0,7,1,1,0,1649213547," "
 "8	LINE	0
-	
-	
-|3,0,8,1,2,0,1648692988,"",""
+	        #try_files $uri $uri/ /index.php?$query_string;
+|3,0,8,1,1,0,1649213539,"        #try_files $uri $uri/ /index.php?$query_string;"
 "9	LINE	0
 	 
-|3,0,9,1,1,0,1648692864," "
+|3,0,9,1,1,0,1649213506," "
+"u	CHAR	0
+		
+|3,0,30,0,1,0,1649134282,"	"
 "-	CHAR	0
 	/
-|3,0,36,0,1,0,1649031551,"/"
+|3,0,36,0,1,0,1649387993,"/"
 
 # Marcas en el archivo:
-'0  1  0  ~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings
-|4,48,1,0,1649198936,"~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
-'1  23  0  ~/.xinitrc
-|4,49,23,0,1649109987,"~/.xinitrc"
-'2  24  0  ~/.xinitrc
-|4,50,24,0,1649109916,"~/.xinitrc"
-'3  24  0  ~/.xinitrc
-|4,51,24,0,1649109916,"~/.xinitrc"
-'4  28  0  ~/vue/vue-app/.gitignore
-|4,52,28,0,1649031666,"~/vue/vue-app/.gitignore"
-'5  18  0  ~/vue/vue-app/.gitignore
-|4,53,18,0,1649031631,"~/vue/vue-app/.gitignore"
-'6  18  0  ~/vue/vue-app/.gitignore
-|4,54,18,0,1649031631,"~/vue/vue-app/.gitignore"
-'7  16  9  ~/vue/vue-app/.gitignore
-|4,55,16,9,1649031574,"~/vue/vue-app/.gitignore"
-'8  16  9  ~/vue/vue-app/.gitignore
-|4,56,16,9,1649031574,"~/vue/vue-app/.gitignore"
-'9  16  9  ~/vue/vue-app/.gitignore
-|4,57,16,9,1649031574,"~/vue/vue-app/.gitignore"
+'0  24  8  /etc/php/php-fpm.d/www.conf
+|4,48,24,8,1649469432,"/etc/php/php-fpm.d/www.conf"
+'1  6  10  ~/.config/i3/autostart
+|4,49,6,10,1649388089,"~/.config/i3/autostart"
+'2  20  30  ~/.config/i3/autostart
+|4,50,20,30,1649388009,"~/.config/i3/autostart"
+'3  19  30  ~/.config/i3/autostart
+|4,51,19,30,1649388009,"~/.config/i3/autostart"
+'4  20  18  ~/.config/i3/autostart
+|4,52,20,18,1649387939,"~/.config/i3/autostart"
+'5  19  18  ~/.config/i3/autostart
+|4,53,19,18,1649387939,"~/.config/i3/autostart"
+'6  1  0  ~/.config/i3/autostart
+|4,54,1,0,1649387880,"~/.config/i3/autostart"
+'7  1  0  ~/.config/i3/autostart
+|4,55,1,0,1649387880,"~/.config/i3/autostart"
+'8  1  0  ~/.config/i3/autostart
+|4,56,1,0,1649387880,"~/.config/i3/autostart"
+'9  1  0  ~/.config/i3/autostart
+|4,57,1,0,1649387880,"~/.config/i3/autostart"
 
 # Lista de saltos (el más reciente va primero):
--'  1  0  ~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings
-|4,39,1,0,1649198936,"~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
--'  23  0  ~/.xinitrc
-|4,39,23,0,1649109987,"~/.xinitrc"
--'  23  0  ~/.xinitrc
-|4,39,23,0,1649109987,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1649109982,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1649109982,"~/.xinitrc"
--'  24  0  ~/.xinitrc
-|4,39,24,0,1649109916,"~/.xinitrc"
--'  24  0  ~/.xinitrc
-|4,39,24,0,1649109916,"~/.xinitrc"
--'  24  0  ~/.xinitrc
-|4,39,24,0,1649109916,"~/.xinitrc"
--'  24  0  ~/.xinitrc
-|4,39,24,0,1649109916,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1649109907,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1649109907,"~/.xinitrc"
--'  28  0  ~/vue/vue-app/.gitignore
-|4,39,28,0,1649031666,"~/vue/vue-app/.gitignore"
--'  28  0  ~/vue/vue-app/.gitignore
-|4,39,28,0,1649031666,"~/vue/vue-app/.gitignore"
--'  28  0  ~/vue/vue-app/.gitignore
-|4,39,28,0,1649031666,"~/vue/vue-app/.gitignore"
--'  28  0  ~/vue/vue-app/.gitignore
-|4,39,28,0,1649031666,"~/vue/vue-app/.gitignore"
--'  28  0  ~/vue/vue-app/.gitignore
-|4,39,28,0,1649031666,"~/vue/vue-app/.gitignore"
--'  28  0  ~/vue/vue-app/.gitignore
-|4,39,28,0,1649031666,"~/vue/vue-app/.gitignore"
--'  28  0  ~/vue/vue-app/.gitignore
-|4,39,28,0,1649031666,"~/vue/vue-app/.gitignore"
--'  28  0  ~/vue/vue-app/.gitignore
-|4,39,28,0,1649031666,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031652,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031652,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031652,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031652,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031652,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031652,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031652,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031652,"~/vue/vue-app/.gitignore"
--'  18  0  ~/vue/vue-app/.gitignore
-|4,39,18,0,1649031631,"~/vue/vue-app/.gitignore"
--'  18  0  ~/vue/vue-app/.gitignore
-|4,39,18,0,1649031631,"~/vue/vue-app/.gitignore"
--'  18  0  ~/vue/vue-app/.gitignore
-|4,39,18,0,1649031631,"~/vue/vue-app/.gitignore"
--'  18  0  ~/vue/vue-app/.gitignore
-|4,39,18,0,1649031631,"~/vue/vue-app/.gitignore"
--'  18  0  ~/vue/vue-app/.gitignore
-|4,39,18,0,1649031631,"~/vue/vue-app/.gitignore"
--'  18  0  ~/vue/vue-app/.gitignore
-|4,39,18,0,1649031631,"~/vue/vue-app/.gitignore"
--'  18  0  ~/vue/vue-app/.gitignore
-|4,39,18,0,1649031631,"~/vue/vue-app/.gitignore"
--'  18  0  ~/vue/vue-app/.gitignore
-|4,39,18,0,1649031631,"~/vue/vue-app/.gitignore"
--'  18  0  ~/vue/vue-app/.gitignore
-|4,39,18,0,1649031631,"~/vue/vue-app/.gitignore"
--'  18  0  ~/vue/vue-app/.gitignore
-|4,39,18,0,1649031631,"~/vue/vue-app/.gitignore"
--'  18  0  ~/vue/vue-app/.gitignore
-|4,39,18,0,1649031631,"~/vue/vue-app/.gitignore"
--'  18  0  ~/vue/vue-app/.gitignore
-|4,39,18,0,1649031631,"~/vue/vue-app/.gitignore"
--'  18  0  ~/vue/vue-app/.gitignore
-|4,39,18,0,1649031631,"~/vue/vue-app/.gitignore"
--'  18  0  ~/vue/vue-app/.gitignore
-|4,39,18,0,1649031631,"~/vue/vue-app/.gitignore"
--'  18  0  ~/vue/vue-app/.gitignore
-|4,39,18,0,1649031631,"~/vue/vue-app/.gitignore"
--'  18  0  ~/vue/vue-app/.gitignore
-|4,39,18,0,1649031631,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031622,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031622,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031622,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031622,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031622,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031622,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031622,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031622,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  16  9  ~/vue/vue-app/.gitignore
-|4,39,16,9,1649031574,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031567,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031567,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031567,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031567,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031567,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031567,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031567,"~/vue/vue-app/.gitignore"
--'  1  0  ~/vue/vue-app/.gitignore
-|4,39,1,0,1649031567,"~/vue/vue-app/.gitignore"
--'  15  0  ~/vue/vue-app/.gitignore
-|4,39,15,0,1649031552,"~/vue/vue-app/.gitignore"
--'  15  0  ~/vue/vue-app/.gitignore
-|4,39,15,0,1649031552,"~/vue/vue-app/.gitignore"
--'  15  0  ~/vue/vue-app/.gitignore
-|4,39,15,0,1649031552,"~/vue/vue-app/.gitignore"
--'  15  0  ~/vue/vue-app/.gitignore
-|4,39,15,0,1649031552,"~/vue/vue-app/.gitignore"
--'  15  0  ~/vue/vue-app/.gitignore
-|4,39,15,0,1649031552,"~/vue/vue-app/.gitignore"
--'  15  0  ~/vue/vue-app/.gitignore
-|4,39,15,0,1649031552,"~/vue/vue-app/.gitignore"
--'  15  0  ~/vue/vue-app/.gitignore
-|4,39,15,0,1649031552,"~/vue/vue-app/.gitignore"
--'  15  0  ~/vue/vue-app/.gitignore
-|4,39,15,0,1649031552,"~/vue/vue-app/.gitignore"
--'  15  0  ~/vue/vue-app/.gitignore
-|4,39,15,0,1649031552,"~/vue/vue-app/.gitignore"
--'  15  0  ~/vue/vue-app/.gitignore
-|4,39,15,0,1649031552,"~/vue/vue-app/.gitignore"
--'  15  0  ~/vue/vue-app/.gitignore
-|4,39,15,0,1649031552,"~/vue/vue-app/.gitignore"
--'  15  0  ~/vue/vue-app/.gitignore
-|4,39,15,0,1649031552,"~/vue/vue-app/.gitignore"
--'  15  0  ~/vue/vue-app/.gitignore
-|4,39,15,0,1649031552,"~/vue/vue-app/.gitignore"
--'  15  0  ~/vue/vue-app/.gitignore
-|4,39,15,0,1649031552,"~/vue/vue-app/.gitignore"
--'  15  0  ~/vue/vue-app/.gitignore
-|4,39,15,0,1649031552,"~/vue/vue-app/.gitignore"
--'  15  0  ~/vue/vue-app/.gitignore
-|4,39,15,0,1649031552,"~/vue/vue-app/.gitignore"
--'  15  0  ~/vue/vue-app/.gitignore
-|4,39,15,0,1649031552,"~/vue/vue-app/.gitignore"
+-'  24  8  /etc/php/php-fpm.d/www.conf
+|4,39,24,8,1649469432,"/etc/php/php-fpm.d/www.conf"
+-'  1  0  /etc/php/php-fpm.d/www.conf
+|4,39,1,0,1649469417,"/etc/php/php-fpm.d/www.conf"
+-'  6  10  ~/.config/i3/autostart
+|4,39,6,10,1649388089,"~/.config/i3/autostart"
+-'  6  10  ~/.config/i3/autostart
+|4,39,6,10,1649388089,"~/.config/i3/autostart"
+-'  1  0  ~/.config/i3/autostart
+|4,39,1,0,1649388062,"~/.config/i3/autostart"
+-'  1  0  ~/.config/i3/autostart
+|4,39,1,0,1649388062,"~/.config/i3/autostart"
+-'  20  30  ~/.config/i3/autostart
+|4,39,20,30,1649388009,"~/.config/i3/autostart"
+-'  19  30  ~/.config/i3/autostart
+|4,39,19,30,1649388009,"~/.config/i3/autostart"
+-'  20  30  ~/.config/i3/autostart
+|4,39,20,30,1649388009,"~/.config/i3/autostart"
+-'  19  30  ~/.config/i3/autostart
+|4,39,19,30,1649388009,"~/.config/i3/autostart"
+-'  1  0  ~/.config/i3/autostart
+|4,39,1,0,1649387987,"~/.config/i3/autostart"
+-'  1  0  ~/.config/i3/autostart
+|4,39,1,0,1649387987,"~/.config/i3/autostart"
+-'  19  18  ~/.config/i3/autostart
+|4,39,19,18,1649387939,"~/.config/i3/autostart"
+-'  19  18  ~/.config/i3/autostart
+|4,39,19,18,1649387939,"~/.config/i3/autostart"
+-'  1  0  ~/.config/i3/autostart
+|4,39,1,0,1649387912,"~/.config/i3/autostart"
+-'  1  0  ~/.config/i3/autostart
+|4,39,1,0,1649387912,"~/.config/i3/autostart"
+-'  1  0  ~/.config/i3/autostart
+|4,39,1,0,1649387880,"~/.config/i3/autostart"
+-'  1  0  ~/.config/i3/autostart
+|4,39,1,0,1649387880,"~/.config/i3/autostart"
+-'  19  11  ~/.config/i3/autostart
+|4,39,19,11,1649387822,"~/.config/i3/autostart"
+-'  19  11  ~/.config/i3/autostart
+|4,39,19,11,1649387822,"~/.config/i3/autostart"
+-'  19  11  ~/.config/i3/autostart
+|4,39,19,11,1649387822,"~/.config/i3/autostart"
+-'  19  11  ~/.config/i3/autostart
+|4,39,19,11,1649387822,"~/.config/i3/autostart"
+-'  1  0  ~/.config/i3/autostart
+|4,39,1,0,1649387816,"~/.config/i3/autostart"
+-'  1  0  ~/.config/i3/autostart
+|4,39,1,0,1649387816,"~/.config/i3/autostart"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  3  51  ~/nginx/conf/sites/segurity.uneg
+|4,39,3,51,1649373719,"~/nginx/conf/sites/segurity.uneg"
+-'  1  0  ~/nginx/conf/sites/segurity.uneg
+|4,39,1,0,1649373710,"~/nginx/conf/sites/segurity.uneg"
+-'  1  0  ~/nginx/conf/sites/segurity.uneg
+|4,39,1,0,1649373710,"~/nginx/conf/sites/segurity.uneg"
+-'  1  0  ~/nginx/conf/sites/segurity.uneg
+|4,39,1,0,1649373710,"~/nginx/conf/sites/segurity.uneg"
+-'  1  0  ~/nginx/conf/sites/segurity.uneg
+|4,39,1,0,1649373710,"~/nginx/conf/sites/segurity.uneg"
+-'  1  0  ~/nginx/conf/sites/segurity.uneg
+|4,39,1,0,1649373710,"~/nginx/conf/sites/segurity.uneg"
+-'  1  0  ~/nginx/conf/sites/segurity.uneg
+|4,39,1,0,1649373710,"~/nginx/conf/sites/segurity.uneg"
+-'  1  0  ~/nginx/conf/sites/segurity.uneg
+|4,39,1,0,1649373710,"~/nginx/conf/sites/segurity.uneg"
+-'  1  0  ~/nginx/conf/sites/segurity.uneg
+|4,39,1,0,1649373710,"~/nginx/conf/sites/segurity.uneg"
+-'  1  0  ~/nginx/conf/sites/segurity.uneg
+|4,39,1,0,1649373710,"~/nginx/conf/sites/segurity.uneg"
+-'  1  0  ~/nginx/conf/sites/segurity.uneg
+|4,39,1,0,1649373710,"~/nginx/conf/sites/segurity.uneg"
+-'  1  0  ~/nginx/conf/sites/segurity.uneg
+|4,39,1,0,1649373710,"~/nginx/conf/sites/segurity.uneg"
+-'  1  0  ~/nginx/conf/sites/segurity.uneg
+|4,39,1,0,1649373710,"~/nginx/conf/sites/segurity.uneg"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
 
-> ~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings
-	*	1649198925	0
+> /etc/php/php-fpm.d/www.conf
+	*	1649469430	0
+	"	24	8
+	^	24	9
+	.	24	9
+	+	23	10
+	+	24	11
+	+	48	18
+	+	49	18
+	+	24	9
+
+> ~/.config/i3/autostart
+	*	1649388088	0
+	"	6	10
+	^	6	11
+	.	6	11
+	+	7	0
+	+	11	0
+	+	12	0
+	+	18	19
+	+	4	0
+	+	3	26
+	+	5	1
+	+	4	0
+	+	3	3
+	+	1	11
+	+	3	40
+	+	5	3
+	+	13	6
+	+	12	0
+	+	13	0
+	+	12	0
+	+	16	0
+	+	16	165
+	+	19	11
+	+	20	0
+	+	6	11
+
+> ~/nginx/conf/sites/segurity.uneg
+	*	1649373718	0
+	"	3	51
+	^	3	52
+	.	3	51
+	+	18	0
+	+	13	0
+	+	3	0
+	+	2	14
+	+	3	49
+	+	12	63
+	+	13	0
+	+	14	55
+	+	3	51
+
+> ~/development/segurity-uneg/.env
+	*	1649373590	0
+	"	15	16
+	^	15	17
+	.	15	16
+	+	10	18
+	+	12	11
+	+	13	17
+	+	14	16
+	+	15	16
+
+> ~/nginx/conf/nginx.conf
+	*	1649372161	0
+	"	34	28
+	^	34	29
+	.	34	28
+	+	1	0
+	+	34	28
+
+> ~/development/segurity.uneg/.env
+	*	1649371071	0
+	"	10	0
+	^	11	17
+	.	11	16
+	+	13	17
+	+	11	16
+
+> /mnt/am/home/am/segurity-uneg.2/config/database.php
+	*	1649369239	0
+	"	45	0
+
+> ~/.local/share/applications/wine/Programs/Microsoft Office/Microsoft Office Word 2007.desktop
+	*	1649289029	0
 	"	1	0
 
+> ~/.local/share/applications/wine/Programs/Microsoft Office/word.desktop
+	*	1649288137	0
+	"	1	0
+	^	2	9
+	.	2	8
+	+	3	43
+	+	2	8
+
+> ~/nginx/conf/sites/vue-app
+	*	1649285561	0
+	"	25	44
+	^	12	56
+	.	12	55
+	+	11	0
+	+	24	0
+	+	23	0
+	+	17	46
+	+	18	0
+	+	27	47
+	+	28	0
+	+	9	16
+	+	9	62
+	+	10	0
+	+	9	0
+	+	4	0
+	+	11	0
+	+	12	55
+
+> /usr/local/bin/dbeaver
+	*	1649215615	0
+	"	1	0
+	^	1	0
+
+> ~/dbeaver/usr/share/dbeaver/dbeaver.ini
+	*	1649214905	0
+	"	1	0
+
+> ~/dbeaver/postinst
+	*	1649214787	0
+	"	1	0
+
+> ~/dbeaver/preinst
+	*	1649214780	0
+	"	1	0
+
+> ~/.config/i3/config
+	*	1649214368	0
+	"	12	0
+	^	12	1
+	.	12	0
+	+	25	0
+	+	26	0
+	+	6	16
+	+	215	0
+	+	26	36
+	+	165	0
+	+	165	253
+	+	163	0
+	+	165	0
+	+	163	25
+	+	1	0
+	+	4	0
+	+	6	0
+	+	8	0
+	+	17	2
+	+	20	0
+	+	25	0
+	+	24	10
+	+	26	0
+	+	27	14
+	+	33	13
+	+	49	0
+	+	50	0
+	+	51	33
+	+	52	0
+	+	89	12
+	+	94	0
+	+	100	0
+	+	99	0
+	+	106	0
+	+	105	0
+	+	106	0
+	+	113	0
+	+	112	0
+	+	114	0
+	+	92	0
+	+	114	0
+	+	120	0
+	+	122	0
+	+	131	0
+	+	140	0
+	+	141	41
+	+	145	0
+	+	158	0
+	+	157	16
+	+	159	0
+	+	184	0
+	+	183	0
+	+	184	0
+	+	183	0
+	+	184	0
+	+	163	0
+	+	165	0
+	+	163	0
+	+	165	0
+	+	163	0
+	+	8	0
+	+	116	0
+	+	128	0
+	+	164	0
+	+	200	0
+	+	25	50
+	+	104	0
+	+	196	1
+	+	105	0
+	+	196	1
+	+	195	1
+	+	104	0
+	+	105	0
+	+	195	1
+	+	196	1
+	+	192	19
+	+	187	9
+	+	189	1
+	+	192	0
+	+	188	21
+	+	189	0
+	+	190	0
+	+	192	0
+	+	173	0
+	+	191	0
+	+	188	21
+	+	137	0
+	+	135	0
+	+	139	0
+	+	137	9
+	+	138	9
+	+	12	0
+	+	195	1
+	+	196	9
+	+	195	0
+	+	19	0
+	+	18	0
+	+	19	65
+	+	163	31
+	+	196	9
+	+	195	27
+	+	12	0
+
+> /usr/local/src/nginx-1.21.6/config
+	*	1649213236	0
+	"	1	0
+	^	2	15
+	.	2	14
+	+	2	14
+
+> /etc/fstab
+	*	1649210634	0
+	"	7	46
+	^	7	47
+	.	7	46
+	+	7	46
+
+> ~/.config/i3/bar2.sh
+	*	1649210564	0
+	"	22	69
+	^	22	70
+	.	22	69
+	+	50	41
+	+	39	0
+	+	22	69
+
+> /etc/sudoers
+	*	1649210416	0
+	"	80	25
+	^	80	26
+	.	80	25
+	+	80	25
+
+> /usr/local/src/yay/PKGBUILD
+	*	1649195795	0
+	"	41	2
+
+> /etc/pacman.conf
+	*	1649195455	0
+	"	100	0
+	.	93	0
+	+	94	0
+	+	93	0
+
 > ~/.xinitrc
-	*	1649109986	0
-	"	23	0
-	^	23	0
-	.	23	0
+	*	1649193892	0
+	"	21	0
+	^	20	46
+	.	21	0
 	+	16	21
 	+	12	17
 	+	17	21
@@ -582,133 +881,98 @@ $\t
 	+	23	0
 	+	24	0
 	+	23	0
-	+	25	0
-	+	23	0
-	+	24	0
-	+	23	0
-
-> ~/vue/vue-app/.gitignore
-	*	1649031665	0
-	"	28	0
-	^	18	4
-	.	28	0
-	+	2	0
-	+	15	0
-	+	16	9
-	+	34	5
-	+	19	0
+	+	21	11
+	+	20	45
 	+	21	0
-	+	23	0
-	+	28	0
-	+	21	0
-	+	28	0
 
-> /sbin/ifdown
-	*	1649022036	0
+> /etc/hosts
+	*	1649185728	0
+	"	6	19
+	^	6	20
+	.	6	19
+	+	6	19
+
+> ~/.bashrc
+	*	1649185251	0
+	"	156	0
+	.	157	0
+	+	157	0
+
+> /etc/passwd
+	*	1649185213	0
 	"	1	0
 
-> ~/.applications/nginx/conf/sites/vue-app
-	*	1648954349	0
-	"	32	0
-	^	14	5
-	.	15	0
-	+	1	11
-	+	1	0
-	+	1	1
-	+	1	0
-	+	1	32
-	+	1	5
-	+	1	26
-	+	1	34
-	+	1	28
-	+	1	1
-	+	1	20
-	+	1	30
-	+	1	0
-	+	1	1
-	+	1	0
-	+	1	47
-	+	1	0
-	+	1	14
-	+	1	38
-	+	1	0
-	+	1	9
-	+	1	12
-	+	1	38
-	+	1	0
-	+	1	2
-	+	1	16
-	+	1	0
-	+	1	27
-	+	1	2
-	+	1	0
-	+	1	1
-	+	1	4
-	+	1	54
-	+	1	0
-	+	1	4
-	+	1	0
-	+	1	3
-	+	1	47
-	+	1	3
-	+	1	8
-	+	19	0
-	+	2	0
-	+	3	0
-	+	2	12
-	+	3	37
-	+	13	0
-	+	15	47
-	+	19	0
-	+	3	27
-	+	8	26
-	+	13	0
-	+	13	38
-	+	13	14
-	+	13	0
-	+	13	39
-	+	3	1
-	+	13	0
-	+	13	2
-	+	13	6
-	+	13	0
-	+	13	2
-	+	13	6
-	+	3	1
-	+	13	0
-	+	13	2
-	+	13	0
-	+	3	33
-	+	13	0
-	+	20	0
-	+	22	0
-	+	2	9
-	+	23	9
-	+	3	37
-	+	2	9
-	+	23	9
-	+	2	9
-	+	23	9
-	+	2	11
-	+	23	11
-	+	24	30
-	+	32	0
-	+	32	7
-	+	24	35
-	+	3	0
-	+	24	35
-	+	29	13
-	+	30	2
-	+	31	1
-	+	30	34
-	+	32	0
-	+	3	37
+> /etc/systemd/logind.conf
+	*	1649134447	0
+	"	30	7
+	^	29	35
+	.	29	34
+	+	25	0
+	+	26	22
+	+	27	24
+	+	28	21
+	+	29	34
+
+> /etc/systemd/system.conf
+	*	1649134399	0
+	"	28	0
+
+> ~/net.config
+	*	1649134300	0
+	"	10	102
+	^	10	103
+	.	10	102
+	+	1	10
+	+	3	8
+	+	4	17
+	+	5	11
+	+	5	0
+	+	6	9
+	+	7	14
+	+	8	0
+	+	10	24
+	+	10	93
 	+	10	0
-	+	9	0
-	+	11	32
-	+	4	32
-	+	6	0
-	+	15	0
+	+	12	0
+	+	10	0
+	+	11	0
+	+	10	86
+	+	10	0
+	+	10	102
+
+> /etc/conf.d/sensord
+	*	1649133472	0
+	"	1	0
+
+> /etc/NetworkManager/NetworkManager.conf
+	*	1649133258	0
+	"	1	0
+
+> /usr/local/bin/chrome
+	*	1649132796	0
+	"	1	62
+	^	1	63
+	.	1	62
+	+	1	62
+
+> /etc/locale.conf
+	*	1649131509	0
+	"	2	17
+	^	2	18
+	.	2	17
+	+	2	17
+
+> /etc/locale.gen
+	*	1649131383	0
+	"	511	0
+	^	178	1
+	.	178	0
+	+	179	0
+	+	178	0
+
+> /etc/resolv.conf
+	*	1648937242	0
+	"	1	0
 
 > ~/dotfile
 	*	1648850892	0
@@ -868,6 +1132,109 @@ $\t
 	+	15	18
 	+	64	10
 
+> ~/.applications/nginx/conf/sites/vue-app
+	*	1648700317	0
+	"	14	4
+	^	14	5
+	.	15	0
+	+	1	11
+	+	1	0
+	+	1	1
+	+	1	0
+	+	1	32
+	+	1	5
+	+	1	26
+	+	1	34
+	+	1	28
+	+	1	1
+	+	1	20
+	+	1	30
+	+	1	0
+	+	1	1
+	+	1	0
+	+	1	47
+	+	1	0
+	+	1	14
+	+	1	38
+	+	1	0
+	+	1	9
+	+	1	12
+	+	1	38
+	+	1	0
+	+	1	2
+	+	1	16
+	+	1	0
+	+	1	27
+	+	1	2
+	+	1	0
+	+	1	1
+	+	1	4
+	+	1	54
+	+	1	0
+	+	1	4
+	+	1	0
+	+	1	3
+	+	1	47
+	+	1	3
+	+	1	8
+	+	19	0
+	+	2	0
+	+	3	0
+	+	2	12
+	+	3	37
+	+	13	0
+	+	15	47
+	+	19	0
+	+	3	27
+	+	8	26
+	+	13	0
+	+	13	38
+	+	13	14
+	+	13	0
+	+	13	39
+	+	3	1
+	+	13	0
+	+	13	2
+	+	13	6
+	+	13	0
+	+	13	2
+	+	13	6
+	+	3	1
+	+	13	0
+	+	13	2
+	+	13	0
+	+	3	33
+	+	13	0
+	+	20	0
+	+	22	0
+	+	2	9
+	+	23	9
+	+	3	37
+	+	2	9
+	+	23	9
+	+	2	9
+	+	23	9
+	+	2	11
+	+	23	11
+	+	24	30
+	+	32	0
+	+	32	7
+	+	24	35
+	+	3	0
+	+	24	35
+	+	29	13
+	+	30	2
+	+	31	1
+	+	30	34
+	+	32	0
+	+	3	37
+	+	10	0
+	+	9	0
+	+	11	32
+	+	4	32
+	+	6	0
+	+	15	0
+
 > ~/.applications/nginx/conf/nginx.conf
 	*	1648684655	0
 	"	34	21
@@ -921,125 +1288,6 @@ $\t
 > ~/vue/prueba/app/webpack.config.js
 	*	1648593247	0
 	"	25	0
-
-> ~/.config/i3/autostart
-	*	1648519348	0
-	"	11	0
-	^	11	0
-	.	11	0
-	+	6	0
-	+	10	0
-	+	11	0
-	+	17	19
-	+	4	0
-	+	3	26
-	+	5	1
-	+	4	0
-	+	3	3
-	+	1	11
-	+	3	40
-	+	5	3
-	+	12	6
-	+	11	0
-	+	12	0
-	+	11	0
-
-> ~/.config/i3/config
-	*	1648519340	0
-	"	1	0
-	^	194	18
-	.	194	0
-	+	24	0
-	+	25	0
-	+	6	16
-	+	214	0
-	+	25	36
-	+	164	0
-	+	164	253
-	+	162	0
-	+	164	0
-	+	162	25
-	+	1	0
-	+	4	0
-	+	6	0
-	+	8	0
-	+	17	2
-	+	19	0
-	+	24	0
-	+	23	10
-	+	25	0
-	+	26	14
-	+	32	13
-	+	48	0
-	+	49	0
-	+	50	33
-	+	51	0
-	+	88	12
-	+	93	0
-	+	99	0
-	+	98	0
-	+	105	0
-	+	104	0
-	+	105	0
-	+	112	0
-	+	111	0
-	+	113	0
-	+	91	0
-	+	113	0
-	+	119	0
-	+	121	0
-	+	130	0
-	+	139	0
-	+	140	41
-	+	144	0
-	+	157	0
-	+	156	16
-	+	158	0
-	+	183	0
-	+	182	0
-	+	183	0
-	+	182	0
-	+	183	0
-	+	162	0
-	+	164	0
-	+	162	0
-	+	164	0
-	+	162	0
-	+	8	0
-	+	115	0
-	+	127	0
-	+	163	0
-	+	199	0
-	+	24	50
-	+	103	0
-	+	195	1
-	+	104	0
-	+	195	1
-	+	194	1
-	+	103	0
-	+	104	0
-	+	194	1
-	+	195	1
-	+	191	19
-	+	186	9
-	+	188	1
-	+	191	0
-	+	187	21
-	+	188	0
-	+	189	0
-	+	191	0
-	+	172	0
-	+	190	0
-	+	187	21
-	+	136	0
-	+	134	0
-	+	138	0
-	+	136	9
-	+	137	9
-	+	12	0
-	+	194	1
-	+	195	9
-	+	194	0
 
 > ~/vue/vue-app/app/package.json
 	*	1648508302	0
@@ -1176,10 +1424,6 @@ $\t
 > ~/.fehbg
 	*	1648333285	0
 	"	1	0
-
-> ~/.bashrc
-	*	1648333115	0
-	"	145	0
 
 > /tmp/bash-fc.IkxjWQ
 	*	1648251182	0
@@ -1347,6 +1591,10 @@ $\t
 	+	14	17
 	+	15	16
 
+> ~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings
+	*	1647617722	0
+	"	1	0
+
 > ~/.config/sublime-text-3/Packages/User/Phpactor.sublime-settings
 	*	1647617711	0
 	"	1	0
@@ -1414,212 +1662,3 @@ $\t
 	"	5	0
 	.	1	0
 	+	1	0
-
-> ~/segurity-uneg.2/database/seeders/LaratrustSeeder.php
-	*	1647484726	0
-	"	43	12
-
-> ~/segurity-uneg.2/database/seeders/DatabaseSeeder.php
-	*	1647484688	0
-	"	1	0
-
-> ~/segurity-uneg.2/.env
-	*	1647483494	0
-	"	4	0
-	^	15	17
-	.	15	16
-	+	10	18
-	+	12	11
-	+	13	15
-	+	14	16
-	+	15	16
-
-> ~/.config/i3/scripts/bandwidthImprove2
-	*	1646612848	0
-	"	43	0
-
-> ~/.config/i3/bar.sh
-	*	1646612828	0
-	"	120	1
-
-> ~/.config/i3/bar2.sh
-	*	1646612811	0
-	"	65	0
-	^	50	41
-	.	39	0
-	+	50	41
-	+	39	0
-
-> /mnt/fvckingmore/am/.applications/i3/i3-gaps_installation_guide.md
-	*	1646581799	0
-	"	1	0
-
-> ~/.applications/i3-gaps-next/install-sh
-	*	1646581671	0
-	"	124	4
-
-> ~/SMBLDAP-DOMAIN-UNEG-INSTALLATION/step1-ldap-installation.sh
-	*	1646178646	0
-	"	86	0
-	e	1	7
-
-> ~/SMBLDAP-DOMAIN-UNEG-INSTALLATION/conf/base.ldif
-	*	1646178644	0
-	"	1	0
-
-> ~/SMBLDAP-DOMAIN-UNEG-INSTALLATION/conf/ldapuser.ldif
-	*	1646178643	0
-	"	1	0
-
-> ~/SMBLDAP-DOMAIN-UNEG-INSTALLATION/conf/ldapgroup.ldif
-	*	1646178636	0
-	"	1	0
-
-> ~/SMBLDAP-DOMAIN-UNEG-INSTALLATION/step2-ldap-installation.sh
-	*	1646178631	0
-	"	126	0
-
-> ~/DOTFILES/.git/COMMIT_EDITMSG
-	*	1646170813	0
-	"	1	0
-
-> ~/.applications/startSnap
-	*	1645996255	0
-	"	5	1
-	^	5	16
-	.	5	0
-	+	3	95
-	+	4	7
-	+	7	1
-	+	1	10
-	+	7	0
-	+	7	3
-	+	3	0
-	+	6	0
-	+	7	0
-	+	6	83
-	+	8	0
-	+	6	96
-	+	13	3
-	+	10	22
-	+	11	17
-	+	12	20
-	+	5	0
-
-> ~/.config/NERD_tree_1
-	*	1645721593	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> /usr/share/applications/cxmenu-cxoffice-0-29ra4ke-Uninstall CrossOver Linux.desktop
-	*	1645407544	0
-	"	1	0
-
-> ~/back4.sh
-	*	1645404544	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/DOTFILES/home/am/home/am/.ssh/config
-	*	1645379760	0
-	"	1	0
-
-> ~/gge
-	*	1645374674	0
-	"	2	141
-	^	2	142
-	.	2	142
-	+	1	142
-	+	1	206
-	+	1	54
-	+	2	202
-	+	1	32
-	+	2	142
-
-> ~/.applications/wallset
-	*	1645372100	0
-	"	194	4
-
-> ~/.config/openbox/autostart
-	*	1645362943	0
-	"	26	44
-	^	26	54
-	.	26	44
-	+	24	14
-	+	25	69
-	+	19	3
-	+	29	178
-	+	25	77
-	+	29	0
-	+	28	0
-	+	29	0
-	+	28	50
-	+	28	0
-	+	30	1
-	+	29	0
-	+	27	0
-	+	26	44
-
-> ~/margarita
-	*	1645324862	0
-	"	1	0
-
-> ~/margarita.pub
-	*	1645324859	0
-	"	1	105
-	^	1	106
-	.	1	105
-	+	1	105
-
-> ~/tmp
-	*	1645315922	0
-	"	26	38
-	.	27	0
-	+	7	43
-	+	8	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	8	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	45	0
-	+	14	17
-	+	15	22
-	+	16	21
-	+	17	16
-	+	19	21
-	+	19	25
-	+	28	28
-	+	25	21
-	+	28	21
-	+	30	0
-	+	18	0
-	+	19	0
-	+	21	0
-	+	13	0
-	+	42	0
-	+	34	21
-	+	41	0
-	+	35	36
-	+	39	0
-	+	34	35
-	+	38	40
-	+	27	0
-
-> ~/pruebaProxy/f1/.env
-	*	1645188693	0
-	"	1	0
-
-> ~/pruebaProxy/f2/NERD_tree_1
-	*	1645188534	0
-	"	1	1
-	.	1	0
-	+	1	0
-
-> ~/pruebaProxy/farmacia/app/Console/Kernel.php
-	*	1645188524	0
-	"	35	0
