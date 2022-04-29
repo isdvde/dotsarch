@@ -1,0 +1,7 @@
+#!/bin/bash
+
+FOLDER="/home/am/pictures/wallpapers/wallpapers-master/"
+
+while true; do nitrogen --set-zoom-fill --random ${FOLDER} sleep 5m; done
+
+

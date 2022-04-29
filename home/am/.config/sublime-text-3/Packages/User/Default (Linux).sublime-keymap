@@ -15,6 +15,7 @@
 	{ "keys": ["ctrl+tab"], "command": "indent" },
 	{ "keys": ["ctrl+shift+tab"], "command": "unindent" },
 	{ "keys": ["ctrl+t"], "command": "reindent" },
+	{ "keys": ["ctrl+shift+y"], "command": "unexpand_tabs" },
 	{
 	    "keys": ["ctrl+alt+j"],
 	    "command": "emmet_go_to_tag_pair"

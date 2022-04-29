@@ -2,13 +2,13 @@
 	"auto_complete_delay": 1,
 	"bold_folder_labels": true,
 	"caret_style": "blink",
-	"color_scheme": "User/gruvbox (Dark) (Hard).sublime-color-scheme",
+	"color_scheme": "Packages/gruvbox/gruvbox (Dark) (Hard).sublime-color-scheme",
 	"font_face": "monospace",
 	"font_options":
 	[
 		"bold"
 	],
-	"font_size": 8,
+	"font_size": 11,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -24,6 +24,7 @@
 		"Groovy",
 		"Haskell",
 		"Java",
+		"Laravel Goto",
 		"LaTeX",
 		"Lisp",
 		"Lua",
@@ -41,10 +42,12 @@
 		"Rust",
 		"Scala",
 		"ShellScript",
+		"Tailwind CSS Autocomplete",
 		"TCL",
-		"Vintage"
+		"Vintage",
+		"YAML"
 	],
-	"index_files": true,
+	"index_files": false,
 	"line_numbers": true,
 	"margin": 0,
 	"match_brackets_angle": true,
@@ -64,5 +67,5 @@
 	"translate_tabs_to_spaces": false,
 	"ui_scale": 0.9,
 	"word_wrap": true,
-	"wrap_width": 80
+	"wrap_width": 100
 }

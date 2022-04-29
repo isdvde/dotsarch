@@ -59,7 +59,12 @@ TRAF() (
 	echo "D ${down}K U ${up}K";
 ) 
 
+BAT() (
+	echo $(acpi -b | sed -r "s/(  +|\t)/ /g" | cut -d' ' -f4 | sed "s/,//g")
+)
+
 while :; do
+	#echo "V $(VOL)   |   M $(MEM)   |   /H $(HOME)  /F $(FMORE)   |   $(IFACE)  $(TRAF)   |   B $(BAT)   |   C $(CPU)   |   $(DATE)"; 
 	echo "V $(VOL)   |   M $(MEM)   |   /H $(HOME)  /F $(FMORE)   |   $(IFACE)  $(TRAF)   |   C $(CPU)   |   $(DATE)"; 
 	sleep 0.5;
 done

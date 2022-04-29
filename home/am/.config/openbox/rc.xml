@@ -12,7 +12,7 @@
 		<focusLast>yes</focusLast>
 		<underMouse>no</underMouse>
 		<focusDelay>50</focusDelay>
-		<raiseOnFocus>yes</raiseOnFocus>
+		<!-- <raiseOnFocus>yes</raiseOnFocus> -->
 	</focus>
 
 	<placement>
@@ -218,7 +218,7 @@
 
 		<keybind key="W-Return">
 			<action name="Execute">
-				<command>xfce4-terminal.wrapper</command>
+				<command>xfce4-terminal</command>
 			</action>
 		</keybind>
 
@@ -326,7 +326,8 @@
 
 		<context name="Frame">
 			<mousebind button="W-Left" action="Press">
-				<action name="Focus"/> <action name="Raise"/>
+				<action name="Focus"/> 
+				<!-- <action name="Raise"/> -->
 			</mousebind>
 
 			<mousebind button="W-Left" action="Click">
@@ -339,8 +340,8 @@
 
 			<mousebind button="W-Right" action="Press">
 				<action name="Focus"/>
-				<action name="Raise"/>
 				<action name="Unshade"/>
+				<!-- <action name="Raise"/> -->
 			</mousebind>
 
 			<mousebind button="W-Right" action="Drag">
@@ -351,15 +352,15 @@
 		<context name="Client">
 			<mousebind button="Left" action="Press">
 				<action name="Focus"/>
-				<action name="Raise"/>
+				<!-- <action name="Raise"/> -->
 			</mousebind>
 			<mousebind button="Middle" action="Press">
 				<action name="Focus"/>
-				<action name="Raise"/>
+				<!-- <action name="Raise"/> -->
 			</mousebind>
 			<mousebind button="Right" action="Press">
 				<action name="Focus"/>
-				<action name="Raise"/>
+				<!-- <action name="Raise"/> -->
 			</mousebind>
 		</context>
 

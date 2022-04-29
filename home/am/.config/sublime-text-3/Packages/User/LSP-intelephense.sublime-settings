@@ -1,0 +1,16 @@
+// Settings in here override those in "LSP-json/LSP-json.sublime-settings"
+
+{
+	
+	"initializationOptions": {
+		"clearCache": false,
+		// "storagePath": "${temp_dir}/intelephense",
+		"storagePath": "${home}/.intelephense",
+		"globalStoragePath": "${home}/.intelephense",
+
+		// if you want to use a premium license, you can either paste the key directly
+		// or paste it into a file and provide its absolute path here
+		// "licenceKey": "${packages}/User/intelephense-license.txt",
+	},
+
+}
