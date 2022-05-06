@@ -11,21 +11,39 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último Patrón de búsqueda:
-~MSle0~/gaps
+~MSle0/Extensi
 
 # Último SustituciónPatrón de búsqueda:
-~MSle0&VGA-1
+~MSle0~&  \+
 
 # Última cadena de sustitución:
-$VGA1
+$\t
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
-:q!
-|2,0,1651190554,,"q!"
-:w
-|2,0,1651190516,,"w"
 :wq
-|2,0,1651190175,,"wq"
+|2,0,1651796810,,"wq"
+:q!
+|2,0,1651796496,,"q!"
+:w
+|2,0,1651718773,,"w"
+:tabe amorcito.am
+|2,0,1651618155,,"tabe amorcito.am"
+:% s/  \+/\t/g
+|2,0,1651618119,,"% s/  \\+/\\t/g"
+:Wq
+|2,0,1651539347,,"Wq"
+:% s/$/ \\/g
+|2,0,1651538983,,"% s/$/ \\\\/g"
+:% s/ /\r/g
+|2,0,1651538940,,"% s/ /\\r/g"
+:'<,'>s/nobody/am/g
+|2,0,1651538229,,"'<,'>s/nobody/am/g"
+:% s/ /\n/g
+|2,0,1651527543,,"% s/ /\\n/g"
+:% s/-/\n-/g
+|2,0,1651527503,,"% s/-/\\n-/g"
+:tabe .bashrc
+|2,0,1651526022,,"tabe .bashrc"
 :q
 |2,0,1650804611,,"q"
 :Q!
@@ -34,8 +52,6 @@ $VGA1
 |2,0,1650378165,,"W"
 :.!:q!
 |2,0,1650124329,,".!:q!"
-:Wq
-|2,0,1650043659,,"Wq"
 :w!
 |2,0,1649811530,,"w!"
 :'<,'>s/VGA-1/VGA1/g
@@ -50,8 +66,6 @@ $VGA1
 |2,0,1648416781,,"tabe ../nginx.conf"
 :% s/   \+/\t/g
 |2,0,1648416651,,"% s/   \\+/\\t/g"
-:% s/  \+/\t/g
-|2,0,1648416562,,"% s/  \\+/\\t/g"
 :tabe bootstrap.js
 |2,0,1648002086,,"tabe bootstrap.js"
 :'<,'>s/   */\t/g
@@ -182,6 +196,26 @@ $VGA1
 |2,0,1631476210,,"b"
 
 # Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+?   \+
+|2,1,1651618119,,"  \\+"
+?/Extensi
+|2,1,1651539342,47,"Extensi"
+? $
+|2,1,1651538983,,"$"
+?  
+|2,1,1651538940,," "
+?/log
+|2,1,1651538515,47,"log"
+?/Exten
+|2,1,1651538393,47,"Exten"
+? nobody
+|2,1,1651538229,,"nobody"
+?/xml
+|2,1,1651528324,47,"xml"
+? -
+|2,1,1651527503,,"-"
+? \<Export\>
+|2,1,1651526027,,"\\<Export\\>"
 ?/gaps
 |2,1,1651190167,47,"gaps"
 ?/expand
@@ -228,8 +262,6 @@ $VGA1
 |2,1,1648677257,47,"clone"
 ?    \+
 |2,1,1648421660,,"   \\+"
-?   \+
-|2,1,1648416562,,"  \\+"
 ?/alias
 |2,1,1648333108,47,"alias"
 ?/ami
@@ -333,285 +365,438 @@ $VGA1
 
 # Registros:
 "0	LINE	0
-		echo "V $(VOL)   |   M $(MEM)   |   /H $(HOME)  /F $(FMORE)   |   $(IFACE)  $(TRAF)   |   B $(BAT)   |   C $(CPU)   |   $(DATE)"; 
-|3,0,0,1,1,0,1651089208,"	echo \"V $(VOL)   |   M $(MEM)   |   /H $(HOME)  /F $(FMORE)   |   $(IFACE)  $(TRAF)   |   B $(BAT)   |   C $(CPU)   |   $(DATE)\"; "
+				- Creacion:
+|3,0,0,1,1,0,1651715249,"			- Creacion:"
 "1	LINE	0
-	
-|3,0,1,1,1,0,1650835008,""
+					- Cargar datops
+|3,0,1,1,1,0,1651718569,"				- Cargar datops"
 "2	LINE	0
-	source ~/.bash_profile
-|3,0,2,1,1,0,1650835007,"source ~/.bash_profile"
-"3	LINE	0
-	# You may want to put all your additions into a separate file like
-	# ~/.bash_aliases, instead of adding them here directly.
-	# See /usr/share/doc/bash-doc/examples in the bash-doc package.
-|3,0,3,1,3,0,1650420953,"# You may want to put all your additions into a separate file like","# ~/.bash_aliases, instead of adding them here directly.","# See /usr/share/doc/bash-doc/examples in the bash-doc package."
+					- Actualizar: 
+|3,0,2,1,1,0,1651717488,"				- Actualizar: "
+"3	CHAR	0
+	7
+	
+			-
+|3,0,3,0,3,0,1651716011,"7","","		-"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1650420935,""
+				- principal: 
+|3,0,4,1,1,0,1651714959,"			- principal: "
 "5	LINE	0
-	# If not running interactively, don't do anything
-	case $- in
-	    *i*) ;;
-	      *) return;;
-	esac
-|3,0,5,1,5,0,1650420934,"# If not running interactively, don't do anything","case $- in","    *i*) ;;","      *) return;;","esac"
+	
+|3,0,5,1,1,0,1651713584,""
 "6	LINE	0
-	# make less more friendly for non-text input files, see lesspipe(1)
-	[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
-	
-|3,0,6,1,3,0,1650420850,"# make less more friendly for non-text input files, see lesspipe(1)","[ -x /usr/bin/lesspipe ] && eval \"$(SHELL=/bin/sh lesspipe)\"",""
+	        fastcgi_pass unix:/home/am/php/php.sock;
+|3,0,6,1,1,0,1651618174,"        fastcgi_pass unix:/home/am/php/php.sock;"
 "7	LINE	0
-	# If set, the pattern "**" used in a pathname expansion context will
-	# match all files and zero or more directories and subdirectories.
-	#shopt -s globstar
-	
-|3,0,7,1,4,0,1650420825,"# If set, the pattern \"**\" used in a pathname expansion context will","# match all files and zero or more directories and subdirectories.","#shopt -s globstar",""
+	        fastcgi_pass unix:/home/am/php/php.sock;
+|3,0,7,1,1,0,1651618171,"        fastcgi_pass unix:/home/am/php/php.sock;"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1650420775,""
+	#        fastcgi_pass 127.0.0.1:9000;
+|3,0,8,1,1,0,1651618168,"#        fastcgi_pass 127.0.0.1:9000;"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1650420774,""
+	--with-imap-ssl \
+|3,0,9,1,1,0,1651539270,"--with-imap-ssl \\"
 "u	CHAR	0
 		
 |3,0,30,0,1,0,1649134282,"	"
 ""-	CHAR	0
-	#
-|3,1,36,0,1,0,1651190515,"#"
+	ib/jvm/jre1.8.0_65
+|3,1,36,0,1,0,1651795983,"ib/jvm/jre1.8.0_65"
 
 # Marcas en el archivo:
-'0  11  0  ~/.config/i3/config
-|4,48,11,0,1651190554,"~/.config/i3/config"
-'1  196  1  ~/.config/i3/config
-|4,49,196,1,1651190175,"~/.config/i3/config"
-'2  196  1  ~/.config/i3/config
-|4,50,196,1,1651190175,"~/.config/i3/config"
-'3  20  45  ~/.xinitrc
-|4,51,20,45,1651089287,"~/.xinitrc"
-'4  20  45  ~/.xinitrc
-|4,52,20,45,1651089287,"~/.xinitrc"
-'5  20  45  ~/.xinitrc
-|4,53,20,45,1651089287,"~/.xinitrc"
-'6  68  84  ~/.config/i3/bar2.sh
-|4,54,68,84,1651089222,"~/.config/i3/bar2.sh"
-'7  68  84  ~/.config/i3/bar2.sh
-|4,55,68,84,1651089222,"~/.config/i3/bar2.sh"
-'8  68  84  ~/.config/i3/bar2.sh
-|4,56,68,84,1651089222,"~/.config/i3/bar2.sh"
-'9  12  0  ~/zeus
-|4,57,12,0,1651078375,"~/zeus"
+'0  14  23  ~/dev/amorcito/api/.env
+|4,48,14,23,1651796810,"~/dev/amorcito/api/.env"
+'1  6  1  ~/nginx/conf/sites/segurity.am
+|4,49,6,1,1651796496,"~/nginx/conf/sites/segurity.am"
+'2  15  16  /mnt/fvckingmore/dev/segurity-uneg/.env
+|4,50,15,16,1651796305,"/mnt/fvckingmore/dev/segurity-uneg/.env"
+'3  97  35  ~/.bashrc
+|4,51,97,35,1651796027,"~/.bashrc"
+'4  1  0  /etc/environment
+|4,52,1,0,1651795967,"/etc/environment"
+'5  1  0  ~/nuevo
+|4,53,1,0,1651794619,"~/nuevo"
+'6  20  2  ~/examenLivewire
+|4,54,20,2,1651719041,"~/examenLivewire"
+'7  2  9  /usr/local/bin/chrome
+|4,55,2,9,1651707496,"/usr/local/bin/chrome"
+'8  2  9  /usr/local/bin/chrome
+|4,56,2,9,1651707496,"/usr/local/bin/chrome"
+'9  2  21  /usr/local/bin/chrome
+|4,57,2,21,1651707336,"/usr/local/bin/chrome"
 
 # Lista de saltos (el más reciente va primero):
--'  11  0  ~/.config/i3/config
-|4,39,11,0,1651190554,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1651190399,"~/.config/i3/config"
--'  196  1  ~/.config/i3/config
-|4,39,196,1,1651190175,"~/.config/i3/config"
--'  196  1  ~/.config/i3/config
-|4,39,196,1,1651190175,"~/.config/i3/config"
--'  104  0  ~/.config/i3/config
-|4,39,104,0,1651190171,"~/.config/i3/config"
--'  104  0  ~/.config/i3/config
-|4,39,104,0,1651190171,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1651190167,"~/.config/i3/config"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1651089287,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1651089287,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1651089287,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1651089287,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1651089287,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1651089287,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1651089287,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1651089280,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1651089280,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1651089280,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1651089280,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1651089280,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1651089280,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1651089280,"~/.xinitrc"
--'  68  84  ~/.config/i3/bar2.sh
-|4,39,68,84,1651089222,"~/.config/i3/bar2.sh"
--'  68  84  ~/.config/i3/bar2.sh
-|4,39,68,84,1651089222,"~/.config/i3/bar2.sh"
--'  68  84  ~/.config/i3/bar2.sh
-|4,39,68,84,1651089222,"~/.config/i3/bar2.sh"
--'  68  84  ~/.config/i3/bar2.sh
-|4,39,68,84,1651089222,"~/.config/i3/bar2.sh"
--'  68  84  ~/.config/i3/bar2.sh
-|4,39,68,84,1651089222,"~/.config/i3/bar2.sh"
--'  68  84  ~/.config/i3/bar2.sh
-|4,39,68,84,1651089222,"~/.config/i3/bar2.sh"
--'  68  84  ~/.config/i3/bar2.sh
-|4,39,68,84,1651089222,"~/.config/i3/bar2.sh"
--'  68  84  ~/.config/i3/bar2.sh
-|4,39,68,84,1651089222,"~/.config/i3/bar2.sh"
--'  68  84  ~/.config/i3/bar2.sh
-|4,39,68,84,1651089222,"~/.config/i3/bar2.sh"
--'  68  84  ~/.config/i3/bar2.sh
-|4,39,68,84,1651089222,"~/.config/i3/bar2.sh"
--'  68  84  ~/.config/i3/bar2.sh
-|4,39,68,84,1651089222,"~/.config/i3/bar2.sh"
--'  68  84  ~/.config/i3/bar2.sh
-|4,39,68,84,1651089222,"~/.config/i3/bar2.sh"
--'  68  84  ~/.config/i3/bar2.sh
-|4,39,68,84,1651089222,"~/.config/i3/bar2.sh"
--'  68  84  ~/.config/i3/bar2.sh
-|4,39,68,84,1651089222,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1651089205,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1651089205,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1651089205,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1651089205,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1651089205,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1651089205,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1651089205,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1651089205,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1651089205,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1651089205,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1651089205,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1651089205,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1651089205,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1651089205,"~/.config/i3/bar2.sh"
--'  12  0  ~/zeus
-|4,39,12,0,1651078375,"~/zeus"
--'  12  0  ~/zeus
-|4,39,12,0,1651078375,"~/zeus"
--'  12  0  ~/zeus
-|4,39,12,0,1651078375,"~/zeus"
--'  12  0  ~/zeus
-|4,39,12,0,1651078375,"~/zeus"
--'  15  0  ~/zeus
-|4,39,15,0,1651078356,"~/zeus"
--'  15  0  ~/zeus
-|4,39,15,0,1651078356,"~/zeus"
--'  15  0  ~/zeus
-|4,39,15,0,1651078356,"~/zeus"
--'  15  0  ~/zeus
-|4,39,15,0,1651078356,"~/zeus"
--'  14  3  ~/zeus
-|4,39,14,3,1651078332,"~/zeus"
--'  14  3  ~/zeus
-|4,39,14,3,1651078332,"~/zeus"
--'  14  3  ~/zeus
-|4,39,14,3,1651078332,"~/zeus"
--'  14  3  ~/zeus
-|4,39,14,3,1651078332,"~/zeus"
--'  18  0  ~/zeus
-|4,39,18,0,1651078244,"~/zeus"
--'  18  0  ~/zeus
-|4,39,18,0,1651078244,"~/zeus"
--'  18  0  ~/zeus
-|4,39,18,0,1651078244,"~/zeus"
--'  18  0  ~/zeus
-|4,39,18,0,1651078244,"~/zeus"
--'  1  0  ~/zeus
-|4,39,1,0,1651078228,"~/zeus"
--'  1  0  ~/zeus
-|4,39,1,0,1651078228,"~/zeus"
--'  1  0  ~/zeus
-|4,39,1,0,1651078228,"~/zeus"
--'  1  0  ~/zeus
-|4,39,1,0,1651078228,"~/zeus"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1651089287,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1651089280,"~/.xinitrc"
--'  68  84  ~/.config/i3/bar2.sh
-|4,39,68,84,1651089222,"~/.config/i3/bar2.sh"
--'  68  84  ~/.config/i3/bar2.sh
-|4,39,68,84,1651089222,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1651089205,"~/.config/i3/bar2.sh"
--'  1  0  ~/.config/i3/bar2.sh
-|4,39,1,0,1651089205,"~/.config/i3/bar2.sh"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1651070000,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1651070000,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1651070000,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1651070000,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1651070000,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1651070000,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1651070000,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1651070000,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1651070000,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1651070000,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1651069997,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1651069997,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1651069997,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1651069997,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1651069997,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1651069997,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1651069997,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1651069997,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1651011554,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1651011554,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1651011554,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1651011554,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1651011554,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1651011554,"~/.config/i3/config"
--'  194  1  ~/.config/i3/config
-|4,39,194,1,1651011554,"~/.config/i3/config"
+-'  14  23  ~/dev/amorcito/api/.env
+|4,39,14,23,1651796810,"~/dev/amorcito/api/.env"
+-'  1  0  ~/dev/amorcito/api/.env
+|4,39,1,0,1651796804,"~/dev/amorcito/api/.env"
+-'  6  1  ~/nginx/conf/sites/segurity.am
+|4,39,6,1,1651796496,"~/nginx/conf/sites/segurity.am"
+-'  6  1  ~/nginx/conf/sites/segurity.am
+|4,39,6,1,1651796496,"~/nginx/conf/sites/segurity.am"
+-'  1  0  ~/nginx/conf/sites/segurity.am
+|4,39,1,0,1651796490,"~/nginx/conf/sites/segurity.am"
+-'  1  0  ~/nginx/conf/sites/segurity.am
+|4,39,1,0,1651796490,"~/nginx/conf/sites/segurity.am"
+-'  15  16  /mnt/fvckingmore/dev/segurity-uneg/.env
+|4,39,15,16,1651796305,"/mnt/fvckingmore/dev/segurity-uneg/.env"
+-'  15  16  /mnt/fvckingmore/dev/segurity-uneg/.env
+|4,39,15,16,1651796305,"/mnt/fvckingmore/dev/segurity-uneg/.env"
+-'  15  16  /mnt/fvckingmore/dev/segurity-uneg/.env
+|4,39,15,16,1651796305,"/mnt/fvckingmore/dev/segurity-uneg/.env"
+-'  15  16  /mnt/fvckingmore/dev/segurity-uneg/.env
+|4,39,15,16,1651796305,"/mnt/fvckingmore/dev/segurity-uneg/.env"
+-'  1  0  /mnt/fvckingmore/dev/segurity-uneg/.env
+|4,39,1,0,1651796287,"/mnt/fvckingmore/dev/segurity-uneg/.env"
+-'  1  0  /mnt/fvckingmore/dev/segurity-uneg/.env
+|4,39,1,0,1651796287,"/mnt/fvckingmore/dev/segurity-uneg/.env"
+-'  1  0  /mnt/fvckingmore/dev/segurity-uneg/.env
+|4,39,1,0,1651796287,"/mnt/fvckingmore/dev/segurity-uneg/.env"
+-'  1  0  /mnt/fvckingmore/dev/segurity-uneg/.env
+|4,39,1,0,1651796287,"/mnt/fvckingmore/dev/segurity-uneg/.env"
+-'  97  35  ~/.bashrc
+|4,39,97,35,1651796027,"~/.bashrc"
+-'  97  35  ~/.bashrc
+|4,39,97,35,1651796027,"~/.bashrc"
+-'  97  35  ~/.bashrc
+|4,39,97,35,1651796027,"~/.bashrc"
+-'  97  35  ~/.bashrc
+|4,39,97,35,1651796027,"~/.bashrc"
+-'  97  35  ~/.bashrc
+|4,39,97,35,1651796027,"~/.bashrc"
+-'  97  35  ~/.bashrc
+|4,39,97,35,1651796027,"~/.bashrc"
+-'  97  35  ~/.bashrc
+|4,39,97,35,1651796027,"~/.bashrc"
+-'  97  35  ~/.bashrc
+|4,39,97,35,1651796027,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1651795972,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1651795972,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1651795972,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1651795972,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1651795972,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1651795972,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1651795972,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1651795972,"~/.bashrc"
+-'  1  0  /etc/environment
+|4,39,1,0,1651795967,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1651795967,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1651795967,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1651795967,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1651795967,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1651795967,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1651795967,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1651795967,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1651795967,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1651795967,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1651795967,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1651795967,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1651795967,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1651795967,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1651795967,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1651795967,"/etc/environment"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  1  0  ~/nuevo
+|4,39,1,0,1651794619,"~/nuevo"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
+-'  20  2  ~/examenLivewire
+|4,39,20,2,1651719041,"~/examenLivewire"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
 
+> ~/dev/amorcito/api/.env
+	*	1651796810	0
+	"	14	23
+	^	14	24
+	.	14	24
+	+	14	24
+
+> ~/nginx/conf/sites/segurity.am
+	*	1651796495	0
+	"	6	1
+	^	11	42
+	.	11	41
+	+	12	0
+	+	10	8
+	+	12	35
+	+	2	0
+	+	10	0
+	+	12	2
+	+	11	41
+
+> /mnt/fvckingmore/dev/segurity-uneg/.env
+	*	1651796305	0
+	"	15	16
+	^	15	17
+	.	15	16
+	+	10	18
+	+	12	11
+	+	13	17
+	+	14	16
+	+	15	16
+
+> ~/.bashrc
+	*	1651796026	0
+	"	97	35
+	^	97	36
+	.	97	35
+	+	90	0
+	+	33	0
+	+	37	0
+	+	38	0
+	+	49	0
+	+	71	0
+	+	83	0
+	+	7	0
+	+	67	0
+	+	79	0
+	+	75	0
+	+	74	0
+	+	28	0
+	+	17	0
+	+	51	0
+	+	90	0
+	+	89	0
+	+	94	46
+	+	95	0
+	+	97	31
+	+	96	37
+	+	97	35
+
+> /etc/environment
+	*	1651795964	0
+	"	1	0
+
+> ~/nuevo
+	*	1651794613	0
+	"	1	0
+	.	12	0
+	+	11	0
+	+	12	0
+
+> ~/examenLivewire
+	*	1651719038	0
+	"	20	2
+	^	2	0
+	.	3	0
+	+	54	8
+	+	4	2
+	+	10	2
+	+	54	2
+	+	52	10
+	+	11	7
+	+	20	7
+	+	14	3
+	+	50	0
+	+	17	0
+	+	16	9
+	+	14	12
+	+	15	0
+	+	14	15
+	+	15	0
+	+	14	16
+	+	16	13
+	+	18	16
+	+	21	0
+	+	18	18
+	+	13	0
+	+	12	11
+	+	20	15
+	+	24	9
+	+	30	60
+	+	45	9
+	+	29	16
+	+	36	0
+	+	47	0
+	+	25	13
+	+	35	0
+	+	46	0
+	+	25	16
+	+	35	16
+	+	46	16
+	+	5	141
+	+	44	0
+	+	30	45
+	+	35	0
+	+	30	56
+	+	37	25
+	+	41	16
+	+	42	16
+	+	43	13
+	+	37	25
+	+	38	30
+	+	27	14
+	+	29	16
+	+	29	0
+	+	6	86
+	+	7	1
+	+	27	15
+	+	28	12
+	+	31	19
+	+	30	25
+	+	31	20
+	+	28	15
+	+	31	20
+	+	27	15
+	+	29	0
+	+	32	18
+	+	39	19
+	+	1	7
+	+	3	0
+	o	30	45
+
+> /usr/local/bin/chrome
+	*	1651707496	0
+	"	2	9
+	^	2	10
+	.	2	9
+	+	1	62
+	+	2	0
+	+	1	0
+	+	2	9
+
+> ~/.config/gtk-3.0/settings.ini
+	*	1651705382	0
+	"	1	0
+	^	5	39
+	.	5	38
+	+	6	22
+	+	5	38
+
+> /mnt/am/home/am/VPN/us-free-02.protonvpn.com.udp.ovpn
+	*	1651700100	0
+	"	43	0
+
 > ~/.config/i3/config
-	*	1651190516	0
-	"	11	0
-	^	11	1
-	.	11	0
-	+	165	253
+	*	1651665134	0
+	"	194	1
+	^	194	2
+	.	194	1
 	+	163	0
 	+	165	0
 	+	163	25
@@ -711,6 +896,208 @@ $VGA1
 	+	105	0
 	+	196	1
 	+	11	0
+	+	194	1
+
+> ~/nginx/conf/sites/amorcito.am
+	*	1651618175	0
+	"	13	0
+	.	13	0
+	+	7	16
+	+	9	35
+	+	10	1
+	+	10	0
+	+	14	0
+	+	12	8
+	+	14	8
+	+	12	8
+	+	14	0
+	+	12	8
+	+	14	0
+	+	13	0
+
+> ~/nginx/conf/sites/laravel.base
+	*	1651618168	0
+	"	10	0
+	^	10	1
+	.	10	0
+	+	2	0
+	+	6	16
+	+	10	36
+	+	10	0
+
+> ~/php/etc/php-fpm.d/www.conf
+	*	1651618040	0
+	"	37	0
+	^	37	0
+	.	37	0
+	+	23	8
+	+	24	7
+	+	36	0
+	+	37	24
+	+	49	0
+	+	50	0
+	+	51	0
+	+	49	0
+	+	37	0
+	+	36	0
+	+	37	0
+
+> ~/nginx/conf/sites/vue.app.am
+	*	1651541473	0
+	"	9	35
+	^	9	36
+	.	9	35
+	+	9	35
+
+> ~/php/etc/php.ini
+	*	1651539347	0
+	"	934	0
+	^	512	27
+	.	934	0
+	+	503	18
+	+	512	26
+	+	918	0
+	+	922	0
+	+	923	0
+	+	924	0
+	+	928	0
+	+	939	0
+	+	940	0
+	+	941	0
+	+	949	0
+	+	948	0
+	+	951	0
+	+	953	0
+	+	934	0
+
+> /usr/local/src/php-8.1.5/config
+	*	1651539270	0
+	"	26	0
+	^	2	9
+	.	26	0
+	+	1	729
+	+	1	0
+	+	1	9
+	+	1	0
+	+	1	729
+	+	1	0
+	+	2	9
+	+	25	0
+	+	23	0
+	+	14	0
+	+	1	0
+	+	17	0
+	+	28	0
+	+	26	0
+
+> ~/php/etc/php-fpm.conf
+	*	1651538579	0
+	"	62	24
+	^	24	25
+	.	24	24
+	+	24	0
+	+	17	0
+	+	42	17
+	+	100	0
+	+	99	0
+	+	17	18
+	+	24	24
+
+> ~/php/etc/php-fpm.
+	*	1651538245	0
+	"	1	0
+
+> /usr/local/src/php-8.1.5/php.ini-production
+	*	1651535999	0
+	"	1419	0
+
+> /usr/local/src/php-8.1.5/confiog
+	*	1651532042	0
+	"	1	0
+
+> /usr/local/src/php-8.1.5/confg
+	*	1651532040	0
+	"	1	0
+
+> ~/nginx/conf/sites/segurity.uneg
+	*	1651527028	0
+	"	3	23
+	^	3	24
+	.	3	23
+	+	14	0
+	+	9	0
+	+	5	0
+	+	2	14
+	+	5	49
+	+	6	63
+	+	9	0
+	+	10	55
+	+	5	51
+	+	2	13
+	+	3	26
+	+	6	0
+	+	8	0
+	+	4	0
+	+	6	0
+	+	5	51
+	+	7	16
+	+	3	23
+
+> /etc/hosts
+	*	1651527012	0
+	"	8	20
+	^	8	21
+	.	8	20
+	+	5	19
+	+	5	56
+	+	5	0
+	+	5	24
+	+	5	21
+	+	5	20
+	+	5	0
+	+	8	0
+	+	7	0
+	+	12	0
+	+	8	20
+
+> ~/.bash_profile
+	*	1651526049	0
+	"	9	0
+	^	9	1
+	.	10	0
+	+	7	63
+	+	7	61
+	+	8	0
+	+	7	61
+	+	9	6
+	+	10	17
+	+	11	33
+	+	12	31
+	+	9	0
+	+	10	0
+
+> ~/zeus
+	*	1651374499	0
+	"	11	12
+	^	5	13
+	.	5	12
+	+	18	0
+	+	11	0
+	+	10	0
+	+	11	48
+	+	13	12
+	+	14	0
+	+	13	13
+	+	14	23
+	+	15	0
+	+	16	2
+	+	11	39
+	+	4	14
+	+	5	12
+
+> ~/development/crud-livewire-alpine/resources/views/livewire/form.blade.php
+	*	1651355731	0
+	"	1	0
 
 > ~/.xinitrc
 	*	1651089287	0
@@ -762,23 +1149,6 @@ $VGA1
 	+	67	1
 	+	68	87
 
-> ~/zeus
-	*	1651078369	0
-	"	12	0
-	^	12	0
-	.	11	39
-	+	18	0
-	+	11	0
-	+	10	0
-	+	11	48
-	+	13	12
-	+	14	0
-	+	13	13
-	+	14	23
-	+	15	0
-	+	16	2
-	+	11	39
-
 > ~/pgsql/data/postgresql.conf
 	*	1650987449	0
 	"	219	0
@@ -793,79 +1163,6 @@ $VGA1
 	^	86	49
 	.	86	48
 	+	86	48
-
-> ~/nuevo
-	*	1650987025	0
-	"	12	0
-	.	12	0
-	+	11	0
-	+	12	0
-
-> ~/.bash_profile
-	*	1650835038	0
-	"	12	28
-	^	12	29
-	.	12	28
-	+	7	63
-	+	7	61
-	+	8	0
-	+	7	61
-	+	9	6
-	+	10	17
-	+	11	33
-	+	12	28
-
-> ~/.bashrc
-	*	1650835008	0
-	"	88	0
-	.	89	0
-	+	89	0
-	+	33	0
-	+	37	0
-	+	38	0
-	+	49	0
-	+	71	0
-	+	83	0
-	+	7	0
-	+	67	0
-	+	79	0
-	+	75	0
-	+	74	0
-	+	28	0
-	+	17	0
-	+	51	0
-	+	89	0
-
-> ~/nginx/conf/sites/segurity.uneg
-	*	1650833878	0
-	"	7	16
-	^	7	17
-	.	7	16
-	+	14	0
-	+	9	0
-	+	5	0
-	+	2	14
-	+	5	49
-	+	6	63
-	+	9	0
-	+	10	55
-	+	5	51
-	+	2	13
-	+	3	26
-	+	6	0
-	+	8	0
-	+	4	0
-	+	6	0
-	+	5	51
-	+	7	16
-
-> ~/.config/gtk-3.0/settings.ini
-	*	1650804634	0
-	"	5	38
-	^	5	39
-	.	5	38
-	+	6	22
-	+	5	38
 
 > ~/.icons/default/index.theme
 	*	1650804611	0
@@ -962,15 +1259,6 @@ $VGA1
 	+	19	0
 	+	29	0
 	+	28	66
-
-> ~/nginx/conf/sites/amorcito.am
-	*	1650331699	0
-	"	10	0
-	.	10	0
-	+	7	16
-	+	9	35
-	+	10	1
-	+	10	0
 
 > ~/.config/openbox/rc.xml
 	*	1650127401	0
@@ -1088,18 +1376,6 @@ $VGA1
 	*	1650124329	0
 	"	541	0
 
-> ~/nginx/conf/sites/laravel.base
-	*	1649986188	0
-	"	6	15
-	^	6	16
-	.	6	16
-	+	2	0
-	+	6	16
-
-> ~/nginx/conf/sites/vue.app.am
-	*	1649986146	0
-	"	1	0
-
 > ~/.icons/googledot/cursor.theme
 	*	1649981293	0
 	"	1	0
@@ -1131,22 +1407,6 @@ $VGA1
 	"	4	0
 	.	4	0
 	+	4	0
-
-> /etc/hosts
-	*	1649812847	0
-	"	11	0
-	^	7	0
-	.	12	0
-	+	5	19
-	+	5	56
-	+	5	0
-	+	5	24
-	+	5	21
-	+	5	20
-	+	5	0
-	+	8	0
-	+	7	0
-	+	12	0
 
 > ~/nginx/conf/sites/amorcito
 	*	1649812662	0
@@ -1469,13 +1729,6 @@ $VGA1
 	*	1649133258	0
 	"	1	0
 
-> /usr/local/bin/chrome
-	*	1649132796	0
-	"	1	62
-	^	1	63
-	.	1	62
-	+	1	62
-
 > /etc/locale.conf
 	*	1649131509	0
 	"	2	17
@@ -1741,148 +1994,4 @@ $VGA1
 
 > ~/.applications/nginx/conf/fastcgi_params
 	*	1648415451	0
-	"	1	0
-
-> ~/.applications/nginx/conf/fastcgi.conf
-	*	1648415439	0
-	"	1	0
-
-> ~/.applications/nginx-1.21.6/config
-	*	1648415222	0
-	"	2	38
-	^	2	39
-	.	2	38
-	+	2	38
-
-> ~/.config/compton.conf
-	*	1648411597	0
-	"	28	0
-	^	28	1
-	.	28	0
-	+	26	0
-	+	27	21
-	+	28	0
-	+	27	21
-	+	28	19
-	+	4	0
-	+	7	18
-	+	14	0
-	+	28	0
-	+	34	0
-	+	56	0
-	+	52	18
-	+	53	19
-	+	52	17
-	+	53	18
-	+	52	17
-	+	53	18
-	+	52	18
-	+	53	19
-	+	52	18
-	+	53	19
-	+	28	0
-	+	27	0
-	+	6	16
-	+	7	18
-	+	8	18
-	+	6	16
-	+	7	18
-	+	8	18
-	+	7	18
-	+	8	0
-	+	6	16
-	+	9	0
-	+	7	18
-	+	8	18
-	+	6	16
-	+	14	0
-	+	34	0
-	+	27	22
-	+	34	0
-	+	51	0
-	+	52	18
-	+	53	19
-	+	52	18
-	+	53	19
-	+	13	0
-	+	4	0
-	+	19	9
-	+	18	24
-	+	19	23
-	+	34	0
-	+	27	22
-	+	26	0
-	+	52	18
-	+	53	19
-	+	52	18
-	+	53	19
-	+	52	17
-	+	53	18
-	+	35	0
-	+	38	82
-	+	47	36
-	+	40	2
-	+	38	0
-	+	36	0
-	+	38	0
-	+	37	22
-	+	59	13
-	+	61	27
-	+	52	18
-	+	53	19
-	+	52	18
-	+	50	13
-	+	28	20
-	+	38	0
-	+	39	18
-	+	38	0
-	+	39	17
-	+	28	0
-
-> /usr/share/doc/compton/examples/compton.sample.conf
-	*	1648384522	0
-	"	34	0
-
-> ~/.fehbg
-	*	1648333285	0
-	"	1	0
-
-> /tmp/bash-fc.IkxjWQ
-	*	1648251182	0
-	"	1	0
-
-> ~/prueba/prueba/package.json
-	*	1648090239	0
-	"	1	0
-
-> ~/prueba/prueba/package
-	*	1648090236	0
-	"	1	0
-
-> ~/prueba/prueba/webpack.mix.js
-	*	1648090225	0
-	"	1	0
-
-> ~/vue/crud-laravel-vue/.git/COMMIT_EDITMSG
-	*	1648088039	0
-	"	1	0
-
-> ~/vue/prueba/src/main.js
-	*	1648085686	0
-	"	1	0
-
-> ~/vue/prueba/main.js
-	*	1648085671	0
-	"	1	0
-
-> ~/vue/prueba/src/App.vue
-	*	1648084941	0
-	"	43	2
-
-> ~/vue/prueba/src/components/WelcomeItem.vue
-	*	1648084905	0
-	"	1	0
-
-> ~/vue/prueba/src/components/TheWelcome.vue
-	*	1648084877	0
 	"	1	0

@@ -86,3 +86,12 @@ export HISTSIZE=
 export VISUAL=vim
 export EDITOR=$VISUAL
 export PATH=$PATH:/sbin:/bin:/usr/bin:/usr/local/bin:/usr/sbin
+
+export PGHOST=localhost
+export PGPORT=5432
+export PGDATA="/home/am/pgsql/data"
+export PATH="/home/am/pgsql/bin:${PATH}"
+export PATH="/home/am/php/bin:/home/am/php/sbin:${PATH}"
+
+export JAVA_HOME=/usr/local/src/jdk13
+export PATH=${JAVA_HOME}/bin:${PATH}
