@@ -2,11 +2,12 @@
 	"auto_complete_delay": 1,
 	"bold_folder_labels": true,
 	"caret_style": "blink",
-	"color_scheme": "Packages/gruvbox/gruvbox (Dark) (Hard).sublime-color-scheme",
+	"color_scheme": "Packages/Gruvbox Dark/gruvbox.tmTheme",
 	"font_face": "monospace",
 	"font_options":
 	[
-		"bold"
+		"bold",
+		"italic"
 	],
 	"font_size": 10,
 	"highlight_modified_tabs": true,
@@ -65,7 +66,6 @@
 	"tab_size": 4,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": false,
-	"ui_scale": 0.9,
-	"word_wrap": true,
-	"wrap_width": 100
+	"ui_scale": 0.8,
+	"word_wrap": "auto"
 }

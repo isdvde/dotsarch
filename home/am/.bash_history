@@ -3772,3 +3772,565 @@ sudo pacman -Rs lemonbar-xft-git
 pacman -Q | less
 sudo pacman -Rs lxpanel 
 sudo pacman -Rs openbox 
+cat .config/gtk-3.0/settings.ini 
+pkill php-fpm 
+php-fpm 
+pkill php-fpm 
+sudo pacman -Syu
+cd dev/amorcito/api/
+giti statu
+git status 
+git log 
+git branch 
+git checkout -- .
+git status 
+git branch 
+git checkout master 
+git status 
+git reset --hard
+giti status
+git status
+git restore .
+giti status
+git status
+git add -a
+git add -A
+git status 
+git commit -m "d"
+git branch 
+git checkout master 
+git branch 
+git branch A
+git branch -A
+git branch -a
+git branch -D A
+git log --oneline 
+git branch -a
+cd
+ls
+ls l-
+ls -l
+vim nuevo 
+sudo nmcli 
+sudo nmcli device show wlan0 
+cd dev
+ls
+rm -rfg segurity-uneg
+rm -rf segurity-uneg
+git clone https://github.com/fvckingmore/segurity-uneg.git
+cd /usr/local/src/
+aria2c -x10 'http://planetone.online/downloads/java/jdk-13.0.1_linux-x64_bin.tar.gz'
+ls
+tar -xvf jdk-13.0.1_linux-x64_bin.tar.gz 
+mv jdk-13.0.1 jdk13
+cd /etc/
+vim environment 
+cd
+vim .bashrc
+source .bashrc
+java -v
+java -version
+cd /usr/local/src/
+mv jdk-13.0.1_linux-x64_bin.tar.gz ~/fvckingmore/UNIX/zips/
+ls
+ls -l
+cd
+cd dev/segurity-uneg/
+composer update
+php artisan key:generate
+cp .env.example .env
+vim .env
+php artisan key:generate
+nginx 
+php-fpm 
+pg_ctl start
+psql postgres res
+psql postgres 
+cd
+vim nginx/sites/segurity.am 
+rm -rf dev
+mkdir dev
+mv fvckingmore/dev/segurity-uneg dev/
+mv fvckingmore/dev/amorcito dev/
+cd dev/amorcito/api/
+ls
+ls -l
+git status 
+git branch 
+git checkout livewire.single.component.page2 
+ls -l
+git status 
+git add .
+git commit -m "gge"
+git status 
+git branch 
+ls -l
+php artisan migrate:fresh
+vim .env
+cd
+bash dotfile
+cd DOTFILES/
+ls
+git status 
+git add .
+git commit -m "some changes"
+git push remote master 
+cd
+ls
+ls -l
+htop
+cd /
+sudo -i
+sudo systemctl start smb.service nmb.service 
+sudo nmtui
+[A
+sudo nmtui
+sudo nmcli connection up jupiter 
+sudo nmtui
+sudo nmcli connection up jupiter 
+sudo nmtui
+ip a
+sudo nmtui
+sudo ip a add 30.0.0.8/24 dev eth0 
+ip r
+ip r add default via 30.0.0.1
+ip a
+ip r add default via 30.0.0.1
+suod ip a flush dev eth0 
+sudo ip a flush dev eth0 
+sudo nmtui
+ping 8.8.8.8
+ip r
+ping google.com
+ssh -CX churun-meru -t ssh -CX cerberus
+sudo poweroff 
+ssh -CX churun-meru -t ssh -CX cerberus
+sudo poweroff 
+ssh -CX churun-meru -t ssh -CX cerberus
+pg_ctl --help
+timedatectl --help
+sudo poweroff 
+sudo pacman -S k3b 
+sudo pacman -Syu
+sudo pacman -S audacious
+sudo pacman -S moc 
+mocp 
+localectl 
+locale
+locale -a
+mocp 
+ccd ..
+ssh -CX churun-meru -t ssh -CX cerberus
+lsblk 
+sudo -i
+sudo chown am win10.iso 
+ssh -CX churun-meru -t ssh -CX cerberus
+sudo pacman -Rs moc 
+cd /usr/local/src/
+aria2c -x10 'https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v6.8/source/pgadmin4-6.8.tar.gz'
+tar -xvf pgadmin4-6.8.tar.gz 
+cd pgadmin4-6.8/
+ls
+cat requirements.txt 
+ls -l
+make
+cd pkg/
+ls
+cd linux/
+ls
+cd ..
+ls
+make all
+sudo pacman -S pgadmin4 
+cd ..
+rm -rf pgadmin4-6.8*
+aria2c -x10 'https://ftp.postgresql.org/pub/pgadmin/pgadmin3/v1.22.2/src/pgadmin3-1.22.2.tar.gz'
+tar -xvf pgadmin3-1.22.2.tar.gz 
+cd pgadmin3-1.22.2/
+ls -l
+less INSTALL 
+./configure --help | less
+./configure --help | egrep \-
+./configure --help | egrep \- | sed -r "s/  +/ /g"
+./configure --help | egrep \- | sed -r "s/(  +|\t)/ /g"
+./configure --help | egrep \- | sed -r "s/(  +|\t)/ /g" | cut -d' ' -f2
+./configure --help | egrep \- | sed -r "s/(  +|\t)/ /g" | cut -d' ' -f2 | tee config
+vim config
+ls
+./configure --help | egrep \- | sed -r "s/(  +|\t)/ /g" | cut -d' ' -f2 | tee conf
+vim conf
+bash config
+bash conf
+cd ..
+rm -rf pgadmin3-1.22.2*
+aria2c -x10 'http://ftp.us.debian.org/debian/pool/main/p/pgadmin3/pgadmin3_1.22.2-5_amd64.deb'
+aria2c -x10 'http://ftp.br.debian.org/debian/pool/main/p/pgadmin3/pgadmin3_1.22.2-5_amd64.de
+aria2c -x10 'http://ftp.br.debian.org/debian/pool/main/p/pgadmin3/pgadmin3_1.22.2-5_amd64.deb'
+mkdir pga
+mv pgadmin3_1.22.2-5_amd64.deb pga/
+cd pga/
+file-roller -f pgadmin3_1.22.2-5_amd64.deb 
+ls
+rm -rf control.tar.xz debian-binary 
+tar -xvf data.tar.xz 
+cd usr/bin/
+ls
+./pgadmin3 
+cd ..
+cd. .
+cd ..
+rm -rf pga
+cd
+yay -S pgadmin3 
+yay -S pgadmin4 
+sudo pacman -Syu
+yay -S pgadmin4 
+yay -S pgadmin3 
+cd /usr/local/src/
+ls
+aria2c -x10 'http://ftp.cl.debian.org/debian/pool/main/p/pgadmin3/pgadmin3_1.22.2-5_amd64.deb'
+mkdir pga
+mv pgadmin3_1.22.2-5_amd64.deb pga/
+cd pga/
+ls
+file-roller -f pgadmin3_1.22.2-5_amd64.deb 
+ls
+rm -rf control.tar.xz debian-binary 
+ls
+tar -xvf data.tar.xz 
+cd usr/bin/
+ls
+./pgadmin3 
+ls
+ln -rsf pgadmin3 /usr/local/bin/
+cd
+pg_ctl start
+cd /usr/local/bin/
+rm -rf pgadmin3 
+cd ..
+cd src/
+rm -rf pga/
+cd
+aria2c -x10 'https://ftp.postgresql.org/pub/pgadmin/pgadmin3/v1.22.2/src/pgadmin3-1.22.2.tar.gz'
+sudo poweroff 
+cd /usr/local/src/postgresql-11.10/
+ls
+make -j3
+history | egrep configure
+bash configure --prefix /home/am/pgsql
+bash configure --prefix=/home/am/pgsql
+make -j3
+make install
+less INSTALL 
+cd
+ls
+cd pgsql
+ls
+mkdir data
+ls
+cd
+source .bashrc
+cat .bashrc
+initdb -D /home/am/pgsql/data
+pg_ctl start
+pg_ctl stop
+cd pgsql12/
+ls
+cd data/
+ls
+cp -vrf pg_hba.conf postgresql.conf ~/pgsql/data/
+pg_ctl start
+cd
+cd pgsql
+ls
+netcap -pnl
+netstat -pnl
+netstat -pnl | less
+psql 
+psql postgres
+createuser --interactive
+psql 
+psql postgres
+pg_ctl stop
+cd /usr/local/src/pga/
+ls
+cd usr/bin/
+ls
+./pgadmin3 
+ls
+ln -rsg pgadmin3 /usr/local/bin/
+ln -rsf pgadmin3 /usr/local/bin/
+cd
+cd dev/
+lñs
+cd
+cd nginx/sites
+ls
+mv segurity.am ssw.am
+vim ssw.am 
+nginx 
+php-fpm 
+sudo vim /etc/hosts
+cd dev/ssw/
+cd dev/ssw/
+php artisan migrate:fresh
+ls
+cd public/
+ls
+ls -l
+php artisan migrate:fresh
+cd ..
+php artisan migrate:fresh
+vim database/migrations/2022_05_06_173114_create_grupos_table.php 
+vim database/migrations/2022_05_09_220037_create_grupo_usuario_table.php 
+php artisan migrate:fresh
+cd
+nginx -s stop
+pkill php-fpm 
+rm -rf pgsql12/
+cd /usr/local/src/
+rm -rf postgresql-12.0 postgresql-11.10.tar.bz2 
+ls
+cd
+ls -l
+rm -rf pgadmin*
+ls -l
+nginx
+php-fpm 
+pg_ctl start
+vim .config/i3/config 
+cd dev/ssw/
+ls
+git status 
+git add .
+git commit 
+git push origin ssw 
+sudo poweroff
+sudo shutdown 
+ssh -CX churun-meru -t ssh -CX cerberus
+sudo shutdown -c
+ssh -CX churun-meru -t ssh -CX cerberus
+aria2c -x10 'https://downloadarchive.documentfoundation.org/libreoffice/old/6.4.1.1/deb/x86_64/LibreOffice_6.4.1.1_Linux_x86-64_deb.tar.gz'
+rm -rf LibreOffice_6.4.1.1_Linux_x86-64_deb.tar.gz*
+sudo pacman -S libreoffice-fresh-es 
+htop
+sudo pacman -Syu
+ssh -CX churun-meru -t ssh -CX cerberus
+cd dev/ssw/
+php artisan migrate:fresh
+htop
+cd dev/ssw/
+ls
+git pull origin ssw 
+git log --oneline 
+sudo systemctl start smb.service nmb.service 
+nginx 
+php-fpm 
+pg_ctl start
+htop
+pg_ctl stop
+ñs -l
+ls -lh
+nginx -s stop
+pg_ctl stop
+pkill php-fpm 
+aria2c -x10 'https://downloadarchive.documentfoundation.org/libreoffice/old/6.3.4.1/deb/x86_64/LibreOffice_6.3.4.1_Linux_x86-64_deb.tar.gz'
+mkdir libreoffice
+mv LibreOffice_6.3.4.1_Linux_x86-64_deb.tar.gz libreoffice/
+cd libreoffice/
+ls
+tar -xvf LibreOffice_6.3.4.1_Linux_x86-64_deb.tar.gz 
+cd LibreOffice_6.3.4.1_Linux_x86-64_deb/DEBS/
+ls
+ar x libobasis6.3-base_6.3.4.1-1_amd64.deb 
+ls
+rm -rf control.tar.gz data.tar.xz debian-binary 
+for i in $(ls *deb); do echo $i; done
+for i in $(ls *deb); do ar x $i; tar -xvf data*gz; done
+ls
+for i in $(ls *deb); do ar x $i; tar -xvf data*xz; done
+ls
+cd usr/local/bin/
+lñs
+ls
+ls -l
+cd ..
+cd opt/libreoffice6.3/
+ls
+cd program/
+ls
+./soffice
+ls
+cd
+ls
+rm -rf libreoffice/
+sudo pacman -Rs libreoffice-fresh-es 
+aria2c -x10 'https://downloadarchive.documentfoundation.org/libreoffice/old/latest/deb/x86_64/LibreOffice_7.3.3.2_Linux_x86-64_deb.tar.gz'
+mkdir libreoffice
+mv LibreOffice_7.3.3.2_Linux_x86-64_deb.tar.gz libreoffice/
+cd libreoffice/
+ls
+tar -xvf LibreOffice_7.3.3.2_Linux_x86-64_deb.tar.gz 
+cd LibreOffice_7.3.3.2_Linux_x86-64_deb/DEBS/
+ls
+for i in $(ls *deb); do ar x $i; tar -xvf data*xz; done
+cd ..
+aria2c -x10 'https://downloadarchive.documentfoundation.org/libreoffice/old/latest/deb/x86_64/LibreOffice_7.3.3.2_Linux_x86-64_deb_langpack_es.tar.gz'
+tar -xvf LibreOffice_7.3.3.2_Linux_x86-64_deb_langpack_es.tar.gz 
+aria2c -x10 'https://downloadarchive.documentfoundation.org/libreoffice/old/latest/deb/x86_64/LibreOffice_7.3.3.2_Linux_x86-64_deb_helppack_es.tar.gz'
+tar -xvf LibreOffice_7.3.3.2_Linux_x86-64_deb_helppack_es.tar.gz 
+cd LibreOffice_7.3.3.2_Linux_x86-64_deb_langpack_es/
+ls
+cd DEBS/
+ls
+for i in $(ls *deb); do ar x $i; tar -xvf data*xz; done
+cp -vfr opt ../../LibreOffice_7.3.3.2_Linux_x86-64_deb/DEBS/
+cd ..
+cd LibreOffice_7.3.3.2_Linux_x86-64_deb_helppack_es/DEBS/
+ls
+for i in $(ls *deb); do ar x $i; tar -xvf data*xz; done
+cp -vfr opt ../../LibreOffice_7.3.3.2_Linux_x86-64_deb/DEBS/
+cd ..
+cd LibreOffice_7.3.3.2_Linux_x86-64_deb/DEBS/opt/libreoffice7.3/program/
+./soffice
+GTK_THEME=adwaita ./soffice
+./soffice
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+las
+ls
+mv opt usr /usr/local/src/libreoffice7/
+cd ..
+ls
+cd ..
+ls
+rm -rf LibreOffice_7.3.3.2_Linux_x86-64_deb
+rm -rf LibreOffice_7.3.3.2_Linux_x86-64_deb_helppack_es
+rm -rf LibreOffice_7.3.3.2_Linux_x86-64_deb_langpack_es
+ls
+cd ..
+ls
+mv libreoffice fvckingmore/UNIX/debs/
+cd /usr/local/src/
+mkdir libreoffice7
+cd libreoffice7/opt/libreoffice7.3/program/
+ln -rsf soffice /usr/local/bin/libreoffice
+cd
+htop
+sudo poweroff 
+cd /usr/share/mime/
+ls
+ls application/
+ls
+cd packages/
+ls
+cd ..
+ls
+vim types 
+cd packages/
+ls
+mv libreoffice7.3.xml libreoffice7.xml 
+sudo mv libreoffice7.3.xml libreoffice7.xml 
+mv libreoffice7.xml libreoffice.xml 
+sudo mv libreoffice7.xml libreoffice.xml 
+ls
+rm -rf libreoffice.xml 
+sudo rm -rf libreoffice.xml 
+ls
+cd /usr/local/src/libreoffice7/
+ls
+cd usr/
+ls
+ls lib/
+ls local/}
+ls local/
+ls local/bin/
+ls share/m
+ls share/mime/
+cd share/metainfo/
+ls
+vim libreoffice7.3-base.appdata.xml 
+cd ../mime/
+ls
+cd packages/
+ls
+vim libreoffice7.3.xml 
+ls
+ln -rsf libreoffice7.3.xml /usr/share/mime/packages/
+sudo ln -rsf libreoffice7.3.xml /usr/share/mime/packages/
+ls
+cd ..
+sl
+cd ..
+ls
+cd applications/
+ls
+cat libreoffice7.3-base.desktop 
+ls -l
+cd ..
+ls
+cd ..
+cd opt/
+ls
+cd libreoffice7.3/
+ls
+cd dha
+cd share/
+ls
+cd xdg/
+ls
+less base.desktop 
+less writer.desktop 
+cp writer.desktop ~/.local/share/applications/
+ls
+cd
+cd /usr/share/applications/
+ls
+cat decd
+cd ..
+ls
+find . -iname "*mime*"
+cd mime/
+ls
+vim mime.cache 
+ls
+cd .local/share/applications/wine/Programs/
+ls
+cd ..
+ls
+cd ..
+ls
+ls -l| less
+vim mimeapps.list 
+ls
+ls -l| less
+vim mimeinfo.cache 
+ls
+cd ..
+cd
+cd /usr/share/applications/
+ls
+vim writer.desktop 
+vim writer.desktop 
+cd dev/ssw/
+
+echo "drop schema if exists ssw; drop schema if exists segurity; create schema segurity; create schema ssw" | psql unegdb
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+git status 
+git add .
+git commit 
+php artisan make:model GrupoUsuario
+git status 
+git add .
+git commit 
+git push origin ssw 
+cd
