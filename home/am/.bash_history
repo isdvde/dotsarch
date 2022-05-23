@@ -4334,3 +4334,344 @@ git add .
 git commit 
 git push origin ssw 
 cd
+nginx
+php-fpm 
+pg_ctl start
+bash dotfile
+cd DOTFILES/
+git add .
+git commit -m "Some sublime changes"
+git push remote master 
+du -csh $(ls -A) | sort -h
+sudo poweroff 
+ssh -CX churun-meru -t ssh -CX cerberus
+sudo poweroff 
+cd /var/
+du -csh $(ls -A) | sort -h
+sudo -i
+cd /usr/
+du -csh | sort -h
+du -csh * | sort -h
+cd local/
+du -csh * | sort -h
+cd src/
+du -csh * | sort -h
+cd libreoffice7/
+ls
+cd ..
+sl
+ls
+du -csh * | sort -h
+cd
+du -csh $(ls -A) | sort -h
+mv win10.iso fvckingmore/UNIX/isos/
+sudo -i
+cat .xinitrc 
+ls -lk
+ls -l
+ll
+ssh -CX churun-meru -t ssh -CX cerberus
+cd dev/ssw/
+ls
+git pull origin ssw 
+git log --oneline 
+nginx 
+php-fpm 
+pg_ctl start
+nginx -s stop
+pkill php-fpm 
+pg_ctl stop
+cd /usr/local/src/
+ls
+aria2c -x10 'https://download.sublimetext.com/sublime_text_build_4126_x64.tar.xz'
+tar -xvf sublime_text_build_4126_x64.tar.xz 
+mv sublime_text sublime.text.4
+cd sublime.text.4/
+ls
+ln -rsf sublime_text /usr/local/bin/subl
+cd
+cd .config/
+rm -rf sublime-text
+ls -l
+cd
+ls
+ls -l
+lz
+ls
+mv ComicMono* .local/share/fonts/DejaVu
+mv ComicMono* .local/share/fonts/
+fc-cache -fv
+cd .local/share/fonts/
+s
+ls
+ivm .xinitrc 
+vim .xinitrc 
+sudo systemctl start smb.service nmb.service 
+xx
+sudo poweroff 
+ssh -CX churun-meru -t ssh -CX cerberus
+}
+ssh -CX churun-meru -t ssh -CX cerberus
+cd dev/ssw/
+git pull 
+git status 
+git checkout -- .
+git status 
+git pull 
+nginx ; php-fpm ; pg_ctl start
+git status 
+git add .
+git commit 
+loadkeys la-latin1
+sudo loadkeys la-latin1
+sudo pacman -Syu 
+sudo pacman -S openvpn 
+ls
+cp -vfr am.home/VPN ./
+cd VPN/
+ls
+ls -l
+openvpn --config us-free-02.protonvpn.com.udp.ovpn 
+sudo pacman -S resolconf
+sudo pacman -S resolvconf
+openvpn --config us-free-02.protonvpn.com.udp.ovpn 
+yay -S openvpn-update-resolv-conf-git 
+openvpn --config us-free-02.protonvpn.com.udp.ovpn 
+cd
+mkdir txt
+cd txt/
+vim auth
+cd
+cd VPN/
+vim us-free-02.protonvpn.com.udp.ovpn 
+openvpn --config us-free-02.protonvpn.com.udp.ovpn 
+sudo modprobe tun
+cd
+xx
+sudo  -i
+sudo -i
+tar -xvf SleekTheme-Dark.tar.xz 
+ip a
+sudo -i
+sudo pacman -S os-prober 
+sudo -i
+tar -xvf Gtavc_grub_no_icons.tar 
+rm -rf Install
+ls
+vim install.sh 
+rm -rf install.sh 
+sudo -i 
+sudo -i
+unzip crt-amber-theme.zip 
+mv crt-amber-theme.zip Gtavc_grub_no_icons.tar SleekTheme-Dark.tar.xz fvckingmore/UNIX/zips/
+ls
+vi uninstall.sh 
+vim uninstall.sh 
+rm -rf uninstall.sh 
+cd dev/ssw/
+ls
+git status 
+git add .
+git commit 
+git push 
+sudo pacman -Syu 
+ssh -CX churun-meru -t ssh -CX cerberus
+nginx
+php-fpm 
+ssh -CX churun-meru -t ssh -CX cerberus
+unzip fwdintroduccionascsalmacen.zip 
+subl definiciones-tablas-scs-almacen-ifx.sql 
+ssh -CX churun-meru -t ssh -CX cerberus
+pg_ctl start
+sudo poweroff 
+ssh -CX churun-meru -t ssh -CX cerberus
+cd /usr/local/bin/
+rm -rf sublime.text.3 
+cd dev/ssw/
+nginx; php-fpm; pg_ctl start
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+ls
+sudo pacman -Syu 
+cal -3
+ping 8.8.8.8
+ping google.com
+nginx -s stop
+pkill php-fpm 
+pg_ctl stop
+htop
+sudo pacman -S alacritty 
+alacritty 
+sudo reboot
+loadkeys la-latin1
+sudo loadkeys la-latin1
+xx
+alacritty 
+sudo pacman -Rs alacritty 
+sudo poweroff 
+nginx; php-fpm; pg_ctl start
+sudo pacman -Syu
+cd dev/ssw/
+ls
+git status 
+git add .
+git log --oneline 
+git commit 
+git push 
+ping google.com
+ping 8.8.8.8
+cd
+sudo -i
+ssh -CX churun-meru -t ssh -CX cerberus
+lsblk 
+ssh -CX churun-meru -t ssh -CX cerberus
+ssh churun-meru 
+ping 8.8.8.8
+ping google.com
+cat /etc/resolv.conf 
+ping google.com
+sudo systemctl restart NetworkManager
+ping google.com
+ping 8.8.8.8
+ping google.com
+cd am.home
+ls
+cd
+ping google.com
+ssh -CX churun-meru -t ssh -CX cerberus
+ping churun-meru 
+ssh -CX churun-meru -t ssh -CX cerberus
+ping churun-meru 
+ping google.com
+ping 8.8.8.8
+ping churun-meru 
+ssh -CX churun-meru -t ssh -CX cerberus
+ping churun-meru 
+ssh -CX churun-meru -t ssh -CX cerberus
+ssh churun-meru 
+cat /etc/resolv
+cat /etc/resolv.conf 
+ssh churun-meru 
+ping churun-meru 
+ssh router 
+ssh churun-meru 
+ssh router 
+sudo systemctl restart NetworkManager
+ping google.com
+ping 8.8.8.8
+sudo systemctl restart NetworkManager
+ping 8.8.8.8
+ping google.com
+poweroff 
+shutdown 
+sudo shutdown 
+sudo poweroff 
+cd dev/ssw/
+git diff
+git status 
+git add .
+git commit 
+git push 
+ssh -CX churun-meru -t ssh -CX cerberus
+ssh -CX router -t ssh -CX root@10.25.3.5
+cd dev/ssw/
+git status 
+git add .
+git commit --amend 
+git push --force
+git log --oneline --decorate --graph 
+php artisan migrate:fresh
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+git status 
+git add .
+git commit 
+git push 
+vim .config/i3/config 
+gh 
+nginx; php-fpm; pg_ctl start
+cd .intelephense/
+ls
+ls -lh
+du .csh *
+du -csh *
+cd
+pkill nginx php-fpm 
+pkill nginx 
+pkill php-fpm 
+pg_ctl stop
+nginx; php-fpm; pg_ctl start
+pkill soffice.bin 
+top
+htop
+ssh churun-meru 
+ssh -CX churun-meru -t ssh -CX cerberus
+htop
+systemctl poweroff 
+systemctl shutdoow
+systemctl shutdown
+sudo shutdown 
+sudo poweroff 
+ssh -CX churun-meru -t ssh -CX cerberus
+poweroff
+sudo shutdown 
+sudo poweroff
+mocp
+ping google.com
+ping 8.8.8.8
+ping 10.10.10.1
+sudo pacman -S chromium
+lsmod | egrep loop
+yay -S whatsapp-for-linux 
+lks
+s
+ls
+cd dev/ssw/
+git status 
+cd
+ls -l
+ll
+git clone --depth=1 https://github.com/postgres/pgadmin3.git
+cd pgadmin3/
+ñs
+ls
+cat INSTALL 
+less INSTALL 
+pg_ctl start
+cd /usr/local/bin/
+ls
+vim pgadmin3 
+vim pgadmin
+chmod +x pgadmin
+vim pgadmin
+GTK_THEME=adwaita pgadmin3 
+GTK_THEME=Adwaita pgadmin3 
+GTK_THEME=Raleigh pgadmin3 
+env
+env | less
+dc fvckingmore
+ls
+cd fvckingmore
+ls
+cd uni
+lñs
+ls
+cd rar/
+ls
+sudo systemctl start smb.service nmb.service 
+cat /etc/samba/smb.conf 
+sudo poweroff 
+ssh -CX churun-meru -t ssh -CX cerberus
+suo poweroff

@@ -17,6 +17,7 @@ floating_modifier $mod
 # Start a terminal
 #bindsym --release $mod+Return exec --no-startup-id xfce4-terminal.wrapper
 bindsym --release $mod+Return exec --no-startup-id xfce4-terminal
+bindsym --release $mod+h exec --no-startup-id chrome
 
 # kill focused window
 bindsym $mod+Shift+q kill

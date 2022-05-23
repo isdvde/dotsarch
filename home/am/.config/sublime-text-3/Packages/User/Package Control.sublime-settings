@@ -23,7 +23,6 @@
 		"LSP-intelephense",
 		"LSP-vue",
 		"MarkdownComplements",
-		"MarkdownEditing",
 		"MarkdownPreview",
 		"Package Control",
 		"PHP Snippets",
@@ -31,6 +30,6 @@
 		"Theme - Afterglow",
 		"Theme - Brogrammer",
 		"Vuejs Complete Package",
-		"Vuejs Snippets"
-	]
+		"Vuejs Snippets",
+	],
 }

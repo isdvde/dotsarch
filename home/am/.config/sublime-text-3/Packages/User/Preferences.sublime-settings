@@ -3,16 +3,14 @@
 	"bold_folder_labels": true,
 	"caret_style": "blink",
 	"color_scheme": "Packages/Gruvbox Dark/gruvbox.tmTheme",
-	"font_face": "monospace",
-	"font_options":
-	[
+	"font_face": "Comic Mono - Bold",
+	"font_options": [
 		"bold",
 		"italic"
 	],
 	"font_size": 10,
 	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
+	"ignored_packages": [
 		"AppleScript",
 		"ASP",
 		"C#",
@@ -31,7 +29,6 @@
 		"Lua",
 		"Markdown",
 		"MarkdownComplements",
-		"MarkdownEditing",
 		"MarkdownPreview",
 		"Matlab",
 		"Objective-C",
@@ -46,15 +43,13 @@
 		"Tailwind CSS Autocomplete",
 		"TCL",
 		"Vintage",
-		"YAML"
+		"YAML",
 	],
-	"index_files": false,
 	"line_numbers": true,
 	"margin": 0,
 	"match_brackets_angle": true,
 	"mini_diff": false,
-	"rulers":
-	[
+	"rulers": [
 		80,
 		100
 	],
@@ -67,5 +62,5 @@
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"ui_scale": 0.8,
-	"word_wrap": "auto"
+	"word_wrap": "auto",
 }

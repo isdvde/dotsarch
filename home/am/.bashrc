@@ -74,7 +74,7 @@ bind "set show-all-if-ambiguous on"
 #PS1="\n\033[1;31m[ \033[0;32m\u\033[0;96m@\033[0;32m\h:\033[0;33m\w\033[1;31m ]\n\033[00m$ \[$(tput sgr0)\]"
 #PS1="\n\[\033[1;31m\][ \[\033[0;32m\]\u\[\033[0;96m\]@\[\033[0;32m\]\h:\[\033[0;33m\]\w\[\033[1;31m\] ]\n\[\033[00m\]$ \[$(tput sgr0)\]"
 #PS1="\n$bold$red[ $reset$green\u$reset$cyan@$reset$green\h:$reset$yellow\w$reset$bold$red ]\n$reset$ \[$(tput sgr0)\]"
-PS1="\n$bold$red[$green\u$blue@$green\h:$yellow\W$bold$red]$default$ $reset\[$(tput sgr0)\]"
+PS1="\n$bold$red[$green\u$blue@$green\h:$yellow\w$bold$red]$default$ $reset\[$(tput sgr0)\]"
 
 alias l='ls -XCF --group-directories-first'
 alias ll='ls -lXh --group-directories-first'
