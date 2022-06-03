@@ -15,9 +15,9 @@ workspace_auto_back_and_forth yes
 floating_modifier $mod
 
 # Start a terminal
-#bindsym --release $mod+Return exec --no-startup-id xfce4-terminal.wrapper
-bindsym --release $mod+Return exec --no-startup-id xfce4-terminal
-bindsym --release $mod+h exec --no-startup-id chrome
+#bindsym --release $mod+Return exec --no-startup-id xfce4-terminal
+bindsym --release $mod+Return exec --no-startup-id termite
+bindsym --release $mod+shift+h exec --no-startup-id chrome
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -129,7 +129,8 @@ bindsym $mod+Tab scratchpad show; scratchpad show
 #######################################################
 
 #File Manager keymap
-bindsym $mod+e exec --no-startup-id thunar
+#bindsym $mod+e exec --no-startup-id thunar
+bindsym $mod+e exec --no-startup-id pcmanfm
 
 #Volume keys Keybind
 #bindsym XF86AudioRaiseVolume exec --no-startup-id "amixer -q sset Master 2%+ unmute"

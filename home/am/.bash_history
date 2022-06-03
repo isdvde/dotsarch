@@ -4675,3 +4675,490 @@ cat /etc/samba/smb.conf
 sudo poweroff 
 ssh -CX churun-meru -t ssh -CX cerberus
 suo poweroff
+ssh -CX churun-meru -t ssh -CX cerberus
+https://github.com/dti-cdms/almacen
+git clone https://github.com/dti-cdms/almacen
+git clone https://github.com/dti-cdms/almacen.git
+git clone https://github.com/dit-cdms/almacen.git
+git@github.com:dit-cdms/almacen
+git clone git@github.com:dit-cdms/almacen
+vim .ssh/config 
+git clone https://github.com/dit-cdms/almacen.git
+git clone https://github.com/dit-cdms/almacen
+cd .ssh/
+ls
+cp github github.bak
+vim github
+cd ..
+git clone https://github.com/dit-cdms/almacen
+git clone git@github.com:dit-cdms/almacen
+git clone https://mariangr15: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github.com/dit-cdms/almacen
+git clone https://mariangr15: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@github.com/dit-cdms/almacen
+ls
+du -csh almacen
+rar a -m5 almacen.rar almacen
+ls -lh
+rar -m5 -v 5M almacen.part almacen.rar 
+rar -m5 -v5000k almacen.part almacen.rar 
+rar -m5 -v 5000k almacen.part almacen.rar 
+rar -m5 -v 5 almacen.part almacen.rar 
+history | egrep rar
+rar -m5 -v 5M almacen.part almacen.rar 
+history | egrep rar
+rar a -m5 -v 5M almacen.part almacen.rar 
+ls
+rar a -m5 -v 5M almacen.part.rar almacen.rar 
+rm -rf almacen.rar 
+rar a -m5 -v 5M almacen.part.rar almacen 
+rar a -m5 -v5M almacen.rar almacen 
+ls -lh
+rm -rf almacen.part*
+rm -rf 5M.rar 
+rar a -m5 -v5M almacen.rar almacen 
+ls -lh
+youtube-dl --help | less
+youtube-dl --help 
+youtube-dl -F https://www.youtube.com/watch?v=HHqlEnoGk54&list=PLJjOveEiVE4Cbbx1dVjydfmPPpjl0pg86
+youtube-dl -F https://www.youtube.com/list=PLJjOveEiVE4Cbbx1dVjydfmPPpjl0pg86
+youtube-dl -F https://www.youtube.com/watch?list=PLJjOveEiVE4Cbbx1dVjydfmPPpjl0pg86
+ssh -CX churun-meru -t ssh -CX cerberus
+cd almacen/
+git log --oneline 
+git branch -a
+cd
+sudo pacman -Syu
+setxkbmap devorak-es
+setxkbmap devorak
+setxkbmap dvorak-es
+setxkbmap dvorak
+sudo pacman -S python-pip
+sudo pacman -Rs python-pip
+pyhton -m pip install 
+sudo pacman -S python-pip
+pip install virtualenv
+ls
+mkdir simulacion
+cd simulacion/
+python -m virtualenv venv
+ls -l
+rm -rf venv/
+python -m virtualenv simulacion
+source simulacion/bin/activate
+python -v
+python -V
+deactivate 
+cd
+vim .bashrc
+. .bashrc
+cd simulacion/simulacion/
+cd ..
+cd
+bash dotfile
+cd DOTFILES/
+ls
+git add .
+git status 
+git commit -m "some sublime and bashrc changes"
+git push 
+git push remote master 
+cd
+yay -S ttf-windows 
+man history
+cd simulacion/
+mkdir ml
+cd ml/
+youtube-dl --external-downloader arian2c --external-downloader-args "-x10" https://www.youtube.com/watch?v=HHqlEnoGk54&list=PLJjOveEiVE4Cbbx1dVjydfmPPpjl0pg86 -w -c -f18
+youtube-dl --external-downloader arian2c --external-downloader-args "-x10" https://www.youtube.com/watch?list=PLJjOveEiVE4Cbbx1dVjydfmPPpjl0pg86 -w -c -f18
+youtube-dl --external-downloader aria2c --external-downloader-args "-x10" https://www.youtube.com/watch?list=PLJjOveEiVE4Cbbx1dVjydfmPPpjl0pg86 -w -c -f18
+youtube-dl https://www.youtube.com/watch?list=PLJjOveEiVE4Cbbx1dVjydfmPPpjl0pg86 -w -c -f18
+youtube-dl --external-downloader aria2c --external-downloader-args "-x10" https://www.youtube.com/watch?list=PLJjOveEiVE4Cbbx1dVjydfmPPpjl0pg86 -w -c -f18
+cd ..
+rm -rf ml/
+ls
+setxkbmap "es(dvorak)"
+cd dev/ssw/
+git status 
+git log --oneline 
+nginx; php-fpm; pg_ctl start
+git status 
+git add .
+git commit --amend 
+git push --force
+nitrogen --restore
+cd almacen/
+git branch 
+git branch -a
+git checkout almacen 
+git log --oneline 
+cd
+ssh -CX churun-meru -t ssh -CX cerberus
+llllasks
+a
+xx
+cd dev/ssw/
+ls
+git remote 
+git remote show origin
+git remote remove origin 
+git remote add origin 'git@github.com:dit-cdms/ssw'
+git pull origin ssw
+git branch -a
+git log --oneline 
+cd
+cd fvckingmore
+ls
+cd UNIX/
+ls
+ls exes/
+ls zips/
+ls
+cd ..
+ls
+sudo poweroff
+sudo pacman -S caja
+sudo pacman -S caja 
+sudo pacman -Rs caja 
+bleachbit 
+cd fvckingmore/uni/rar/
+rar a -m5 -v5M lab2.rar laboratorio.fisica.2.rar 
+ls -l
+lh -lh
+ls -lh
+vim .config/i3/config 
+ls
+ll
+ssh -CX churun-meru -t ssh -CX cerberus
+pkill xfce4-clipman 
+ssh -CX churun-meru -t ssh -CX cerberus
+ssh -CX router -t ssh -cx root@10.25.3.5
+ssh -CX router -t ssh -CX root@10.25.3.5
+ssh -CX churun-meru -t ssh -CX cerberus
+cd dev/ssw/
+git remote show 
+git remote show origin
+git remote get-url 
+git remote get-url --all
+git remote get-url origin
+php artisan make:migration
+php artisan make:migration --help
+php artisan make:migration --create=rutas
+php artisan make:migration --create=rutas create_rutas_table
+php artisan make:migration --create=tipos_ruta create_tipos_ruta_table
+nginx; php-fpm; pg_ctl start
+ssh -CX router -t ssh -CX root@10.25.3.5
+ssh -CX churun-meru -t ssh -CX cerberus
+ping router 
+ping churun-meru 
+ping 8.8.8.8
+sudo systemctl restart NetworkManager
+ping 8.8.8.8
+sudo systemctl restart NetworkManager
+ping 8.8.8.8
+ip r
+sudo nmtui
+ip r del default via 30.0.0.1
+sudo ip r del default via 30.0.0.1
+ping 8.8.8.8
+ssh -CX churun-meru -t ssh -CX cerberus
+ssh -CX router -t ssh -CX root@10.25.3.5
+ping 8.8.8.8
+sudo nmtui
+cd dev/ssw/
+php artisan make:migration --create=tipos_ruta create_tipos_ruta_table
+php artisan make:model --help
+php artisan make:model --help Ssw/Ruta 
+php artisan make:model Ssw/Ruta 
+nginx; php-fpm; pg_ctl start
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+cd dev/ssw/
+git status 
+git add .
+git commit -m "Comenzando middleware de Rutas"
+git push origin ssw 
+sudo pacman -Syu
+cd simulacion/simulacion/
+ls
+source bin/activate
+python -m pip install scipy numpy matplotlib pandas sklearn
+python -m pip install --upgrade pip
+python
+python dev/versions.py 
+python dev/practica.1/1.versions.py 
+python dev/practica.1/2.prueba.py 
+python -m pip install tk
+python -m pip install pyqt5
+python dev/practica.1/2.prueba.py 
+deactivate 
+ssh -CX churun-meru -t ssh -CX cerberus
+ping 8.8.8.8
+ssh -CX churun-meru -t ssh -CX cerberus
+cd dev/ssw/
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+nginx; php-fpm; pg_ctl start
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+echo "drop schema if exists ssw cascade; drop schema if exists segurity cascade; create schema segurity; create schema ssw" | psql unegdb
+php artisan migrate:fresh
+psql postgres
+pkill nginx 
+pkill php-fpm 
+pg_ctl stop
+yay -S whatsapp-for-linux
+ssh -CX churun-meru -t ssh -CX cerberus
+sudo pacman -Syu
+-Syu
+ssh -CX churun-meru -t ssh -CX cerberus
+ssh -CX router -t ssh -CX root@10.25.3.5
+sudo pacman -S keepass
+sudo pacman -S keepassxc 
+sudo pacman -Syu
+ssh -CX churun-meru -t ssh -CX cerberus
+cd dev/ssw/
+git status 
+git checkout -- .
+git log --oneline 
+git pull origin ssw 
+vim /etc/hosts
+cd
+pkill nginx 
+pkill php-fpm 
+pg_ctl stop
+ssh -CX churun-meru -t ssh -CX cerberus
+google-chrome --help
+google-chrome -h
+google-chrome --incognito
+nginx; php-fpm; pg_ctl start
+aria2c -x10 'https://windows.php.net/downloads/releases/php-8.0.19-Win32-vs16-x86.zip'
+sudo systemctl restart NetworkManager
+aria2c -x10 'https://windows.php.net/downloads/releases/php-8.0.19-Win32-vs16-x86.zip'
+lsblk 
+df -h
+lsblk 
+df -h
+sudo mount /dev/sdb1 /mnt/usb/
+sudo cp php-8.0.19-Win32-vs16-x86.zip /mnt/usb/
+umount /mnt/usb 
+sudo umount /mnt/usb 
+gio mount --help
+gio mount -d /dev/sdb1
+sudo gio mount -d /dev/sdb1
+df -h
+sudo gio mount --help
+gio mount --list
+gio mount --list --detail
+gio mount -d /dev/sdb1
+sudo gio mount -d /dev/sdb1
+udisksctl --help
+udisksctl mount 
+udisksctl mount -b /dev/sdb1 
+sudo udisksctl mount -b /dev/sdb1 
+sudo umount /run/media/root/a 
+sudo pacman -S polkit
+sudo systemctl start polkit.service 
+sudo systemctl status polkit.service 
+sudo systemctl enable polkit
+sudo systemctl enable polkit.service
+ping google.com
+ping 8.8.8.8
+ping google.com
+ping 190.204.70.106
+ping 190.204.70.107
+ping 190.204.70.108
+ping google.com
+cat /etc/resolv.conf 
+cd am.home
+ls
+./speedtest 
+ssh -CX churun-meru -t ssh -CX cerberus
+sudo pacman -Syuy
+htop
+sudo systemctl enable polkit.service 
+sudo systemctl start polkit.service 
+sudo -i
+udisksctl --help
+lsblk 
+udisksctl mount 
+udisksctl mount -b /dev/sdb1 
+du -csh $(ls -A) | sort -h
+ls Exportar_files/
+lsblk
+blkid 
+sudo pacman -S lxsession
+lxpolkit 
+vim .config/i3/config 
+vim .config/i3/autostart 
+sudo pacman -Syu
+htop
+gparted 
+sudo gparted 
+ssh -CX churun-meru -t ssh -CX cerberus
+xx
+sudo pacman -S gnome-disk-utility 
+ssh -CX churun-meru -t ssh -CX cerberus
+sudo vim /etc/default/grub 
+sudo -i
+sudo pacman -S pcmanfm
+vim .config/i3/config 
+ssh -CX churun-meru -t ssh -CX cerberus
+xev 
+ping google.com
+ip r
+sudo ip r del default via 30.0.0.1
+ping google.com
+ssh -CX churun-meru -t ssh -CX cerberus
+ssh -CX router -t ssh -CX root@10.25.3.5
+ssh -CX churun-meru -t ssh -CX cerberus
+ping churun-meru 
+ping unegegs.ddns.net
+ping google.com
+ping uneg.ddns.net
+ping churun-meru 
+ssh -CX churun-meru -t ssh -CX cerberus
+ping google.com
+ssh -CX router -t ssh -CX root@10.25.3.5
+ping churun-meru 
+ssh router 
+ssh 150.188.128.3
+ping churun-meru 
+ssh churun-meru 
+ping churun-meru 
+cd /usr/local/src/
+ls
+pacman -Qqm
+pacman -Qqe
+yay -S i3-wm
+cd
+ssh -CX churun-meru -t ssh -CX cerberus
+sudo pacman -S rxvt-unicode
+sudo pacman -Sy
+sudo pacman -S rxvt-unicode
+urxvt
+sudo pacman -Syu
+vim .config/termite/config 
+ping google.com
+urxvt
+urxvt --help
+urxvt --help | less
+sudo pacman -Rs rxvt-unicode
+yay -S termite
+termite --help
+termite 
+mkdir -p .config/termite
+vim .config/termite/config
+termite 
+yay -Rs termite 
+yay -S termite
+termite 
+termite --help
+termite -c .config/termite/config 
+termite 
+vim .config/termite/config 
+termite 
+vim .config/termite/config 
+termite 
+yay -Rs termite 
+sudo pacman-
+yay -S alacritty
+alacritty 
+yay -Rs alacritty 
+cd almacen/
+composer install
+ls -lh
+du -csh vendor
+rar a -m5 -v5M vendor.rar vendor
+du -csh *
+rm -rf vendor.part0*
+rar a -m5 -v3M vendor.rar vendor
+ls -lh
+sudo systemctl start smb.service nmb.service 
+cd
+ls
+ls -lh
+cd nginx/
+ls
+cd ..
+de almacen/
+cd almacen/
+du -csh * | sort -h
+cd
+ls
+cd am.home
+ls
+ls -l
+d almacen/
+cd almacen/
+php artisan serve
+cd
+cd almacen/
+git pull origin almacen 
+cd app/
+ls -l
+rm -rf ' '
+ls -l
+cd
+cd almacen/
+git status 
+rm -rf vendor.part0*
+git status 
+git add .
+git commit --amend 
+git push origin almacen 
+git pull 
+git pull origin almacen 
+git log --oneline 
+git push origin almacen --force
+pg_ctl start
+echo "create database almace" | psql postgres
+cp .env.example .env
+vim .env
+php artisan migrate:fresh
+composer require krlove/eloquent-model-generator --dev
+php artisan migrate:fresh
+ssh -CX churun-meru -t ssh -CX cerberus
+sudo pacman -S poppler
+pdfunite pdf-como-crear-usuarios-en-windows-2003.pdf "configuraciondecarpetas win 2003.pdf" manual.pdf
+yay -S termite
+termite 
+cd .config/termite/
+vim config 
+termite 
+vim config 
+termite 
+vim config 
+cp config config.old
+vim config
+termite 
+cd ..
+cd xfce4/
+ls
+cd terminal/
+ls
+vim terminalrc 
+vim .config/i3/config 
+ssh -CX churun-meru -t ssh -CX cerberus
+vim .config/termite/config
+fc-list  | less
+vim .config/i3/config 
+vim .config/termite/config
+fc-list 
+fc-list | less
+vim .config/termite/config
+fc-list | less
+vim .config/termite/config

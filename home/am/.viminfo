@@ -11,9 +11,9 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último Patrón de búsqueda:
-~MSle0~/termin
+~Msle0~/\<font\>
 
-# Último SustituciónPatrón de búsqueda:
+# Último Sustitución Patrón de búsqueda:
 ~MSle0&free18
 
 # Última cadena de sustitución:
@@ -21,9 +21,11 @@ $\t
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
 :wq
-|2,0,1653337721,,"wq"
+|2,0,1654218438,,"wq"
 :q!
-|2,0,1653184426,,"q!"
+|2,0,1654214369,,"q!"
+:w
+|2,0,1654214357,,"w"
 :qq!
 |2,0,1652392425,,"qq!"
 :% g/free18/d
@@ -34,8 +36,6 @@ $\t
 |2,0,1652354653,,"%"
 :Wq
 |2,0,1652233965,,"Wq"
-:w
-|2,0,1651718773,,"w"
 :tabe amorcito.am
 |2,0,1651618155,,"tabe amorcito.am"
 :% s/  \+/\t/g
@@ -204,6 +204,18 @@ $\t
 |2,0,1631476210,,"b"
 
 # Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+? \<font\>
+|2,1,1654214361,,"\\<font\\>"
+?/backgrou
+|2,1,1654214045,47,"backgrou"
+?/backgr
+|2,1,1654214013,47,"backgr"
+?/term
+|2,1,1654213943,47,"term"
+?/thun
+|2,1,1653958617,47,"thun"
+?/chrome
+|2,1,1653434494,47,"chrome"
 ?/termin
 |2,1,1653052071,47,"termin"
 ?/auth
@@ -371,271 +383,618 @@ $\t
 @y
 |2,3,1645144168,,"y"
 
-# Historia de Debug Line (de lo más nuevo a lo más antiguo):
+# Historia de Línea de depuración (de lo más nuevo a lo más antiguo):
 
 # Registros:
-"0	LINE	0
-	bindsym --release $mod+Return exec --no-startup-id xfce4-terminal
-|3,0,0,1,1,0,1653052075,"bindsym --release $mod+Return exec --no-startup-id xfce4-terminal"
+""0	LINE	0
+	.config/custom*out
+|3,1,0,1,1,0,1654218429,".config/custom*out"
 "1	LINE	0
-	
-|3,0,1,1,1,0,1653095641,""
+	font = DejaVuSansMono Nerd Font Mono 9
+|3,0,1,1,1,0,1654214354,"font = DejaVuSansMono Nerd Font Mono 9"
 "2	LINE	0
-	text/spreadsheet=planmaker-free18.desktop;
-|3,0,2,1,1,0,1652354739,"text/spreadsheet=planmaker-free18.desktop;"
+	#bindsym --release $mod+Return exec --no-startup-id xfce4-terminal.wrapper
+|3,0,2,1,1,0,1654213944,"#bindsym --release $mod+Return exec --no-startup-id xfce4-terminal.wrapper"
 "3	LINE	0
-	text/rtf=textmaker-free18.desktop;
-|3,0,3,1,1,0,1652354739,"text/rtf=textmaker-free18.desktop;"
+	[colors]
+	# Base16 Gruvbox dark, hard
+	
+	foreground          = #d5c4a1
+	foreground_bold     = #d5c4a1
+	cursor              = #d5c4a1
+	cursor_foreground   = #1d2021
+	#background          = #1d2021
+	background = rgba(29, 32, 33, 0.85)
+	# 16 color space
+	
+	# Black, Gray, Silver, White
+	color0  = #1d2021
+	color8  = #665c54
+	color7  = #d5c4a1
+	color15 = #fbf1c7
+	
+	# Red
+	color1  = #fb4934
+	color9  = #fb4934
+	
+	# Green
+	color2  = #b8bb26
+	color10 = #b8bb26
+	
+	# Yellow
+	color3  = #fabd2f
+	color11 = #fabd2f
+	
+	# Blue
+	color4  = #83a598
+	color12 = #83a598
+	
+	# Purple
+	color5  = #d3869b
+	color13 = #d3869b
+	
+	# Teal
+	color6  = #8ec07c
+	color14 = #8ec07c
+	
+	# Extra colors
+	color16 = #fe8019
+	color17 = #d65d0e
+	color18 = #3c3836
+	color19 = #504945
+	color20 = #bdae93
+	color21 = #ebdbb2
+|3,0,3,1,48,0,1654213826,"[colors]","# Base16 Gruvbox dark, hard","","foreground          = #d5c4a1","foreground_bold     = #d5c4a1","cursor              = #d5c4a1","cursor_foreground   = #1d2021","#background          = #1d2021","background = rgba(29, 32, 33, 0.85)","# 16 color space","","# Black, Gray, Silver, White","color0  = #1d2021","color8  = #665c54","color7  = #d5c4a1","color15 = #fbf1c7","","# Red","color1  = #fb4934","color9  = #fb4934","",>9
+|<"# Green","color2  = #b8bb26","color10 = #b8bb26","","# Yellow","color3  = #fabd2f","color11 = #fabd2f","","# Blue","color4  = #83a598","color12 = #83a598","","# Purple","color5  = #d3869b","color13 = #d3869b","","# Teal","color6  = #8ec07c","color14 = #8ec07c","","# Extra colors","color16 = #fe8019","color17 = #d65d0e","color18 = #3c3836","color19 = #504945","color20 = #bdae93","color21 = #ebdbb2"
 "4	LINE	0
-	text/csv=planmaker-free18.desktop;
-|3,0,4,1,1,0,1652354739,"text/csv=planmaker-free18.desktop;"
+	background          = #1d2021
+|3,0,4,1,1,0,1654213623,"background          = #1d2021"
 "5	LINE	0
-	application/xls=planmaker-free18.desktop;
-|3,0,5,1,1,0,1652354739,"application/xls=planmaker-free18.desktop;"
+	background = rgba(1d, 20, 21, 0.8)
+|3,0,5,1,1,0,1654133163,"background = rgba(1d, 20, 21, 0.8)"
 "6	LINE	0
-	application/x-xls=planmaker-free18.desktop;
-|3,0,6,1,1,0,1652354739,"application/x-xls=planmaker-free18.desktop;"
+	# Author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+|3,0,6,1,1,0,1654133102,"# Author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)"
 "7	LINE	0
-	application/x-tmvx=textmaker-free18.desktop;
-|3,0,7,1,1,0,1652354739,"application/x-tmvx=textmaker-free18.desktop;"
+	background          = #1d2021
+|3,0,7,1,1,0,1654133034,"background          = #1d2021"
 "8	LINE	0
-	application/x-tmv=textmaker-free18.desktop;
-|3,0,8,1,1,0,1652354739,"application/x-tmv=textmaker-free18.desktop;"
+	[colors]
+	# If both of these are unset, cursor falls back to the foreground color,
+	# and cursor_foreground falls back to the background color.
+	#cursor = #dcdccc
+	#cursor_foreground = #dcdccc
+	
+	#foreground = #dcdccc
+	#foreground_bold = #ffffff
+	#background = #3f3f3f
+	
+	# 20% background transparency (requires a compositor)
+	#background = rgba(63, 63, 63, 0.8)
+	
+	# If unset, will reverse foreground and background
+	highlight = #2f2f2f
+	
+	# Colors from color0 to color254 can be set
+	color0 = #3f3f3f
+	color1 = #705050
+	color2 = #60b48a
+	color3 = #dfaf8f
+	color4 = #506070
+	color5 = #dc8cc3
+	color6 = #8cd0d3
+	color7 = #dcdccc
+	color8 = #709080
+	color9 = #dca3a3
+	color10 = #c3bf9f
+	color11 = #f0dfaf
+	color12 = #94bff3
+	color13 = #ec93d3
+	color14 = #93e0e3
+	color15 = #ffffff
+|3,0,8,1,33,0,1654132960,"[colors]","# If both of these are unset, cursor falls back to the foreground color,","# and cursor_foreground falls back to the background color.","#cursor = #dcdccc","#cursor_foreground = #dcdccc","","#foreground = #dcdccc","#foreground_bold = #ffffff","#background = #3f3f3f","","# 20% background transparency (requires a compositor)","#background = rgba(63, 63, 63, 0.8)","","# If unset, will reverse foreground and background",>21
+|<"highlight = #2f2f2f","","# Colors from color0 to color254 can be set","color0 = #3f3f3f","color1 = #705050","color2 = #60b48a","color3 = #dfaf8f","color4 = #506070","color5 = #dc8cc3","color6 = #8cd0d3","color7 = #dcdccc","color8 = #709080","color9 = #dca3a3","color10 = #c3bf9f","color11 = #f0dfaf","color12 = #94bff3","color13 = #ec93d3","color14 = #93e0e3","color15 = #ffffff"
 "9	LINE	0
-	application/x-tmdx=textmaker-free18.desktop;
-|3,0,9,1,1,0,1652354739,"application/x-tmdx=textmaker-free18.desktop;"
+	
+|3,0,9,1,1,0,1653095641,""
 "u	CHAR	0
 		
 |3,0,30,0,1,0,1649134282,"	"
-""-	CHAR	0
-	 
-|3,1,36,0,1,0,1653184523," "
+"-	CHAR	0
+	f
+|3,0,36,0,1,0,1654214364,"f"
 
 # Marcas en el archivo:
-'0  77  48  ~/.bashrc
-|4,48,77,48,1653337721,"~/.bashrc"
-'1  1  10  /usr/local/bin/pgadmin
-|4,49,1,10,1653184527,"/usr/local/bin/pgadmin"
-'2  1  3  /usr/local/bin/pgadmin
-|4,50,1,3,1653184512,"/usr/local/bin/pgadmin"
-'3  1  17  /usr/local/bin/pgadmin
-|4,51,1,17,1653184446,"/usr/local/bin/pgadmin"
-'4  1  17  /usr/local/bin/pgadmin
-|4,52,1,17,1653184446,"/usr/local/bin/pgadmin"
-'5  1  0  /usr/local/bin/pgadmin3
-|4,53,1,0,1653184426,"/usr/local/bin/pgadmin3"
-'6  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,54,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
-'7  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,55,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
-'8  6  20  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,56,6,20,1653080024,"~/dev/ssw/.git/COMMIT_EDITMSG"
-'9  6  20  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,57,6,20,1653080024,"~/dev/ssw/.git/COMMIT_EDITMSG"
+'0  22  14  ~/dotfile
+|4,48,22,14,1654218439,"~/dotfile"
+'1  9  0  ~/.config/termite/config
+|4,49,9,0,1654214369,"~/.config/termite/config"
+'2  10  23  ~/.config/termite/config
+|4,50,10,23,1654214274,"~/.config/termite/config"
+'3  10  23  ~/.config/termite/config
+|4,51,10,23,1654214274,"~/.config/termite/config"
+'4  26  17  ~/.config/termite/config
+|4,52,26,17,1654214140,"~/.config/termite/config"
+'5  25  17  ~/.config/termite/config
+|4,53,25,17,1654214140,"~/.config/termite/config"
+'6  27  17  ~/.config/termite/config
+|4,54,27,17,1654214140,"~/.config/termite/config"
+'7  26  17  ~/.config/termite/config
+|4,55,26,17,1654214140,"~/.config/termite/config"
+'8  1  0  ~/.config/i3/config
+|4,56,1,0,1654214107,"~/.config/i3/config"
+'9  61  26  ~/.config/termite/config
+|4,57,61,26,1654214054,"~/.config/termite/config"
 
 # Lista de saltos (el más reciente va primero):
--'  77  48  ~/.bashrc
-|4,39,77,48,1653337721,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1653337703,"~/.bashrc"
--'  1  10  /usr/local/bin/pgadmin
-|4,39,1,10,1653184527,"/usr/local/bin/pgadmin"
--'  1  10  /usr/local/bin/pgadmin
-|4,39,1,10,1653184527,"/usr/local/bin/pgadmin"
--'  1  3  /usr/local/bin/pgadmin
-|4,39,1,3,1653184512,"/usr/local/bin/pgadmin"
--'  1  3  /usr/local/bin/pgadmin
-|4,39,1,3,1653184512,"/usr/local/bin/pgadmin"
--'  1  17  /usr/local/bin/pgadmin
-|4,39,1,17,1653184446,"/usr/local/bin/pgadmin"
--'  1  17  /usr/local/bin/pgadmin
-|4,39,1,17,1653184446,"/usr/local/bin/pgadmin"
--'  1  0  /usr/local/bin/pgadmin3
-|4,39,1,0,1653184426,"/usr/local/bin/pgadmin3"
--'  1  0  /usr/local/bin/pgadmin3
-|4,39,1,0,1653184426,"/usr/local/bin/pgadmin3"
--'  1  0  /usr/local/bin/pgadmin3
-|4,39,1,0,1653184426,"/usr/local/bin/pgadmin3"
--'  1  0  /usr/local/bin/pgadmin3
-|4,39,1,0,1653184426,"/usr/local/bin/pgadmin3"
--'  1  0  /usr/local/bin/pgadmin3
-|4,39,1,0,1653184426,"/usr/local/bin/pgadmin3"
--'  1  0  /usr/local/bin/pgadmin3
-|4,39,1,0,1653184426,"/usr/local/bin/pgadmin3"
--'  1  0  /usr/local/bin/pgadmin3
-|4,39,1,0,1653184426,"/usr/local/bin/pgadmin3"
--'  1  0  /usr/local/bin/pgadmin3
-|4,39,1,0,1653184426,"/usr/local/bin/pgadmin3"
--'  1  0  /usr/local/bin/pgadmin3
-|4,39,1,0,1653184426,"/usr/local/bin/pgadmin3"
--'  1  0  /usr/local/bin/pgadmin3
-|4,39,1,0,1653184426,"/usr/local/bin/pgadmin3"
--'  1  0  /usr/local/bin/pgadmin3
-|4,39,1,0,1653184426,"/usr/local/bin/pgadmin3"
--'  1  0  /usr/local/bin/pgadmin3
-|4,39,1,0,1653184426,"/usr/local/bin/pgadmin3"
--'  1  0  /usr/local/bin/pgadmin3
-|4,39,1,0,1653184426,"/usr/local/bin/pgadmin3"
--'  1  0  /usr/local/bin/pgadmin3
-|4,39,1,0,1653184426,"/usr/local/bin/pgadmin3"
--'  1  0  /usr/local/bin/pgadmin3
-|4,39,1,0,1653184426,"/usr/local/bin/pgadmin3"
--'  1  0  /usr/local/bin/pgadmin3
-|4,39,1,0,1653184426,"/usr/local/bin/pgadmin3"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  9  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,9,1653095647,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1653090004,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  6  20  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,6,20,1653080024,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  6  20  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,6,20,1653080024,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  6  20  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,6,20,1653080024,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  6  20  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,6,20,1653080024,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  6  20  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,6,20,1653080024,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  6  20  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,6,20,1653080024,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  6  20  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,6,20,1653080024,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  6  20  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,6,20,1653080024,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  6  20  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,6,20,1653080024,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  6  20  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,6,20,1653080024,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  6  20  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,6,20,1653080024,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  6  20  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,6,20,1653080024,"~/dev/ssw/.git/COMMIT_EDITMSG"
+-'  22  14  ~/dotfile
+|4,39,22,14,1654218439,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1654218425,"~/dotfile"
+-'  9  0  ~/.config/termite/config
+|4,39,9,0,1654214369,"~/.config/termite/config"
+-'  9  0  ~/.config/termite/config
+|4,39,9,0,1654214369,"~/.config/termite/config"
+-'  46  1  ~/.config/termite/config
+|4,39,46,1,1654214366,"~/.config/termite/config"
+-'  46  1  ~/.config/termite/config
+|4,39,46,1,1654214366,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1654214304,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1654214304,"~/.config/termite/config"
+-'  10  23  ~/.config/termite/config
+|4,39,10,23,1654214274,"~/.config/termite/config"
+-'  10  23  ~/.config/termite/config
+|4,39,10,23,1654214274,"~/.config/termite/config"
+-'  10  23  ~/.config/termite/config
+|4,39,10,23,1654214274,"~/.config/termite/config"
+-'  10  23  ~/.config/termite/config
+|4,39,10,23,1654214274,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1654214260,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1654214260,"~/.config/termite/config"
+-'  26  17  ~/.config/termite/config
+|4,39,26,17,1654214140,"~/.config/termite/config"
+-'  25  17  ~/.config/termite/config
+|4,39,25,17,1654214140,"~/.config/termite/config"
+-'  27  17  ~/.config/termite/config
+|4,39,27,17,1654214140,"~/.config/termite/config"
+-'  26  17  ~/.config/termite/config
+|4,39,26,17,1654214140,"~/.config/termite/config"
+-'  26  17  ~/.config/termite/config
+|4,39,26,17,1654214140,"~/.config/termite/config"
+-'  25  17  ~/.config/termite/config
+|4,39,25,17,1654214140,"~/.config/termite/config"
+-'  27  17  ~/.config/termite/config
+|4,39,27,17,1654214140,"~/.config/termite/config"
+-'  26  17  ~/.config/termite/config
+|4,39,26,17,1654214140,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1654214110,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1654214110,"~/.config/termite/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1654214107,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1654214107,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1654214107,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1654214107,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1654214107,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1654214107,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1654214107,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1654214107,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1654214107,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1654214107,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1654214107,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1654214107,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1654214107,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1654214107,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1654214107,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1654214107,"~/.config/i3/config"
+-'  61  26  ~/.config/termite/config
+|4,39,61,26,1654214054,"~/.config/termite/config"
+-'  60  26  ~/.config/termite/config
+|4,39,60,26,1654214054,"~/.config/termite/config"
+-'  62  26  ~/.config/termite/config
+|4,39,62,26,1654214054,"~/.config/termite/config"
+-'  61  26  ~/.config/termite/config
+|4,39,61,26,1654214054,"~/.config/termite/config"
+-'  61  26  ~/.config/termite/config
+|4,39,61,26,1654214054,"~/.config/termite/config"
+-'  61  26  ~/.config/termite/config
+|4,39,61,26,1654214054,"~/.config/termite/config"
+-'  61  26  ~/.config/termite/config
+|4,39,61,26,1654214054,"~/.config/termite/config"
+-'  60  26  ~/.config/termite/config
+|4,39,60,26,1654214054,"~/.config/termite/config"
+-'  62  26  ~/.config/termite/config
+|4,39,62,26,1654214054,"~/.config/termite/config"
+-'  61  26  ~/.config/termite/config
+|4,39,61,26,1654214054,"~/.config/termite/config"
+-'  61  26  ~/.config/termite/config
+|4,39,61,26,1654214054,"~/.config/termite/config"
+-'  61  26  ~/.config/termite/config
+|4,39,61,26,1654214054,"~/.config/termite/config"
+-'  59  17  ~/.config/termite/config
+|4,39,59,17,1654214046,"~/.config/termite/config"
+-'  50  8  ~/.config/termite/config
+|4,39,50,8,1654214046,"~/.config/termite/config"
+-'  48  1  ~/.config/termite/config
+|4,39,48,1,1654214046,"~/.config/termite/config"
+-'  58  17  ~/.config/termite/config
+|4,39,58,17,1654214046,"~/.config/termite/config"
+-'  49  8  ~/.config/termite/config
+|4,39,49,8,1654214046,"~/.config/termite/config"
+-'  47  1  ~/.config/termite/config
+|4,39,47,1,1654214046,"~/.config/termite/config"
+-'  61  1  ~/.config/termite/config
+|4,39,61,1,1654214046,"~/.config/termite/config"
+-'  60  17  ~/.config/termite/config
+|4,39,60,17,1654214046,"~/.config/termite/config"
+-'  51  8  ~/.config/termite/config
+|4,39,51,8,1654214046,"~/.config/termite/config"
+-'  49  1  ~/.config/termite/config
+|4,39,49,1,1654214046,"~/.config/termite/config"
+-'  60  1  ~/.config/termite/config
+|4,39,60,1,1654214046,"~/.config/termite/config"
+-'  59  17  ~/.config/termite/config
+|4,39,59,17,1654214046,"~/.config/termite/config"
+-'  50  8  ~/.config/termite/config
+|4,39,50,8,1654214046,"~/.config/termite/config"
+-'  48  1  ~/.config/termite/config
+|4,39,48,1,1654214046,"~/.config/termite/config"
+-'  60  1  ~/.config/termite/config
+|4,39,60,1,1654214046,"~/.config/termite/config"
+-'  59  17  ~/.config/termite/config
+|4,39,59,17,1654214046,"~/.config/termite/config"
+-'  50  8  ~/.config/termite/config
+|4,39,50,8,1654214046,"~/.config/termite/config"
+-'  48  1  ~/.config/termite/config
+|4,39,48,1,1654214046,"~/.config/termite/config"
+-'  60  1  ~/.config/termite/config
+|4,39,60,1,1654214046,"~/.config/termite/config"
+-'  59  17  ~/.config/termite/config
+|4,39,59,17,1654214046,"~/.config/termite/config"
+-'  50  8  ~/.config/termite/config
+|4,39,50,8,1654214046,"~/.config/termite/config"
+-'  48  1  ~/.config/termite/config
+|4,39,48,1,1654214046,"~/.config/termite/config"
+-'  59  17  ~/.config/termite/config
+|4,39,59,17,1654214046,"~/.config/termite/config"
+-'  50  8  ~/.config/termite/config
+|4,39,50,8,1654214046,"~/.config/termite/config"
+-'  48  1  ~/.config/termite/config
+|4,39,48,1,1654214046,"~/.config/termite/config"
+-'  58  17  ~/.config/termite/config
+|4,39,58,17,1654214046,"~/.config/termite/config"
+-'  49  8  ~/.config/termite/config
+|4,39,49,8,1654214046,"~/.config/termite/config"
+-'  47  1  ~/.config/termite/config
+|4,39,47,1,1654214046,"~/.config/termite/config"
+-'  61  1  ~/.config/termite/config
+|4,39,61,1,1654214046,"~/.config/termite/config"
+-'  60  17  ~/.config/termite/config
+|4,39,60,17,1654214046,"~/.config/termite/config"
+-'  51  8  ~/.config/termite/config
+|4,39,51,8,1654214046,"~/.config/termite/config"
+-'  49  1  ~/.config/termite/config
+|4,39,49,1,1654214046,"~/.config/termite/config"
+-'  60  1  ~/.config/termite/config
+|4,39,60,1,1654214046,"~/.config/termite/config"
+-'  59  17  ~/.config/termite/config
+|4,39,59,17,1654214046,"~/.config/termite/config"
+-'  50  8  ~/.config/termite/config
+|4,39,50,8,1654214046,"~/.config/termite/config"
+-'  48  1  ~/.config/termite/config
+|4,39,48,1,1654214046,"~/.config/termite/config"
+-'  60  1  ~/.config/termite/config
+|4,39,60,1,1654214046,"~/.config/termite/config"
+-'  59  17  ~/.config/termite/config
+|4,39,59,17,1654214046,"~/.config/termite/config"
+-'  50  8  ~/.config/termite/config
+|4,39,50,8,1654214046,"~/.config/termite/config"
+-'  48  1  ~/.config/termite/config
+|4,39,48,1,1654214046,"~/.config/termite/config"
+-'  60  1  ~/.config/termite/config
+|4,39,60,1,1654214046,"~/.config/termite/config"
+-'  59  17  ~/.config/termite/config
+|4,39,59,17,1654214046,"~/.config/termite/config"
+-'  50  8  ~/.config/termite/config
+|4,39,50,8,1654214046,"~/.config/termite/config"
+-'  48  1  ~/.config/termite/config
+|4,39,48,1,1654214046,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1654214045,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1654214045,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1654214045,"~/.config/termite/config"
+-'  1  0  ~/.config/termite/config
+|4,39,1,0,1654214045,"~/.config/termite/config"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/dotfile
+	*	1654218437	0
+	"	22	14
+	^	22	15
+	.	22	14
+	+	22	14
+
+> ~/.config/termite/config
+	*	1654214368	0
+	"	9	0
+	.	9	0
+	+	56	23
+	+	2	0
+	+	4	0
+	+	7	0
+	+	14	0
+	+	13	0
+	+	17	27
+	+	20	0
+	+	26	0
+	+	29	0
+	+	41	16
+	+	43	8
+	+	43	0
+	+	57	0
+	+	58	16
+	+	58	0
+	+	58	27
+	+	58	0
+	+	58	8
+	+	97	17
+	+	62	0
+	+	61	0
+	+	60	0
+	+	61	26
+	+	26	17
+	+	10	0
+	+	9	0
+	+	10	0
+	+	9	0
+
+> ~/.config/i3/config
+	*	1654214105	0
+	"	1	0
+	^	19	58
+	.	19	57
+	+	26	0
+	+	25	10
+	+	27	0
+	+	28	14
+	+	34	13
+	+	50	0
+	+	51	0
+	+	52	33
+	+	53	0
+	+	90	12
+	+	95	0
+	+	101	0
+	+	100	0
+	+	107	0
+	+	106	0
+	+	107	0
+	+	114	0
+	+	113	0
+	+	115	0
+	+	93	0
+	+	115	0
+	+	121	0
+	+	123	0
+	+	132	0
+	+	142	0
+	+	143	41
+	+	147	0
+	+	160	0
+	+	159	16
+	+	161	0
+	+	186	0
+	+	185	0
+	+	186	0
+	+	185	0
+	+	186	0
+	+	165	0
+	+	167	0
+	+	165	0
+	+	167	0
+	+	165	0
+	+	8	0
+	+	117	0
+	+	129	0
+	+	166	0
+	+	202	0
+	+	26	50
+	+	105	0
+	+	198	1
+	+	106	0
+	+	198	1
+	+	197	1
+	+	105	0
+	+	106	0
+	+	197	1
+	+	198	1
+	+	194	19
+	+	189	9
+	+	191	1
+	+	194	0
+	+	190	21
+	+	191	0
+	+	192	0
+	+	194	0
+	+	175	0
+	+	193	0
+	+	190	21
+	+	139	0
+	+	137	0
+	+	141	0
+	+	139	9
+	+	140	9
+	+	12	0
+	+	197	1
+	+	198	9
+	+	197	0
+	+	18	0
+	+	18	65
+	+	165	31
+	+	198	9
+	+	197	27
+	+	12	0
+	+	196	1
+	+	165	55
+	+	203	15
+	+	203	0
+	+	196	1
+	+	106	0
+	+	198	1
+	+	11	0
+	+	196	1
+	+	12	0
+	+	20	28
+	+	133	0
+	+	132	0
+	+	133	42
+	+	18	0
+	+	19	0
+	+	18	0
+	+	19	57
+
+> ~/.config/xfce4/terminal/terminalrc
+	*	1654213888	0
+	"	1	0
+
+> ~/almacen/.env
+	*	1654138704	0
+	"	15	16
+	^	15	17
+	.	15	16
+	+	10	15
+	+	12	11
+	+	13	17
+	+	14	16
+	+	15	16
+
+> ~/almacen/.git/COMMIT_EDITMSG
+	*	1654138451	0
+	"	1	0
+
+> ~/.config/i3/autostart
+	*	1653957681	0
+	"	14	9
+	^	14	10
+	.	14	9
+	+	4	0
+	+	7	0
+	+	13	19
+	+	3	48
+	+	3	26
+	+	3	64
+	+	3	48
+	+	3	3
+	+	1	11
+	+	3	40
+	+	3	66
+	+	8	6
+	+	7	0
+	+	8	0
+	+	7	0
+	+	10	0
+	+	10	165
+	+	16	11
+	+	16	0
+	+	4	11
+	+	16	12
+	+	7	0
+	+	8	0
+	+	16	0
+	+	16	110
+	+	16	0
+	+	16	103
+	+	4	0
+	+	16	112
+	+	7	0
+	+	12	0
+	+	15	0
+	+	3	62
+	+	4	0
+	+	16	0
+	+	15	110
+	+	15	1
+	+	15	116
+	+	15	0
+	+	15	112
+	+	15	0
+	+	3	62
+	+	15	0
+	+	15	104
+	+	15	0
+	+	15	111
+	+	15	0
+	+	16	0
+	+	14	9
+
+> /etc/hosts
+	*	1653849169	0
+	"	1	0
+	^	8	21
+	.	8	20
+	+	5	19
+	+	5	56
+	+	5	0
+	+	5	24
+	+	5	21
+	+	5	20
+	+	5	0
+	+	8	0
+	+	7	0
+	+	12	0
+	+	8	20
+
+> ~/dev/ssw/.git/COMMIT_EDITMSG
+	*	1653358710	0
+	"	1	0
+	^	1	10
+	.	1	9
+	+	1	37
+	+	22	58
+	+	20	55
+	+	18	36
+	+	1	32
+	+	15	18
+	+	12	4
+	+	9	71
+	+	4	57
+	+	6	20
+	+	1	9
+
+> ~/.ssh/github
+	*	1653343485	0
+	"	1	0
+
+> ~/.ssh/config
+	*	1653343368	0
+	"	24	0
+	.	25	0
+	+	25	0
+	+	23	0
+	+	25	0
 
 > ~/.bashrc
 	*	1653337721	0
@@ -676,129 +1035,6 @@ $\t
 > /usr/local/bin/pgadmin3
 	*	1653184425	0
 	"	1	0
-
-> ~/dev/ssw/.git/COMMIT_EDITMSG
-	*	1653095646	0
-	"	1	9
-	^	1	10
-	.	1	9
-	+	1	37
-	+	22	58
-	+	20	55
-	+	18	36
-	+	1	32
-	+	15	18
-	+	12	4
-	+	9	71
-	+	4	57
-	+	6	20
-	+	1	9
-
-> ~/.config/i3/config
-	*	1653052089	0
-	"	20	51
-	^	20	52
-	.	20	51
-	+	164	25
-	+	1	0
-	+	4	0
-	+	6	0
-	+	8	0
-	+	17	2
-	+	21	0
-	+	26	0
-	+	25	10
-	+	27	0
-	+	28	14
-	+	34	13
-	+	50	0
-	+	51	0
-	+	52	33
-	+	53	0
-	+	90	12
-	+	95	0
-	+	101	0
-	+	100	0
-	+	107	0
-	+	106	0
-	+	107	0
-	+	114	0
-	+	113	0
-	+	115	0
-	+	93	0
-	+	115	0
-	+	121	0
-	+	123	0
-	+	132	0
-	+	141	0
-	+	142	41
-	+	146	0
-	+	159	0
-	+	158	16
-	+	160	0
-	+	185	0
-	+	184	0
-	+	185	0
-	+	184	0
-	+	185	0
-	+	164	0
-	+	166	0
-	+	164	0
-	+	166	0
-	+	164	0
-	+	8	0
-	+	117	0
-	+	129	0
-	+	165	0
-	+	201	0
-	+	26	50
-	+	105	0
-	+	197	1
-	+	106	0
-	+	197	1
-	+	196	1
-	+	105	0
-	+	106	0
-	+	196	1
-	+	197	1
-	+	193	19
-	+	188	9
-	+	190	1
-	+	193	0
-	+	189	21
-	+	190	0
-	+	191	0
-	+	193	0
-	+	174	0
-	+	192	0
-	+	189	21
-	+	138	0
-	+	136	0
-	+	140	0
-	+	138	9
-	+	139	9
-	+	12	0
-	+	196	1
-	+	197	9
-	+	196	0
-	+	19	0
-	+	18	0
-	+	19	65
-	+	164	31
-	+	197	9
-	+	196	27
-	+	12	0
-	+	195	1
-	+	164	55
-	+	202	15
-	+	202	0
-	+	195	1
-	+	106	0
-	+	197	1
-	+	11	0
-	+	195	1
-	+	12	0
-	+	20	51
 
 > ~/uninstall.sh
 	*	1652751071	0
@@ -1252,23 +1488,6 @@ $\t
 	+	7	16
 	+	3	23
 
-> /etc/hosts
-	*	1651527012	0
-	"	8	20
-	^	8	21
-	.	8	20
-	+	5	19
-	+	5	56
-	+	5	0
-	+	5	24
-	+	5	21
-	+	5	20
-	+	5	0
-	+	8	0
-	+	7	0
-	+	12	0
-	+	8	20
-
 > ~/.bash_profile
 	*	1651526049	0
 	"	9	0
@@ -1365,59 +1584,6 @@ $\t
 > /usr/local/src/sublime.text.3/Packages/Default.sublime-package
 	*	1650502193	0
 	"	2625	63
-
-> ~/.config/i3/autostart
-	*	1650379515	0
-	"	1	0
-	.	15	0
-	+	4	0
-	+	7	0
-	+	13	19
-	+	3	48
-	+	3	26
-	+	3	64
-	+	3	48
-	+	3	3
-	+	1	11
-	+	3	40
-	+	3	66
-	+	8	6
-	+	7	0
-	+	8	0
-	+	7	0
-	+	10	0
-	+	10	165
-	+	15	11
-	+	15	0
-	+	4	11
-	+	15	12
-	+	7	0
-	+	8	0
-	+	15	0
-	+	15	110
-	+	15	0
-	+	15	103
-	+	4	0
-	+	15	112
-	+	7	0
-	+	12	0
-	+	14	0
-	+	3	62
-	+	4	0
-	+	15	0
-	+	14	110
-	+	14	1
-	+	14	116
-	+	14	0
-	+	14	112
-	+	14	0
-	+	3	62
-	+	14	0
-	+	14	104
-	+	14	0
-	+	14	111
-	+	14	0
-	+	15	0
 
 > ~/.config/openbox/autostart
 	*	1650378225	0
@@ -1799,41 +1965,3 @@ $\t
 	.	2	8
 	+	3	43
 	+	2	8
-
-> /usr/local/bin/dbeaver
-	*	1649215615	0
-	"	1	0
-	^	1	0
-
-> ~/dbeaver/usr/share/dbeaver/dbeaver.ini
-	*	1649214905	0
-	"	1	0
-
-> ~/dbeaver/postinst
-	*	1649214787	0
-	"	1	0
-
-> ~/dbeaver/preinst
-	*	1649214780	0
-	"	1	0
-
-> /usr/local/src/nginx-1.21.6/config
-	*	1649213236	0
-	"	1	0
-	^	2	15
-	.	2	14
-	+	2	14
-
-> /etc/fstab
-	*	1649210634	0
-	"	7	46
-	^	7	47
-	.	7	46
-	+	7	46
-
-> /etc/sudoers
-	*	1649210416	0
-	"	80	25
-	^	80	26
-	.	80	25
-	+	80	25
