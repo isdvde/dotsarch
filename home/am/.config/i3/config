@@ -191,10 +191,10 @@ bar {
 	}
 
 	i3bar_command i3bar -t
-	status_command exec ~/.config/i3/bar2.sh
+	status_command exec ~/.config/i3/bar.sh
 	tray_output primary
 	position top
-	font pango:Dejavu Sans Book 8
+	font pango:Dejavu Sans Book 7
 	#height 15
 }
 

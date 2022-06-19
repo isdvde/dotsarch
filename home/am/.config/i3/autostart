@@ -12,4 +12,5 @@ fi
 
 nitrogen --restore &
 lxpolkit &
+#bash ${HOME}/.config/i3/polybar
 #while true; do nitrogen --set-zoom-fill --random /home/am/pictures/wallpapers/wallpapers-master; sleep 5m; done

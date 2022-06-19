@@ -2,13 +2,13 @@
 	"auto_complete_delay": 1,
 	"bold_folder_labels": true,
 	"caret_style": "blink",
-	"color_scheme": "Packages/Gruvbox Dark/gruvbox.tmTheme",
+	"color_scheme": "Monokai.sublime-color-scheme",
 	"font_face": "Comic Mono - Bold",
 	"font_options": [
 		"bold",
 		"italic"
 	],
-	"font_size": 11,
+	"font_size": 9,
 	"highlight_modified_tabs": true,
 	"ignored_packages": [
 		"AppleScript",

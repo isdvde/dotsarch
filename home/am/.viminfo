@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último Patrón de búsqueda:
-~Msle0~/\<font\>
+~MSle0~/autosta
 
 # Último Sustitución Patrón de búsqueda:
 ~MSle0&free18
@@ -21,11 +21,13 @@ $\t
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
 :wq
-|2,0,1654218438,,"wq"
-:q!
-|2,0,1654214369,,"q!"
+|2,0,1655603811,,"wq"
 :w
-|2,0,1654214357,,"w"
+|2,0,1655603720,,"w"
+:q!
+|2,0,1655603574,,"q!"
+:W
+|2,0,1655602675,,"W"
 :qq!
 |2,0,1652392425,,"qq!"
 :% g/free18/d
@@ -56,8 +58,6 @@ $\t
 |2,0,1650804611,,"q"
 :Q!
 |2,0,1650379515,,"Q!"
-:W
-|2,0,1650378165,,"W"
 :.!:q!
 |2,0,1650124329,,".!:q!"
 :w!
@@ -204,6 +204,12 @@ $\t
 |2,0,1631476210,,"b"
 
 # Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+?/autosta
+|2,1,1655566160,47,"autosta"
+?/aur
+|2,1,1655566158,47,"aur"
+?/autostA
+|2,1,1655566068,47,"autostA"
 ? \<font\>
 |2,1,1654214361,,"\\<font\\>"
 ?/backgrou
@@ -258,8 +264,6 @@ $\t
 |2,1,1649865940,47,"autostar"
 ?/autost
 |2,1,1649805420,47,"autost"
-?/autosta
-|2,1,1649803849,47,"autosta"
 ?/autos
 |2,1,1649803695,47,"autos"
 ?/VOL
@@ -386,16 +390,62 @@ $\t
 # Historia de Línea de depuración (de lo más nuevo a lo más antiguo):
 
 # Registros:
-""0	LINE	0
-	.config/custom*out
-|3,1,0,1,1,0,1654218429,".config/custom*out"
+"0	LINE	0
+		echo "V $(VOL)   |   M $(MEM)   |   /H $(HOME)  /F $(FMORE)   |   $(IFACE)  $(TRAF)   |   C $(CPU)   |   $(DATE)"; 
+|3,0,0,1,1,0,1655568037,"	echo \"V $(VOL)   |   M $(MEM)   |   /H $(HOME)  /F $(FMORE)   |   $(IFACE)  $(TRAF)   |   C $(CPU)   |   $(DATE)\"; "
 "1	LINE	0
+	;date = %H:%M
+|3,0,1,1,1,0,1655602747,";date = %H:%M"
+"2	BLOCK	0
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+|3,0,2,2,12,0,1655567742,"#","#","#","#","#","#","#","#","#","#","#","#"
+"3	BLOCK	0
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+|3,0,3,2,12,0,1655517618,"#","#","#","#","#","#","#","#","#","#","#","#"
+"4	LINE	0
+	
+	[module/xkeyboard]
+	type = internal/xkeyboard
+	blacklist-0 = num lock
+	
+	label-layout = %layout%
+	label-layout-foreground = ${colors.primary}
+	
+	label-indicator-padding = 2
+	label-indicator-margin = 1
+	label-indicator-foreground = ${colors.background}
+	label-indicator-background = ${colors.secondary}
+	
+|3,0,4,1,13,0,1655517522,"","[module/xkeyboard]","type = internal/xkeyboard","blacklist-0 = num lock","","label-layout = %layout%","label-layout-foreground = ${colors.primary}","","label-indicator-padding = 2","label-indicator-margin = 1","label-indicator-foreground = ${colors.background}","label-indicator-background = ${colors.secondary}",""
+"5	LINE	0
 	font = DejaVuSansMono Nerd Font Mono 9
-|3,0,1,1,1,0,1654214354,"font = DejaVuSansMono Nerd Font Mono 9"
-"2	LINE	0
+|3,0,5,1,1,0,1654214354,"font = DejaVuSansMono Nerd Font Mono 9"
+"6	LINE	0
 	#bindsym --release $mod+Return exec --no-startup-id xfce4-terminal.wrapper
-|3,0,2,1,1,0,1654213944,"#bindsym --release $mod+Return exec --no-startup-id xfce4-terminal.wrapper"
-"3	LINE	0
+|3,0,6,1,1,0,1654213944,"#bindsym --release $mod+Return exec --no-startup-id xfce4-terminal.wrapper"
+"7	LINE	0
 	[colors]
 	# Base16 Gruvbox dark, hard
 	
@@ -444,346 +494,272 @@ $\t
 	color19 = #504945
 	color20 = #bdae93
 	color21 = #ebdbb2
-|3,0,3,1,48,0,1654213826,"[colors]","# Base16 Gruvbox dark, hard","","foreground          = #d5c4a1","foreground_bold     = #d5c4a1","cursor              = #d5c4a1","cursor_foreground   = #1d2021","#background          = #1d2021","background = rgba(29, 32, 33, 0.85)","# 16 color space","","# Black, Gray, Silver, White","color0  = #1d2021","color8  = #665c54","color7  = #d5c4a1","color15 = #fbf1c7","","# Red","color1  = #fb4934","color9  = #fb4934","",>9
+|3,0,7,1,48,0,1654213826,"[colors]","# Base16 Gruvbox dark, hard","","foreground          = #d5c4a1","foreground_bold     = #d5c4a1","cursor              = #d5c4a1","cursor_foreground   = #1d2021","#background          = #1d2021","background = rgba(29, 32, 33, 0.85)","# 16 color space","","# Black, Gray, Silver, White","color0  = #1d2021","color8  = #665c54","color7  = #d5c4a1","color15 = #fbf1c7","","# Red","color1  = #fb4934","color9  = #fb4934","",>9
 |<"# Green","color2  = #b8bb26","color10 = #b8bb26","","# Yellow","color3  = #fabd2f","color11 = #fabd2f","","# Blue","color4  = #83a598","color12 = #83a598","","# Purple","color5  = #d3869b","color13 = #d3869b","","# Teal","color6  = #8ec07c","color14 = #8ec07c","","# Extra colors","color16 = #fe8019","color17 = #d65d0e","color18 = #3c3836","color19 = #504945","color20 = #bdae93","color21 = #ebdbb2"
-"4	LINE	0
-	background          = #1d2021
-|3,0,4,1,1,0,1654213623,"background          = #1d2021"
-"5	LINE	0
-	background = rgba(1d, 20, 21, 0.8)
-|3,0,5,1,1,0,1654133163,"background = rgba(1d, 20, 21, 0.8)"
-"6	LINE	0
-	# Author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
-|3,0,6,1,1,0,1654133102,"# Author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)"
-"7	LINE	0
-	background          = #1d2021
-|3,0,7,1,1,0,1654133034,"background          = #1d2021"
 "8	LINE	0
-	[colors]
-	# If both of these are unset, cursor falls back to the foreground color,
-	# and cursor_foreground falls back to the background color.
-	#cursor = #dcdccc
-	#cursor_foreground = #dcdccc
-	
-	#foreground = #dcdccc
-	#foreground_bold = #ffffff
-	#background = #3f3f3f
-	
-	# 20% background transparency (requires a compositor)
-	#background = rgba(63, 63, 63, 0.8)
-	
-	# If unset, will reverse foreground and background
-	highlight = #2f2f2f
-	
-	# Colors from color0 to color254 can be set
-	color0 = #3f3f3f
-	color1 = #705050
-	color2 = #60b48a
-	color3 = #dfaf8f
-	color4 = #506070
-	color5 = #dc8cc3
-	color6 = #8cd0d3
-	color7 = #dcdccc
-	color8 = #709080
-	color9 = #dca3a3
-	color10 = #c3bf9f
-	color11 = #f0dfaf
-	color12 = #94bff3
-	color13 = #ec93d3
-	color14 = #93e0e3
-	color15 = #ffffff
-|3,0,8,1,33,0,1654132960,"[colors]","# If both of these are unset, cursor falls back to the foreground color,","# and cursor_foreground falls back to the background color.","#cursor = #dcdccc","#cursor_foreground = #dcdccc","","#foreground = #dcdccc","#foreground_bold = #ffffff","#background = #3f3f3f","","# 20% background transparency (requires a compositor)","#background = rgba(63, 63, 63, 0.8)","","# If unset, will reverse foreground and background",>21
-|<"highlight = #2f2f2f","","# Colors from color0 to color254 can be set","color0 = #3f3f3f","color1 = #705050","color2 = #60b48a","color3 = #dfaf8f","color4 = #506070","color5 = #dc8cc3","color6 = #8cd0d3","color7 = #dcdccc","color8 = #709080","color9 = #dca3a3","color10 = #c3bf9f","color11 = #f0dfaf","color12 = #94bff3","color13 = #ec93d3","color14 = #93e0e3","color15 = #ffffff"
+	background          = #1d2021
+|3,0,8,1,1,0,1654213623,"background          = #1d2021"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1653095641,""
+	background = rgba(1d, 20, 21, 0.8)
+|3,0,9,1,1,0,1654133163,"background = rgba(1d, 20, 21, 0.8)"
 "u	CHAR	0
 		
 |3,0,30,0,1,0,1649134282,"	"
-"-	CHAR	0
-	f
-|3,0,36,0,1,0,1654214364,"f"
+""-	CHAR	0
+	%{F#F0C674}%ifname%%{F-} 
+|3,1,36,0,1,0,1655603117,"%{F#F0C674}%ifname%%{F-} "
 
 # Marcas en el archivo:
-'0  22  14  ~/dotfile
-|4,48,22,14,1654218439,"~/dotfile"
-'1  9  0  ~/.config/termite/config
-|4,49,9,0,1654214369,"~/.config/termite/config"
-'2  10  23  ~/.config/termite/config
-|4,50,10,23,1654214274,"~/.config/termite/config"
-'3  10  23  ~/.config/termite/config
-|4,51,10,23,1654214274,"~/.config/termite/config"
-'4  26  17  ~/.config/termite/config
-|4,52,26,17,1654214140,"~/.config/termite/config"
-'5  25  17  ~/.config/termite/config
-|4,53,25,17,1654214140,"~/.config/termite/config"
-'6  27  17  ~/.config/termite/config
-|4,54,27,17,1654214140,"~/.config/termite/config"
-'7  26  17  ~/.config/termite/config
-|4,55,26,17,1654214140,"~/.config/termite/config"
-'8  1  0  ~/.config/i3/config
-|4,56,1,0,1654214107,"~/.config/i3/config"
-'9  61  26  ~/.config/termite/config
-|4,57,61,26,1654214054,"~/.config/termite/config"
+'0  73  19  ~/.config/i3/bar.sh
+|4,48,73,19,1655603811,"~/.config/i3/bar.sh"
+'1  73  22  ~/.config/i3/bar.sh
+|4,49,73,22,1655603660,"~/.config/i3/bar.sh"
+'2  193  0  ~/.config/i3/config
+|4,50,193,0,1655603574,"~/.config/i3/config"
+'3  197  29  ~/.config/i3/config
+|4,51,197,29,1655603200,"~/.config/i3/config"
+'4  197  29  ~/.config/i3/config
+|4,52,197,29,1655603200,"~/.config/i3/config"
+'5  44  0  ~/.config/i3/bar.sh
+|4,53,44,0,1655603193,"~/.config/i3/bar.sh"
+'6  44  0  ~/.config/i3/bar.sh
+|4,54,44,0,1655603193,"~/.config/i3/bar.sh"
+'7  44  0  ~/.config/i3/bar.sh
+|4,55,44,0,1655603193,"~/.config/i3/bar.sh"
+'8  44  0  ~/.config/i3/bar.sh
+|4,56,44,0,1655603193,"~/.config/i3/bar.sh"
+'9  141  0  ~/.config/i3/polybar.conf
+|4,57,141,0,1655603182,"~/.config/i3/polybar.conf"
 
 # Lista de saltos (el más reciente va primero):
--'  22  14  ~/dotfile
-|4,39,22,14,1654218439,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1654218425,"~/dotfile"
--'  9  0  ~/.config/termite/config
-|4,39,9,0,1654214369,"~/.config/termite/config"
--'  9  0  ~/.config/termite/config
-|4,39,9,0,1654214369,"~/.config/termite/config"
--'  46  1  ~/.config/termite/config
-|4,39,46,1,1654214366,"~/.config/termite/config"
--'  46  1  ~/.config/termite/config
-|4,39,46,1,1654214366,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1654214304,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1654214304,"~/.config/termite/config"
--'  10  23  ~/.config/termite/config
-|4,39,10,23,1654214274,"~/.config/termite/config"
--'  10  23  ~/.config/termite/config
-|4,39,10,23,1654214274,"~/.config/termite/config"
--'  10  23  ~/.config/termite/config
-|4,39,10,23,1654214274,"~/.config/termite/config"
--'  10  23  ~/.config/termite/config
-|4,39,10,23,1654214274,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1654214260,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1654214260,"~/.config/termite/config"
--'  26  17  ~/.config/termite/config
-|4,39,26,17,1654214140,"~/.config/termite/config"
--'  25  17  ~/.config/termite/config
-|4,39,25,17,1654214140,"~/.config/termite/config"
--'  27  17  ~/.config/termite/config
-|4,39,27,17,1654214140,"~/.config/termite/config"
--'  26  17  ~/.config/termite/config
-|4,39,26,17,1654214140,"~/.config/termite/config"
--'  26  17  ~/.config/termite/config
-|4,39,26,17,1654214140,"~/.config/termite/config"
--'  25  17  ~/.config/termite/config
-|4,39,25,17,1654214140,"~/.config/termite/config"
--'  27  17  ~/.config/termite/config
-|4,39,27,17,1654214140,"~/.config/termite/config"
--'  26  17  ~/.config/termite/config
-|4,39,26,17,1654214140,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1654214110,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1654214110,"~/.config/termite/config"
+-'  73  19  ~/.config/i3/bar.sh
+|4,39,73,19,1655603811,"~/.config/i3/bar.sh"
+-'  2  0  ~/.config/i3/bar.sh
+|4,39,2,0,1655603687,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1655603684,"~/.config/i3/bar.sh"
+-'  73  22  ~/.config/i3/bar.sh
+|4,39,73,22,1655603660,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1655603580,"~/.config/i3/bar.sh"
+-'  193  0  ~/.config/i3/config
+|4,39,193,0,1655603574,"~/.config/i3/config"
+-'  193  0  ~/.config/i3/config
+|4,39,193,0,1655603574,"~/.config/i3/config"
+-'  193  0  ~/.config/i3/config
+|4,39,193,0,1655603574,"~/.config/i3/config"
+-'  193  0  ~/.config/i3/config
+|4,39,193,0,1655603574,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1654214107,"~/.config/i3/config"
+|4,39,1,0,1655603222,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1654214107,"~/.config/i3/config"
+|4,39,1,0,1655603222,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1654214107,"~/.config/i3/config"
+|4,39,1,0,1655603222,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1654214107,"~/.config/i3/config"
+|4,39,1,0,1655603222,"~/.config/i3/config"
+-'  197  29  ~/.config/i3/config
+|4,39,197,29,1655603200,"~/.config/i3/config"
+-'  197  29  ~/.config/i3/config
+|4,39,197,29,1655603200,"~/.config/i3/config"
+-'  197  29  ~/.config/i3/config
+|4,39,197,29,1655603200,"~/.config/i3/config"
+-'  197  29  ~/.config/i3/config
+|4,39,197,29,1655603200,"~/.config/i3/config"
+-'  197  29  ~/.config/i3/config
+|4,39,197,29,1655603200,"~/.config/i3/config"
+-'  197  29  ~/.config/i3/config
+|4,39,197,29,1655603200,"~/.config/i3/config"
+-'  197  29  ~/.config/i3/config
+|4,39,197,29,1655603200,"~/.config/i3/config"
+-'  197  29  ~/.config/i3/config
+|4,39,197,29,1655603200,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1654214107,"~/.config/i3/config"
+|4,39,1,0,1655603196,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1654214107,"~/.config/i3/config"
+|4,39,1,0,1655603196,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1654214107,"~/.config/i3/config"
+|4,39,1,0,1655603196,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1654214107,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1654214107,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1654214107,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1654214107,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1654214107,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1654214107,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1654214107,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1654214107,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1654214107,"~/.config/i3/config"
--'  61  26  ~/.config/termite/config
-|4,39,61,26,1654214054,"~/.config/termite/config"
--'  60  26  ~/.config/termite/config
-|4,39,60,26,1654214054,"~/.config/termite/config"
--'  62  26  ~/.config/termite/config
-|4,39,62,26,1654214054,"~/.config/termite/config"
--'  61  26  ~/.config/termite/config
-|4,39,61,26,1654214054,"~/.config/termite/config"
--'  61  26  ~/.config/termite/config
-|4,39,61,26,1654214054,"~/.config/termite/config"
--'  61  26  ~/.config/termite/config
-|4,39,61,26,1654214054,"~/.config/termite/config"
--'  61  26  ~/.config/termite/config
-|4,39,61,26,1654214054,"~/.config/termite/config"
--'  60  26  ~/.config/termite/config
-|4,39,60,26,1654214054,"~/.config/termite/config"
--'  62  26  ~/.config/termite/config
-|4,39,62,26,1654214054,"~/.config/termite/config"
--'  61  26  ~/.config/termite/config
-|4,39,61,26,1654214054,"~/.config/termite/config"
--'  61  26  ~/.config/termite/config
-|4,39,61,26,1654214054,"~/.config/termite/config"
--'  61  26  ~/.config/termite/config
-|4,39,61,26,1654214054,"~/.config/termite/config"
--'  59  17  ~/.config/termite/config
-|4,39,59,17,1654214046,"~/.config/termite/config"
--'  50  8  ~/.config/termite/config
-|4,39,50,8,1654214046,"~/.config/termite/config"
--'  48  1  ~/.config/termite/config
-|4,39,48,1,1654214046,"~/.config/termite/config"
--'  58  17  ~/.config/termite/config
-|4,39,58,17,1654214046,"~/.config/termite/config"
--'  49  8  ~/.config/termite/config
-|4,39,49,8,1654214046,"~/.config/termite/config"
--'  47  1  ~/.config/termite/config
-|4,39,47,1,1654214046,"~/.config/termite/config"
--'  61  1  ~/.config/termite/config
-|4,39,61,1,1654214046,"~/.config/termite/config"
--'  60  17  ~/.config/termite/config
-|4,39,60,17,1654214046,"~/.config/termite/config"
--'  51  8  ~/.config/termite/config
-|4,39,51,8,1654214046,"~/.config/termite/config"
--'  49  1  ~/.config/termite/config
-|4,39,49,1,1654214046,"~/.config/termite/config"
--'  60  1  ~/.config/termite/config
-|4,39,60,1,1654214046,"~/.config/termite/config"
--'  59  17  ~/.config/termite/config
-|4,39,59,17,1654214046,"~/.config/termite/config"
--'  50  8  ~/.config/termite/config
-|4,39,50,8,1654214046,"~/.config/termite/config"
--'  48  1  ~/.config/termite/config
-|4,39,48,1,1654214046,"~/.config/termite/config"
--'  60  1  ~/.config/termite/config
-|4,39,60,1,1654214046,"~/.config/termite/config"
--'  59  17  ~/.config/termite/config
-|4,39,59,17,1654214046,"~/.config/termite/config"
--'  50  8  ~/.config/termite/config
-|4,39,50,8,1654214046,"~/.config/termite/config"
--'  48  1  ~/.config/termite/config
-|4,39,48,1,1654214046,"~/.config/termite/config"
--'  60  1  ~/.config/termite/config
-|4,39,60,1,1654214046,"~/.config/termite/config"
--'  59  17  ~/.config/termite/config
-|4,39,59,17,1654214046,"~/.config/termite/config"
--'  50  8  ~/.config/termite/config
-|4,39,50,8,1654214046,"~/.config/termite/config"
--'  48  1  ~/.config/termite/config
-|4,39,48,1,1654214046,"~/.config/termite/config"
--'  59  17  ~/.config/termite/config
-|4,39,59,17,1654214046,"~/.config/termite/config"
--'  50  8  ~/.config/termite/config
-|4,39,50,8,1654214046,"~/.config/termite/config"
--'  48  1  ~/.config/termite/config
-|4,39,48,1,1654214046,"~/.config/termite/config"
--'  58  17  ~/.config/termite/config
-|4,39,58,17,1654214046,"~/.config/termite/config"
--'  49  8  ~/.config/termite/config
-|4,39,49,8,1654214046,"~/.config/termite/config"
--'  47  1  ~/.config/termite/config
-|4,39,47,1,1654214046,"~/.config/termite/config"
--'  61  1  ~/.config/termite/config
-|4,39,61,1,1654214046,"~/.config/termite/config"
--'  60  17  ~/.config/termite/config
-|4,39,60,17,1654214046,"~/.config/termite/config"
--'  51  8  ~/.config/termite/config
-|4,39,51,8,1654214046,"~/.config/termite/config"
--'  49  1  ~/.config/termite/config
-|4,39,49,1,1654214046,"~/.config/termite/config"
--'  60  1  ~/.config/termite/config
-|4,39,60,1,1654214046,"~/.config/termite/config"
--'  59  17  ~/.config/termite/config
-|4,39,59,17,1654214046,"~/.config/termite/config"
--'  50  8  ~/.config/termite/config
-|4,39,50,8,1654214046,"~/.config/termite/config"
--'  48  1  ~/.config/termite/config
-|4,39,48,1,1654214046,"~/.config/termite/config"
--'  60  1  ~/.config/termite/config
-|4,39,60,1,1654214046,"~/.config/termite/config"
--'  59  17  ~/.config/termite/config
-|4,39,59,17,1654214046,"~/.config/termite/config"
--'  50  8  ~/.config/termite/config
-|4,39,50,8,1654214046,"~/.config/termite/config"
--'  48  1  ~/.config/termite/config
-|4,39,48,1,1654214046,"~/.config/termite/config"
--'  60  1  ~/.config/termite/config
-|4,39,60,1,1654214046,"~/.config/termite/config"
--'  59  17  ~/.config/termite/config
-|4,39,59,17,1654214046,"~/.config/termite/config"
--'  50  8  ~/.config/termite/config
-|4,39,50,8,1654214046,"~/.config/termite/config"
--'  48  1  ~/.config/termite/config
-|4,39,48,1,1654214046,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1654214045,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1654214045,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1654214045,"~/.config/termite/config"
--'  1  0  ~/.config/termite/config
-|4,39,1,0,1654214045,"~/.config/termite/config"
+|4,39,1,0,1655603196,"~/.config/i3/config"
+-'  44  0  ~/.config/i3/bar.sh
+|4,39,44,0,1655603193,"~/.config/i3/bar.sh"
+-'  44  0  ~/.config/i3/bar.sh
+|4,39,44,0,1655603193,"~/.config/i3/bar.sh"
+-'  44  0  ~/.config/i3/bar.sh
+|4,39,44,0,1655603193,"~/.config/i3/bar.sh"
+-'  44  0  ~/.config/i3/bar.sh
+|4,39,44,0,1655603193,"~/.config/i3/bar.sh"
+-'  44  0  ~/.config/i3/bar.sh
+|4,39,44,0,1655603193,"~/.config/i3/bar.sh"
+-'  44  0  ~/.config/i3/bar.sh
+|4,39,44,0,1655603193,"~/.config/i3/bar.sh"
+-'  141  0  ~/.config/i3/polybar.conf
+|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
+-'  141  0  ~/.config/i3/polybar.conf
+|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
+-'  141  0  ~/.config/i3/polybar.conf
+|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
+-'  141  0  ~/.config/i3/polybar.conf
+|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
+-'  141  0  ~/.config/i3/polybar.conf
+|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
+-'  141  0  ~/.config/i3/polybar.conf
+|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
+-'  141  0  ~/.config/i3/polybar.conf
+|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
+-'  141  0  ~/.config/i3/polybar.conf
+|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
+-'  141  0  ~/.config/i3/polybar.conf
+|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
+-'  141  0  ~/.config/i3/polybar.conf
+|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
+-'  141  0  ~/.config/i3/polybar.conf
+|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
+-'  141  0  ~/.config/i3/polybar.conf
+|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
+-'  141  0  ~/.config/i3/polybar.conf
+|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
+-'  141  0  ~/.config/i3/polybar.conf
+|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
+-'  141  0  ~/.config/i3/polybar.conf
+|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
+-'  141  0  ~/.config/i3/polybar.conf
+|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1655602606,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1655602606,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1655602606,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1655602606,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/polybar.conf
+|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
+-'  1  0  ~/.config/i3/polybar.conf
+|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
+-'  1  0  ~/.config/i3/polybar.conf
+|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
+-'  1  0  ~/.config/i3/polybar.conf
+|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
+-'  1  0  ~/.config/i3/polybar.conf
+|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
+-'  1  0  ~/.config/i3/polybar.conf
+|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
+-'  1  0  ~/.config/i3/polybar.conf
+|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
+-'  1  0  ~/.config/i3/polybar.conf
+|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
+-'  1  0  ~/.config/i3/polybar.conf
+|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
+-'  1  0  ~/.config/i3/polybar.conf
+|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
+-'  1  0  ~/.config/i3/polybar.conf
+|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
+-'  1  0  ~/.config/i3/polybar.conf
+|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
+-'  1  0  ~/.config/i3/polybar.conf
+|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
+-'  1  0  ~/.config/i3/polybar.conf
+|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
+-'  1  0  ~/.config/i3/polybar.conf
+|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
+-'  1  0  ~/.config/i3/polybar.conf
+|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
+-'  74  9  ~/.config/i3/bar.sh
+|4,39,74,9,1655597574,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
+-'  74  9  ~/.config/i3/bar.sh
+|4,39,74,9,1655597574,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1655597570,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1655597570,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1655597570,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1655597570,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1655597570,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1655597570,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1655597570,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1655597570,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655596833,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655596833,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655596833,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655596833,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655596833,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655596833,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655596833,"~/.config/i3/bar.sh"
+-'  70  9  ~/.config/i3/bar.sh
+|4,39,70,9,1655596833,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1655596828,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1655596828,"~/.config/i3/bar.sh"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
 
-> ~/dotfile
-	*	1654218437	0
-	"	22	14
-	^	22	15
-	.	22	14
-	+	22	14
-
-> ~/.config/termite/config
-	*	1654214368	0
-	"	9	0
-	.	9	0
-	+	56	23
-	+	2	0
-	+	4	0
-	+	7	0
-	+	14	0
-	+	13	0
-	+	17	27
-	+	20	0
-	+	26	0
-	+	29	0
-	+	41	16
-	+	43	8
-	+	43	0
-	+	57	0
-	+	58	16
-	+	58	0
-	+	58	27
-	+	58	0
-	+	58	8
-	+	97	17
-	+	62	0
-	+	61	0
-	+	60	0
-	+	61	26
-	+	26	17
-	+	10	0
-	+	9	0
-	+	10	0
-	+	9	0
+> ~/.config/i3/bar.sh
+	*	1655603720	0
+	"	73	19
+	^	74	10
+	.	73	19
+	+	73	0
+	+	72	1
+	+	73	84
+	+	74	1
+	+	3	47
+	+	74	1
+	+	3	45
+	+	74	9
+	+	66	10
+	+	67	80
+	+	68	0
+	+	73	22
+	+	74	9
+	+	73	19
 
 > ~/.config/i3/config
-	*	1654214105	0
-	"	1	0
-	^	19	58
-	.	19	57
-	+	26	0
-	+	25	10
-	+	27	0
-	+	28	14
-	+	34	13
-	+	50	0
-	+	51	0
-	+	52	33
+	*	1655603540	0
+	"	193	0
+	^	197	30
+	.	197	29
 	+	53	0
 	+	90	12
 	+	95	0
@@ -875,6 +851,309 @@ $\t
 	+	19	0
 	+	18	0
 	+	19	57
+	+	189	0
+	+	188	0
+	+	189	0
+	+	165	72
+	+	164	0
+	+	165	55
+	+	188	0
+	+	194	37
+	+	197	29
+
+> ~/.config/i3/polybar.conf
+	*	1655603125	0
+	"	141	0
+	^	145	20
+	.	145	19
+	+	6	15
+	+	30	10
+	+	31	0
+	+	38	0
+	+	40	0
+	+	41	0
+	+	44	0
+	+	43	0
+	+	48	0
+	+	49	0
+	+	51	24
+	+	54	38
+	+	61	0
+	+	116	0
+	+	115	0
+	+	134	0
+	+	135	0
+	+	51	26
+	+	97	25
+	+	101	0
+	+	102	0
+	+	97	6
+	+	94	12
+	+	107	25
+	+	119	17
+	+	126	18
+	+	119	18
+	+	126	18
+	+	107	25
+	+	151	27
+	+	153	13
+	+	151	4
+	+	151	0
+	+	154	0
+	+	151	0
+	+	149	11
+	+	134	0
+	+	140	18
+	+	145	19
+
+> ~/.config/i3/bar
+	*	1655568003	0
+	"	1	0
+
+> ~/.config/i3/autostart
+	*	1655567736	0
+	"	15	0
+	^	15	1
+	.	15	0
+	+	4	0
+	+	7	0
+	+	13	19
+	+	3	48
+	+	3	26
+	+	3	64
+	+	3	48
+	+	3	3
+	+	1	11
+	+	3	40
+	+	3	66
+	+	8	6
+	+	7	0
+	+	8	0
+	+	7	0
+	+	10	0
+	+	10	165
+	+	17	11
+	+	17	0
+	+	4	11
+	+	17	12
+	+	7	0
+	+	8	0
+	+	17	0
+	+	17	110
+	+	17	0
+	+	17	103
+	+	4	0
+	+	17	112
+	+	7	0
+	+	12	0
+	+	16	0
+	+	3	62
+	+	4	0
+	+	17	0
+	+	16	110
+	+	16	1
+	+	16	116
+	+	16	0
+	+	16	112
+	+	16	0
+	+	3	62
+	+	16	0
+	+	16	104
+	+	16	0
+	+	16	111
+	+	16	0
+	+	17	0
+	+	14	9
+	+	15	0
+
+> ~/.config/i3/polybar-
+	*	1655567563	0
+	"	1	0
+
+> ~/.config/i3/polybar
+	*	1655567557	0
+	"	1	0
+	^	9	11
+	.	9	10
+	+	11	25
+	+	9	10
+
+> ~/.config/i3/polybar.sh
+	*	1655422676	0
+	"	9	47
+	^	9	48
+	.	9	47
+	+	11	25
+	+	9	47
+
+> /tmp/bash-fc.VUlSPn
+	*	1655342672	0
+	"	6	93
+	^	6	94
+	.	6	93
+	+	6	35
+	+	2	65
+	+	3	29
+	+	4	43
+	+	5	43
+	+	6	93
+
+> ~/dev/amorcito/api/.env
+	*	1655341946	0
+	"	11	0
+	^	14	24
+	.	14	24
+	+	14	24
+
+> /usr/local/src/install.sh
+	*	1655341124	0
+	"	75	0
+
+> ~/dev/amorcito/api/.git/COMMIT_EDITMSG
+	*	1655340260	0
+	"	1	0
+
+> ~/farmacia/.git/COMMIT_EDITMSG
+	*	1655258199	0
+	"	1	0
+
+> ~/uneg.cit.token
+	*	1655234482	0
+	"	1	39
+	^	1	40
+	.	1	39
+	+	1	39
+
+> ~/nginx/conf/sites/farmacia.am
+	*	1655171453	0
+	"	5	33
+	^	5	34
+	.	5	33
+	+	5	26
+	+	3	20
+	+	5	33
+
+> ~/nginx/conf/nginx.conf
+	*	1655171332	0
+	"	33	0
+	^	33	16
+	.	33	15
+	+	1	0
+	+	34	0
+	+	33	15
+
+> ~/.local/share/applications/wine/Programs/Microsoft Office/Microsoft Office Word 2007.desktop
+	*	1654820655	0
+	"	3	209
+	^	3	210
+	.	3	210
+	+	3	210
+
+> ~/.local/share/applications/wine-extension-docx.desktop
+	*	1654820072	0
+	"	1	0
+
+> ~/gitToken
+	*	1654812129	0
+	"	1	39
+	^	1	40
+	.	1	39
+	+	1	39
+
+> ~/nginx/conf/sites/amorcito.am
+	*	1654734391	0
+	"	1	0
+	.	13	0
+	+	7	16
+	+	9	35
+	+	10	1
+	+	10	0
+	+	14	0
+	+	12	8
+	+	14	8
+	+	12	8
+	+	14	0
+	+	12	8
+	+	14	0
+	+	13	0
+
+> ~/pg/dc
+	*	1654727259	0
+	"	7	16
+	^	15	17
+	.	15	16
+	+	15	16
+
+> ~/dockerLaravel/docker-compose.yml
+	*	1654726269	0
+	"	1	0
+
+> ~/.config/termite/config
+	*	1654637497	0
+	"	63	0
+	^	63	2
+	.	64	0
+	+	56	23
+	+	2	0
+	+	4	0
+	+	7	0
+	+	14	0
+	+	13	0
+	+	17	27
+	+	20	0
+	+	26	0
+	+	29	0
+	+	41	16
+	+	43	8
+	+	43	0
+	+	57	0
+	+	63	16
+	+	63	0
+	+	63	27
+	+	63	0
+	+	63	8
+	+	102	17
+	+	67	0
+	+	66	0
+	+	65	0
+	+	66	26
+	+	26	17
+	+	10	0
+	+	9	0
+	+	10	0
+	+	9	0
+	+	56	0
+	+	58	21
+	+	61	0
+	+	60	0
+	+	104	0
+	+	105	0
+	+	107	0
+	+	106	8
+	+	108	0
+	+	158	16
+	+	118	0
+	+	117	0
+	+	118	42
+	+	64	0
+
+> ~/simulacion/simulacion/dev/practica.1/2.prueba.py
+	*	1654382094	0
+	"	1	0
+
+> ~/DOTFILES/.git/COMMIT_EDITMSG
+	*	1654218470	0
+	"	1	20
+	^	1	21
+	.	1	20
+	+	1	20
+
+> ~/dotfile
+	*	1654218437	0
+	"	22	14
+	^	22	15
+	.	22	14
+	+	22	14
 
 > ~/.config/xfce4/terminal/terminalrc
 	*	1654213888	0
@@ -894,61 +1173,6 @@ $\t
 > ~/almacen/.git/COMMIT_EDITMSG
 	*	1654138451	0
 	"	1	0
-
-> ~/.config/i3/autostart
-	*	1653957681	0
-	"	14	9
-	^	14	10
-	.	14	9
-	+	4	0
-	+	7	0
-	+	13	19
-	+	3	48
-	+	3	26
-	+	3	64
-	+	3	48
-	+	3	3
-	+	1	11
-	+	3	40
-	+	3	66
-	+	8	6
-	+	7	0
-	+	8	0
-	+	7	0
-	+	10	0
-	+	10	165
-	+	16	11
-	+	16	0
-	+	4	11
-	+	16	12
-	+	7	0
-	+	8	0
-	+	16	0
-	+	16	110
-	+	16	0
-	+	16	103
-	+	4	0
-	+	16	112
-	+	7	0
-	+	12	0
-	+	15	0
-	+	3	62
-	+	4	0
-	+	16	0
-	+	15	110
-	+	15	1
-	+	15	116
-	+	15	0
-	+	15	112
-	+	15	0
-	+	3	62
-	+	15	0
-	+	15	104
-	+	15	0
-	+	15	111
-	+	15	0
-	+	16	0
-	+	14	9
 
 > /etc/hosts
 	*	1653849169	0
@@ -1127,10 +1351,6 @@ $\t
 	*	1652390417	0
 	"	1	0
 
-> ~/.local/share/applications/wine/Programs/Microsoft Office/Microsoft Office Word 2007.desktop
-	*	1652362927	0
-	"	4	0
-
 > /usr/share/applications/writer.desktop
 	*	1652358066	0
 	"	24	15
@@ -1207,13 +1427,6 @@ $\t
 	"	1	0
 	.	1	0
 	+	1	0
-
-> ~/dev/amorcito/api/.env
-	*	1651796810	0
-	"	14	23
-	^	14	24
-	.	14	24
-	+	14	24
 
 > ~/nginx/conf/sites/segurity.am
 	*	1651796495	0
@@ -1342,23 +1555,6 @@ $\t
 > /mnt/am/home/am/VPN/us-free-02.protonvpn.com.udp.ovpn
 	*	1651700100	0
 	"	43	0
-
-> ~/nginx/conf/sites/amorcito.am
-	*	1651618175	0
-	"	13	0
-	.	13	0
-	+	7	16
-	+	9	35
-	+	10	1
-	+	10	0
-	+	14	0
-	+	12	8
-	+	14	8
-	+	12	8
-	+	14	0
-	+	12	8
-	+	14	0
-	+	13	0
 
 > ~/nginx/conf/sites/laravel.base
 	*	1651618168	0
@@ -1737,231 +1933,3 @@ $\t
 > /usr/share/icons/default/index.theme
 	*	1649980801	0
 	"	2	0
-
-> ~/.config/gtk-2.0/gtkfilechooser.ini
-	*	1649980581	0
-	"	1	0
-
-> ~/nginx/conf/sites/template
-	*	1649813647	0
-	"	4	0
-	.	4	0
-	+	4	0
-
-> ~/nginx/conf/sites/amorcito
-	*	1649812662	0
-	"	5	50
-	^	5	51
-	.	5	50
-	+	3	23
-	+	5	50
-
-> ~/nginx/conf/sites/vue-app
-	*	1649811289	0
-	"	16	9
-	^	16	10
-	.	16	10
-	+	8	0
-	+	19	0
-	+	13	46
-	+	13	0
-	+	19	47
-	+	20	0
-	+	6	16
-	+	6	62
-	+	7	0
-	+	6	0
-	+	5	0
-	+	8	0
-	+	9	55
-	+	13	0
-	+	5	0
-	+	19	0
-	+	2	13
-	+	3	23
-	+	17	23
-	+	16	10
-
-> ~/nginx/conf/nginx.conf
-	*	1649810303	0
-	"	33	15
-	^	33	16
-	.	33	15
-	+	1	0
-	+	34	0
-	+	33	15
-
-> ~/.config/i3/wallpaperSort
-	*	1649806458	0
-	"	5	56
-	^	5	57
-	.	5	56
-	+	7	0
-	+	5	110
-	+	3	54
-	+	5	56
-
-> /tmp/crontab.lBPCdv
-	*	1649805613	0
-	"	1	0
-	^	1	1
-	.	1	0
-	+	1	0
-
-> /tmp/crontab.HEP6sk
-	*	1649805439	0
-	"	1	91
-	^	1	92
-
-> /tmp/crontab.1yy2Bl
-	*	1649804628	0
-	"	1	2
-	.	1	2
-	+	1	2
-
-> /tmp/crontab.f7veb0
-	*	1649803317	0
-	"	1	91
-	^	1	92
-	.	1	91
-	+	1	91
-
-> ~/i3-gaps-next/release.sh
-	*	1649788303	0
-	"	236	0
-
-> ~/i3-gaps-next/release
-	*	1649788289	0
-	"	1	0
-
-> ~/development/vue/vue-app/app/package.json
-	*	1649725202	0
-	"	1	0
-
-> ~/.vuerc
-	*	1649724669	0
-	"	1	0
-
-> ~/evaluacion.de.amorcito
-	*	1649646789	0
-	"	7	0
-	^	39	0
-	.	39	0
-	+	40	7
-	+	1	10
-	+	15	0
-	+	16	21
-	+	2	0
-	+	4	2
-	+	20	13
-	+	19	49
-	+	17	61
-	+	21	10
-	+	23	12
-	+	22	8
-	+	23	3
-	+	22	42
-	+	24	11
-	+	23	12
-	+	24	11
-	+	23	55
-	+	22	69
-	+	23	50
-	+	26	3
-	+	4	22
-	+	3	25
-	+	4	23
-	+	11	0
-	+	27	39
-	+	5	2
-	+	26	3
-	+	27	12
-	+	5	20
-	+	6	0
-	+	4	67
-	+	28	7
-	+	6	20
-	+	28	76
-	+	29	10
-	+	8	15
-	+	28	92
-	+	29	10
-	+	28	122
-	+	29	64
-	+	30	11
-	+	9	47
-	+	28	151
-	+	30	80
-	+	32	9
-	+	31	0
-	+	33	1
-	+	32	0
-	+	37	9
-	+	34	10
-	+	33	20
-	+	35	11
-	+	36	12
-	+	37	13
-	+	33	21
-	+	44	9
-	+	42	8
-	+	43	9
-	+	44	10
-	+	10	34
-	+	41	10
-	+	42	11
-	+	43	12
-	+	44	12
-	+	16	27
-	+	17	64
-	+	18	17
-	+	22	70
-	+	23	59
-	+	24	15
-	+	22	72
-	+	23	59
-	+	21	14
-	+	28	154
-	+	29	67
-	+	30	84
-	+	26	16
-	+	32	10
-	+	40	9
-	+	14	16
-	+	1	15
-	+	40	13
-	+	1	13
-	+	16	0
-	+	46	9
-	+	39	0
-
-> /etc/php/php-fpm.d/www.conf
-	*	1649469430	0
-	"	24	8
-	^	24	9
-	.	24	9
-	+	23	10
-	+	24	11
-	+	48	18
-	+	49	18
-	+	24	9
-
-> ~/development/segurity.uneg/.env
-	*	1649371071	0
-	"	10	0
-	^	11	17
-	.	11	16
-	+	13	17
-	+	11	16
-
-> /mnt/am/home/am/segurity-uneg.2/config/database.php
-	*	1649369239	0
-	"	45	0
-
-> ~/.local/share/applications/wine/Programs/Microsoft Office/word.desktop
-	*	1649288137	0
-	"	1	0
-	^	2	9
-	.	2	8
-	+	3	43
-	+	2	8
