@@ -1,0 +1,8 @@
+{
+    "editor.fontSize": 12,
+    "window.zoomLevel": -1,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.insertSpaces": false,
+    "editor.wordWrap": "bounded",
+    "workbench.colorTheme": "Monokai"
+}

@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último Patrón de búsqueda:
-~MSle0~/autosta
+~MSle0~/dd
 
 # Último Sustitución Patrón de búsqueda:
 ~MSle0&free18
@@ -21,11 +21,13 @@ $\t
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
 :wq
-|2,0,1655603811,,"wq"
-:w
-|2,0,1655603720,,"w"
+|2,0,1656300720,,"wq"
 :q!
-|2,0,1655603574,,"q!"
+|2,0,1656287107,,"q!"
+:w
+|2,0,1656284425,,"w"
+:q
+|2,0,1655857880,,"q"
 :W
 |2,0,1655602675,,"W"
 :qq!
@@ -54,8 +56,6 @@ $\t
 |2,0,1651527503,,"% s/-/\\n-/g"
 :tabe .bashrc
 |2,0,1651526022,,"tabe .bashrc"
-:q
-|2,0,1650804611,,"q"
 :Q!
 |2,0,1650379515,,"Q!"
 :.!:q!
@@ -204,6 +204,8 @@ $\t
 |2,0,1631476210,,"b"
 
 # Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+?/dd
+|2,1,1655948813,47,"dd"
 ?/autosta
 |2,1,1655566160,47,"autosta"
 ?/aur
@@ -390,378 +392,308 @@ $\t
 # Historia de Línea de depuración (de lo más nuevo a lo más antiguo):
 
 # Registros:
-"0	LINE	0
-		echo "V $(VOL)   |   M $(MEM)   |   /H $(HOME)  /F $(FMORE)   |   $(IFACE)  $(TRAF)   |   C $(CPU)   |   $(DATE)"; 
-|3,0,0,1,1,0,1655568037,"	echo \"V $(VOL)   |   M $(MEM)   |   /H $(HOME)  /F $(FMORE)   |   $(IFACE)  $(TRAF)   |   C $(CPU)   |   $(DATE)\"; "
+""0	LINE	0
+	.config/termite
+|3,1,0,1,1,0,1656300713,".config/termite"
 "1	LINE	0
-	;date = %H:%M
-|3,0,1,1,1,0,1655602747,";date = %H:%M"
-"2	BLOCK	0
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-|3,0,2,2,12,0,1655567742,"#","#","#","#","#","#","#","#","#","#","#","#"
-"3	BLOCK	0
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-|3,0,3,2,12,0,1655517618,"#","#","#","#","#","#","#","#","#","#","#","#"
+	
+|3,0,1,1,1,0,1655948817,""
+"2	LINE	0
+						{{ dd($r) }}
+|3,0,2,1,1,0,1655948816,"					{{ dd($r) }}"
+"3	LINE	0
+	Exec=env WINEPREFIX="/home/am/MOFFICE" wine '/home/am/.MOFFICE2010/drive_c/Program Files/Microsoft Office/Office14/WINWORD.EXE'
+|3,0,3,1,1,0,1655863318,"Exec=env WINEPREFIX=\"/home/am/MOFFICE\" wine '/home/am/.MOFFICE2010/drive_c/Program Files/Microsoft Office/Office14/WINWORD.EXE'"
 "4	LINE	0
-	
-	[module/xkeyboard]
-	type = internal/xkeyboard
-	blacklist-0 = num lock
-	
-	label-layout = %layout%
-	label-layout-foreground = ${colors.primary}
-	
-	label-indicator-padding = 2
-	label-indicator-margin = 1
-	label-indicator-foreground = ${colors.background}
-	label-indicator-background = ${colors.secondary}
-	
-|3,0,4,1,13,0,1655517522,"","[module/xkeyboard]","type = internal/xkeyboard","blacklist-0 = num lock","","label-layout = %layout%","label-layout-foreground = ${colors.primary}","","label-indicator-padding = 2","label-indicator-margin = 1","label-indicator-foreground = ${colors.background}","label-indicator-background = ${colors.secondary}",""
+	Exec=env WINEPREFIX="/home/am/MOFFICE" sh -c "echo %f | sed 's/ /\\\\ /g' | xargs wine start /unix /home/am/MOFFICE/dosdevices/c:/users/am/Start\\ Menu/Programs/Microsoft\\ Office/Microsoft\\ Office\\ Word\\ 2007.lnk" %f
+|3,0,4,1,1,0,1655859016,"Exec=env WINEPREFIX=\"/home/am/MOFFICE\" sh -c \"echo %f | sed 's/ /\\\\\\\\ /g' | xargs wine start /unix /home/am/MOFFICE/dosdevices/c:/users/am/Start\\\\ Menu/Programs/Microsoft\\\\ Office/Microsoft\\\\ Office\\\\ Word\\\\ 2007.lnk\" %f"
 "5	LINE	0
-	font = DejaVuSansMono Nerd Font Mono 9
-|3,0,5,1,1,0,1654214354,"font = DejaVuSansMono Nerd Font Mono 9"
+	Exec=env WINEPREFIX="/home/am/MOFFICE" sh -c "echo %f | sed 's/^\//z:\//' | xargs wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/am/MOFFICE/dosdevices/c:/users/am/Start Menu/Programs/Microsoft Office/Microsoft Office Word 2007.lnk"
+|3,0,5,1,1,0,1655857839,"Exec=env WINEPREFIX=\"/home/am/MOFFICE\" sh -c \"echo %f | sed 's/^\\//z:\\//' | xargs wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/am/MOFFICE/dosdevices/c:/users/am/Start Menu/Programs/Microsoft Office/Microsoft Office Word 2007.lnk\""
 "6	LINE	0
-	#bindsym --release $mod+Return exec --no-startup-id xfce4-terminal.wrapper
-|3,0,6,1,1,0,1654213944,"#bindsym --release $mod+Return exec --no-startup-id xfce4-terminal.wrapper"
+	Exec=env WINEPREFIX="/home/am/MOFFICE" wine /home/am/MOFFICE/drive_c/Program\\ Files/Microsoft\\ Office/Office12/WINWORD.EXE %f
+|3,0,6,1,1,0,1655854359,"Exec=env WINEPREFIX=\"/home/am/MOFFICE\" wine /home/am/MOFFICE/drive_c/Program\\\\ Files/Microsoft\\\\ Office/Office12/WINWORD.EXE %f"
 "7	LINE	0
-	[colors]
-	# Base16 Gruvbox dark, hard
-	
-	foreground          = #d5c4a1
-	foreground_bold     = #d5c4a1
-	cursor              = #d5c4a1
-	cursor_foreground   = #1d2021
-	#background          = #1d2021
-	background = rgba(29, 32, 33, 0.85)
-	# 16 color space
-	
-	# Black, Gray, Silver, White
-	color0  = #1d2021
-	color8  = #665c54
-	color7  = #d5c4a1
-	color15 = #fbf1c7
-	
-	# Red
-	color1  = #fb4934
-	color9  = #fb4934
-	
-	# Green
-	color2  = #b8bb26
-	color10 = #b8bb26
-	
-	# Yellow
-	color3  = #fabd2f
-	color11 = #fabd2f
-	
-	# Blue
-	color4  = #83a598
-	color12 = #83a598
-	
-	# Purple
-	color5  = #d3869b
-	color13 = #d3869b
-	
-	# Teal
-	color6  = #8ec07c
-	color14 = #8ec07c
-	
-	# Extra colors
-	color16 = #fe8019
-	color17 = #d65d0e
-	color18 = #3c3836
-	color19 = #504945
-	color20 = #bdae93
-	color21 = #ebdbb2
-|3,0,7,1,48,0,1654213826,"[colors]","# Base16 Gruvbox dark, hard","","foreground          = #d5c4a1","foreground_bold     = #d5c4a1","cursor              = #d5c4a1","cursor_foreground   = #1d2021","#background          = #1d2021","background = rgba(29, 32, 33, 0.85)","# 16 color space","","# Black, Gray, Silver, White","color0  = #1d2021","color8  = #665c54","color7  = #d5c4a1","color15 = #fbf1c7","","# Red","color1  = #fb4934","color9  = #fb4934","",>9
-|<"# Green","color2  = #b8bb26","color10 = #b8bb26","","# Yellow","color3  = #fabd2f","color11 = #fabd2f","","# Blue","color4  = #83a598","color12 = #83a598","","# Purple","color5  = #d3869b","color13 = #d3869b","","# Teal","color6  = #8ec07c","color14 = #8ec07c","","# Extra colors","color16 = #fe8019","color17 = #d65d0e","color18 = #3c3836","color19 = #504945","color20 = #bdae93","color21 = #ebdbb2"
-"8	LINE	0
-	background          = #1d2021
-|3,0,8,1,1,0,1654213623,"background          = #1d2021"
-"9	LINE	0
-	background = rgba(1d, 20, 21, 0.8)
-|3,0,9,1,1,0,1654133163,"background = rgba(1d, 20, 21, 0.8)"
+	;date = %H:%M
+|3,0,7,1,1,0,1655602747,";date = %H:%M"
+"8	BLOCK	0
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+|3,0,8,2,12,0,1655567742,"#","#","#","#","#","#","#","#","#","#","#","#"
+"9	BLOCK	0
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+|3,0,9,2,12,0,1655517618,"#","#","#","#","#","#","#","#","#","#","#","#"
 "u	CHAR	0
 		
 |3,0,30,0,1,0,1649134282,"	"
-""-	CHAR	0
-	%{F#F0C674}%ifname%%{F-} 
-|3,1,36,0,1,0,1655603117,"%{F#F0C674}%ifname%%{F-} "
+"-	CHAR	0
+	/var/log/mongodb/mongod.log
+|3,0,36,0,1,0,1656246421,"/var/log/mongodb/mongod.log"
 
 # Marcas en el archivo:
-'0  73  19  ~/.config/i3/bar.sh
-|4,48,73,19,1655603811,"~/.config/i3/bar.sh"
-'1  73  22  ~/.config/i3/bar.sh
-|4,49,73,22,1655603660,"~/.config/i3/bar.sh"
-'2  193  0  ~/.config/i3/config
-|4,50,193,0,1655603574,"~/.config/i3/config"
-'3  197  29  ~/.config/i3/config
-|4,51,197,29,1655603200,"~/.config/i3/config"
-'4  197  29  ~/.config/i3/config
-|4,52,197,29,1655603200,"~/.config/i3/config"
-'5  44  0  ~/.config/i3/bar.sh
-|4,53,44,0,1655603193,"~/.config/i3/bar.sh"
-'6  44  0  ~/.config/i3/bar.sh
-|4,54,44,0,1655603193,"~/.config/i3/bar.sh"
-'7  44  0  ~/.config/i3/bar.sh
-|4,55,44,0,1655603193,"~/.config/i3/bar.sh"
-'8  44  0  ~/.config/i3/bar.sh
-|4,56,44,0,1655603193,"~/.config/i3/bar.sh"
-'9  141  0  ~/.config/i3/polybar.conf
-|4,57,141,0,1655603182,"~/.config/i3/polybar.conf"
+'0  23  16  ~/dotfile
+|4,48,23,16,1656300720,"~/dotfile"
+'1  1  0  ~/.config/Code/User/settings.json
+|4,49,1,0,1656287107,"~/.config/Code/User/settings.json"
+'2  10  0  ~/.config/i3/config
+|4,50,10,0,1656284483,"~/.config/i3/config"
+'3  11  0  ~/.config/i3/config
+|4,51,11,0,1656284456,"~/.config/i3/config"
+'4  11  0  ~/.config/i3/config
+|4,52,11,0,1656284456,"~/.config/i3/config"
+'5  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
+|4,53,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
+'6  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,54,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+'7  19  16  ~/mongo/etc/mongod.conf
+|4,55,19,16,1656246493,"~/mongo/etc/mongod.conf"
+'8  10  16  ~/mongo/etc/mongod.conf
+|4,56,10,16,1656246448,"~/mongo/etc/mongod.conf"
+'9  10  16  ~/mongo/etc/mongod.conf
+|4,57,10,16,1656246448,"~/mongo/etc/mongod.conf"
 
 # Lista de saltos (el más reciente va primero):
--'  73  19  ~/.config/i3/bar.sh
-|4,39,73,19,1655603811,"~/.config/i3/bar.sh"
--'  2  0  ~/.config/i3/bar.sh
-|4,39,2,0,1655603687,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1655603684,"~/.config/i3/bar.sh"
--'  73  22  ~/.config/i3/bar.sh
-|4,39,73,22,1655603660,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1655603580,"~/.config/i3/bar.sh"
--'  193  0  ~/.config/i3/config
-|4,39,193,0,1655603574,"~/.config/i3/config"
--'  193  0  ~/.config/i3/config
-|4,39,193,0,1655603574,"~/.config/i3/config"
--'  193  0  ~/.config/i3/config
-|4,39,193,0,1655603574,"~/.config/i3/config"
--'  193  0  ~/.config/i3/config
-|4,39,193,0,1655603574,"~/.config/i3/config"
+-'  23  16  ~/dotfile
+|4,39,23,16,1656300720,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1656300706,"~/dotfile"
+-'  1  0  ~/.config/Code/User/settings.json
+|4,39,1,0,1656287107,"~/.config/Code/User/settings.json"
+-'  1  0  ~/.config/Code/User/settings.json
+|4,39,1,0,1656287107,"~/.config/Code/User/settings.json"
+-'  10  0  ~/.config/i3/config
+|4,39,10,0,1656284483,"~/.config/i3/config"
+-'  10  0  ~/.config/i3/config
+|4,39,10,0,1656284483,"~/.config/i3/config"
+-'  10  0  ~/.config/i3/config
+|4,39,10,0,1656284483,"~/.config/i3/config"
+-'  10  0  ~/.config/i3/config
+|4,39,10,0,1656284483,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1655603222,"~/.config/i3/config"
+|4,39,1,0,1656284477,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1655603222,"~/.config/i3/config"
+|4,39,1,0,1656284477,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1655603222,"~/.config/i3/config"
+|4,39,1,0,1656284477,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1655603222,"~/.config/i3/config"
--'  197  29  ~/.config/i3/config
-|4,39,197,29,1655603200,"~/.config/i3/config"
--'  197  29  ~/.config/i3/config
-|4,39,197,29,1655603200,"~/.config/i3/config"
--'  197  29  ~/.config/i3/config
-|4,39,197,29,1655603200,"~/.config/i3/config"
--'  197  29  ~/.config/i3/config
-|4,39,197,29,1655603200,"~/.config/i3/config"
--'  197  29  ~/.config/i3/config
-|4,39,197,29,1655603200,"~/.config/i3/config"
--'  197  29  ~/.config/i3/config
-|4,39,197,29,1655603200,"~/.config/i3/config"
--'  197  29  ~/.config/i3/config
-|4,39,197,29,1655603200,"~/.config/i3/config"
--'  197  29  ~/.config/i3/config
-|4,39,197,29,1655603200,"~/.config/i3/config"
+|4,39,1,0,1656284477,"~/.config/i3/config"
+-'  11  0  ~/.config/i3/config
+|4,39,11,0,1656284456,"~/.config/i3/config"
+-'  11  0  ~/.config/i3/config
+|4,39,11,0,1656284456,"~/.config/i3/config"
+-'  11  0  ~/.config/i3/config
+|4,39,11,0,1656284456,"~/.config/i3/config"
+-'  11  0  ~/.config/i3/config
+|4,39,11,0,1656284456,"~/.config/i3/config"
+-'  11  0  ~/.config/i3/config
+|4,39,11,0,1656284456,"~/.config/i3/config"
+-'  11  0  ~/.config/i3/config
+|4,39,11,0,1656284456,"~/.config/i3/config"
+-'  11  0  ~/.config/i3/config
+|4,39,11,0,1656284456,"~/.config/i3/config"
+-'  11  0  ~/.config/i3/config
+|4,39,11,0,1656284456,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1655603196,"~/.config/i3/config"
+|4,39,1,0,1656284417,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1655603196,"~/.config/i3/config"
+|4,39,1,0,1656284417,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1655603196,"~/.config/i3/config"
+|4,39,1,0,1656284417,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1655603196,"~/.config/i3/config"
--'  44  0  ~/.config/i3/bar.sh
-|4,39,44,0,1655603193,"~/.config/i3/bar.sh"
--'  44  0  ~/.config/i3/bar.sh
-|4,39,44,0,1655603193,"~/.config/i3/bar.sh"
--'  44  0  ~/.config/i3/bar.sh
-|4,39,44,0,1655603193,"~/.config/i3/bar.sh"
--'  44  0  ~/.config/i3/bar.sh
-|4,39,44,0,1655603193,"~/.config/i3/bar.sh"
--'  44  0  ~/.config/i3/bar.sh
-|4,39,44,0,1655603193,"~/.config/i3/bar.sh"
--'  44  0  ~/.config/i3/bar.sh
-|4,39,44,0,1655603193,"~/.config/i3/bar.sh"
--'  141  0  ~/.config/i3/polybar.conf
-|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
--'  141  0  ~/.config/i3/polybar.conf
-|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
--'  141  0  ~/.config/i3/polybar.conf
-|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
--'  141  0  ~/.config/i3/polybar.conf
-|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
--'  141  0  ~/.config/i3/polybar.conf
-|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
--'  141  0  ~/.config/i3/polybar.conf
-|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
--'  141  0  ~/.config/i3/polybar.conf
-|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
--'  141  0  ~/.config/i3/polybar.conf
-|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
--'  141  0  ~/.config/i3/polybar.conf
-|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
--'  141  0  ~/.config/i3/polybar.conf
-|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
--'  141  0  ~/.config/i3/polybar.conf
-|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
--'  141  0  ~/.config/i3/polybar.conf
-|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
--'  141  0  ~/.config/i3/polybar.conf
-|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
--'  141  0  ~/.config/i3/polybar.conf
-|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
--'  141  0  ~/.config/i3/polybar.conf
-|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
--'  141  0  ~/.config/i3/polybar.conf
-|4,39,141,0,1655603182,"~/.config/i3/polybar.conf"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1655602606,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1655602606,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1655602606,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1655602606,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/polybar.conf
-|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
--'  1  0  ~/.config/i3/polybar.conf
-|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
--'  1  0  ~/.config/i3/polybar.conf
-|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
--'  1  0  ~/.config/i3/polybar.conf
-|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
--'  1  0  ~/.config/i3/polybar.conf
-|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
--'  1  0  ~/.config/i3/polybar.conf
-|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
--'  1  0  ~/.config/i3/polybar.conf
-|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
--'  1  0  ~/.config/i3/polybar.conf
-|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
--'  1  0  ~/.config/i3/polybar.conf
-|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
--'  1  0  ~/.config/i3/polybar.conf
-|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
--'  1  0  ~/.config/i3/polybar.conf
-|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
--'  1  0  ~/.config/i3/polybar.conf
-|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
--'  1  0  ~/.config/i3/polybar.conf
-|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
--'  1  0  ~/.config/i3/polybar.conf
-|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
--'  1  0  ~/.config/i3/polybar.conf
-|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
--'  1  0  ~/.config/i3/polybar.conf
-|4,39,1,0,1655602574,"~/.config/i3/polybar.conf"
--'  74  9  ~/.config/i3/bar.sh
-|4,39,74,9,1655597574,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
--'  74  9  ~/.config/i3/bar.sh
-|4,39,74,9,1655597574,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655597574,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1655597570,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1655597570,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1655597570,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1655597570,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1655597570,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1655597570,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1655597570,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1655597570,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655596833,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655596833,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655596833,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655596833,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655596833,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655596833,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655596833,"~/.config/i3/bar.sh"
--'  70  9  ~/.config/i3/bar.sh
-|4,39,70,9,1655596833,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1655596828,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1655596828,"~/.config/i3/bar.sh"
+|4,39,1,0,1656284417,"~/.config/i3/config"
+-'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
+|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
+|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
+|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
+|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
+|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
+|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
+|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
+|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
+|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
+|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
+|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
+|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
+|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
+|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
+|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
+|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
+|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+-'  19  16  ~/mongo/etc/mongod.conf
+|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
 
-> ~/.config/i3/bar.sh
-	*	1655603720	0
-	"	73	19
-	^	74	10
-	.	73	19
-	+	73	0
-	+	72	1
-	+	73	84
-	+	74	1
-	+	3	47
-	+	74	1
-	+	3	45
-	+	74	9
-	+	66	10
-	+	67	80
-	+	68	0
-	+	73	22
-	+	74	9
-	+	73	19
+> ~/dotfile
+	*	1656300718	0
+	"	23	16
+	^	23	17
+	.	23	16
+	+	22	14
+	+	23	16
+
+> ~/.config/Code/User/settings.json
+	*	1656287098	0
+	"	1	0
 
 > ~/.config/i3/config
-	*	1655603540	0
-	"	193	0
-	^	197	30
-	.	197	29
-	+	53	0
-	+	90	12
+	*	1656284482	0
+	"	10	0
+	^	10	1
+	.	10	0
 	+	95	0
 	+	101	0
 	+	100	0
@@ -860,6 +792,184 @@ $\t
 	+	188	0
 	+	194	37
 	+	197	29
+	+	11	1
+	+	10	0
+
+> ~/dev/node/users/.git/COMMIT_EDITMSG
+	*	1656278581	0
+	"	1	0
+
+> /usr/local/src/mongodb/lib/systemd/system/mongod.service
+	*	1656246830	0
+	"	1	0
+
+> ~/mongo/etc/mongod.conf
+	*	1656246492	0
+	"	19	16
+	^	19	17
+	.	19	16
+	+	8	15
+	+	19	25
+	+	8	18
+	+	19	16
+
+> ~/mongo/usr/bin/NERD_tree_1
+	*	1656246469	0
+	"	5	0
+	.	1	0
+	+	1	0
+
+> /tmp/bash-fc.knC3r6
+	*	1656211390	0
+	"	1	0
+
+> /etc/mongodb.conf
+	*	1656195644	0
+	"	43	0
+
+> ~/dev/node/users/.gitignore
+	*	1656194435	0
+	"	1	11
+	^	1	12
+	.	1	11
+	+	1	11
+
+> ~/dev/ssw/.git/COMMIT_EDITMSG
+	*	1655948831	0
+	"	1	0
+	^	1	10
+	.	1	9
+	+	1	37
+	+	22	58
+	+	20	55
+	+	18	36
+	+	1	32
+	+	15	18
+	+	12	4
+	+	9	71
+	+	4	57
+	+	6	20
+	+	1	9
+
+> ~/dev/ssw/resources/views/livewire/ssw/rutas/grupos-busqueda-component.blade.php
+	*	1655948817	0
+	"	49	5
+	.	49	0
+	+	49	0
+
+> ~/dev/ssw/.env
+	*	1655943290	0
+	"	54	17
+	^	54	18
+	.	54	17
+	+	54	18
+	+	55	13
+	+	54	17
+
+> ~/.local/share/applications/wine-extension-gif.desktop
+	*	1655934882	0
+	"	1	0
+
+> ~/.local/share/applications/wine/Programs/Microsoft Office 2007/word.desktop
+	*	1655934864	0
+	"	1	0
+
+> ~/.local/share/applications/wine/Programs/Microsoft Office 2007/Microsoft Office Word 2007.desktop
+	*	1655934859	0
+	"	1	0
+	^	3	0
+	.	3	0
+	+	5	0
+	+	3	0
+	+	5	43
+	+	5	126
+	+	5	0
+	+	3	0
+	+	5	0
+	+	3	0
+	+	5	80
+	+	5	229
+	+	5	0
+	+	3	0
+	+	5	0
+	+	3	0
+	+	5	161
+	+	5	39
+	+	5	222
+	+	5	0
+	+	3	0
+	+	5	0
+	+	3	0
+	+	5	126
+	+	5	0
+	+	3	0
+	+	3	241
+	+	3	0
+	+	3	237
+	+	3	0
+	+	3	238
+	+	5	0
+	+	4	0
+	+	3	0
+	+	4	124
+	+	4	0
+	+	3	0
+
+> ~/.local/share/applications/wine-extension-jpe.desktop
+	*	1655858105	0
+	"	1	0
+
+> ~/.local/share/applications/wine-extension-xml.desktop
+	*	1655854307	0
+	"	1	0
+
+> ~/.local/share/applications/wine-extension-
+	*	1655854300	0
+	"	1	0
+
+> ~/DOTFILES/.gitignore
+	*	1655604378	0
+	"	2	0
+	^	2	1
+	.	2	0
+	+	1	12
+	+	2	8
+	+	1	0
+	+	2	0
+
+> ~/gitToken
+	*	1655604161	0
+	"	1	39
+	^	1	40
+	.	1	39
+	+	1	39
+
+> ~/DOTFILES/.git/COMMIT_EDITMSG
+	*	1655604082	0
+	"	1	0
+	^	1	21
+	.	1	20
+	+	1	20
+
+> ~/.config/i3/bar.sh
+	*	1655603720	0
+	"	73	19
+	^	74	10
+	.	73	19
+	+	73	0
+	+	72	1
+	+	73	84
+	+	74	1
+	+	3	47
+	+	74	1
+	+	3	45
+	+	74	9
+	+	66	10
+	+	67	80
+	+	68	0
+	+	73	22
+	+	74	9
+	+	73	19
 
 > ~/.config/i3/polybar.conf
 	*	1655603125	0
@@ -1053,13 +1163,6 @@ $\t
 	*	1654820072	0
 	"	1	0
 
-> ~/gitToken
-	*	1654812129	0
-	"	1	39
-	^	1	40
-	.	1	39
-	+	1	39
-
 > ~/nginx/conf/sites/amorcito.am
 	*	1654734391	0
 	"	1	0
@@ -1141,20 +1244,6 @@ $\t
 	*	1654382094	0
 	"	1	0
 
-> ~/DOTFILES/.git/COMMIT_EDITMSG
-	*	1654218470	0
-	"	1	20
-	^	1	21
-	.	1	20
-	+	1	20
-
-> ~/dotfile
-	*	1654218437	0
-	"	22	14
-	^	22	15
-	.	22	14
-	+	22	14
-
 > ~/.config/xfce4/terminal/terminalrc
 	*	1654213888	0
 	"	1	0
@@ -1190,23 +1279,6 @@ $\t
 	+	7	0
 	+	12	0
 	+	8	20
-
-> ~/dev/ssw/.git/COMMIT_EDITMSG
-	*	1653358710	0
-	"	1	0
-	^	1	10
-	.	1	9
-	+	1	37
-	+	22	58
-	+	20	55
-	+	18	36
-	+	1	32
-	+	15	18
-	+	12	4
-	+	9	71
-	+	4	57
-	+	6	20
-	+	1	9
 
 > ~/.ssh/github
 	*	1653343485	0
@@ -1718,218 +1790,3 @@ $\t
 	+	11	39
 	+	4	14
 	+	5	12
-
-> ~/development/crud-livewire-alpine/resources/views/livewire/form.blade.php
-	*	1651355731	0
-	"	1	0
-
-> ~/.config/i3/bar2.sh
-	*	1651089220	0
-	"	68	84
-	^	67	2
-	.	68	87
-	+	50	41
-	+	39	0
-	+	22	69
-	+	62	7
-	+	63	71
-	+	67	100
-	+	68	0
-	+	67	1
-	+	68	87
-
-> ~/pgsql/data/postgresql.conf
-	*	1650987449	0
-	"	219	0
-	^	59	21
-	.	63	0
-	+	59	20
-	+	63	0
-
-> ~/pgsql/data/pg_hba.conf
-	*	1650987407	0
-	"	78	0
-	^	86	49
-	.	86	48
-	+	86	48
-
-> ~/.icons/default/index.theme
-	*	1650804611	0
-	"	5	25
-	^	5	26
-	.	5	25
-	+	5	25
-
-> ~/.icons/NERD_tree_1
-	*	1650804548	0
-	"	6	0
-	.	1	0
-	+	1	0
-
-> ~/development/segurity-uneg/.env
-	*	1650502252	0
-	"	2	0
-	^	15	17
-	.	15	16
-	+	10	18
-	+	12	11
-	+	13	17
-	+	14	16
-	+	15	16
-
-> /usr/local/src/sublime.text.3/Packages/Default.sublime-package
-	*	1650502193	0
-	"	2625	63
-
-> ~/.config/openbox/autostart
-	*	1650378225	0
-	"	28	66
-	^	28	67
-	.	28	66
-	+	1	12
-	+	10	20
-	+	22	0
-	+	25	165
-	+	22	0
-	+	27	0
-	+	19	0
-	+	29	0
-	+	28	66
-
-> ~/.config/openbox/rc.xml
-	*	1650127401	0
-	"	346	0
-	^	15	43
-	.	15	42
-	+	242	0
-	+	245	0
-	+	246	0
-	+	250	0
-	+	259	0
-	+	268	0
-	+	277	0
-	+	286	0
-	+	295	0
-	+	302	0
-	+	298	0
-	+	292	0
-	+	308	0
-	+	314	0
-	+	318	0
-	+	322	0
-	+	323	0
-	+	324	0
-	+	325	0
-	+	327	0
-	+	326	0
-	+	328	0
-	+	329	26
-	+	331	0
-	+	334	0
-	+	338	0
-	+	342	0
-	+	348	0
-	+	350	0
-	+	373	0
-	+	393	0
-	+	372	0
-	+	395	0
-	+	318	0
-	+	318	36
-	+	318	0
-	+	332	0
-	+	352	83
-	+	352	0
-	+	352	50
-	+	352	0
-	+	352	23
-	+	365	0
-	+	352	0
-	+	354	0
-	+	225	24
-	+	225	0
-	+	226	18
-	+	225	20
-	+	388	5
-	+	393	4
-	+	377	0
-	+	377	31
-	+	382	23
-	+	386	13
-	+	382	0
-	+	383	0
-	+	385	0
-	+	384	0
-	+	15	0
-	+	226	0
-	+	246	19
-	+	255	19
-	+	199	0
-	+	199	22
-	+	206	21
-	+	199	5
-	+	212	4
-	+	212	9
-	+	212	0
-	+	212	17
-	+	212	0
-	+	212	42
-	+	212	32
-	+	212	0
-	+	212	21
-	+	212	22
-	+	212	19
-	+	212	18
-	+	212	0
-	+	199	0
-	+	168	5
-	+	180	4
-	+	164	28
-	+	2	0
-	+	14	14
-	+	15	18
-	+	64	10
-	+	221	27
-	+	355	34
-	+	359	0
-	+	363	0
-	+	359	0
-	+	331	0
-	+	330	0
-	+	329	27
-	+	343	0
-	+	344	0
-	+	15	42
-
-> ~/.config/openbox/bar2.sh
-	*	1650126771	0
-	"	22	69
-	^	22	70
-	.	22	69
-	+	22	69
-
-> ~/i3/install-sh
-	*	1650124329	0
-	"	541	0
-
-> ~/.icons/googledot/cursor.theme
-	*	1649981293	0
-	"	1	0
-
-> ~/.icons/googledot/cursor
-	*	1649981290	0
-	"	1	0
-
-> ~/.icons/googledot/index.theme
-	*	1649981273	0
-	"	1	0
-
-> ~/.Xresources
-	*	1649981132	0
-	"	7	0
-	.	8	0
-	+	8	0
-
-> /usr/share/icons/default/index.theme
-	*	1649980801	0
-	"	2	0
