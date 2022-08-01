@@ -1,4 +1,4 @@
-# Vim 8.2 generó este archivo "viminfo".
+# Vim 9.0 generó este archivo "viminfo".
 # Puede editarlo, ¡sólo si tiene cuidado!
 
 # Viminfo version
@@ -11,23 +11,79 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último Patrón de búsqueda:
-~MSle0~/dd
+~MSle0/sqli
 
 # Último Sustitución Patrón de búsqueda:
-~MSle0&free18
+~MSle0~&80
 
 # Última cadena de sustitución:
-$\t
+$81
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
 :wq
-|2,0,1656300720,,"wq"
+|2,0,1659354129,,"wq"
 :q!
-|2,0,1656287107,,"q!"
+|2,0,1659311447,,"q!"
+:'<,'>s/80/81/g
+|2,0,1659310749,,"'<,'>s/80/81/g"
+:'<,'>s/81/80/g
+|2,0,1659308789,,"'<,'>s/81/80/g"
 :w
-|2,0,1656284425,,"w"
+|2,0,1659303963,,"w"
+:'<,'>s/\( \\$\)/=shared\1/g
+|2,0,1659303905,,"'<,'>s/\\( \\\\$\\)/=shared\\1/g"
+:%s/$/ \\/g
+|2,0,1659303842,,"%s/$/ \\\\/g"
+:%s/ /\r/g
+|2,0,1659303830,,"%s/ /\\r/g"
+:%s/$/=shared/g
+|2,0,1659290133,,"%s/$/=shared/g"
+:%s/ \\$/ /g
+|2,0,1659285757,,"%s/ \\\\$/ /g"
+:'<,'>s/$/ \\/g
+|2,0,1659222915,,"'<,'>s/$/ \\\\/g"
+:'<,'>s/ /\r/g
+|2,0,1659222897,,"'<,'>s/ /\\r/g"
+:%s/81/74/g
+|2,0,1659216787,,"%s/81/74/g"
+:'<,'>s/81/74/g
+|2,0,1659216777,,"'<,'>s/81/74/g"
+:'<,'>s/80/81/s
+|2,0,1659215385,,"'<,'>s/80/81/s"
+:'<,'>s/\\"/'/g
+|2,0,1658700755,,"'<,'>s/\\\\\"/'/g"
+:'<,'>s/"/\\"/g
+|2,0,1658700458,,"'<,'>s/\"/\\\\\"/g"
+:Q!
+|2,0,1658533113,,"Q!"
+:'<,'>s/81/82/g
+|2,0,1658358871,,"'<,'>s/81/82/g"
+:'<,'>s/74/81/g
+|2,0,1658358865,,"'<,'>s/74/81/g"
+:'<,'>s/73/74/g
+|2,0,1658358856,,"'<,'>s/73/74/g"
+:'<,'>s/70/73/g
+|2,0,1658358848,,"'<,'>s/70/73/g"
+:'<,'>s/56/73/g
+|2,0,1658358840,,"'<,'>s/56/73/g"
+:'<,'>s/56/70/g
+|2,0,1658358830,,"'<,'>s/56/70/g"
+:! . .bashrc
+|2,0,1658277851,,"! . .bashrc"
+:tabe conf.d
+|2,0,1658266889,,"tabe conf.d"
 :q
-|2,0,1655857880,,"q"
+|2,0,1658266451,,"q"
+:% s/postgres/unegedu_web/g
+|2,0,1657822419,,"% s/postgres/unegedu_web/g"
+:% s/postgres/unegedu_web
+|2,0,1657822343,,"% s/postgres/unegedu_web"
+:'<,'>s/\(VGA-\)1/\10/g
+|2,0,1657509451,,"'<,'>s/\\(VGA-\\)1/\\10/g"
+:'<,'>s/LV.*1/eDP-1/g
+|2,0,1657494602,,"'<,'>s/LV.*1/eDP-1/g"
+:'<,'>s/VGA1/VGA-1/g
+|2,0,1657494584,,"'<,'>s/VGA1/VGA-1/g"
 :W
 |2,0,1655602675,,"W"
 :qq!
@@ -56,8 +112,6 @@ $\t
 |2,0,1651527503,,"% s/-/\\n-/g"
 :tabe .bashrc
 |2,0,1651526022,,"tabe .bashrc"
-:Q!
-|2,0,1650379515,,"Q!"
 :.!:q!
 |2,0,1650124329,,".!:q!"
 :w!
@@ -204,6 +258,74 @@ $\t
 |2,0,1631476210,,"b"
 
 # Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+? 80
+|2,1,1659310749,,"80"
+? 81
+|2,1,1659308789,,"81"
+?/sqli
+|2,1,1659306797,47,"sqli"
+?/Dyna
+|2,1,1659306263,47,"Dyna"
+? \( \\$\)
+|2,1,1659303905,,"\\( \\\\$\\)"
+? $
+|2,1,1659303842,,"$"
+?  
+|2,1,1659303830,," "
+?/filei
+|2,1,1659297520,47,"filei"
+?/rpa
+|2,1,1659290167,47,"rpa"
+?  \\$
+|2,1,1659285757,," \\\\$"
+?/gd
+|2,1,1659284613,47,"gd"
+?/gd+
+|2,1,1659284602,47,"gd+"
+?/emb
+|2,1,1659284410,47,"emb"
+?/lib
+|2,1,1659224160,47,"lib"
+? \\"
+|2,1,1658700755,,"\\\\\""
+? "
+|2,1,1658700458,,"\""
+?/prefix
+|2,1,1658368871,47,"prefix"
+?/Dyn
+|2,1,1658368459,47,"Dyn"
+? 74
+|2,1,1658358865,,"74"
+? 73
+|2,1,1658358856,,"73"
+? 70
+|2,1,1658358848,,"70"
+? 56
+|2,1,1658358840,,"56"
+?/exten
+|2,1,1658279484,47,"exten"
+?/fpm
+|2,1,1658266449,47,"fpm"
+?/unegedu_web
+|2,1,1657822429,47,"unegedu_web"
+? postgres
+|2,1,1657822419,,"postgres"
+?/% s/postgres
+|2,1,1657822409,47,"% s/postgres"
+?/postgres
+|2,1,1657822346,47,"postgres"
+? \(VGA-\)1
+|2,1,1657509451,,"\\(VGA-\\)1"
+? LV.*1
+|2,1,1657494602,,"LV.*1"
+? VGA1
+|2,1,1657494584,,"VGA1"
+?/max
+|2,1,1656680314,47,"max"
+?/max_all
+|2,1,1656680311,47,"max_all"
+? \<Exec\>
+|2,1,1656629611,,"\\<Exec\\>"
 ?/dd
 |2,1,1655948813,47,"dd"
 ?/autosta
@@ -234,10 +356,6 @@ $\t
 |2,1,1651618119,,"  \\+"
 ?/Extensi
 |2,1,1651539342,47,"Extensi"
-? $
-|2,1,1651538983,,"$"
-?  
-|2,1,1651538940,," "
 ?/log
 |2,1,1651538515,47,"log"
 ?/Exten
@@ -393,310 +511,1437 @@ $\t
 
 # Registros:
 ""0	LINE	0
-	.config/termite
-|3,1,0,1,1,0,1656300713,".config/termite"
+	.config/Code/User
+|3,1,0,1,1,0,1659354122,".config/Code/User"
 "1	LINE	0
-	
-|3,0,1,1,1,0,1655948817,""
+	            "group": "www-data",
+|3,0,1,1,1,0,1659312385,"            \"group\": \"www-data\","
 "2	LINE	0
-						{{ dd($r) }}
-|3,0,2,1,1,0,1655948816,"					{{ dd($r) }}"
+	            "user": "www-data",
+|3,0,2,1,1,0,1659312384,"            \"user\": \"www-data\","
 "3	LINE	0
-	Exec=env WINEPREFIX="/home/am/MOFFICE" wine '/home/am/.MOFFICE2010/drive_c/Program Files/Microsoft Office/Office14/WINWORD.EXE'
-|3,0,3,1,1,0,1655863318,"Exec=env WINEPREFIX=\"/home/am/MOFFICE\" wine '/home/am/.MOFFICE2010/drive_c/Program Files/Microsoft Office/Office14/WINWORD.EXE'"
+	            "workers": 20,
+|3,0,3,1,1,0,1659312383,"            \"workers\": 20,"
 "4	LINE	0
-	Exec=env WINEPREFIX="/home/am/MOFFICE" sh -c "echo %f | sed 's/ /\\\\ /g' | xargs wine start /unix /home/am/MOFFICE/dosdevices/c:/users/am/Start\\ Menu/Programs/Microsoft\\ Office/Microsoft\\ Office\\ Word\\ 2007.lnk" %f
-|3,0,4,1,1,0,1655859016,"Exec=env WINEPREFIX=\"/home/am/MOFFICE\" sh -c \"echo %f | sed 's/ /\\\\\\\\ /g' | xargs wine start /unix /home/am/MOFFICE/dosdevices/c:/users/am/Start\\\\ Menu/Programs/Microsoft\\\\ Office/Microsoft\\\\ Office\\\\ Word\\\\ 2007.lnk\" %f"
+	{
+	    "listeners": {
+	        "*:8000": {
+	            "pass": "routes"
+	        }
+	    },
+	
+	    "routes": [
+	        {
+	            "match": {
+	                "uri": "!/index.php"
+	            },
+	            "action": {
+	                "share": "/home/am/dev/ssw/public$uri",
+	                "fallback": {
+	                    "pass": "applications/ssw"
+	                }
+	            }
+	        }
+	    ],
+	
+	    "applications": {
+	        "ssw": {
+	            "type": "php",
+	            "root": "/home/am/dev/ssw/public/",
+	            "script": "index.php",
+				"options": {
+				"file": "/home/am/php/php80/lib/php.ini:"
+				}
+	        }
+	    }
+	}
+|3,0,4,1,32,0,1659312359,"{","    \"listeners\": {","        \"*:8000\": {","            \"pass\": \"routes\"","        }","    },","","    \"routes\": [","        {","            \"match\": {","                \"uri\": \"!/index.php\"","            },","            \"action\": {","                \"share\": \"/home/am/dev/ssw/public$uri\",","                \"fallback\": {","                    \"pass\": \"applications/ssw\"","                }",>15
+|<"            }","        }","    ],","","    \"applications\": {","        \"ssw\": {","            \"type\": \"php\",","            \"root\": \"/home/am/dev/ssw/public/\",","            \"script\": \"index.php\",","			\"options\": {","			\"file\": \"/home/am/php/php80/lib/php.ini:\"","			}","        }","    }","}"
 "5	LINE	0
-	Exec=env WINEPREFIX="/home/am/MOFFICE" sh -c "echo %f | sed 's/^\//z:\//' | xargs wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/am/MOFFICE/dosdevices/c:/users/am/Start Menu/Programs/Microsoft Office/Microsoft Office Word 2007.lnk"
-|3,0,5,1,1,0,1655857839,"Exec=env WINEPREFIX=\"/home/am/MOFFICE\" sh -c \"echo %f | sed 's/^\\//z:\\//' | xargs wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/am/MOFFICE/dosdevices/c:/users/am/Start Menu/Programs/Microsoft Office/Microsoft Office Word 2007.lnk\""
+	        "admin": {
+	            "memory_limit": "256M",
+	            "variables_order": "EGPCS"
+	        },
+	
+	        "user": {
+	            "display_errors": "0"
+	        }
+|3,0,5,1,8,0,1659311896,"        \"admin\": {","            \"memory_limit\": \"256M\",","            \"variables_order\": \"EGPCS\"","        },","","        \"user\": {","            \"display_errors\": \"0\"","        }"
 "6	LINE	0
-	Exec=env WINEPREFIX="/home/am/MOFFICE" wine /home/am/MOFFICE/drive_c/Program\\ Files/Microsoft\\ Office/Office12/WINWORD.EXE %f
-|3,0,6,1,1,0,1655854359,"Exec=env WINEPREFIX=\"/home/am/MOFFICE\" wine /home/am/MOFFICE/drive_c/Program\\\\ Files/Microsoft\\\\ Office/Office12/WINWORD.EXE %f"
+	        "admin": {
+	            "memory_limit": "256M",
+	            "variables_order": "EGPCS"
+	        },
+	
+	        "user": {
+	            "display_errors": "0"
+	        }
+|3,0,6,1,8,0,1659311439,"        \"admin\": {","            \"memory_limit\": \"256M\",","            \"variables_order\": \"EGPCS\"","        },","","        \"user\": {","            \"display_errors\": \"0\"","        }"
 "7	LINE	0
-	;date = %H:%M
-|3,0,7,1,1,0,1655602747,";date = %H:%M"
-"8	BLOCK	0
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-|3,0,8,2,12,0,1655567742,"#","#","#","#","#","#","#","#","#","#","#","#"
-"9	BLOCK	0
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-|3,0,9,2,12,0,1655517618,"#","#","#","#","#","#","#","#","#","#","#","#"
+	#export PHP="/home/am/php/php80/bin/"
+|3,0,7,1,1,0,1659310743,"#export PHP=\"/home/am/php/php80/bin/\""
+"8	LINE	0
+	
+|3,0,8,1,1,0,1659308800,""
+"9	LINE	0
+	--enable-inline-optimization=shared \
+|3,0,9,1,1,0,1659303951,"--enable-inline-optimization=shared \\"
+"q	CHAR	0
+	:q!
+|3,0,26,0,1,0,1658266162,":q!"
 "u	CHAR	0
 		
 |3,0,30,0,1,0,1649134282,"	"
 "-	CHAR	0
-	/var/log/mongodb/mongod.log
-|3,0,36,0,1,0,1656246421,"/var/log/mongodb/mongod.log"
+	#
+|3,0,36,0,1,0,1659310688,"#"
 
 # Marcas en el archivo:
-'0  23  16  ~/dotfile
-|4,48,23,16,1656300720,"~/dotfile"
-'1  1  0  ~/.config/Code/User/settings.json
-|4,49,1,0,1656287107,"~/.config/Code/User/settings.json"
-'2  10  0  ~/.config/i3/config
-|4,50,10,0,1656284483,"~/.config/i3/config"
-'3  11  0  ~/.config/i3/config
-|4,51,11,0,1656284456,"~/.config/i3/config"
-'4  11  0  ~/.config/i3/config
-|4,52,11,0,1656284456,"~/.config/i3/config"
-'5  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
-|4,53,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
-'6  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,54,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
-'7  19  16  ~/mongo/etc/mongod.conf
-|4,55,19,16,1656246493,"~/mongo/etc/mongod.conf"
-'8  10  16  ~/mongo/etc/mongod.conf
-|4,56,10,16,1656246448,"~/mongo/etc/mongod.conf"
-'9  10  16  ~/mongo/etc/mongod.conf
-|4,57,10,16,1656246448,"~/mongo/etc/mongod.conf"
+'0  24  13  ~/dotfile
+|4,48,24,13,1659354129,"~/dotfile"
+'1  55  0  ~/dev/ssw/.env
+|4,49,55,0,1659312855,"~/dev/ssw/.env"
+'2  55  13  ~/dev/ssw/.env
+|4,50,55,13,1659312771,"~/dev/ssw/.env"
+'3  10  44  ~/unit/sites/ssw.json
+|4,51,10,44,1659312557,"~/unit/sites/ssw.json"
+'4  4  33  ~/unit/sites/ssw.json
+|4,52,4,33,1659312515,"~/unit/sites/ssw.json"
+'5  4  33  ~/unit/sites/ssw.json
+|4,53,4,33,1659312515,"~/unit/sites/ssw.json"
+'6  13  42  ~/unit/sites/ssw.json
+|4,54,13,42,1659312451,"~/unit/sites/ssw.json"
+'7  13  42  ~/unit/sites/ssw.json
+|4,55,13,42,1659312451,"~/unit/sites/ssw.json"
+'8  13  42  ~/unit/sites/ssw.json
+|4,56,13,42,1659312451,"~/unit/sites/ssw.json"
+'9  13  42  ~/unit/sites/ssw.json
+|4,57,13,42,1659312451,"~/unit/sites/ssw.json"
 
 # Lista de saltos (el más reciente va primero):
--'  23  16  ~/dotfile
-|4,39,23,16,1656300720,"~/dotfile"
+-'  24  13  ~/dotfile
+|4,39,24,13,1659354129,"~/dotfile"
 -'  1  0  ~/dotfile
-|4,39,1,0,1656300706,"~/dotfile"
--'  1  0  ~/.config/Code/User/settings.json
-|4,39,1,0,1656287107,"~/.config/Code/User/settings.json"
--'  1  0  ~/.config/Code/User/settings.json
-|4,39,1,0,1656287107,"~/.config/Code/User/settings.json"
--'  10  0  ~/.config/i3/config
-|4,39,10,0,1656284483,"~/.config/i3/config"
--'  10  0  ~/.config/i3/config
-|4,39,10,0,1656284483,"~/.config/i3/config"
--'  10  0  ~/.config/i3/config
-|4,39,10,0,1656284483,"~/.config/i3/config"
--'  10  0  ~/.config/i3/config
-|4,39,10,0,1656284483,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1656284477,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1656284477,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1656284477,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1656284477,"~/.config/i3/config"
--'  11  0  ~/.config/i3/config
-|4,39,11,0,1656284456,"~/.config/i3/config"
--'  11  0  ~/.config/i3/config
-|4,39,11,0,1656284456,"~/.config/i3/config"
--'  11  0  ~/.config/i3/config
-|4,39,11,0,1656284456,"~/.config/i3/config"
--'  11  0  ~/.config/i3/config
-|4,39,11,0,1656284456,"~/.config/i3/config"
--'  11  0  ~/.config/i3/config
-|4,39,11,0,1656284456,"~/.config/i3/config"
--'  11  0  ~/.config/i3/config
-|4,39,11,0,1656284456,"~/.config/i3/config"
--'  11  0  ~/.config/i3/config
-|4,39,11,0,1656284456,"~/.config/i3/config"
--'  11  0  ~/.config/i3/config
-|4,39,11,0,1656284456,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1656284417,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1656284417,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1656284417,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1656284417,"~/.config/i3/config"
--'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
-|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
-|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
-|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
-|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
-|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
-|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
-|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
-|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
-|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
-|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
-|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
-|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
-|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
-|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
-|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/node/users/.git/COMMIT_EDITMSG
-|4,39,1,0,1656278582,"~/dev/node/users/.git/COMMIT_EDITMSG"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  1  0  /usr/local/src/mongodb/lib/systemd/system/mongod.service
-|4,39,1,0,1656246877,"/usr/local/src/mongodb/lib/systemd/system/mongod.service"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
--'  19  16  ~/mongo/etc/mongod.conf
-|4,39,19,16,1656246493,"~/mongo/etc/mongod.conf"
+|4,39,1,0,1659354118,"~/dotfile"
+-'  55  0  ~/dev/ssw/.env
+|4,39,55,0,1659312855,"~/dev/ssw/.env"
+-'  55  0  ~/dev/ssw/.env
+|4,39,55,0,1659312855,"~/dev/ssw/.env"
+-'  1  0  ~/dev/ssw/.env
+|4,39,1,0,1659312849,"~/dev/ssw/.env"
+-'  1  0  ~/dev/ssw/.env
+|4,39,1,0,1659312849,"~/dev/ssw/.env"
+-'  55  13  ~/dev/ssw/.env
+|4,39,55,13,1659312771,"~/dev/ssw/.env"
+-'  55  13  ~/dev/ssw/.env
+|4,39,55,13,1659312771,"~/dev/ssw/.env"
+-'  1  0  ~/dev/ssw/.env
+|4,39,1,0,1659312755,"~/dev/ssw/.env"
+-'  1  0  ~/dev/ssw/.env
+|4,39,1,0,1659312755,"~/dev/ssw/.env"
+-'  10  44  ~/unit/sites/ssw.json
+|4,39,10,44,1659312557,"~/unit/sites/ssw.json"
+-'  10  44  ~/unit/sites/ssw.json
+|4,39,10,44,1659312557,"~/unit/sites/ssw.json"
+-'  10  44  ~/unit/sites/ssw.json
+|4,39,10,44,1659312557,"~/unit/sites/ssw.json"
+-'  10  44  ~/unit/sites/ssw.json
+|4,39,10,44,1659312557,"~/unit/sites/ssw.json"
+-'  10  44  ~/unit/sites/ssw.json
+|4,39,10,44,1659312557,"~/unit/sites/ssw.json"
+-'  10  44  ~/unit/sites/ssw.json
+|4,39,10,44,1659312557,"~/unit/sites/ssw.json"
+-'  10  44  ~/unit/sites/ssw.json
+|4,39,10,44,1659312557,"~/unit/sites/ssw.json"
+-'  10  44  ~/unit/sites/ssw.json
+|4,39,10,44,1659312557,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312533,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312533,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312533,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312533,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312533,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312533,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312533,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312533,"~/unit/sites/ssw.json"
+-'  4  33  ~/unit/sites/ssw.json
+|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
+-'  4  33  ~/unit/sites/ssw.json
+|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
+-'  4  33  ~/unit/sites/ssw.json
+|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
+-'  4  33  ~/unit/sites/ssw.json
+|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
+-'  4  33  ~/unit/sites/ssw.json
+|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
+-'  4  33  ~/unit/sites/ssw.json
+|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
+-'  4  33  ~/unit/sites/ssw.json
+|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
+-'  4  33  ~/unit/sites/ssw.json
+|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
+-'  4  33  ~/unit/sites/ssw.json
+|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
+-'  4  33  ~/unit/sites/ssw.json
+|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
+-'  4  33  ~/unit/sites/ssw.json
+|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
+-'  4  33  ~/unit/sites/ssw.json
+|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
+-'  4  33  ~/unit/sites/ssw.json
+|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
+-'  4  33  ~/unit/sites/ssw.json
+|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
+-'  4  33  ~/unit/sites/ssw.json
+|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
+-'  4  33  ~/unit/sites/ssw.json
+|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312464,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312464,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312464,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312464,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312464,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312464,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312464,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312464,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  13  42  ~/unit/sites/ssw.json
+|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312359,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312359,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312359,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312359,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312359,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312359,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312359,"~/unit/sites/ssw.json"
+-'  1  0  ~/unit/sites/ssw.json
+|4,39,1,0,1659312359,"~/unit/sites/ssw.json"
+-'  26  33  ~/unit/sites/ssw.json
+|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
+-'  26  33  ~/unit/sites/ssw.json
+|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
+-'  26  33  ~/unit/sites/ssw.json
+|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
+-'  26  33  ~/unit/sites/ssw.json
+|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
+-'  26  33  ~/unit/sites/ssw.json
+|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
+-'  26  33  ~/unit/sites/ssw.json
+|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
+-'  26  33  ~/unit/sites/ssw.json
+|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
+-'  26  33  ~/unit/sites/ssw.json
+|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
+-'  26  33  ~/unit/sites/ssw.json
+|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
+-'  26  33  ~/unit/sites/ssw.json
+|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
+-'  26  33  ~/unit/sites/ssw.json
+|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
+-'  26  33  ~/unit/sites/ssw.json
+|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
+-'  26  33  ~/unit/sites/ssw.json
+|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
+-'  26  33  ~/unit/sites/ssw.json
+|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
+-'  26  33  ~/unit/sites/ssw.json
+|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
+-'  26  33  ~/unit/sites/ssw.json
+|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
+-'  26  33  ~/unit/sites/ssw.json
+|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
+-'  26  33  ~/unit/sites/ssw.json
+|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
 
 > ~/dotfile
-	*	1656300718	0
-	"	23	16
-	^	23	17
-	.	23	16
-	+	22	14
-	+	23	16
+	*	1659354128	0
+	"	24	13
+	^	24	14
+	.	24	13
+	+	24	13
 
-> ~/.config/Code/User/settings.json
-	*	1656287098	0
-	"	1	0
+> ~/dev/ssw/.env
+	*	1659312853	0
+	"	55	0
+	^	55	14
+	.	55	13
+	+	10	18
+	+	13	14
+	+	14	16
+	+	15	16
+	+	12	11
+	+	13	17
+	+	55	13
 
-> ~/.config/i3/config
-	*	1656284482	0
-	"	10	0
-	^	10	1
-	.	10	0
+> ~/unit/sites/ssw.json
+	*	1659312557	0
+	"	10	44
+	^	10	45
+	.	10	44
+	+	1	0
+	+	1	42
+	+	1	27
+	+	1	36
+	+	1	14
+	+	1	11
+	+	1	0
+	+	1	4
+	+	1	33
+	+	1	4
+	+	1	0
+	+	1	42
+	+	6	0
+	+	1	14
+	+	1	41
+	+	1	44
+	+	1	37
+	+	1	0
+	+	1	33
+	+	1	11
+	+	3	0
+	+	1	14
+	+	1	24
+	+	1	7
+	+	1	42
+	+	1	44
+	+	1	11
+	+	1	41
+	+	1	0
+	+	1	44
+	+	1	10
+	+	1	26
+	+	1	33
+	+	1	0
+	+	1	30
+	+	1	0
+	+	1	30
+	+	1	0
+	+	1	42
+	+	1	1
+	+	18	0
+	+	4	30
+	+	8	11
+	+	10	0
+	+	15	0
+	+	12	14
+	+	13	6
+	+	12	10
+	+	13	42
+	+	4	33
+	+	10	44
+
+> ~/.bashrc
+	*	1659310764	0
+	"	103	57
+	^	103	58
+	.	103	57
+	+	90	0
+	+	33	0
+	+	37	0
+	+	38	0
+	+	49	0
+	+	71	0
+	+	83	0
+	+	7	0
+	+	67	0
+	+	79	0
+	+	75	0
+	+	74	0
+	+	28	0
+	+	17	0
+	+	51	0
+	+	90	0
+	+	89	0
+	+	95	46
+	+	96	0
+	+	97	31
+	+	97	37
+	+	97	35
+	+	77	48
+	+	97	0
+	+	95	30
+	+	97	17
+	+	102	34
+	+	102	0
+	+	102	38
+	+	103	28
+	+	102	0
+	+	102	50
+	+	102	40
+	+	102	0
+	+	103	57
+	+	93	32
 	+	95	0
+	+	95	11
+	+	103	75
+	+	102	47
+	+	102	0
+	+	102	47
+	+	103	86
+	+	102	31
+	+	103	93
+	+	103	0
+	+	103	93
+	+	102	0
+	+	102	54
+	+	103	102
+	+	102	42
+	+	103	109
+	+	105	0
+	+	102	0
+	+	103	20
+	+	94	0
+	+	95	0
+	+	98	0
+	+	102	0
+	+	99	0
+	+	102	0
+	+	99	37
+	+	103	48
+	+	97	46
+	+	98	0
+	+	97	0
+	+	99	28
+	+	102	0
+	+	103	47
+	+	102	0
+	+	102	36
+	+	102	0
+	+	103	100
+	+	106	0
+	+	103	48
+	+	102	0
+	+	106	0
+	+	102	0
+	+	106	0
+	+	105	0
+	+	106	0
+	+	99	0
+	+	88	57
+	+	104	0
+	+	103	0
+	+	104	41
+	+	102	30
+	+	104	0
+	+	103	0
+	+	102	0
+	+	103	0
+	+	104	0
+	+	99	32
+	+	100	0
 	+	101	0
 	+	100	0
+	+	104	0
+	+	103	57
+
+> /usr/local/src/unit/config
+	*	1659308811	0
+	"	8	0
+	.	8	0
+	+	1	17
+	+	2	23
+	+	3	0
+	+	5	0
+	+	4	0
+	+	5	17
+	+	6	0
+	+	5	62
+	+	2	22
+	+	4	0
+	+	5	0
+	+	7	0
+	+	8	0
+
+> /usr/local/src/php-8.1.8/config
+	*	1659307675	0
+	"	3	19
+	^	3	20
+	.	3	19
+	+	2	26
+	+	3	18
+	+	2	26
+	+	39	19
+	+	2	26
+	+	3	19
+
+> ~/php/php80/etc/php-fpm.d/www.conf
+	*	1659306929	0
+	"	49	0
+	^	49	20
+	.	49	0
+	+	23	8
+	+	24	11
+	+	36	22
+	+	48	0
+	+	50	0
+	+	48	16
+	+	50	18
+	+	23	8
+	+	24	11
+	+	36	20
+	+	48	17
+	+	50	0
+	+	49	0
+	+	48	0
+	+	49	0
+	+	23	8
+	+	24	11
+	+	36	19
+	+	48	17
+	+	49	19
+	+	48	0
+	+	49	0
+
+> ~/php/php80/etc/php-fpm.conf
+	*	1659306890	0
+	"	30	0
+	^	17	9
+	.	24	0
+	+	17	8
+	+	24	0
+	+	17	8
+	+	24	0
+	+	17	8
+	+	24	0
+	+	143	33
+	+	17	8
+	+	24	0
+	+	143	33
+	+	17	8
+	+	24	0
+
+> ~/php/php80/lib/php.ini
+	*	1659306803	0
+	"	956	0
+	^	956	1
+	.	956	0
+	+	927	0
+	+	923	0
+	+	922	0
+	+	933	0
+	+	939	0
+	+	946	0
+	+	956	0
+	+	922	0
+	+	923	0
+	+	927	0
+	+	933	0
+	+	939	0
+	+	946	0
+	+	956	0
+	+	927	0
+	+	922	0
+	+	923	0
+	+	926	0
+	+	927	0
+	+	928	0
+	+	933	0
+	+	934	0
+	+	935	0
+	+	946	0
+	+	945	0
+	+	944	0
+	+	941	0
+	+	926	0
+	+	945	0
+	+	956	0
+	+	939	0
+	+	956	0
+
+> /usr/local/src/php-8.0.21/config
+	*	1659306345	0
+	"	37	15
+	^	37	16
+	.	37	15
+	+	37	29
+	+	38	21
+	+	39	14
+	+	38	17
+	+	1	18
+	+	37	9
+	+	38	21
+	+	39	16
+	+	40	15
+	+	41	695
+	+	41	0
+	+	42	0
+	+	46	0
+	+	45	0
+	+	46	0
+	+	47	0
+	+	40	0
+	+	47	0
+	+	38	17
+	+	46	0
+	+	41	0
+	+	42	0
+	+	43	0
+	+	44	0
+	+	48	0
+	+	44	0
+	+	47	0
+	+	48	0
+	+	37	28
+	+	38	21
+	+	42	16
+	+	41	0
+	+	42	0
+	+	41	0
+	+	42	19
+	+	45	16
+	+	52	14
+	+	45	17
+	+	41	0
+	+	1	729
+	+	1	0
+	+	1	20
+	+	1	57
+	+	1	89
+	+	1	243
+	+	1	271
+	+	1	314
+	+	1	286
+	+	1	0
+	+	1	154
+	+	37	13
+	+	1	43
+	+	1	89
+	+	1	12
+	+	1	40
+	+	1	57
+	+	1	75
+	+	1	89
+	+	1	101
+	+	1	113
+	+	1	125
+	+	1	138
+	+	1	154
+	+	1	165
+	+	1	177
+	+	1	194
+	+	1	211
+	+	1	228
+	+	1	243
+	+	1	254
+	+	1	271
+	+	1	286
+	+	1	297
+	+	1	314
+	+	1	328
+	+	1	340
+	+	37	0
+	+	1	365
+	+	1	729
+	+	1	0
+	+	2	9
+	+	4	0
+	+	36	12
+	+	35	11
+	+	32	0
+	+	31	0
+	+	28	45
+	+	15	0
+	+	14	15
+	+	3	21
+	+	37	15
+
+> /etc/php80/conf.d/05-openssl.ini
+	*	1659303150	0
+	"	1	0
+
+> ~/php/php81/lib/php.ini
+	*	1659297522	0
+	"	921	0
+	.	921	0
+	+	917	0
+	+	918	0
+	+	922	0
+	+	928	0
+	+	929	0
+	+	934	0
+	+	941	0
+	+	939	0
+	+	921	0
+
+> ~/php/php81/etc/php-fpm.conf
+	*	1659297436	0
+	"	18	0
+
+> /usr/local/src/php-8.0.9/config.nice
+	*	1659290968	0
+	"	19	0
+	.	19	0
+	+	19	0
+
+> /usr/local/src/php-8.0.9/config
+	*	1659290412	0
+	"	34	0
+	^	13	15
+	.	34	0
+	+	1	729
+	+	1	0
+	+	2	9
+	+	14	0
+	+	27	0
+	+	29	0
+	+	1	11
+	+	2	27
+	+	1	0
+	+	13	15
+	+	34	0
+
+> /usr/local/src/php-8.0.21/config.nice
+	*	1659286040	0
+	"	1	0
+
+> /usr/local/src/php-8.0.21.org/Makefile
+	*	1659284666	0
+	"	963	67
+
+> /usr/local/src/php-8.0.21.org/config.status
+	*	1659284603	0
+	"	430	0
+
+> /usr/local/src/php-8.0.21.org/config
+	*	1659284412	0
+	"	24	0
+	.	25	0
+	+	25	0
+
+> ~/php/php80/etc/www.conf
+	*	1659281472	0
+	"	54	18
+	^	49	19
+	.	49	18
+	+	36	20
+	+	48	0
+	+	49	0
+	+	48	16
+	+	49	18
+	+	23	8
+	+	24	11
+	+	36	16
+	+	49	0
+	+	48	0
+	+	49	0
+	+	48	16
+	+	49	18
+
+> /usr/local/src/php-8.0.21/NERD_tree_1
+	*	1659231134	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/php/php80/etc/php.ini
+	*	1659231114	0
+	"	942	0
+	^	931	1
+	.	942	0
+	+	922	0
+	+	923	0
+	+	927	0
+	+	933	0
+	+	935	0
+	+	939	0
+	+	946	0
+	+	958	0
+	+	956	0
+	+	954	0
+	+	935	0
+	+	956	0
+	+	935	0
+	+	934	0
+	+	935	0
+	+	928	0
+	+	920	0
+	+	921	0
+	+	925	0
+	+	926	0
+	+	931	0
+	+	932	0
+	+	933	0
+	+	944	0
+	+	933	0
+	+	937	0
+	+	920	0
+	+	921	0
+	+	925	0
+	+	926	0
+	+	931	0
+	+	932	0
+	+	937	0
+	+	944	0
+	+	925	0
+	+	931	0
+	+	932	0
+	+	942	0
+
+> /usr/local/src/php-8.0.21/ext/build
+	*	1659229903	0
+	"	13	62
+	^	13	63
+	.	13	62
+	+	19	2
+	+	3	26
+	+	13	61
+	+	11	22
+	+	13	60
+	+	11	21
+	+	3	26
+	+	19	2
+	+	3	26
+	+	11	23
+	+	13	62
+
+> /usr/local/src/config
+	*	1659222703	0
+	"	1	10
+	^	1	11
+	.	1	10
+	+	1	10
+
+> ~/php/php81/etc/php.ini
+	*	1659221753	0
+	"	924	16
+	^	937	17
+	.	937	16
+	+	942	0
+	+	937	0
+	+	925	12
+	+	942	0
+	+	937	16
+
+> ~/php/php81/bin/php81
+	*	1659220995	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/unit/sites/ssw
+	*	1659218011	0
+	"	1	0
+
+> ~/php/php74/etc/php.ini
+	*	1659217140	0
+	"	1	0
+
+> ~/php/php74/bin/php-fpm74
+	*	1659216787	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/php/php74/bin/php74
+	*	1659216768	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /usr/local/src/php-7.4.30/ext/build
+	*	1659216326	0
+	"	13	1
+	^	3	25
+	.	3	0
+	+	3	0
+
+> /usr/local/src/php-7.4.30/config
+	*	1659215642	0
+	"	1	0
+	^	3	20
+	.	3	19
+	+	3	0
+	+	2	22
+	+	3	11
+	+	2	26
+	+	3	19
+
+> ~/php/php81/bin/php-fpm81
+	*	1659215401	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /usr/local/src/php-8.1.5/ext/build
+	*	1659214512	0
+	"	13	62
+	^	13	63
+	.	13	62
+	+	3	26
+	+	11	23
+	+	13	62
+
+> /usr/local/src/php-8.1.5/config
+	*	1659213218	0
+	"	3	17
+	^	3	18
+	.	3	17
+	+	2	26
+	+	3	17
+
+> ~/php/php80/bin/php-fpm80
+	*	1659213175	0
+	"	1	67
+	^	1	68
+	.	1	68
+	+	1	68
+
+> ~/php/php80/bin/php80
+	*	1659213072	0
+	"	1	65
+	^	1	66
+	.	1	65
+	+	1	65
+
+> ~/.config/i3/bar.sh
+	*	1659211990	0
+	"	75	7
+	^	75	8
+	.	75	7
+	+	73	0
+	+	72	1
+	+	73	84
+	+	75	1
+	+	3	47
+	+	75	1
+	+	3	45
+	+	75	9
+	+	66	10
+	+	67	80
+	+	68	0
+	+	73	22
+	+	75	9
+	+	73	19
+	+	74	0
+	+	73	1
+	+	74	59
+	+	75	7
+
+> /usr/local/src/php-7.4.30/ext/curl/config.h
+	*	1659141936	0
+	"	44	0
+
+> /usr/local/src/php-7.4.30/ext/curl/config.status
+	*	1659140664	0
+	"	462	4
+
+> /usr/local/src/php-8.1.5.2/config
+	*	1659127357	0
+	"	3	0
+	^	5	1
+	.	6	0
+	+	2	21
+	+	3	0
+	+	5	0
+	+	6	0
+
+> ~/dev/node/package.json
+	*	1658969949	0
+	"	4	0
+
+> ~/autoInstall
+	*	1658966777	0
+	"	145	3
+	^	20	13
+	.	20	0
+	+	145	4
+	+	14	0
+	+	28	8
+	+	30	19
+	+	30	0
+	+	30	24
+	+	30	19
+	+	29	73
+	+	30	0
+	+	132	5
+	+	138	0
+	+	126	8
+	+	124	29
+	+	127	47
+	+	130	31
+	+	125	8
+	+	128	8
+	+	131	10
+	+	125	10
+	+	25	61
+	+	126	27
+	+	130	0
+	+	126	20
+	+	127	0
+	+	126	65
+	+	129	78
+	+	130	0
+	+	128	8
+	+	132	56
+	+	122	0
+	+	126	70
+	+	129	83
+	+	132	61
+	+	31	0
+	+	32	11
+	+	33	67
+	+	34	22
+	+	133	67
+	+	33	38
+	+	124	2
+	+	124	0
+	+	28	0
+	+	29	83
+	+	126	1
+	+	25	47
+	+	34	6
+	+	122	0
+	+	122	23
+	+	122	0
+	+	122	1
+	+	122	72
+	+	137	85
+	+	125	0
+	+	37	15
+	+	120	0
+	+	119	3
+	+	137	11
+	+	40	0
+	+	39	122
+	+	39	0
+	+	39	105
+	+	39	0
+	+	43	9
+	+	60	0
+	+	47	0
+	+	124	1
+	+	137	38
+	+	129	42
+	+	132	35
+	+	133	38
+	+	126	1
+	+	137	73
+	+	135	27
+	+	111	50
+	+	137	78
+	+	138	55
+	+	135	46
+	+	20	0
+
+> ~/nginx/conf/sites/alpine.am
+	*	1658911083	0
+	"	9	2
+	^	9	3
+	.	10	0
+	+	13	0
+	+	3	24
+	+	8	34
+	+	8	53
+	+	9	35
+	+	11	21
+	+	10	38
+	+	10	0
+	+	5	18
+	+	8	53
+	+	9	2
+	+	5	14
+	+	8	49
+	+	10	0
+
+> ~/nginx/NERD_tree_1
+	*	1658910803	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /usr/local/src/nginx-1.21.6/config
+	*	1658910677	0
+	"	14	23
+	^	14	24
+	.	14	23
+	+	14	23
+
+> ~/nginx/conf/sites/vue.app.am
+	*	1658910259	0
+	"	1	0
+
+> ~/query
+	*	1658873729	0
+	"	34	0
+	^	34	0
+	.	33	0
+	+	1	101
+	+	8	106
+	+	8	133
+	+	8	0
+	+	7	113
+	+	8	0
+	+	25	138
+	+	28	0
+	+	29	119
+	+	31	0
+	+	31	56
+	+	33	0
+
+> ~/uni/simulacion/simulacion/dev/proyecto/server.py
+	*	1658703183	0
+	"	7	4
+	^	7	21
+	.	15	0
+	+	1	23
+	+	12	11
+	+	9	29
+	+	2	24
+	+	10	0
+	+	9	27
+	+	9	13
+	+	9	31
+	+	6	6
+	+	5	23
+	+	6	9
+	+	5	30
+	+	6	12
+	+	5	52
+	+	6	14
+	+	7	24
+	+	9	0
+	+	8	21
+	+	9	24
+	+	8	0
+	+	9	0
+	+	15	171
+	+	14	19
+	+	5	31
+	+	8	43
+	+	9	33
+	+	14	25
+	+	7	0
+	+	6	14
+	+	15	11
+	+	15	195
+	+	5	33
+	+	1	30
+	+	7	0
+	+	15	0
+
+> ~/dev/node/alpinejsapp/public/css/3.1.4
+	*	1658626394	0
+	"	1	0
+
+> ~/keeper.crx
+	*	1658533113	0
+	"	17	0
+
+> /usr/local/bin/chrome
+	*	1658532950	0
+	"	2	76
+	^	2	77
+	.	2	76
+	+	1	62
+	+	2	0
+	+	1	0
+	+	2	76
+
+> ~/gge
+	*	1658369598	0
+	"	1	11
+	^	1	12
+	.	1	11
+	+	1	11
+
+> ~/php82/usr/bin/php82
+	*	1658368920	0
+	"	3	61
+	^	3	62
+	.	3	61
+	+	1	0
+	+	3	61
+
+> ~/php82/etc/php.ini
+	*	1658368892	0
+	"	957	0
+	^	956	1
+	.	956	0
+	+	921	0
+	+	922	0
+	+	926	0
+	+	932	0
+	+	934	0
+	+	945	0
+	+	955	0
+	+	956	0
+	+	954	0
+	+	953	0
+	+	952	0
+	+	953	0
+	+	954	0
+	+	956	0
+	+	952	0
+	+	956	0
+
+> ~/php82/etc/pool.d/www.conf
+	*	1658368837	0
+	"	18	0
+	^	49	17
+	.	18	0
+	+	23	8
+	+	24	9
+	+	36	39
+	+	48	16
+	+	49	16
+	+	18	0
+
+> ~/php82/usr/bin/php-fpm82
+	*	1658368416	0
+	"	3	67
+	^	3	98
+	.	3	97
+	+	3	97
+
+> ~/php82/etc/php-fpm.conf
+	*	1658368258	0
+	"	145	43
+	^	145	44
+	.	145	43
+	+	19	35
+	+	26	41
+	+	145	43
+
+> ~/phpmyadmin
+	*	1658356589	0
+	"	23	0
+	^	23	0
+	.	22	86
+	+	22	86
+
+> ~/phpL
+	*	1658356476	0
+	"	134	0
+	^	134	0
+	.	133	74
+	+	1	96
+	+	1	41
+	+	1	96
+	+	133	74
+
+> ~/php81L
+	*	1658353858	0
+	"	304	0
+	^	304	0
+	.	303	83
+	+	1	76
+	+	1	94
+	+	303	83
+
+> ~/php81/etc/php.ini
+	*	1658279532	0
+	"	927	0
+
+> ~/php81/usr/bin/php-fpm81
+	*	1658279299	0
+	"	2	97
+	^	2	98
+	.	2	97
+	+	2	97
+
+> /usr/share/vim/vim90/doc/help.txt
+	*	1658279272	0
+	"	1	0
+
+> ~/php81/usr/bin/php81
+	*	1658278758	0
+	"	1	10
+	^	1	11
+	.	1	10
+	+	2	58
+	+	1	10
+
+> /usr/local/bin/dbeaver
+	*	1658277557	0
+	"	1	0
+
+> ~/php74/etc/php-fpm.d/www.conf
+	*	1658275671	0
+	"	49	16
+	^	49	17
+	.	49	16
+	+	23	8
+	+	24	9
+	+	36	23
+	+	48	16
+	+	49	16
+
+> ~/php74/etc/php-fpm.conf
+	*	1658275585	0
+	"	26	36
+	^	26	26
+	.	26	36
+	+	145	8
+	+	19	8
+	+	26	13
+	+	145	8
+	+	19	30
+	+	26	36
+
+> ~/php74/usr/bin/php-fpm74
+	*	1658275443	0
+	"	3	97
+	^	3	98
+	.	3	97
+	+	3	0
+	+	1	10
+	+	2	0
+	+	3	89
+	+	3	97
+
+> ~/php74/usr/bin/php74
+	*	1658275062	0
+	"	1	28
+	^	1	29
+	.	1	28
+	+	1	28
+
+> ~/php74/etc/php-fpm.
+	*	1658274886	0
+	"	1	0
+
+> ~/php82L
+	*	1658274521	0
+	"	305	0
+	^	305	0
+	.	304	83
+	+	304	83
+
+> ~/php/etc/php-fpm.d/www.conf
+	*	1658267226	0
+	"	1	1
+	.	1	0
+	+	1	0
+
+> ~/php/etc/php-fpm.conf
+	*	1658267213	0
+	"	1	0
+
+> ~/php74/etc/php/7.4/fpm/pool.d/www.conf
+	*	1658267172	0
+	"	44	0
+
+> ~/php74/etc/php/7.4/fpm/php-fpm.conf
+	*	1658266890	0
+	"	127	0
+
+> ~/php74/php.ini
+	*	1658266449	0
+	"	335	0
+
+> ~/php74/usr/bin/php7.4
+	*	1658265875	0
+	"	91	0
+
+> ~/php74L
+	*	1658258000	0
+	"	643	0
+	^	643	0
+	.	642	77
+	+	642	77
+
+> ~/phpCOmnad
+	*	1658197793	0
+	"	1	93
+	^	1	94
+	.	1	93
+	+	1	93
+
+> ~/php70Links
+	*	1658197428	0
+	"	98	0
+	^	98	0
+	.	97	78
+	+	97	78
+
+> ~/phpLinks
+	*	1658195824	0
+	"	1	0
+	^	156	0
+	.	1	0
+	+	155	84
+	+	1	0
+
+> ~/NERD_tree_1
+	*	1658195803	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.config/i3/config
+	*	1658107927	0
+	"	6	16
+	^	6	17
+	.	6	16
 	+	107	0
 	+	106	0
 	+	107	0
@@ -794,240 +2039,58 @@ $\t
 	+	197	29
 	+	11	1
 	+	10	0
+	+	189	0
+	+	188	0
+	+	6	16
 
-> ~/dev/node/users/.git/COMMIT_EDITMSG
-	*	1656278581	0
-	"	1	0
+> ~/dev/node/farmacia-node-prisma/.git/COMMIT_EDITMSG
+	*	1657931277	0
+	"	1	33
+	^	1	34
+	.	1	33
+	+	1	33
 
-> /usr/local/src/mongodb/lib/systemd/system/mongod.service
-	*	1656246830	0
-	"	1	0
+> ~/dev/farmacia/.env
+	*	1657836101	0
+	"	13	20
+	^	13	21
+	.	13	20
+	+	13	20
 
-> ~/mongo/etc/mongod.conf
-	*	1656246492	0
-	"	19	16
-	^	19	17
-	.	19	16
-	+	8	15
-	+	19	25
-	+	8	18
-	+	19	16
+> /etc/systemd/system/getty.target.wants/getty@tty1.service
+	*	1657831227	0
+	"	39	0
+	^	39	0
+	.	38	59
+	+	38	59
 
-> ~/mongo/usr/bin/NERD_tree_1
-	*	1656246469	0
-	"	5	0
-	.	1	0
-	+	1	0
-
-> /tmp/bash-fc.knC3r6
-	*	1656211390	0
-	"	1	0
-
-> /etc/mongodb.conf
-	*	1656195644	0
-	"	43	0
-
-> ~/dev/node/users/.gitignore
-	*	1656194435	0
-	"	1	11
-	^	1	12
-	.	1	11
-	+	1	11
-
-> ~/dev/ssw/.git/COMMIT_EDITMSG
-	*	1655948831	0
-	"	1	0
-	^	1	10
-	.	1	9
-	+	1	37
-	+	22	58
-	+	20	55
-	+	18	36
-	+	1	32
-	+	15	18
-	+	12	4
-	+	9	71
-	+	4	57
-	+	6	20
-	+	1	9
-
-> ~/dev/ssw/resources/views/livewire/ssw/rutas/grupos-busqueda-component.blade.php
-	*	1655948817	0
-	"	49	5
-	.	49	0
-	+	49	0
-
-> ~/dev/ssw/.env
-	*	1655943290	0
-	"	54	17
-	^	54	18
-	.	54	17
-	+	54	18
-	+	55	13
-	+	54	17
-
-> ~/.local/share/applications/wine-extension-gif.desktop
-	*	1655934882	0
-	"	1	0
-
-> ~/.local/share/applications/wine/Programs/Microsoft Office 2007/word.desktop
-	*	1655934864	0
-	"	1	0
-
-> ~/.local/share/applications/wine/Programs/Microsoft Office 2007/Microsoft Office Word 2007.desktop
-	*	1655934859	0
-	"	1	0
-	^	3	0
-	.	3	0
-	+	5	0
-	+	3	0
-	+	5	43
-	+	5	126
-	+	5	0
-	+	3	0
-	+	5	0
-	+	3	0
-	+	5	80
-	+	5	229
-	+	5	0
-	+	3	0
-	+	5	0
-	+	3	0
-	+	5	161
-	+	5	39
-	+	5	222
-	+	5	0
-	+	3	0
-	+	5	0
-	+	3	0
-	+	5	126
-	+	5	0
-	+	3	0
-	+	3	241
-	+	3	0
-	+	3	237
-	+	3	0
-	+	3	238
-	+	5	0
-	+	4	0
-	+	3	0
-	+	4	124
-	+	4	0
-	+	3	0
-
-> ~/.local/share/applications/wine-extension-jpe.desktop
-	*	1655858105	0
-	"	1	0
-
-> ~/.local/share/applications/wine-extension-xml.desktop
-	*	1655854307	0
-	"	1	0
-
-> ~/.local/share/applications/wine-extension-
-	*	1655854300	0
-	"	1	0
-
-> ~/DOTFILES/.gitignore
-	*	1655604378	0
-	"	2	0
-	^	2	1
+> ~/posts.sql
+	*	1657822442	0
+	"	27	52
 	.	2	0
-	+	1	12
-	+	2	8
-	+	1	0
 	+	2	0
 
-> ~/gitToken
-	*	1655604161	0
-	"	1	39
-	^	1	40
-	.	1	39
-	+	1	39
+> /tmp/bash-fc.PcqgwX
+	*	1657821404	0
+	"	1	72
+	^	1	95
+	.	2	0
+	+	1	94
+	+	1	72
+	+	2	0
 
-> ~/DOTFILES/.git/COMMIT_EDITMSG
-	*	1655604082	0
-	"	1	0
-	^	1	21
-	.	1	20
-	+	1	20
-
-> ~/.config/i3/bar.sh
-	*	1655603720	0
-	"	73	19
-	^	74	10
-	.	73	19
-	+	73	0
-	+	72	1
-	+	73	84
-	+	74	1
-	+	3	47
-	+	74	1
-	+	3	45
-	+	74	9
-	+	66	10
-	+	67	80
-	+	68	0
-	+	73	22
-	+	74	9
-	+	73	19
-
-> ~/.config/i3/polybar.conf
-	*	1655603125	0
-	"	141	0
-	^	145	20
-	.	145	19
-	+	6	15
-	+	30	10
-	+	31	0
-	+	38	0
-	+	40	0
-	+	41	0
-	+	44	0
-	+	43	0
-	+	48	0
-	+	49	0
-	+	51	24
-	+	54	38
-	+	61	0
-	+	116	0
-	+	115	0
-	+	134	0
-	+	135	0
-	+	51	26
-	+	97	25
-	+	101	0
-	+	102	0
-	+	97	6
-	+	94	12
-	+	107	25
-	+	119	17
-	+	126	18
-	+	119	18
-	+	126	18
-	+	107	25
-	+	151	27
-	+	153	13
-	+	151	4
-	+	151	0
-	+	154	0
-	+	151	0
-	+	149	11
-	+	134	0
-	+	140	18
-	+	145	19
-
-> ~/.config/i3/bar
-	*	1655568003	0
+> ~/chrome-kgbjpjfmpfkmmmaaomdblidckhoncoan-Default.desktop
+	*	1657730392	0
 	"	1	0
 
 > ~/.config/i3/autostart
-	*	1655567736	0
-	"	15	0
-	^	15	1
-	.	15	0
+	*	1657590087	0
+	"	10	0
+	^	10	1
+	.	10	1
 	+	4	0
 	+	7	0
-	+	13	19
+	+	14	19
 	+	3	48
 	+	3	26
 	+	3	64
@@ -1042,751 +2105,86 @@ $\t
 	+	7	0
 	+	10	0
 	+	10	165
-	+	17	11
-	+	17	0
+	+	18	11
+	+	18	0
 	+	4	11
-	+	17	12
-	+	7	0
-	+	8	0
-	+	17	0
-	+	17	110
-	+	17	0
-	+	17	103
-	+	4	0
-	+	17	112
-	+	7	0
-	+	12	0
-	+	16	0
-	+	3	62
-	+	4	0
-	+	17	0
-	+	16	110
-	+	16	1
-	+	16	116
-	+	16	0
-	+	16	112
-	+	16	0
-	+	3	62
-	+	16	0
-	+	16	104
-	+	16	0
-	+	16	111
-	+	16	0
-	+	17	0
-	+	14	9
-	+	15	0
-
-> ~/.config/i3/polybar-
-	*	1655567563	0
-	"	1	0
-
-> ~/.config/i3/polybar
-	*	1655567557	0
-	"	1	0
-	^	9	11
-	.	9	10
-	+	11	25
-	+	9	10
-
-> ~/.config/i3/polybar.sh
-	*	1655422676	0
-	"	9	47
-	^	9	48
-	.	9	47
-	+	11	25
-	+	9	47
-
-> /tmp/bash-fc.VUlSPn
-	*	1655342672	0
-	"	6	93
-	^	6	94
-	.	6	93
-	+	6	35
-	+	2	65
-	+	3	29
-	+	4	43
-	+	5	43
-	+	6	93
-
-> ~/dev/amorcito/api/.env
-	*	1655341946	0
-	"	11	0
-	^	14	24
-	.	14	24
-	+	14	24
-
-> /usr/local/src/install.sh
-	*	1655341124	0
-	"	75	0
-
-> ~/dev/amorcito/api/.git/COMMIT_EDITMSG
-	*	1655340260	0
-	"	1	0
-
-> ~/farmacia/.git/COMMIT_EDITMSG
-	*	1655258199	0
-	"	1	0
-
-> ~/uneg.cit.token
-	*	1655234482	0
-	"	1	39
-	^	1	40
-	.	1	39
-	+	1	39
-
-> ~/nginx/conf/sites/farmacia.am
-	*	1655171453	0
-	"	5	33
-	^	5	34
-	.	5	33
-	+	5	26
-	+	3	20
-	+	5	33
-
-> ~/nginx/conf/nginx.conf
-	*	1655171332	0
-	"	33	0
-	^	33	16
-	.	33	15
-	+	1	0
-	+	34	0
-	+	33	15
-
-> ~/.local/share/applications/wine/Programs/Microsoft Office/Microsoft Office Word 2007.desktop
-	*	1654820655	0
-	"	3	209
-	^	3	210
-	.	3	210
-	+	3	210
-
-> ~/.local/share/applications/wine-extension-docx.desktop
-	*	1654820072	0
-	"	1	0
-
-> ~/nginx/conf/sites/amorcito.am
-	*	1654734391	0
-	"	1	0
-	.	13	0
-	+	7	16
-	+	9	35
-	+	10	1
-	+	10	0
-	+	14	0
-	+	12	8
-	+	14	8
-	+	12	8
-	+	14	0
-	+	12	8
-	+	14	0
-	+	13	0
-
-> ~/pg/dc
-	*	1654727259	0
-	"	7	16
-	^	15	17
-	.	15	16
-	+	15	16
-
-> ~/dockerLaravel/docker-compose.yml
-	*	1654726269	0
-	"	1	0
-
-> ~/.config/termite/config
-	*	1654637497	0
-	"	63	0
-	^	63	2
-	.	64	0
-	+	56	23
-	+	2	0
-	+	4	0
-	+	7	0
-	+	14	0
-	+	13	0
-	+	17	27
-	+	20	0
-	+	26	0
-	+	29	0
-	+	41	16
-	+	43	8
-	+	43	0
-	+	57	0
-	+	63	16
-	+	63	0
-	+	63	27
-	+	63	0
-	+	63	8
-	+	102	17
-	+	67	0
-	+	66	0
-	+	65	0
-	+	66	26
-	+	26	17
-	+	10	0
-	+	9	0
-	+	10	0
-	+	9	0
-	+	56	0
-	+	58	21
-	+	61	0
-	+	60	0
-	+	104	0
-	+	105	0
-	+	107	0
-	+	106	8
-	+	108	0
-	+	158	16
-	+	118	0
-	+	117	0
-	+	118	42
-	+	64	0
-
-> ~/simulacion/simulacion/dev/practica.1/2.prueba.py
-	*	1654382094	0
-	"	1	0
-
-> ~/.config/xfce4/terminal/terminalrc
-	*	1654213888	0
-	"	1	0
-
-> ~/almacen/.env
-	*	1654138704	0
-	"	15	16
-	^	15	17
-	.	15	16
-	+	10	15
-	+	12	11
-	+	13	17
-	+	14	16
-	+	15	16
-
-> ~/almacen/.git/COMMIT_EDITMSG
-	*	1654138451	0
-	"	1	0
-
-> /etc/hosts
-	*	1653849169	0
-	"	1	0
-	^	8	21
-	.	8	20
-	+	5	19
-	+	5	56
-	+	5	0
-	+	5	24
-	+	5	21
-	+	5	20
-	+	5	0
-	+	8	0
-	+	7	0
-	+	12	0
-	+	8	20
-
-> ~/.ssh/github
-	*	1653343485	0
-	"	1	0
-
-> ~/.ssh/config
-	*	1653343368	0
-	"	24	0
-	.	25	0
-	+	25	0
-	+	23	0
-	+	25	0
-
-> ~/.bashrc
-	*	1653337721	0
-	"	77	48
-	^	77	49
-	.	77	48
-	+	90	0
-	+	33	0
-	+	37	0
-	+	38	0
-	+	49	0
-	+	71	0
-	+	83	0
-	+	7	0
-	+	67	0
-	+	79	0
-	+	75	0
-	+	74	0
-	+	28	0
-	+	17	0
-	+	51	0
-	+	90	0
-	+	89	0
-	+	94	46
-	+	95	0
-	+	97	31
-	+	96	37
-	+	97	35
-	+	77	48
-
-> /usr/local/bin/pgadmin
-	*	1653184526	0
-	"	1	10
-	^	1	4
-	.	1	10
-	+	1	10
-
-> /usr/local/bin/pgadmin3
-	*	1653184425	0
-	"	1	0
-
-> ~/uninstall.sh
-	*	1652751071	0
-	"	1	0
-
-> ~/install.sh
-	*	1652749725	0
-	"	1	0
-
-> ~/VPN/us-free-02.protonvpn.com.udp.ovpn
-	*	1652737333	0
-	"	53	31
-	^	53	32
-	.	53	32
-	+	53	32
-
-> ~/txt/auth
-	*	1652737316	0
-	"	3	0
-	^	3	0
-	.	2	10
-	+	2	10
-
-> ~/.xinitrc
-	*	1652628630	0
-	"	20	45
-	^	20	46
-	.	20	45
-	+	16	21
-	+	12	17
-	+	17	21
-	+	20	89
-	+	17	0
 	+	18	12
-	+	20	28
-	+	19	119
-	+	19	41
-	+	20	43
-	+	14	0
-	+	23	0
-	+	22	0
-	+	23	0
-	+	22	0
-	+	21	11
-	+	20	45
-	+	21	0
-	+	22	0
-	+	24	0
-	+	23	0
-	+	22	0
-	+	23	0
-	+	22	0
-	+	23	0
-	+	22	0
-	+	23	0
-	+	22	0
-	+	20	45
-
-> /tmp/bash-fc.T6Kjxw
-	*	1652399019	0
-	"	1	120
-	^	1	121
-	.	1	120
-	+	1	120
-
-> ~/.config/VSCodium/User/settings.json
-	*	1652394597	0
-	"	1	0
-
-> ~/.config/VSCodium/User/keybindings.json
-	*	1652394590	0
-	"	55	0
-
-> ~/.config/VSCodium/Preferences
-	*	1652394564	0
-	"	1	0
-
-> /usr/local/bin/code
-	*	1652392456	0
-	"	3	44
-	^	3	45
-	.	3	44
-	+	3	44
-
-> /usr/local/bin/co
-	*	1652392425	0
-	"	1	0
-
-> /usr/local/src/code/usr/share/code/code
-	*	1652390417	0
-	"	1	0
-
-> /usr/share/applications/writer.desktop
-	*	1652358066	0
-	"	24	15
-	^	24	16
-	.	24	16
-	+	24	16
-
-> ~/.config/Thunar/accels.scm
-	*	1652356818	0
-	"	1	0
-
-> ~/.config/Thunar/uca.xml
-	*	1652356812	0
-	"	1	0
-
-> /usr/share/mime/mime.cache
-	*	1652355153	0
-	"	242	0
-
-> ~/.local/share/applications/mimeinfo.cache
-	*	1652354772	0
-	"	126	0
-
-> ~/.local/share/applications/mimeapps.list
-	*	1652354746	0
-	"	22	0
-	.	2	0
-	+	1	0
-	+	2	0
-
-> /usr/share/mime/types
-	*	1652354042	0
-	"	463	0
-
-> /usr/local/src/libreoffice7/usr/share/mime/packages/libreoffice7.3.xml
-	*	1652353966	0
-	"	4607	4
-
-> /usr/local/src/libreoffice7/usr/share/metainfo/libreoffice7.3-base.appdata.xml
-	*	1652353863	0
-	"	1	0
-
-> ~/dev/ssw/database/migrations/2022_05_09_220037_create_grupo_usuario_table.php
-	*	1652228344	0
-	"	24	1
-
-> ~/dev/ssw/database/migrations/2022_05_06_173114_create_grupos_table.php
-	*	1652228333	0
-	"	20	16
-	^	20	52
-	.	20	50
-	+	20	50
-
-> ~/nginx/conf/sites/ssw.am
-	*	1652228195	0
-	"	3	15
-	^	3	16
-	.	3	15
-	+	5	21
-	+	3	15
-
-> /usr/local/src/pgadmin3-1.22.2/conf
-	*	1652053496	0
-	"	1	14
-	^	1	14
-	.	2	0
-	+	1	24
-	+	1	15
-	+	1	14
-	+	2	0
-
-> /usr/local/src/pgadmin3-1.22.2/NERD_tree_1
-	*	1652053417	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/nginx/conf/sites/segurity.am
-	*	1651796495	0
-	"	6	1
-	^	11	42
-	.	11	41
-	+	12	0
-	+	10	8
-	+	12	35
-	+	2	0
-	+	10	0
-	+	12	2
-	+	11	41
-
-> /mnt/fvckingmore/dev/segurity-uneg/.env
-	*	1651796305	0
-	"	15	16
-	^	15	17
-	.	15	16
-	+	10	18
-	+	12	11
-	+	13	17
-	+	14	16
-	+	15	16
-
-> /etc/environment
-	*	1651795964	0
-	"	1	0
-
-> ~/nuevo
-	*	1651794613	0
-	"	1	0
-	.	12	0
-	+	11	0
-	+	12	0
-
-> ~/examenLivewire
-	*	1651719038	0
-	"	20	2
-	^	2	0
-	.	3	0
-	+	54	8
-	+	4	2
-	+	10	2
-	+	54	2
-	+	52	10
-	+	11	7
-	+	20	7
-	+	14	3
-	+	50	0
-	+	17	0
-	+	16	9
-	+	14	12
-	+	15	0
-	+	14	15
-	+	15	0
-	+	14	16
-	+	16	13
-	+	18	16
-	+	21	0
-	+	18	18
+	+	7	0
+	+	8	0
+	+	18	0
+	+	18	110
+	+	18	0
+	+	18	103
+	+	4	0
+	+	18	112
+	+	7	0
 	+	13	0
-	+	12	11
-	+	20	15
-	+	24	9
-	+	30	60
-	+	45	9
-	+	29	16
-	+	36	0
-	+	47	0
-	+	25	13
-	+	35	0
-	+	46	0
-	+	25	16
-	+	35	16
-	+	46	16
-	+	5	141
-	+	44	0
-	+	30	45
-	+	35	0
-	+	30	56
-	+	37	25
-	+	41	16
-	+	42	16
-	+	43	13
-	+	37	25
-	+	38	30
-	+	27	14
-	+	29	16
-	+	29	0
-	+	6	86
-	+	7	1
-	+	27	15
-	+	28	12
-	+	31	19
-	+	30	25
-	+	31	20
-	+	28	15
-	+	31	20
-	+	27	15
-	+	29	0
-	+	32	18
-	+	39	19
-	+	1	7
-	+	3	0
-	o	30	45
+	+	17	0
+	+	3	62
+	+	4	0
+	+	18	0
+	+	17	110
+	+	17	1
+	+	17	116
+	+	17	0
+	+	17	112
+	+	17	0
+	+	3	62
+	+	17	0
+	+	17	104
+	+	17	0
+	+	17	111
+	+	17	0
+	+	18	0
+	+	15	9
+	+	16	0
+	+	11	0
+	+	10	1
+	+	11	0
+	+	11	166
+	+	11	1
+	+	10	1
 
-> /usr/local/bin/chrome
-	*	1651707496	0
-	"	2	9
-	^	2	10
-	.	2	9
-	+	1	62
-	+	2	0
-	+	1	0
-	+	2	9
+> ~/.tlauncher/minecraft_tlauncher_java_config.json
+	*	1657586642	0
+	"	6	62
+	^	6	63
+	.	6	62
+	+	6	62
 
-> ~/.config/gtk-3.0/settings.ini
-	*	1651705382	0
-	"	1	0
-	^	5	39
-	.	5	38
-	+	6	22
-	+	5	38
-
-> /mnt/am/home/am/VPN/us-free-02.protonvpn.com.udp.ovpn
-	*	1651700100	0
+> ~/.tlauncher/tlauncher-2.0.properties
+	*	1657586621	0
 	"	43	0
 
-> ~/nginx/conf/sites/laravel.base
-	*	1651618168	0
-	"	10	0
-	^	10	1
-	.	10	0
-	+	2	0
-	+	6	16
-	+	10	36
-	+	10	0
+> ~/.local/share/applications/tlauncher.desktop
+	*	1657508670	0
+	"	2	10
+	^	2	11
+	.	2	10
+	+	1	15
+	+	4	41
+	+	2	10
 
-> ~/php/etc/php-fpm.d/www.conf
-	*	1651618040	0
-	"	37	0
-	^	37	0
-	.	37	0
-	+	23	8
-	+	24	7
-	+	36	0
-	+	37	24
-	+	49	0
-	+	50	0
-	+	51	0
-	+	49	0
-	+	37	0
-	+	36	0
-	+	37	0
-
-> ~/nginx/conf/sites/vue.app.am
-	*	1651541473	0
-	"	9	35
-	^	9	36
-	.	9	35
-	+	9	35
-
-> ~/php/etc/php.ini
-	*	1651539347	0
-	"	934	0
-	^	512	27
-	.	934	0
-	+	503	18
-	+	512	26
-	+	918	0
-	+	922	0
-	+	923	0
-	+	924	0
-	+	928	0
-	+	939	0
-	+	940	0
-	+	941	0
-	+	949	0
-	+	948	0
-	+	951	0
-	+	953	0
-	+	934	0
-
-> /usr/local/src/php-8.1.5/config
-	*	1651539270	0
-	"	26	0
-	^	2	9
-	.	26	0
-	+	1	729
-	+	1	0
-	+	1	9
-	+	1	0
-	+	1	729
-	+	1	0
-	+	2	9
-	+	25	0
-	+	23	0
-	+	14	0
-	+	1	0
-	+	17	0
-	+	28	0
-	+	26	0
-
-> ~/php/etc/php-fpm.conf
-	*	1651538579	0
-	"	62	24
-	^	24	25
-	.	24	24
-	+	24	0
-	+	17	0
-	+	42	17
-	+	100	0
-	+	99	0
-	+	17	18
-	+	24	24
-
-> ~/php/etc/php-fpm.
-	*	1651538245	0
+> ~/.local/share/applications/chrome-kgbjpjfmpfkmmmaaomdblidckhoncoan-Default.desktop
+	*	1657508623	0
 	"	1	0
 
-> /usr/local/src/php-8.1.5/php.ini-production
-	*	1651535999	0
-	"	1419	0
-
-> /usr/local/src/php-8.1.5/confiog
-	*	1651532042	0
+> ~/.local/share/applications/chrome-
+	*	1657508615	0
 	"	1	0
 
-> /usr/local/src/php-8.1.5/confg
-	*	1651532040	0
+> ~/dev/prueba/vendor/laravel/ui/auth-backend/AuthenticatesUsers.php
+	*	1657506053	0
+	"	59	12
+
+> ~/dev/prueba/app/Http/Controllers/Auth/LoginController.php
+	*	1657505913	0
 	"	1	0
 
-> ~/nginx/conf/sites/segurity.uneg
-	*	1651527028	0
-	"	3	23
-	^	3	24
-	.	3	23
-	+	14	0
-	+	9	0
-	+	5	0
-	+	2	14
-	+	5	49
-	+	6	63
-	+	9	0
-	+	10	55
-	+	5	51
-	+	2	13
-	+	3	26
-	+	6	0
-	+	8	0
-	+	4	0
-	+	6	0
-	+	5	51
-	+	7	16
-	+	3	23
+> ~/dev/prueba/resources/views/auth/login.blade.php
+	*	1657505900	0
+	"	1	0
 
-> ~/.bash_profile
-	*	1651526049	0
-	"	9	0
-	^	9	1
-	.	10	0
-	+	7	63
-	+	7	61
-	+	8	0
-	+	7	61
-	+	9	6
-	+	10	17
-	+	11	33
-	+	12	31
-	+	9	0
-	+	10	0
-
-> ~/zeus
-	*	1651374499	0
-	"	11	12
-	^	5	13
-	.	5	12
-	+	18	0
-	+	11	0
-	+	10	0
-	+	11	48
-	+	13	12
-	+	14	0
-	+	13	13
-	+	14	23
-	+	15	0
-	+	16	2
-	+	11	39
-	+	4	14
-	+	5	12
+> ~/dev/prueba/vendor/laravel/ui/auth-backend/ResetsPasswords.php
+	*	1657505664	0
+	"	1	0

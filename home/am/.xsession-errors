@@ -1,186 +1,160 @@
-dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
-dbus-update-activation-environment: setting DISPLAY=:0
-dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
-dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
-dbus-update-activation-environment: setting SHELL=/bin/bash
-dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-default:/etc/xdg
-dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session1
-dbus-update-activation-environment: setting LANGUAGE=es_ES:en
-dbus-update-activation-environment: setting MANDATORY_PATH=/usr/share/gconf/default.mandatory.path
-dbus-update-activation-environment: setting LC_ADDRESS=en_US.UTF-8
-dbus-update-activation-environment: setting LC_NAME=en_US.UTF-8
-dbus-update-activation-environment: setting DESKTOP_SESSION=default
-dbus-update-activation-environment: setting LC_MONETARY=en_US.UTF-8
-dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
-dbus-update-activation-environment: setting PWD=/home/am
-dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=default
-dbus-update-activation-environment: setting LOGNAME=am
-dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
-dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
-dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
-dbus-update-activation-environment: setting LC_NUMBER=en_US.UTF-8
-dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/am
-dbus-update-activation-environment: setting GDM_LANG=es_ES
-dbus-update-activation-environment: setting HOME=/home/am
-dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
-dbus-update-activation-environment: setting LC_PAPER=en_US.UTF-8
-dbus-update-activation-environment: setting LANG=es_ES.UTF-8
-dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
-dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
-dbus-update-activation-environment: setting LC_IDENTIFICATION=en_US.UTF-8
-dbus-update-activation-environment: setting DEFAULTS_PATH=/usr/share/gconf/default.default.path
-dbus-update-activation-environment: setting USER=am
-dbus-update-activation-environment: setting DISPLAY=:0
-dbus-update-activation-environment: setting SHLVL=1
-dbus-update-activation-environment: setting LC_TELEPHONE=en_US.UTF-8
-dbus-update-activation-environment: setting LC_MEASUREMENT=en_US.UTF-8
-dbus-update-activation-environment: setting PAPERSIZE=letter
-dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
-dbus-update-activation-environment: setting LC_TIME=en_US.UTF-8
-dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/default:/usr/local/share/:/usr/share/
-dbus-update-activation-environment: setting PATH=/home/am/bin:/home/am/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-dbus-update-activation-environment: setting GDMSESSION=default
-dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
-dbus-update-activation-environment: setting LC_NUMERIC=en_US.UTF-8
-dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
-Xsession: X session started for am at Sat 19 Mar 2022 01:47:41 PM -04
-dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
-dbus-update-activation-environment: setting DISPLAY=:0
-dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
-localuser:am being added to access control list
-dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
-dbus-update-activation-environment: setting LC_NUMBER=en_US.UTF-8
-dbus-update-activation-environment: setting LANGUAGE=es_ES:en
-dbus-update-activation-environment: setting USER=am
-dbus-update-activation-environment: setting LC_TIME=en_US.UTF-8
-dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
-dbus-update-activation-environment: setting SSH_AGENT_PID=1296
-dbus-update-activation-environment: setting SHLVL=0
-dbus-update-activation-environment: setting HOME=/home/am
-dbus-update-activation-environment: setting DESKTOP_SESSION=default
-dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
-dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
-dbus-update-activation-environment: setting LC_MONETARY=en_US.UTF-8
-dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
-dbus-update-activation-environment: setting MANDATORY_PATH=/usr/share/gconf/default.mandatory.path
-dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
-dbus-update-activation-environment: setting LOGNAME=am
-dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
-dbus-update-activation-environment: setting DEFAULTS_PATH=/usr/share/gconf/default.default.path
-dbus-update-activation-environment: setting PATH=/home/am/bin:/home/am/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-dbus-update-activation-environment: setting GDM_LANG=es_ES
-dbus-update-activation-environment: setting PAPERSIZE=letter
-dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session1
-dbus-update-activation-environment: setting LC_ADDRESS=en_US.UTF-8
-dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
-dbus-update-activation-environment: setting DISPLAY=:0
-dbus-update-activation-environment: setting LANG=es_ES.UTF-8
-dbus-update-activation-environment: setting LC_TELEPHONE=en_US.UTF-8
-dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=default
-dbus-update-activation-environment: setting XAUTHORITY=/home/am/.Xauthority
-dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/am
-dbus-update-activation-environment: setting SSH_AUTH_SOCK=/tmp/ssh-Et8B9nTjueSP/agent.1237
-dbus-update-activation-environment: setting SHELL=/bin/bash
-dbus-update-activation-environment: setting LC_NAME=en_US.UTF-8
-dbus-update-activation-environment: setting GDMSESSION=default
-dbus-update-activation-environment: setting LC_MEASUREMENT=en_US.UTF-8
-dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
-dbus-update-activation-environment: setting LC_IDENTIFICATION=en_US.UTF-8
-dbus-update-activation-environment: setting PWD=/home/am
-dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-default:/etc/xdg
-dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/default:/usr/local/share/:/usr/share/
-dbus-update-activation-environment: setting LC_NUMERIC=en_US.UTF-8
-dbus-update-activation-environment: setting LC_PAPER=en_US.UTF-8
-unexpected type for property '290'
-property '294' doesn't exist, you need to specify its type and format
-Usando el método «randr».
-
-(nitrogen:1373): dbind-WARNING **: 13:47:42.417: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-
-(xfce4-clipman:1377): dbind-WARNING **: 13:47:42.433: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-error 140: BadRegion request 138 minor 14 serial 373
-error 140: BadRegion request 138 minor 14 serial 378
+xprop: error: Invalid window id format: WM_NAME.
 error 140: BadRegion request 138 minor 14 serial 492
-error 140: BadRegion request 138 minor 14 serial 596
-error 140: BadRegion request 138 minor 14 serial 825
-error 140: BadRegion request 138 minor 14 serial 852
-error 140: BadRegion request 138 minor 14 serial 896
-error 140: BadRegion request 138 minor 14 serial 901
-
-** (xfce4-clipman:1377): WARNING **: 13:47:42.787: Unable to register GApplication: Ya existe un objeto exportado para la interfaz org.gtk.Application en /org/xfce/clipman
-
-(xfce4-clipman:1377): GLib-GIO-CRITICAL **: 13:47:42.787: g_application_get_is_remote: assertion 'application->priv->is_registered' failed
-
-(xfce4-clipman:1377): GLib-WARNING **: 13:47:42.787: g_set_application_name() called multiple times
-error 140: BadRegion request 138 minor 14 serial 927
-error 140: BadRegion request 138 minor 14 serial 936
-error 140: BadRegion request 138 minor 14 serial 976
-error 140: BadRegion request 138 minor 14 serial 985
-error 140: BadRegion request 138 minor 14 serial 1020
-error 140: BadRegion request 138 minor 14 serial 1029
-
-(nitrogen:1486): dbind-WARNING **: 13:47:42.822: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-error 140: BadRegion request 138 minor 14 serial 1113
-error 140: BadRegion request 138 minor 14 serial 1118
-The program 'nitrogen' received an X Window System error.
-This probably reflects a bug in the program.
-The error was 'BadValue (integer parameter out of range for operation)'.
-  (Details: serial 114 error_code 2 request_code 113 minor_code 0)
-  (Note to programmers: normally, X errors are reported asynchronously;
-   that is, you will receive the error a while after causing it.
-   To debug your program, run it with the --sync command line
-   option to change this behavior. You can then get a meaningful
-   backtrace from your debugger if you break on the gdk_x_error() function.)
-
-(xfce4-terminal:3809): dbind-WARNING **: 13:47:57.415: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-No se pudo conectar con el Gestor se sesiones: No se pudo conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
-
-(xfce4-terminal:3809): VTE-CRITICAL **: 13:47:57.748: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:3809): VTE-CRITICAL **: 13:47:57.748: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:3809): VTE-CRITICAL **: 13:47:57.748: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:3809): VTE-CRITICAL **: 13:47:57.748: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-
-(xfce4-terminal:3809): VTE-CRITICAL **: 13:47:57.748: void vte_terminal_match_set_cursor_type(VteTerminal*, int, GdkCursorType): assertion 'tag >= 0' failed
-[6538:8194:0319/134824.962120:ERROR:login_database.cc(599)] Password store database is too new, kCurrentVersionNumber=26, GetCompatibleVersionNumber=31
-[6538:8194:0319/134824.962339:ERROR:password_store_default.cc(42)] Could not create/open login database.
-[6538:8194:0319/134824.962366:ERROR:password_store_x.cc(225)] Could not start the migration into the encrypted LoginDatabase because the database failed to initialise.
-[6538:9029:0319/134829.728147:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[6538:9029:0319/134829.728704:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[6538:9029:0319/134829.729081:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-
-(xfce4-clipman:1377): Gdk-CRITICAL **: 13:54:05.831: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-error 140: BadRegion request 138 minor 14 serial 238276
-error 140: BadRegion request 138 minor 14 serial 238353
-error 140: BadRegion request 138 minor 14 serial 238404
-error 140: BadRegion request 138 minor 14 serial 238455
-error 140: BadRegion request 138 minor 14 serial 238506
-error 140: BadRegion request 138 minor 14 serial 238557
-error 140: BadRegion request 138 minor 14 serial 238604
-error 140: BadRegion request 138 minor 14 serial 238655
-error 140: BadRegion request 138 minor 14 serial 238702
-error 140: BadRegion request 138 minor 14 serial 238753
-error 140: BadRegion request 138 minor 14 serial 238804
-error 140: BadRegion request 138 minor 14 serial 238855
-error 140: BadRegion request 138 minor 14 serial 238906
-
-(pavucontrol:85454): dbind-WARNING **: 13:56:59.034: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-error 140: BadRegion request 138 minor 14 serial 547605
-error 140: BadRegion request 138 minor 14 serial 547668
-error 140: BadRegion request 138 minor 14 serial 1234107
-
-(xfce4-clipman:1377): Gdk-CRITICAL **: 15:42:49.185: gdk_window_get_device_position_double: assertion 'GDK_IS_WINDOW (window)' failed
-[libi3] ../../i3/libi3/font.c Using Pango font Sans, size 8
-[6538:7656:0319/171350.111362:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
-[6538:6538:0319/171350.113012:ERROR:chrome_browser_main_extra_parts_x11.cc(62)] X IO error received (X server probably went away)
-[6538:6538:0319/171350.120001:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
-[6538:6538:0319/171350.123980:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
-[6538:6538:0319/171350.150862:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
-[6538:6538:0319/171350.201737:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
-[6538:6538:0319/171350.205513:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
-[6538:6538:0319/171350.214219:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
-[6538:6538:0319/171350.217698:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
-[6538:6538:0319/171350.223941:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
-[6538:6538:0319/171350.229744:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote
+error 140: BadRegion request 138 minor 14 serial 512
+error 140: BadRegion request 138 minor 14 serial 538
+error 140: BadRegion request 138 minor 14 serial 560
+error 140: BadRegion request 138 minor 14 serial 581
+error 140: BadRegion request 138 minor 14 serial 617
+error 140: BadRegion request 138 minor 14 serial 973
+error 140: BadRegion request 138 minor 14 serial 998
+error 140: BadRegion request 138 minor 14 serial 1019
+error 140: BadRegion request 138 minor 14 serial 1047
+error 140: BadRegion request 138 minor 14 serial 1073
+error 140: BadRegion request 138 minor 14 serial 1101
+error 140: BadRegion request 138 minor 14 serial 1127
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+error 140: BadRegion request 138 minor 14 serial 2199
+error 140: BadRegion request 138 minor 14 serial 2219
+error 140: BadRegion request 138 minor 14 serial 2239
+error 140: BadRegion request 138 minor 14 serial 2267
+error 140: BadRegion request 138 minor 14 serial 2296
+error 140: BadRegion request 138 minor 14 serial 2317
+error 140: BadRegion request 138 minor 14 serial 2347
+error 140: BadRegion request 138 minor 14 serial 2374
+error 140: BadRegion request 138 minor 14 serial 2411
+error 140: BadRegion request 138 minor 14 serial 2448
+error 140: BadRegion request 138 minor 14 serial 2485
+error 140: BadRegion request 138 minor 14 serial 2522
+error 140: BadRegion request 138 minor 14 serial 2559
+xprop: error: Invalid window id format: WM_NAME.
+error 140: BadRegion request 138 minor 14 serial 2596
+error 140: BadRegion request 138 minor 14 serial 2633
+error 140: BadRegion request 138 minor 14 serial 2670
+error 140: BadRegion request 138 minor 14 serial 2707
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+xprop: error: Invalid window id format: WM_NAME.
+error 140: BadRegion request 138 minor 14 serial 5248
+error 140: BadRegion request 138 minor 14 serial 5687
+error 140: BadRegion request 138 minor 14 serial 5745
+error 140: BadRegion request 138 minor 14 serial 5773
+error 140: BadRegion request 138 minor 14 serial 5801
+error 140: BadRegion request 138 minor 14 serial 5825
+error 140: BadRegion request 138 minor 14 serial 5853
+error 140: BadRegion request 138 minor 14 serial 5881
+error 140: BadRegion request 138 minor 14 serial 5909
+error 140: BadRegion request 138 minor 14 serial 7042
+error 140: BadRegion request 138 minor 14 serial 7070
+error 140: BadRegion request 138 minor 14 serial 7094
+error 140: BadRegion request 138 minor 14 serial 7122
+error 140: BadRegion request 138 minor 14 serial 7150
+error 140: BadRegion request 138 minor 14 serial 7174
+error 140: BadRegion request 138 minor 14 serial 7202
+error 140: BadRegion request 138 minor 14 serial 7230
+error 140: BadRegion request 138 minor 14 serial 7258
+error 140: BadRegion request 138 minor 14 serial 7282
+error 140: BadRegion request 138 minor 14 serial 7524
+error 140: BadRegion request 138 minor 14 serial 7817
+error 140: BadRegion request 138 minor 14 serial 9513
+error 140: BadRegion request 138 minor 14 serial 9566
+error 140: BadRegion request 138 minor 14 serial 9593
+error 140: BadRegion request 138 minor 14 serial 9621
+error 140: BadRegion request 138 minor 14 serial 9649
+error 140: BadRegion request 138 minor 14 serial 9673
+error 140: BadRegion request 138 minor 14 serial 9701
+error 140: BadRegion request 138 minor 14 serial 9729
+error 140: BadRegion request 138 minor 14 serial 9757
+error 140: BadRegion request 138 minor 14 serial 9785
+error 140: BadRegion request 138 minor 14 serial 9813
+error 140: BadRegion request 138 minor 14 serial 9847
+error 140: BadRegion request 138 minor 14 serial 9876
+error 140: BadRegion request 138 minor 14 serial 9911
+xprop: error: Invalid window id format: 0x0.
+xprop: error: Invalid window id format: 0x0.
+error 140: BadRegion request 138 minor 14 serial 21271
+error 140: BadRegion request 138 minor 14 serial 21315
+error 140: BadRegion request 138 minor 14 serial 21359
+error 140: BadRegion request 138 minor 14 serial 21403
+error 140: BadRegion request 138 minor 14 serial 21447
+error 140: BadRegion request 138 minor 14 serial 21491
+error 140: BadRegion request 138 minor 14 serial 25614
+error 140: BadRegion request 138 minor 14 serial 25664
+error 140: BadRegion request 138 minor 14 serial 45139
+error 140: BadRegion request 138 minor 14 serial 45199
+error 140: BadRegion request 138 minor 14 serial 45259
+error 140: BadRegion request 138 minor 14 serial 45319
+error 140: BadRegion request 138 minor 14 serial 45377
+error 140: BadRegion request 138 minor 14 serial 46661
+error 140: BadRegion request 138 minor 14 serial 46715
+error 140: BadRegion request 138 minor 14 serial 46769
+error 140: BadRegion request 138 minor 14 serial 47413
+error 140: BadRegion request 138 minor 14 serial 47459
+error 140: BadRegion request 138 minor 14 serial 47505
+error 140: BadRegion request 138 minor 14 serial 47537
+error 140: BadRegion request 138 minor 14 serial 47583
+error 140: BadRegion request 138 minor 14 serial 60649
+error 140: BadRegion request 138 minor 14 serial 60676
+error 140: BadRegion request 138 minor 14 serial 60703
+error 140: BadRegion request 138 minor 14 serial 60731
+error 140: BadRegion request 138 minor 14 serial 60759
+error 140: BadRegion request 138 minor 14 serial 60787
+error 140: BadRegion request 138 minor 14 serial 60815
+error 140: BadRegion request 138 minor 14 serial 60843
+error 140: BadRegion request 138 minor 14 serial 60871
+error 140: BadRegion request 138 minor 14 serial 60899
+error 140: BadRegion request 138 minor 14 serial 60927
+error 140: BadRegion request 138 minor 14 serial 60955
+error 140: BadRegion request 138 minor 14 serial 60983
+error 140: BadRegion request 138 minor 14 serial 61011
+error 140: BadRegion request 138 minor 14 serial 61039
+xprop: error: Invalid window id format: 0x0.
+xprop: error: Invalid window id format: 0x0.
+xprop: error: Invalid window id format: 0x0.
+xprop: error: Invalid window id format: 0x0.
+xprop: error: Invalid window id format: 0x0.
+xprop: error: Invalid window id format: 0x0.
+xprop: error: Invalid window id format: 0x0.
+xprop: error: Invalid window id format: 0x0.
+xprop: error: Invalid window id format: 0x0.

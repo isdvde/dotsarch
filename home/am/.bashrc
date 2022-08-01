@@ -85,13 +85,21 @@ export HISTFILESIZE=
 export HISTSIZE=
 export VISUAL=vim
 export EDITOR=$VISUAL
-export PATH=$PATH:/sbin:/bin:/usr/bin:/usr/local/bin:/usr/sbin
+export PATH="/sbin:/bin:/usr/bin:/usr/local/bin:/usr/sbin"
 
 export PGHOST=localhost
 export PGPORT=5432
 export PGDATA="/home/am/pgsql/data"
-export PATH="/home/am/pgsql/bin:${PATH}"
-export PATH="/home/am/php/bin:/home/am/php/sbin:${PATH}"
+export PGSQL="/home/am/pgsql/bin"
 
-export JAVA_HOME=/usr/local/src/jdk13
-export PATH=${JAVA_HOME}/bin:${PATH}
+export REDIS="/home/am/redis/bin"
+
+export JAVA_HOME="/usr/local/src/jre1.8.0_202/"
+
+export PHP80="/home/am/php/php80/bin/"
+export PHP81="/home/am/php/php81/bin/"
+#export PHP="/home/am/php/php80/bin/"
+
+export PATH=${PATH}:${JAVA_HOME}:${PGSQL}:${PHP80}:${PHP81}
+#export PATH=${PATH}:${JAVA_HOME}:${PGSQL}
+

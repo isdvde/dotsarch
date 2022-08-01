@@ -38,8 +38,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -233,11 +232,13 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find"
+                        "label": "&&Find",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace"
+                        "label": "&&Replace",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -597,7 +598,7 @@
                     {
                         "id": "editor.action.toggleWordWrap",
                         "label": "&&Word Wrap",
-                        "checked": true
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -632,8 +633,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1108,10 +1108,6 @@
                 "label": "Ctrl+Shift+T",
                 "userSettingsLabel": "ctrl+shift+t"
             },
-            "workbench.action.openRecent": {
-                "label": "Ctrl+R",
-                "userSettingsLabel": "ctrl+r"
-            },
             "workbench.action.files.save": {
                 "label": "Ctrl+S",
                 "userSettingsLabel": "ctrl+s"
@@ -1193,12 +1189,12 @@
                 "userSettingsLabel": "ctrl+shift+h"
             },
             "editor.action.commentLine": {
-                "label": "Ctrl+Shift+7",
-                "userSettingsLabel": "ctrl+shift+7"
+                "label": "Ctrl+Alt+Z",
+                "userSettingsLabel": "ctrl+alt+z"
             },
             "editor.action.blockComment": {
-                "label": "Ctrl+Shift+A",
-                "userSettingsLabel": "ctrl+shift+a"
+                "label": "Ctrl+Shift+Z",
+                "userSettingsLabel": "ctrl+shift+z"
             },
             "editor.emmet.action.expandAbbreviation": {
                 "label": "Tab",
@@ -1407,8 +1403,8 @@
                 "userSettingsLabel": "ctrl+p"
             },
             "workbench.action.showAllSymbols": {
-                "label": "Ctrl+T",
-                "userSettingsLabel": "ctrl+t"
+                "label": "Ctrl+R",
+                "userSettingsLabel": "ctrl+r"
             },
             "workbench.action.gotoSymbol": {
                 "label": "Ctrl+Shift+O",

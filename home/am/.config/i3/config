@@ -3,7 +3,7 @@
 #######################################################
 
 set $mod Mod4
-font pango:Sans 0
+font pango:Sans 1
 
 default_border pixel 2
 default_floating_border pixel 2
