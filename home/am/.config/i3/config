@@ -138,6 +138,8 @@ bindsym $mod+e exec --no-startup-id pcmanfm
 #bindsym XF86AudioMute exec --no-startup-id "amixer -q sset Master toggle"
 bindsym F8 exec --no-startup-id "amixer -q sset Master 2%+ unmute"
 bindsym F7 exec --no-startup-id "amixer -q sset Master 2%- unmute"
+bindsym $mod+F8 exec --no-startup-id "amixer -q sset Master 2%+ unmute"
+bindsym $mod+F7 exec --no-startup-id "amixer -q sset Master 2%- unmute"
 
 #Screeshot keybind
 bindsym Mod1+Sys_Req exec --no-startup-id xfce4-screenshooter -w
@@ -196,6 +198,8 @@ bar {
 	position top
 	font pango:Dejavu Sans Book 7
 	#height 15
+	mode hide
+	hidden_state hide
 }
 
 bindsym $mod+b bar mode toggle

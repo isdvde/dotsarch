@@ -11,25 +11,73 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último Patrón de búsqueda:
-~MSle0/sqli
+~MSle0~/Volu
 
 # Último Sustitución Patrón de búsqueda:
-~MSle0~&80
+~MSle0&products
 
 # Última cadena de sustitución:
-$81
+$productos
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
 :wq
-|2,0,1659354129,,"wq"
+|2,0,1664675196,,"wq"
 :q!
-|2,0,1659311447,,"q!"
+|2,0,1664576479,,"q!"
+:w
+|2,0,1663818893,,"w"
+:set rnu!
+|2,0,1663808010,,"set rnu!"
+:set nu!
+|2,0,1663808006,,"set nu!"
+:%s/products/productos/g
+|2,0,1663805291,,"%s/products/productos/g"
+:%s/recommended_products/productos_recomendados/g
+|2,0,1663805266,,"%s/recommended_products/productos_recomendados/g"
+:%s/acompañante/acompannate/g
+|2,0,1663805231,,"%s/acompañante/acompannate/g"
+:%s/product_instancias/instancias_producto/g
+|2,0,1663805185,,"%s/product_instancias/instancias_producto/g"
+:%s/instances/instancias/g
+|2,0,1663805167,,"%s/instances/instancias/g"
+:%s/num_instance_by_accompanying_product/num_instancia_por_producto_acompañante/g
+|2,0,1663805112,,"%s/num_instance_by_accompanying_product/num_instancia_por_producto_acompañante/g"
+:%s/accompanying_products_by_order/productos_acompañantes_por_orden/g
+|2,0,1663805075,,"%s/accompanying_products_by_order/productos_acompañantes_por_orden/g"
+:%s/relevant_ordenes/ordenes_relevantes/g
+|2,0,1663805001,,"%s/relevant_ordenes/ordenes_relevantes/g"
+:%s/order_id/id_orden/g
+|2,0,1663804943,,"%s/order_id/id_orden/g"
+:%s/product_id/id_producto/g
+|2,0,1663804924,,"%s/product_id/id_producto/g"
+:%s/ordenes_for_product/ordenes_por_producto/g
+|2,0,1663804893,,"%s/ordenes_for_product/ordenes_por_producto/g"
+:%s/orders/ordenes/g
+|2,0,1663804866,,"%s/orders/ordenes/g"
+:'<,'>s/orders/ordenes/g
+|2,0,1663804820,,"'<,'>s/orders/ordenes/g"
+:tabe ordenes.csv
+|2,0,1663804643,,"tabe ordenes.csv"
+:tabe productos.csv
+|2,0,1663804468,,"tabe productos.csv"
+:tabe requirements.txt
+|2,0,1663804195,,"tabe requirements.txt"
+:tabe procfile
+|2,0,1663804164,,"tabe procfile"
+:tabe wsgi.py
+|2,0,1663804131,,"tabe wsgi.py"
+:! bash apiClient
+|2,0,1660094817,,"! bash apiClient"
+:'<,'>s/$/ \\/g
+|2,0,1660094813,,"'<,'>s/$/ \\\\/g"
+:'<,'>s/,/,\r/g
+|2,0,1660094729,,"'<,'>s/,/,\\r/g"
+:source %
+|2,0,1660094647,,"source %"
 :'<,'>s/80/81/g
 |2,0,1659310749,,"'<,'>s/80/81/g"
 :'<,'>s/81/80/g
 |2,0,1659308789,,"'<,'>s/81/80/g"
-:w
-|2,0,1659303963,,"w"
 :'<,'>s/\( \\$\)/=shared\1/g
 |2,0,1659303905,,"'<,'>s/\\( \\\\$\\)/=shared\\1/g"
 :%s/$/ \\/g
@@ -40,8 +88,6 @@ $81
 |2,0,1659290133,,"%s/$/=shared/g"
 :%s/ \\$/ /g
 |2,0,1659285757,,"%s/ \\\\$/ /g"
-:'<,'>s/$/ \\/g
-|2,0,1659222915,,"'<,'>s/$/ \\\\/g"
 :'<,'>s/ /\r/g
 |2,0,1659222897,,"'<,'>s/ /\\r/g"
 :%s/81/74/g
@@ -186,16 +232,10 @@ $81
 |2,0,1636895248,,"'<,'>s/home\\/am/mnt/g"
 :'<,'>s/mnt/home\/am/g
 |2,0,1636895050,,"'<,'>s/mnt/home\\/am/g"
-:set rnu!
-|2,0,1632265531,,"set rnu!"
-:set nu!
-|2,0,1632265526,,"set nu!"
 :source .vimrc
 |2,0,1632264887,,"source .vimrc"
 :help nerdcommenter.txt
 |2,0,1632179895,,"help nerdcommenter.txt"
-:source %
-|2,0,1632179709,,"source %"
 :FZF
 |2,0,1632178935,,"FZF"
 :!fzf
@@ -258,6 +298,38 @@ $81
 |2,0,1631476210,,"b"
 
 # Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+?/Volu
+|2,1,1664586684,47,"Volu"
+? products
+|2,1,1663805291,,"products"
+? recommended_products
+|2,1,1663805266,,"recommended_products"
+? acompañante
+|2,1,1663805231,,"acompañante"
+? product_instancias
+|2,1,1663805185,,"product_instancias"
+? instances
+|2,1,1663805167,,"instances"
+? num_instance_by_accompanying_product
+|2,1,1663805112,,"num_instance_by_accompanying_product"
+? accompanying_products_by_order
+|2,1,1663805075,,"accompanying_products_by_order"
+? relevant_ordenes
+|2,1,1663805001,,"relevant_ordenes"
+? order_id
+|2,1,1663804943,,"order_id"
+? product_id
+|2,1,1663804924,,"product_id"
+? ordenes_for_product
+|2,1,1663804893,,"ordenes_for_product"
+? orders
+|2,1,1663804866,,"orders"
+?/rofi
+|2,1,1663796369,47,"rofi"
+? $
+|2,1,1660094813,,"$"
+? ,
+|2,1,1660094729,,","
 ? 80
 |2,1,1659310749,,"80"
 ? 81
@@ -268,8 +340,6 @@ $81
 |2,1,1659306263,47,"Dyna"
 ? \( \\$\)
 |2,1,1659303905,,"\\( \\\\$\\)"
-? $
-|2,1,1659303842,,"$"
 ?  
 |2,1,1659303830,," "
 ?/filei
@@ -420,8 +490,6 @@ $81
 |2,1,1646668539,47,"ga"
 ?/smar
 |2,1,1646668453,47,"smar"
-?/rofi
-|2,1,1646656323,47,"rofi"
 ?/exec
 |2,1,1646580563,47,"exec"
 ?/screen
@@ -511,81 +579,57 @@ $81
 
 # Registros:
 ""0	LINE	0
-	.config/Code/User
-|3,1,0,1,1,0,1659354122,".config/Code/User"
+	bindsym F8 exec --no-startup-id "amixer -q sset Master 2%+ unmute"
+	bindsym F7 exec --no-startup-id "amixer -q sset Master 2%- unmute"
+|3,1,0,1,2,0,1664586686,"bindsym F8 exec --no-startup-id \"amixer -q sset Master 2%+ unmute\"","bindsym F7 exec --no-startup-id \"amixer -q sset Master 2%- unmute\""
 "1	LINE	0
-	            "group": "www-data",
-|3,0,1,1,1,0,1659312385,"            \"group\": \"www-data\","
+	    #recomendaciones = obtenerRecomendaciones(id)
+|3,0,1,1,1,0,1663808051,"    #recomendaciones = obtenerRecomendaciones(id)"
 "2	LINE	0
-	            "user": "www-data",
-|3,0,2,1,1,0,1659312384,"            \"user\": \"www-data\","
+	    #id = request.json['id']
+|3,0,2,1,1,0,1663808050,"    #id = request.json['id']"
 "3	LINE	0
-	            "workers": 20,
-|3,0,3,1,1,0,1659312383,"            \"workers\": 20,"
+	product_id,name
+	1,Baseball Bat
+	2,Baseball Glove
+	3,Football
+	4,Basketball Hoop
+	5,Football Helmet
+	6,Batting Gloves
+	7,Baseball
+	8,Hockey Stick
+	9,Ice Skates
+	10,Soccer Ball
+	11,Goalie Mask
+	12,Hockey Puck
+	13,Cleats
+|3,0,3,1,14,0,1663804602,"product_id,name","1,Baseball Bat","2,Baseball Glove","3,Football","4,Basketball Hoop","5,Football Helmet","6,Batting Gloves","7,Baseball","8,Hockey Stick","9,Ice Skates","10,Soccer Ball","11,Goalie Mask","12,Hockey Puck","13,Cleats"
 "4	LINE	0
-	{
-	    "listeners": {
-	        "*:8000": {
-	            "pass": "routes"
-	        }
-	    },
-	
-	    "routes": [
-	        {
-	            "match": {
-	                "uri": "!/index.php"
-	            },
-	            "action": {
-	                "share": "/home/am/dev/ssw/public$uri",
-	                "fallback": {
-	                    "pass": "applications/ssw"
-	                }
-	            }
-	        }
-	    ],
-	
-	    "applications": {
-	        "ssw": {
-	            "type": "php",
-	            "root": "/home/am/dev/ssw/public/",
-	            "script": "index.php",
-				"options": {
-				"file": "/home/am/php/php80/lib/php.ini:"
-				}
-	        }
-	    }
-	}
-|3,0,4,1,32,0,1659312359,"{","    \"listeners\": {","        \"*:8000\": {","            \"pass\": \"routes\"","        }","    },","","    \"routes\": [","        {","            \"match\": {","                \"uri\": \"!/index.php\"","            },","            \"action\": {","                \"share\": \"/home/am/dev/ssw/public$uri\",","                \"fallback\": {","                    \"pass\": \"applications/ssw\"","                }",>15
-|<"            }","        }","    ],","","    \"applications\": {","        \"ssw\": {","            \"type\": \"php\",","            \"root\": \"/home/am/dev/ssw/public/\",","            \"script\": \"index.php\",","			\"options\": {","			\"file\": \"/home/am/php/php80/lib/php.ini:\"","			}","        }","    }","}"
-"5	LINE	0
-	        "admin": {
-	            "memory_limit": "256M",
-	            "variables_order": "EGPCS"
-	        },
-	
-	        "user": {
-	            "display_errors": "0"
-	        }
-|3,0,5,1,8,0,1659311896,"        \"admin\": {","            \"memory_limit\": \"256M\",","            \"variables_order\": \"EGPCS\"","        },","","        \"user\": {","            \"display_errors\": \"0\"","        }"
+	src/
+|3,0,4,1,1,0,1663804414,"src/"
+"5	BLOCK	3
+		
+		
+		
+		
+		
+|3,0,5,2,5,3,1663804412,"	","	","	","	","	"
 "6	LINE	0
-	        "admin": {
-	            "memory_limit": "256M",
-	            "variables_order": "EGPCS"
-	        },
-	
-	        "user": {
-	            "display_errors": "0"
-	        }
-|3,0,6,1,8,0,1659311439,"        \"admin\": {","            \"memory_limit\": \"256M\",","            \"variables_order\": \"EGPCS\"","        },","","        \"user\": {","            \"display_errors\": \"0\"","        }"
+	!src/
+|3,0,6,1,1,0,1663804407,"!src/"
 "7	LINE	0
-	#export PHP="/home/am/php/php80/bin/"
-|3,0,7,1,1,0,1659310743,"#export PHP=\"/home/am/php/php80/bin/\""
+	app = Flask(__name__)
+	
+	@app.route("/")
+	def home_view():
+	        return "<h1>Hello World!</h1>"
+|3,0,7,1,5,0,1663803911,"app = Flask(__name__)","","@app.route(\"/\")","def home_view():","        return \"<h1>Hello World!</h1>\""
 "8	LINE	0
 	
-|3,0,8,1,1,0,1659308800,""
+|3,0,8,1,1,0,1663803836,""
 "9	LINE	0
-	--enable-inline-optimization=shared \
-|3,0,9,1,1,0,1659303951,"--enable-inline-optimization=shared \\"
+	from flask import Flask
+|3,0,9,1,1,0,1663803830,"from flask import Flask"
 "q	CHAR	0
 	:q!
 |3,0,26,0,1,0,1658266162,":q!"
@@ -593,244 +637,558 @@ $81
 		
 |3,0,30,0,1,0,1649134282,"	"
 "-	CHAR	0
-	#
-|3,0,36,0,1,0,1659310688,"#"
+	s
+|3,0,36,0,1,0,1663808049,"s"
 
 # Marcas en el archivo:
-'0  24  13  ~/dotfile
-|4,48,24,13,1659354129,"~/dotfile"
-'1  55  0  ~/dev/ssw/.env
-|4,49,55,0,1659312855,"~/dev/ssw/.env"
-'2  55  13  ~/dev/ssw/.env
-|4,50,55,13,1659312771,"~/dev/ssw/.env"
-'3  10  44  ~/unit/sites/ssw.json
-|4,51,10,44,1659312557,"~/unit/sites/ssw.json"
-'4  4  33  ~/unit/sites/ssw.json
-|4,52,4,33,1659312515,"~/unit/sites/ssw.json"
-'5  4  33  ~/unit/sites/ssw.json
-|4,53,4,33,1659312515,"~/unit/sites/ssw.json"
-'6  13  42  ~/unit/sites/ssw.json
-|4,54,13,42,1659312451,"~/unit/sites/ssw.json"
-'7  13  42  ~/unit/sites/ssw.json
-|4,55,13,42,1659312451,"~/unit/sites/ssw.json"
-'8  13  42  ~/unit/sites/ssw.json
-|4,56,13,42,1659312451,"~/unit/sites/ssw.json"
-'9  13  42  ~/unit/sites/ssw.json
-|4,57,13,42,1659312451,"~/unit/sites/ssw.json"
+'0  20  45  ~/.xinitrc
+|4,48,20,45,1664675196,"~/.xinitrc"
+'1  142  12  ~/.config/i3/config
+|4,49,142,12,1664586701,"~/.config/i3/config"
+'2  17  78  ~/.config/i3/bar.sh
+|4,50,17,78,1664576575,"~/.config/i3/bar.sh"
+'3  20  45  ~/.xinitrc
+|4,51,20,45,1664576489,"~/.xinitrc"
+'4  20  45  ~/.xinitrc
+|4,52,20,45,1664576479,"~/.xinitrc"
+'5  20  45  ~/.xinitrc
+|4,53,20,45,1664576479,"~/.xinitrc"
+'6  21  17  ~/.xinitrc
+|4,54,21,17,1664573671,"~/.xinitrc"
+'7  21  17  ~/.xinitrc
+|4,55,21,17,1664573671,"~/.xinitrc"
+'8  21  17  ~/.xinitrc
+|4,56,21,17,1664573671,"~/.xinitrc"
+'9  21  17  ~/.xinitrc
+|4,57,21,17,1664573671,"~/.xinitrc"
 
 # Lista de saltos (el más reciente va primero):
--'  24  13  ~/dotfile
-|4,39,24,13,1659354129,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1659354118,"~/dotfile"
--'  55  0  ~/dev/ssw/.env
-|4,39,55,0,1659312855,"~/dev/ssw/.env"
--'  55  0  ~/dev/ssw/.env
-|4,39,55,0,1659312855,"~/dev/ssw/.env"
--'  1  0  ~/dev/ssw/.env
-|4,39,1,0,1659312849,"~/dev/ssw/.env"
--'  1  0  ~/dev/ssw/.env
-|4,39,1,0,1659312849,"~/dev/ssw/.env"
--'  55  13  ~/dev/ssw/.env
-|4,39,55,13,1659312771,"~/dev/ssw/.env"
--'  55  13  ~/dev/ssw/.env
-|4,39,55,13,1659312771,"~/dev/ssw/.env"
--'  1  0  ~/dev/ssw/.env
-|4,39,1,0,1659312755,"~/dev/ssw/.env"
--'  1  0  ~/dev/ssw/.env
-|4,39,1,0,1659312755,"~/dev/ssw/.env"
--'  10  44  ~/unit/sites/ssw.json
-|4,39,10,44,1659312557,"~/unit/sites/ssw.json"
--'  10  44  ~/unit/sites/ssw.json
-|4,39,10,44,1659312557,"~/unit/sites/ssw.json"
--'  10  44  ~/unit/sites/ssw.json
-|4,39,10,44,1659312557,"~/unit/sites/ssw.json"
--'  10  44  ~/unit/sites/ssw.json
-|4,39,10,44,1659312557,"~/unit/sites/ssw.json"
--'  10  44  ~/unit/sites/ssw.json
-|4,39,10,44,1659312557,"~/unit/sites/ssw.json"
--'  10  44  ~/unit/sites/ssw.json
-|4,39,10,44,1659312557,"~/unit/sites/ssw.json"
--'  10  44  ~/unit/sites/ssw.json
-|4,39,10,44,1659312557,"~/unit/sites/ssw.json"
--'  10  44  ~/unit/sites/ssw.json
-|4,39,10,44,1659312557,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312533,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312533,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312533,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312533,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312533,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312533,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312533,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312533,"~/unit/sites/ssw.json"
--'  4  33  ~/unit/sites/ssw.json
-|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
--'  4  33  ~/unit/sites/ssw.json
-|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
--'  4  33  ~/unit/sites/ssw.json
-|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
--'  4  33  ~/unit/sites/ssw.json
-|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
--'  4  33  ~/unit/sites/ssw.json
-|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
--'  4  33  ~/unit/sites/ssw.json
-|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
--'  4  33  ~/unit/sites/ssw.json
-|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
--'  4  33  ~/unit/sites/ssw.json
-|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
--'  4  33  ~/unit/sites/ssw.json
-|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
--'  4  33  ~/unit/sites/ssw.json
-|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
--'  4  33  ~/unit/sites/ssw.json
-|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
--'  4  33  ~/unit/sites/ssw.json
-|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
--'  4  33  ~/unit/sites/ssw.json
-|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
--'  4  33  ~/unit/sites/ssw.json
-|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
--'  4  33  ~/unit/sites/ssw.json
-|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
--'  4  33  ~/unit/sites/ssw.json
-|4,39,4,33,1659312515,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312464,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312464,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312464,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312464,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312464,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312464,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312464,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312464,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  13  42  ~/unit/sites/ssw.json
-|4,39,13,42,1659312451,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312359,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312359,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312359,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312359,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312359,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312359,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312359,"~/unit/sites/ssw.json"
--'  1  0  ~/unit/sites/ssw.json
-|4,39,1,0,1659312359,"~/unit/sites/ssw.json"
--'  26  33  ~/unit/sites/ssw.json
-|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
--'  26  33  ~/unit/sites/ssw.json
-|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
--'  26  33  ~/unit/sites/ssw.json
-|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
--'  26  33  ~/unit/sites/ssw.json
-|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
--'  26  33  ~/unit/sites/ssw.json
-|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
--'  26  33  ~/unit/sites/ssw.json
-|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
--'  26  33  ~/unit/sites/ssw.json
-|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
--'  26  33  ~/unit/sites/ssw.json
-|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
--'  26  33  ~/unit/sites/ssw.json
-|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
--'  26  33  ~/unit/sites/ssw.json
-|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
--'  26  33  ~/unit/sites/ssw.json
-|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
--'  26  33  ~/unit/sites/ssw.json
-|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
--'  26  33  ~/unit/sites/ssw.json
-|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
--'  26  33  ~/unit/sites/ssw.json
-|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
--'  26  33  ~/unit/sites/ssw.json
-|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
--'  26  33  ~/unit/sites/ssw.json
-|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
--'  26  33  ~/unit/sites/ssw.json
-|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
--'  26  33  ~/unit/sites/ssw.json
-|4,39,26,33,1659311929,"~/unit/sites/ssw.json"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664675196,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664675190,"~/.xinitrc"
+-'  142  12  ~/.config/i3/config
+|4,39,142,12,1664586701,"~/.config/i3/config"
+-'  142  12  ~/.config/i3/config
+|4,39,142,12,1664586701,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1664586684,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1664586684,"~/.config/i3/config"
+-'  17  78  ~/.config/i3/bar.sh
+|4,39,17,78,1664576575,"~/.config/i3/bar.sh"
+-'  17  78  ~/.config/i3/bar.sh
+|4,39,17,78,1664576575,"~/.config/i3/bar.sh"
+-'  17  78  ~/.config/i3/bar.sh
+|4,39,17,78,1664576575,"~/.config/i3/bar.sh"
+-'  17  78  ~/.config/i3/bar.sh
+|4,39,17,78,1664576575,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1664576563,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1664576563,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1664576563,"~/.config/i3/bar.sh"
+-'  1  0  ~/.config/i3/bar.sh
+|4,39,1,0,1664576563,"~/.config/i3/bar.sh"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664576489,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664576489,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664576489,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664576489,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664576483,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664576483,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664576483,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664576483,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664576479,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664576479,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664576479,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664576479,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664576381,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664576381,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664576381,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664576381,"~/.xinitrc"
+-'  21  17  ~/.xinitrc
+|4,39,21,17,1664573671,"~/.xinitrc"
+-'  21  17  ~/.xinitrc
+|4,39,21,17,1664573671,"~/.xinitrc"
+-'  21  17  ~/.xinitrc
+|4,39,21,17,1664573671,"~/.xinitrc"
+-'  21  17  ~/.xinitrc
+|4,39,21,17,1664573671,"~/.xinitrc"
+-'  21  17  ~/.xinitrc
+|4,39,21,17,1664573671,"~/.xinitrc"
+-'  21  17  ~/.xinitrc
+|4,39,21,17,1664573671,"~/.xinitrc"
+-'  21  17  ~/.xinitrc
+|4,39,21,17,1664573671,"~/.xinitrc"
+-'  21  17  ~/.xinitrc
+|4,39,21,17,1664573671,"~/.xinitrc"
+-'  21  17  ~/.xinitrc
+|4,39,21,17,1664573671,"~/.xinitrc"
+-'  21  17  ~/.xinitrc
+|4,39,21,17,1664573671,"~/.xinitrc"
+-'  21  17  ~/.xinitrc
+|4,39,21,17,1664573671,"~/.xinitrc"
+-'  21  17  ~/.xinitrc
+|4,39,21,17,1664573671,"~/.xinitrc"
+-'  21  17  ~/.xinitrc
+|4,39,21,17,1664573671,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664573667,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664573667,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664573667,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664573667,"~/.xinitrc"
+-'  22  0  ~/.xinitrc
+|4,39,22,0,1664573655,"~/.xinitrc"
+-'  22  0  ~/.xinitrc
+|4,39,22,0,1664573655,"~/.xinitrc"
+-'  22  0  ~/.xinitrc
+|4,39,22,0,1664573655,"~/.xinitrc"
+-'  22  0  ~/.xinitrc
+|4,39,22,0,1664573655,"~/.xinitrc"
+-'  21  0  ~/.xinitrc
+|4,39,21,0,1664573655,"~/.xinitrc"
+-'  22  0  ~/.xinitrc
+|4,39,22,0,1664573655,"~/.xinitrc"
+-'  22  0  ~/.xinitrc
+|4,39,22,0,1664573655,"~/.xinitrc"
+-'  22  0  ~/.xinitrc
+|4,39,22,0,1664573655,"~/.xinitrc"
+-'  21  0  ~/.xinitrc
+|4,39,21,0,1664573655,"~/.xinitrc"
+-'  22  0  ~/.xinitrc
+|4,39,22,0,1664573655,"~/.xinitrc"
+-'  22  0  ~/.xinitrc
+|4,39,22,0,1664573655,"~/.xinitrc"
+-'  22  0  ~/.xinitrc
+|4,39,22,0,1664573655,"~/.xinitrc"
+-'  21  0  ~/.xinitrc
+|4,39,21,0,1664573655,"~/.xinitrc"
+-'  22  0  ~/.xinitrc
+|4,39,22,0,1664573655,"~/.xinitrc"
+-'  22  0  ~/.xinitrc
+|4,39,22,0,1664573655,"~/.xinitrc"
+-'  22  0  ~/.xinitrc
+|4,39,22,0,1664573655,"~/.xinitrc"
+-'  21  0  ~/.xinitrc
+|4,39,21,0,1664573655,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664573648,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664573648,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664573648,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664573648,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664573026,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664573026,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664573026,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664573026,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664573026,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664573026,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664573026,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664573026,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664573026,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664573026,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664573026,"~/.xinitrc"
+-'  20  45  ~/.xinitrc
+|4,39,20,45,1664573026,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664573023,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664573023,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664573023,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1664573023,"~/.xinitrc"
+-'  12  1  ~/dev/almacen/test.php
+|4,39,12,1,1663819146,"~/dev/almacen/test.php"
+-'  12  1  ~/dev/almacen/test.php
+|4,39,12,1,1663819146,"~/dev/almacen/test.php"
+-'  12  1  ~/dev/almacen/test.php
+|4,39,12,1,1663819146,"~/dev/almacen/test.php"
+-'  12  1  ~/dev/almacen/test.php
+|4,39,12,1,1663819146,"~/dev/almacen/test.php"
+-'  12  1  ~/dev/almacen/test.php
+|4,39,12,1,1663819146,"~/dev/almacen/test.php"
+-'  12  1  ~/dev/almacen/test.php
+|4,39,12,1,1663819146,"~/dev/almacen/test.php"
+-'  12  1  ~/dev/almacen/test.php
+|4,39,12,1,1663819146,"~/dev/almacen/test.php"
+-'  12  1  ~/dev/almacen/test.php
+|4,39,12,1,1663819146,"~/dev/almacen/test.php"
+-'  12  1  ~/dev/almacen/test.php
+|4,39,12,1,1663819146,"~/dev/almacen/test.php"
+-'  12  1  ~/dev/almacen/test.php
+|4,39,12,1,1663819146,"~/dev/almacen/test.php"
+-'  12  1  ~/dev/almacen/test.php
+|4,39,12,1,1663819146,"~/dev/almacen/test.php"
+-'  12  1  ~/dev/almacen/test.php
+|4,39,12,1,1663819146,"~/dev/almacen/test.php"
+-'  12  1  ~/dev/almacen/test.php
+|4,39,12,1,1663819146,"~/dev/almacen/test.php"
+-'  12  1  ~/dev/almacen/test.php
+|4,39,12,1,1663819146,"~/dev/almacen/test.php"
+-'  12  1  ~/dev/almacen/test.php
+|4,39,12,1,1663819146,"~/dev/almacen/test.php"
+-'  12  1  ~/dev/almacen/test.php
+|4,39,12,1,1663819146,"~/dev/almacen/test.php"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
 
-> ~/dotfile
-	*	1659354128	0
-	"	24	13
-	^	24	14
-	.	24	13
-	+	24	13
+> ~/.xinitrc
+	*	1664675196	0
+	"	20	45
+	^	20	46
+	.	20	45
+	+	20	45
+	+	22	0
+	+	21	17
+	+	20	45
+
+> ~/.config/i3/config
+	*	1664586699	0
+	"	142	12
+	^	142	13
+	.	142	12
+	+	113	0
+	+	115	0
+	+	93	0
+	+	115	0
+	+	121	0
+	+	123	0
+	+	132	0
+	+	144	0
+	+	145	41
+	+	149	0
+	+	162	0
+	+	161	16
+	+	163	0
+	+	188	0
+	+	187	0
+	+	188	0
+	+	187	0
+	+	188	0
+	+	167	0
+	+	169	0
+	+	167	0
+	+	169	0
+	+	167	0
+	+	8	0
+	+	117	0
+	+	129	0
+	+	168	0
+	+	206	0
+	+	26	50
+	+	105	0
+	+	200	1
+	+	106	0
+	+	200	1
+	+	199	1
+	+	105	0
+	+	106	0
+	+	199	1
+	+	200	1
+	+	196	19
+	+	191	9
+	+	193	1
+	+	196	0
+	+	192	21
+	+	193	0
+	+	194	0
+	+	196	0
+	+	177	0
+	+	195	0
+	+	192	21
+	+	139	0
+	+	137	0
+	+	143	0
+	+	139	9
+	+	140	9
+	+	12	0
+	+	199	1
+	+	200	9
+	+	199	0
+	+	18	0
+	+	18	65
+	+	167	31
+	+	200	9
+	+	199	27
+	+	12	0
+	+	198	1
+	+	167	55
+	+	207	15
+	+	207	0
+	+	198	1
+	+	106	0
+	+	200	1
+	+	11	0
+	+	198	1
+	+	12	0
+	+	20	28
+	+	133	0
+	+	132	0
+	+	133	42
+	+	18	0
+	+	19	0
+	+	18	0
+	+	19	57
+	+	191	0
+	+	190	0
+	+	191	0
+	+	167	72
+	+	166	0
+	+	167	55
+	+	190	0
+	+	196	37
+	+	199	29
+	+	11	1
+	+	10	0
+	+	191	0
+	+	190	0
+	+	6	16
+	+	202	18
+	+	201	6
+	+	141	12
+	+	142	12
+
+> ~/.config/i3/bar.sh
+	*	1664576574	0
+	"	17	78
+	^	74	2
+	.	17	78
+	+	73	0
+	+	72	1
+	+	73	84
+	+	76	1
+	+	3	47
+	+	76	1
+	+	3	45
+	+	76	9
+	+	66	10
+	+	67	80
+	+	68	0
+	+	73	22
+	+	76	9
+	+	73	19
+	+	74	0
+	+	73	1
+	+	74	59
+	+	76	7
+	+	75	0
+	+	74	1
+	+	75	7
+	+	17	78
+
+> ~/dev/almacen/test.php
+	*	1663819146	0
+	"	12	1
+	^	12	2
+	.	12	1
+	+	1	5
+	+	3	27
+	+	4	0
+	+	5	11
+	+	12	1
+
+> ~/uni/simulacion/recomendacion/src/.git/COMMIT_EDITMSG
+	*	1663808084	0
+	"	1	0
+
+> ~/uni/simulacion/recomendacion/src/main.py
+	*	1663808055	0
+	"	29	4
+	^	5	27
+	.	29	0
+	+	26	37
+	+	26	0
+	+	2	0
+	+	26	0
+	+	33	12
+	+	26	0
+	+	2	0
+	+	27	0
+	+	25	6
+	+	27	39
+	+	30	0
+	+	29	4
+	+	30	33
+	+	29	34
+	+	29	4
+	+	25	5
+	+	6	35
+	+	7	0
+	+	9	0
+	+	10	0
+	+	12	0
+	+	15	0
+	+	12	0
+	+	15	0
+	+	10	0
+	+	18	0
+	+	20	39
+	+	27	32
+	+	28	16
+	+	5	26
+	+	30	34
+	+	29	0
+
+> ~/uni/simulacion/recomendacion/src/wsgi.py
+	*	1663807958	0
+	"	1	4
+	^	1	5
+	.	1	5
+	+	4	16
+	+	1	5
+
+> ~/uni/simulacion/recomendacion/src/ordenes.csv
+	*	1663807958	0
+	"	1	19
+	^	1	21
+	.	1	0
+	+	34	4
+	+	1	0
+
+> ~/uni/simulacion/recomendacion/src/requirements.txt
+	*	1663807957	0
+	"	2	4
+	.	2	0
+	+	2	12
+	+	2	0
+
+> ~/uni/simulacion/recomendacion/src/productos.csv
+	*	1663807957	0
+	"	12	4
+	^	1	12
+	.	12	4
+	+	1	19
+	+	14	2
+	+	13	3
+	+	12	3
+	+	11	2
+	+	10	2
+	+	9	1
+	+	8	2
+	+	7	1
+	+	6	2
+	+	5	2
+	+	4	2
+	+	3	1
+	+	2	2
+	+	1	12
+	+	2	11
+	+	3	13
+	+	6	12
+	+	8	3
+	+	11	14
+	+	12	4
+
+> ~/uni/simulacion/recomendacion/src/procfile
+	*	1663807956	0
+	"	1	23
+	^	1	25
+	.	1	0
+	+	1	0
+
+> ~/uni/simulacion/recomendacion/.gitignore
+	*	1663804418	0
+	"	1	0
+	^	5	0
+	.	1	0
+	+	1	10
+	+	5	5
+	+	1	0
+	+	5	0
+	+	1	0
+
+> ~/uni/simulacion/asignaciones/proyecto/apiRecomendaciones
+	*	1663803874	0
+	"	1	0
+
+> ~/.config/qtile/config.py
+	*	1663796739	0
+	"	78	3
+	^	72	22
+	.	72	21
+	+	32	10
+	+	38	19
+	+	39	20
+	+	40	19
+	+	41	17
+	+	38	16
+	+	39	16
+	+	40	16
+	+	41	16
+	+	45	28
+	+	46	29
+	+	47	28
+	+	48	26
+	+	51	30
+	+	52	31
+	+	53	30
+	+	54	28
+	+	68	25
+	+	70	16
+	+	69	19
+	+	70	25
+	+	66	43
+	+	66	0
+	+	74	0
+	+	75	0
+	+	76	68
+	+	77	78
+	+	33	0
+	+	113	4
+	+	78	4
+	+	79	16
+	+	73	0
+	+	72	21
+
+> ~/dev/almacen/.env
+	*	1663464723	0
+	"	55	21
+	^	55	22
+	.	55	21
+	+	10	18
+	+	12	11
+	+	13	18
+	+	14	16
+	+	15	16
+	+	54	13
+	+	55	21
 
 > ~/dev/ssw/.env
-	*	1659312853	0
+	*	1663207241	0
 	"	55	0
 	^	55	14
 	.	55	13
@@ -842,70 +1200,113 @@ $81
 	+	13	17
 	+	55	13
 
-> ~/unit/sites/ssw.json
-	*	1659312557	0
-	"	10	44
-	^	10	45
-	.	10	44
+> ~/dev/almacen/.git/MERGE_MSG
+	*	1663205952	0
+	"	1	0
+
+> ~/dev/node/farmacia-node-prisma/pedido.json
+	*	1663031823	0
+	"	1	0
+
+> /usr/local/bin/chrome
+	*	1663017310	0
+	"	1	0
+	^	2	77
+	.	2	76
+	+	1	62
+	+	2	0
 	+	1	0
-	+	1	42
-	+	1	27
-	+	1	36
-	+	1	14
-	+	1	11
+	+	2	76
+
+> ~/dev/jwt/.env
+	*	1662858060	0
+	"	60	0
+	^	16	17
+	.	16	16
+	+	11	18
+	+	13	11
+	+	14	14
+	+	15	16
+	+	16	16
+
+> /tmp/bash-fc.asP7TO
+	*	1662762859	0
+	"	6	0
+	^	6	88
+	.	7	0
+	+	6	35
+	+	7	150
+	+	2	70
+	+	4	43
+	+	5	44
+	+	6	88
+	+	7	0
+
+> /tmp/bash-fc.T9R2bk
+	*	1662762764	0
+	"	1	0
+	^	2	77
+	.	1	0
+	+	4	28
+	+	2	76
+	+	4	0
 	+	1	0
-	+	1	4
-	+	1	33
-	+	1	4
-	+	1	0
-	+	1	42
-	+	6	0
-	+	1	14
-	+	1	41
-	+	1	44
+
+> /tmp/bash-fc.2WKw7G
+	*	1662751845	0
+	"	5	43
+	^	5	44
+	.	5	44
 	+	1	37
-	+	1	0
-	+	1	33
-	+	1	11
-	+	3	0
-	+	1	14
-	+	1	24
-	+	1	7
-	+	1	42
-	+	1	44
-	+	1	11
-	+	1	41
-	+	1	0
-	+	1	44
-	+	1	10
-	+	1	26
-	+	1	33
-	+	1	0
-	+	1	30
-	+	1	0
-	+	1	30
-	+	1	0
-	+	1	42
-	+	1	1
-	+	18	0
-	+	4	30
-	+	8	11
-	+	10	0
-	+	15	0
-	+	12	14
-	+	13	6
-	+	12	10
-	+	13	42
-	+	4	33
-	+	10	44
+	+	6	35
+	+	2	87
+	+	2	67
+	+	4	43
+	+	5	171
+	+	5	109
+	+	6	69
+	+	5	44
+
+> ~/almacen/.env
+	*	1662513436	0
+	"	10	18
+	^	10	19
+	.	10	18
+	+	12	11
+	+	13	18
+	+	14	16
+	+	15	16
+	+	10	18
+
+> ~/dev/amorcito/api/.env
+	*	1662410283	0
+	"	1	0
+
+> /mnt/fvckingmore/games/mostwanted/NFSMW/NFSMW/NFSMWExtraOptionsSettings.ini
+	*	1662084934	0
+	"	124	0
+
+> /mnt/fvckingmore/games/mostwanted/NFSMW/NFSMW/NFSMWExtraOptions.asi
+	*	1662084911	0
+	"	1	0
+
+> /mnt/fvckingmore/games/mostwanted/NFSMW/NFSMW/scripts/NFSMWExtraOptionsSettings.ini
+	*	1662084587	0
+	"	9	0
+
+> /etc/systemd/system/getty.target.wants/getty@tty1.service
+	*	1660484719	0
+	"	39	0
+	^	40	0
+	.	39	0
+	+	38	59
+	+	39	0
 
 > ~/.bashrc
-	*	1659310764	0
-	"	103	57
-	^	103	58
-	.	103	57
-	+	90	0
-	+	33	0
+	*	1660353043	0
+	"	108	10
+	^	108	11
+	.	108	10
 	+	37	0
 	+	38	0
 	+	49	0
@@ -1002,6 +1403,113 @@ $81
 	+	100	0
 	+	104	0
 	+	103	57
+	+	106	123
+	+	107	136
+	+	108	122
+	+	108	10
+
+> /mnt/fvckingmore/games/carbon/NFSC/install.bat
+	*	1660269733	0
+	"	1	0
+
+> ~/dev/ssw/database/migrations/2022_05_06_173114_create_grupos_table.php
+	*	1660100844	0
+	"	1	0
+
+> ~/dev/node/farmacia-node-prisma/apiClient
+	*	1660094819	0
+	"	12	0
+	^	7	19
+	.	4	0
+	+	2	0
+	+	3	91
+	+	4	2
+	+	12	0
+	+	5	127
+	+	5	0
+	+	11	16
+	+	5	14
+	+	6	16
+	+	7	18
+	+	12	0
+	+	4	0
+
+> /usr/local/src/php-7.4.30/config
+	*	1659390495	0
+	"	3	19
+	^	3	20
+	.	3	19
+	+	3	0
+	+	2	22
+	+	3	11
+	+	2	26
+	+	3	19
+	+	2	26
+	+	3	19
+
+> ~/dotfile
+	*	1659354128	0
+	"	24	13
+	^	24	14
+	.	24	13
+	+	24	13
+
+> ~/unit/sites/ssw.json
+	*	1659312557	0
+	"	10	44
+	^	10	45
+	.	10	44
+	+	1	0
+	+	1	42
+	+	1	27
+	+	1	36
+	+	1	14
+	+	1	11
+	+	1	0
+	+	1	4
+	+	1	33
+	+	1	4
+	+	1	0
+	+	1	42
+	+	6	0
+	+	1	14
+	+	1	41
+	+	1	44
+	+	1	37
+	+	1	0
+	+	1	33
+	+	1	11
+	+	3	0
+	+	1	14
+	+	1	24
+	+	1	7
+	+	1	42
+	+	1	44
+	+	1	11
+	+	1	41
+	+	1	0
+	+	1	44
+	+	1	10
+	+	1	26
+	+	1	33
+	+	1	0
+	+	1	30
+	+	1	0
+	+	1	30
+	+	1	0
+	+	1	42
+	+	1	1
+	+	18	0
+	+	4	30
+	+	8	11
+	+	10	0
+	+	15	0
+	+	12	14
+	+	13	6
+	+	12	10
+	+	13	42
+	+	4	33
+	+	10	44
 
 > /usr/local/src/unit/config
 	*	1659308811	0
@@ -1414,17 +1922,6 @@ $81
 	.	3	0
 	+	3	0
 
-> /usr/local/src/php-7.4.30/config
-	*	1659215642	0
-	"	1	0
-	^	3	20
-	.	3	19
-	+	3	0
-	+	2	22
-	+	3	11
-	+	2	26
-	+	3	19
-
 > ~/php/php81/bin/php-fpm81
 	*	1659215401	0
 	"	1	0
@@ -1461,30 +1958,6 @@ $81
 	^	1	66
 	.	1	65
 	+	1	65
-
-> ~/.config/i3/bar.sh
-	*	1659211990	0
-	"	75	7
-	^	75	8
-	.	75	7
-	+	73	0
-	+	72	1
-	+	73	84
-	+	75	1
-	+	3	47
-	+	75	1
-	+	3	45
-	+	75	9
-	+	66	10
-	+	67	80
-	+	68	0
-	+	73	22
-	+	75	9
-	+	73	19
-	+	74	0
-	+	73	1
-	+	74	59
-	+	75	7
 
 > /usr/local/src/php-7.4.30/ext/curl/config.h
 	*	1659141936	0
@@ -1696,16 +2169,6 @@ $81
 	*	1658533113	0
 	"	17	0
 
-> /usr/local/bin/chrome
-	*	1658532950	0
-	"	2	76
-	^	2	77
-	.	2	76
-	+	1	62
-	+	2	0
-	+	1	0
-	+	2	76
-
 > ~/gge
 	*	1658369598	0
 	"	1	11
@@ -1867,324 +2330,4 @@ $81
 
 > ~/php74/etc/php-fpm.
 	*	1658274886	0
-	"	1	0
-
-> ~/php82L
-	*	1658274521	0
-	"	305	0
-	^	305	0
-	.	304	83
-	+	304	83
-
-> ~/php/etc/php-fpm.d/www.conf
-	*	1658267226	0
-	"	1	1
-	.	1	0
-	+	1	0
-
-> ~/php/etc/php-fpm.conf
-	*	1658267213	0
-	"	1	0
-
-> ~/php74/etc/php/7.4/fpm/pool.d/www.conf
-	*	1658267172	0
-	"	44	0
-
-> ~/php74/etc/php/7.4/fpm/php-fpm.conf
-	*	1658266890	0
-	"	127	0
-
-> ~/php74/php.ini
-	*	1658266449	0
-	"	335	0
-
-> ~/php74/usr/bin/php7.4
-	*	1658265875	0
-	"	91	0
-
-> ~/php74L
-	*	1658258000	0
-	"	643	0
-	^	643	0
-	.	642	77
-	+	642	77
-
-> ~/phpCOmnad
-	*	1658197793	0
-	"	1	93
-	^	1	94
-	.	1	93
-	+	1	93
-
-> ~/php70Links
-	*	1658197428	0
-	"	98	0
-	^	98	0
-	.	97	78
-	+	97	78
-
-> ~/phpLinks
-	*	1658195824	0
-	"	1	0
-	^	156	0
-	.	1	0
-	+	155	84
-	+	1	0
-
-> ~/NERD_tree_1
-	*	1658195803	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/.config/i3/config
-	*	1658107927	0
-	"	6	16
-	^	6	17
-	.	6	16
-	+	107	0
-	+	106	0
-	+	107	0
-	+	114	0
-	+	113	0
-	+	115	0
-	+	93	0
-	+	115	0
-	+	121	0
-	+	123	0
-	+	132	0
-	+	142	0
-	+	143	41
-	+	147	0
-	+	160	0
-	+	159	16
-	+	161	0
-	+	186	0
-	+	185	0
-	+	186	0
-	+	185	0
-	+	186	0
-	+	165	0
-	+	167	0
-	+	165	0
-	+	167	0
-	+	165	0
-	+	8	0
-	+	117	0
-	+	129	0
-	+	166	0
-	+	202	0
-	+	26	50
-	+	105	0
-	+	198	1
-	+	106	0
-	+	198	1
-	+	197	1
-	+	105	0
-	+	106	0
-	+	197	1
-	+	198	1
-	+	194	19
-	+	189	9
-	+	191	1
-	+	194	0
-	+	190	21
-	+	191	0
-	+	192	0
-	+	194	0
-	+	175	0
-	+	193	0
-	+	190	21
-	+	139	0
-	+	137	0
-	+	141	0
-	+	139	9
-	+	140	9
-	+	12	0
-	+	197	1
-	+	198	9
-	+	197	0
-	+	18	0
-	+	18	65
-	+	165	31
-	+	198	9
-	+	197	27
-	+	12	0
-	+	196	1
-	+	165	55
-	+	203	15
-	+	203	0
-	+	196	1
-	+	106	0
-	+	198	1
-	+	11	0
-	+	196	1
-	+	12	0
-	+	20	28
-	+	133	0
-	+	132	0
-	+	133	42
-	+	18	0
-	+	19	0
-	+	18	0
-	+	19	57
-	+	189	0
-	+	188	0
-	+	189	0
-	+	165	72
-	+	164	0
-	+	165	55
-	+	188	0
-	+	194	37
-	+	197	29
-	+	11	1
-	+	10	0
-	+	189	0
-	+	188	0
-	+	6	16
-
-> ~/dev/node/farmacia-node-prisma/.git/COMMIT_EDITMSG
-	*	1657931277	0
-	"	1	33
-	^	1	34
-	.	1	33
-	+	1	33
-
-> ~/dev/farmacia/.env
-	*	1657836101	0
-	"	13	20
-	^	13	21
-	.	13	20
-	+	13	20
-
-> /etc/systemd/system/getty.target.wants/getty@tty1.service
-	*	1657831227	0
-	"	39	0
-	^	39	0
-	.	38	59
-	+	38	59
-
-> ~/posts.sql
-	*	1657822442	0
-	"	27	52
-	.	2	0
-	+	2	0
-
-> /tmp/bash-fc.PcqgwX
-	*	1657821404	0
-	"	1	72
-	^	1	95
-	.	2	0
-	+	1	94
-	+	1	72
-	+	2	0
-
-> ~/chrome-kgbjpjfmpfkmmmaaomdblidckhoncoan-Default.desktop
-	*	1657730392	0
-	"	1	0
-
-> ~/.config/i3/autostart
-	*	1657590087	0
-	"	10	0
-	^	10	1
-	.	10	1
-	+	4	0
-	+	7	0
-	+	14	19
-	+	3	48
-	+	3	26
-	+	3	64
-	+	3	48
-	+	3	3
-	+	1	11
-	+	3	40
-	+	3	66
-	+	8	6
-	+	7	0
-	+	8	0
-	+	7	0
-	+	10	0
-	+	10	165
-	+	18	11
-	+	18	0
-	+	4	11
-	+	18	12
-	+	7	0
-	+	8	0
-	+	18	0
-	+	18	110
-	+	18	0
-	+	18	103
-	+	4	0
-	+	18	112
-	+	7	0
-	+	13	0
-	+	17	0
-	+	3	62
-	+	4	0
-	+	18	0
-	+	17	110
-	+	17	1
-	+	17	116
-	+	17	0
-	+	17	112
-	+	17	0
-	+	3	62
-	+	17	0
-	+	17	104
-	+	17	0
-	+	17	111
-	+	17	0
-	+	18	0
-	+	15	9
-	+	16	0
-	+	11	0
-	+	10	1
-	+	11	0
-	+	11	166
-	+	11	1
-	+	10	1
-
-> ~/.tlauncher/minecraft_tlauncher_java_config.json
-	*	1657586642	0
-	"	6	62
-	^	6	63
-	.	6	62
-	+	6	62
-
-> ~/.tlauncher/tlauncher-2.0.properties
-	*	1657586621	0
-	"	43	0
-
-> ~/.local/share/applications/tlauncher.desktop
-	*	1657508670	0
-	"	2	10
-	^	2	11
-	.	2	10
-	+	1	15
-	+	4	41
-	+	2	10
-
-> ~/.local/share/applications/chrome-kgbjpjfmpfkmmmaaomdblidckhoncoan-Default.desktop
-	*	1657508623	0
-	"	1	0
-
-> ~/.local/share/applications/chrome-
-	*	1657508615	0
-	"	1	0
-
-> ~/dev/prueba/vendor/laravel/ui/auth-backend/AuthenticatesUsers.php
-	*	1657506053	0
-	"	59	12
-
-> ~/dev/prueba/app/Http/Controllers/Auth/LoginController.php
-	*	1657505913	0
-	"	1	0
-
-> ~/dev/prueba/resources/views/auth/login.blade.php
-	*	1657505900	0
-	"	1	0
-
-> ~/dev/prueba/vendor/laravel/ui/auth-backend/ResetsPasswords.php
-	*	1657505664	0
 	"	1	0

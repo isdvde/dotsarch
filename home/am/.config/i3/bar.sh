@@ -14,7 +14,7 @@ MEM() (
 )
 
 CPU() (
-	local LOAD=$(cat /proc/loadavg | cut -d" " -f1 | xargs -I% echo "scale=2; (%/2)*100" | bc | sed 's/\..*//g');
+	local LOAD=$(cat /proc/loadavg | cut -d" " -f1 | xargs -I% echo "scale=2; (%/4)*100" | bc | sed 's/\..*//g');
 	echo -n "${LOAD}";
 )
 
@@ -71,6 +71,7 @@ while :; do
 	#echo "V $(VOL)   |   M $(MEM)   |   /H $(HOME)  /F $(FMORE)   |   $(IFACE)  $(TRAF)   |   B $(BAT)   |   C $(CPU)   |   $(DATE)"; 
 	#echo "V $(VOL)   |   M $(MEM)   |   /H $(HOME)  /F $(FMORE)   |   $(IFACE)  $(TRAF)   |   C $(CPU)   |   $(DATE)"; 
 	#echo "$(WINDOW)   |   V $(VOL)  |  M $(MEM)  |  /H $(HOME) /F $(FMORE)  |  $(IFACE)  |  C $(CPU)  |  $(DATE)"; 
-	echo "$(WINDOW)   |   V $(VOL)  |  M $(MEM)  |  /H $(HOME)  |  $(IFACE)  |  C $(CPU)  |  $(DATE)"; 
+	#echo "$(WINDOW)   |   V $(VOL)  |  M $(MEM)  |  /H $(HOME)  |  $(IFACE)  |  C $(CPU)  |  $(DATE)"; 
+	echo "V $(VOL)  |  M $(MEM)  |  /H $(HOME)  |  $(IFACE)  |  C $(CPU)  |  $(DATE)"; 
 	sleep 1;
 done

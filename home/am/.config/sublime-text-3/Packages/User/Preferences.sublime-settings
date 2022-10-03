@@ -8,7 +8,7 @@
 		"bold",
 		"italic"
 	],
-	"font_size": 9,
+	"font_size": 10,
 	"highlight_modified_tabs": true,
 	"ignored_packages": [
 		"AppleScript",
@@ -26,7 +26,6 @@
 		"Laravel Goto",
 		"LaTeX",
 		"Lisp",
-		"LSP-intelephense",
 		"Lua",
 		"Markdown",
 		"MarkdownComplements",

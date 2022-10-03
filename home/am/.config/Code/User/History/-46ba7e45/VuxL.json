@@ -28,5 +28,5 @@
     "env-*": true
   },
   "window.zoomLevel": -1,
-  "editor.fontFamily": "DejaVuSansMono Nerd Font Mono"
+  "editor.fontFamily": "monospace"
 }

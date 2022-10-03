@@ -103,3 +103,6 @@ export PHP81="/home/am/php/php81/bin/"
 export PATH=${PATH}:${JAVA_HOME}:${PGSQL}:${PHP80}:${PHP81}
 #export PATH=${PATH}:${JAVA_HOME}:${PGSQL}
 
+alias nfsc="cd /home/am/fvckingmore/games/carbon/NFCS; WINEPREFIX=/mnt/fvckingmore/games/.NFSC WINEARCH=win32 wine NFSC.exe"
+alias nfsmw="cd /home/am/fvckingmore/games/mostwanted/NFSMW/NFSMW; WINEPREFIX=/mnt/fvckingmore/games/.NFSMW WINEARCH=win32 wine Speed.exe"
+alias nfsu2="cd /home/am/fvckingmore/games/u2/NFSU2; WINEPREFIX=/mnt/fvckingmore/games/.NFSU2 WINEARCH=win32 wine NFSU2.exe"

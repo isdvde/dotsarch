@@ -1,5 +1,5 @@
 {
-    "editor.fontSize": 12,
+    "editor.fontSize": 13,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.insertSpaces": false,
     "editor.wordWrap": "on",
@@ -27,6 +27,5 @@
     "**/venv/**": true,
     "env-*": true
   },
-  "window.zoomLevel": -1,
-  "editor.fontFamily": "DejaVuSansMono Nerd Font Mono"
+  "window.zoomLevel": -1
 }
