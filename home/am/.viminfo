@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último Patrón de búsqueda:
-~MSle0~/Volu
+~MSle0~/hide
 
 # Último Sustitución Patrón de búsqueda:
 ~MSle0&products
@@ -20,12 +20,14 @@
 $productos
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
-:wq
-|2,0,1664675196,,"wq"
 :q!
-|2,0,1664576479,,"q!"
+|2,0,1666748781,,"q!"
+:wq
+|2,0,1665872589,,"wq"
 :w
-|2,0,1663818893,,"w"
+|2,0,1665013894,,"w"
+:e
+|2,0,1665010853,,"e"
 :set rnu!
 |2,0,1663808010,,"set rnu!"
 :set nu!
@@ -286,8 +288,6 @@ $productos
 |2,0,1631477492,,"b4"
 :Ls
 |2,0,1631477484,,"Ls"
-:e
-|2,0,1631477006,,"e"
 :PlugUpdate
 |2,0,1631476364,,"PlugUpdate"
 :buffers
@@ -298,6 +298,8 @@ $productos
 |2,0,1631476210,,"b"
 
 # Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+?/hide
+|2,1,1665010763,47,"hide"
 ?/Volu
 |2,1,1664586684,47,"Volu"
 ? products
@@ -578,10 +580,9 @@ $productos
 # Historia de Línea de depuración (de lo más nuevo a lo más antiguo):
 
 # Registros:
-""0	LINE	0
-	bindsym F8 exec --no-startup-id "amixer -q sset Master 2%+ unmute"
-	bindsym F7 exec --no-startup-id "amixer -q sset Master 2%- unmute"
-|3,1,0,1,2,0,1664586686,"bindsym F8 exec --no-startup-id \"amixer -q sset Master 2%+ unmute\"","bindsym F7 exec --no-startup-id \"amixer -q sset Master 2%- unmute\""
+"0	LINE	0
+	ExecStart=-/sbin/agetty -o '-p -- \\u' --noclear - $TERM
+|3,0,0,1,1,0,1664919128,"ExecStart=-/sbin/agetty -o '-p -- \\\\u' --noclear - $TERM"
 "1	LINE	0
 	    #recomendaciones = obtenerRecomendaciones(id)
 |3,0,1,1,1,0,1663808051,"    #recomendaciones = obtenerRecomendaciones(id)"
@@ -630,262 +631,252 @@ $productos
 "9	LINE	0
 	from flask import Flask
 |3,0,9,1,1,0,1663803830,"from flask import Flask"
-"q	CHAR	0
-	:q!
-|3,0,26,0,1,0,1658266162,":q!"
 "u	CHAR	0
 		
 |3,0,30,0,1,0,1649134282,"	"
-"-	CHAR	0
-	s
-|3,0,36,0,1,0,1663808049,"s"
+""-	CHAR	0
+	#
+|3,1,36,0,1,0,1665010769,"#"
 
 # Marcas en el archivo:
-'0  20  45  ~/.xinitrc
-|4,48,20,45,1664675196,"~/.xinitrc"
-'1  142  12  ~/.config/i3/config
-|4,49,142,12,1664586701,"~/.config/i3/config"
-'2  17  78  ~/.config/i3/bar.sh
-|4,50,17,78,1664576575,"~/.config/i3/bar.sh"
-'3  20  45  ~/.xinitrc
-|4,51,20,45,1664576489,"~/.xinitrc"
-'4  20  45  ~/.xinitrc
-|4,52,20,45,1664576479,"~/.xinitrc"
-'5  20  45  ~/.xinitrc
-|4,53,20,45,1664576479,"~/.xinitrc"
-'6  21  17  ~/.xinitrc
-|4,54,21,17,1664573671,"~/.xinitrc"
-'7  21  17  ~/.xinitrc
-|4,55,21,17,1664573671,"~/.xinitrc"
-'8  21  17  ~/.xinitrc
-|4,56,21,17,1664573671,"~/.xinitrc"
-'9  21  17  ~/.xinitrc
-|4,57,21,17,1664573671,"~/.xinitrc"
+'0  1  0  /run/media/am/0e0969e6-2de2-4eef-ad1b-56a58dcd65eb/etc/apt/sources.list
+|4,48,1,0,1666748781,"/run/media/am/0e0969e6-2de2-4eef-ad1b-56a58dcd65eb/etc/apt/sources.list"
+'1  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
+|4,49,1,0,1665872589,"~/dev/ssw/.git/COMMIT_EDITMSG"
+'2  9  30  ~/.config/i3/config
+|4,50,9,30,1665013905,"~/.config/i3/config"
+'3  6  16  ~/.config/i3/config
+|4,51,6,16,1665010907,"~/.config/i3/config"
+'4  6  16  ~/.config/i3/config
+|4,52,6,16,1665010907,"~/.config/i3/config"
+'5  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,53,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+'6  21  13  ~/.xinitrc
+|4,54,21,13,1664834335,"~/.xinitrc"
+'7  20  45  ~/.xinitrc
+|4,55,20,45,1664675196,"~/.xinitrc"
+'8  20  45  ~/.xinitrc
+|4,56,20,45,1664675196,"~/.xinitrc"
+'9  142  12  ~/.config/i3/config
+|4,57,142,12,1664586701,"~/.config/i3/config"
 
 # Lista de saltos (el más reciente va primero):
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664675196,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664675190,"~/.xinitrc"
--'  142  12  ~/.config/i3/config
-|4,39,142,12,1664586701,"~/.config/i3/config"
--'  142  12  ~/.config/i3/config
-|4,39,142,12,1664586701,"~/.config/i3/config"
+-'  1  0  /run/media/am/0e0969e6-2de2-4eef-ad1b-56a58dcd65eb/etc/apt/sources.list
+|4,39,1,0,1666748781,"/run/media/am/0e0969e6-2de2-4eef-ad1b-56a58dcd65eb/etc/apt/sources.list"
+-'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
+|4,39,1,0,1665872589,"~/dev/ssw/.git/COMMIT_EDITMSG"
+-'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
+|4,39,1,0,1665872589,"~/dev/ssw/.git/COMMIT_EDITMSG"
+-'  9  30  ~/.config/i3/config
+|4,39,9,30,1665013905,"~/.config/i3/config"
+-'  9  30  ~/.config/i3/config
+|4,39,9,30,1665013905,"~/.config/i3/config"
+-'  9  30  ~/.config/i3/config
+|4,39,9,30,1665013905,"~/.config/i3/config"
+-'  9  30  ~/.config/i3/config
+|4,39,9,30,1665013905,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1664586684,"~/.config/i3/config"
+|4,39,1,0,1665013840,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1664586684,"~/.config/i3/config"
--'  17  78  ~/.config/i3/bar.sh
-|4,39,17,78,1664576575,"~/.config/i3/bar.sh"
--'  17  78  ~/.config/i3/bar.sh
-|4,39,17,78,1664576575,"~/.config/i3/bar.sh"
--'  17  78  ~/.config/i3/bar.sh
-|4,39,17,78,1664576575,"~/.config/i3/bar.sh"
--'  17  78  ~/.config/i3/bar.sh
-|4,39,17,78,1664576575,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1664576563,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1664576563,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1664576563,"~/.config/i3/bar.sh"
--'  1  0  ~/.config/i3/bar.sh
-|4,39,1,0,1664576563,"~/.config/i3/bar.sh"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664576489,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664576489,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664576489,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664576489,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664576483,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664576483,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664576483,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664576483,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664576479,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664576479,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664576479,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664576479,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664576381,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664576381,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664576381,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664576381,"~/.xinitrc"
--'  21  17  ~/.xinitrc
-|4,39,21,17,1664573671,"~/.xinitrc"
--'  21  17  ~/.xinitrc
-|4,39,21,17,1664573671,"~/.xinitrc"
--'  21  17  ~/.xinitrc
-|4,39,21,17,1664573671,"~/.xinitrc"
--'  21  17  ~/.xinitrc
-|4,39,21,17,1664573671,"~/.xinitrc"
--'  21  17  ~/.xinitrc
-|4,39,21,17,1664573671,"~/.xinitrc"
--'  21  17  ~/.xinitrc
-|4,39,21,17,1664573671,"~/.xinitrc"
--'  21  17  ~/.xinitrc
-|4,39,21,17,1664573671,"~/.xinitrc"
--'  21  17  ~/.xinitrc
-|4,39,21,17,1664573671,"~/.xinitrc"
--'  21  17  ~/.xinitrc
-|4,39,21,17,1664573671,"~/.xinitrc"
--'  21  17  ~/.xinitrc
-|4,39,21,17,1664573671,"~/.xinitrc"
--'  21  17  ~/.xinitrc
-|4,39,21,17,1664573671,"~/.xinitrc"
--'  21  17  ~/.xinitrc
-|4,39,21,17,1664573671,"~/.xinitrc"
--'  21  17  ~/.xinitrc
-|4,39,21,17,1664573671,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664573667,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664573667,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664573667,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664573667,"~/.xinitrc"
--'  22  0  ~/.xinitrc
-|4,39,22,0,1664573655,"~/.xinitrc"
--'  22  0  ~/.xinitrc
-|4,39,22,0,1664573655,"~/.xinitrc"
--'  22  0  ~/.xinitrc
-|4,39,22,0,1664573655,"~/.xinitrc"
--'  22  0  ~/.xinitrc
-|4,39,22,0,1664573655,"~/.xinitrc"
--'  21  0  ~/.xinitrc
-|4,39,21,0,1664573655,"~/.xinitrc"
--'  22  0  ~/.xinitrc
-|4,39,22,0,1664573655,"~/.xinitrc"
--'  22  0  ~/.xinitrc
-|4,39,22,0,1664573655,"~/.xinitrc"
--'  22  0  ~/.xinitrc
-|4,39,22,0,1664573655,"~/.xinitrc"
--'  21  0  ~/.xinitrc
-|4,39,21,0,1664573655,"~/.xinitrc"
--'  22  0  ~/.xinitrc
-|4,39,22,0,1664573655,"~/.xinitrc"
--'  22  0  ~/.xinitrc
-|4,39,22,0,1664573655,"~/.xinitrc"
--'  22  0  ~/.xinitrc
-|4,39,22,0,1664573655,"~/.xinitrc"
--'  21  0  ~/.xinitrc
-|4,39,21,0,1664573655,"~/.xinitrc"
--'  22  0  ~/.xinitrc
-|4,39,22,0,1664573655,"~/.xinitrc"
--'  22  0  ~/.xinitrc
-|4,39,22,0,1664573655,"~/.xinitrc"
--'  22  0  ~/.xinitrc
-|4,39,22,0,1664573655,"~/.xinitrc"
--'  21  0  ~/.xinitrc
-|4,39,21,0,1664573655,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664573648,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664573648,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664573648,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664573648,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664573026,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664573026,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664573026,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664573026,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664573026,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664573026,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664573026,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664573026,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664573026,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664573026,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664573026,"~/.xinitrc"
--'  20  45  ~/.xinitrc
-|4,39,20,45,1664573026,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664573023,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664573023,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664573023,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1664573023,"~/.xinitrc"
--'  12  1  ~/dev/almacen/test.php
-|4,39,12,1,1663819146,"~/dev/almacen/test.php"
--'  12  1  ~/dev/almacen/test.php
-|4,39,12,1,1663819146,"~/dev/almacen/test.php"
--'  12  1  ~/dev/almacen/test.php
-|4,39,12,1,1663819146,"~/dev/almacen/test.php"
--'  12  1  ~/dev/almacen/test.php
-|4,39,12,1,1663819146,"~/dev/almacen/test.php"
--'  12  1  ~/dev/almacen/test.php
-|4,39,12,1,1663819146,"~/dev/almacen/test.php"
--'  12  1  ~/dev/almacen/test.php
-|4,39,12,1,1663819146,"~/dev/almacen/test.php"
--'  12  1  ~/dev/almacen/test.php
-|4,39,12,1,1663819146,"~/dev/almacen/test.php"
--'  12  1  ~/dev/almacen/test.php
-|4,39,12,1,1663819146,"~/dev/almacen/test.php"
--'  12  1  ~/dev/almacen/test.php
-|4,39,12,1,1663819146,"~/dev/almacen/test.php"
--'  12  1  ~/dev/almacen/test.php
-|4,39,12,1,1663819146,"~/dev/almacen/test.php"
--'  12  1  ~/dev/almacen/test.php
-|4,39,12,1,1663819146,"~/dev/almacen/test.php"
--'  12  1  ~/dev/almacen/test.php
-|4,39,12,1,1663819146,"~/dev/almacen/test.php"
--'  12  1  ~/dev/almacen/test.php
-|4,39,12,1,1663819146,"~/dev/almacen/test.php"
--'  12  1  ~/dev/almacen/test.php
-|4,39,12,1,1663819146,"~/dev/almacen/test.php"
--'  12  1  ~/dev/almacen/test.php
-|4,39,12,1,1663819146,"~/dev/almacen/test.php"
--'  12  1  ~/dev/almacen/test.php
-|4,39,12,1,1663819146,"~/dev/almacen/test.php"
+|4,39,1,0,1665013840,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1665013840,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1665013840,"~/.config/i3/config"
+-'  6  16  ~/.config/i3/config
+|4,39,6,16,1665010907,"~/.config/i3/config"
+-'  6  16  ~/.config/i3/config
+|4,39,6,16,1665010907,"~/.config/i3/config"
+-'  6  16  ~/.config/i3/config
+|4,39,6,16,1665010907,"~/.config/i3/config"
+-'  6  16  ~/.config/i3/config
+|4,39,6,16,1665010907,"~/.config/i3/config"
+-'  6  16  ~/.config/i3/config
+|4,39,6,16,1665010907,"~/.config/i3/config"
+-'  6  16  ~/.config/i3/config
+|4,39,6,16,1665010907,"~/.config/i3/config"
+-'  6  16  ~/.config/i3/config
+|4,39,6,16,1665010907,"~/.config/i3/config"
+-'  6  16  ~/.config/i3/config
+|4,39,6,16,1665010907,"~/.config/i3/config"
+-'  8  21  ~/.config/i3/config
+|4,39,8,21,1665010847,"~/.config/i3/config"
+-'  8  21  ~/.config/i3/config
+|4,39,8,21,1665010847,"~/.config/i3/config"
+-'  8  21  ~/.config/i3/config
+|4,39,8,21,1665010847,"~/.config/i3/config"
+-'  8  21  ~/.config/i3/config
+|4,39,8,21,1665010847,"~/.config/i3/config"
+-'  8  21  ~/.config/i3/config
+|4,39,8,21,1665010847,"~/.config/i3/config"
+-'  8  21  ~/.config/i3/config
+|4,39,8,21,1665010847,"~/.config/i3/config"
+-'  8  21  ~/.config/i3/config
+|4,39,8,21,1665010847,"~/.config/i3/config"
+-'  8  21  ~/.config/i3/config
+|4,39,8,21,1665010847,"~/.config/i3/config"
+-'  11  0  ~/.config/i3/config
+|4,39,11,0,1665010763,"~/.config/i3/config"
+-'  11  0  ~/.config/i3/config
+|4,39,11,0,1665010763,"~/.config/i3/config"
+-'  11  0  ~/.config/i3/config
+|4,39,11,0,1665010763,"~/.config/i3/config"
+-'  11  0  ~/.config/i3/config
+|4,39,11,0,1665010763,"~/.config/i3/config"
+-'  11  0  ~/.config/i3/config
+|4,39,11,0,1665010763,"~/.config/i3/config"
+-'  11  0  ~/.config/i3/config
+|4,39,11,0,1665010763,"~/.config/i3/config"
+-'  11  0  ~/.config/i3/config
+|4,39,11,0,1665010763,"~/.config/i3/config"
+-'  11  0  ~/.config/i3/config
+|4,39,11,0,1665010763,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1665010618,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1665010618,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1665010618,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1665010618,"~/.config/i3/config"
+-'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
+|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
+-'  21  13  ~/.xinitrc
+|4,39,21,13,1664834335,"~/.xinitrc"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
 
-> ~/.xinitrc
-	*	1664675196	0
-	"	20	45
-	^	20	46
-	.	20	45
-	+	20	45
-	+	22	0
-	+	21	17
-	+	20	45
+> /run/media/am/0e0969e6-2de2-4eef-ad1b-56a58dcd65eb/etc/apt/sources.list
+	*	1666748780	0
+	"	1	0
+
+> ~/dev/ssw/.git/COMMIT_EDITMSG
+	*	1665872587	0
+	"	1	0
 
 > ~/.config/i3/config
-	*	1664586699	0
-	"	142	12
-	^	142	13
-	.	142	12
-	+	113	0
-	+	115	0
-	+	93	0
-	+	115	0
-	+	121	0
+	*	1665013894	0
+	"	9	30
+	^	9	31
+	.	9	30
 	+	123	0
 	+	132	0
 	+	144	0
@@ -981,6 +972,35 @@ $productos
 	+	201	6
 	+	141	12
 	+	142	12
+	+	11	22
+	+	8	0
+	+	6	16
+	+	8	21
+	+	9	30
+
+> /usr/share/vim/vim90/doc/help.txt
+	*	1665010798	0
+	"	1	0
+
+> /etc/systemd/system/getty.target.wants/getty@tty1.service
+	*	1664919129	0
+	"	39	0
+	^	41	0
+	.	39	0
+	+	38	59
+	+	40	0
+	+	39	0
+
+> ~/.xinitrc
+	*	1664834335	0
+	"	21	13
+	^	21	14
+	.	21	13
+	+	20	45
+	+	22	0
+	+	21	17
+	+	20	45
+	+	21	13
 
 > ~/.config/i3/bar.sh
 	*	1664576574	0
@@ -1293,14 +1313,6 @@ $productos
 > /mnt/fvckingmore/games/mostwanted/NFSMW/NFSMW/scripts/NFSMWExtraOptionsSettings.ini
 	*	1662084587	0
 	"	9	0
-
-> /etc/systemd/system/getty.target.wants/getty@tty1.service
-	*	1660484719	0
-	"	39	0
-	^	40	0
-	.	39	0
-	+	38	59
-	+	39	0
 
 > ~/.bashrc
 	*	1660353043	0
@@ -2271,10 +2283,6 @@ $productos
 	.	2	97
 	+	2	97
 
-> /usr/share/vim/vim90/doc/help.txt
-	*	1658279272	0
-	"	1	0
-
 > ~/php81/usr/bin/php81
 	*	1658278758	0
 	"	1	10
@@ -2320,14 +2328,3 @@ $productos
 	+	2	0
 	+	3	89
 	+	3	97
-
-> ~/php74/usr/bin/php74
-	*	1658275062	0
-	"	1	28
-	^	1	29
-	.	1	28
-	+	1	28
-
-> ~/php74/etc/php-fpm.
-	*	1658274886	0
-	"	1	0
