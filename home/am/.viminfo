@@ -11,27 +11,43 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último Patrón de búsqueda:
-~MSle0~/hide
+~Msle0~/\<client\>
 
 # Último Sustitución Patrón de búsqueda:
-~MSle0&products
+~MSle0&Black
 
 # Última cadena de sustitución:
-$productos
+$Gray
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
-:q!
-|2,0,1666748781,,"q!"
 :wq
-|2,0,1665872589,,"wq"
+|2,0,1667525473,,"wq"
 :w
-|2,0,1665013894,,"w"
+|2,0,1667525460,,"w"
+:'<,'>s/Black/Gray/g
+|2,0,1667523290,,"'<,'>s/Black/Gray/g"
+:'<,'>s/Red/Rose/g
+|2,0,1667523146,,"'<,'>s/Red/Rose/g"
+:'<,'>s/  \+/ /g
+|2,0,1667518089,,"'<,'>s/  \\+/ /g"
+:q!
+|2,0,1667517586,,"q!"
+:tabe autostart
+|2,0,1667428650,,"tabe autostart"
+:tabe launch.sh
+|2,0,1667428502,,"tabe launch.sh"
+:q
+|2,0,1667424817,,"q"
+:q1
+|2,0,1666841033,,"q1"
+:set rnu!
+|2,0,1666840537,,"set rnu!"
+:set nu!
+|2,0,1666840534,,"set nu!"
+:nu!
+|2,0,1666840532,,"nu!"
 :e
 |2,0,1665010853,,"e"
-:set rnu!
-|2,0,1663808010,,"set rnu!"
-:set nu!
-|2,0,1663808006,,"set nu!"
 :%s/products/productos/g
 |2,0,1663805291,,"%s/products/productos/g"
 :%s/recommended_products/productos_recomendados/g
@@ -120,8 +136,6 @@ $productos
 |2,0,1658277851,,"! . .bashrc"
 :tabe conf.d
 |2,0,1658266889,,"tabe conf.d"
-:q
-|2,0,1658266451,,"q"
 :% s/postgres/unegedu_web/g
 |2,0,1657822419,,"% s/postgres/unegedu_web/g"
 :% s/postgres/unegedu_web
@@ -212,8 +226,6 @@ $productos
 |2,0,1645292379,,"'<,'>s/Go.*p/RemoveDesktop/g"
 :'<,'>s/to/where/g
 |2,0,1645292343,,"'<,'>s/to/where/g"
-:q1
-|2,0,1645157164,,"q1"
 :PlugClean
 |2,0,1645144164,,"PlugClean"
 :PlugInstall
@@ -298,6 +310,34 @@ $productos
 |2,0,1631476210,,"b"
 
 # Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+? \<client\>
+|2,1,1667523764,,"\\<client\\>"
+? Black
+|2,1,1667523290,,"Black"
+? Red
+|2,1,1667523146,,"Red"
+?   \+
+|2,1,1667518089,,"  \\+"
+? \<set\>
+|2,1,1667517930,,"\\<set\\>"
+?/poly
+|2,1,1667428632,47,"poly"
+?/volum
+|2,1,1667428597,47,"volum"
+?/autosta
+|2,1,1667428164,47,"autosta"
+?/resta
+|2,1,1667427983,47,"resta"
+?/ctrl+s
+|2,1,1667427848,47,"ctrl+s"
+?/ipc
+|2,1,1667428132,47,"ipc"
+?/transpa
+|2,1,1667427630,47,"transpa"
+?/tra
+|2,1,1667427621,47,"tra"
+?/pseu
+|2,1,1667426711,47,"pseu"
 ?/hide
 |2,1,1665010763,47,"hide"
 ?/Volu
@@ -400,8 +440,6 @@ $productos
 |2,1,1656629611,,"\\<Exec\\>"
 ?/dd
 |2,1,1655948813,47,"dd"
-?/autosta
-|2,1,1655566160,47,"autosta"
 ?/aur
 |2,1,1655566158,47,"aur"
 ?/autostA
@@ -424,8 +462,6 @@ $productos
 |2,1,1652737326,47,"auth"
 ? free18
 |2,1,1652354739,,"free18"
-?   \+
-|2,1,1651618119,,"  \\+"
 ?/Extensi
 |2,1,1651539342,47,"Extensi"
 ?/log
@@ -544,8 +580,6 @@ $productos
 |2,1,1636895050,,"mnt"
 ?/primary
 |2,1,1636311800,47,"primary"
-?/volum
-|2,1,1635703606,47,"volum"
 ?/html
 |2,1,1635016900,47,"html"
 ?/body
@@ -581,288 +615,617 @@ $productos
 
 # Registros:
 "0	LINE	0
-	ExecStart=-/sbin/agetty -o '-p -- \\u' --noclear - $TERM
-|3,0,0,1,1,0,1664919128,"ExecStart=-/sbin/agetty -o '-p -- \\\\u' --noclear - $TERM"
+		font pango:Dejavu Sans Book 7
+|3,0,0,1,1,0,1667525332,"	font pango:Dejavu Sans Book 7"
 "1	LINE	0
-	    #recomendaciones = obtenerRecomendaciones(id)
-|3,0,1,1,1,0,1663808051,"    #recomendaciones = obtenerRecomendaciones(id)"
+		font pango:Dejavu Sans Bold 7
+|3,0,1,1,1,0,1667525458,"	font pango:Dejavu Sans Bold 7"
 "2	LINE	0
-	    #id = request.json['id']
-|3,0,2,1,1,0,1663808050,"    #id = request.json['id']"
+	        #separator #666666
+|3,0,2,1,1,0,1667525039,"        #separator #666666"
 "3	LINE	0
-	product_id,name
-	1,Baseball Bat
-	2,Baseball Glove
-	3,Football
-	4,Basketball Hoop
-	5,Football Helmet
-	6,Batting Gloves
-	7,Baseball
-	8,Hockey Stick
-	9,Ice Skates
-	10,Soccer Ball
-	11,Goalie Mask
-	12,Hockey Puck
-	13,Cleats
-|3,0,3,1,14,0,1663804602,"product_id,name","1,Baseball Bat","2,Baseball Glove","3,Football","4,Basketball Hoop","5,Football Helmet","6,Batting Gloves","7,Baseball","8,Hockey Stick","9,Ice Skates","10,Soccer Ball","11,Goalie Mask","12,Hockey Puck","13,Cleats"
+	        binding_mode		#2f343a #900000 #ffffff
+|3,0,3,1,1,0,1667524960,"        binding_mode		#2f343a #900000 #ffffff"
 "4	LINE	0
-	src/
-|3,0,4,1,1,0,1663804414,"src/"
-"5	BLOCK	3
-		
-		
-		
-		
-		
-|3,0,5,2,5,3,1663804412,"	","	","	","	","	"
+	        active_workspace	#333333 #5f676a #ffffff
+|3,0,4,1,1,0,1667524889,"        active_workspace	#333333 #5f676a #ffffff"
+"5	LINE	0
+	
+|3,0,5,1,1,0,1667524093,""
 "6	LINE	0
-	!src/
-|3,0,6,1,1,0,1663804407,"!src/"
-"7	LINE	0
-	app = Flask(__name__)
-	
-	@app.route("/")
-	def home_view():
-	        return "<h1>Hello World!</h1>"
-|3,0,7,1,5,0,1663803911,"app = Flask(__name__)","","@app.route(\"/\")","def home_view():","        return \"<h1>Hello World!</h1>\""
+	#client.background       #ffffff
+|3,0,6,1,1,0,1667524093,"#client.background       #ffffff"
+"7	BLOCK	0
+	#
+	#
+	#
+	#
+	#
+	#
+|3,0,7,2,6,0,1667523804,"#","#","#","#","#","#"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1663803836,""
-"9	LINE	0
-	from flask import Flask
-|3,0,9,1,1,0,1663803830,"from flask import Flask"
+	#client.urgent           #2f343a #900000 #ffffff #900000   #900000
+|3,0,8,1,1,0,1667523706,"#client.urgent           #2f343a #900000 #ffffff #900000   #900000"
+"9	BLOCK	0
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+|3,0,9,2,7,0,1667523515,"#","#","#","#","#","#","#"
 "u	CHAR	0
 		
 |3,0,30,0,1,0,1649134282,"	"
 ""-	CHAR	0
 	#
-|3,1,36,0,1,0,1665010769,"#"
+|3,1,36,0,1,0,1667525459,"#"
 
 # Marcas en el archivo:
-'0  1  0  /run/media/am/0e0969e6-2de2-4eef-ad1b-56a58dcd65eb/etc/apt/sources.list
-|4,48,1,0,1666748781,"/run/media/am/0e0969e6-2de2-4eef-ad1b-56a58dcd65eb/etc/apt/sources.list"
-'1  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,49,1,0,1665872589,"~/dev/ssw/.git/COMMIT_EDITMSG"
-'2  9  30  ~/.config/i3/config
-|4,50,9,30,1665013905,"~/.config/i3/config"
-'3  6  16  ~/.config/i3/config
-|4,51,6,16,1665010907,"~/.config/i3/config"
-'4  6  16  ~/.config/i3/config
-|4,52,6,16,1665010907,"~/.config/i3/config"
-'5  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,53,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
-'6  21  13  ~/.xinitrc
-|4,54,21,13,1664834335,"~/.xinitrc"
-'7  20  45  ~/.xinitrc
-|4,55,20,45,1664675196,"~/.xinitrc"
-'8  20  45  ~/.xinitrc
-|4,56,20,45,1664675196,"~/.xinitrc"
-'9  142  12  ~/.config/i3/config
-|4,57,142,12,1664586701,"~/.config/i3/config"
+'0  213  1  ~/.config/i3/config
+|4,48,213,1,1667525473,"~/.config/i3/config"
+'1  221  0  ~/.config/i3/config
+|4,49,221,0,1667525159,"~/.config/i3/config"
+'2  221  0  ~/.config/i3/config
+|4,50,221,0,1667525159,"~/.config/i3/config"
+'3  18  0  ~/.Xresources
+|4,51,18,0,1667519100,"~/.Xresources"
+'4  204  33  ~/.config/i3/config
+|4,52,204,33,1667519100,"~/.config/i3/config"
+'5  18  0  ~/.Xresources
+|4,53,18,0,1667519100,"~/.Xresources"
+'6  204  33  ~/.config/i3/config
+|4,54,204,33,1667519100,"~/.config/i3/config"
+'7  204  33  ~/.config/i3/config
+|4,55,204,33,1667519100,"~/.config/i3/config"
+'8  18  0  ~/.Xresources
+|4,56,18,0,1667519100,"~/.Xresources"
+'9  204  33  ~/.config/i3/config
+|4,57,204,33,1667519100,"~/.config/i3/config"
 
 # Lista de saltos (el más reciente va primero):
--'  1  0  /run/media/am/0e0969e6-2de2-4eef-ad1b-56a58dcd65eb/etc/apt/sources.list
-|4,39,1,0,1666748781,"/run/media/am/0e0969e6-2de2-4eef-ad1b-56a58dcd65eb/etc/apt/sources.list"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1665872589,"~/dev/ssw/.git/COMMIT_EDITMSG"
--'  1  0  ~/dev/ssw/.git/COMMIT_EDITMSG
-|4,39,1,0,1665872589,"~/dev/ssw/.git/COMMIT_EDITMSG"
+-'  213  1  ~/.config/i3/config
+|4,39,213,1,1667525473,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1667525182,"~/.config/i3/config"
+-'  221  0  ~/.config/i3/config
+|4,39,221,0,1667525159,"~/.config/i3/config"
+-'  221  0  ~/.config/i3/config
+|4,39,221,0,1667525159,"~/.config/i3/config"
+-'  223  25  ~/.config/i3/config
+|4,39,223,25,1667524335,"~/.config/i3/config"
+-'  223  25  ~/.config/i3/config
+|4,39,223,25,1667524335,"~/.config/i3/config"
+-'  208  4  ~/.config/i3/config
+|4,39,208,4,1667524207,"~/.config/i3/config"
+-'  208  4  ~/.config/i3/config
+|4,39,208,4,1667524207,"~/.config/i3/config"
+-'  199  0  ~/.config/i3/config
+|4,39,199,0,1667523768,"~/.config/i3/config"
+-'  199  0  ~/.config/i3/config
+|4,39,199,0,1667523768,"~/.config/i3/config"
+-'  200  0  ~/.config/i3/config
+|4,39,200,0,1667523766,"~/.config/i3/config"
+-'  200  0  ~/.config/i3/config
+|4,39,200,0,1667523766,"~/.config/i3/config"
+-'  197  20  ~/.config/i3/config
+|4,39,197,20,1667523608,"~/.config/i3/config"
+-'  197  20  ~/.config/i3/config
+|4,39,197,20,1667523608,"~/.config/i3/config"
+-'  196  34  ~/.config/i3/config
+|4,39,196,34,1667523387,"~/.config/i3/config"
+-'  196  34  ~/.config/i3/config
+|4,39,196,34,1667523387,"~/.config/i3/config"
+-'  195  0  ~/.config/i3/config
+|4,39,195,0,1667523182,"~/.config/i3/config"
+-'  195  0  ~/.config/i3/config
+|4,39,195,0,1667523182,"~/.config/i3/config"
 -'  9  30  ~/.config/i3/config
-|4,39,9,30,1665013905,"~/.config/i3/config"
+|4,39,9,30,1667522817,"~/.config/i3/config"
 -'  9  30  ~/.config/i3/config
-|4,39,9,30,1665013905,"~/.config/i3/config"
+|4,39,9,30,1667522817,"~/.config/i3/config"
+-'  184  16  ~/.config/i3/config
+|4,39,184,16,1667522805,"~/.config/i3/config"
+-'  184  16  ~/.config/i3/config
+|4,39,184,16,1667522805,"~/.config/i3/config"
+-'  189  6  ~/.config/i3/config
+|4,39,189,6,1667522373,"~/.config/i3/config"
+-'  189  6  ~/.config/i3/config
+|4,39,189,6,1667522373,"~/.config/i3/config"
+-'  163  0  ~/.config/i3/config
+|4,39,163,0,1667519161,"~/.config/i3/config"
+-'  163  0  ~/.config/i3/config
+|4,39,163,0,1667519161,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1667519129,"~/.config/i3/config"
+-'  18  0  ~/.Xresources
+|4,39,18,0,1667519100,"~/.Xresources"
+-'  204  33  ~/.config/i3/config
+|4,39,204,33,1667519100,"~/.config/i3/config"
+-'  18  0  ~/.Xresources
+|4,39,18,0,1667519100,"~/.Xresources"
+-'  18  0  ~/.Xresources
+|4,39,18,0,1667519100,"~/.Xresources"
+-'  204  33  ~/.config/i3/config
+|4,39,204,33,1667519100,"~/.config/i3/config"
+-'  18  0  ~/.Xresources
+|4,39,18,0,1667519100,"~/.Xresources"
+-'  204  33  ~/.config/i3/config
+|4,39,204,33,1667519100,"~/.config/i3/config"
 -'  9  30  ~/.config/i3/config
-|4,39,9,30,1665013905,"~/.config/i3/config"
--'  9  30  ~/.config/i3/config
-|4,39,9,30,1665013905,"~/.config/i3/config"
+|4,39,9,30,1667519057,"~/.config/i3/config"
+-'  209  0  ~/.config/i3/config
+|4,39,209,0,1667519054,"~/.config/i3/config"
+-'  209  0  ~/.config/i3/config
+|4,39,209,0,1667519054,"~/.config/i3/config"
+-'  201  0  ~/.config/i3/config
+|4,39,201,0,1667519053,"~/.config/i3/config"
+-'  183  0  ~/.config/i3/config
+|4,39,183,0,1667519053,"~/.config/i3/config"
+-'  206  0  ~/.config/i3/config
+|4,39,206,0,1667519053,"~/.config/i3/config"
+-'  201  0  ~/.config/i3/config
+|4,39,201,0,1667519053,"~/.config/i3/config"
+-'  183  0  ~/.config/i3/config
+|4,39,183,0,1667519053,"~/.config/i3/config"
+-'  206  0  ~/.config/i3/config
+|4,39,206,0,1667519053,"~/.config/i3/config"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1667518995,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1667518995,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1667518995,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1667518995,"~/.Xresources"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1665013840,"~/.config/i3/config"
+|4,39,1,0,1667518991,"~/.config/i3/config"
+-'  36  15  ~/.Xresources
+|4,39,36,15,1667518945,"~/.Xresources"
+-'  37  15  ~/.Xresources
+|4,39,37,15,1667518945,"~/.Xresources"
+-'  36  15  ~/.Xresources
+|4,39,36,15,1667518945,"~/.Xresources"
+-'  205  33  ~/.config/i3/config
+|4,39,205,33,1667518945,"~/.config/i3/config"
+-'  37  15  ~/.Xresources
+|4,39,37,15,1667518945,"~/.Xresources"
+-'  37  15  ~/.Xresources
+|4,39,37,15,1667518945,"~/.Xresources"
+-'  36  15  ~/.Xresources
+|4,39,36,15,1667518945,"~/.Xresources"
+-'  37  15  ~/.Xresources
+|4,39,37,15,1667518945,"~/.Xresources"
+-'  36  15  ~/.Xresources
+|4,39,36,15,1667518945,"~/.Xresources"
+-'  205  33  ~/.config/i3/config
+|4,39,205,33,1667518945,"~/.config/i3/config"
+-'  37  15  ~/.Xresources
+|4,39,37,15,1667518945,"~/.Xresources"
+-'  37  15  ~/.Xresources
+|4,39,37,15,1667518945,"~/.Xresources"
+-'  205  33  ~/.config/i3/config
+|4,39,205,33,1667518945,"~/.config/i3/config"
+-'  2  0  ~/.Xresources
+|4,39,2,0,1667518912,"~/.Xresources"
+-'  2  0  ~/.Xresources
+|4,39,2,0,1667518912,"~/.Xresources"
+-'  2  0  ~/.Xresources
+|4,39,2,0,1667518912,"~/.Xresources"
+-'  2  0  ~/.Xresources
+|4,39,2,0,1667518912,"~/.Xresources"
+-'  2  0  ~/.Xresources
+|4,39,2,0,1667518912,"~/.Xresources"
+-'  2  0  ~/.Xresources
+|4,39,2,0,1667518912,"~/.Xresources"
+-'  2  0  ~/.Xresources
+|4,39,2,0,1667518912,"~/.Xresources"
+-'  2  0  ~/.Xresources
+|4,39,2,0,1667518912,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1667518910,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1667518910,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1667518910,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1667518910,"~/.Xresources"
+-'  173  0  ~/.config/i3/config
+|4,39,173,0,1667518403,"~/.config/i3/config"
+-'  173  0  ~/.config/i3/config
+|4,39,173,0,1667518403,"~/.config/i3/config"
+-'  173  0  ~/.config/i3/config
+|4,39,173,0,1667518403,"~/.config/i3/config"
+-'  173  0  ~/.config/i3/config
+|4,39,173,0,1667518403,"~/.config/i3/config"
+-'  173  0  ~/.config/i3/config
+|4,39,173,0,1667518403,"~/.config/i3/config"
+-'  183  9  ~/.config/i3/config
+|4,39,183,9,1667518325,"~/.config/i3/config"
+-'  183  9  ~/.config/i3/config
+|4,39,183,9,1667518325,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1665013840,"~/.config/i3/config"
+|4,39,1,0,1667517880,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1665013840,"~/.config/i3/config"
+|4,39,1,0,1667517880,"~/.config/i3/config"
+-'  19  0  ~/.config/i3/config
+|4,39,19,0,1667517842,"~/.config/i3/config"
+-'  19  0  ~/.config/i3/config
+|4,39,19,0,1667517842,"~/.config/i3/config"
+-'  19  0  ~/.config/i3/config
+|4,39,19,0,1667517842,"~/.config/i3/config"
+-'  19  0  ~/.config/i3/config
+|4,39,19,0,1667517842,"~/.config/i3/config"
+-'  19  0  ~/.config/i3/config
+|4,39,19,0,1667517842,"~/.config/i3/config"
+-'  19  0  ~/.config/i3/config
+|4,39,19,0,1667517842,"~/.config/i3/config"
+-'  19  0  ~/.config/i3/config
+|4,39,19,0,1667517842,"~/.config/i3/config"
+-'  19  0  ~/.config/i3/config
+|4,39,19,0,1667517842,"~/.config/i3/config"
+-'  19  0  ~/.config/i3/config
+|4,39,19,0,1667517842,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1665013840,"~/.config/i3/config"
--'  6  16  ~/.config/i3/config
-|4,39,6,16,1665010907,"~/.config/i3/config"
--'  6  16  ~/.config/i3/config
-|4,39,6,16,1665010907,"~/.config/i3/config"
--'  6  16  ~/.config/i3/config
-|4,39,6,16,1665010907,"~/.config/i3/config"
--'  6  16  ~/.config/i3/config
-|4,39,6,16,1665010907,"~/.config/i3/config"
--'  6  16  ~/.config/i3/config
-|4,39,6,16,1665010907,"~/.config/i3/config"
--'  6  16  ~/.config/i3/config
-|4,39,6,16,1665010907,"~/.config/i3/config"
--'  6  16  ~/.config/i3/config
-|4,39,6,16,1665010907,"~/.config/i3/config"
--'  6  16  ~/.config/i3/config
-|4,39,6,16,1665010907,"~/.config/i3/config"
--'  8  21  ~/.config/i3/config
-|4,39,8,21,1665010847,"~/.config/i3/config"
--'  8  21  ~/.config/i3/config
-|4,39,8,21,1665010847,"~/.config/i3/config"
--'  8  21  ~/.config/i3/config
-|4,39,8,21,1665010847,"~/.config/i3/config"
--'  8  21  ~/.config/i3/config
-|4,39,8,21,1665010847,"~/.config/i3/config"
--'  8  21  ~/.config/i3/config
-|4,39,8,21,1665010847,"~/.config/i3/config"
--'  8  21  ~/.config/i3/config
-|4,39,8,21,1665010847,"~/.config/i3/config"
--'  8  21  ~/.config/i3/config
-|4,39,8,21,1665010847,"~/.config/i3/config"
--'  8  21  ~/.config/i3/config
-|4,39,8,21,1665010847,"~/.config/i3/config"
--'  11  0  ~/.config/i3/config
-|4,39,11,0,1665010763,"~/.config/i3/config"
--'  11  0  ~/.config/i3/config
-|4,39,11,0,1665010763,"~/.config/i3/config"
--'  11  0  ~/.config/i3/config
-|4,39,11,0,1665010763,"~/.config/i3/config"
--'  11  0  ~/.config/i3/config
-|4,39,11,0,1665010763,"~/.config/i3/config"
--'  11  0  ~/.config/i3/config
-|4,39,11,0,1665010763,"~/.config/i3/config"
--'  11  0  ~/.config/i3/config
-|4,39,11,0,1665010763,"~/.config/i3/config"
--'  11  0  ~/.config/i3/config
-|4,39,11,0,1665010763,"~/.config/i3/config"
--'  11  0  ~/.config/i3/config
-|4,39,11,0,1665010763,"~/.config/i3/config"
+|4,39,1,0,1667517700,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1665010618,"~/.config/i3/config"
+|4,39,1,0,1667517700,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1665010618,"~/.config/i3/config"
+|4,39,1,0,1667517700,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1665010618,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1665010618,"~/.config/i3/config"
--'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  39  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,39,0,1664919130,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  1  0  /etc/systemd/system/getty.target.wants/getty@tty1.service
-|4,39,1,0,1664919123,"/etc/systemd/system/getty.target.wants/getty@tty1.service"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
--'  21  13  ~/.xinitrc
-|4,39,21,13,1664834335,"~/.xinitrc"
+|4,39,1,0,1667517700,"~/.config/i3/config"
+-'  37  45  ~/.config/xfce4/terminal/terminalrc
+|4,39,37,45,1667517667,"~/.config/xfce4/terminal/terminalrc"
+-'  37  45  ~/.config/xfce4/terminal/terminalrc
+|4,39,37,45,1667517667,"~/.config/xfce4/terminal/terminalrc"
+-'  37  45  ~/.config/xfce4/terminal/terminalrc
+|4,39,37,45,1667517667,"~/.config/xfce4/terminal/terminalrc"
+-'  37  45  ~/.config/xfce4/terminal/terminalrc
+|4,39,37,45,1667517667,"~/.config/xfce4/terminal/terminalrc"
+-'  37  45  ~/.config/xfce4/terminal/terminalrc
+|4,39,37,45,1667517667,"~/.config/xfce4/terminal/terminalrc"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/.config/i3/config
+	*	1667525460	0
+	"	213	1
+	^	220	26
+	.	213	1
+	+	201	33
+	+	8	21
+	+	9	30
+	+	204	0
+	+	9	30
+	+	201	0
+	+	204	33
+	+	204	0
+	+	201	0
+	+	202	0
+	+	173	0
+	+	8	21
+	+	9	30
+	+	8	21
+	+	9	30
+	+	204	0
+	+	203	0
+	+	182	0
+	+	183	0
+	+	174	0
+	+	183	18
+	+	184	16
+	+	185	18
+	+	186	19
+	+	187	17
+	+	188	17
+	+	189	17
+	+	190	18
+	+	201	16
+	+	202	0
+	+	200	30
+	+	201	0
+	+	195	54
+	+	194	59
+	+	184	16
+	+	8	21
+	+	9	30
+	+	195	50
+	+	213	29
+	+	199	0
+	+	196	24
+	+	199	0
+	+	197	15
+	+	199	0
+	+	197	57
+	+	199	0
+	+	198	0
+	+	199	0
+	+	198	21
+	+	195	0
+	+	192	17
+	+	197	0
+	+	196	0
+	+	195	0
+	+	201	0
+	+	202	0
+	+	201	0
+	+	202	0
+	+	194	0
+	+	196	62
+	+	197	47
+	+	198	57
+	+	199	0
+	+	195	0
+	+	200	0
+	+	201	0
+	+	202	0
+	+	194	0
+	+	197	24
+	+	213	29
+	+	197	23
+	+	200	0
+	+	206	0
+	+	208	0
+	+	226	4
+	+	219	27
+	+	222	19
+	+	223	27
+	+	224	27
+	+	225	27
+	+	226	27
+	+	223	50
+	+	220	25
+	+	221	8
+	+	224	46
+	+	223	46
+	+	224	50
+	+	225	45
+	+	226	0
+	+	224	41
+	+	186	19
+	+	221	0
+	+	224	49
+	+	220	26
+	+	214	0
+	+	213	1
+	+	214	24
+	+	220	25
+	+	214	0
+	+	213	1
+
+> ~/.Xresources
+	*	1667519100	0
+	"	18	0
+	^	36	16
+	.	17	0
+	+	8	0
+	+	36	15
+	+	17	0
+
+> ~/.config/xfce4/terminal/terminalrc
+	*	1667517577	0
+	"	37	45
+	^	37	236
+	.	38	0
+	+	37	0
+	+	36	0
+	+	38	0
+
+> ~/.config/termite/config
+	*	1667517493	0
+	"	117	0
+
+> ~/.config/i3/autostart
+	*	1667428655	0
+	"	3	0
+	.	3	0
+	+	7	51
+	+	8	0
+	+	16	15
+	+	16	8
+	+	3	0
+	+	16	0
+	+	3	0
+
+> ~/.config/polybar/config.ini
+	*	1667428622	0
+	"	61	0
+	^	61	1
+	.	61	0
+	+	28	8
+	+	30	10
+	+	61	0
+
+> ~/.config/polybar/launch.sh
+	*	1667428532	0
+	"	13	45
+	^	13	46
+	.	13	46
+	+	15	22
+	+	11	37
+	+	14	0
+	+	7	1
+	+	8	13
+	+	12	7
+	+	8	1
+	+	5	0
+	+	13	0
+	+	12	0
+	+	13	46
+
+> ~/.config/i3/polybar.conf
+	*	1667426716	0
+	"	173	0
+	^	173	1
+	.	173	0
+	+	44	0
+	+	43	0
+	+	44	0
+	+	33	0
+	+	38	12
+	+	40	0
+	+	41	0
+	+	31	0
+	+	38	12
+	+	46	0
+	+	52	0
+	+	51	0
+	+	52	14
+	+	46	0
+	+	67	0
+	+	63	0
+	+	56	0
+	+	55	0
+	+	56	37
+	+	69	0
+	+	67	1
+	+	69	1
+	+	52	9
+	+	76	0
+	+	101	0
+	+	100	0
+	+	101	0
+	+	69	0
+	+	173	0
+
+> ~/.config/i3/polybar
+	*	1667426076	0
+	"	5	0
+	^	5	1
+	.	5	0
+	+	11	24
+	+	7	0
+	+	5	0
+
+> ~/.config/polybar/start
+	*	1667424280	0
+	"	1	0
+
+> ~/.config/polybar/launch
+	*	1667424276	0
+	"	1	0
+
+> /usr/share/doc/polybar/examples/config.ini
+	*	1667424098	0
+	"	172	0
+
+> /etc/resolv.conf
+	*	1667000296	0
+	"	1	0
+
+> /etc/resolv
+	*	1667000288	0
+	"	1	0
+
+> ~/.config/phpBuild
+	*	1666840541	0
+	"	1	0
+
+> ~/.bashrc
+	*	1666834195	0
+	"	103	35
+	^	103	36
+	.	103	35
+	+	37	0
+	+	38	0
+	+	49	0
+	+	71	0
+	+	83	0
+	+	7	0
+	+	67	0
+	+	79	0
+	+	75	0
+	+	74	0
+	+	28	0
+	+	17	0
+	+	51	0
+	+	90	0
+	+	89	0
+	+	95	46
+	+	96	0
+	+	97	31
+	+	97	37
+	+	97	35
+	+	77	48
+	+	97	0
+	+	95	30
+	+	97	17
+	+	102	34
+	+	102	0
+	+	102	38
+	+	103	28
+	+	102	0
+	+	102	50
+	+	102	40
+	+	102	0
+	+	103	57
+	+	93	32
+	+	95	0
+	+	95	11
+	+	103	75
+	+	102	47
+	+	102	0
+	+	102	47
+	+	103	86
+	+	102	31
+	+	103	93
+	+	103	0
+	+	103	93
+	+	102	0
+	+	102	54
+	+	103	102
+	+	102	42
+	+	103	109
+	+	105	0
+	+	102	0
+	+	103	20
+	+	94	0
+	+	95	0
+	+	98	0
+	+	102	0
+	+	99	0
+	+	102	0
+	+	99	37
+	+	103	48
+	+	97	46
+	+	98	0
+	+	97	0
+	+	99	28
+	+	102	0
+	+	103	47
+	+	102	0
+	+	102	36
+	+	102	0
+	+	103	100
+	+	105	0
+	+	103	48
+	+	102	0
+	+	105	0
+	+	102	0
+	+	105	0
+	+	99	0
+	+	88	57
+	+	104	0
+	+	103	0
+	+	104	41
+	+	102	30
+	+	104	0
+	+	103	0
+	+	102	0
+	+	103	0
+	+	104	0
+	+	99	32
+	+	100	0
+	+	101	0
+	+	100	0
+	+	104	0
+	+	103	57
+	+	105	123
+	+	105	136
+	+	105	122
+	+	105	0
+	+	103	35
 
 > /run/media/am/0e0969e6-2de2-4eef-ad1b-56a58dcd65eb/etc/apt/sources.list
 	*	1666748780	0
@@ -871,112 +1234,6 @@ $productos
 > ~/dev/ssw/.git/COMMIT_EDITMSG
 	*	1665872587	0
 	"	1	0
-
-> ~/.config/i3/config
-	*	1665013894	0
-	"	9	30
-	^	9	31
-	.	9	30
-	+	123	0
-	+	132	0
-	+	144	0
-	+	145	41
-	+	149	0
-	+	162	0
-	+	161	16
-	+	163	0
-	+	188	0
-	+	187	0
-	+	188	0
-	+	187	0
-	+	188	0
-	+	167	0
-	+	169	0
-	+	167	0
-	+	169	0
-	+	167	0
-	+	8	0
-	+	117	0
-	+	129	0
-	+	168	0
-	+	206	0
-	+	26	50
-	+	105	0
-	+	200	1
-	+	106	0
-	+	200	1
-	+	199	1
-	+	105	0
-	+	106	0
-	+	199	1
-	+	200	1
-	+	196	19
-	+	191	9
-	+	193	1
-	+	196	0
-	+	192	21
-	+	193	0
-	+	194	0
-	+	196	0
-	+	177	0
-	+	195	0
-	+	192	21
-	+	139	0
-	+	137	0
-	+	143	0
-	+	139	9
-	+	140	9
-	+	12	0
-	+	199	1
-	+	200	9
-	+	199	0
-	+	18	0
-	+	18	65
-	+	167	31
-	+	200	9
-	+	199	27
-	+	12	0
-	+	198	1
-	+	167	55
-	+	207	15
-	+	207	0
-	+	198	1
-	+	106	0
-	+	200	1
-	+	11	0
-	+	198	1
-	+	12	0
-	+	20	28
-	+	133	0
-	+	132	0
-	+	133	42
-	+	18	0
-	+	19	0
-	+	18	0
-	+	19	57
-	+	191	0
-	+	190	0
-	+	191	0
-	+	167	72
-	+	166	0
-	+	167	55
-	+	190	0
-	+	196	37
-	+	199	29
-	+	11	1
-	+	10	0
-	+	191	0
-	+	190	0
-	+	6	16
-	+	202	18
-	+	201	6
-	+	141	12
-	+	142	12
-	+	11	22
-	+	8	0
-	+	6	16
-	+	8	21
-	+	9	30
 
 > /usr/share/vim/vim90/doc/help.txt
 	*	1665010798	0
@@ -1313,112 +1570,6 @@ $productos
 > /mnt/fvckingmore/games/mostwanted/NFSMW/NFSMW/scripts/NFSMWExtraOptionsSettings.ini
 	*	1662084587	0
 	"	9	0
-
-> ~/.bashrc
-	*	1660353043	0
-	"	108	10
-	^	108	11
-	.	108	10
-	+	37	0
-	+	38	0
-	+	49	0
-	+	71	0
-	+	83	0
-	+	7	0
-	+	67	0
-	+	79	0
-	+	75	0
-	+	74	0
-	+	28	0
-	+	17	0
-	+	51	0
-	+	90	0
-	+	89	0
-	+	95	46
-	+	96	0
-	+	97	31
-	+	97	37
-	+	97	35
-	+	77	48
-	+	97	0
-	+	95	30
-	+	97	17
-	+	102	34
-	+	102	0
-	+	102	38
-	+	103	28
-	+	102	0
-	+	102	50
-	+	102	40
-	+	102	0
-	+	103	57
-	+	93	32
-	+	95	0
-	+	95	11
-	+	103	75
-	+	102	47
-	+	102	0
-	+	102	47
-	+	103	86
-	+	102	31
-	+	103	93
-	+	103	0
-	+	103	93
-	+	102	0
-	+	102	54
-	+	103	102
-	+	102	42
-	+	103	109
-	+	105	0
-	+	102	0
-	+	103	20
-	+	94	0
-	+	95	0
-	+	98	0
-	+	102	0
-	+	99	0
-	+	102	0
-	+	99	37
-	+	103	48
-	+	97	46
-	+	98	0
-	+	97	0
-	+	99	28
-	+	102	0
-	+	103	47
-	+	102	0
-	+	102	36
-	+	102	0
-	+	103	100
-	+	106	0
-	+	103	48
-	+	102	0
-	+	106	0
-	+	102	0
-	+	106	0
-	+	105	0
-	+	106	0
-	+	99	0
-	+	88	57
-	+	104	0
-	+	103	0
-	+	104	41
-	+	102	30
-	+	104	0
-	+	103	0
-	+	102	0
-	+	103	0
-	+	104	0
-	+	99	32
-	+	100	0
-	+	101	0
-	+	100	0
-	+	104	0
-	+	103	57
-	+	106	123
-	+	107	136
-	+	108	122
-	+	108	10
 
 > /mnt/fvckingmore/games/carbon/NFSC/install.bat
 	*	1660269733	0
@@ -2195,136 +2346,3 @@ $productos
 	.	3	61
 	+	1	0
 	+	3	61
-
-> ~/php82/etc/php.ini
-	*	1658368892	0
-	"	957	0
-	^	956	1
-	.	956	0
-	+	921	0
-	+	922	0
-	+	926	0
-	+	932	0
-	+	934	0
-	+	945	0
-	+	955	0
-	+	956	0
-	+	954	0
-	+	953	0
-	+	952	0
-	+	953	0
-	+	954	0
-	+	956	0
-	+	952	0
-	+	956	0
-
-> ~/php82/etc/pool.d/www.conf
-	*	1658368837	0
-	"	18	0
-	^	49	17
-	.	18	0
-	+	23	8
-	+	24	9
-	+	36	39
-	+	48	16
-	+	49	16
-	+	18	0
-
-> ~/php82/usr/bin/php-fpm82
-	*	1658368416	0
-	"	3	67
-	^	3	98
-	.	3	97
-	+	3	97
-
-> ~/php82/etc/php-fpm.conf
-	*	1658368258	0
-	"	145	43
-	^	145	44
-	.	145	43
-	+	19	35
-	+	26	41
-	+	145	43
-
-> ~/phpmyadmin
-	*	1658356589	0
-	"	23	0
-	^	23	0
-	.	22	86
-	+	22	86
-
-> ~/phpL
-	*	1658356476	0
-	"	134	0
-	^	134	0
-	.	133	74
-	+	1	96
-	+	1	41
-	+	1	96
-	+	133	74
-
-> ~/php81L
-	*	1658353858	0
-	"	304	0
-	^	304	0
-	.	303	83
-	+	1	76
-	+	1	94
-	+	303	83
-
-> ~/php81/etc/php.ini
-	*	1658279532	0
-	"	927	0
-
-> ~/php81/usr/bin/php-fpm81
-	*	1658279299	0
-	"	2	97
-	^	2	98
-	.	2	97
-	+	2	97
-
-> ~/php81/usr/bin/php81
-	*	1658278758	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	2	58
-	+	1	10
-
-> /usr/local/bin/dbeaver
-	*	1658277557	0
-	"	1	0
-
-> ~/php74/etc/php-fpm.d/www.conf
-	*	1658275671	0
-	"	49	16
-	^	49	17
-	.	49	16
-	+	23	8
-	+	24	9
-	+	36	23
-	+	48	16
-	+	49	16
-
-> ~/php74/etc/php-fpm.conf
-	*	1658275585	0
-	"	26	36
-	^	26	26
-	.	26	36
-	+	145	8
-	+	19	8
-	+	26	13
-	+	145	8
-	+	19	30
-	+	26	36
-
-> ~/php74/usr/bin/php-fpm74
-	*	1658275443	0
-	"	3	97
-	^	3	98
-	.	3	97
-	+	3	0
-	+	1	10
-	+	2	0
-	+	3	89
-	+	3	97
