@@ -170,41 +170,38 @@ exec --no-startup-id bash ~/.config/i3/autostart
 #COLORS
 #######################################################
 
-#set $cBlack #002B36
-#set $cRed #DC322F
-#set $cGreen #859900
-#set $cYellow #B58900
-#set $cBlue #268BD2
-#set $cRose #D33682
-#set $cCyan #2AA198
-#set $cWhite #D9D3C2
-#set $cWhite2 #FFFFFF
-
-set $cBlack #272822
-set $cRed #F92672
-set $cGreen #A6E22E
-set $cYellow #F4BF75
-set $cBlue #66D9EF
-set $cRose #AE81FF
-set $cCyan #A1EFE4
-set $cWhite #F8F8F2
+set $cBlack #002B36
+set $cRed #DC322F
+set $cGreen #859900
+set $cYellow #B58900
+set $cBlue #268BD2
+set $cRose #D33682
+set $cCyan #2AA198
+set $cWhite #D9D3C2
 set $cWhite2 #FFFFFF
-set $cGray #75715E
 
-# class                 border  backgr. text    indicator	child_border
-client.focused          $cRed	$cRed	$cBlack $cGreen		$cRed
-client.focused_inactive $cBlack	$cGray	$cBlack $cGreen		$cBlack
-client.unfocused		$cGray	$cBlack	$cWhite $cGreen		$cBlack
-client.urgent			$cYellow	$cYellow	$cBlack $cCyan		$cYellow
-#client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+#set $cBlack #272822
+#set $cRed #F92672
+#set $cGreen #A6E22E
+#set $cYellow #F4BF75
+#set $cBlue #66D9EF
+#set $cRose #AE81FF
+#set $cCyan #A1EFE4
+#set $cWhite #F8F8F2
+#set $cWhite2 #FFFFFF
+#set $cGray #75715E
+#
+## class                 border  backgr. text    indicator	child_border
+#client.focused          $cRed	$cRed	$cBlack $cGreen		$cRed
+#client.focused_inactive $cBlack	$cGray	$cBlack $cGreen		$cBlack
+#client.unfocused		$cGray	$cBlack	$cWhite $cGreen		$cBlack
+#client.urgent			$cYellow	$cYellow	$cBlack $cCyan		$cYellow
+##client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
-#client.focused  $cRed $cRed $cGray $cBlue   $cRed
-#set $cBlack2 #282a36
+client.focused  $cRed $cRed $cGray $cBlue   $cRed
+set $cBlack2 #282a36
 
 bar {
-	#colors {
-	#	background #000000BF
-	#}
 
 	i3bar_command i3bar -t
 	status_command exec ~/.config/i3/bar.sh
@@ -216,14 +213,18 @@ bar {
 	hidden_state hide
 
 	colors {
-        background #272822bf
-        statusline $cWhite
+		background #000000BF
+	}
 
-		#<colorclass>		<border> <background> <text>
-        focused_workspace	$cYellow	$cYellow	$cBlack
-        inactive_workspace	$cRose		$cBlack		$cRose
-        urgent_workspace	$cRed		$cRed		$cBlack
-    }
+	#colors {
+    #    background #272822bf
+    #    statusline $cWhite
+
+	#	#<colorclass>		<border> <background> <text>
+    #    focused_workspace	$cYellow	$cYellow	$cBlack
+    #    inactive_workspace	$cRose		$cBlack		$cRose
+    #    urgent_workspace	$cRed		$cRed		$cBlack
+    #}
 }
 
 bindsym $mod+b bar mode toggle
