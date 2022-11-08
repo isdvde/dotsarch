@@ -11,17 +11,23 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último Patrón de búsqueda:
-~Msle0~/\<client\>
+~MSle0/Enter
 
 # Último Sustitución Patrón de búsqueda:
-~MSle0&Black
+~MSle0~&\(Enter\)
 
 # Última cadena de sustitución:
-$Gray
+$KP_\1
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
 :wq
-|2,0,1667526485,,"wq"
+|2,0,1667867792,,"wq"
+:'<,'>s/\(Enter\)/KP_\1/g
+|2,0,1667867790,,"'<,'>s/\\(Enter\\)/KP_\\1/g"
+:'<,'>s/\(Enter\)/KP_\\1/g
+|2,0,1667867785,,"'<,'>s/\\(Enter\\)/KP_\\\\1/g"
+:'<,'>s/\(Enter\)/
+|2,0,1667867757,,"'<,'>s/\\(Enter\\)/"
 :w
 |2,0,1667525460,,"w"
 :'<,'>s/Black/Gray/g
@@ -310,6 +316,12 @@ $Gray
 |2,0,1631476210,,"b"
 
 # Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+? \(Enter\)
+|2,1,1667867790,,"\\(Enter\\)"
+?/Enter
+|2,1,1667867726,47,"Enter"
+?/51
+|2,1,1667867623,47,"51"
 ? \<client\>
 |2,1,1667523764,,"\\<client\\>"
 ? Black
@@ -615,9 +627,9 @@ $Gray
 
 # Registros:
 "0	LINE	0
-		font pango:Dejavu Sans Book 7
-|3,0,0,1,1,0,1667525332,"	font pango:Dejavu Sans Book 7"
-""1	BLOCK	0
+	keycode  51 = braceright bracketright braceright bracketright dead_grave braceright dead_grave
+|3,0,0,1,1,0,1667867685,"keycode  51 = braceright bracketright braceright bracketright dead_grave braceright dead_grave"
+"1	BLOCK	0
 	#
 	#
 	#
@@ -627,7 +639,7 @@ $Gray
 	#
 	#
 	#
-|3,1,1,2,9,0,1667526483,"#","#","#","#","#","#","#","#","#"
+|3,0,1,2,9,0,1667526483,"#","#","#","#","#","#","#","#","#"
 "2	BLOCK	0
 	#
 	#
@@ -659,43 +671,65 @@ $Gray
 "u	CHAR	0
 		
 |3,0,30,0,1,0,1649134282,"	"
-"-	CHAR	0
-	#
-|3,0,36,0,1,0,1667526477,"#"
+""-	CHAR	0
+	braceright bracketright braceright bracketright
+|3,1,36,0,1,0,1667867699,"braceright bracketright braceright bracketright"
 
 # Marcas en el archivo:
-'0  173  0  ~/.config/i3/config
-|4,48,173,0,1667526485,"~/.config/i3/config"
-'1  210  1  ~/.config/i3/config
-|4,49,210,1,1667525473,"~/.config/i3/config"
-'2  213  1  ~/.config/i3/config
-|4,50,213,1,1667525473,"~/.config/i3/config"
-'3  222  0  ~/.config/i3/config
-|4,51,222,0,1667525159,"~/.config/i3/config"
+'0  46  0  ~/.config/customLatamLayout
+|4,48,46,0,1667867792,"~/.config/customLatamLayout"
+'1  173  0  ~/.config/i3/config
+|4,49,173,0,1667526485,"~/.config/i3/config"
+'2  210  1  ~/.config/i3/config
+|4,50,210,1,1667525473,"~/.config/i3/config"
+'3  213  1  ~/.config/i3/config
+|4,51,213,1,1667525473,"~/.config/i3/config"
 '4  222  0  ~/.config/i3/config
 |4,52,222,0,1667525159,"~/.config/i3/config"
-'5  221  0  ~/.config/i3/config
-|4,53,221,0,1667525159,"~/.config/i3/config"
+'5  222  0  ~/.config/i3/config
+|4,53,222,0,1667525159,"~/.config/i3/config"
 '6  221  0  ~/.config/i3/config
 |4,54,221,0,1667525159,"~/.config/i3/config"
-'7  18  0  ~/.Xresources
-|4,55,18,0,1667519100,"~/.Xresources"
-'8  204  33  ~/.config/i3/config
-|4,56,204,33,1667519100,"~/.config/i3/config"
-'9  18  0  ~/.Xresources
-|4,57,18,0,1667519100,"~/.Xresources"
+'7  221  0  ~/.config/i3/config
+|4,55,221,0,1667525159,"~/.config/i3/config"
+'8  18  0  ~/.Xresources
+|4,56,18,0,1667519100,"~/.Xresources"
+'9  204  33  ~/.config/i3/config
+|4,57,204,33,1667519100,"~/.config/i3/config"
 
 # Lista de saltos (el más reciente va primero):
+-'  46  0  ~/.config/customLatamLayout
+|4,39,46,0,1667867792,"~/.config/customLatamLayout"
+-'  101  35  ~/.config/customLatamLayout
+|4,39,101,35,1667867760,"~/.config/customLatamLayout"
+-'  1  0  ~/.config/customLatamLayout
+|4,39,1,0,1667867623,"~/.config/customLatamLayout"
 -'  173  0  ~/.config/i3/config
 |4,39,173,0,1667526485,"~/.config/i3/config"
+-'  173  0  ~/.config/i3/config
+|4,39,173,0,1667526485,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1667526442,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
 |4,39,1,0,1667526442,"~/.config/i3/config"
 -'  210  1  ~/.config/i3/config
 |4,39,210,1,1667525473,"~/.config/i3/config"
 -'  213  1  ~/.config/i3/config
 |4,39,213,1,1667525473,"~/.config/i3/config"
+-'  210  1  ~/.config/i3/config
+|4,39,210,1,1667525473,"~/.config/i3/config"
+-'  213  1  ~/.config/i3/config
+|4,39,213,1,1667525473,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
 |4,39,1,0,1667525182,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1667525182,"~/.config/i3/config"
+-'  222  0  ~/.config/i3/config
+|4,39,222,0,1667525159,"~/.config/i3/config"
+-'  221  0  ~/.config/i3/config
+|4,39,221,0,1667525159,"~/.config/i3/config"
+-'  221  0  ~/.config/i3/config
+|4,39,221,0,1667525159,"~/.config/i3/config"
 -'  222  0  ~/.config/i3/config
 |4,39,222,0,1667525159,"~/.config/i3/config"
 -'  221  0  ~/.config/i3/config
@@ -708,6 +742,18 @@ $Gray
 |4,39,223,25,1667524335,"~/.config/i3/config"
 -'  223  25  ~/.config/i3/config
 |4,39,223,25,1667524335,"~/.config/i3/config"
+-'  224  25  ~/.config/i3/config
+|4,39,224,25,1667524335,"~/.config/i3/config"
+-'  223  25  ~/.config/i3/config
+|4,39,223,25,1667524335,"~/.config/i3/config"
+-'  223  25  ~/.config/i3/config
+|4,39,223,25,1667524335,"~/.config/i3/config"
+-'  205  4  ~/.config/i3/config
+|4,39,205,4,1667524207,"~/.config/i3/config"
+-'  208  4  ~/.config/i3/config
+|4,39,208,4,1667524207,"~/.config/i3/config"
+-'  208  4  ~/.config/i3/config
+|4,39,208,4,1667524207,"~/.config/i3/config"
 -'  205  4  ~/.config/i3/config
 |4,39,205,4,1667524207,"~/.config/i3/config"
 -'  208  4  ~/.config/i3/config
@@ -720,6 +766,18 @@ $Gray
 |4,39,199,0,1667523768,"~/.config/i3/config"
 -'  199  0  ~/.config/i3/config
 |4,39,199,0,1667523768,"~/.config/i3/config"
+-'  199  0  ~/.config/i3/config
+|4,39,199,0,1667523768,"~/.config/i3/config"
+-'  199  0  ~/.config/i3/config
+|4,39,199,0,1667523768,"~/.config/i3/config"
+-'  199  0  ~/.config/i3/config
+|4,39,199,0,1667523768,"~/.config/i3/config"
+-'  200  0  ~/.config/i3/config
+|4,39,200,0,1667523766,"~/.config/i3/config"
+-'  200  0  ~/.config/i3/config
+|4,39,200,0,1667523766,"~/.config/i3/config"
+-'  200  0  ~/.config/i3/config
+|4,39,200,0,1667523766,"~/.config/i3/config"
 -'  200  0  ~/.config/i3/config
 |4,39,200,0,1667523766,"~/.config/i3/config"
 -'  200  0  ~/.config/i3/config
@@ -732,6 +790,18 @@ $Gray
 |4,39,197,20,1667523608,"~/.config/i3/config"
 -'  197  20  ~/.config/i3/config
 |4,39,197,20,1667523608,"~/.config/i3/config"
+-'  197  20  ~/.config/i3/config
+|4,39,197,20,1667523608,"~/.config/i3/config"
+-'  197  20  ~/.config/i3/config
+|4,39,197,20,1667523608,"~/.config/i3/config"
+-'  197  20  ~/.config/i3/config
+|4,39,197,20,1667523608,"~/.config/i3/config"
+-'  196  34  ~/.config/i3/config
+|4,39,196,34,1667523387,"~/.config/i3/config"
+-'  196  34  ~/.config/i3/config
+|4,39,196,34,1667523387,"~/.config/i3/config"
+-'  196  34  ~/.config/i3/config
+|4,39,196,34,1667523387,"~/.config/i3/config"
 -'  196  34  ~/.config/i3/config
 |4,39,196,34,1667523387,"~/.config/i3/config"
 -'  196  34  ~/.config/i3/config
@@ -744,6 +814,18 @@ $Gray
 |4,39,195,0,1667523182,"~/.config/i3/config"
 -'  195  0  ~/.config/i3/config
 |4,39,195,0,1667523182,"~/.config/i3/config"
+-'  195  0  ~/.config/i3/config
+|4,39,195,0,1667523182,"~/.config/i3/config"
+-'  195  0  ~/.config/i3/config
+|4,39,195,0,1667523182,"~/.config/i3/config"
+-'  195  0  ~/.config/i3/config
+|4,39,195,0,1667523182,"~/.config/i3/config"
+-'  9  30  ~/.config/i3/config
+|4,39,9,30,1667522817,"~/.config/i3/config"
+-'  9  30  ~/.config/i3/config
+|4,39,9,30,1667522817,"~/.config/i3/config"
+-'  9  30  ~/.config/i3/config
+|4,39,9,30,1667522817,"~/.config/i3/config"
 -'  9  30  ~/.config/i3/config
 |4,39,9,30,1667522817,"~/.config/i3/config"
 -'  9  30  ~/.config/i3/config
@@ -756,6 +838,18 @@ $Gray
 |4,39,184,16,1667522805,"~/.config/i3/config"
 -'  184  16  ~/.config/i3/config
 |4,39,184,16,1667522805,"~/.config/i3/config"
+-'  184  16  ~/.config/i3/config
+|4,39,184,16,1667522805,"~/.config/i3/config"
+-'  184  16  ~/.config/i3/config
+|4,39,184,16,1667522805,"~/.config/i3/config"
+-'  184  16  ~/.config/i3/config
+|4,39,184,16,1667522805,"~/.config/i3/config"
+-'  189  6  ~/.config/i3/config
+|4,39,189,6,1667522373,"~/.config/i3/config"
+-'  189  6  ~/.config/i3/config
+|4,39,189,6,1667522373,"~/.config/i3/config"
+-'  189  6  ~/.config/i3/config
+|4,39,189,6,1667522373,"~/.config/i3/config"
 -'  189  6  ~/.config/i3/config
 |4,39,189,6,1667522373,"~/.config/i3/config"
 -'  189  6  ~/.config/i3/config
@@ -768,6 +862,14 @@ $Gray
 |4,39,163,0,1667519161,"~/.config/i3/config"
 -'  163  0  ~/.config/i3/config
 |4,39,163,0,1667519161,"~/.config/i3/config"
+-'  163  0  ~/.config/i3/config
+|4,39,163,0,1667519161,"~/.config/i3/config"
+-'  163  0  ~/.config/i3/config
+|4,39,163,0,1667519161,"~/.config/i3/config"
+-'  163  0  ~/.config/i3/config
+|4,39,163,0,1667519161,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1667519129,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
 |4,39,1,0,1667519129,"~/.config/i3/config"
 -'  18  0  ~/.Xresources
@@ -794,100 +896,19 @@ $Gray
 |4,39,18,0,1667519100,"~/.Xresources"
 -'  204  33  ~/.config/i3/config
 |4,39,204,33,1667519100,"~/.config/i3/config"
--'  9  30  ~/.config/i3/config
-|4,39,9,30,1667519057,"~/.config/i3/config"
--'  206  0  ~/.config/i3/config
-|4,39,206,0,1667519054,"~/.config/i3/config"
--'  209  0  ~/.config/i3/config
-|4,39,209,0,1667519054,"~/.config/i3/config"
--'  209  0  ~/.config/i3/config
-|4,39,209,0,1667519054,"~/.config/i3/config"
--'  201  0  ~/.config/i3/config
-|4,39,201,0,1667519053,"~/.config/i3/config"
--'  183  0  ~/.config/i3/config
-|4,39,183,0,1667519053,"~/.config/i3/config"
--'  201  0  ~/.config/i3/config
-|4,39,201,0,1667519053,"~/.config/i3/config"
--'  183  0  ~/.config/i3/config
-|4,39,183,0,1667519053,"~/.config/i3/config"
--'  206  0  ~/.config/i3/config
-|4,39,206,0,1667519053,"~/.config/i3/config"
--'  201  0  ~/.config/i3/config
-|4,39,201,0,1667519053,"~/.config/i3/config"
--'  183  0  ~/.config/i3/config
-|4,39,183,0,1667519053,"~/.config/i3/config"
--'  206  0  ~/.config/i3/config
-|4,39,206,0,1667519053,"~/.config/i3/config"
--'  1  0  ~/.Xresources
-|4,39,1,0,1667518995,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1667518995,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1667518995,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1667518995,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1667518995,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1667518995,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1667518995,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1667518995,"~/.Xresources"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1667518991,"~/.config/i3/config"
--'  36  15  ~/.Xresources
-|4,39,36,15,1667518945,"~/.Xresources"
--'  37  15  ~/.Xresources
-|4,39,37,15,1667518945,"~/.Xresources"
--'  36  15  ~/.Xresources
-|4,39,36,15,1667518945,"~/.Xresources"
--'  37  15  ~/.Xresources
-|4,39,37,15,1667518945,"~/.Xresources"
--'  37  15  ~/.Xresources
-|4,39,37,15,1667518945,"~/.Xresources"
--'  36  15  ~/.Xresources
-|4,39,36,15,1667518945,"~/.Xresources"
--'  37  15  ~/.Xresources
-|4,39,37,15,1667518945,"~/.Xresources"
--'  36  15  ~/.Xresources
-|4,39,36,15,1667518945,"~/.Xresources"
--'  37  15  ~/.Xresources
-|4,39,37,15,1667518945,"~/.Xresources"
--'  37  15  ~/.Xresources
-|4,39,37,15,1667518945,"~/.Xresources"
--'  36  15  ~/.Xresources
-|4,39,36,15,1667518945,"~/.Xresources"
--'  37  15  ~/.Xresources
-|4,39,37,15,1667518945,"~/.Xresources"
--'  36  15  ~/.Xresources
-|4,39,36,15,1667518945,"~/.Xresources"
--'  205  33  ~/.config/i3/config
-|4,39,205,33,1667518945,"~/.config/i3/config"
--'  37  15  ~/.Xresources
-|4,39,37,15,1667518945,"~/.Xresources"
--'  37  15  ~/.Xresources
-|4,39,37,15,1667518945,"~/.Xresources"
--'  36  15  ~/.Xresources
-|4,39,36,15,1667518945,"~/.Xresources"
--'  37  15  ~/.Xresources
-|4,39,37,15,1667518945,"~/.Xresources"
--'  36  15  ~/.Xresources
-|4,39,36,15,1667518945,"~/.Xresources"
--'  205  33  ~/.config/i3/config
-|4,39,205,33,1667518945,"~/.config/i3/config"
--'  37  15  ~/.Xresources
-|4,39,37,15,1667518945,"~/.Xresources"
--'  37  15  ~/.Xresources
-|4,39,37,15,1667518945,"~/.Xresources"
--'  205  33  ~/.config/i3/config
-|4,39,205,33,1667518945,"~/.config/i3/config"
--'  2  0  ~/.Xresources
-|4,39,2,0,1667518912,"~/.Xresources"
--'  2  0  ~/.Xresources
-|4,39,2,0,1667518912,"~/.Xresources"
+-'  18  0  ~/.Xresources
+|4,39,18,0,1667519100,"~/.Xresources"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/.config/customLatamLayout
+	*	1667867790	0
+	"	46	0
+	^	46	37
+	.	46	0
+	+	46	0
+	+	45	0
+	+	46	0
 
 > ~/.config/i3/config
 	*	1667526483	0
@@ -2338,11 +2359,3 @@ $Gray
 	^	1	12
 	.	1	11
 	+	1	11
-
-> ~/php82/usr/bin/php82
-	*	1658368920	0
-	"	3	61
-	^	3	62
-	.	3	61
-	+	1	0
-	+	3	61
