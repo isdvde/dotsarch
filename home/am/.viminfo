@@ -11,39 +11,49 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último Patrón de búsqueda:
-~MSle0/Enter
+~MSle0~/screesho
 
 # Último Sustitución Patrón de búsqueda:
-~MSle0~&\(Enter\)
+~MSle0&www-data
 
 # Última cadena de sustitución:
-$KP_\1
+$am
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
 :wq
-|2,0,1667867792,,"wq"
+|2,0,1673524142,,"wq"
+:q!
+|2,0,1672366358,,"q!"
+:w
+|2,0,1670028480,,"w"
+:'<,'>s/www-data/am/g
+|2,0,1669940103,,"'<,'>s/www-data/am/g"
+:'<,'>s/20210902/20220829/g
+|2,0,1669773950,,"'<,'>s/20210902/20220829/g"
+:tabe pool.d/www.conf
+|2,0,1669766039,,"tabe pool.d/www.conf"
+:'<,'>s/
+|2,0,1669765178,,"'<,'>s/"
+:'<,'>s/\(Enter\)/KP_\\1/g
+|2,0,1669764641,,"'<,'>s/\\(Enter\\)/KP_\\\\1/g"
+:q
+|2,0,1669763776,,"q"
+:% s/grupos/grupos_281122/g
+|2,0,1669676465,,"% s/grupos/grupos_281122/g"
 :'<,'>s/\(Enter\)/KP_\1/g
 |2,0,1667867790,,"'<,'>s/\\(Enter\\)/KP_\\1/g"
-:'<,'>s/\(Enter\)/KP_\\1/g
-|2,0,1667867785,,"'<,'>s/\\(Enter\\)/KP_\\\\1/g"
 :'<,'>s/\(Enter\)/
 |2,0,1667867757,,"'<,'>s/\\(Enter\\)/"
-:w
-|2,0,1667525460,,"w"
 :'<,'>s/Black/Gray/g
 |2,0,1667523290,,"'<,'>s/Black/Gray/g"
 :'<,'>s/Red/Rose/g
 |2,0,1667523146,,"'<,'>s/Red/Rose/g"
 :'<,'>s/  \+/ /g
 |2,0,1667518089,,"'<,'>s/  \\+/ /g"
-:q!
-|2,0,1667517586,,"q!"
 :tabe autostart
 |2,0,1667428650,,"tabe autostart"
 :tabe launch.sh
 |2,0,1667428502,,"tabe launch.sh"
-:q
-|2,0,1667424817,,"q"
 :q1
 |2,0,1666841033,,"q1"
 :set rnu!
@@ -316,6 +326,32 @@ $KP_\1
 |2,0,1631476210,,"b"
 
 # Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+?/screesho
+|2,1,1670028490,47,"screesho"
+?/cGra
+|2,1,1670028441,47,"cGra"
+?/Extensi
+|2,1,1669940144,47,"Extensi"
+? www-data
+|2,1,1669940103,,"www-data"
+?/gaps
+|2,1,1669938275,47,"gaps"
+? 20210902
+|2,1,1669773950,,"20210902"
+?/Exte
+|2,1,1669773925,47,"Exte"
+?/pgsql
+|2,1,1669771637,47,"pgsql"
+?/Exten
+|2,1,1669771616,47,"Exten"
+?/dom
+|2,1,1669768646,47,"dom"
+?/openss
+|2,1,1669768514,47,"openss"
+? grupos
+|2,1,1669676465,,"grupos"
+?/scree
+|2,1,1669413896,47,"scree"
 ? \(Enter\)
 |2,1,1667867790,,"\\(Enter\\)"
 ?/Enter
@@ -474,12 +510,8 @@ $KP_\1
 |2,1,1652737326,47,"auth"
 ? free18
 |2,1,1652354739,,"free18"
-?/Extensi
-|2,1,1651539342,47,"Extensi"
 ?/log
 |2,1,1651538515,47,"log"
-?/Exten
-|2,1,1651538393,47,"Exten"
 ? nobody
 |2,1,1651538229,,"nobody"
 ?/xml
@@ -488,8 +520,6 @@ $KP_\1
 |2,1,1651527503,,"-"
 ? \<Export\>
 |2,1,1651526027,,"\\<Export\\>"
-?/gaps
-|2,1,1651190167,47,"gaps"
 ?/expand
 |2,1,1650502181,47,"expand"
 ?/liste
@@ -627,312 +657,420 @@ $KP_\1
 
 # Registros:
 "0	LINE	0
-	keycode  51 = braceright bracketright braceright bracketright dead_grave braceright dead_grave
-|3,0,0,1,1,0,1667867685,"keycode  51 = braceright bracketright braceright bracketright dead_grave braceright dead_grave"
-"1	BLOCK	0
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-	#
-|3,0,1,2,9,0,1667526483,"#","#","#","#","#","#","#","#","#"
-"2	BLOCK	0
-	#
-	#
-	#
-|3,0,2,2,3,0,1667526463,"#","#","#"
-"3	LINE	0
-		#colors {
-		#	background #000000BF
-		#}
-|3,0,3,1,3,0,1667526455,"	#colors {","	#	background #000000BF","	#}"
-"4	LINE	0
-		font pango:Dejavu Sans Bold 7
-|3,0,4,1,1,0,1667525458,"	font pango:Dejavu Sans Bold 7"
-"5	LINE	0
-	        #separator #666666
-|3,0,5,1,1,0,1667525039,"        #separator #666666"
-"6	LINE	0
-	        binding_mode		#2f343a #900000 #ffffff
-|3,0,6,1,1,0,1667524960,"        binding_mode		#2f343a #900000 #ffffff"
-"7	LINE	0
-	        active_workspace	#333333 #5f676a #ffffff
-|3,0,7,1,1,0,1667524889,"        active_workspace	#333333 #5f676a #ffffff"
-"8	LINE	0
+	#export PGSQL="/home/am/pgsql/bin"
+|3,0,0,1,1,0,1670032641,"#export PGSQL=\"/home/am/pgsql/bin\""
+""1	LINE	0
+	.local/share/nvim
+|3,1,1,1,1,0,1673524141,".local/share/nvim"
+"2	LINE	0
 	
-|3,0,8,1,1,0,1667524093,""
+|3,0,2,1,1,0,1670033111,""
+"3	LINE	0
+	export REDIS="/home/am/redis/bin"
+|3,0,3,1,1,0,1670033110,"export REDIS=\"/home/am/redis/bin\""
+"4	LINE	0
+	export PGSQL="/home/am/pg/bin"
+|3,0,4,1,1,0,1670033073,"export PGSQL=\"/home/am/pg/bin\""
+"5	LINE	0
+	#export PATH=${PATH}:${JAVA_HOME}/bin:${PHP80}:${PHP81}:${PHP82}
+|3,0,5,1,1,0,1670033070,"#export PATH=${PATH}:${JAVA_HOME}/bin:${PHP80}:${PHP81}:${PHP82}"
+"6	LINE	0
+	extension=/usr/lib/php/20210902/pdo.so
+|3,0,6,1,1,0,1669773624,"extension=/usr/lib/php/20210902/pdo.so"
+"7	LINE	0
+	extension=/usr/lib/php/20200930/pdo.so
+|3,0,7,1,1,0,1669773093,"extension=/usr/lib/php/20200930/pdo.so"
+"8	LINE	0
+	;extension=/usr/lib/php/20200930/pdo_pgsql.so
+|3,0,8,1,1,0,1669772902,";extension=/usr/lib/php/20200930/pdo_pgsql.so"
 "9	LINE	0
-	#client.background       #ffffff
-|3,0,9,1,1,0,1667524093,"#client.background       #ffffff"
+	;extension=/usr/lib/php/20200930/pdo_pgsql.so
+|3,0,9,1,1,0,1669772895,";extension=/usr/lib/php/20200930/pdo_pgsql.so"
 "u	CHAR	0
 		
 |3,0,30,0,1,0,1649134282,"	"
-""-	CHAR	0
-	braceright bracketright braceright bracketright
-|3,1,36,0,1,0,1667867699,"braceright bracketright braceright bracketright"
+"-	CHAR	0
+	#
+|3,0,36,0,1,0,1670033075,"#"
 
 # Marcas en el archivo:
-'0  46  0  ~/.config/customLatamLayout
-|4,48,46,0,1667867792,"~/.config/customLatamLayout"
-'1  173  0  ~/.config/i3/config
-|4,49,173,0,1667526485,"~/.config/i3/config"
-'2  210  1  ~/.config/i3/config
-|4,50,210,1,1667525473,"~/.config/i3/config"
-'3  213  1  ~/.config/i3/config
-|4,51,213,1,1667525473,"~/.config/i3/config"
-'4  222  0  ~/.config/i3/config
-|4,52,222,0,1667525159,"~/.config/i3/config"
-'5  222  0  ~/.config/i3/config
-|4,53,222,0,1667525159,"~/.config/i3/config"
-'6  221  0  ~/.config/i3/config
-|4,54,221,0,1667525159,"~/.config/i3/config"
-'7  221  0  ~/.config/i3/config
-|4,55,221,0,1667525159,"~/.config/i3/config"
-'8  18  0  ~/.Xresources
-|4,56,18,0,1667519100,"~/.Xresources"
-'9  204  33  ~/.config/i3/config
-|4,57,204,33,1667519100,"~/.config/i3/config"
+'0  26  0  ~/dotfile
+|4,48,26,0,1673524142,"~/dotfile"
+'1  428  25  ~/.config/nvim/init.lua
+|4,49,428,25,1672368213,"~/.config/nvim/init.lua"
+'2  428  25  ~/.config/nvim/init.lua
+|4,50,428,25,1672366457,"~/.config/nvim/init.lua"
+'3  1  0  ~/.ssh/config
+|4,51,1,0,1671146103,"~/.ssh/config"
+'4  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,52,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+'5  94  0  ~/.bashrc
+|4,53,94,0,1670033115,"~/.bashrc"
+'6  90  0  ~/.bashrc
+|4,54,90,0,1670033077,"~/.bashrc"
+'7  90  0  ~/.bashrc
+|4,55,90,0,1670033077,"~/.bashrc"
+'8  102  0  ~/.bashrc
+|4,56,102,0,1670032652,"~/.bashrc"
+'9  103  0  ~/.bashrc
+|4,57,103,0,1670032652,"~/.bashrc"
 
 # Lista de saltos (el más reciente va primero):
--'  46  0  ~/.config/customLatamLayout
-|4,39,46,0,1667867792,"~/.config/customLatamLayout"
--'  101  35  ~/.config/customLatamLayout
-|4,39,101,35,1667867760,"~/.config/customLatamLayout"
--'  1  0  ~/.config/customLatamLayout
-|4,39,1,0,1667867623,"~/.config/customLatamLayout"
--'  173  0  ~/.config/i3/config
-|4,39,173,0,1667526485,"~/.config/i3/config"
--'  173  0  ~/.config/i3/config
-|4,39,173,0,1667526485,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1667526442,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1667526442,"~/.config/i3/config"
--'  210  1  ~/.config/i3/config
-|4,39,210,1,1667525473,"~/.config/i3/config"
--'  213  1  ~/.config/i3/config
-|4,39,213,1,1667525473,"~/.config/i3/config"
--'  210  1  ~/.config/i3/config
-|4,39,210,1,1667525473,"~/.config/i3/config"
--'  213  1  ~/.config/i3/config
-|4,39,213,1,1667525473,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1667525182,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1667525182,"~/.config/i3/config"
--'  222  0  ~/.config/i3/config
-|4,39,222,0,1667525159,"~/.config/i3/config"
--'  221  0  ~/.config/i3/config
-|4,39,221,0,1667525159,"~/.config/i3/config"
--'  221  0  ~/.config/i3/config
-|4,39,221,0,1667525159,"~/.config/i3/config"
--'  222  0  ~/.config/i3/config
-|4,39,222,0,1667525159,"~/.config/i3/config"
--'  221  0  ~/.config/i3/config
-|4,39,221,0,1667525159,"~/.config/i3/config"
--'  221  0  ~/.config/i3/config
-|4,39,221,0,1667525159,"~/.config/i3/config"
--'  224  25  ~/.config/i3/config
-|4,39,224,25,1667524335,"~/.config/i3/config"
--'  223  25  ~/.config/i3/config
-|4,39,223,25,1667524335,"~/.config/i3/config"
--'  223  25  ~/.config/i3/config
-|4,39,223,25,1667524335,"~/.config/i3/config"
--'  224  25  ~/.config/i3/config
-|4,39,224,25,1667524335,"~/.config/i3/config"
--'  223  25  ~/.config/i3/config
-|4,39,223,25,1667524335,"~/.config/i3/config"
--'  223  25  ~/.config/i3/config
-|4,39,223,25,1667524335,"~/.config/i3/config"
--'  205  4  ~/.config/i3/config
-|4,39,205,4,1667524207,"~/.config/i3/config"
--'  208  4  ~/.config/i3/config
-|4,39,208,4,1667524207,"~/.config/i3/config"
--'  208  4  ~/.config/i3/config
-|4,39,208,4,1667524207,"~/.config/i3/config"
--'  205  4  ~/.config/i3/config
-|4,39,205,4,1667524207,"~/.config/i3/config"
--'  208  4  ~/.config/i3/config
-|4,39,208,4,1667524207,"~/.config/i3/config"
--'  208  4  ~/.config/i3/config
-|4,39,208,4,1667524207,"~/.config/i3/config"
--'  199  0  ~/.config/i3/config
-|4,39,199,0,1667523768,"~/.config/i3/config"
--'  199  0  ~/.config/i3/config
-|4,39,199,0,1667523768,"~/.config/i3/config"
--'  199  0  ~/.config/i3/config
-|4,39,199,0,1667523768,"~/.config/i3/config"
--'  199  0  ~/.config/i3/config
-|4,39,199,0,1667523768,"~/.config/i3/config"
--'  199  0  ~/.config/i3/config
-|4,39,199,0,1667523768,"~/.config/i3/config"
--'  199  0  ~/.config/i3/config
-|4,39,199,0,1667523768,"~/.config/i3/config"
--'  200  0  ~/.config/i3/config
-|4,39,200,0,1667523766,"~/.config/i3/config"
--'  200  0  ~/.config/i3/config
-|4,39,200,0,1667523766,"~/.config/i3/config"
--'  200  0  ~/.config/i3/config
-|4,39,200,0,1667523766,"~/.config/i3/config"
--'  200  0  ~/.config/i3/config
-|4,39,200,0,1667523766,"~/.config/i3/config"
--'  200  0  ~/.config/i3/config
-|4,39,200,0,1667523766,"~/.config/i3/config"
--'  200  0  ~/.config/i3/config
-|4,39,200,0,1667523766,"~/.config/i3/config"
--'  197  20  ~/.config/i3/config
-|4,39,197,20,1667523608,"~/.config/i3/config"
--'  197  20  ~/.config/i3/config
-|4,39,197,20,1667523608,"~/.config/i3/config"
--'  197  20  ~/.config/i3/config
-|4,39,197,20,1667523608,"~/.config/i3/config"
--'  197  20  ~/.config/i3/config
-|4,39,197,20,1667523608,"~/.config/i3/config"
--'  197  20  ~/.config/i3/config
-|4,39,197,20,1667523608,"~/.config/i3/config"
--'  197  20  ~/.config/i3/config
-|4,39,197,20,1667523608,"~/.config/i3/config"
--'  196  34  ~/.config/i3/config
-|4,39,196,34,1667523387,"~/.config/i3/config"
--'  196  34  ~/.config/i3/config
-|4,39,196,34,1667523387,"~/.config/i3/config"
--'  196  34  ~/.config/i3/config
-|4,39,196,34,1667523387,"~/.config/i3/config"
--'  196  34  ~/.config/i3/config
-|4,39,196,34,1667523387,"~/.config/i3/config"
--'  196  34  ~/.config/i3/config
-|4,39,196,34,1667523387,"~/.config/i3/config"
--'  196  34  ~/.config/i3/config
-|4,39,196,34,1667523387,"~/.config/i3/config"
--'  195  0  ~/.config/i3/config
-|4,39,195,0,1667523182,"~/.config/i3/config"
--'  195  0  ~/.config/i3/config
-|4,39,195,0,1667523182,"~/.config/i3/config"
--'  195  0  ~/.config/i3/config
-|4,39,195,0,1667523182,"~/.config/i3/config"
--'  195  0  ~/.config/i3/config
-|4,39,195,0,1667523182,"~/.config/i3/config"
--'  195  0  ~/.config/i3/config
-|4,39,195,0,1667523182,"~/.config/i3/config"
--'  195  0  ~/.config/i3/config
-|4,39,195,0,1667523182,"~/.config/i3/config"
--'  9  30  ~/.config/i3/config
-|4,39,9,30,1667522817,"~/.config/i3/config"
--'  9  30  ~/.config/i3/config
-|4,39,9,30,1667522817,"~/.config/i3/config"
--'  9  30  ~/.config/i3/config
-|4,39,9,30,1667522817,"~/.config/i3/config"
--'  9  30  ~/.config/i3/config
-|4,39,9,30,1667522817,"~/.config/i3/config"
--'  9  30  ~/.config/i3/config
-|4,39,9,30,1667522817,"~/.config/i3/config"
--'  9  30  ~/.config/i3/config
-|4,39,9,30,1667522817,"~/.config/i3/config"
--'  184  16  ~/.config/i3/config
-|4,39,184,16,1667522805,"~/.config/i3/config"
--'  184  16  ~/.config/i3/config
-|4,39,184,16,1667522805,"~/.config/i3/config"
--'  184  16  ~/.config/i3/config
-|4,39,184,16,1667522805,"~/.config/i3/config"
--'  184  16  ~/.config/i3/config
-|4,39,184,16,1667522805,"~/.config/i3/config"
--'  184  16  ~/.config/i3/config
-|4,39,184,16,1667522805,"~/.config/i3/config"
--'  184  16  ~/.config/i3/config
-|4,39,184,16,1667522805,"~/.config/i3/config"
--'  189  6  ~/.config/i3/config
-|4,39,189,6,1667522373,"~/.config/i3/config"
--'  189  6  ~/.config/i3/config
-|4,39,189,6,1667522373,"~/.config/i3/config"
--'  189  6  ~/.config/i3/config
-|4,39,189,6,1667522373,"~/.config/i3/config"
--'  189  6  ~/.config/i3/config
-|4,39,189,6,1667522373,"~/.config/i3/config"
--'  189  6  ~/.config/i3/config
-|4,39,189,6,1667522373,"~/.config/i3/config"
--'  189  6  ~/.config/i3/config
-|4,39,189,6,1667522373,"~/.config/i3/config"
--'  163  0  ~/.config/i3/config
-|4,39,163,0,1667519161,"~/.config/i3/config"
--'  163  0  ~/.config/i3/config
-|4,39,163,0,1667519161,"~/.config/i3/config"
--'  163  0  ~/.config/i3/config
-|4,39,163,0,1667519161,"~/.config/i3/config"
--'  163  0  ~/.config/i3/config
-|4,39,163,0,1667519161,"~/.config/i3/config"
--'  163  0  ~/.config/i3/config
-|4,39,163,0,1667519161,"~/.config/i3/config"
--'  163  0  ~/.config/i3/config
-|4,39,163,0,1667519161,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1667519129,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1667519129,"~/.config/i3/config"
--'  18  0  ~/.Xresources
-|4,39,18,0,1667519100,"~/.Xresources"
--'  204  33  ~/.config/i3/config
-|4,39,204,33,1667519100,"~/.config/i3/config"
--'  18  0  ~/.Xresources
-|4,39,18,0,1667519100,"~/.Xresources"
--'  18  0  ~/.Xresources
-|4,39,18,0,1667519100,"~/.Xresources"
--'  18  0  ~/.Xresources
-|4,39,18,0,1667519100,"~/.Xresources"
--'  18  0  ~/.Xresources
-|4,39,18,0,1667519100,"~/.Xresources"
--'  204  33  ~/.config/i3/config
-|4,39,204,33,1667519100,"~/.config/i3/config"
--'  18  0  ~/.Xresources
-|4,39,18,0,1667519100,"~/.Xresources"
--'  18  0  ~/.Xresources
-|4,39,18,0,1667519100,"~/.Xresources"
--'  204  33  ~/.config/i3/config
-|4,39,204,33,1667519100,"~/.config/i3/config"
--'  18  0  ~/.Xresources
-|4,39,18,0,1667519100,"~/.Xresources"
--'  204  33  ~/.config/i3/config
-|4,39,204,33,1667519100,"~/.config/i3/config"
--'  18  0  ~/.Xresources
-|4,39,18,0,1667519100,"~/.Xresources"
+-'  26  0  ~/dotfile
+|4,39,26,0,1673524142,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1673524138,"~/dotfile"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672366457,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672366457,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672366454,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672366454,"~/.config/nvim/init.lua"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1670033115,"~/.bashrc"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
 
-> ~/.config/customLatamLayout
-	*	1667867790	0
-	"	46	0
-	^	46	37
-	.	46	0
-	+	46	0
-	+	45	0
-	+	46	0
+> ~/dotfile
+	*	1673524141	0
+	"	26	0
+	^	24	14
+	.	26	0
+	+	24	13
+	+	26	0
+
+> ~/.config/nvim/init.lua
+	*	1672368212	0
+	"	428	25
+	^	428	26
+	.	428	25
+	+	428	25
+
+> ~/.ssh/config
+	*	1671146098	0
+	"	1	0
+	^	34	11
+	.	34	10
+	+	29	10
+	+	30	9
+	+	31	25
+	+	32	9
+	+	38	0
+	+	39	18
+	+	33	0
+	+	34	10
+
+> /usr/lib/udev/rules.d/80-net-setup-link.rules
+	*	1670113008	0
+	"	1	0
+
+> ~/.bashrc
+	*	1670033111	0
+	"	94	0
+	^	102	0
+	.	94	0
+	+	95	35
+	+	77	48
+	+	95	0
+	+	94	30
+	+	95	17
+	+	101	34
+	+	101	0
+	+	101	38
+	+	102	28
+	+	101	0
+	+	101	50
+	+	101	40
+	+	101	0
+	+	102	57
+	+	93	32
+	+	94	0
+	+	94	11
+	+	102	75
+	+	101	47
+	+	101	0
+	+	101	47
+	+	102	86
+	+	101	31
+	+	102	93
+	+	102	0
+	+	102	93
+	+	101	0
+	+	101	54
+	+	102	102
+	+	101	42
+	+	102	109
+	+	104	0
+	+	101	0
+	+	102	20
+	+	94	0
+	+	96	0
+	+	101	0
+	+	97	0
+	+	101	0
+	+	97	37
+	+	102	48
+	+	95	46
+	+	96	0
+	+	95	0
+	+	97	28
+	+	101	0
+	+	102	47
+	+	101	0
+	+	101	36
+	+	101	0
+	+	102	100
+	+	104	0
+	+	102	48
+	+	101	0
+	+	104	0
+	+	101	0
+	+	104	0
+	+	97	0
+	+	88	57
+	+	103	0
+	+	102	0
+	+	103	41
+	+	101	30
+	+	103	0
+	+	102	0
+	+	101	0
+	+	102	0
+	+	103	0
+	+	97	32
+	+	98	0
+	+	100	0
+	+	98	0
+	+	103	0
+	+	102	57
+	+	104	123
+	+	104	136
+	+	104	122
+	+	104	0
+	+	102	35
+	+	97	37
+	+	98	33
+	+	99	28
+	+	102	69
+	+	103	0
+	+	102	72
+	+	91	0
+	+	103	0
+	+	102	0
+	+	103	36
+	+	94	25
+	+	103	0
+	+	102	0
+	+	103	0
+	+	94	0
+	+	93	0
+	+	92	0
+	+	91	0
+	+	90	0
+	+	94	0
+
+> ~/nginx/conf/sites/ssw.am
+	*	1670028850	0
+	"	4	0
+	^	12	54
+	.	12	53
+	+	12	0
+	+	11	2
+	+	12	53
 
 > ~/.config/i3/config
-	*	1667526483	0
-	"	173	0
-	^	183	1
-	.	173	0
-	+	201	0
-	+	202	0
-	+	173	0
-	+	8	21
-	+	9	30
-	+	8	21
-	+	9	30
-	+	204	0
-	+	203	0
-	+	182	0
-	+	183	0
-	+	174	0
-	+	183	18
-	+	184	16
-	+	185	18
-	+	186	19
-	+	187	17
-	+	188	17
+	*	1670028540	0
+	"	5	12
+	^	5	13
+	.	5	12
 	+	189	17
 	+	190	18
 	+	201	16
@@ -1014,6 +1152,379 @@ $KP_\1
 	+	201	0
 	+	202	0
 	+	173	0
+	+	211	1
+	+	106	0
+	+	211	1
+	+	5	12
+	+	144	15
+	+	143	23
+	+	142	15
+	+	143	8
+	+	5	12
+	+	212	1
+	+	209	1
+	+	5	12
+	+	106	0
+	+	5	12
+	+	6	16
+	+	5	12
+	+	6	16
+	+	173	0
+	+	5	12
+
+> /etc/sysctl.d/99-sysctl.conf
+	*	1670027824	0
+	"	1	0
+
+> ~/php/82/etc/php/8.2/cli/php.ini
+	*	1669940145	0
+	"	957	0
+
+> ~/php/82/etc/php/8.2/fpm/pool.d/www.conf
+	*	1669940103	0
+	"	50	0
+	^	48	22
+	.	48	0
+	+	23	0
+	+	36	40
+	+	48	22
+	+	49	0
+	+	48	0
+
+> ~/php/82/etc/php/8.2/fpm/php-fpm.conf
+	*	1669940042	0
+	"	50	11
+	^	27	43
+	.	27	42
+	+	20	0
+	+	19	0
+	+	20	36
+	+	27	42
+
+> ~/phpDeb/82/etc/php/8.2/cli/php.ini
+	*	1669773950	0
+	"	1013	0
+	.	961	0
+	+	961	0
+
+> ~/phpDeb/81/etc/php/8.1/fpm/php-fpm.conf
+	*	1669773675	0
+	"	1	0
+	^	27	48
+	.	27	47
+	+	20	0
+	+	19	0
+	+	20	41
+	+	27	47
+
+> ~/phpDeb/81/etc/php/8.1/cli/php.ini
+	*	1669773631	0
+	"	997	0
+	^	997	1
+	.	997	1
+	+	960	0
+	+	1013	38
+	+	961	0
+	+	962	0
+	+	964	0
+	+	965	0
+	+	967	0
+	+	970	0
+	+	971	0
+	+	973	0
+	+	975	0
+	+	976	0
+	+	977	0
+	+	978	0
+	+	979	0
+	+	980	0
+	+	982	0
+	+	983	0
+	+	984	0
+	+	985	0
+	+	986	0
+	+	987	0
+	+	988	0
+	+	989	0
+	+	992	0
+	+	995	0
+	+	996	0
+	+	997	0
+	+	998	0
+	+	999	0
+	+	1000	0
+	+	1001	0
+	+	1002	0
+	+	1003	0
+	+	1004	0
+	+	1005	0
+	+	1006	0
+	+	1007	0
+	+	1009	0
+	+	1011	0
+	+	1012	0
+	+	1013	0
+	+	992	0
+	+	990	0
+	+	997	1
+
+> ~/phpDeb/80/etc/php/8.0/cli/php.ini
+	*	1669773233	0
+	"	1030	0
+	^	993	1
+	.	1000	0
+	+	926	0
+	+	927	0
+	+	931	0
+	+	937	0
+	+	938	0
+	+	943	0
+	+	948	0
+	+	950	0
+	+	958	0
+	+	962	0
+	+	943	0
+	+	963	11
+	+	964	12
+	+	965	12
+	+	948	0
+	+	942	0
+	+	962	0
+	+	950	0
+	+	948	0
+	+	942	0
+	+	950	0
+	+	962	0
+	+	948	0
+	+	930	0
+	+	948	0
+	+	966	32
+	+	970	3
+	+	966	44
+	+	970	0
+	+	930	0
+	+	967	43
+	+	966	10
+	+	967	10
+	+	968	42
+	+	968	43
+	+	927	0
+	+	1023	38
+	+	973	0
+	+	1003	0
+	+	1002	0
+	+	995	0
+	+	996	0
+	+	997	0
+	+	998	0
+	+	999	0
+	+	1002	0
+	+	1005	0
+	+	1006	0
+	+	1007	0
+	+	1008	0
+	+	1009	0
+	+	1010	0
+	+	1011	0
+	+	1012	0
+	+	1013	0
+	+	1014	0
+	+	1015	0
+	+	1016	0
+	+	1017	0
+	+	1019	0
+	+	1021	0
+	+	1022	0
+	+	1023	0
+	+	974	0
+	+	972	0
+	+	977	0
+	+	979	0
+	+	980	0
+	+	981	0
+	+	983	0
+	+	986	0
+	+	987	0
+	+	988	0
+	+	989	0
+	+	990	0
+	+	992	0
+	+	993	0
+	+	1002	0
+	+	1000	0
+
+> ~/dev/ssw/.env
+	*	1669772056	0
+	"	1	0
+	^	55	14
+	.	55	13
+	+	10	18
+	+	13	14
+	+	14	16
+	+	15	16
+	+	12	11
+	+	13	17
+	+	55	13
+
+> ~/phpDeb/80/etc/php/8.0/fpm/php-fpm.conf
+	*	1669766065	0
+	"	27	47
+	^	27	48
+	.	27	47
+	+	20	0
+	+	19	0
+	+	20	41
+	+	27	47
+
+> ~/phpDeb/80/etc/php/8.0/fpm/pool.d/www.conf
+	*	1669766064	0
+	"	49	0
+	^	36	45
+	.	48	0
+	+	36	44
+	+	23	0
+	+	48	0
+
+> ~/phpDeb/81/etc/php/8.1/fpm/pool.d/www.conf
+	*	1669765180	0
+	"	49	0
+	^	36	46
+	.	48	0
+	+	23	0
+	+	36	45
+	+	48	0
+
+> ~/phpDeb/70/etc/php/7.0/fpm/pool.d/www.conf
+	*	1669764676	0
+	"	37	45
+	^	37	46
+	.	37	45
+	+	23	0
+	+	48	0
+	+	37	0
+	+	36	0
+	+	37	45
+
+> ~/phpDeb/70/etc/php/7.0/fpm/php-fpm.conf
+	*	1669764628	0
+	"	26	46
+	^	26	47
+	.	26	46
+	+	18	0
+	+	17	0
+	+	18	41
+	+	26	0
+	+	25	0
+	+	26	46
+
+> /etc/php/7.0/fpm/pool.d/www.conf
+	*	1669763787	0
+	"	37	0
+	.	37	0
+	+	37	0
+
+> ~/phpDeb/70/control.tar.gz
+	*	1669761651	0
+	"	12	0
+	.	5	0
+	+	5	0
+
+> ~/phpDeb/70/tarfile::./triggers
+	*	1669761649	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/phpDeb/70/tarfile::./prerm
+	*	1669761647	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/phpDeb/70/tarfile::./preinst
+	*	1669761641	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/phpDeb/70/tarfile::./postinst
+	*	1669761637	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/phpDeb/70/tarfile::./control
+	*	1669761622	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/grupos2.sql
+	*	1669676469	0
+	"	221	4
+	^	25	24
+	.	22	0
+	+	25	0
+	+	22	0
+
+> ~/svrSessionTmux.sh
+	*	1669347363	0
+	"	1	0
+
+> /etc/hosts
+	*	1669339359	0
+	"	6	26
+	^	6	27
+	.	6	26
+	+	8	0
+	+	6	26
+
+> ~/.ssh/hades
+	*	1669339018	0
+	"	40	0
+	^	40	0
+	.	39	33
+	+	39	33
+
+> ~/dev/sswDocker/Dockerfile
+	*	1669256479	0
+	"	8	4
+	^	8	5
+	.	8	5
+	+	2	0
+	+	8	19
+	+	3	33
+	+	8	18
+	+	7	17
+	+	8	5
+
+> /var/lib/docker/cd
+	*	1669255853	0
+	"	1	0
+
+> ~/nginx/conf/nginx.conf.default
+	*	1669255046	0
+	"	1	0
+
+> /etc/default/grub
+	*	1668029670	0
+	"	1	0
+
+> ~/.config/i3/i3blocks
+	*	1667959843	0
+	"	159	0
+	^	28	1
+	.	28	0
+	+	28	0
+
+> ~/.config/customLatamLayout
+	*	1667867790	0
+	"	46	0
+	^	46	37
+	.	46	0
+	+	46	0
+	+	45	0
+	+	46	0
 
 > ~/.Xresources
 	*	1667519100	0
@@ -1142,111 +1653,6 @@ $KP_\1
 > ~/.config/phpBuild
 	*	1666840541	0
 	"	1	0
-
-> ~/.bashrc
-	*	1666834195	0
-	"	103	35
-	^	103	36
-	.	103	35
-	+	37	0
-	+	38	0
-	+	49	0
-	+	71	0
-	+	83	0
-	+	7	0
-	+	67	0
-	+	79	0
-	+	75	0
-	+	74	0
-	+	28	0
-	+	17	0
-	+	51	0
-	+	90	0
-	+	89	0
-	+	95	46
-	+	96	0
-	+	97	31
-	+	97	37
-	+	97	35
-	+	77	48
-	+	97	0
-	+	95	30
-	+	97	17
-	+	102	34
-	+	102	0
-	+	102	38
-	+	103	28
-	+	102	0
-	+	102	50
-	+	102	40
-	+	102	0
-	+	103	57
-	+	93	32
-	+	95	0
-	+	95	11
-	+	103	75
-	+	102	47
-	+	102	0
-	+	102	47
-	+	103	86
-	+	102	31
-	+	103	93
-	+	103	0
-	+	103	93
-	+	102	0
-	+	102	54
-	+	103	102
-	+	102	42
-	+	103	109
-	+	105	0
-	+	102	0
-	+	103	20
-	+	94	0
-	+	95	0
-	+	98	0
-	+	102	0
-	+	99	0
-	+	102	0
-	+	99	37
-	+	103	48
-	+	97	46
-	+	98	0
-	+	97	0
-	+	99	28
-	+	102	0
-	+	103	47
-	+	102	0
-	+	102	36
-	+	102	0
-	+	103	100
-	+	105	0
-	+	103	48
-	+	102	0
-	+	105	0
-	+	102	0
-	+	105	0
-	+	99	0
-	+	88	57
-	+	104	0
-	+	103	0
-	+	104	41
-	+	102	30
-	+	104	0
-	+	103	0
-	+	102	0
-	+	103	0
-	+	104	0
-	+	99	32
-	+	100	0
-	+	101	0
-	+	100	0
-	+	104	0
-	+	103	57
-	+	105	123
-	+	105	136
-	+	105	122
-	+	105	0
-	+	103	35
 
 > /run/media/am/0e0969e6-2de2-4eef-ad1b-56a58dcd65eb/etc/apt/sources.list
 	*	1666748780	0
@@ -1485,19 +1891,6 @@ $KP_\1
 	+	54	13
 	+	55	21
 
-> ~/dev/ssw/.env
-	*	1663207241	0
-	"	55	0
-	^	55	14
-	.	55	13
-	+	10	18
-	+	13	14
-	+	14	16
-	+	15	16
-	+	12	11
-	+	13	17
-	+	55	13
-
 > ~/dev/almacen/.git/MERGE_MSG
 	*	1663205952	0
 	"	1	0
@@ -1630,13 +2023,6 @@ $KP_\1
 	+	3	19
 	+	2	26
 	+	3	19
-
-> ~/dotfile
-	*	1659354128	0
-	"	24	13
-	^	24	14
-	.	24	13
-	+	24	13
 
 > ~/unit/sites/ssw.json
 	*	1659312557	0
@@ -1958,404 +2344,3 @@ $KP_\1
 > /usr/local/src/php-8.0.21.org/Makefile
 	*	1659284666	0
 	"	963	67
-
-> /usr/local/src/php-8.0.21.org/config.status
-	*	1659284603	0
-	"	430	0
-
-> /usr/local/src/php-8.0.21.org/config
-	*	1659284412	0
-	"	24	0
-	.	25	0
-	+	25	0
-
-> ~/php/php80/etc/www.conf
-	*	1659281472	0
-	"	54	18
-	^	49	19
-	.	49	18
-	+	36	20
-	+	48	0
-	+	49	0
-	+	48	16
-	+	49	18
-	+	23	8
-	+	24	11
-	+	36	16
-	+	49	0
-	+	48	0
-	+	49	0
-	+	48	16
-	+	49	18
-
-> /usr/local/src/php-8.0.21/NERD_tree_1
-	*	1659231134	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/php/php80/etc/php.ini
-	*	1659231114	0
-	"	942	0
-	^	931	1
-	.	942	0
-	+	922	0
-	+	923	0
-	+	927	0
-	+	933	0
-	+	935	0
-	+	939	0
-	+	946	0
-	+	958	0
-	+	956	0
-	+	954	0
-	+	935	0
-	+	956	0
-	+	935	0
-	+	934	0
-	+	935	0
-	+	928	0
-	+	920	0
-	+	921	0
-	+	925	0
-	+	926	0
-	+	931	0
-	+	932	0
-	+	933	0
-	+	944	0
-	+	933	0
-	+	937	0
-	+	920	0
-	+	921	0
-	+	925	0
-	+	926	0
-	+	931	0
-	+	932	0
-	+	937	0
-	+	944	0
-	+	925	0
-	+	931	0
-	+	932	0
-	+	942	0
-
-> /usr/local/src/php-8.0.21/ext/build
-	*	1659229903	0
-	"	13	62
-	^	13	63
-	.	13	62
-	+	19	2
-	+	3	26
-	+	13	61
-	+	11	22
-	+	13	60
-	+	11	21
-	+	3	26
-	+	19	2
-	+	3	26
-	+	11	23
-	+	13	62
-
-> /usr/local/src/config
-	*	1659222703	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	1	10
-
-> ~/php/php81/etc/php.ini
-	*	1659221753	0
-	"	924	16
-	^	937	17
-	.	937	16
-	+	942	0
-	+	937	0
-	+	925	12
-	+	942	0
-	+	937	16
-
-> ~/php/php81/bin/php81
-	*	1659220995	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/unit/sites/ssw
-	*	1659218011	0
-	"	1	0
-
-> ~/php/php74/etc/php.ini
-	*	1659217140	0
-	"	1	0
-
-> ~/php/php74/bin/php-fpm74
-	*	1659216787	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/php/php74/bin/php74
-	*	1659216768	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> /usr/local/src/php-7.4.30/ext/build
-	*	1659216326	0
-	"	13	1
-	^	3	25
-	.	3	0
-	+	3	0
-
-> ~/php/php81/bin/php-fpm81
-	*	1659215401	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> /usr/local/src/php-8.1.5/ext/build
-	*	1659214512	0
-	"	13	62
-	^	13	63
-	.	13	62
-	+	3	26
-	+	11	23
-	+	13	62
-
-> /usr/local/src/php-8.1.5/config
-	*	1659213218	0
-	"	3	17
-	^	3	18
-	.	3	17
-	+	2	26
-	+	3	17
-
-> ~/php/php80/bin/php-fpm80
-	*	1659213175	0
-	"	1	67
-	^	1	68
-	.	1	68
-	+	1	68
-
-> ~/php/php80/bin/php80
-	*	1659213072	0
-	"	1	65
-	^	1	66
-	.	1	65
-	+	1	65
-
-> /usr/local/src/php-7.4.30/ext/curl/config.h
-	*	1659141936	0
-	"	44	0
-
-> /usr/local/src/php-7.4.30/ext/curl/config.status
-	*	1659140664	0
-	"	462	4
-
-> /usr/local/src/php-8.1.5.2/config
-	*	1659127357	0
-	"	3	0
-	^	5	1
-	.	6	0
-	+	2	21
-	+	3	0
-	+	5	0
-	+	6	0
-
-> ~/dev/node/package.json
-	*	1658969949	0
-	"	4	0
-
-> ~/autoInstall
-	*	1658966777	0
-	"	145	3
-	^	20	13
-	.	20	0
-	+	145	4
-	+	14	0
-	+	28	8
-	+	30	19
-	+	30	0
-	+	30	24
-	+	30	19
-	+	29	73
-	+	30	0
-	+	132	5
-	+	138	0
-	+	126	8
-	+	124	29
-	+	127	47
-	+	130	31
-	+	125	8
-	+	128	8
-	+	131	10
-	+	125	10
-	+	25	61
-	+	126	27
-	+	130	0
-	+	126	20
-	+	127	0
-	+	126	65
-	+	129	78
-	+	130	0
-	+	128	8
-	+	132	56
-	+	122	0
-	+	126	70
-	+	129	83
-	+	132	61
-	+	31	0
-	+	32	11
-	+	33	67
-	+	34	22
-	+	133	67
-	+	33	38
-	+	124	2
-	+	124	0
-	+	28	0
-	+	29	83
-	+	126	1
-	+	25	47
-	+	34	6
-	+	122	0
-	+	122	23
-	+	122	0
-	+	122	1
-	+	122	72
-	+	137	85
-	+	125	0
-	+	37	15
-	+	120	0
-	+	119	3
-	+	137	11
-	+	40	0
-	+	39	122
-	+	39	0
-	+	39	105
-	+	39	0
-	+	43	9
-	+	60	0
-	+	47	0
-	+	124	1
-	+	137	38
-	+	129	42
-	+	132	35
-	+	133	38
-	+	126	1
-	+	137	73
-	+	135	27
-	+	111	50
-	+	137	78
-	+	138	55
-	+	135	46
-	+	20	0
-
-> ~/nginx/conf/sites/alpine.am
-	*	1658911083	0
-	"	9	2
-	^	9	3
-	.	10	0
-	+	13	0
-	+	3	24
-	+	8	34
-	+	8	53
-	+	9	35
-	+	11	21
-	+	10	38
-	+	10	0
-	+	5	18
-	+	8	53
-	+	9	2
-	+	5	14
-	+	8	49
-	+	10	0
-
-> ~/nginx/NERD_tree_1
-	*	1658910803	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> /usr/local/src/nginx-1.21.6/config
-	*	1658910677	0
-	"	14	23
-	^	14	24
-	.	14	23
-	+	14	23
-
-> ~/nginx/conf/sites/vue.app.am
-	*	1658910259	0
-	"	1	0
-
-> ~/query
-	*	1658873729	0
-	"	34	0
-	^	34	0
-	.	33	0
-	+	1	101
-	+	8	106
-	+	8	133
-	+	8	0
-	+	7	113
-	+	8	0
-	+	25	138
-	+	28	0
-	+	29	119
-	+	31	0
-	+	31	56
-	+	33	0
-
-> ~/uni/simulacion/simulacion/dev/proyecto/server.py
-	*	1658703183	0
-	"	7	4
-	^	7	21
-	.	15	0
-	+	1	23
-	+	12	11
-	+	9	29
-	+	2	24
-	+	10	0
-	+	9	27
-	+	9	13
-	+	9	31
-	+	6	6
-	+	5	23
-	+	6	9
-	+	5	30
-	+	6	12
-	+	5	52
-	+	6	14
-	+	7	24
-	+	9	0
-	+	8	21
-	+	9	24
-	+	8	0
-	+	9	0
-	+	15	171
-	+	14	19
-	+	5	31
-	+	8	43
-	+	9	33
-	+	14	25
-	+	7	0
-	+	6	14
-	+	15	11
-	+	15	195
-	+	5	33
-	+	1	30
-	+	7	0
-	+	15	0
-
-> ~/dev/node/alpinejsapp/public/css/3.1.4
-	*	1658626394	0
-	"	1	0
-
-> ~/keeper.crx
-	*	1658533113	0
-	"	17	0
-
-> ~/gge
-	*	1658369598	0
-	"	1	11
-	^	1	12
-	.	1	11
-	+	1	11

@@ -92,13 +92,12 @@ export PGPORT=5432
 export PGDATA="/home/am/pgsql/data"
 export PGSQL="/home/am/pgsql/bin"
 
-export REDIS="/home/am/redis/bin"
-
 export JAVA_HOME="/usr/local/src/jre1.8.0_202/"
 
-export PHP80="/home/am/php/php80/bin/"
-export PHP81="/home/am/php/php81/bin/"
+export PHP80="/home/am/php/80/usr/bin/"
+export PHP81="/home/am/php/81/usr/bin/"
+export PHP82="/home/am/php/82/usr/bin/"
 #export PHP="/home/am/php/php80/bin/"
 
-export PATH=${PATH}:${JAVA_HOME}/bin:${PGSQL}:${PHP80}:${PHP81}
+export PATH=${PATH}:${JAVA_HOME}/bin:${PGSQL}:${PHP80}:${PHP81}:${PHP82}
 #export PATH=${PATH}:${JAVA_HOME}:${PGSQL}

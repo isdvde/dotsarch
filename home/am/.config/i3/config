@@ -139,9 +139,9 @@ bindsym $mod+F8 exec --no-startup-id "amixer -q sset Master 2%+ unmute"
 bindsym $mod+F7 exec --no-startup-id "amixer -q sset Master 2%- unmute"
 
 #Screeshot keybind
-bindsym Mod1+Sys_Req exec --no-startup-id xfce4-screenshooter -w
-bindsym Control+Print exec --no-startup-id xfce4-screenshooter -r
-bindsym Print exec --no-startup-id xfce4-screenshooter -f
+bindsym Mod1+F10 exec --no-startup-id xfce4-screenshooter -w
+bindsym Control+F10 exec --no-startup-id xfce4-screenshooter -r
+bindsym $mod+F10 exec --no-startup-id xfce4-screenshooter -f
 
 #Kill Workspace
 bindsym $mod+Ctrl+1 [workspace=1] kill
@@ -206,10 +206,10 @@ bar {
 	i3bar_command i3bar -t
 	status_command exec ~/.config/i3/bar.sh
 	tray_output primary
-	position top
+	#position top
 	font pango:Dejavu Sans Book 7
 	#height 15
-	mode hide
+	#mode hide
 	hidden_state hide
 
 	colors {
