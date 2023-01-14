@@ -101,3 +101,5 @@ export PHP82="/home/am/php/82/usr/bin/"
 
 export PATH=${PATH}:${JAVA_HOME}/bin:${PGSQL}:${PHP80}:${PHP81}:${PHP82}
 #export PATH=${PATH}:${JAVA_HOME}:${PGSQL}
+
+alias vim="nvim"
