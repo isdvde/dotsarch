@@ -25,6 +25,9 @@ bindsym $mod+Shift+q kill
 # Apps menu
 bindsym $mod+r exec "rofi -modi drun,run -show run"
 
+# Lock Screen
+bindsym --release $mod+l exec --no-startup-id slock
+
 # Focus windows
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down

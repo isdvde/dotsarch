@@ -64,6 +64,10 @@ require('packer').startup(function(use)
     },
   }
 
+  use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'} -- Buffer Tabs
+  use 'natecraddock/sessions.nvim' -- Session Manager
+  use  'natecraddock/workspaces.nvim' --Workspaces Manager
+
   -- Fuzzy Finder (files, lsp, etc)
   use { 'nvim-telescope/telescope.nvim', branch = '0.1.x', requires = { 'nvim-lua/plenary.nvim' } }
 
@@ -405,7 +409,17 @@ cmp.setup {
   },
 }
 
+-- Load Filetree
 require("nvim-tree").setup()
+
+-- Load Tabs  Line
+require("bufferline").setup{}
+
+-- Load Sessions Manager
+require("sessions").setup()
+
+-- Load Workspaces Manager
+require("workspaces").setup()
 -- CONFIG OPTIONS###############################################################
 
 -- KEYMAPS ###############################################################
@@ -419,7 +433,7 @@ vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = tr
 
 -- See `:help telescope.builtin`
 vim.keymap.set('n', '<leader>?', require('telescope.builtin').oldfiles, { desc = '[?] Find recently opened files' })
-vim.keymap.set('n', '<leader><space>', require('telescope.builtin').buffers, { desc = '[ ] Find existing buffers' })
+vim.keymap.set('n', '<leader><space>b', require('telescope.builtin').buffers, { desc = '[ ] Find existing buffers' })
 vim.keymap.set('n', '<leader>/', function()
   -- You can pass additional configuration to telescope to change theme, layout, etc.
   require('telescope.builtin').current_buffer_fuzzy_find(require('telescope.themes').get_dropdown {
@@ -457,8 +471,12 @@ vim.keymap.set('n', '<C-Up>', '<C-w>k', { silent  = true })
 vim.keymap.set('n', '<C-Right>', '<C-w>l', { silent  = true })
 vim.keymap.set('n', '<C-Left>', '<C-w>h', { silent  = true })
 
-vim.keymap.set({ 'n', 'i' }, '<C-PageDown>', 'gt', { silent  = true })
-vim.keymap.set({ 'n', 'i' }, '<C-PageUp>', 'gT', { silent  = true })
+-- vim.keymap.set({ 'n', 'i' }, '<C-PageDown>', 'gt', { silent  = true })
+-- vim.keymap.set({ 'n', 'i' }, '<C-PageUp>', 'gT', { silent  = true })
+vim.keymap.set({ 'n', 'i' }, '<C-PageDown>', ':bn<cr>', { silent  = true })
+vim.keymap.set({ 'n', 'i' }, '<C-PageUp>', ':bp<cr>', { silent  = true })
+vim.keymap.set({ 'n', 'i' }, '<C-w>', ':bd<cr>', { silent  = true })
+vim.keymap.set({ 'n', 'i' }, '<leader><C-w>', ':bd!<cr>', { silent  = true })
 -- KEYMAPS ###############################################################
 
 -- The line beneath this is called `modeline`. See `:help modeline`
