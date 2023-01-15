@@ -21,7 +21,7 @@ $am
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
 :q!
-|2,0,1673566784,,"q!"
+|2,0,1673741281,,"q!"
 :wq
 |2,0,1673524142,,"wq"
 :w
@@ -694,36 +694,52 @@ $am
 |3,0,36,0,1,0,1670033075,"#"
 
 # Marcas en el archivo:
-'0  62  0  ~/.config/xfce4/terminal/accels.scm
-|4,48,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
-'1  26  0  ~/dotfile
-|4,49,26,0,1673524142,"~/dotfile"
-'2  428  25  ~/.config/nvim/init.lua
-|4,50,428,25,1672368213,"~/.config/nvim/init.lua"
+'0  1  0  ~/dev/ssw/NERD_tree_1
+|4,48,1,0,1673741281,"~/dev/ssw/NERD_tree_1"
+'1  62  0  ~/.config/xfce4/terminal/accels.scm
+|4,49,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
+'2  26  0  ~/dotfile
+|4,50,26,0,1673524142,"~/dotfile"
 '3  428  25  ~/.config/nvim/init.lua
-|4,51,428,25,1672366457,"~/.config/nvim/init.lua"
-'4  1  0  ~/.ssh/config
-|4,52,1,0,1671146103,"~/.ssh/config"
-'5  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,53,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
-'6  94  0  ~/.bashrc
-|4,54,94,0,1670033115,"~/.bashrc"
-'7  90  0  ~/.bashrc
-|4,55,90,0,1670033077,"~/.bashrc"
+|4,51,428,25,1672368213,"~/.config/nvim/init.lua"
+'4  428  25  ~/.config/nvim/init.lua
+|4,52,428,25,1672366457,"~/.config/nvim/init.lua"
+'5  1  0  ~/.ssh/config
+|4,53,1,0,1671146103,"~/.ssh/config"
+'6  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,54,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+'7  94  0  ~/.bashrc
+|4,55,94,0,1670033115,"~/.bashrc"
 '8  90  0  ~/.bashrc
 |4,56,90,0,1670033077,"~/.bashrc"
-'9  102  0  ~/.bashrc
-|4,57,102,0,1670032652,"~/.bashrc"
+'9  90  0  ~/.bashrc
+|4,57,90,0,1670033077,"~/.bashrc"
 
 # Lista de saltos (el más reciente va primero):
+-'  1  0  ~/dev/ssw/NERD_tree_1
+|4,39,1,0,1673741281,"~/dev/ssw/NERD_tree_1"
+-'  25  2  ~/dev/ssw/NERD_tree_1
+|4,39,25,2,1673741277,"~/dev/ssw/NERD_tree_1"
 -'  62  0  ~/.config/xfce4/terminal/accels.scm
 |4,39,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
+-'  62  0  ~/.config/xfce4/terminal/accels.scm
+|4,39,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
+-'  1  0  ~/.config/xfce4/terminal/accels.scm
+|4,39,1,0,1673566775,"~/.config/xfce4/terminal/accels.scm"
 -'  1  0  ~/.config/xfce4/terminal/accels.scm
 |4,39,1,0,1673566775,"~/.config/xfce4/terminal/accels.scm"
 -'  26  0  ~/dotfile
 |4,39,26,0,1673524142,"~/dotfile"
 -'  26  0  ~/dotfile
 |4,39,26,0,1673524142,"~/dotfile"
+-'  26  0  ~/dotfile
+|4,39,26,0,1673524142,"~/dotfile"
+-'  26  0  ~/dotfile
+|4,39,26,0,1673524142,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1673524138,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1673524138,"~/dotfile"
 -'  1  0  ~/dotfile
 |4,39,1,0,1673524138,"~/dotfile"
 -'  1  0  ~/dotfile
@@ -736,6 +752,22 @@ $am
 |4,39,428,25,1672368213,"~/.config/nvim/init.lua"
 -'  428  25  ~/.config/nvim/init.lua
 |4,39,428,25,1672368213,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
 -'  1  0  ~/.config/nvim/init.lua
 |4,39,1,0,1672368210,"~/.config/nvim/init.lua"
 -'  1  0  ~/.config/nvim/init.lua
@@ -752,6 +784,22 @@ $am
 |4,39,428,25,1672366457,"~/.config/nvim/init.lua"
 -'  428  25  ~/.config/nvim/init.lua
 |4,39,428,25,1672366457,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672366457,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672366457,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672366457,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672366457,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672366454,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672366454,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672366454,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672366454,"~/.config/nvim/init.lua"
 -'  1  0  ~/.config/nvim/init.lua
 |4,39,1,0,1672366454,"~/.config/nvim/init.lua"
 -'  1  0  ~/.config/nvim/init.lua
@@ -824,100 +872,56 @@ $am
 |4,39,1,0,1671146103,"~/.ssh/config"
 -'  1  0  ~/.ssh/config
 |4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
--'  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,39,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1671146103,"~/.ssh/config"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/dev/ssw/NERD_tree_1
+	*	1673741277	0
+	"	1	0
+	.	1	0
+	+	1	0
 
 > ~/.config/xfce4/terminal/accels.scm
 	*	1673566783	0
@@ -2340,7 +2344,3 @@ $am
 	+	1	0
 	+	13	15
 	+	34	0
-
-> /usr/local/src/php-8.0.21/config.nice
-	*	1659286040	0
-	"	1	0
