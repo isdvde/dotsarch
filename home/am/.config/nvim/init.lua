@@ -30,7 +30,14 @@ require('packer').startup(function(use)
 
   use { -- Autocompletion
     'hrsh7th/nvim-cmp',
-    requires = { 'hrsh7th/cmp-nvim-lsp', 'L3MON4D3/LuaSnip', 'saadparwaiz1/cmp_luasnip' },
+    requires = {
+      'hrsh7th/cmp-nvim-lsp',
+      'L3MON4D3/LuaSnip',
+      'saadparwaiz1/cmp_luasnip',
+      'hrsh7th/cmp-buffer',       -- Optional
+      'hrsh7th/cmp-path',         -- Optional
+      'hrsh7th/cmp-nvim-lua',     -- Optional
+    },
   }
 
   use { -- Highlight, edit, and navigate code
@@ -56,7 +63,8 @@ require('packer').startup(function(use)
   use 'lukas-reineke/indent-blankline.nvim' -- Add indentation guides even on blank lines
   use "terrortylor/nvim-comment" -- Nvim Commnet gcc for Line
   use 'tpope/vim-sleuth' -- Detect tabstop and shiftwidth automatically
-  -- use 'preservim/nerdtree' -- File explorer 
+  use 'ap/vim-css-color' -- CSS Color
+
   use {
     'nvim-tree/nvim-tree.lua',
     requires = {
@@ -407,6 +415,9 @@ cmp.setup {
   sources = {
     { name = 'nvim_lsp' },
     { name = 'luasnip' },
+    { name = 'path' },
+    { name = 'buffer' },
+    { name = 'nvim_lua' },
   },
 }
 
@@ -421,6 +432,7 @@ require("sessions").setup()
 
 -- Load Workspaces Manager
 require("workspaces").setup()
+
 -- CONFIG OPTIONS###############################################################
 
 -- KEYMAPS ###############################################################
