@@ -13,3 +13,4 @@ fi
 
 nitrogen --restore &
 lxpolkit &
+dunst &
