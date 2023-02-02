@@ -14,4 +14,4 @@ fi
 nitrogen --restore &
 lxpolkit &
 dunst &
-bash ~/.dwm/bar.sh
+bash ~/.dwm/bar.sh &
