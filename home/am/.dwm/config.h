@@ -12,10 +12,11 @@ static const char selbgcolor[]      = "#005577";
 static const char selfgcolor[]      = "#eeeeee";
 
 static const char *colors[][3]      = {
-			      /* fg         bg         border   */
+ 			      /* fg         bg         border */
 	[SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
 	[SchemeSel]  = { selfgcolor, selbgcolor,  selbordercolor  },
 };
+
 
 /* Basic Tweaks */
 static const unsigned int borderpx  = 2;        /* border pixel of windows */

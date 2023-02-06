@@ -252,3 +252,16 @@ keycode 253 =
 keycode 254 = XF86WWAN NoSymbol XF86WWAN
 keycode 255 = XF86RFKill NoSymbol XF86RFKill
 !clear Lock
+
+!
+! Swap Caps_Lock and Control_L
+!
+remove Lock = Caps_Lock
+!remove Control = Control_L
+remove Lock = Control_L
+!remove Control = Caps_Lock
+!keysym Control_L = Escape
+!keysym Caps_Lock = Control_L
+keysym Caps_Lock = Escape
+add Lock = Caps_Lock
+!add Control = Control_L

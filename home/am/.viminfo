@@ -20,10 +20,10 @@
 $am
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:wq
+|2,0,1675718168,,"wq"
 :q!
 |2,0,1673741281,,"q!"
-:wq
-|2,0,1673524142,,"wq"
 :w
 |2,0,1670028480,,"w"
 :'<,'>s/www-data/am/g
@@ -694,36 +694,54 @@ $am
 |3,0,36,0,1,0,1670033075,"#"
 
 # Marcas en el archivo:
-'0  1  0  ~/dev/ssw/NERD_tree_1
-|4,48,1,0,1673741281,"~/dev/ssw/NERD_tree_1"
-'1  62  0  ~/.config/xfce4/terminal/accels.scm
-|4,49,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
-'2  26  0  ~/dotfile
-|4,50,26,0,1673524142,"~/dotfile"
-'3  428  25  ~/.config/nvim/init.lua
-|4,51,428,25,1672368213,"~/.config/nvim/init.lua"
+'0  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,48,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+'1  1  0  ~/dev/ssw/NERD_tree_1
+|4,49,1,0,1673741281,"~/dev/ssw/NERD_tree_1"
+'2  62  0  ~/.config/xfce4/terminal/accels.scm
+|4,50,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
+'3  26  0  ~/dotfile
+|4,51,26,0,1673524142,"~/dotfile"
 '4  428  25  ~/.config/nvim/init.lua
-|4,52,428,25,1672366457,"~/.config/nvim/init.lua"
-'5  1  0  ~/.ssh/config
-|4,53,1,0,1671146103,"~/.ssh/config"
-'6  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,54,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
-'7  94  0  ~/.bashrc
-|4,55,94,0,1670033115,"~/.bashrc"
-'8  90  0  ~/.bashrc
-|4,56,90,0,1670033077,"~/.bashrc"
+|4,52,428,25,1672368213,"~/.config/nvim/init.lua"
+'5  428  25  ~/.config/nvim/init.lua
+|4,53,428,25,1672366457,"~/.config/nvim/init.lua"
+'6  1  0  ~/.ssh/config
+|4,54,1,0,1671146103,"~/.ssh/config"
+'7  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
+|4,55,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+'8  94  0  ~/.bashrc
+|4,56,94,0,1670033115,"~/.bashrc"
 '9  90  0  ~/.bashrc
 |4,57,90,0,1670033077,"~/.bashrc"
 
 # Lista de saltos (el más reciente va primero):
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  0  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,0,1675718152,"~/dev/almacen/.git/MERGE_MSG"
 -'  1  0  ~/dev/ssw/NERD_tree_1
 |4,39,1,0,1673741281,"~/dev/ssw/NERD_tree_1"
+-'  1  0  ~/dev/ssw/NERD_tree_1
+|4,39,1,0,1673741281,"~/dev/ssw/NERD_tree_1"
+-'  25  2  ~/dev/ssw/NERD_tree_1
+|4,39,25,2,1673741277,"~/dev/ssw/NERD_tree_1"
 -'  25  2  ~/dev/ssw/NERD_tree_1
 |4,39,25,2,1673741277,"~/dev/ssw/NERD_tree_1"
 -'  62  0  ~/.config/xfce4/terminal/accels.scm
 |4,39,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
 -'  62  0  ~/.config/xfce4/terminal/accels.scm
 |4,39,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
+-'  62  0  ~/.config/xfce4/terminal/accels.scm
+|4,39,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
+-'  62  0  ~/.config/xfce4/terminal/accels.scm
+|4,39,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
+-'  1  0  ~/.config/xfce4/terminal/accels.scm
+|4,39,1,0,1673566775,"~/.config/xfce4/terminal/accels.scm"
+-'  1  0  ~/.config/xfce4/terminal/accels.scm
+|4,39,1,0,1673566775,"~/.config/xfce4/terminal/accels.scm"
 -'  1  0  ~/.config/xfce4/terminal/accels.scm
 |4,39,1,0,1673566775,"~/.config/xfce4/terminal/accels.scm"
 -'  1  0  ~/.config/xfce4/terminal/accels.scm
@@ -736,6 +754,22 @@ $am
 |4,39,26,0,1673524142,"~/dotfile"
 -'  26  0  ~/dotfile
 |4,39,26,0,1673524142,"~/dotfile"
+-'  26  0  ~/dotfile
+|4,39,26,0,1673524142,"~/dotfile"
+-'  26  0  ~/dotfile
+|4,39,26,0,1673524142,"~/dotfile"
+-'  26  0  ~/dotfile
+|4,39,26,0,1673524142,"~/dotfile"
+-'  26  0  ~/dotfile
+|4,39,26,0,1673524142,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1673524138,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1673524138,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1673524138,"~/dotfile"
+-'  1  0  ~/dotfile
+|4,39,1,0,1673524138,"~/dotfile"
 -'  1  0  ~/dotfile
 |4,39,1,0,1673524138,"~/dotfile"
 -'  1  0  ~/dotfile
@@ -760,6 +794,38 @@ $am
 |4,39,428,25,1672368213,"~/.config/nvim/init.lua"
 -'  428  25  ~/.config/nvim/init.lua
 |4,39,428,25,1672368213,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
 -'  1  0  ~/.config/nvim/init.lua
 |4,39,1,0,1672368210,"~/.config/nvim/init.lua"
 -'  1  0  ~/.config/nvim/init.lua
@@ -792,6 +858,22 @@ $am
 |4,39,428,25,1672366457,"~/.config/nvim/init.lua"
 -'  428  25  ~/.config/nvim/init.lua
 |4,39,428,25,1672366457,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672366457,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672366457,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672366457,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672366457,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672366457,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672366457,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672366457,"~/.config/nvim/init.lua"
+-'  428  25  ~/.config/nvim/init.lua
+|4,39,428,25,1672366457,"~/.config/nvim/init.lua"
 -'  1  0  ~/.config/nvim/init.lua
 |4,39,1,0,1672366454,"~/.config/nvim/init.lua"
 -'  1  0  ~/.config/nvim/init.lua
@@ -808,102 +890,22 @@ $am
 |4,39,1,0,1672366454,"~/.config/nvim/init.lua"
 -'  1  0  ~/.config/nvim/init.lua
 |4,39,1,0,1672366454,"~/.config/nvim/init.lua"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1671146103,"~/.ssh/config"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672366454,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672366454,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672366454,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672366454,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672366454,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672366454,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672366454,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1672366454,"~/.config/nvim/init.lua"
 -'  1  0  ~/.ssh/config
 |4,39,1,0,1671146103,"~/.ssh/config"
 -'  1  0  ~/.ssh/config
@@ -916,6 +918,13 @@ $am
 |4,39,1,0,1671146103,"~/.ssh/config"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/dev/almacen/.git/MERGE_MSG
+	*	1675718168	0
+	"	8	34
+	.	9	0
+	+	8	34
+	+	9	0
 
 > ~/dev/ssw/NERD_tree_1
 	*	1673741277	0
@@ -1898,10 +1907,6 @@ $am
 	+	15	16
 	+	54	13
 	+	55	21
-
-> ~/dev/almacen/.git/MERGE_MSG
-	*	1663205952	0
-	"	1	0
 
 > ~/dev/node/farmacia-node-prisma/pedido.json
 	*	1663031823	0

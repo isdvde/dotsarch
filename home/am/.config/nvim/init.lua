@@ -32,13 +32,24 @@ require('packer').startup(function(use)
     'hrsh7th/nvim-cmp',
     requires = {
       'hrsh7th/cmp-nvim-lsp',
-      'L3MON4D3/LuaSnip',
+      -- 'L3MON4D3/LuaSnip',
       'saadparwaiz1/cmp_luasnip',
       'hrsh7th/cmp-buffer',       -- Optional
       'hrsh7th/cmp-path',         -- Optional
       'hrsh7th/cmp-nvim-lua',     -- Optional
+      {
+        "L3MON4D3/LuaSnip",
+        wants = { "friendly-snippets", "vim-snippets" },
+        config = function()
+          require("config.snip").setup()
+        end,
+      },
+      "rafamadriz/friendly-snippets",
+      "honza/vim-snippets",
     },
   }
+
+
 
   use { -- Highlight, edit, and navigate code
     'nvim-treesitter/nvim-treesitter',
@@ -75,7 +86,8 @@ require('packer').startup(function(use)
   use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'} -- Buffer Tabs
   use 'natecraddock/sessions.nvim' -- Session Manager
   use  'natecraddock/workspaces.nvim' --Workspaces Manager
-  -- use 'jwalton512/vim-blade'
+
+  use "windwp/nvim-autopairs" --Close Autopair
 
   -- Fuzzy Finder (files, lsp, etc)
   use { 'nvim-telescope/telescope.nvim', branch = '0.1.x', requires = { 'nvim-lua/plenary.nvim' } }
@@ -223,7 +235,7 @@ pcall(require('telescope').load_extension, 'fzf')
 -- See `:help nvim-treesitter`
 require('nvim-treesitter.configs').setup {
   -- Add languages to be installed here that you want installed for treesitter
-  ensure_installed = { 'c', 'cpp', 'lua', 'python', 'rust', 'typescript', 'help', 'php', 'javascript', 'bash' },
+  ensure_installed = { 'c', 'cpp', 'lua', 'python', 'typescript', 'help', 'php', 'javascript', 'bash' },
 
   highlight = { enable = true },
   indent = { enable = true, disable = { 'python' } },
@@ -376,6 +388,7 @@ mason_lspconfig.setup_handlers {
 require('fidget').setup()
 
 -- nvim-cmp setup
+local cmp_autopairs = require('nvim-autopairs.completion.cmp')
 local cmp = require 'cmp'
 local luasnip = require 'luasnip'
 
@@ -421,6 +434,12 @@ cmp.setup {
   },
 }
 
+-- Mapping CR Autopais CMP
+cmp.event:on(
+  'confirm_done',
+  cmp_autopairs.on_confirm_done()
+)
+
 -- Load Filetree
 require("nvim-tree").setup()
 
@@ -433,7 +452,22 @@ require("sessions").setup()
 -- Load Workspaces Manager
 require("workspaces").setup()
 
--- CONFIG OPTIONS###############################################################
+require("luasnip/loaders/from_vscode").lazy_load()
+require'luasnip'.filetype_extend("php", {"laravel"})
+require'luasnip'.filetype_extend("php", {"blade"})
+
+require'nvim-treesitter.configs'.setup {
+  autotag = {
+    enable = true,
+  }
+}
+
+require("nvim-autopairs").setup({
+  enable_check_bracket_line = false,
+  fast_wrap = {
+    map = '<Leader>e',
+  },
+})
 
 -- KEYMAPS ###############################################################
 -- Keymaps for better default experience
@@ -463,10 +497,10 @@ vim.keymap.set('n', '<leader>sd', require('telescope.builtin').diagnostics, { de
 
 
 -- Diagnostic keymaps
--- vim.keymap.set('n', '[d', vim.diagnostic.goto_prev)
--- vim.keymap.set('n', ']d', vim.diagnostic.goto_next)
--- vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float)
--- vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist)
+vim.keymap.set('n', '[d', vim.diagnostic.goto_prev)
+vim.keymap.set('n', ']d', vim.diagnostic.goto_next)
+vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float)
+vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist)
 
 -- LSP settings.
 --  This function gets run when an LSP connects to a particular buffer.
