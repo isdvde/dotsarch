@@ -5,7 +5,7 @@ xset s off &
 xset -dpms &
 redshift -O 3400 &
 # xcompmgr -c -t-5 -l-5 -r6 -o1 -fF -I.07 -O.07 -D2 -C &
-# picom &
+#picom &
 #picom --animations --animation-window-mass 0.8 --animation-stiffness 250.0 --animation-for-open-window zoom --animation-dampening 20.0 &
 picom --animations --animation-window-mass 0.5 --animation-stiffness 230.0 --animation-for-open-window zoom --animation-dampening 21.0 &
 
