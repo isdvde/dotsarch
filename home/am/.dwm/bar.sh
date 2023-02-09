@@ -7,8 +7,10 @@ INTERNET() (
 )
 
 MEM() (
-	local MEM=$(free | grep Mem | sed 's/  */ /g' | cut -d" " -f3 | xargs -I% echo "scale=2; % / 1024" | bc);
-	local TOT=$(free | grep Mem | sed 's/  */ /g' | cut -d" " -f2 | xargs -I% echo "scale=2; % / 1024" | bc);
+	# local MEM=$(free | grep Mem | sed 's/  */ /g' | cut -d" " -f3 | xargs -I% echo "scale=2; % / 1024" | bc);
+	# local TOT=$(free | grep Mem | sed 's/  */ /g' | cut -d" " -f2 | xargs -I% echo "scale=2; % / 1024" | bc);
+	local TOT=$(cat /proc/meminfo | grep -Ei "memtotal" | sed -r "s/(  +)/ /g" | cut -d' ' -f2 | paste -sd' ' | sed -r "s/(.*)/scale=2; \1 \/ 1024/g" | bc)
+	local MEM=$(cat /proc/meminfo | grep -Ei "memtotal|memfree|buffer|cached" | head -4 | sed -r "s/(  +)/ /g" | cut -d' ' -f2 | paste -sd' ' | sed -r "s/(.*) (.*) (.*) (.*)/scale=2; ((\1 - \2) - (\3 + \4))\/1024/g" | bc)
 	local PERC=$(echo "scale=2; ($MEM*100)/$TOT" | bc);
 	echo -n "${MEM}M (${PERC}%)";
 )
