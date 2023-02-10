@@ -98,9 +98,9 @@ static Key keys[] = {
 	{ ALTKEY,		XK_F8,		spawn,		{.v = vup } },
 	{ ALTKEY,		XK_F7,		spawn,		{.v = vdown } },
 
-	/* { MODKEY,		XK_f,		togglefullscr,	{0} }, */
-	{ MODKEY,                       XK_f,      togglefullscreen, {0} },
-	{ MODKEY|ControlMask,             XK_f,      togglefakefullscreen, {0} },
+	{ MODKEY,		XK_f,		togglefullscr,	{0} },
+	/* { MODKEY,                       XK_f,      togglefullscreen, {0} }, */
+	/* { MODKEY|ControlMask,             XK_f,      togglefakefullscreen, {0} }, */
 	{ MODKEY,		XK_b,		togglebar,	{0} },
 	{ MODKEY,		XK_Right,	focusstack,	{.i = +1 } },
 	{ MODKEY,		XK_Left,	focusstack,	{.i = -1 } },
