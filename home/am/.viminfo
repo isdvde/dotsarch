@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último Patrón de búsqueda:
-~MSle0~/screesho
+~MSle0~/hop
 
 # Último Sustitución Patrón de búsqueda:
 ~MSle0&www-data
@@ -20,10 +20,10 @@
 $am
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
-:wq
-|2,0,1675723041,,"wq"
 :q!
-|2,0,1673741281,,"q!"
+|2,0,1677033350,,"q!"
+:wq
+|2,0,1677033319,,"wq"
 :w
 |2,0,1670028480,,"w"
 :'<,'>s/www-data/am/g
@@ -326,6 +326,10 @@ $am
 |2,0,1631476210,,"b"
 
 # Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+?/hop
+|2,1,1677033346,47,"hop"
+?/lsp
+|2,1,1677033194,47,"lsp"
 ?/screesho
 |2,1,1670028490,47,"screesho"
 ?/cGra
@@ -660,72 +664,379 @@ $am
 	#export PGSQL="/home/am/pgsql/bin"
 |3,0,0,1,1,0,1670032641,"#export PGSQL=\"/home/am/pgsql/bin\""
 "1	LINE	0
-	.local/share/nvim
-|3,0,1,1,1,0,1673524141,".local/share/nvim"
+	-- nvim-cmp supports additional completion capabilities, so broadcast that to servers
+	local capabilities = vim.lsp.protocol.make_client_capabilities()
+	capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
+	
+	-- Setup mason so it can manage external tooling
+	require('mason').setup()
+	
+	-- Ensure the servers above are installed
+	local mason_lspconfig = require 'mason-lspconfig'
+	
+	mason_lspconfig.setup {
+	  ensure_installed = vim.tbl_keys(servers),
+	}
+	
+	mason_lspconfig.setup_handlers {
+	  function(server_name)
+	    require('lspconfig')[server_name].setup {
+	      capabilities = capabilities,
+	      on_attach = on_attach,
+	      settings = servers[server_name],
+	    }
+	  end,
+	}
+	
+	-- Turn on lsp status information
+	require('fidget').setup()
+	
+	-- nvim-cmp setup
+	local cmp_autopairs = require('nvim-autopairs.completion.cmp')
+	local cmp = require 'cmp'
+	local luasnip = require 'luasnip'
+	
+	cmp.setup {
+	  snippet = {
+	    expand = function(args)
+	      luasnip.lsp_expand(args.body)
+	    end,
+	  },
+	  mapping = cmp.mapping.preset.insert {
+	    ['<C-d>'] = cmp.mapping.scroll_docs(-4),
+	    ['<C-f>'] = cmp.mapping.scroll_docs(4),
+	    ['<C-Space>'] = cmp.mapping.complete(),
+	    ['<CR>'] = cmp.mapping.confirm {
+	      behavior = cmp.ConfirmBehavior.Replace,
+	      select = true,
+	    },
+	    ['<Tab>'] = cmp.mapping(function(fallback)
+	      if cmp.visible() then
+	        cmp.select_next_item()
+	      elseif luasnip.expand_or_jumpable() then
+|3,0,1,1,50,0,1677033236,"-- nvim-cmp supports additional completion capabilities, so broadcast that to servers","local capabilities = vim.lsp.protocol.make_client_capabilities()","capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)","","-- Setup mason so it can manage external tooling","require('mason').setup()","","-- Ensure the servers above are installed","local mason_lspconfig = require 'mason-lspconfig'","",>25
+|<"mason_lspconfig.setup {","  ensure_installed = vim.tbl_keys(servers),","}","","mason_lspconfig.setup_handlers {","  function(server_name)","    require('lspconfig')[server_name].setup {","      capabilities = capabilities,","      on_attach = on_attach,","      settings = servers[server_name],","    }","  end,","}","","-- Turn on lsp status information","require('fidget').setup()","","-- nvim-cmp setup","local cmp_autopairs = require('nvim-autopairs.completion.cmp')",>27
+|<"local cmp = require 'cmp'","local luasnip = require 'luasnip'","","cmp.setup {","  snippet = {","    expand = function(args)","      luasnip.lsp_expand(args.body)","    end,","  },","  mapping = cmp.mapping.preset.insert {","    ['<C-d>'] = cmp.mapping.scroll_docs(-4),","    ['<C-f>'] = cmp.mapping.scroll_docs(4),","    ['<C-Space>'] = cmp.mapping.complete(),","    ['<CR>'] = cmp.mapping.confirm {","      behavior = cmp.ConfirmBehavior.Replace,","      select = true,","    },",>48
+|<"    ['<Tab>'] = cmp.mapping(function(fallback)","      if cmp.visible() then","        cmp.select_next_item()","      elseif luasnip.expand_or_jumpable() then"
 "2	LINE	0
 	
-|3,0,2,1,1,0,1670033111,""
+|3,0,2,1,1,0,1677033212,""
 "3	LINE	0
-	export REDIS="/home/am/redis/bin"
-|3,0,3,1,1,0,1670033110,"export REDIS=\"/home/am/redis/bin\""
+	local on_attach = function(_, bufnr)
+	  -- NOTE: Remember that lua is a real programming language, and as such it is possible
+	  -- to define small helper and utility functions so you don't have to repeat yourself
+	  -- many times.
+	  --
+	  -- In this case, we create a function that lets us more easily define mappings specific
+	  -- for LSP related items. It sets the mode, buffer and description for us each time.
+	  local nmap = function(keys, func, desc)
+	    if desc then
+	      desc = 'LSP: ' .. desc
+	    end
+	
+	    vim.keymap.set('n', keys, func, { buffer = bufnr, desc = desc })
+	  end
+	
+	  nmap('<leader>rn', vim.lsp.buf.rename, '[R]e[n]ame')
+	  nmap('<leader>ca', vim.lsp.buf.code_action, '[C]ode [A]ction')
+	
+	  nmap('gd', vim.lsp.buf.definition, '[G]oto [D]efinition')
+	  nmap('gr', require('telescope.builtin').lsp_references, '[G]oto [R]eferences')
+	  nmap('gI', vim.lsp.buf.implementation, '[G]oto [I]mplementation')
+	  nmap('<leader>D', vim.lsp.buf.type_definition, 'Type [D]efinition')
+	  nmap('<leader>ds', require('telescope.builtin').lsp_document_symbols, '[D]ocument [S]ymbols')
+	  nmap('<leader>ws', require('telescope.builtin').lsp_dynamic_workspace_symbols, '[W]orkspace [S]ymbols')
+	
+	  -- See `:help K` for why this keymap
+	  nmap('K', vim.lsp.buf.hover, 'Hover Documentation')
+	  nmap('<C-k>', vim.lsp.buf.signature_help, 'Signature Documentation')
+	
+	  -- Lesser used LSP functionality
+	  nmap('gD', vim.lsp.buf.declaration, '[G]oto [D]eclaration')
+	  nmap('<leader>wa', vim.lsp.buf.add_workspace_folder, '[W]orkspace [A]dd Folder')
+	  nmap('<leader>wr', vim.lsp.buf.remove_workspace_folder, '[W]orkspace [R]emove Folder')
+	  nmap('<leader>wl', function()
+	    print(vim.inspect(vim.lsp.buf.list_workspace_folders()))
+	  end, '[W]orkspace [L]ist Folders')
+	
+	  -- Create a command `:Format` local to the LSP buffer
+	  vim.api.nvim_buf_create_user_command(bufnr, 'Format', function(_)
+	    vim.lsp.buf.format()
+	  end, { desc = 'Format current buffer with LSP' })
+	end
+	
+	-- Enable the following language servers
+	--  Feel free to add/remove any LSPs that you want here. They will automatically be installed.
+	--
+	--  Add any additional override configuration in the following tables. They will be passed to
+	--  the `settings` field of the server config. You must look up that documentation yourself.
+	local servers = {
+	  -- clangd = {},
+|3,0,3,1,50,0,1677033211,"local on_attach = function(_, bufnr)","  -- NOTE: Remember that lua is a real programming language, and as such it is possible","  -- to define small helper and utility functions so you don't have to repeat yourself","  -- many times.","  --","  -- In this case, we create a function that lets us more easily define mappings specific","  -- for LSP related items. It sets the mode, buffer and description for us each time.",>43
+|<"  local nmap = function(keys, func, desc)","    if desc then","      desc = 'LSP: ' .. desc","    end","","    vim.keymap.set('n', keys, func, { buffer = bufnr, desc = desc })","  end","","  nmap('<leader>rn', vim.lsp.buf.rename, '[R]e[n]ame')","  nmap('<leader>ca', vim.lsp.buf.code_action, '[C]ode [A]ction')","","  nmap('gd', vim.lsp.buf.definition, '[G]oto [D]efinition')","  nmap('gr', require('telescope.builtin').lsp_references, '[G]oto [R]eferences')",>69
+|<"  nmap('gI', vim.lsp.buf.implementation, '[G]oto [I]mplementation')","  nmap('<leader>D', vim.lsp.buf.type_definition, 'Type [D]efinition')","  nmap('<leader>ds', require('telescope.builtin').lsp_document_symbols, '[D]ocument [S]ymbols')","  nmap('<leader>ws', require('telescope.builtin').lsp_dynamic_workspace_symbols, '[W]orkspace [S]ymbols')","","  -- See `:help K` for why this keymap","  nmap('K', vim.lsp.buf.hover, 'Hover Documentation')",>72
+|<"  nmap('<C-k>', vim.lsp.buf.signature_help, 'Signature Documentation')","","  -- Lesser used LSP functionality","  nmap('gD', vim.lsp.buf.declaration, '[G]oto [D]eclaration')","  nmap('<leader>wa', vim.lsp.buf.add_workspace_folder, '[W]orkspace [A]dd Folder')","  nmap('<leader>wr', vim.lsp.buf.remove_workspace_folder, '[W]orkspace [R]emove Folder')","  nmap('<leader>wl', function()","    print(vim.inspect(vim.lsp.buf.list_workspace_folders()))","  end, '[W]orkspace [L]ist Folders')",>2
+|<"","  -- Create a command `:Format` local to the LSP buffer","  vim.api.nvim_buf_create_user_command(bufnr, 'Format', function(_)","    vim.lsp.buf.format()","  end, { desc = 'Format current buffer with LSP' })","end","","-- Enable the following language servers","--  Feel free to add/remove any LSPs that you want here. They will automatically be installed.","--","--  Add any additional override configuration in the following tables. They will be passed to",>94
+|<"--  the `settings` field of the server config. You must look up that documentation yourself.","local servers = {","  -- clangd = {},"
 "4	LINE	0
-	export PGSQL="/home/am/pg/bin"
-|3,0,4,1,1,0,1670033073,"export PGSQL=\"/home/am/pg/bin\""
+	
+|3,0,4,1,1,0,1677033181,""
 "5	LINE	0
-	#export PATH=${PATH}:${JAVA_HOME}/bin:${PHP80}:${PHP81}:${PHP82}
-|3,0,5,1,1,0,1670033070,"#export PATH=${PATH}:${JAVA_HOME}/bin:${PHP80}:${PHP81}:${PHP82}"
+	
+|3,0,5,1,1,0,1677033180,""
 "6	LINE	0
-	extension=/usr/lib/php/20210902/pdo.so
-|3,0,6,1,1,0,1669773624,"extension=/usr/lib/php/20210902/pdo.so"
+	
+|3,0,6,1,1,0,1677033180,""
 "7	LINE	0
-	extension=/usr/lib/php/20200930/pdo.so
-|3,0,7,1,1,0,1669773093,"extension=/usr/lib/php/20200930/pdo.so"
+	  use { -- Autocompletion
+	    'hrsh7th/nvim-cmp',
+	    requires = {
+	      'hrsh7th/cmp-nvim-lsp',
+	      'L3MON4D3/LuaSnip',
+	      'saadparwaiz1/cmp_luasnip',
+	      'hrsh7th/cmp-buffer',       -- Optional
+	      'hrsh7th/cmp-path',         -- Optional
+	      'hrsh7th/cmp-nvim-lua',     -- Optional
+	      {
+	        "L3MON4D3/LuaSnip",
+	        wants = { "friendly-snippets", "vim-snippets" },
+	        config = function()
+	          require("config.snip").setup()
+	        end,
+	      },
+	      "rafamadriz/friendly-snippets",
+	      "honza/vim-snippets",
+	    },
+	  }
+|3,0,7,1,20,0,1677033178,"  use { -- Autocompletion","    'hrsh7th/nvim-cmp',","    requires = {","      'hrsh7th/cmp-nvim-lsp',","      'L3MON4D3/LuaSnip',","      'saadparwaiz1/cmp_luasnip',","      'hrsh7th/cmp-buffer',       -- Optional","      'hrsh7th/cmp-path',         -- Optional","      'hrsh7th/cmp-nvim-lua',     -- Optional","      {","        \"L3MON4D3/LuaSnip\",","        wants = { \"friendly-snippets\", \"vim-snippets\" },",>29
+|<"        config = function()","          require(\"config.snip\").setup()","        end,","      },","      \"rafamadriz/friendly-snippets\",","      \"honza/vim-snippets\",","    },","  }"
 "8	LINE	0
-	;extension=/usr/lib/php/20200930/pdo_pgsql.so
-|3,0,8,1,1,0,1669772902,";extension=/usr/lib/php/20200930/pdo_pgsql.so"
+	
+|3,0,8,1,1,0,1677033171,""
 "9	LINE	0
-	;extension=/usr/lib/php/20200930/pdo_pgsql.so
-|3,0,9,1,1,0,1669772895,";extension=/usr/lib/php/20200930/pdo_pgsql.so"
+	  use { -- LSP Configuration & Plugins
+	    'neovim/nvim-lspconfig',
+	    requires = {
+	      -- Automatically install LSPs to stdpath for neovim
+	      'williamboman/mason.nvim',
+	      'williamboman/mason-lspconfig.nvim',
+	
+	      -- Useful status updates for LSP
+	      'j-hui/fidget.nvim',
+	
+	      -- Additional lua configuration, makes nvim stuff amazing
+	      'folke/neodev.nvim',
+	    },
+	  }
+|3,0,9,1,14,0,1677033170,"  use { -- LSP Configuration & Plugins","    'neovim/nvim-lspconfig',","    requires = {","      -- Automatically install LSPs to stdpath for neovim","      'williamboman/mason.nvim',","      'williamboman/mason-lspconfig.nvim',","","      -- Useful status updates for LSP","      'j-hui/fidget.nvim',","","      -- Additional lua configuration, makes nvim stuff amazing","      'folke/neodev.nvim',","    },","  }"
 "u	CHAR	0
 		
 |3,0,30,0,1,0,1649134282,"	"
 ""-	CHAR	0
-	Merge branch 'transferencia-fix' into almacen
-|3,1,36,0,1,0,1675723033,"Merge branch 'transferencia-fix' into almacen"
+	--
+|3,1,36,0,1,0,1677033242,"--"
 
 # Marcas en el archivo:
-'0  1  35  ~/dev/almacen/.git/MERGE_MSG
-|4,48,1,35,1675723041,"~/dev/almacen/.git/MERGE_MSG"
-'1  8  34  ~/dev/almacen/.git/MERGE_MSG
-|4,49,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
-'2  8  34  ~/dev/almacen/.git/MERGE_MSG
-|4,50,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
-'3  1  0  ~/dev/ssw/NERD_tree_1
-|4,51,1,0,1673741281,"~/dev/ssw/NERD_tree_1"
-'4  62  0  ~/.config/xfce4/terminal/accels.scm
-|4,52,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
-'5  26  0  ~/dotfile
-|4,53,26,0,1673524142,"~/dotfile"
-'6  428  25  ~/.config/nvim/init.lua
-|4,54,428,25,1672368213,"~/.config/nvim/init.lua"
-'7  428  25  ~/.config/nvim/init.lua
-|4,55,428,25,1672366457,"~/.config/nvim/init.lua"
-'8  1  0  ~/.ssh/config
-|4,56,1,0,1671146103,"~/.ssh/config"
-'9  1  0  /usr/lib/udev/rules.d/80-net-setup-link.rules
-|4,57,1,0,1670113107,"/usr/lib/udev/rules.d/80-net-setup-link.rules"
+'0  60  13  ~/.config/nvim/init.lua
+|4,48,60,13,1677033350,"~/.config/nvim/init.lua"
+'1  376  161  ~/.config/nvim/init.lua
+|4,49,376,161,1677033319,"~/.config/nvim/init.lua"
+'2  376  161  ~/.config/nvim/init.lua
+|4,50,376,161,1677033319,"~/.config/nvim/init.lua"
+'3  1  0  ~/.config/nvim/init.lua
+|4,51,1,0,1677033147,"~/.config/nvim/init.lua"
+'4  1  0  ~/.config/nvim/init.lua
+|4,52,1,0,1677033147,"~/.config/nvim/init.lua"
+'5  1  0  ~/.config/nvim/init.lua
+|4,53,1,0,1677033147,"~/.config/nvim/init.lua"
+'6  1  0  ~/.config/nvim/init.lua
+|4,54,1,0,1677033147,"~/.config/nvim/init.lua"
+'7  1  35  ~/dev/almacen/.git/MERGE_MSG
+|4,55,1,35,1676599664,"~/dev/almacen/.git/MERGE_MSG"
+'8  2  35  ~/dev/almacen/.git/MERGE_MSG
+|4,56,2,35,1675723041,"~/dev/almacen/.git/MERGE_MSG"
+'9  1  35  ~/dev/almacen/.git/MERGE_MSG
+|4,57,1,35,1675723041,"~/dev/almacen/.git/MERGE_MSG"
 
 # Lista de saltos (el más reciente va primero):
+-'  60  13  ~/.config/nvim/init.lua
+|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
+-'  376  161  ~/.config/nvim/init.lua
+|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
+-'  376  161  ~/.config/nvim/init.lua
+|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
+-'  98  56  ~/.config/nvim/init.lua
+|4,39,98,56,1677033200,"~/.config/nvim/init.lua"
+-'  98  56  ~/.config/nvim/init.lua
+|4,39,98,56,1677033200,"~/.config/nvim/init.lua"
+-'  77  0  ~/.config/nvim/init.lua
+|4,39,77,0,1677033194,"~/.config/nvim/init.lua"
+-'  77  0  ~/.config/nvim/init.lua
+|4,39,77,0,1677033194,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1677033163,"~/.config/nvim/init.lua"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1677033147,"~/.config/nvim/init.lua"
+-'  1  35  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,35,1676599664,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  35  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,35,1676599664,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  35  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,35,1676599664,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  35  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,35,1676599664,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  35  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,35,1676599664,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  35  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,35,1676599664,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  35  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,35,1676599664,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  35  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,35,1676599664,"~/dev/almacen/.git/MERGE_MSG"
+-'  2  0  ~/dev/almacen/.git/MERGE_MSG
+|4,39,2,0,1676599649,"~/dev/almacen/.git/MERGE_MSG"
+-'  2  0  ~/dev/almacen/.git/MERGE_MSG
+|4,39,2,0,1676599649,"~/dev/almacen/.git/MERGE_MSG"
+-'  2  0  ~/dev/almacen/.git/MERGE_MSG
+|4,39,2,0,1676599649,"~/dev/almacen/.git/MERGE_MSG"
+-'  2  0  ~/dev/almacen/.git/MERGE_MSG
+|4,39,2,0,1676599649,"~/dev/almacen/.git/MERGE_MSG"
+-'  2  0  ~/dev/almacen/.git/MERGE_MSG
+|4,39,2,0,1676599649,"~/dev/almacen/.git/MERGE_MSG"
+-'  2  0  ~/dev/almacen/.git/MERGE_MSG
+|4,39,2,0,1676599649,"~/dev/almacen/.git/MERGE_MSG"
+-'  2  0  ~/dev/almacen/.git/MERGE_MSG
+|4,39,2,0,1676599649,"~/dev/almacen/.git/MERGE_MSG"
+-'  2  0  ~/dev/almacen/.git/MERGE_MSG
+|4,39,2,0,1676599649,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  35  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,35,1675723041,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  35  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,35,1675723041,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  35  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,35,1675723041,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  35  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,35,1675723041,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  35  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,35,1675723041,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  35  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,35,1675723041,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  35  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,35,1675723041,"~/dev/almacen/.git/MERGE_MSG"
 -'  1  35  ~/dev/almacen/.git/MERGE_MSG
 |4,39,1,35,1675723041,"~/dev/almacen/.git/MERGE_MSG"
 -'  8  34  ~/dev/almacen/.git/MERGE_MSG
 |4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
 -'  8  34  ~/dev/almacen/.git/MERGE_MSG
 |4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
+-'  8  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,8,34,1675718168,"~/dev/almacen/.git/MERGE_MSG"
 -'  9  34  ~/dev/almacen/.git/MERGE_MSG
 |4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
 -'  9  34  ~/dev/almacen/.git/MERGE_MSG
 |4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  9  34  ~/dev/almacen/.git/MERGE_MSG
+|4,39,9,34,1675718167,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  0  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,0,1675718152,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  0  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,0,1675718152,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  0  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,0,1675718152,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  0  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,0,1675718152,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  0  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,0,1675718152,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  0  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,0,1675718152,"~/dev/almacen/.git/MERGE_MSG"
+-'  1  0  ~/dev/almacen/.git/MERGE_MSG
+|4,39,1,0,1675718152,"~/dev/almacen/.git/MERGE_MSG"
 -'  1  0  ~/dev/almacen/.git/MERGE_MSG
 |4,39,1,0,1675718152,"~/dev/almacen/.git/MERGE_MSG"
 -'  1  0  ~/dev/ssw/NERD_tree_1
@@ -736,196 +1047,43 @@ $am
 |4,39,1,0,1673741281,"~/dev/ssw/NERD_tree_1"
 -'  1  0  ~/dev/ssw/NERD_tree_1
 |4,39,1,0,1673741281,"~/dev/ssw/NERD_tree_1"
--'  25  2  ~/dev/ssw/NERD_tree_1
-|4,39,25,2,1673741277,"~/dev/ssw/NERD_tree_1"
--'  25  2  ~/dev/ssw/NERD_tree_1
-|4,39,25,2,1673741277,"~/dev/ssw/NERD_tree_1"
--'  25  2  ~/dev/ssw/NERD_tree_1
-|4,39,25,2,1673741277,"~/dev/ssw/NERD_tree_1"
--'  25  2  ~/dev/ssw/NERD_tree_1
-|4,39,25,2,1673741277,"~/dev/ssw/NERD_tree_1"
--'  62  0  ~/.config/xfce4/terminal/accels.scm
-|4,39,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
--'  62  0  ~/.config/xfce4/terminal/accels.scm
-|4,39,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
--'  62  0  ~/.config/xfce4/terminal/accels.scm
-|4,39,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
--'  62  0  ~/.config/xfce4/terminal/accels.scm
-|4,39,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
--'  62  0  ~/.config/xfce4/terminal/accels.scm
-|4,39,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
--'  62  0  ~/.config/xfce4/terminal/accels.scm
-|4,39,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
--'  62  0  ~/.config/xfce4/terminal/accels.scm
-|4,39,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
--'  62  0  ~/.config/xfce4/terminal/accels.scm
-|4,39,62,0,1673566784,"~/.config/xfce4/terminal/accels.scm"
--'  1  0  ~/.config/xfce4/terminal/accels.scm
-|4,39,1,0,1673566775,"~/.config/xfce4/terminal/accels.scm"
--'  1  0  ~/.config/xfce4/terminal/accels.scm
-|4,39,1,0,1673566775,"~/.config/xfce4/terminal/accels.scm"
--'  1  0  ~/.config/xfce4/terminal/accels.scm
-|4,39,1,0,1673566775,"~/.config/xfce4/terminal/accels.scm"
--'  1  0  ~/.config/xfce4/terminal/accels.scm
-|4,39,1,0,1673566775,"~/.config/xfce4/terminal/accels.scm"
--'  1  0  ~/.config/xfce4/terminal/accels.scm
-|4,39,1,0,1673566775,"~/.config/xfce4/terminal/accels.scm"
--'  1  0  ~/.config/xfce4/terminal/accels.scm
-|4,39,1,0,1673566775,"~/.config/xfce4/terminal/accels.scm"
--'  1  0  ~/.config/xfce4/terminal/accels.scm
-|4,39,1,0,1673566775,"~/.config/xfce4/terminal/accels.scm"
--'  1  0  ~/.config/xfce4/terminal/accels.scm
-|4,39,1,0,1673566775,"~/.config/xfce4/terminal/accels.scm"
--'  26  0  ~/dotfile
-|4,39,26,0,1673524142,"~/dotfile"
--'  26  0  ~/dotfile
-|4,39,26,0,1673524142,"~/dotfile"
--'  26  0  ~/dotfile
-|4,39,26,0,1673524142,"~/dotfile"
--'  26  0  ~/dotfile
-|4,39,26,0,1673524142,"~/dotfile"
--'  26  0  ~/dotfile
-|4,39,26,0,1673524142,"~/dotfile"
--'  26  0  ~/dotfile
-|4,39,26,0,1673524142,"~/dotfile"
--'  26  0  ~/dotfile
-|4,39,26,0,1673524142,"~/dotfile"
--'  26  0  ~/dotfile
-|4,39,26,0,1673524142,"~/dotfile"
--'  26  0  ~/dotfile
-|4,39,26,0,1673524142,"~/dotfile"
--'  26  0  ~/dotfile
-|4,39,26,0,1673524142,"~/dotfile"
--'  26  0  ~/dotfile
-|4,39,26,0,1673524142,"~/dotfile"
--'  26  0  ~/dotfile
-|4,39,26,0,1673524142,"~/dotfile"
--'  26  0  ~/dotfile
-|4,39,26,0,1673524142,"~/dotfile"
--'  26  0  ~/dotfile
-|4,39,26,0,1673524142,"~/dotfile"
--'  26  0  ~/dotfile
-|4,39,26,0,1673524142,"~/dotfile"
--'  26  0  ~/dotfile
-|4,39,26,0,1673524142,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1673524138,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1673524138,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1673524138,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1673524138,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1673524138,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1673524138,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1673524138,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1673524138,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1673524138,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1673524138,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1673524138,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1673524138,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1673524138,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1673524138,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1673524138,"~/dotfile"
--'  1  0  ~/dotfile
-|4,39,1,0,1673524138,"~/dotfile"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  428  25  ~/.config/nvim/init.lua
-|4,39,428,25,1672368213,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1672368210,"~/.config/nvim/init.lua"
+-'  1  0  ~/dev/ssw/NERD_tree_1
+|4,39,1,0,1673741281,"~/dev/ssw/NERD_tree_1"
+-'  1  0  ~/dev/ssw/NERD_tree_1
+|4,39,1,0,1673741281,"~/dev/ssw/NERD_tree_1"
+-'  1  0  ~/dev/ssw/NERD_tree_1
+|4,39,1,0,1673741281,"~/dev/ssw/NERD_tree_1"
+-'  1  0  ~/dev/ssw/NERD_tree_1
+|4,39,1,0,1673741281,"~/dev/ssw/NERD_tree_1"
+-'  1  0  ~/dev/ssw/NERD_tree_1
+|4,39,1,0,1673741281,"~/dev/ssw/NERD_tree_1"
+-'  1  0  ~/dev/ssw/NERD_tree_1
+|4,39,1,0,1673741281,"~/dev/ssw/NERD_tree_1"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
 
+> ~/.config/nvim/init.lua
+	*	1677033348	0
+	"	60	13
+	^	376	162
+	.	376	161
+	+	273	25
+	+	14	0
+	+	16	0
+	+	269	0
+	+	273	0
+	+	272	0
+	+	62	47
+	+	376	161
+
 > ~/dev/almacen/.git/MERGE_MSG
-	*	1675723040	0
+	*	1676599663	0
 	"	1	35
 	^	1	36
 	.	1	35
 	+	8	34
 	+	9	0
+	+	2	0
 	+	1	35
 
 > ~/dev/ssw/NERD_tree_1
@@ -945,13 +1103,6 @@ $am
 	.	26	0
 	+	24	13
 	+	26	0
-
-> ~/.config/nvim/init.lua
-	*	1672368212	0
-	"	428	25
-	^	428	26
-	.	428	25
-	+	428	25
 
 > ~/.ssh/config
 	*	1671146098	0

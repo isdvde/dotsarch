@@ -107,8 +107,8 @@ layouts = [
         border_focus_stack=["#1793d1"],
         border_normal_stack=["#444444"],
         border_width=2,
-        margin_on_single=0,
-        margin=2
+        margin_on_single=6,
+        margin=6
     ),
     layout.Max(),
     # Try more layouts by unleashing below layouts.
@@ -159,7 +159,7 @@ screens = [
             15,
             background="#222222",
             opacity=0.9,
-            margin=2
+            margin=4
         ),
     ),
 ]
