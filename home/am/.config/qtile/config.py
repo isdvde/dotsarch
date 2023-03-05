@@ -63,15 +63,15 @@ keys = [
 
 # groups = [Group(i) for i in "123456789"]
 groups = [
-        Group("1", label="1:terms"),
-        Group("2", label="2:www"),
-        Group("3", label="3:files"),
-        Group("4", label="4:tools"),
-        Group("5", label="5:remote"),
-        Group("6"),
-        Group("7"),
-        Group("8"),
-        Group("9")
+        Group("1", label="1:terms", position=1),
+        Group("2", label="2:www", position=2),
+        Group("3", label="3:files", position=3),
+        Group("4", label="4:tools", position=4),
+        Group("5", label="5:remote", position=5),
+        Group("6", position=6),
+        Group("7", position=7),
+        Group("8", position=8),
+        Group("9", position=9)
 ]
 
 for i in groups:

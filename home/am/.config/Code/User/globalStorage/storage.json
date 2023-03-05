@@ -1,45 +1,108 @@
 {
-    "telemetry.machineId": "da20a978eb13cdc62103a97e32ea9923c3f6e88726c94fa781d2f851efe4ecad",
+    "telemetry.machineId": "bc1887e24c42a06783ec61407aebc3505e05ab231ccd71c95ced48017b9494a4",
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "windowSplash": {
+        "zoomLevel": -1,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1e1e1e",
+            "editorBackground": "#1e1e1e",
+            "titleBarBackground": "#3c3c3c",
+            "activityBarBackground": "#333333",
+            "sideBarBackground": "#252526",
+            "statusBarBackground": "#007acc",
+            "statusBarNoFolderBackground": "#68217a"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 0,
+            "activityBarWidth": 48,
+            "sideBarWidth": 429,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/am/dev/almacen",
+            "backupPath": "/home/am/.config/Code/Backups/a161de31a544512f73b4bcc008c3bf80",
+            "uiState": {
+                "mode": 1,
+                "x": 0,
+                "y": 0,
+                "width": 1368,
+                "height": 745
+            }
+        },
+        "openedWindows": []
+    },
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/am/dev/almacen"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1677375921751"
+            }
+        ]
+    },
+    "windowControlHeight": 30,
+    "userDataProfilesMigration": true,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///c%3A/Users/usuario1/Desktop/web-video/dibujo-node": "__default__profile__",
+            "file:///c%3A/laragon/www/ssw": "__default__profile__",
+            "file:///c%3A/laragon/www/almacenprueba": "__default__profile__",
+            "file:///home/am/dev/almacen": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "profileAssociationsMigration": true,
     "lastKnownMenubarData": {
         "menus": {
             "File": {
                 "items": [
                     {
                         "id": "workbench.action.files.newUntitledFile",
-                        "label": "&&Nuevo archivo de texto"
+                        "label": "&&New Text File"
                     },
                     {
                         "id": "welcome.showNewFileEntries",
-                        "label": "Nuevo archivo..."
+                        "label": "New File..."
                     },
                     {
                         "id": "workbench.action.newWindow",
-                        "label": "&&Nueva ventana"
+                        "label": "New &&Window"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "workbench.action.files.openFile",
-                        "label": "&&Abrir archivo..."
+                        "label": "&&Open File..."
                     },
                     {
                         "id": "workbench.action.files.openFolder",
-                        "label": "Abrir &&carpeta..."
+                        "label": "Open &&Folder..."
                     },
                     {
                         "id": "workbench.action.openWorkspace",
-                        "label": "Abrir área de t&&rabajo desde archivo..."
+                        "label": "Open Wor&&kspace from File..."
                     },
                     {
-                        "id": "submenuitem.36",
-                        "label": "Abrir &&reciente",
+                        "id": "submenuitem.MenubarRecentMenu",
+                        "label": "Open &&Recent",
                         "submenu": {
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Volver a abrir el editor cerrado",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -48,25 +111,117 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/home/am/dev/node/users",
+                                        "external": "file:///home/am/dev/almacen",
+                                        "path": "/home/am/dev/almacen",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/dev/node/users"
+                                    "label": "~/dev/almacen"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///c%3A/laragon/www/almacenprueba",
+                                        "path": "/c:/laragon/www/almacenprueba",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/c:/laragon/www/almacenprueba"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///c%3A/laragon/www/ssw",
+                                        "path": "/c:/laragon/www/ssw",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/c:/laragon/www/ssw"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///c%3A/Users/usuario1/Desktop/web-video/dibujo-node",
+                                        "path": "/c:/Users/usuario1/Desktop/web-video/dibujo-node",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/c:/Users/usuario1/Desktop/web-video/dibujo-node"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///c%3A/Users/usuario1/Desktop/web-video/jwt",
+                                        "path": "/c:/Users/usuario1/Desktop/web-video/jwt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/c:/Users/usuario1/Desktop/web-video/jwt"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///c%3A/Users/usuario1/Desktop/web-video/nodejs-websockets-drawing",
+                                        "path": "/c:/Users/usuario1/Desktop/web-video/nodejs-websockets-drawing",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/c:/Users/usuario1/Desktop/web-video/nodejs-websockets-drawing"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///c%3A/Users/usuario1/Desktop/node_modules",
+                                        "path": "/c:/Users/usuario1/Desktop/node_modules",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/c:/Users/usuario1/Desktop/node_modules"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///c%3A/Users/usuario1/Desktop/web-video/dibujo-node/src/index.js",
+                                        "path": "/c:/Users/usuario1/Desktop/web-video/dibujo-node/src/index.js",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/c:/Users/usuario1/Desktop/web-video/dibujo-node/src/index.js"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///c%3A/Users/usuario1/Desktop/web-video/dibujo-node/package.json",
+                                        "path": "/c:/Users/usuario1/Desktop/web-video/dibujo-node/package.json",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/c:/Users/usuario1/Desktop/web-video/dibujo-node/package.json"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.openRecent",
-                                    "label": "&&Más..."
+                                    "label": "&&More..."
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.clearRecentFiles",
-                                    "label": "&&Borrar abierto recientemente"
+                                    "label": "&&Clear Recently Opened"
                                 }
                             ]
                         }
@@ -76,99 +231,155 @@
                     },
                     {
                         "id": "addRootFolder",
-                        "label": "A&&gregar carpeta al área de trabajo..."
+                        "label": "A&&dd Folder to Workspace..."
                     },
                     {
                         "id": "workbench.action.saveWorkspaceAs",
-                        "label": "Guardar área de trabajo como..."
+                        "label": "Save Workspace As..."
                     },
                     {
                         "id": "workbench.action.duplicateWorkspaceInNewWindow",
-                        "label": "Área de trabajo duplicada"
+                        "label": "Duplicate Workspace"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Guardar"
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Guardar &&como..."
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
-                        "label": "Guardar t&&odo",
+                        "label": "Save A&&ll",
                         "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "workbench.action.toggleAutoSave",
-                        "label": "A&&utoguardado"
-                    },
-                    {
-                        "id": "submenuitem.35",
-                        "label": "&&Preferencias",
+                        "id": "submenuitem.MenubarShare",
+                        "label": "Share",
                         "submenu": {
                             "items": [
                                 {
+                                    "id": "workbench.profiles.actions.exportProfile",
+                                    "label": "Export Profile (Default)..."
+                                },
+                                {
+                                    "id": "workbench.profiles.actions.importProfile",
+                                    "label": "Import Profile..."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "workbench.action.toggleAutoSave",
+                        "label": "A&&uto Save"
+                    },
+                    {
+                        "id": "submenuitem.MenubarPreferencesMenu",
+                        "label": "&&Preferences",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "submenuitem.Profiles",
+                                    "label": "Profiles (Default)",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.profiles.actions.profileEntry.__default__profile__",
+                                                "label": "Default",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "vscode.menubar.separator"
+                                            },
+                                            {
+                                                "id": "workbench.profiles.actions.showProfileContents",
+                                                "label": "Show Contents..."
+                                            },
+                                            {
+                                                "id": "vscode.menubar.separator"
+                                            },
+                                            {
+                                                "id": "workbench.profiles.actions.createProfile",
+                                                "label": "Create Profile..."
+                                            },
+                                            {
+                                                "id": "workbench.profiles.actions.deleteProfile",
+                                                "label": "Delete Profile...",
+                                                "enabled": false
+                                            },
+                                            {
+                                                "id": "vscode.menubar.separator"
+                                            },
+                                            {
+                                                "id": "workbench.profiles.actions.exportProfile",
+                                                "label": "Export Profile..."
+                                            },
+                                            {
+                                                "id": "workbench.profiles.actions.importProfile",
+                                                "label": "Import Profile..."
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.openSettings",
-                                    "label": "&&Configuración"
-                                },
-                                {
-                                    "id": "settings.filterByOnline",
-                                    "label": "&&Configuración de los servicios en línea"
-                                },
-                                {
-                                    "id": "settings.filterByTelemetry",
-                                    "label": "Configuración de telemetría"
+                                    "label": "&&Settings"
                                 },
                                 {
                                     "id": "workbench.view.extensions",
-                                    "label": "&&Extensiones"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
+                                    "label": "&&Extensions"
                                 },
                                 {
                                     "id": "workbench.action.openGlobalKeybindings",
-                                    "label": "Métodos abreviados de teclado"
-                                },
-                                {
-                                    "id": "workbench.extensions.action.showRecommendedKeymapExtensions",
-                                    "label": "&&Migrar métodos abreviados de teclado desde..."
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
+                                    "label": "Keyboard Shortcuts"
                                 },
                                 {
                                     "id": "workbench.action.openSnippets",
-                                    "label": "Configurar fragmentos de usuario "
+                                    "label": "Configure User Snippets"
+                                },
+                                {
+                                    "id": "submenuitem.ThemesSubMenu",
+                                    "label": "&&Theme",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.selectTheme",
+                                                "label": "Color Theme"
+                                            },
+                                            {
+                                                "id": "workbench.action.selectIconTheme",
+                                                "label": "File Icon Theme"
+                                            },
+                                            {
+                                                "id": "workbench.action.selectProductIconTheme",
+                                                "label": "Product Icon Theme"
+                                            }
+                                        ]
+                                    }
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.action.selectTheme",
-                                    "label": "&&Tema de color"
+                                    "id": "settings.filterByOnline",
+                                    "label": "&&Online Services Settings"
                                 },
                                 {
-                                    "id": "workbench.action.selectIconTheme",
-                                    "label": "Tema de &&icono de archivo"
-                                },
-                                {
-                                    "id": "workbench.action.selectProductIconTheme",
-                                    "label": "&&Tema del icono del producto"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "workbench.userDataSync.actions.turnOn",
-                                    "label": "Activar sincronización de configuración..."
+                                    "id": "settings.filterByTelemetry",
+                                    "label": "Telemetry Settings"
                                 }
                             ]
                         }
@@ -178,22 +389,26 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Revertir a&&rchivo"
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Cerrar editor"
+                        "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
-                        "label": "C&&errar ventana"
+                        "label": "Clos&&e Window"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "workbench.action.quit",
-                        "label": "S&&alir"
+                        "label": "E&&xit"
                     }
                 ]
             },
@@ -201,63 +416,87 @@
                 "items": [
                     {
                         "id": "undo",
-                        "label": "&&Deshacer"
+                        "label": "&&Undo"
                     },
                     {
                         "id": "redo",
-                        "label": "&&Rehacer"
+                        "label": "&&Redo"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "editor.action.clipboardCutAction",
-                        "label": "Cor&&tar"
+                        "label": "Cu&&t"
                     },
                     {
                         "id": "editor.action.clipboardCopyAction",
-                        "label": "&&Copiar"
+                        "label": "&&Copy"
+                    },
+                    {
+                        "id": "submenuitem.MenubarCopy",
+                        "label": "Copy As",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "gitlens.copyRemoteFileUrlToClipboard",
+                                    "label": "Copy Remote File URL"
+                                },
+                                {
+                                    "id": "gitlens.copyRemoteFileUrlToClipboard",
+                                    "label": "Copy Remote File URL"
+                                },
+                                {
+                                    "id": "gitlens.copyRemoteFileUrlFrom",
+                                    "label": "Copy Remote File URL From..."
+                                },
+                                {
+                                    "id": "gitlens.copyRemoteFileUrlFrom",
+                                    "label": "Copy Remote File URL From..."
+                                }
+                            ]
+                        }
                     },
                     {
                         "id": "editor.action.clipboardPasteAction",
-                        "label": "&&Pegar"
+                        "label": "&&Paste"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Buscar"
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Reemplazar"
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "workbench.action.findInFiles",
-                        "label": "Buscar &&en archivos"
+                        "label": "Find &&in Files"
                     },
                     {
                         "id": "workbench.action.replaceInFiles",
-                        "label": "Reemplazar &&en archivos"
+                        "label": "Replace in Files"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "editor.action.commentLine",
-                        "label": "&&Alternar comentario de línea"
+                        "label": "&&Toggle Line Comment"
                     },
                     {
                         "id": "editor.action.blockComment",
-                        "label": "Alternar &&bloque de comentario"
+                        "label": "Toggle &&Block Comment"
                     },
                     {
                         "id": "editor.emmet.action.expandAbbreviation",
-                        "label": "Emmet: E&&xpandir abreviación"
+                        "label": "Emmet: E&&xpand Abbreviation"
                     }
                 ]
             },
@@ -265,76 +504,76 @@
                 "items": [
                     {
                         "id": "editor.action.selectAll",
-                        "label": "&&Seleccionar todo"
+                        "label": "&&Select All"
                     },
                     {
                         "id": "editor.action.smartSelect.expand",
-                        "label": "&&Expandir selección"
+                        "label": "&&Expand Selection"
                     },
                     {
                         "id": "editor.action.smartSelect.shrink",
-                        "label": "&&Reducir selección"
+                        "label": "&&Shrink Selection"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "editor.action.copyLinesUpAction",
-                        "label": "&&Copiar línea arriba"
+                        "label": "&&Copy Line Up"
                     },
                     {
                         "id": "editor.action.copyLinesDownAction",
-                        "label": "Co&&piar línea abajo"
+                        "label": "Co&&py Line Down"
                     },
                     {
                         "id": "editor.action.moveLinesUpAction",
-                        "label": "Mo&&ver línea arriba"
+                        "label": "Mo&&ve Line Up"
                     },
                     {
                         "id": "editor.action.moveLinesDownAction",
-                        "label": "Mover &&línea abajo"
+                        "label": "Move &&Line Down"
                     },
                     {
                         "id": "editor.action.duplicateSelection",
-                        "label": "&&Duplicar selección"
+                        "label": "&&Duplicate Selection"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "editor.action.insertCursorAbove",
-                        "label": "&&Agregar cursor arriba"
+                        "label": "&&Add Cursor Above"
                     },
                     {
                         "id": "editor.action.insertCursorBelow",
-                        "label": "A&&gregar cursor abajo"
+                        "label": "A&&dd Cursor Below"
                     },
                     {
                         "id": "editor.action.insertCursorAtEndOfEachLineSelected",
-                        "label": "Agregar c&&ursores a extremos de línea"
+                        "label": "Add C&&ursors to Line Ends"
                     },
                     {
                         "id": "editor.action.addSelectionToNextFindMatch",
-                        "label": "Agregar &&siguiente repetición"
+                        "label": "Add &&Next Occurrence"
                     },
                     {
                         "id": "editor.action.addSelectionToPreviousFindMatch",
-                        "label": "Agregar r&&epetición anterior"
+                        "label": "Add P&&revious Occurrence"
                     },
                     {
                         "id": "editor.action.selectHighlights",
-                        "label": "Seleccionar todas las &&repeticiones"
+                        "label": "Select All &&Occurrences"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "workbench.action.toggleMultiCursorModifier",
-                        "label": "Cambiar a Alt+Clic para cursor múltiple"
+                        "label": "Switch to Ctrl+Click for Multi-Cursor"
                     },
                     {
                         "id": "editor.action.toggleColumnSelection",
-                        "label": "Modo de &&selección de columna"
+                        "label": "Column &&Selection Mode"
                     }
                 ]
             },
@@ -342,202 +581,225 @@
                 "items": [
                     {
                         "id": "workbench.action.showCommands",
-                        "label": "&&Paleta de comandos..."
+                        "label": "&&Command Palette..."
                     },
                     {
                         "id": "workbench.action.openView",
-                        "label": "&&Abrir vista..."
+                        "label": "&&Open View..."
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.24",
-                        "label": "&&Apariencia",
+                        "id": "submenuitem.MenubarAppearanceMenu",
+                        "label": "&&Appearance",
                         "submenu": {
                             "items": [
                                 {
                                     "id": "workbench.action.toggleFullScreen",
-                                    "label": "&&Pantalla completa"
+                                    "label": "&&Full Screen"
                                 },
                                 {
                                     "id": "workbench.action.toggleZenMode",
-                                    "label": "Modo zen"
+                                    "label": "Zen Mode"
                                 },
                                 {
                                     "id": "workbench.action.toggleCenteredLayout",
-                                    "label": "&&Diseño centrado"
+                                    "label": "&&Centered Layout"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.toggleMenuBar",
-                                    "label": "Mostrar barra de &&menús",
+                                    "label": "Menu &&Bar",
                                     "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Mostrar barra lateral &&principal"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
-                                    "label": "Mostrar barra la&&teral secundaria"
+                                    "label": "Secondary Si&&de Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
-                                    "label": "Mostrar barra de e&&stado",
+                                    "label": "S&&tatus Bar",
                                     "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleActivityBarVisibility",
-                                    "label": "Mostrar &&barra de actividades",
+                                    "label": "&&Activity Bar",
                                     "checked": true
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Mostrar &&panel"
+                                    "label": "&&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarPosition",
-                                    "label": "&&Mover barra lateral principal a la derecha"
+                                    "label": "&&Move Primary Side Bar Right"
                                 },
                                 {
-                                    "id": "submenuitem.34",
-                                    "label": "Posición del panel",
+                                    "id": "submenuitem.PanelPositionMenu",
+                                    "label": "Panel Position",
                                     "submenu": {
                                         "items": [
                                             {
-                                                "id": "workbench.action.positionPanelRight",
-                                                "label": "Derecha"
-                                            },
-                                            {
                                                 "id": "workbench.action.positionPanelBottom",
-                                                "label": "Inferior",
+                                                "label": "Bottom",
                                                 "checked": true
                                             },
                                             {
                                                 "id": "workbench.action.positionPanelLeft",
-                                                "label": "Izquierda"
+                                                "label": "Left"
+                                            },
+                                            {
+                                                "id": "workbench.action.positionPanelRight",
+                                                "label": "Right"
                                             }
                                         ]
                                     }
                                 },
                                 {
-                                    "id": "submenuitem.33",
-                                    "label": "Alinear panel",
+                                    "id": "submenuitem.PanelAlignmentMenu",
+                                    "label": "Align Panel",
                                     "submenu": {
                                         "items": [
                                             {
                                                 "id": "workbench.action.alignPanelCenter",
-                                                "label": "Centrar",
+                                                "label": "Center",
                                                 "checked": true
                                             },
                                             {
-                                                "id": "workbench.action.alignPanelRight",
-                                                "label": "Derecha"
+                                                "id": "workbench.action.alignPanelJustify",
+                                                "label": "Justify"
                                             },
                                             {
                                                 "id": "workbench.action.alignPanelLeft",
-                                                "label": "Izquierda"
+                                                "label": "Left"
                                             },
                                             {
-                                                "id": "workbench.action.alignPanelJustify",
-                                                "label": "Justificar"
+                                                "id": "workbench.action.alignPanelRight",
+                                                "label": "Right"
                                             }
                                         ]
                                     }
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "editor.action.toggleMinimap",
+                                    "label": "&&Minimap"
+                                },
+                                {
+                                    "id": "breadcrumbs.toggle",
+                                    "label": "&&Breadcrumbs",
+                                    "checked": true
+                                },
+                                {
+                                    "id": "editor.action.toggleRenderWhitespace",
+                                    "label": "&&Render Whitespace",
+                                    "checked": true
+                                },
+                                {
+                                    "id": "editor.action.toggleRenderControlCharacter",
+                                    "label": "Render &&Control Characters",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.zoomIn",
-                                    "label": "&&Ampliar"
+                                    "label": "&&Zoom In"
                                 },
                                 {
                                     "id": "workbench.action.zoomOut",
-                                    "label": "&&Alejar"
+                                    "label": "&&Zoom Out"
                                 },
                                 {
                                     "id": "workbench.action.zoomReset",
-                                    "label": "&&Restablecer zoom"
+                                    "label": "&&Reset Zoom"
                                 }
                             ]
                         }
                     },
                     {
-                        "id": "submenuitem.31",
-                        "label": "Diseño del &&editor",
+                        "id": "submenuitem.MenubarLayoutMenu",
+                        "label": "Editor &&Layout",
                         "submenu": {
                             "items": [
                                 {
                                     "id": "workbench.action.splitEditorUp",
-                                    "label": "Dividir &&hacia arriba"
+                                    "label": "Split &&Up"
                                 },
                                 {
                                     "id": "workbench.action.splitEditorDown",
-                                    "label": "Dividir hacia a&&bajo"
+                                    "label": "Split &&Down"
                                 },
                                 {
                                     "id": "workbench.action.splitEditorLeft",
-                                    "label": "Dividir &&a la izquierda"
+                                    "label": "Split &&Left"
                                 },
                                 {
                                     "id": "workbench.action.splitEditorRight",
-                                    "label": "Dividir a la &&derecha"
+                                    "label": "Split &&Right"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Dividir en &&Grupo"
+                                    "label": "Split in &&Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.editorLayoutSingle",
-                                    "label": "&&Sencillo"
+                                    "label": "&&Single"
                                 },
                                 {
                                     "id": "workbench.action.editorLayoutTwoColumns",
-                                    "label": "&&Dos columnas"
+                                    "label": "&&Two Columns"
                                 },
                                 {
                                     "id": "workbench.action.editorLayoutThreeColumns",
-                                    "label": "T&&res columnas"
+                                    "label": "T&&hree Columns"
                                 },
                                 {
                                     "id": "workbench.action.editorLayoutTwoRows",
-                                    "label": "D&&os filas"
+                                    "label": "T&&wo Rows"
                                 },
                                 {
                                     "id": "workbench.action.editorLayoutThreeRows",
-                                    "label": "Tres &&filas"
+                                    "label": "Three &&Rows"
                                 },
                                 {
                                     "id": "workbench.action.editorLayoutTwoByTwoGrid",
-                                    "label": "&&Cuadrícula (2x2)"
+                                    "label": "&&Grid (2x2)"
                                 },
                                 {
                                     "id": "workbench.action.editorLayoutTwoRowsRight",
-                                    "label": "Dos fil&&as a la derecha"
+                                    "label": "Two R&&ows Right"
                                 },
                                 {
                                     "id": "workbench.action.editorLayoutTwoColumnsBottom",
-                                    "label": "Botón de dos &&columnas"
+                                    "label": "Two &&Columns Bottom"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.toggleEditorGroupLayout",
-                                    "label": "Invertir &&diseño"
+                                    "label": "Flip &&Layout"
                                 }
                             ]
                         }
@@ -547,38 +809,38 @@
                     },
                     {
                         "id": "workbench.view.explorer",
-                        "label": "&&Explorador"
+                        "label": "&&Explorer"
                     },
                     {
                         "id": "workbench.view.search",
-                        "label": "&&Buscar"
+                        "label": "&&Search"
                     },
                     {
                         "id": "workbench.view.scm",
-                        "label": "&&Control de código fuente"
+                        "label": "Source &&Control"
                     },
                     {
                         "id": "workbench.view.debug",
-                        "label": "&&Ejecutar"
+                        "label": "&&Run"
                     },
                     {
                         "id": "workbench.view.extensions",
-                        "label": "E&&xtensiones"
+                        "label": "E&&xtensions"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "workbench.actions.view.problems",
-                        "label": "&&Problemas"
+                        "label": "&&Problems"
                     },
                     {
                         "id": "workbench.action.output.toggleOutput",
-                        "label": "&&Salida"
+                        "label": "&&Output"
                     },
                     {
                         "id": "workbench.debug.action.toggleRepl",
-                        "label": "Consola de de&&puración"
+                        "label": "De&&bug Console"
                     },
                     {
                         "id": "workbench.action.terminal.toggleTerminal",
@@ -589,26 +851,11 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Ajuste de palabra",
-                        "checked": true
+                        "label": "&&Word Wrap"
                     },
                     {
-                        "id": "editor.action.toggleMinimap",
-                        "label": "Mostrar &&minimapa",
-                        "checked": true
-                    },
-                    {
-                        "id": "breadcrumbs.toggle",
-                        "label": "Mostrar rutas de &&navegación"
-                    },
-                    {
-                        "id": "editor.action.toggleRenderWhitespace",
-                        "label": "&&Representar espacio en blanco"
-                    },
-                    {
-                        "id": "editor.action.toggleRenderControlCharacter",
-                        "label": "Representar &&caracteres de control",
-                        "checked": true
+                        "id": "editor.action.toggleStickyScroll",
+                        "label": "&&Sticky Scroll"
                     }
                 ]
             },
@@ -616,123 +863,132 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Atrás"
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
-                        "label": "&&Reenviar",
+                        "label": "&&Forward",
                         "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Última ubicación de edición"
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.38",
-                        "label": "Cambiar &&editor",
+                        "id": "submenuitem.MenubarSwitchEditorMenu",
+                        "label": "Switch &&Editor",
                         "submenu": {
                             "items": [
                                 {
                                     "id": "workbench.action.nextEditor",
-                                    "label": "&&Editor siguiente"
+                                    "label": "&&Next Editor"
                                 },
                                 {
                                     "id": "workbench.action.previousEditor",
-                                    "label": "&&Editor anterior"
+                                    "label": "&&Previous Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.openNextRecentlyUsedEditor",
-                                    "label": "&&Siguiente Editor usado"
+                                    "label": "&&Next Used Editor"
                                 },
                                 {
                                     "id": "workbench.action.openPreviousRecentlyUsedEditor",
-                                    "label": "&&Editor usado anterior"
+                                    "label": "&&Previous Used Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.nextEditorInGroup",
-                                    "label": "&&Próximo editor en grupo"
+                                    "label": "&&Next Editor in Group"
                                 },
                                 {
                                     "id": "workbench.action.previousEditorInGroup",
-                                    "label": "&&Editor anterior en el grupo"
+                                    "label": "&&Previous Editor in Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.openNextRecentlyUsedEditorInGroup",
-                                    "label": "&&Editor siguiente usado del grupo"
+                                    "label": "&&Next Used Editor in Group"
                                 },
                                 {
                                     "id": "workbench.action.openPreviousRecentlyUsedEditorInGroup",
-                                    "label": "&&Editor anterior usado del grupo"
+                                    "label": "&&Previous Used Editor in Group"
                                 }
                             ]
                         }
                     },
                     {
-                        "id": "submenuitem.39",
-                        "label": "Cambiar &&grupo",
+                        "id": "submenuitem.MenubarSwitchGroupMenu",
+                        "label": "Switch &&Group",
                         "submenu": {
                             "items": [
                                 {
                                     "id": "workbench.action.focusFirstEditorGroup",
-                                    "label": "Grupo &&1"
+                                    "label": "Group &&1"
                                 },
                                 {
                                     "id": "workbench.action.focusSecondEditorGroup",
-                                    "label": "Grupo &&2"
+                                    "label": "Group &&2"
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Agrupar &&3"
+                                    "label": "Group &&3",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Grupo &&4"
+                                    "label": "Group &&4",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Grupo &&5"
+                                    "label": "Group &&5",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Grupo siguiente"
+                                    "label": "&&Next Group",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Grupo anterior"
+                                    "label": "&&Previous Group",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Agrupar a la &&izquierda"
+                                    "label": "Group &&Left",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Agrupar a la &&derecha"
+                                    "label": "Group &&Right",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Agrupar &&arriba"
+                                    "label": "Group &&Above",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Agrupar &&debajo"
+                                    "label": "Group &&Below",
+                                    "enabled": false
                                 }
                             ]
                         }
@@ -742,71 +998,71 @@
                     },
                     {
                         "id": "workbench.action.quickOpen",
-                        "label": "Ir a &&archivo..."
+                        "label": "Go to &&File..."
                     },
                     {
                         "id": "workbench.action.showAllSymbols",
-                        "label": "Ir al símbolo en el área &&de trabajo..."
+                        "label": "Go to Symbol in &&Workspace..."
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "workbench.action.gotoSymbol",
-                        "label": "Ir al &&símbolo en el editor..."
+                        "label": "Go to &&Symbol in Editor..."
                     },
                     {
                         "id": "editor.action.revealDefinition",
-                        "label": "Ir a &&definición"
+                        "label": "Go to &&Definition"
                     },
                     {
                         "id": "editor.action.revealDeclaration",
-                        "label": "Ir a &&declaración"
+                        "label": "Go to &&Declaration"
                     },
                     {
                         "id": "editor.action.goToTypeDefinition",
-                        "label": "Ir a la definición de &&tipo"
+                        "label": "Go to &&Type Definition"
                     },
                     {
                         "id": "editor.action.goToImplementation",
-                        "label": "Ir a &&implementaciones"
+                        "label": "Go to &&Implementations"
                     },
                     {
                         "id": "editor.action.goToReferences",
-                        "label": "Ir a &&referencias"
+                        "label": "Go to &&References"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "workbench.action.gotoLine",
-                        "label": "Ir a la &&línea o columna..."
+                        "label": "Go to &&Line/Column..."
                     },
                     {
                         "id": "editor.action.jumpToBracket",
-                        "label": "Ir al &&corchete"
+                        "label": "Go to &&Bracket"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "editor.action.marker.nextInFiles",
-                        "label": "Siguiente &&problema"
+                        "label": "Next &&Problem"
                     },
                     {
                         "id": "editor.action.marker.prevInFiles",
-                        "label": "Anterior &&problema"
+                        "label": "Previous &&Problem"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "editor.action.dirtydiff.next",
-                        "label": "&&Cambio siguiente"
+                        "label": "Next &&Change"
                     },
                     {
                         "id": "editor.action.dirtydiff.previous",
-                        "label": "Cambio &&anterior"
+                        "label": "Previous &&Change"
                     }
                 ]
             },
@@ -814,20 +1070,20 @@
                 "items": [
                     {
                         "id": "workbench.action.debug.start",
-                        "label": "I&&niciar depuración"
+                        "label": "&&Start Debugging"
                     },
                     {
                         "id": "workbench.action.debug.run",
-                        "label": "Ejecutar &&sin depuración"
+                        "label": "Run &&Without Debugging"
                     },
                     {
                         "id": "workbench.action.debug.stop",
-                        "label": "&&Detener depuración",
+                        "label": "&&Stop Debugging",
                         "enabled": false
                     },
                     {
                         "id": "workbench.action.debug.restart",
-                        "label": "&&Reiniciar depuración",
+                        "label": "&&Restart Debugging",
                         "enabled": false
                     },
                     {
@@ -835,34 +1091,34 @@
                     },
                     {
                         "id": "workbench.action.debug.configure",
-                        "label": "Abrir &&configuraciones",
+                        "label": "Open &&Configurations",
                         "enabled": false
                     },
                     {
                         "id": "debug.addConfiguration",
-                        "label": "A&&gregar configuración..."
+                        "label": "A&&dd Configuration..."
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "workbench.action.debug.stepOver",
-                        "label": "Depurar paso a paso por proce&&dimientos",
+                        "label": "Step &&Over",
                         "enabled": false
                     },
                     {
                         "id": "workbench.action.debug.stepInto",
-                        "label": "&&Depurar paso a paso por instrucciones",
+                        "label": "Step &&Into",
                         "enabled": false
                     },
                     {
                         "id": "workbench.action.debug.stepOut",
-                        "label": "Depurar paso a paso para &&salir",
+                        "label": "Step O&&ut",
                         "enabled": false
                     },
                     {
                         "id": "workbench.action.debug.continue",
-                        "label": "&&Continuar",
+                        "label": "&&Continue",
                         "enabled": false
                     },
                     {
@@ -870,28 +1126,32 @@
                     },
                     {
                         "id": "editor.debug.action.toggleBreakpoint",
-                        "label": "Alter&&nar punto de interrupción"
+                        "label": "Toggle &&Breakpoint"
                     },
                     {
-                        "id": "submenuitem.32",
-                        "label": "&&Nuevo punto de interrupción",
+                        "id": "submenuitem.MenubarNewBreakpointMenu",
+                        "label": "&&New Breakpoint",
                         "submenu": {
                             "items": [
                                 {
                                     "id": "editor.debug.action.conditionalBreakpoint",
-                                    "label": "Punto de interrupción &&condicional..."
+                                    "label": "&&Conditional Breakpoint..."
+                                },
+                                {
+                                    "id": "editor.debug.action.editBreakpoint",
+                                    "label": "&&Edit Breakpoint"
                                 },
                                 {
                                     "id": "editor.debug.action.toggleInlineBreakpoint",
-                                    "label": "P&&unto de interrupción en línea"
+                                    "label": "Inline Breakp&&oint"
                                 },
                                 {
                                     "id": "workbench.debug.viewlet.action.addFunctionBreakpointAction",
-                                    "label": "Punto de interrupción de &&función..."
+                                    "label": "&&Function Breakpoint..."
                                 },
                                 {
                                     "id": "editor.debug.action.addLogPoint",
-                                    "label": "&&Punto de registro..."
+                                    "label": "&&Logpoint..."
                                 }
                             ]
                         }
@@ -901,22 +1161,22 @@
                     },
                     {
                         "id": "workbench.debug.viewlet.action.enableAllBreakpoints",
-                        "label": "&&Habilitar todos los puntos de interrupción"
+                        "label": "&&Enable All Breakpoints"
                     },
                     {
                         "id": "workbench.debug.viewlet.action.disableAllBreakpoints",
-                        "label": "&&Deshabilitar todos los puntos de interrupción"
+                        "label": "Disable A&&ll Breakpoints"
                     },
                     {
                         "id": "workbench.debug.viewlet.action.removeAllBreakpoints",
-                        "label": "Quitar &&todos los puntos de interrupción"
+                        "label": "Remove &&All Breakpoints"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "debug.installAdditionalDebuggers",
-                        "label": "&&Instalar los depuradores adicionales..."
+                        "label": "&&Install Additional Debuggers..."
                     }
                 ]
             },
@@ -924,11 +1184,11 @@
                 "items": [
                     {
                         "id": "workbench.action.terminal.new",
-                        "label": "&&Nuevo terminal"
+                        "label": "&&New Terminal"
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Dividir terminal",
+                        "label": "&&Split Terminal",
                         "enabled": false
                     },
                     {
@@ -936,36 +1196,36 @@
                     },
                     {
                         "id": "workbench.action.tasks.runTask",
-                        "label": "&&Ejecutar tarea..."
+                        "label": "&&Run Task..."
                     },
                     {
                         "id": "workbench.action.tasks.build",
-                        "label": "Ejecutar &&tarea de compilación..."
+                        "label": "Run &&Build Task..."
                     },
                     {
                         "id": "workbench.action.terminal.runActiveFile",
-                        "label": "Ejecutar &&archivo activo"
+                        "label": "Run &&Active File"
                     },
                     {
                         "id": "workbench.action.terminal.runSelectedText",
-                        "label": "Ejecutar &&texto seleccionado"
+                        "label": "Run &&Selected Text"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "workbench.action.tasks.showTasks",
-                        "label": "Mostrar &&tareas en ejecución...",
+                        "label": "Show Runnin&&g Tasks...",
                         "enabled": false
                     },
                     {
                         "id": "workbench.action.tasks.restartTask",
-                        "label": "R&&reiniciar tarea en ejecución...",
+                        "label": "R&&estart Running Task...",
                         "enabled": false
                     },
                     {
                         "id": "workbench.action.tasks.terminate",
-                        "label": "&&Finalizar tarea...",
+                        "label": "&&Terminate Task...",
                         "enabled": false
                     },
                     {
@@ -973,11 +1233,11 @@
                     },
                     {
                         "id": "workbench.action.tasks.configureTaskRunner",
-                        "label": "&&Configurar tareas..."
+                        "label": "&&Configure Tasks..."
                     },
                     {
                         "id": "workbench.action.tasks.configureDefaultBuildTask",
-                        "label": "Configurar &&tarea de compilación predeterminada..."
+                        "label": "Configure De&&fault Build Task..."
                     }
                 ]
             },
@@ -985,82 +1245,82 @@
                 "items": [
                     {
                         "id": "workbench.action.openWalkthrough",
-                        "label": "Iniciar"
+                        "label": "Welcome"
                     },
                     {
                         "id": "workbench.action.showCommands",
-                        "label": "Mostrar todos los comandos"
-                    },
-                    {
-                        "id": "workbench.action.showInteractivePlayground",
-                        "label": "Área de jueg&&os del editor"
+                        "label": "Show All Commands"
                     },
                     {
                         "id": "workbench.action.openDocumentationUrl",
-                        "label": "&&Documentación"
+                        "label": "&&Documentation"
+                    },
+                    {
+                        "id": "workbench.action.showInteractivePlayground",
+                        "label": "Editor Playgrou&&nd"
                     },
                     {
                         "id": "update.showCurrentReleaseNotes",
-                        "label": "&&Notas de la versión"
+                        "label": "Show &&Release Notes"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "workbench.action.keybindingsReference",
-                        "label": "&&Referencia de métodos abreviados de teclado"
+                        "label": "&&Keyboard Shortcuts Reference"
                     },
                     {
                         "id": "workbench.action.openVideoTutorialsUrl",
-                        "label": "&&Tutoriales de vídeo"
+                        "label": "&&Video Tutorials"
                     },
                     {
                         "id": "workbench.action.openTipsAndTricksUrl",
-                        "label": "Consejos y tru&&cos"
+                        "label": "Tips and Tri&&cks"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "workbench.action.openTwitterUrl",
-                        "label": "&&Únase a nosotros en Twitter"
+                        "label": "&&Join Us on Twitter"
                     },
                     {
                         "id": "workbench.action.openRequestFeatureUrl",
-                        "label": "&&Buscar solicitudes de características"
+                        "label": "&&Search Feature Requests"
                     },
                     {
                         "id": "workbench.action.openIssueReporter",
-                        "label": "Reportar &&problema en inglés"
+                        "label": "Report &&Issue"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "workbench.action.openLicenseUrl",
-                        "label": "Ver &&licencia"
+                        "label": "View &&License"
                     },
                     {
                         "id": "workbench.action.openPrivacyStatementUrl",
-                        "label": "Declaración de privaci&&dad"
+                        "label": "Privac&&y Statement"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "workbench.action.toggleDevTools",
-                        "label": "Alternar herramientas de desarrollo"
+                        "label": "Toggle Developer Tools"
                     },
                     {
                         "id": "workbench.action.openProcessExplorer",
-                        "label": "Abrir &&explorador de procesos"
+                        "label": "Open &&Process Explorer"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "workbench.action.showAboutDialog",
-                        "label": "&&Acerca de"
+                        "label": "&&About"
                     }
                 ]
             }
@@ -1090,6 +1350,10 @@
             "workbench.action.reopenClosedEditor": {
                 "label": "Ctrl+Shift+T",
                 "userSettingsLabel": "ctrl+shift+t"
+            },
+            "workbench.action.openRecent": {
+                "label": "Ctrl+R",
+                "userSettingsLabel": "ctrl+r"
             },
             "workbench.action.files.save": {
                 "label": "Ctrl+S",
@@ -1121,6 +1385,11 @@
             "workbench.action.closeActiveEditor": {
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
+            },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
@@ -1167,12 +1436,12 @@
                 "userSettingsLabel": "ctrl+shift+h"
             },
             "editor.action.commentLine": {
-                "label": "Ctrl+Alt+Z",
-                "userSettingsLabel": "ctrl+alt+z"
+                "label": "Ctrl+Shift+7",
+                "userSettingsLabel": "ctrl+shift+7"
             },
             "editor.action.blockComment": {
-                "label": "Ctrl+Shift+Z",
-                "userSettingsLabel": "ctrl+shift+z"
+                "label": "Ctrl+Shift+A",
+                "userSettingsLabel": "ctrl+shift+a"
             },
             "editor.emmet.action.expandAbbreviation": {
                 "label": "Tab",
@@ -1199,12 +1468,12 @@
                 "userSettingsLabel": "ctrl+shift+alt+down"
             },
             "editor.action.moveLinesUpAction": {
-                "label": "Ctrl+Shift+Up",
-                "userSettingsLabel": "ctrl+shift+up"
+                "label": "Alt+Up",
+                "userSettingsLabel": "alt+up"
             },
             "editor.action.moveLinesDownAction": {
-                "label": "Ctrl+Shift+Down",
-                "userSettingsLabel": "ctrl+shift+down"
+                "label": "Alt+Down",
+                "userSettingsLabel": "alt+down"
             },
             "editor.action.insertCursorAbove": {
                 "label": "Shift+Alt+Up",
@@ -1279,8 +1548,9 @@
                 "userSettingsLabel": "ctrl+shift+f"
             },
             "workbench.view.scm": {
-                "label": "Ctrl+Shift+G",
-                "userSettingsLabel": "ctrl+shift+g"
+                "label": "Ctrl+Shift+G G",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+shift+g g"
             },
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
@@ -1309,7 +1579,7 @@
                 "userSettingsLabel": "ctrl+alt+-"
             },
             "workbench.action.navigateForward": {
-                "label": "Ctrl+Mayús+-",
+                "label": "Ctrl+Shift+-",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+shift+-"
             },
@@ -1381,8 +1651,8 @@
                 "userSettingsLabel": "ctrl+p"
             },
             "workbench.action.showAllSymbols": {
-                "label": "Ctrl+R",
-                "userSettingsLabel": "ctrl+r"
+                "label": "Ctrl+T",
+                "userSettingsLabel": "ctrl+t"
             },
             "workbench.action.gotoSymbol": {
                 "label": "Ctrl+Shift+O",
@@ -1483,42 +1753,5 @@
                 "userSettingsLabel": "ctrl+shift+i"
             }
         }
-    },
-    "theme": "vs-dark",
-    "themeBackground": "#272822",
-    "windowSplash": {
-        "baseTheme": "vs-dark",
-        "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#272822",
-            "editorBackground": "#272822",
-            "titleBarBackground": "#1e1f1c",
-            "activityBarBackground": "#272822",
-            "sideBarBackground": "#1e1f1c",
-            "statusBarBackground": "#414339",
-            "statusBarNoFolderBackground": "#414339"
-        },
-        "layoutInfo": {
-            "sideBarSide": "left",
-            "editorPartMinWidth": 220,
-            "titleBarHeight": 0,
-            "activityBarWidth": 48,
-            "sideBarWidth": 0,
-            "statusBarHeight": 22,
-            "windowBorder": false
-        }
-    },
-    "windowsState": {
-        "lastActiveWindow": {
-            "backupPath": "/home/am/.config/Code/Backups/1659575298460",
-            "uiState": {
-                "mode": 1,
-                "x": 2,
-                "y": 2,
-                "width": 1276,
-                "height": 716
-            }
-        },
-        "openedWindows": []
     }
 }
