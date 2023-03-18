@@ -136,6 +136,7 @@ screens = [
         bottom=bar.Bar(
             [
                 widget.CurrentLayout(),
+                widget.WindowCount(),
                 widget.GroupBox(
                     hide_unused=True,
                     active="#eeeeee",
@@ -148,10 +149,12 @@ screens = [
                     foreground="#eeeeee",
                 ),
                 widget.GenPollText(
-                    name = "Status",
-                    fmt = "{}", update_interval = 1,
-                    func = lambda: subprocess.check_output(os.path.expanduser('~')+"/.config/qtile/bar.sh").decode("utf-8"),
-                    padding = 2
+                    name="Status",
+                    fmt="{}", update_interval=1,
+                    func=lambda: subprocess.check_output(
+                        os.path.expanduser('~') +
+                        "/.config/qtile/bar.sh").decode("utf-8"),
+                    padding=2
 
                 ),
                 widget.Systray(),

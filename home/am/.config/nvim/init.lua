@@ -37,6 +37,7 @@ require('packer').startup(function(use)
   use 'tpope/vim-sleuth' -- Detect tabstop and shiftwidth automatically
   use 'ap/vim-css-color' -- CSS Color
   use 'jwalton512/vim-blade' -- Blade support nvim
+  use 'fannheyward/telescope-coc.nvim'
 
   use {
     'nvim-tree/nvim-tree.lua',
@@ -198,10 +199,17 @@ require('telescope').setup {
       },
     },
   },
+  extensions = {
+    coc = {
+        theme = 'ivy',
+        prefer_locations = true, -- always use Telescope locations to preview definitions/declarations/implementations etc
+    }
+  },
 }
 
 -- Enable telescope fzf native, if installed
 pcall(require('telescope').load_extension, 'fzf')
+pcall(require('telescope').load_extension, 'coc')
 
 -- [[ Configure Treesitter ]]
 -- See `:help nvim-treesitter`
@@ -293,7 +301,7 @@ require'nvim-treesitter.configs'.setup {
 require("nvim-autopairs").setup({
   enable_check_bracket_line = false,
   fast_wrap = {
-    map = '<Leader>e',
+    map = '<C-e>',
   },
 })
 
@@ -353,14 +361,17 @@ vim.keymap.set('n', '<C-Left>', '<C-w>h', { silent  = true })
 vim.keymap.set({ 'n', 'i' }, '<C-PageDown>', ':bn<cr>', { silent  = true })
 vim.keymap.set({ 'n', 'i' }, '<C-PageUp>', ':bp<cr>', { silent  = true })
 vim.keymap.set({ 'n', 'i' }, '<C-w>', ':bd<cr>', { silent  = true })
-vim.keymap.set({ 'n', 'i' }, '<leader><C-w>', ':bd!<cr>', { silent  = true })
+vim.keymap.set({ 'n'}, '<leader><C-w>', ':bd!<cr>', { silent  = true })
 
 -- Hop Keymap
-vim.keymap.set({'n', 'i'}, '<leader>h', ':HopWord<cr>', { silent  = true })
+vim.keymap.set({'n'}, '<leader>h', ':HopWord<cr>', { silent  = true })
 
 
-vim.keymap.set({'n'},'<leader>ds', ":<C-u>CocList outline<cr>", { silent  = true })
-vim.keymap.set({'n'},'<leader>ws', ":<C-u>CocList -I symbols", { silent  = true })
+-- vim.keymap.set({'n'},'<leader>ds', ":<C-u>CocList outline<cr>", { silent  = true })
+-- vim.keymap.set({'n'},'<leader>ws', ":<C-u>CocList -I symbols", { silent  = true })
+
+vim.keymap.set({'n'},'<leader>ds', ":<C-u>Telescope coc document_symbols<cr>", { silent  = true })
+vim.keymap.set({'n'},'<leader>ws', ":<C-u>Telescope coc workspace_symbols", { silent  = true })
 -- KEYMAPS ###############################################################
 
 -- COC
