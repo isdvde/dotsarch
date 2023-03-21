@@ -3,9 +3,10 @@
 #######################################################
 
 set $mod Mod4
-font pango:Sans 1
+font pango:Sans 0
 
-default_border pixel 2
+# default_border pixel 2
+default_border normal 0
 default_floating_border pixel 2
 #workspace_layout tabbed
 hide_edge_borders smart
@@ -105,8 +106,8 @@ bindsym Control+$mod+Right resize grow width 5 px or 5 ppt
 #i3 GAPS
 #######################################################
 
-#gaps outer 8
-#smart_borders on
+gaps inner 8
+smart_borders on
 
 
 #######################################################
@@ -161,27 +162,46 @@ bindsym $mod+Ctrl+0 [workspace=10] kill
 # Open void space
 bindsym $mod+Shift+Return exec "i3-msg open"
 
+set $whitec #ffffff
+set $bluec #005577
+set $greyc #444444
+set $normal #eeeeee
+set $cyanc #1793d1
+set $redc #900000
+set $blackc #000000
+
+
+# class                 border  backgr. text    indicator child_border
+client.focused          $bluec	$bluec	$whitec $cyanc   $bluec
+client.focused_inactive $greyc	$greyc	$whitec $greyc   $greyc
+client.unfocused        $greyc	$greyc	$normal $greyc   $grey
+client.urgent           $redc	$redc	$whitec $redc	 $redc
+client.placeholder      $blackc $blackc $whitec $blackc	 $blackc
+
+client.background       $whitec
 
 #######################################################
 #USER INIT APPS
 exec --no-startup-id bash ~/.config/i3/autostart
 #######################################################
 
-bar {
+exec_always --no-startup-id "~/.config/i3/lauch.sh"
 
-	i3bar_command i3bar -t
-	status_command exec ~/.config/i3/bar.sh
-	tray_output primary
-	#position top
-	font pango:Dejavu Sans Book 7
-	#height 15
-	#mode hide
-	hidden_state hide
-
-	colors {
-		background #000000BF
-	}
-}
-
-bindsym $mod+b bar mode toggle
+#bar {
+#
+#	i3bar_command i3bar -t
+#	status_command exec ~/.config/i3/bar.sh
+#	tray_output primary
+#	#position top
+#	font pango:Dejavu Sans Book 7
+#	#height 15
+#	#mode hide
+#	hidden_state hide
+#
+#	colors {
+#		background #000000BF
+#	}
+#}
+#
+#bindsym $mod+b bar mode toggle
 
