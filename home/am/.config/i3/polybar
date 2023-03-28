@@ -17,18 +17,18 @@
 ;==========================================================
 
 [colors]
-black = #bf000000
+black = #bf222222
 white = #ffffff
 blue = #d9005577
 grey = #444444
 red = #900000
 
 [bar/bar]
-width = 100%
+width = 80%
 height = 12pt
 bottom = true
-radius = 2
-
+radius = 4
+offset-x = 10%
 ; dpi = 96
 
 background = ${colors.black}
@@ -50,6 +50,7 @@ separator-foreground = ${colors.grey}
 font-0 = "Sans:size=7;2"
 
 modules-left = xworkspaces xwindow
+modules-center = date
 modules-right = info
 
 ; cursor-click = pointer
@@ -61,17 +62,17 @@ tray-position = right
 
 ; wm-restack = i3
 
-; override-redirect = true
+override-redirect = true
 
 [module/xworkspaces]
 type = internal/xworkspaces
 
 label-active = %name%
 label-active-background = ${colors.blue}
-label-active-padding = 1
+label-active-padding = 2
 
 label-occupied = %name%
-label-occupied-padding = 1
+label-occupied-padding = 2
 
 label-urgent = %name%
 label-urgent-background = ${colors.red}
@@ -83,7 +84,7 @@ label-empty-padding = 1
 
 [module/xwindow]
 type = internal/xwindow
-label = %title:0:60:...%
+label = %title:0:30:...%
 
 [settings]
 screenchange-reload = true
@@ -93,4 +94,11 @@ pseudo-transparency = true
 type = custom/script
 exec = "~/.config/i3/bar.sh"
 interval = 1
+ 
+[module/date]
+type = internal/date
+interval = 1.0
+; date = %A, %d %B %Y
+date = %a, %d %b %H:%M:%S
+date-alt = %a, %d %b %H:%M:%S
 ; vim:ft=dosini
