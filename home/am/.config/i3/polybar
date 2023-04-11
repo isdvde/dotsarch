@@ -39,7 +39,7 @@ padding-right = 1
 module-margin = 2
 separator = |
 separator-foreground = ${colors.grey}
-font-0 = "Sans:size=13;1"
+font-0 = "Sans:size=10;1"
 ; modules-center = xworkspaces
 modules-center = i3
 enable-ipc = true
@@ -67,25 +67,49 @@ enable-ipc = true
 override-redirect = true
 
 [bar/bar3]
-width = 26%
+width = 27%
 height = 12pt
 bottom = true
 radius = 4
-offset-x = 66%
+offset-x = 65%
 background = ${colors.black}
 foreground = ${colors.white}
 line-size = 3pt
 border-size = 4pt
 border-color = #00000000
-padding-left = 0
-padding-right = 1
+padding-left = 2
+padding-right = 2
 module-margin = 2
 separator = |
 separator-foreground = ${colors.grey}
 font-0 = "Sans:size=7;2"
 modules-center = info
 enable-ipc = true
+; tray-position = right
+override-redirect = true
+
+[bar/bar4]
+width = 5%
+height = 12pt
+bottom = true
+radius = 4
+offset-x = 95%
+; background = ${colors.black}
+background = #00000000
+foreground = #00000000
+line-size = 3pt
+border-size = 4pt
+border-color = #00000000
+padding-left = 2
+padding-right = 1
+module-margin = 2
+separator = |
+separator-foreground = ${colors.grey}
+font-0 = "Sans:size=7;2"
+modules-left = tray
+enable-ipc = true
 tray-position = right
+tray-scale = 1.2
 override-redirect = true
 
 [module/xworkspaces]
@@ -136,3 +160,7 @@ label-unfocused-padding = 1
 label-urgent = ●
 label-urgent-foreground = ${colors.red}
 label-urgent-padding = 1
+
+[module/tray]
+type = custom/text
+content = .

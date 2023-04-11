@@ -54,6 +54,7 @@ bindsym $mod+f fullscreen toggle
 bindsym $mod+i layout stacking 
 bindsym $mod+o layout tabbed
 bindsym $mod+p layout toggle split
+bindsym $mod+Tab layout toggle tabbed split
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
@@ -125,7 +126,7 @@ bindsym $mod+Shift+m move scratchpad
 # Show the first scratchpad window
 bindsym $mod+m scratchpad show
 # Cycle scratchpad windows
-bindsym $mod+Tab scratchpad show; scratchpad show
+bindsym $mod+Shift+Tab scratchpad show; scratchpad show
 
 
 #######################################################
