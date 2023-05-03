@@ -67,11 +67,11 @@ bindsym $mod+a focus parent
 bindsym $mod+z focus child
 
 # switch to workspace
-bindsym $mod+1 workspace 1:terms
-bindsym $mod+2 workspace 2:www
-bindsym $mod+3 workspace 3:files
-bindsym $mod+4 workspace 4:tools
-bindsym $mod+5 workspace 5:remote
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
 bindsym $mod+6 workspace 6
 bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
@@ -79,11 +79,11 @@ bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace 1:terms
-bindsym $mod+Shift+2 move container to workspace 2:www
-bindsym $mod+Shift+3 move container to workspace 3:files
-bindsym $mod+Shift+4 move container to workspace 4:tools
-bindsym $mod+Shift+5 move container to workspace 5:remote
+bindsym $mod+Shift+1 move container to workspace 1
+bindsym $mod+Shift+2 move container to workspace 2
+bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+5 move container to workspace 5
 bindsym $mod+Shift+6 move container to workspace 6
 bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
@@ -149,11 +149,11 @@ bindsym Control+F10 exec --no-startup-id xfce4-screenshooter -r
 bindsym $mod+F10 exec --no-startup-id xfce4-screenshooter -f
 
 #Kill Workspace
-bindsym $mod+Ctrl+1 [workspace=1:terms] kill
-bindsym $mod+Ctrl+2 [workspace=2:www] kill
-bindsym $mod+Ctrl+3 [workspace=3:files] kill
-bindsym $mod+Ctrl+4 [workspace=4:tools] kill
-bindsym $mod+Ctrl+5 [workspace=5:remote] kill
+bindsym $mod+Ctrl+1 [workspace=1] kill
+bindsym $mod+Ctrl+2 [workspace=2] kill
+bindsym $mod+Ctrl+3 [workspace=3] kill
+bindsym $mod+Ctrl+4 [workspace=4] kill
+bindsym $mod+Ctrl+5 [workspace=5] kill
 bindsym $mod+Ctrl+6 [workspace=6] kill
 bindsym $mod+Ctrl+7 [workspace=7] kill
 bindsym $mod+Ctrl+8 [workspace=8] kill
@@ -186,43 +186,48 @@ client.background       $whitec
 exec --no-startup-id bash ~/.config/i3/autostart
 #######################################################
 
-exec_always --no-startup-id "~/.config/i3/lauch.sh"
-
-#bar {
-#
-#	i3bar_command i3bar -t
-#	status_command exec ~/.config/i3/bar.sh
-#	tray_output primary
-#	#position top
-#	font pango:Dejavu Sans Book 7
-#	#height 15
-#	#mode hide
-#	hidden_state hide
-#
-#	colors {
-#		background #000000BF
-#	}
-#}
-#
-#bindsym $mod+b bar mode toggle
+#exec_always --no-startup-id "~/.config/i3/lauch.sh"
 
 bar {
-  # command in i3-gaps to allow rgba colors for i3bar
-  i3bar_command i3bar -t
+	i3bar_command i3bar -t
+	status_command exec ~/.config/i3/bar.sh
+	tray_output primary
+	# position top
+	font pango:Dejavu Sans Book 7
+	#height 15
+	#mode hide
+	hidden_state hide
+	padding 0 2px 0 2px
 
-  tray_output         none  
-  workspace_buttons   no    
-  height              22
-
-  # prevent any accidental clicks/scrolls
-  bindsym button1 nop
-  bindsym button2 nop
-  bindsym button3 nop
-  bindsym button4 nop
-  bindsym button5 nop
-
-  colors {
-    # set bar background to transparent
-    background #00000000
-  }
+	colors {
+	  background #222222bf
+	  focused_workspace  #005577d9 #005577d9 #ffffff
+	  active_workspace   #444444 #444444 #ffffff
+	  inactive_workspace #222222bf #222222bf #ffffff
+	  urgent_workspace   #900000 #900000 #ffffff
+	  binding_mode       #900000 #900000 #ffffff
+	}
 }
+
+bindsym $mod+b bar mode toggle
+
+#bar {
+#  # command in i3-gaps to allow rgba colors for i3bar
+#  i3bar_command i3bar -t
+#
+#  tray_output         none  
+#  workspace_buttons   no    
+#  height              22
+#
+#  # prevent any accidental clicks/scrolls
+#  bindsym button1 nop
+#  bindsym button2 nop
+#  bindsym button3 nop
+#  bindsym button4 nop
+#  bindsym button5 nop
+#
+#  colors {
+#    # set bar background to transparent
+#    background #00000000
+#  }
+#}
