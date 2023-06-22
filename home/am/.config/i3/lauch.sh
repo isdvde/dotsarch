@@ -7,8 +7,8 @@ killall -q polybar
 
 # Launch Polybar, using default config location ~/.config/polybar/config.ini
 polybar bar -c ~/.config/i3/polybar -r 2>&1 | tee -a /tmp/polybar.log & disown
-polybar bar2 -c ~/.config/i3/polybar -r 2>&1 | tee -a /tmp/polybar.log & disown
-polybar bar3 -c ~/.config/i3/polybar -r 2>&1 | tee -a /tmp/polybar.log & disown
-polybar bar4 -c ~/.config/i3/polybar -r 2>&1 | tee -a /tmp/polybar.log & disown
+#polybar bar2 -c ~/.config/i3/polybar -r 2>&1 | tee -a /tmp/polybar.log & disown
+#polybar bar3 -c ~/.config/i3/polybar -r 2>&1 | tee -a /tmp/polybar.log & disown
+#polybar bar4 -c ~/.config/i3/polybar -r 2>&1 | tee -a /tmp/polybar.log & disown
 
 echo "Polybar launched..."

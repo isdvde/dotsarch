@@ -85,21 +85,24 @@ export HISTFILESIZE=
 export HISTSIZE=
 export VISUAL=vim
 export EDITOR=$VISUAL
-export PATH="/sbin:/bin:/usr/bin:/usr/local/bin:/usr/sbin"
+export LOCAL="${HOME}/.local"
+export PATH="/sbin:/bin:/usr/bin:/usr/local/bin:/usr/sbin:${HOME}/.local/bin"
+export LD_LIBRARY_PATH="${LOCAL}/pg11/lib:${LD_LIBRARY_PATH}"
+export LD_LIBRARY_PATH="${LOCAL}/ssl11/lib:${LD_LIBRARY_PATH}"
 
 export PGHOST=localhost
 export PGPORT=5432
-export PGDATA="/home/am/pgsql/data"
-export PGSQL="/home/am/pgsql/bin"
+export PGDATA="${LOCAL}/pg11/data"
+export PGSQL="${LOCAL}/pg11/bin"
 
-export JAVA_HOME="/usr/local/src/jre1.8.0_202/"
+export JAVA_HOME="${LOCAL}/src/jre1.8.0_202/"
 
-export PHP80="/home/am/php/80/usr/bin/"
-export PHP81="/home/am/php/81/usr/bin/"
-export PHP82="/home/am/php/82/usr/bin/"
-#export PHP="/home/am/php/php80/bin/"
+export PHP80="${LOCAL}/php/80/bin/"
+export PHP81="${LOCAL}/php/81/bin/"
+export PHP82="${LOCAL}/php/82/bin/"
+export NGX="${LOCAL}/nginx/sbin"
 
-export PATH=${PATH}:${JAVA_HOME}/bin:${PGSQL}:${PHP80}:${PHP81}:${PHP82}
+export PATH=${PATH}:${JAVA_HOME}/bin:${PGSQL}:${PHP80}:${PHP81}:${PHP82}:${NGX}
 #export PATH=${PATH}:${JAVA_HOME}:${PGSQL}
 
 alias vim="nvim"

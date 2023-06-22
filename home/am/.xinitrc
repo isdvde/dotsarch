@@ -20,7 +20,7 @@ XINPUTPROP=$(xinput list-props ${XINPUTDEV} | egrep "Accel" | head -1 | egrep -E
 xinput set-prop ${XINPUTDEV} ${XINPUTPROP} 0.6 &
 xset r rate 200 60 &
 
-exec i3
-#exec ~/.dwm/dwm
+# exec i3
+exec ~/.local/src/dwm-flexipatch/dwm
 # exec qtile start
 #exec openbox-session

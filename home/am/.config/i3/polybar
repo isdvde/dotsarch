@@ -24,11 +24,11 @@ grey = #444444
 red = #900000
 
 [bar/bar]
-width = 14%
+width = 100%
 height = 12pt
 bottom = true
 radius = 4
-offset-x = 8%
+#offset-x = 8%
 background = ${colors.black}
 foreground = ${colors.white}
 line-size = 3pt
@@ -40,10 +40,13 @@ module-margin = 2
 separator = |
 separator-foreground = ${colors.grey}
 font-0 = "Sans:size=10;1"
+font-1 = "Sans:size=7;2"
 ; modules-center = xworkspaces
-modules-center = i3
-enable-ipc = true
-override-redirect = true
+modules-left = i3
+modules-right = info
+modules-center = date
+#enable-ipc = true
+#override-redirect = true
 
 [bar/bar2]
 width = 10%
