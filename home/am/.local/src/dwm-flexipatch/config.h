@@ -935,11 +935,12 @@ static Key keys[] = {
 	{ MODKEY|ControlMask,	XK_Left,	setmfact,	{.f = -0.05} },
 	{ MODKEY|ControlMask,	XK_Right,	setmfact,	{.f = +0.05} },
 	{ MODKEY|ShiftMask,	XK_Return,	zoom,		{0} },
-	{ MODKEY,		XK_Tab,		view,		{0} },
+	/* { MODKEY,		XK_Tab,		view,		{0} }, */
 	{ MODKEY|ShiftMask,	XK_q,		killclient,	{0} },
 	{ MODKEY,		XK_p,		setlayout,	{.v = &layouts[0]} },
 	{ MODKEY,		XK_o,		setlayout,	{.v = &layouts[1]} },
-	{ MODKEY|ShiftMask,	XK_f,		setlayout,	{.v = &layouts[2]} },
+	/* { MODKEY|ShiftMask,	XK_f,		setlayout,	{.v = &layouts[2]} }, */
+	{ MODKEY,		XK_Tab,		setlayout,	{.v = &layouts[2]} },
 	{ MODKEY,		XK_space,	setlayout,	{0} },
 	{ MODKEY|ShiftMask,	XK_space,	togglefloating, {0} },
 
