@@ -180,7 +180,7 @@
 /* This patch underlines the selected tag, or optionally all tags.
  * https://dwm.suckless.org/patches/underlinetags/
  */
-#define BAR_UNDERLINETAGS_PATCH 0
+#define BAR_UNDERLINETAGS_PATCH 1
 
 /* This patch adds the window icon next to the window title in the bar.
  *
@@ -237,6 +237,7 @@
  * https://dwm.suckless.org/patches/activetagindicatorbar/
  */
 #define BAR_ACTIVETAGINDICATORBAR_PATCH N/A
+/* #define BAR_ACTIVETAGINDICATORBAR_PATCH 1 */
 
 /* Alternative patch to the activetagindicatorbar patch, adds the bar below the tag
  * icon rather than above.
