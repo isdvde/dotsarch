@@ -35,6 +35,7 @@ require('packer').startup(function(use)
   use 'lukas-reineke/indent-blankline.nvim' -- Add indentation guides even on blank lines
   use "terrortylor/nvim-comment" -- Nvim Commnet gcc for Line
   use 'tpope/vim-sleuth' -- Detect tabstop and shiftwidth automatically
+  -- use 'nmac427/guess-indent.nvim' -- Detect tabstop and shiftwidth automatically
   use 'ap/vim-css-color' -- CSS Color
   use 'jwalton512/vim-blade' -- Blade support nvim
   use 'fannheyward/telescope-coc.nvim'
@@ -143,6 +144,7 @@ vim.o.completeopt = 'menuone,noselect'
 --  NOTE: Must happen before plugins are required (otherwise wrong leader will be used)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
+
 
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
@@ -307,6 +309,21 @@ require("nvim-autopairs").setup({
 
 require'hop'.setup {}
 
+-- require('guess-indent').setup {
+--   auto_cmd = true,  -- Set to false to disable automatic execution
+--   override_editorconfig = false, -- Set to true to override settings set by .editorconfig
+--   -- filetype_exclude = {  -- A list of filetypes for which the auto command gets disabled
+--   --   "netrw",
+--   --   "tutor",
+--   -- },
+--   -- buftype_exclude = {  -- A list of buffer types for which the auto command gets disabled
+--   --   "help",
+--   --   "nofile",
+--   --   "terminal",
+--   --   "prompt",
+--   -- },
+-- }
+
 -- KEYMAPS ###############################################################
 -- Keymaps for better default experience
 -- See `:help vim.keymap.set()`
@@ -386,5 +403,9 @@ vim.api.nvim_set_keymap("i", "<TAB>", "coc#pum#visible() ? coc#pum#next(1) : '<T
 vim.api.nvim_set_keymap("i", "<S-TAB>", "coc#pum#visible() ? coc#pum#prev(1) : '<C-h>'", {noremap = true, expr = true})
 vim.api.nvim_set_keymap("i", "<CR>", "coc#pum#visible() ? coc#pum#confirm() : '<C-G>u<CR><C-R>=coc#on_enter()<CR>'", {silent = true, expr = true, noremap = true})
 
+vim.o.shiftwidth = 4
+vim.o.tabstop = 4
+vim.g.shiftwidth = 4
+vim.g.tabstop = 4
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et

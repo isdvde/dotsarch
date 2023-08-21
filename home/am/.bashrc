@@ -104,5 +104,5 @@ export NGX="${LOCAL}/nginx/sbin"
 
 export PATH=${PATH}:${JAVA_HOME}/bin:${PGSQL}:${PHP80}:${PHP81}:${PHP82}:${NGX}
 #export PATH=${PATH}:${JAVA_HOME}:${PGSQL}
-
+export MESA_GL_VERSION_OVERRIDE=4.5
 alias vim="nvim"

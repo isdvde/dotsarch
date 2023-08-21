@@ -24,26 +24,118 @@ grey = #444444
 red = #900000
 
 [bar/bar]
+;width = 100%
+;height = 12pt
+;bottom = true
+;radius = 4
+;#offset-x = 8%
+;background = ${colors.black}
+;foreground = ${colors.white}
+;line-size = 3pt
+;border-size = 4pt
+;border-color = #00000000
+;padding-left = 0
+;padding-right = 1
+;module-margin = 2
+;separator = |
+;separator-foreground = ${colors.grey}
+;font-0 = "Sans:size=10;1"
+;font-1 = "Sans:size=7;2"
+;; modules-center = xworkspaces
+;modules-left = i3
+;modules-right = info
+;modules-center = date
+;#enable-ipc = true
+;#override-redirect = true
+
 width = 100%
 height = 12pt
 bottom = true
+radius = 2
 background = ${colors.black}
 foreground = ${colors.white}
 line-size = 3pt
-border-left-size = 6pt
-border-right-size = 6pt
-border-bottom-size = 4pt
+border-size = 4pt
 border-color = #00000000
-padding-left = 1
-padding-right = 2
-module-margin = 1
+padding-left = 0
+padding-right = 1
+module-margin = 2
+separator = |
 separator-foreground = ${colors.grey}
-font-0 = "Sans:size=10;1"
-font-1 = "Sans:size=7;2"
+font-0 = "Sans:size=7;2"
 modules-left = xworkspaces xwindow
-modules-right = info date
+modules-right = info
 enable-ipc = true
 tray-position = right
+
+ 
+
+[bar/bar2]
+width = 10%
+height = 12pt
+bottom = true
+radius = 4
+offset-x = 45%
+background = ${colors.black}
+foreground = ${colors.white}
+line-size = 3pt
+border-size = 4pt
+border-color = #00000000
+padding-left = 0
+padding-right = 1
+module-margin = 2
+separator = |
+separator-foreground = ${colors.grey}
+font-0 = "Sans:size=7;2"
+modules-center = date
+enable-ipc = true
+override-redirect = true
+
+[bar/bar3]
+width = 27%
+height = 12pt
+bottom = true
+radius = 4
+offset-x = 65%
+background = ${colors.black}
+foreground = ${colors.white}
+line-size = 3pt
+border-size = 4pt
+border-color = #00000000
+padding-left = 2
+padding-right = 2
+module-margin = 2
+separator = |
+separator-foreground = ${colors.grey}
+font-0 = "Sans:size=7;2"
+modules-center = info
+enable-ipc = true
+; tray-position = right
+override-redirect = true
+
+[bar/bar4]
+width = 5%
+height = 12pt
+bottom = true
+radius = 4
+offset-x = 95%
+; background = ${colors.black}
+background = #00000000
+foreground = #00000000
+line-size = 3pt
+border-size = 4pt
+border-color = #00000000
+padding-left = 2
+padding-right = 1
+module-margin = 2
+separator = |
+separator-foreground = ${colors.grey}
+font-0 = "Sans:size=7;2"
+modules-left = tray
+enable-ipc = true
+tray-position = right
+tray-scale = 1.2
+override-redirect = true
 
 [module/xworkspaces]
 type = internal/xworkspaces
@@ -58,13 +150,8 @@ label-urgent-padding = 1
 
 [module/xwindow]
 type = internal/xwindow
-;label = %title:0:30:%
-format = <label>
-format-background = #d9005577
-format-foreground = #fff
-format-padding = 2
+;label = %title:0:30:...%
 label = %title%
-label-font = 2
 
 [settings]
 screenchange-reload = true
@@ -74,14 +161,12 @@ pseudo-transparency = true
 type = custom/script
 exec = "~/.config/i3/bar.sh"
 interval = 1
-label-font = 2
  
 [module/date]
 type = internal/date
 interval = 1.0
 date = %a, %d %b %H:%M:%S
 date-alt = %a, %d %b %H:%M:%S
-label-font = 2
 
 [module/i3]
 type = internal/i3
@@ -96,10 +181,8 @@ reverse-scroll = true
 fuzzy-match = true
 label-focused = ●
 label-focused-padding = 1
-label-focused-font = 2
 label-unfocused = ○
 label-unfocused-padding = 1
-label-unfocused-font = 2
 label-urgent = ●
 label-urgent-foreground = ${colors.red}
 label-urgent-padding = 1
@@ -107,9 +190,3 @@ label-urgent-padding = 1
 [module/tray]
 type = custom/text
 content = .
-
-[module/polywins]
-type = custom/script
-exec = ~/.config/i3/light-polybar-windows/polywins.sh 2>/dev/null
-label-padding = 1
-tail = true

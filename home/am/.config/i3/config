@@ -24,7 +24,7 @@ bindsym --release $mod+shift+h exec --no-startup-id chrome
 bindsym $mod+Shift+q kill
 
 # Apps menu
-bindsym $mod+r exec "rofi -modi drun,run -show run"
+bindsym $mod+r exec "rofi -modi drun,run -show run -font Sans -icon-theme 'Papirus-Dark' -show-icons" 
 
 # Lock Screen
 bindsym --release $mod+l exec --no-startup-id slock
@@ -186,28 +186,28 @@ client.background       $whitec
 exec --no-startup-id bash ~/.config/i3/autostart
 #######################################################
 
-#exec_always --no-startup-id "~/.config/i3/lauch.sh"
+exec_always --no-startup-id "~/.config/i3/lauch.sh"
 
-bar {
-	i3bar_command i3bar -t
-	status_command exec ~/.config/i3/bar.sh
-	tray_output primary
-	# position top
-	font pango:Dejavu Sans Book 7
-	#height 15
-	#mode hide
-	hidden_state hide
-	padding 0 2px 0 2px
-
-	colors {
-	  background #222222bf
-	  focused_workspace  #005577d9 #005577d9 #ffffff
-	  active_workspace   #444444 #444444 #ffffff
-	  inactive_workspace #222222bf #222222bf #ffffff
-	  urgent_workspace   #900000 #900000 #ffffff
-	  binding_mode       #900000 #900000 #ffffff
-	}
-}
+# bar {
+# 	i3bar_command i3bar -t
+# 	status_command exec ~/.config/i3/bar.sh
+# 	tray_output primary
+# 	# position top
+# 	font pango:Dejavu Sans Book 7
+# 	#height 15
+# 	#mode hide
+# 	hidden_state hide
+# 	padding 0 2px 0 2px
+#
+# 	colors {
+# 	  background #222222bf
+# 	  focused_workspace  #005577d9 #005577d9 #ffffff
+# 	  active_workspace   #444444 #444444 #ffffff
+# 	  inactive_workspace #222222bf #222222bf #ffffff
+# 	  urgent_workspace   #900000 #900000 #ffffff
+# 	  binding_mode       #900000 #900000 #ffffff
+# 	}
+# }
 
 bindsym $mod+b bar mode toggle
 
