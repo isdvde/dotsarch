@@ -18,8 +18,8 @@ static const int scalepreview            = 4;        /* Tag preview scaling */
 static int nomodbuttons                  = 1;   /* allow client mouse button bindings that have no modifier */
 #endif // NO_MOD_BUTTONS_PATCH
 #if VANITYGAPS_PATCH
-static const unsigned int gappih         = 8;  /* horiz inner gap between windows */
-static const unsigned int gappiv         = 8;  /* vert inner gap between windows */
+static const unsigned int gappih         = 4;  /* horiz inner gap between windows */
+static const unsigned int gappiv         = 4;  /* vert inner gap between windows */
 static const unsigned int gappoh         = 8;  /* horiz outer gap between windows and screen edge */
 static const unsigned int gappov         = 8;  /* vert outer gap between windows and screen edge */
 static const int smartgaps_fact          = 1;   /* gap factor when there is only one client; 0 = no gaps, 3 = 3x outer gaps */
@@ -134,6 +134,7 @@ static const unsigned int maxhtab          = 200;  /* tab menu height */
 
 /* Indicators: see patch/bar_indicators.h for options */
 /* static int tagindicatortype              = INDICATOR_TOP_LEFT_SQUARE; */
+/* static int tagindicatortype              = INDICATOR_TOP_BAR; */
 static int tagindicatortype              = INDICATOR_NONE;
 static int tiledindicatortype            = INDICATOR_NONE;
 static int floatindicatortype            = INDICATOR_TOP_LEFT_SQUARE;
@@ -169,30 +170,42 @@ static char normbgcolor[]                = "#222222";
 static char normbordercolor[]            = "#444444";
 static char normfloatcolor[]             = "#db8fd9";
 
-static char selfgcolor[]                 = "#eeeeee";
-static char selbgcolor[]                 = "#005577";
-static char selbordercolor[]             = "#005577";
-static char selfloatcolor[]              = "#005577";
+static char selfgcolor[]                 = "#222222";
+static char selbgcolor[]                 = "#ff9b82";
+static char selbordercolor[]             = "#ff9b82";
+static char selfloatcolor[]              = "#ff9b82";
+/* static char selfgcolor[]                 = "#eeeeee"; */
+/* static char selbgcolor[]                 = "#005577"; */
+/* static char selbordercolor[]             = "#005577"; */
+/* static char selfloatcolor[]              = "#005577"; */
 
 static char titlenormfgcolor[]           = "#bbbbbb";
 static char titlenormbgcolor[]           = "#222222";
 static char titlenormbordercolor[]       = "#444444";
 static char titlenormfloatcolor[]        = "#db8fd9";
 
-static char titleselfgcolor[]            = "#eeeeee";
-static char titleselbgcolor[]            = "#005577";
-static char titleselbordercolor[]        = "#005577";
-static char titleselfloatcolor[]         = "#005577";
+static char titleselfgcolor[]            = "#222222";
+static char titleselbgcolor[]            = "#ff9b82";
+static char titleselbordercolor[]        = "#ff9b82";
+static char titleselfloatcolor[]         = "#ff9b82";
+/* static char titleselfgcolor[]            = "#eeeeee"; */
+/* static char titleselbgcolor[]            = "#005577"; */
+/* static char titleselbordercolor[]        = "#005577"; */
+/* static char titleselfloatcolor[]         = "#005577"; */
 
 static char tagsnormfgcolor[]            = "#bbbbbb";
 static char tagsnormbgcolor[]            = "#222222";
 static char tagsnormbordercolor[]        = "#444444";
 static char tagsnormfloatcolor[]         = "#db8fd9";
 
-static char tagsselfgcolor[]             = "#eeeeee";
-static char tagsselbgcolor[]             = "#005577";
-static char tagsselbordercolor[]         = "#005577";
-static char tagsselfloatcolor[]          = "#005577";
+static char tagsselfgcolor[]             = "#222222";
+static char tagsselbgcolor[]             = "#ff9b82";
+static char tagsselbordercolor[]         = "#ff9b82";
+static char tagsselfloatcolor[]          = "#ff9b82";
+/* static char tagsselfgcolor[]             = "#eeeeee"; */
+/* static char tagsselbgcolor[]             = "#005577"; */
+/* static char tagsselbordercolor[]         = "#005577"; */
+/* static char tagsselfloatcolor[]          = "#005577"; */
 
 static char hidnormfgcolor[]             = "#005577";
 static char hidselfgcolor[]              = "#227799";
@@ -874,7 +887,7 @@ static const char *dmenucmd[] = {
 	NULL
 };
 /* static const char *termcmd[]  = { "st", NULL }; */
-static const char *roficmd[]	= { "rofi", "-modi", "drun,run", "-show", "run", NULL };
+static const char *roficmd[]	= { "rofi", "-modi", "drun,run", "-show", "run", "-font Sans", "-icon-theme", "'Papirus-Dark'", "-show-icons", NULL };
 static const char *termcmd[]	= { "xfce4-terminal", NULL };
 static const char *filemgr[]	= { "pcmanfm", NULL };
 static const char *ss[]		= { "xfce4-screenshooter", "-f", NULL };
@@ -964,6 +977,23 @@ static Key keys[] = {
 	TAGKEYS(	XK_8,	7)
 	TAGKEYS(	XK_9,	8)
 	{ MODKEY|ShiftMask,	XK_e,		quit,		{0} },
+
+	{ MODKEY|Mod1Mask,              XK_u,          incrgaps,               {.i = +1 } },
+	{ MODKEY|Mod1Mask|ShiftMask,    XK_u,          incrgaps,               {.i = -1 } },
+	{ MODKEY|Mod1Mask,              XK_i,          incrigaps,              {.i = +1 } },
+	{ MODKEY|Mod1Mask|ShiftMask,    XK_i,          incrigaps,              {.i = -1 } },
+	{ MODKEY|Mod1Mask,              XK_o,          incrogaps,              {.i = +1 } },
+	{ MODKEY|Mod1Mask|ShiftMask,    XK_o,          incrogaps,              {.i = -1 } },
+	{ MODKEY|Mod1Mask,              XK_6,          incrihgaps,             {.i = +1 } },
+	{ MODKEY|Mod1Mask|ShiftMask,    XK_6,          incrihgaps,             {.i = -1 } },
+	{ MODKEY|Mod1Mask,              XK_7,          incrivgaps,             {.i = +1 } },
+	{ MODKEY|Mod1Mask|ShiftMask,    XK_7,          incrivgaps,             {.i = -1 } },
+	{ MODKEY|Mod1Mask,              XK_8,          incrohgaps,             {.i = +1 } },
+	{ MODKEY|Mod1Mask|ShiftMask,    XK_8,          incrohgaps,             {.i = -1 } },
+	{ MODKEY|Mod1Mask,              XK_9,          incrovgaps,             {.i = +1 } },
+	{ MODKEY|Mod1Mask|ShiftMask,    XK_9,          incrovgaps,             {.i = -1 } },
+	{ MODKEY|Mod1Mask,              XK_0,          togglegaps,             {0} },
+	{ MODKEY|Mod1Mask|ShiftMask,    XK_0,          defaultgaps,            {0} },
 };
 
 	/* button definitions */

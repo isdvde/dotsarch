@@ -34,7 +34,7 @@ require('packer').startup(function(use)
   use 'nvim-lualine/lualine.nvim' -- Fancier statusline
   use 'lukas-reineke/indent-blankline.nvim' -- Add indentation guides even on blank lines
   use "terrortylor/nvim-comment" -- Nvim Commnet gcc for Line
-  use 'tpope/vim-sleuth' -- Detect tabstop and shiftwidth automatically
+  -- use 'tpope/vim-sleuth' -- Detect tabstop and shiftwidth automatically
   -- use 'nmac427/guess-indent.nvim' -- Detect tabstop and shiftwidth automatically
   use 'ap/vim-css-color' -- CSS Color
   use 'jwalton512/vim-blade' -- Blade support nvim
@@ -363,10 +363,6 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist)
 -- NERDTree Keymap
 vim.keymap.set('n', '<leader>.', ':NvimTreeToggle<cr>')
 
--- Indent Keymap
--- vim.keymap.set('n', '<leader><leader>x', '>>', { silent  = true })
--- vim.keymap.set('n', '<leader><leader>z', '<<', { silent  = true })
-
 -- Change window remap
 vim.keymap.set('n', '<C-Down>', '<C-w>j', { silent  = true })
 vim.keymap.set('n', '<C-Up>', '<C-w>k', { silent  = true })
@@ -403,9 +399,9 @@ vim.api.nvim_set_keymap("i", "<TAB>", "coc#pum#visible() ? coc#pum#next(1) : '<T
 vim.api.nvim_set_keymap("i", "<S-TAB>", "coc#pum#visible() ? coc#pum#prev(1) : '<C-h>'", {noremap = true, expr = true})
 vim.api.nvim_set_keymap("i", "<CR>", "coc#pum#visible() ? coc#pum#confirm() : '<C-G>u<CR><C-R>=coc#on_enter()<CR>'", {silent = true, expr = true, noremap = true})
 
-vim.o.shiftwidth = 4
-vim.o.tabstop = 4
+vim.opt.shiftwidth = 2
+vim.opt.tabstop = 2
 vim.g.shiftwidth = 4
-vim.g.tabstop = 4
+vim.g.tabstop = 2
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
