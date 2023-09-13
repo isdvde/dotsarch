@@ -18,10 +18,12 @@
 
 [colors]
 black = #bf222222
+black2= #222222
 white = #ffffff
 blue = #d9005577
 grey = #444444
 red = #900000
+orange = #ff9b82
 
 [bar/bar]
 width = 100%
@@ -34,37 +36,51 @@ border-left-size = 6pt
 border-right-size = 6pt
 border-bottom-size = 4pt
 border-color = #00000000
-padding-left = 1
+; padding-left = 1
 padding-right = 2
-module-margin = 1
-separator-foreground = ${colors.grey}
-font-0 = "Sans:size=10;1"
-font-1 = "Sans:size=7;2"
-modules-left = xworkspaces xwindow
+module-margin = 2
+; separator-foreground = ${colors.grey}
+font-0 = "Sans:size=7;2"
+modules-left = xworkspaces
+modules-center = xwindow
 modules-right = info date
 enable-ipc = true
 tray-position = right
 
+;[module/xworkspaces]
+;type = internal/xworkspaces
+;label-active = ●
+;; label-active-background = ${colors.blue}
+;label-active-padding = 1
+;label-occupied = ○
+;label-occupied-padding = 1
+;label-urgent = ●
+;label-urgent-foreground = ${colors.red}
+;label-urgent-padding = 1
+
 [module/xworkspaces]
 type = internal/xworkspaces
-label-active = ●
-; label-active-background = ${colors.blue}
-label-active-padding = 1
-label-occupied = ○
-label-occupied-padding = 1
-label-urgent = ●
-label-urgent-foreground = ${colors.red}
-label-urgent-padding = 1
+label-active = %name%
+label-active-background = ${colors.orange}
+label-active-foreground = ${colors.black2}
+label-active-padding = 2
+label-occupied = %name%
+label-occupied-padding = 2
+label-urgent = %name%
+label-urgent-background = ${colors.red}
+label-urgent-padding = 3
+label-empty = %name%
+label-empty-foreground = ${colors.grey}
+label-empty-padding = 2
 
 [module/xwindow]
 type = internal/xwindow
 ;label = %title:0:30:%
 format = <label>
-format-background = #d9005577
-format-foreground = #fff
+format-background = ${colors.orange}
+format-foreground = ${colors.black2}
 format-padding = 2
 label = %title%
-label-font = 2
 
 [settings]
 screenchange-reload = true
@@ -74,42 +90,13 @@ pseudo-transparency = true
 type = custom/script
 exec = "~/.config/i3/bar.sh"
 interval = 1
-label-font = 2
  
 [module/date]
 type = internal/date
 interval = 1.0
 date = %a, %d %b %H:%M:%S
 date-alt = %a, %d %b %H:%M:%S
-label-font = 2
-
-[module/i3]
-type = internal/i3
-pin-workspaces = true
-show-urgent = true
-strip-wsnumbers = true
-index-sort = true
-enable-click = true
-enable-scroll = true
-wrapping-scroll = false
-reverse-scroll = true
-fuzzy-match = true
-label-focused = ●
-label-focused-padding = 1
-label-focused-font = 2
-label-unfocused = ○
-label-unfocused-padding = 1
-label-unfocused-font = 2
-label-urgent = ●
-label-urgent-foreground = ${colors.red}
-label-urgent-padding = 1
 
 [module/tray]
 type = custom/text
 content = .
-
-[module/polywins]
-type = custom/script
-exec = ~/.config/i3/light-polybar-windows/polywins.sh 2>/dev/null
-label-padding = 1
-tail = true

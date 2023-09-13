@@ -70,10 +70,6 @@ WINDOW() (
 )
 
 while :; do
-	#echo "V $(VOL)   |   M $(MEM)   |   /H $(HOME)  /F $(FMORE)   |   $(IFACE)  $(TRAF)   |   B $(BAT)   |   C $(CPU)   |   $(DATE)"; 
-	#echo "V $(VOL)   |   M $(MEM)   |   /H $(HOME)  /F $(FMORE)   |   $(IFACE)  $(TRAF)   |   C $(CPU)   |   $(DATE)"; 
-	#echo "$(WINDOW)   |   V $(VOL)  |  M $(MEM)  |  /H $(HOME) /F $(FMORE)  |  $(IFACE)  |  C $(CPU)  |  $(DATE)"; 
-	#echo "$(WINDOW)   |   V $(VOL)  |  M $(MEM)  |  /H $(HOME)  |  $(IFACE)  |  C $(CPU)  |  $(DATE)"; 
 	xsetroot -name "V $(VOL)  |  M $(MEM)  |  /H $(HOME)  |  $(IFACE)  |  C $(CPU)  |  $(DATE)"; 
 	sleep 1;
 done

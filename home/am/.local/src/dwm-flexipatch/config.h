@@ -20,8 +20,8 @@ static int nomodbuttons                  = 1;   /* allow client mouse button bin
 #if VANITYGAPS_PATCH
 static const unsigned int gappih         = 4;  /* horiz inner gap between windows */
 static const unsigned int gappiv         = 4;  /* vert inner gap between windows */
-static const unsigned int gappoh         = 8;  /* horiz outer gap between windows and screen edge */
-static const unsigned int gappov         = 8;  /* vert outer gap between windows and screen edge */
+static const unsigned int gappoh         = 18;  /* horiz outer gap between windows and screen edge */
+static const unsigned int gappov         = 18;  /* vert outer gap between windows and screen edge */
 static const int smartgaps_fact          = 1;   /* gap factor when there is only one client; 0 = no gaps, 3 = 3x outer gaps */
 #endif // VANITYGAPS_PATCH
 #if AUTOSTART_PATCH
@@ -937,8 +937,8 @@ static Key keys[] = {
 	{ ALTKEY,		XK_F8,		spawn,		{.v = vup } },
 	{ ALTKEY,		XK_F7,		spawn,		{.v = vdown } },
 
-	{ MODKEY,		XK_f,		fullscreen,	{0} },
-	/* { MODKEY,                       XK_f,      togglefullscreen, {0} }, */
+	/* { MODKEY,		XK_f,		fullscreen,	{0} }, */
+	{ MODKEY,                       XK_f,      togglefullscreen, {0} },
 	/* { MODKEY|ControlMask,             XK_f,      togglefakefullscreen, {0} }, */
 	{ MODKEY,		XK_b,		togglebar,	{0} },
 	{ MODKEY,		XK_Right,	focusstack,	{.i = +1 } },
