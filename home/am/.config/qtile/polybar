@@ -17,7 +17,8 @@
 ;==========================================================
 
 [colors]
-black = #bf222222
+;black = #bf222222
+black = #222222
 black2= #222222
 white = #ffffff
 blue = #d9005577
@@ -41,7 +42,9 @@ padding-right = 2
 module-margin = 2
 ; separator-foreground = ${colors.grey}
 font-0 = "Sans:size=7;2"
-modules-left = xworkspaces xwindow
+font-1 = "DejaVuSansMono Nerd Font Mono:size=11;3"
+modules-left = xworkspaces
+modules-center =  xwindow
 modules-right = info date
 enable-ipc = true
 tray-position = right
@@ -58,26 +61,92 @@ tray-position = right
 ;label-urgent-padding = 1
 
 [module/xworkspaces]
+
 type = internal/xworkspaces
-label-active = %name%
-label-active-background = ${colors.orange}
-label-active-foreground = ${colors.black2}
-label-active-padding = 2
-label-occupied = %name%
-label-occupied-padding = 2
-label-urgent = %name%
-label-urgent-background = ${colors.red}
-label-urgent-padding = 3
-label-empty = %name%
+;label-active = %name%
+;label-active-background = ${colors.orange}
+;label-active-foreground = ${colors.black2}
+;label-active-padding = 2
+;label-occupied = %name%
+;label-occupied-padding = 2
+;label-urgent = %name%
+;label-urgent-background = ${colors.red}
+;label-urgent-padding = 3
+;label-empty = %name%
+;label-empty-foreground = ${colors.grey}
+;label-empty-padding = 2
+
+pin-workspaces = true
+
+; Create click handler used to focus desktop
+; Default: true
+enable-click = true
+
+; Create scroll handlers used to cycle desktops
+; Default: true
+enable-scroll = true
+
+
+; Available tags:
+;   <label-monitor>
+;   <label-state> - gets replaced with <label-(active|urgent|occupied|empty)>
+; Default: <label-state>
+format = <label-state>
+format-font = 1
+
+; Available tokens:
+;   %name%
+; Default: %name%
+label-monitor = %name%
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-active = ﱣ
+label-active-foreground = ${colors.orange}
+;;label-active-underline = ${color.ALTBLACK}
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-occupied = ﱣ
+label-occupied-foreground = ${colors.white}
+;;label-occupied-underline = ${color.ALTBLACK}
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-urgent = ﱣ
+label-urgent-foreground = ${colors.red}
+;;label-urgent-underline = ${color.ALTBLACK}
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-empty = ﱣ
 label-empty-foreground = ${colors.grey}
+
+label-active-padding = 2
+label-urgent-padding = 4
+label-occupied-padding = 2
 label-empty-padding = 2
+
 
 [module/xwindow]
 type = internal/xwindow
 ;label = %title:0:30:%
 format = <label>
-format-background = ${colors.orange}
-format-foreground = ${colors.black2}
+;format-background = ${colors.orange}
+;format-foreground = ${colors.black2}
+format-foreground = ${colors.white}
 format-padding = 2
 label = %title%
 

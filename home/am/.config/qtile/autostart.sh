@@ -14,3 +14,4 @@ fi
 nitrogen --restore &
 lxpolkit &
 dunst &
+bash ~/.config/qtile/lauch.sh &

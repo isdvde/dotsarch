@@ -8,6 +8,8 @@ import subprocess
 from libqtile import hook
 
 mod = "mod4"
+terminal = "xfce4-terminal"
+filemanager = "pcmanfm"
 
 keys = [
     # A list of available commands that can be bound to keys can be found
@@ -17,7 +19,7 @@ keys = [
     Key([mod], "Right", lazy.layout.right(), desc="Move focus to right"),
     Key([mod], "Down", lazy.layout.down(), desc="Move focus down"),
     Key([mod], "Up", lazy.layout.up(), desc="Move focus up"),
-    Key([mod], "space", lazy.layout.next(), desc="Move window focus to other window"),
+    Key([mod], "space", lazy.group.next_window(), desc="[Layout] Focus next window"),
     # Move windows between left/right columns or move up/down in current stack.
     # Moving out of range in Columns layout will create new column.
     Key([mod, "shift"], "Left", lazy.layout.shuffle_left(), desc="Move window to the left"),
@@ -41,18 +43,18 @@ keys = [
     Key([mod, "shift"], "q", lazy.window.kill(), desc="Kill focused window"),
     Key([mod, "shift"], "r", lazy.reload_config(), desc="Reload the config"),
     Key([mod, "shift"], "e", lazy.shutdown(), desc="Shutdown Qtile"),
-    Key([mod, "shift"], "f", lazy.window.toggle_floating(), desc="Toggle FLoating"),
+    Key([mod, "shift"], "space", lazy.window.toggle_floating(), desc="Toggle FLoating"),
     Key([mod], "f", lazy.window.toggle_fullscreen()),
 
 
-    Key([mod], "Return", lazy.spawn("xfce4-terminal"), desc="Launch terminal"),
-    Key([mod], "e", lazy.spawn("pcmanfm"), desc="Launch File Explorer"),
-    Key([mod], "r", lazy.spawn("rofi -modi drun,run -show run"), desc="Launcher"),
+    Key([mod], "Return", lazy.spawn(terminal), desc="Launch terminal"),
+    Key([mod], "e", lazy.spawn(filemanager), desc="Launch File Explorer"),
+    Key([mod], "r", lazy.spawn("rofi -modi drun,run -show run -font Sans -icon-theme 'Papirus-Dark' -show-icons"), desc="Launcher"),
     Key([mod], "o", lazy.layout.toggle_split()),
     Key([mod], "l", lazy.spawn("slock"), desc="Lock Screen"),
 
-    Key([mod], "F7", lazy.spawn("amixer -q sset Master 2%- unmute"), desc="Decrease Volume"),
-    Key([mod], "F8", lazy.spawn("amixer -q sset Master 2%+ unmute"), desc="IncreasIncrease Volume"),
+    Key([], "F7", lazy.spawn("amixer -q sset Master 2%- unmute"), desc="Decrease Volume"),
+    Key([], "F8", lazy.spawn("amixer -q sset Master 2%+ unmute"), desc="IncreasIncrease Volume"),
     # Key(["F7"], lazy.spawn("amixer -q sset Master 2%- unmute"), desc="Decrease Volume"),
     # Key(["F8"], lazy.spawn("amixer -q sset Master 2%+ unmute"), desc="IncreasIncrease Volume"),
 
@@ -61,18 +63,18 @@ keys = [
     Key([mod, "mod1"], "F10", lazy.spawn("xfce4-screenshooter -w"), desc="Window Screenshot"),
 ]
 
-# groups = [Group(i) for i in "123456789"]
-groups = [
-        Group("1", label="1:terms", position=1),
-        Group("2", label="2:www", position=2),
-        Group("3", label="3:files", position=3),
-        Group("4", label="4:tools", position=4),
-        Group("5", label="5:remote", position=5),
-        Group("6", position=6),
-        Group("7", position=7),
-        Group("8", position=8),
-        Group("9", position=9)
-]
+groups = [Group(i) for i in "123456789"]
+# groups = [
+#         Group("1", label="1:terms", position=1),
+#         Group("2", label="2:www", position=2),
+#         Group("3", label="3:files", position=3),
+#         Group("4", label="4:tools", position=4),
+#         Group("5", label="5:remote", position=5),
+#         Group("6", position=6),
+#         Group("7", position=7),
+#         Group("8", position=8),
+#         Group("9", position=9)
+# ]
 
 for i in groups:
     keys.extend(
@@ -99,16 +101,24 @@ for i in groups:
         ]
     )
 
+colors = {
+        "blue": "#005577",
+        "cyan": "#1793d1",
+        "orange": "#ff9b82",
+        "grey": "#444444"
+        }
+
+
 layouts = [
     layout.Columns(
-        border_focus=["#005577"],
-        border_normal=["#444444"],
+        border_focus=[colors["orange"]],
+        border_normal=[colors["grey"]],
         # border_focus_stack=["#1793d1", "#2cb5e6"],
-        border_focus_stack=["#1793d1"],
-        border_normal_stack=["#444444"],
+        border_focus_stack=[colors["cyan"]],
+        border_normal_stack=[colors["grey"]],
         border_width=2,
-        margin_on_single=6,
-        margin=6
+        margin_on_single=None,
+        margin=[2,2,2,2]
     ),
     layout.Max(),
     # Try more layouts by unleashing below layouts.
@@ -133,37 +143,41 @@ extension_defaults = widget_defaults.copy()
 
 screens = [
     Screen(
-        bottom=bar.Bar(
-            [
-                widget.CurrentLayout(),
-                widget.WindowCount(),
-                widget.GroupBox(
-                    hide_unused=True,
-                    active="#eeeeee",
-                    highlight_method='block',
-                    foreground="#eeeeee",
-                    inactive="#eeeeee",
-                    highlight_color=["#005577"]
-                ),
-                widget.WindowName(
-                    foreground="#eeeeee",
-                ),
-                widget.GenPollText(
-                    name="Status",
-                    fmt="{}", update_interval=1,
-                    func=lambda: subprocess.check_output(
-                        os.path.expanduser('~') +
-                        "/.config/qtile/bar.sh").decode("utf-8"),
-                    padding=2
-
-                ),
-                widget.Systray(),
-            ],
-            15,
-            background="#222222",
-            opacity=0.9,
-            margin=4
-        ),
+        # bottom=bar.Bar(
+        #     [
+        #         widget.CurrentLayout(),
+        #         widget.WindowCount(),
+        #         widget.GroupBox(
+        #             hide_unused=True,
+        #             active="#eeeeee",
+        #             highlight_method='block',
+        #             foreground="#eeeeee",
+        #             inactive="#eeeeee",
+        #             highlight_color=["#005577"]
+        #         ),
+        #         widget.WindowName(
+        #             foreground="#eeeeee",
+        #         ),
+        #         widget.GenPollText(
+        #             name="Status",
+        #             fmt="{}", update_interval=1,
+        #             func=lambda: subprocess.check_output(
+        #                 os.path.expanduser('~') +
+        #                 "/.config/qtile/bar.sh").decode("utf-8"),
+        #             padding=2
+        #
+        #         ),
+        #         widget.Systray(),
+        #     ],
+        #     15,
+        #     background="#222222",
+        #     opacity=0.9,
+        #     margin=4,
+        # ),
+        bottom=bar.Gap(30),
+        left=bar.Gap(15),
+        right=bar.Gap(15),
+        top=bar.Gap(15),
     ),
 ]
 
@@ -180,18 +194,15 @@ follow_mouse_focus = True
 bring_front_click = False
 cursor_warp = False
 floating_layout = layout.Floating(
-    float_rules=[
-        # Run the utility of `xprop` to see the wm class and name of an X client.
-        *layout.Floating.default_float_rules,
-        Match(wm_class="confirmreset"),  # gitk
-        Match(wm_class="makebranch"),  # gitk
-        Match(wm_class="maketag"),  # gitk
-        Match(wm_class="ssh-askpass"),  # ssh-askpass
-        Match(title="branchdialog"),  # gitk
-        Match(title="pinentry"),  # GPG key password entry
-    ]
-)
-auto_fullscreen = True
+        border_focus=colors["orange"],
+        border_normal=colors["grey"],
+        border_width=2,
+        float_rules=[
+            # Run the utility of `xprop` to see the wm class and name of an X client.
+            *layout.Floating.default_float_rules,
+            ]
+        )
+auto_fullscreen = False
 focus_on_window_activation = "smart"
 reconfigure_screens = True
 
