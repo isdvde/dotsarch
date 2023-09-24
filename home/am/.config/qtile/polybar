@@ -28,7 +28,7 @@ orange = #ff9b82
 
 [bar/bar]
 width = 100%
-height = 10pt
+height = 15pt
 bottom = true
 background = ${colors.black}
 foreground = ${colors.white}
@@ -42,12 +42,13 @@ padding-right = 2
 module-margin = 2
 ; separator-foreground = ${colors.grey}
 font-0 = "Sans:size=7;2"
-font-1 = "DejaVuSansMono Nerd Font Mono:size=11;3"
+font-1 = "DejaVuSansMono Nerd Font Mono:size=14;3"
 modules-left = xworkspaces
 modules-center =  xwindow
 modules-right = info date
 enable-ipc = true
 tray-position = right
+radius = 4
 
 ;[module/xworkspaces]
 ;type = internal/xworkspaces
@@ -105,7 +106,8 @@ label-monitor = %name%
 ;   %index%
 ; Default: %icon%  %name%
 label-active = ﱣ
-label-active-foreground = ${colors.orange}
+;label-active-foreground = ${colors.orange}
+label-active-foreground = #00CA4E
 ;;label-active-underline = ${color.ALTBLACK}
 
 ; Available tokens:
@@ -114,7 +116,8 @@ label-active-foreground = ${colors.orange}
 ;   %index%
 ; Default: %icon%  %name%
 label-occupied = ﱣ
-label-occupied-foreground = ${colors.white}
+;label-occupied-foreground = ${colors.white}
+label-occupied-foreground = #FFBD44
 ;;label-occupied-underline = ${color.ALTBLACK}
 
 ; Available tokens:
@@ -123,7 +126,8 @@ label-occupied-foreground = ${colors.white}
 ;   %index%
 ; Default: %icon%  %name%
 label-urgent = ﱣ
-label-urgent-foreground = ${colors.red}
+;label-urgent-foreground = ${colors.red}
+label-urgent-foreground = #FF605C
 ;;label-urgent-underline = ${color.ALTBLACK}
 
 ; Available tokens:

@@ -61,6 +61,7 @@ keys = [
     Key([mod], "F10", lazy.spawn("xfce4-screenshooter -f"), desc="Full Screenshot"),
     Key([mod, "control"], "F10", lazy.spawn("xfce4-screenshooter -r"), desc="Select Screenshot"),
     Key([mod, "mod1"], "F10", lazy.spawn("xfce4-screenshooter -w"), desc="Window Screenshot"),
+    Key( [mod], "b", lazy.screen.toggle_group(), desc="Move to the last visited group"),
 ]
 
 groups = [Group(i) for i in "123456789"]
@@ -174,7 +175,7 @@ screens = [
         #     opacity=0.9,
         #     margin=4,
         # ),
-        bottom=bar.Gap(30),
+        bottom=bar.Gap(35),
         left=bar.Gap(15),
         right=bar.Gap(15),
         top=bar.Gap(15),

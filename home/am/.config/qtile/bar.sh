@@ -16,7 +16,8 @@ MEM() (
 )
 
 CPU() (
-	local LOAD=$(cat /proc/loadavg | cut -d" " -f1 | xargs -I% echo "scale=2; (%/4)*100" | bc | sed 's/\..*//g');
+local CPUS=$(lscpu | grep "CPU(s):" | awk '{print $2}')
+	local LOAD=$(cat /proc/loadavg | cut -d" " -f1 | xargs -I% echo "scale=2; (%/${CPUS})*100" | bc | sed 's/\..*//g');
 	echo -n "${LOAD}";
 )
 
