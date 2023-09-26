@@ -192,7 +192,7 @@ mouse = [
 dgroups_key_binder = None
 dgroups_app_rules = []  # type: list
 follow_mouse_focus = True
-bring_front_click = False
+bring_front_click = True
 cursor_warp = False
 floating_layout = layout.Floating(
         border_focus=colors["orange"],
@@ -204,7 +204,7 @@ floating_layout = layout.Floating(
             ]
         )
 auto_fullscreen = False
-focus_on_window_activation = "smart"
+focus_on_window_activation = True
 reconfigure_screens = True
 
 # If things like steam games want to auto-minimize themselves when losing

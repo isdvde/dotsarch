@@ -22,7 +22,7 @@ local CPUS=$(lscpu | grep "CPU(s):" | awk '{print $2}')
 )
 
 VOL() (
-	local VOL=$(amixer -M get Master | grep -E -o "\[[0-9]+%\]"	| head -1);
+local VOL=$(amixer -M get Master | grep -E -o "\[[0-9]+%\]" | sed -r "s/\[(.*)\]/\1/g"	| head -1);
 	echo -n $VOL;
 )
 
@@ -70,11 +70,18 @@ WINDOW() (
 	echo $(xprop -id $(xprop -root _NET_ACTIVE_WINDOW | cut -d ' ' -f 5) WM_NAME | sed -nr 's/.*= "(.*)"$/\1/p')
 )
 
+case $1 in
+	"") echo -n "V $(VOL)  |  M $(MEM)  |  /H $(HOME)  |  $(IFACE)  |  C $(CPU)  |";;
+	"VOL") VOL;;
+	"MEM") MEM;;
+	"HOME") HOME;;
+	"IFACE") IFACE;;
+	"CPU") CPU;;
+	"*") echo -n "V $(VOL)  |  M $(MEM)  |  /H $(HOME)  |  $(IFACE)  |  C $(CPU)  |";;
+esac
+
+
 # while :; do
-	#echo "V $(VOL)   |   M $(MEM)   |   /H $(HOME)  /F $(FMORE)   |   $(IFACE)  $(TRAF)   |   B $(BAT)   |   C $(CPU)   |   $(DATE)"; 
-	#echo "V $(VOL)   |   M $(MEM)   |   /H $(HOME)  /F $(FMORE)   |   $(IFACE)  $(TRAF)   |   C $(CPU)   |   $(DATE)"; 
-	#echo "$(WINDOW)   |   V $(VOL)  |  M $(MEM)  |  /H $(HOME) /F $(FMORE)  |  $(IFACE)  |  C $(CPU)  |  $(DATE)"; 
-	#echo "$(WINDOW)   |   V $(VOL)  |  M $(MEM)  |  /H $(HOME)  |  $(IFACE)  |  C $(CPU)  |  $(DATE)"; 
-	echo -n "V $(VOL)  |  M $(MEM)  |  /H $(HOME)  |  $(IFACE)  |  C $(CPU)  |  $(DATE)"; 
+	# echo -n "V $(VOL)  |  M $(MEM)  |  /H $(HOME)  |  $(IFACE)  |  C $(CPU)  |  $(DATE)"; 
 	# sleep 1;
 # done
