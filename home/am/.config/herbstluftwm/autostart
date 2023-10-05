@@ -1,23 +1,53 @@
 #!/bin/bash
 
-# this is a simple config for herbstluftwm
-
-hc() {
-    herbstclient "$@"
-}
+hc() { herbstclient "$@"; }
 
 hc emit_hook reload
-
-xsetroot -solid '#5A8E3A'
 
 # remove all existing keybindings
 hc keyunbind --all
 
-# keybindings
-# if you have a super key you will be much happier with Mod set to Mod4
 Mod=Mod4    # Use alt as the main modifier
-#Mod=Mod4   # Use the super key as the main modifier
+Terminal="xfce4-terminal"
+Filemanager="pcmanfm"
+Rofi="rofi -modi drun,run -show run -icon-theme 'Papirus-Dark' -show-icons"
+Lock="slock"
+UpVol="amixer -q sset Master 2%+ unmute"
+DownVol="amixer -q sset Master 2%- unmute"
+Screenshot="xfce4-screenshooter -f"
+WScreenshot="xfce4-screenshooter -w"
+SScreenshot="xfce4-screenshooter -r"
+BLUE="#005577"
+CYAN="#1793d1"
+ORANGE="#ff9b82"
+GREY="#444444"
 
+
+########### APPS ############
+
+redshift -P -O 3400 &
+killall picom; picom --animations --animation-window-mass 0.5 --animation-stiffness 230.0 --animation-for-open-window zoom --animation-dampening 21.0 &
+
+if xrandr -q | egrep VGA | egrep connected -q; then
+	{ xrandr --newmode 1600 118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync; xrandr --addmode VGA1 1600; xrandr --output VGA1 --mode 1600 --primary --output LVDS1 --off; } &
+fi
+nitrogen --restore &
+killall lxpolkit; lxpolkit &
+
+
+############# APPS ############
+hc keybind $Mod-Return spawn ${Terminal}
+hc keybind $Mod-r spawn ${Rofi}
+hc keybind $Mod-e spawn ${Filemanager}
+hc keybind $Mod-l spawn ${Lock}
+hc keybind F8 spawn ${UpVol}
+hc keybind F7 spawn ${DownVol}
+hc keybind F10 spawn ${Screenshot}
+hc keybind $Mod-F10 spawn ${Screenshot}
+hc keybind $Mod-Control-F10 spawn ${SScreenshot}
+hc keybind $Mod-Mod1-F10 spawn ${WScreenshot}
+
+# keybindings
 # basic movement in tiling and floating mode
 # focusing clients
 hc keybind $Mod-Right cycle_all +1
@@ -35,7 +65,6 @@ hc keybind $Mod-Shift-Right shift right
 # create an empty frame at the specified direction
 hc keybind $Mod-comma       split   bottom  0.5
 hc keybind $Mod-period       split   right   0.5
-# let the current frame explode into subframes
 # hc keybind $Mod-Control-space split explode
 
 # resizing frames and floating clients
@@ -69,7 +98,6 @@ hc keybind $Mod-x remove
 hc keybind $Mod-s floating toggle
 hc keybind $Mod-f fullscreen toggle
 hc keybind $Mod-space set_attr clients.focus.floating toggle
-# hc keybind $Mod-Shift-d set_attr clients.focus.decorated toggle
 hc keybind $Mod-m set_attr clients.focus.minimized true
 hc keybind $Mod-Shift-m jumpto last-minimized
 
@@ -91,71 +119,38 @@ hc mousebind $Mod-Button3 resize
 # theme
 hc attr theme.tiling.reset 1
 hc attr theme.floating.reset 1
-hc set frame_border_active_color '#222222cc'
-hc set frame_border_normal_color '#101010cc'
-hc set frame_bg_normal_color '#565656aa'
-hc set frame_bg_active_color '#345F0Caa'
-hc set frame_border_width 1
-hc set show_frame_decorations 'focused_if_multiple'
-hc set frame_bg_transparent on
-hc set frame_transparent_width 5
-hc set frame_gap 4
 
-# hc attr theme.title_height 0
-# hc attr theme.title_when always
-hc attr theme.title_when never
-# hc attr theme.title_font 'Dejavu Sans:pixelsize=12'  # example using Xft
-# hc attr theme.title_font '-*-fixed-medium-r-*-*-13-*-*-*-*-*-*-*'
-# hc attr theme.title_depth 3  # space below the title's baseline
-hc attr theme.active.color '#345F0Cef'
-hc attr theme.title_color '#ffffff'
-hc attr theme.normal.color '#323232dd'
-hc attr theme.urgent.color '#7811A1dd'
+hc set show_frame_decorations 'none'
+hc set frame_transparent_width 1
+hc set frame_gap 0
 
-hc attr theme.tab_color '#1F1F1Fdd'
-hc attr theme.active.tab_color '#2B4F0Add'
-hc attr theme.active.tab_outer_color '#6C8257dd'
-hc attr theme.active.tab_title_color '#ababab'
+hc attr theme.active.color $ORANGE
+hc attr theme.active.inner_color $ORANGE
+hc attr theme.normal.color $GREY
+hc attr theme.normal.inner_color $GREY
+hc attr theme.urgent.color $CYAN
+hc attr theme.urgent.inner_color $CYAN
 
-hc attr theme.normal.title_color '#898989'
-
-hc attr theme.inner_width 1
-hc attr theme.inner_color black
+hc attr theme.inner_width 0
 hc attr theme.border_width 2
+
 hc attr theme.floating.border_width 2
-hc attr theme.floating.outer_width 1
-hc attr theme.floating.outer_color black
+hc attr theme.floating.outer_width 0
 
-# hc attr theme.active.inner_color '#789161'
-# hc attr theme.urgent.inner_color '#9A65B0'
-# hc attr theme.normal.inner_color '#606060'
-# copy inner color to outer_color
-for state in active urgent normal ; do
-    hc substitute C theme.${state}.inner_color \
-        attr theme.${state}.outer_color C
-done
-hc attr theme.tiling.outer_width 1
-hc attr theme.background_color '#141414'
-
-hc set window_gap 8
-hc set frame_padding 0
+hc set window_gap 4
+hc set frame_padding 6
 hc set smart_window_surroundings off
-hc set smart_frame_surroundings on
+hc set smart_frame_surroundings borders
 hc set mouse_recenter_gap 0
 
 # rules
 hc unrule -F
-#hc rule class=XTerm tag=3 # move all xterms to tag 3
 hc rule focus=on # normally focus new clients
 hc rule floatplacement=smart
-#hc rule focus=off # normally do not focus new clients
-# give focus to most common terminals
-#hc rule class~'(.*[Rr]xvt.*|.*[Tt]erm|Konsole)' focus=on
 hc rule windowtype~'_NET_WM_WINDOW_TYPE_(DIALOG|UTILITY|SPLASH)' floating=on
 hc rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' focus=on
 hc rule windowtype~'_NET_WM_WINDOW_TYPE_(NOTIFICATION|DOCK|DESKTOP)' manage=off
 hc rule fixedsize floating=on
-
 hc set tree_style '╾│ ├└╼─┐'
 
 # unlock, just to be sure
@@ -163,12 +158,8 @@ hc unlock
 
 # do multi monitor setup here, e.g.:
 # hc set_monitors 1280x1024+0+0 1280x1024+1280+0
-# or simply:
 hc detect_monitors
 
-############# APPS ############
-hc keybind $Mod-Return spawn xfce4-terminal
-hc keybind $Mod-r spawn rofi -modi drun,run -show run -icon-theme 'Papirus-Dark' -show-icons
 
 # find the panel
 panel=~/.config/herbstluftwm/lauch.sh
@@ -177,18 +168,3 @@ for monitor in $(hc list_monitors | cut -d: -f1) ; do
     # start it on each monitor
     "$panel" "$monitor" &
 done
-
-########### APPS ############
-
-redshift -P -O 3400 &
-killall xcompmgr; xcompmgr -c -t-5 -l-5 -r6 -o1 -fF -I.07 -O.07 -D2 -C &
-
-if xrandr -q | egrep VGA | egrep connected -q; then
-	{ xrandr --newmode 1600 118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync; xrandr --addmode HDMI1 1600; xrandr --output HDMI1 --mode 1600 --primary --output LVDS1 --off; } &
-
-fi
-
-nitrogen --restore &
-killall lxpolkit; lxpolkit &
-# dunst &
-# bash ~/.config/qtile/lauch.sh &

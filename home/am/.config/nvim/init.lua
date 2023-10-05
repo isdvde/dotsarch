@@ -35,10 +35,8 @@ require('packer').startup(function(use)
   use 'lukas-reineke/indent-blankline.nvim' -- Add indentation guides even on blank lines
   use "terrortylor/nvim-comment" -- Nvim Commnet gcc for Line
   -- use 'tpope/vim-sleuth' -- Detect tabstop and shiftwidth automatically
-  -- use 'nmac427/guess-indent.nvim' -- Detect tabstop and shiftwidth automatically
   use 'ap/vim-css-color' -- CSS Color
   use 'jwalton512/vim-blade' -- Blade support nvim
-  use 'fannheyward/telescope-coc.nvim'
 
   use {
     'nvim-tree/nvim-tree.lua',
@@ -54,6 +52,8 @@ require('packer').startup(function(use)
       require'hop'.setup {}
     end
   }
+
+  use 'norcalli/nvim-colorizer.lua'
 
   use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'} -- Buffer Tabs
   use 'natecraddock/sessions.nvim' -- Session Manager
@@ -145,7 +145,6 @@ vim.o.completeopt = 'menuone,noselect'
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
-
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
 local highlight_group = vim.api.nvim_create_augroup('YankHighlight', { clear = true })
@@ -201,23 +200,16 @@ require('telescope').setup {
       },
     },
   },
-  extensions = {
-    coc = {
-        theme = 'ivy',
-        prefer_locations = true, -- always use Telescope locations to preview definitions/declarations/implementations etc
-    }
-  },
 }
 
 -- Enable telescope fzf native, if installed
 pcall(require('telescope').load_extension, 'fzf')
-pcall(require('telescope').load_extension, 'coc')
 
 -- [[ Configure Treesitter ]]
 -- See `:help nvim-treesitter`
 require('nvim-treesitter.configs').setup {
   -- Add languages to be installed here that you want installed for treesitter
-  ensure_installed = { 'c', 'cpp', 'lua', 'python', 'typescript', 'help', 'php', 'javascript', 'bash', 'vim' },
+  ensure_installed = { 'c', 'cpp', 'lua', 'python', 'typescript', 'php', 'javascript', 'bash', 'vim' },
 
   highlight = { enable = true },
   indent = { enable = true, disable = { 'python' } },
@@ -308,21 +300,7 @@ require("nvim-autopairs").setup({
 })
 
 require'hop'.setup {}
-
--- require('guess-indent').setup {
---   auto_cmd = true,  -- Set to false to disable automatic execution
---   override_editorconfig = false, -- Set to true to override settings set by .editorconfig
---   -- filetype_exclude = {  -- A list of filetypes for which the auto command gets disabled
---   --   "netrw",
---   --   "tutor",
---   -- },
---   -- buftype_exclude = {  -- A list of buffer types for which the auto command gets disabled
---   --   "help",
---   --   "nofile",
---   --   "terminal",
---   --   "prompt",
---   -- },
--- }
+require'colorizer'.setup()
 
 -- KEYMAPS ###############################################################
 -- Keymaps for better default experience
@@ -369,22 +347,29 @@ vim.keymap.set('n', '<C-Up>', '<C-w>k', { silent  = true })
 vim.keymap.set('n', '<C-Right>', '<C-w>l', { silent  = true })
 vim.keymap.set('n', '<C-Left>', '<C-w>h', { silent  = true })
 
--- vim.keymap.set({ 'n', 'i' }, '<C-PageDown>', 'gt', { silent  = true })
--- vim.keymap.set({ 'n', 'i' }, '<C-PageUp>', 'gT', { silent  = true })
 vim.keymap.set({ 'n', 'i' }, '<C-PageDown>', ':bn<cr>', { silent  = true })
 vim.keymap.set({ 'n', 'i' }, '<C-PageUp>', ':bp<cr>', { silent  = true })
 vim.keymap.set({ 'n', 'i' }, '<C-w>', ':bd<cr>', { silent  = true })
 vim.keymap.set({ 'n'}, '<leader><C-w>', ':bd!<cr>', { silent  = true })
 
 -- Hop Keymap
-vim.keymap.set({'n'}, '<leader>h', ':HopWord<cr>', { silent  = true })
+-- vim.keymap.set({'n'}, '<leader>h', ':HopWord<cr>', { silent  = true })
+
+-- SPLIT 
+vim.keymap.set({'n'},'<leader>a"', ":vsplit<cr>", { silent  = true })
+vim.keymap.set({'n'},'<leader>a%', ":split<cr>", { silent  = true })
+vim.keymap.set({'n'},'<leader>aq', ":q!<cr>", { silent  = true })
+
+-- RESIZE
+vim.keymap.set({'n'},'<leader>a0', "<C-w>=", { silent  = true })
+vim.keymap.set({'n'},'<leader>a<Right>', ":vertical resize +2<cr>", { silent  = true })
+vim.keymap.set({'n'},'<leader>a<Left>', ":vertical resize -2<cr>", { silent  = true })
+vim.keymap.set({'n'},'<leader>a<Up>', ":resize +2<cr>", { silent  = true })
+vim.keymap.set({'n'},'<leader>a<Down>', ":resize -2<cr>", { silent  = true })
 
 
--- vim.keymap.set({'n'},'<leader>ds', ":<C-u>CocList outline<cr>", { silent  = true })
--- vim.keymap.set({'n'},'<leader>ws', ":<C-u>CocList -I symbols", { silent  = true })
-
-vim.keymap.set({'n'},'<leader>ds', ":<C-u>Telescope coc document_symbols<cr>", { silent  = true })
-vim.keymap.set({'n'},'<leader>ws', ":<C-u>Telescope coc workspace_symbols", { silent  = true })
+vim.keymap.set({'n'},'<leader>ds', ":<C-u>CocList outline<cr>", { silent  = true })
+vim.keymap.set({'n'},'<leader>ws', ":<C-u>CocList -I symbols", { silent  = true })
 -- KEYMAPS ###############################################################
 
 -- COC
@@ -399,9 +384,14 @@ vim.api.nvim_set_keymap("i", "<TAB>", "coc#pum#visible() ? coc#pum#next(1) : '<T
 vim.api.nvim_set_keymap("i", "<S-TAB>", "coc#pum#visible() ? coc#pum#prev(1) : '<C-h>'", {noremap = true, expr = true})
 vim.api.nvim_set_keymap("i", "<CR>", "coc#pum#visible() ? coc#pum#confirm() : '<C-G>u<CR><C-R>=coc#on_enter()<CR>'", {silent = true, expr = true, noremap = true})
 
-vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
-vim.g.shiftwidth = 4
-vim.g.tabstop = 2
+vim.opt.shiftwidth = 2
+
+-- if vim.g.neovide then
+--   vim.o.guifont = "Source Code Pro:h10"
+--   vim.g.neovide_scale_factor = 0.9
+--   vim.g.neovide_theme = 'monokaipro'
+-- end
+
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
