@@ -97,12 +97,13 @@ export PGSQL="${LOCAL}/pg11/bin"
 
 export JAVA_HOME="${LOCAL}/src/jre1.8.0_202/"
 
+export PHP74="${LOCAL}/php/74/usr/bin/"
 export PHP80="${LOCAL}/php/80/bin/"
 export PHP81="${LOCAL}/php/81/bin/"
 export PHP82="${LOCAL}/php/82/bin/"
 export NGX="${LOCAL}/nginx/sbin"
 
-export PATH=${PATH}:${JAVA_HOME}/bin:${PGSQL}:${PHP80}:${PHP81}:${PHP82}:${NGX}
+export PATH=${PATH}:${JAVA_HOME}/bin:${PGSQL}:${PHP80}:${PHP81}:${PHP82}:${PHP74}:${NGX}
 #export PATH=${PATH}:${JAVA_HOME}:${PGSQL}
 export MESA_GL_VERSION_OVERRIDE=4.2
 export WINEARCH=win32
