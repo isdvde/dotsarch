@@ -10,7 +10,7 @@ hc keyunbind --all
 Mod=Mod4    # Use alt as the main modifier
 Terminal="xfce4-terminal"
 Filemanager="pcmanfm"
-Rofi="rofi -modi drun,run -show run -icon-theme 'Papirus-Dark' -show-icons"
+Rofi="rofi -modi drun,run -show drun -icon-theme 'Papirus-Dark' -show-icons"
 Lock="slock"
 UpVol="amixer -q sset Master 2%+ unmute"
 DownVol="amixer -q sset Master 2%- unmute"
@@ -33,6 +33,7 @@ if xrandr -q | egrep VGA | egrep connected -q; then
 fi
 nitrogen --restore &
 killall lxpolkit; lxpolkit &
+killall polybar; polybar bar -c ~/.config/herbstluftwm/polybar -r &
 
 
 ############# APPS ############
@@ -107,7 +108,7 @@ hc keybind $Mod-Shift-m jumpto last-minimized
 # I.e. if there are two windows within a frame, the grid layout is skipped.
 hc keybind $Mod-Tab                                                           \
             or , and . compare tags.focus.curframe_wcount = 2                   \
-                     . cycle_layout +1 vertical horizontal max vertical grid    \
+                     . cycle_layout +1 vertical horizontal max grid    \
                , cycle_layout +1
 # mouse
 hc mouseunbind --all
@@ -162,9 +163,9 @@ hc detect_monitors
 
 
 # find the panel
-panel=~/.config/herbstluftwm/lauch.sh
-[ -x "$panel" ] || panel=/etc/xdg/herbstluftwm/panel.sh
-for monitor in $(hc list_monitors | cut -d: -f1) ; do
-    # start it on each monitor
-    "$panel" "$monitor" &
-done
+#panel=~/.config/herbstluftwm/lauch.sh
+#[ -x "$panel" ] || panel=/etc/xdg/herbstluftwm/panel.sh
+#for monitor in $(hc list_monitors | cut -d: -f1) ; do
+#    # start it on each monitor
+#    "$panel" "$monitor" &
+#done

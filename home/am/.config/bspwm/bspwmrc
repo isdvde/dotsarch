@@ -1,5 +1,6 @@
 #! /bin/sh
 
+BASE="~/.config/bspwm"
 Terminal="xfce4-terminal"
 Filemanager="pcmanfm"
 Rofi="rofi -modi drun,run -show drun -icon-theme 'Papirus-Dark' -show-icons"
@@ -53,10 +54,6 @@ super + {ctrl +,shift + }q
 super + Tab
 	bspc desktop -l next
 
-# send the newest marked node to the newest preselected node
-super + y
-	bspc node newest.marked.local -n newest.!automatic.local
-
 # swap the current node and the biggest window
 super + g
 	bspc node -s biggest.window
@@ -67,23 +64,19 @@ super + g
 super + {t,shift + t,space,f}
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
-# set the node flags
-super + ctrl + {m,x,y,z}
-	bspc node -g {marked,locked,sticky,private}
-
 # focus/swap
 
 # focus the node in the given direction
 super + {Left,Down,Up,Right}
 	bspc node -f {prev.local.!hidden.window,south,north,next.local.!hidden.window}
 
-# focus the node in the given direction
+# move the node in the given direction
 super + shift + {Left,Down,Up,Right}
 	bspc node -s {west,south,north,east}
 
 # focus the node for the given path jump
-super + {p,b,comma,period}
-	bspc node -f @{parent,brother,first,second}
+super + {a,b}
+	bspc node -f @{parent,brother}
 
 # focus the next/previous window in the current desktop
 super + {_,shift + }c
@@ -92,16 +85,6 @@ super + {_,shift + }c
 # focus the next/previous desktop in the current monitor
 super + bracket{left,right}
 	bspc desktop -f {prev,next}.local
-
-# focus the last node/desktop
-#super + {grave,Tab}
-#	bspc {node,desktop} -f last
-
-# focus the older or newer node in the focus history
-#super + {o,i}
-#	bspc wm -h off; \
-#	bspc node {older,newer} -f; \
-#	bspc wm -h on
 
 # focus or send to the given desktop
 super + {_,shift + }{1-9,0}
@@ -121,10 +104,6 @@ super + ctrl + {1-9}
 super + ctrl + space
 	bspc node -p cancel
 
-# cancel the preselection for the focused desktop
-super + ctrl + shift + space
-	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
-
 # move/resize
 
 # expand a window by moving one of its side outward
@@ -135,18 +114,21 @@ super + alt + {Left,Down,Up,Right}
 super + alt + shift + {Left,Down,Up,Right}
 	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
+super + y
+	bspc node @parent -R 90
+
 SXHKDFILE
 
 xsetroot -cursor_name left_ptr
 killall sxhkd; sxhkd -c /tmp/sxhkd &
 redshift -P -O 3400 &
-killall picom; picom --animations --animation-window-mass 0.5 --animation-stiffness 230.0 --animation-for-open-window zoom --animation-dampening 21.0 &
+killall picom; picom --animations --animation-window-mass 0.5 --animation-stiffness 230.0 --animation-for-open-window slide-left --animation-dampening 21.0 &
 if xrandr -q | egrep VGA | egrep connected -q; then
 	{ xrandr --newmode 1600 118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync; xrandr --addmode VGA1 1600; xrandr --output VGA1 --mode 1600 --primary --output LVDS1 --off; } &
 fi
 nitrogen --restore &
 killall lxpolkit; lxpolkit &
-bash ~/.config/bspwm/lauch.sh
+killall polybar; polybar bar -c ${BASE}/polybar -r &
 
 bspc monitor VGA1 -d I II III IV V VI VII VIII IX X
 
@@ -170,6 +152,9 @@ bspc config focus_follows_pointer true
 bspc config split_ratio          0.50
 bspc config borderless_monocle   true
 bspc config gapless_monocle      false
+bspc config single_monocle      true
+bspc config remove_disabled_monitors      true
+bspc config remove_unplugged_monitors      true
 
 bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a Chromium desktop='^2'
