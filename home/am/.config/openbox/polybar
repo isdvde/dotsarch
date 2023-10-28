@@ -51,6 +51,8 @@ modules-right = vol mem home iface cpu date
 enable-ipc = true
 tray-position = right
 radius = 4
+;override-redirect = true
+;wm-restack = openbox
 
 [module/xworkspaces]
 
@@ -138,40 +140,40 @@ pseudo-transparency = true
 
 [module/info]
 type = custom/script
-exec = "~/.config/bspwm/bar.sh"
+exec = "~/.config/openbox/bar.sh"
 interval = 1
 click-left = "pavucontrol"
 
 [module/vol]
 type = custom/script
-exec = "bash ~/.config/bspwm/bar.sh VOL"
+exec = "bash ~/.config/openbox/bar.sh VOL"
 label = "V [%output%]"
 interval = 1
 click-left = "pavucontrol"
 
 [module/mem]
 type = custom/script
-exec = "bash ~/.config/bspwm/bar.sh MEM"
+exec = "bash ~/.config/openbox/bar.sh MEM"
 label = "M [%output%]"
 interval = 1
 click-left = "xfce4-terminal -e 'htop'"
 
 [module/home]
 type = custom/script
-exec = "bash ~/.config/bspwm/bar.sh HOME"
+exec = "bash ~/.config/openbox/bar.sh HOME"
 label = "/H [%output%]"
 interval = 1
 
 [module/iface]
 type = custom/script
-exec = "bash ~/.config/bspwm/bar.sh IFACE"
+exec = "bash ~/.config/openbox/bar.sh IFACE"
 label = "[%output%]"
 interval = 1
 click-left = "xfce4-terminal -e 'nmtui'"
 
 [module/cpu]
 type = custom/script
-exec = "bash ~/.config/bspwm/bar.sh CPU"
+exec = "bash ~/.config/herbstluftwm/bar.sh CPU"
 label = "C [%output%]"
 interval = 1
 click-left = "xfce4-terminal -e 'htop'"

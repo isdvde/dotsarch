@@ -24,4 +24,6 @@ xset r rate 200 60 &
 # exec ~/.local/src/dwm-flexipatch/dwm
 # exec qtile start
 # exec herbstluftwm --locked
-exec bspwm
+# exec bspwm
+exec ~/.local/openbox/bin/openbox-session
+

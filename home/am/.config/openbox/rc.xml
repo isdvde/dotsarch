@@ -11,7 +11,7 @@
 		<followMouse>yes</followMouse>
 		<focusLast>yes</focusLast>
 		<underMouse>no</underMouse>
-		<focusDelay>50</focusDelay>
+		<focusDelay>10</focusDelay>
 		<!-- <raiseOnFocus>yes</raiseOnFocus> -->
 	</focus>
 
@@ -23,7 +23,8 @@
 	</placement>
 
 	<theme>
-		<name>Nightmare-02</name>
+		<!-- <name>Nightmare-02</name> -->
+		<name>Onyx</name>
 		<titleLayout/>
 
 		<keepBorder>yes</keepBorder>
@@ -61,7 +62,7 @@
 	</theme>
 
 	<desktops>
-		<number>6</number>
+		<number>10</number>
 		<firstdesk>1</firstdesk>
 		<popupTime>0</popupTime>
 	</desktops>
@@ -73,8 +74,8 @@
 	</resize>
 
 	<margins>
-		<top>26</top>
-		<bottom>10</bottom>
+		<top>10</top>
+		<bottom>38</bottom>
 		<left>10</left>
 		<right>10</right>
 	</margins>
@@ -159,25 +160,23 @@
 		</keybind>
 
 
-		<keybind key="Print">
+		<keybind key="F10">
 			<action name="Execute">
-				<command>gnome-screenshot -i</command>
+				<command>xfce4-screenshooter -f</command>
 			</action>
 		</keybind>
 
-		<!--
-		<keybind key="C-Print">
+		<keybind key="C-F10">
 			<action name="Execute">
 				<command>xfce4-screenshooter -r</command>
 			</action>
 		</keybind>
 
-		<keybind key="A-Print">
+		<keybind key="A-F10">
 			<action name="Execute">
 				<command>xfce4-screenshooter -w</command>
 			</action>
 		</keybind>
-		-->
 		
 		<keybind key="A-Tab"> <action name="NextWindow"> </action> </keybind>
 		<keybind key="A-S-Tab"> <action name="PreviousWindow"> </action> </keybind>
@@ -212,7 +211,7 @@
 
 		<keybind key="W-e">
 			<action name="Execute">
-				<command>thunar</command>
+				<command>pcmanfm</command>
 			</action>
 		</keybind>
 
@@ -222,7 +221,8 @@
 			</action>
 		</keybind>
 
-		<keybind key="W-S-space"> <action name="ToggleMaximizeFull"> </action> </keybind>
+		<keybind key="W-space"> <action name="ToggleMaximizeFull"> </action> </keybind>
+		<keybind key="W-C-0"> <action name="ToggleOmnipresent"> </action> </keybind>
 		<keybind key="W-m"> <action name="Iconify"> </action> </keybind>
 
 		<keybind key="W-S-r">
@@ -239,7 +239,7 @@
 
 		<keybind key="W-r">
 			<action name="Execute">
-				<command>rofi -modi run,drun -show run</command>
+				<command>rofi -modi drun,run -show drun -icon-theme 'Papirus-Dark' -show-icons</command>
 			</action>
 		</keybind>
 
@@ -297,21 +297,15 @@
 			</action>
 		</keybind>
 
-		<keybind key="XF86AudioRaiseVolume">
+		<keybind key="F8">
 			<action name="Execute">
 				<command>amixer -q sset Master 2%+ unmute</command>
 			</action>
 		</keybind>
 
-		<keybind key="XF86AudioLowerVolume">
+		<keybind key="F7">
 			<action name="Execute">
 				<command>amixer -q sset Master 2%- unmute</command>
-			</action>
-		</keybind>
-
-		<keybind key="XF86AudioMute">
-			<action name="Execute">
-				<command>amixer -q sset Master toggle</command>
 			</action>
 		</keybind>
 
@@ -391,6 +385,9 @@
 			<decor>no</decor>
 		</application>
 		-->
+		<application class="Polybar">
+        <layer>below</layer>
+    </application>
 	</applications>
 
 </openbox_config>
