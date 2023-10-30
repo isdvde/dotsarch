@@ -2,8 +2,8 @@
 <openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
 
 	<resistance>
-		<strength>10</strength>
-		<screen_edge_strength>20</screen_edge_strength>
+		<strength>200</strength>
+		<screen_edge_strength>200</screen_edge_strength>
 	</resistance>
 
 	<focus>
@@ -153,30 +153,7 @@
 		<!-- Keybindings for windows -->
 		<keybind key="W-S-q"> <action name="Close"/> </keybind>
 
-		<keybind key="A-space">
-			<action name="ShowMenu">
-				<menu>client-menu</menu>
-			</action>
-		</keybind>
-
-
-		<keybind key="F10">
-			<action name="Execute">
-				<command>xfce4-screenshooter -f</command>
-			</action>
-		</keybind>
-
-		<keybind key="C-F10">
-			<action name="Execute">
-				<command>xfce4-screenshooter -r</command>
-			</action>
-		</keybind>
-
-		<keybind key="A-F10">
-			<action name="Execute">
-				<command>xfce4-screenshooter -w</command>
-			</action>
-		</keybind>
+		<keybind key="A-space"> <action name="ShowMenu"> <menu>client-menu</menu> </action> </keybind>
 		
 		<keybind key="A-Tab"> <action name="NextWindow"> </action> </keybind>
 		<keybind key="A-S-Tab"> <action name="PreviousWindow"> </action> </keybind>
@@ -209,37 +186,16 @@
 			</action>
 		</keybind>
 
-		<keybind key="W-e">
-			<action name="Execute">
-				<command>pcmanfm</command>
-			</action>
-		</keybind>
-
-		<keybind key="W-Return">
-			<action name="Execute">
-				<command>xfce4-terminal</command>
-			</action>
-		</keybind>
-
 		<keybind key="W-space"> <action name="ToggleMaximizeFull"> </action> </keybind>
 		<keybind key="W-C-0"> <action name="ToggleOmnipresent"> </action> </keybind>
 		<keybind key="W-m"> <action name="Iconify"> </action> </keybind>
 
-		<keybind key="W-S-r">
-			<action name="Execute">
-				<command>openbox --restart</command>
-			</action>
-		</keybind>
-
-		<keybind key="W-S-e">
-			<action name="Execute">
-				<command>openbox --exit</command>
-			</action>
-		</keybind>
-
-		<keybind key="W-r">
-			<action name="Execute">
-				<command>rofi -modi drun,run -show drun -icon-theme 'Papirus-Dark' -show-icons</command>
+		<keybind key="W-S-space">
+			<action name="Unmaximize" />
+			<action name="MoveResizeTo">
+				<x>center</x> <y>center</y>
+				<width>90%</width>
+				<height>90%</height>
 			</action>
 		</keybind>
 
@@ -294,6 +250,60 @@
 				<x>0</x> <y>-0</y>
 				<width>50%</width>
 				<height>50%</height>
+			</action>
+		</keybind>
+
+		<keybind key="W-S-r">
+			<action name="Execute">
+				<command>openbox --restart</command>
+			</action>
+		</keybind>
+
+		<keybind key="W-S-e">
+			<action name="Execute">
+				<command>openbox --exit</command>
+			</action>
+		</keybind>
+
+		<keybind key="F10">
+			<action name="Execute">
+				<command>xfce4-screenshooter -f</command>
+			</action>
+		</keybind>
+
+		<keybind key="C-F10">
+			<action name="Execute">
+				<command>xfce4-screenshooter -r</command>
+			</action>
+		</keybind>
+
+		<keybind key="A-F10">
+			<action name="Execute">
+				<command>xfce4-screenshooter -w</command>
+			</action>
+		</keybind>
+
+		<keybind key="W-r">
+			<action name="Execute">
+				<command>rofi -modi drun,run -show drun -icon-theme 'Papirus-Dark' -show-icons</command>
+			</action>
+		</keybind>
+
+		<keybind key="W-e">
+			<action name="Execute">
+				<command>pcmanfm</command>
+			</action>
+		</keybind>
+
+		<keybind key="W-Return">
+			<action name="Execute">
+				<command>xfce4-terminal</command>
+			</action>
+		</keybind>
+
+		<keybind key="W-l">
+			<action name="Execute">
+				<command>slock</command>
 			</action>
 		</keybind>
 
