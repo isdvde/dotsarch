@@ -181,6 +181,14 @@
 		<!-- PseudoTiling Keybind -->
 		<!-- ######################################################################### -->
 
+		<!-- Center Window -->
+		<keybind key="W-A-space">
+			<action name="Unmaximize" />
+			<action name="MoveResizeTo">
+				<x>center</x> <y>center</y>
+			</action>
+		</keybind>
+
 		<!-- Center Semi Full -->
 		<keybind key="W-S-space">
 			<action name="Unmaximize" />
@@ -553,11 +561,11 @@
 			<decor>no</decor>
 		</application>
 
-	<application class="*">
-		<position force="no">
-			<x>center</x> <y>center</y>
-		</position>
-	</application>
+	<!-- <application class="*"> -->
+	<!-- 	<position force="no"> -->
+	<!-- 		<x>center</x> <y>center</y> -->
+	<!-- 	</position> -->
+	<!-- </application> -->
 		
 		<!--
 		<application type="normal">

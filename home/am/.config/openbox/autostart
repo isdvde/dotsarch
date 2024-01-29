@@ -3,9 +3,9 @@
 BASE="~/.config/openbox"
 redshift -P -O 3400 &
 killall picom; picom --animations --animation-window-mass 0.5 --animation-stiffness 230.0 --animation-for-open-window slide-left --animation-dampening 21.0 &
-if xrandr -q | egrep VGA | egrep connected -q; then
-        { xrandr --newmode 1600 118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync; xrandr --addmode VGA1 1600; xrandr --output VGA1 --mode 1600 --primary --output LVDS1 --off; } &
-fi
+# if xrandr -q | egrep VGA | egrep connected -q; then
+#         { xrandr --newmode 1600 118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync; xrandr --addmode VGA1 1600; xrandr --output VGA1 --mode 1600 --primary --output LVDS1 --off; } &
+# fi
 nitrogen --restore &
 killall lxpolkit; lxpolkit &
 killall polybar; polybar bar -c ${BASE}/polybar -r &

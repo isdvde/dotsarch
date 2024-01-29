@@ -2,13 +2,13 @@
 	"auto_complete_delay": 1,
 	"bold_folder_labels": true,
 	"caret_style": "blink",
-	"color_scheme": "User/gruvbox (Dark) (Hard).sublime-color-scheme",
+	"color_scheme": "gruvbox (Dark) (Hard).sublime-color-scheme",
 	"font_face": "monospace",
 	"font_options":
 	[
 		"bold"
 	],
-	"font_size": 8,
+	"font_size": 10,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -87,7 +87,7 @@
 		//"SideBarEnhancements",                                                  
 		"TCL",
 	],
-	"index_files": false,
+	"index_files": true,
 	"line_numbers": true,
 	"margin": 0,
 	"match_brackets_angle": true,
