@@ -9,4 +9,5 @@ killall picom; picom --animations --animation-window-mass 0.5 --animation-stiffn
 nitrogen --restore &
 killall lxpolkit; lxpolkit &
 killall polybar; polybar bar -c ${BASE}/polybar -r &
+xset led named "Scroll Lock" &
 
