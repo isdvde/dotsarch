@@ -31,8 +31,9 @@
 <!-- ######################################################################### -->
 
 	<theme>
-		<name>Onyx</name>
-		<titleLayout/>
+		<!-- <name>Onyx</name> -->
+		<name>Arc-Dark-OSX</name>
+<titleLayout>CIML</titleLayout>
 
 		<keepBorder>yes</keepBorder>
 		<animateIconify>yes</animateIconify>
@@ -48,12 +49,12 @@
 		</font>
 
 		<font place="MenuHeader">
-			<name>sans</name> <size>9</size>
+			<name>sans</name> <size>8</size>
 			<weight>normal</weight> <slant>normal</slant>
 		</font>
 
 		<font place="MenuItem">
-			<name>sans</name> <size>9</size>
+			<name>sans</name> <size>8</size>
 			<weight>normal</weight> <slant>normal</slant>
 		</font>
 
@@ -182,7 +183,7 @@
 		<!-- ######################################################################### -->
 
 		<!-- Center Window -->
-		<keybind key="W-A-space">
+		<keybind key="W-C-space">
 			<action name="Unmaximize" />
 			<action name="MoveResizeTo">
 				<x>center</x> <y>center</y>
@@ -547,14 +548,125 @@
 				<!-- <action name="Raise"/> -->
 			</mousebind>
 		</context>
+
+		<context name="Titlebar">
+			<mousebind button="Left" action="Drag">
+				<action name="Move"/>
+			</mousebind>
+			<mousebind button="Left" action="DoubleClick">
+				<action name="ToggleMaximize"/>
+			</mousebind>
+
+			<mousebind button="Up" action="Click">
+				<action name="if">
+					<shaded>no</shaded>
+					<then>
+						<action name="Shade"/>
+						<action name="FocusToBottom"/>
+						<action name="Unfocus"/>
+						<action name="Lower"/>
+					</then>
+				</action>
+			</mousebind>
+			<mousebind button="Down" action="Click">
+				<action name="if">
+					<shaded>yes</shaded>
+					<then>
+						<action name="Unshade"/>
+						<action name="Raise"/>
+					</then>
+				</action>
+			</mousebind>
+		</context>
+
+
+		<context name="TRCorner BRCorner TLCorner BLCorner">
+			<mousebind button="Left" action="Press">
+				<action name="Focus"/>
+				<action name="Raise"/>
+				<action name="Unshade"/>
+			</mousebind>
+			<mousebind button="Left" action="Drag">
+				<action name="Resize"/>
+			</mousebind>
+		</context>
+
+		<context name="Iconify">
+			<mousebind button="Left" action="Press">
+				<action name="Focus"/>
+				<action name="Raise"/>
+			</mousebind>
+			<mousebind button="Left" action="Click">
+				<action name="Iconify"/>
+			</mousebind>
+		</context>
+
+		<context name="Maximize">
+			<mousebind button="Left" action="Press">
+				<action name="Focus"/>
+				<action name="Raise"/>
+				<action name="Unshade"/>
+			</mousebind>
+			<mousebind button="Middle" action="Press">
+				<action name="Focus"/>
+				<action name="Raise"/>
+				<action name="Unshade"/>
+			</mousebind>
+			<mousebind button="Right" action="Press">
+				<action name="Focus"/>
+				<action name="Raise"/>
+				<action name="Unshade"/>
+			</mousebind>
+			<mousebind button="Left" action="Click">
+				<action name="ToggleMaximize"/>
+			</mousebind>
+			<mousebind button="Middle" action="Click">
+				<action name="ToggleMaximize"><direction>vertical</direction></action>
+			</mousebind>
+			<mousebind button="Right" action="Click">
+				<action name="ToggleMaximize"><direction>horizontal</direction></action>
+			</mousebind>
+		</context>
+
+		<context name="Close">
+			<mousebind button="Left" action="Press">
+				<action name="Focus"/>
+				<action name="Raise"/>
+				<action name="Unshade"/>
+			</mousebind>
+			<mousebind button="Left" action="Click">
+				<action name="Close"/>
+			</mousebind>
+		</context>
+
+		<!-- <context name="Titlebar Top Right Bottom Left TLCorner TRCorner BRCorner BLCorner"> -->
+		<!-- 	<mousebind button="Left" action="Press"> -->
+		<!-- 		<action name="Focus"/> -->
+		<!-- 		<action name="Raise"/> -->
+		<!-- 		<action name="Unshade"/> -->
+		<!-- 	</mousebind> -->
+		<!--  -->
+		<!-- 	<mousebind button="Middle" action="Press"> -->
+		<!-- 		<action name="Lower"/> -->
+		<!-- 		<action name="FocusToBottom"/> -->
+		<!-- 		<action name="Unfocus"/> -->
+		<!-- 	</mousebind> -->
+		<!--  -->
+		<!-- 	<mousebind button="Right" action="Press"> -->
+		<!-- 		<action name="Focus"/> -->
+		<!-- 		<action name="Raise"/> -->
+		<!-- 		<action name="ShowMenu"><menu>client-menu</menu></action> -->
+		<!-- 	</mousebind> -->
+		<!-- </context> -->
+
 	</mouse>
 
 	
 	<applications>
 
-		<application class="*">
-			<decor>no</decor>
-		</application>
+		<!-- <application class="*"> -->
+		<!-- 	<decor>no</decor> -->
+		<!-- </application> -->
 
 		<application class="*terminal*">
 			<maximized>true</maximized>
