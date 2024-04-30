@@ -473,7 +473,7 @@
 		<keybind key="W-S-e"> <action name="Execute"> <command>openbox --exit</command> </action> </keybind>
 
 		<!-- Screenshots -->
-		<keybind key="F10"> <action name="Execute"> <command>xfce4-screenshooter -f</command> </action> </keybind>
+		<keybind key="W-F10"> <action name="Execute"> <command>xfce4-screenshooter -f</command> </action> </keybind>
 		<keybind key="C-F10"> <action name="Execute"> <command>xfce4-screenshooter -r</command> </action> </keybind>
 		<keybind key="A-F10"> <action name="Execute"> <command>xfce4-screenshooter -w</command> </action> </keybind>
 
@@ -494,8 +494,10 @@
 		<keybind key="W-l"> <action name="Execute"> <command>slock</command> </action> </keybind>
 
 		<!-- Volume -->
-		<keybind key="F8"> <action name="Execute"> <command>amixer -q sset Master 2%+ unmute</command> </action> </keybind>
-		<keybind key="F7"> <action name="Execute"> <command>amixer -q sset Master 2%- unmute</command> </action> </keybind>
+		<keybind key="W-F8"> <action name="Execute"> <command>amixer -q sset Master 2%+ unmute</command> </action> </keybind>
+		<keybind key="W-F7"> <action name="Execute"> <command>amixer -q sset Master 2%- unmute</command> </action> </keybind>
+
+		<keybind key="W-F12"> <action name="Execute"> <command>bash ~/.config/openbox/animatedWallpaper.sh</command> </action> </keybind>
 
 	</keyboard>
 

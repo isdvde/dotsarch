@@ -27,3 +27,4 @@ xset r rate 200 60 &
 # exec bspwm
 exec ~/.local/openbox/bin/openbox-session
 
+# exec ~/.xfwm/autostart
