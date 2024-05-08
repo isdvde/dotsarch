@@ -467,37 +467,37 @@
 		<!-- ######################################################################### -->
 
 		<!-- Restart Openbox -->
-		<keybind key="W-S-r"> <action name="Execute"> <command>openbox --restart</command> </action> </keybind>
+		<!-- <keybind key="W-S-r"> <action name="Execute"> <command>openbox restart</command> </action> </keybind> -->
 
 		<!-- Exit Openbox -->
-		<keybind key="W-S-e"> <action name="Execute"> <command>openbox --exit</command> </action> </keybind>
+		<!-- <keybind key="W-S-e"> <action name="Execute"> <command>openbox exit</command> </action> </keybind> -->
 
 		<!-- Screenshots -->
-		<keybind key="W-F10"> <action name="Execute"> <command>xfce4-screenshooter -f</command> </action> </keybind>
-		<keybind key="C-F10"> <action name="Execute"> <command>xfce4-screenshooter -r</command> </action> </keybind>
-		<keybind key="A-F10"> <action name="Execute"> <command>xfce4-screenshooter -w</command> </action> </keybind>
+		<!-- <keybind key="W-F10"> <action name="Execute"> <command>xfce4-screenshooter -f</command> </action> </keybind> -->
+		<!-- <keybind key="C-F10"> <action name="Execute"> <command>xfce4-screenshooter -r</command> </action> </keybind> -->
+		<!-- <keybind key="A-F10"> <action name="Execute"> <command>xfce4-screenshooter -w</command> </action> </keybind> -->
 
 		<!-- Rofi Launcher -->
-		<keybind key="W-r">
-			<action name="Execute">
-				<command>rofi -modi drun,run -show drun -icon-theme 'Papirus-Dark' -show-icons</command>
-			</action>
-		</keybind>
+		<!-- <keybind key="W-r"> -->
+		<!-- 	<action name="Execute"> -->
+		<!-- 		<command>rofi -modi drun,run -show drun -icon-theme 'Papirus-Dark' -show-icons</command> -->
+		<!-- 	</action> -->
+		<!-- </keybind> -->
 
 		<!-- File Explorer -->
-		<keybind key="W-e"> <action name="Execute"> <command>pcmanfm</command> </action> </keybind>
+		<!-- <keybind key="W-e"> <action name="Execute"> <command>pcmanfm</command> </action> </keybind> -->
 
 		<!-- Terminal -->
-		<keybind key="W-Return"> <action name="Execute"> <command>xfce4-terminal</command> </action> </keybind>
+		<!-- <keybind key="W-Return"> <action name="Execute"> <command>xfce4-terminal</command> </action> </keybind> -->
 
 		<!-- Lockscreen -->
-		<keybind key="W-l"> <action name="Execute"> <command>slock</command> </action> </keybind>
+		<!-- <keybind key="W-l"> <action name="Execute"> <command>slock</command> </action> </keybind> -->
 
 		<!-- Volume -->
-		<keybind key="W-F8"> <action name="Execute"> <command>amixer -q sset Master 2%+ unmute</command> </action> </keybind>
-		<keybind key="W-F7"> <action name="Execute"> <command>amixer -q sset Master 2%- unmute</command> </action> </keybind>
+		<!-- <keybind key="F8"> <action name="Execute"> <command>amixer -q sset Master 2%+ unmute</command> </action> </keybind> -->
+		<!-- <keybind key="F7"> <action name="Execute"> <command>amixer -q sset Master 2%- unmute</command> </action> </keybind> -->
 
-		<keybind key="W-F12"> <action name="Execute"> <command>bash ~/.config/openbox/animatedWallpaper.sh</command> </action> </keybind>
+		<!-- <keybind key="W-F12"> <action name="Execute"> <command>bash ~/.config/openbox/animatedWallpaper.sh</command> </action> </keybind> -->
 
 	</keyboard>
 
@@ -514,7 +514,7 @@
 		<context name="Frame">
 			<mousebind button="W-Left" action="Press">
 				<action name="Focus"/> 
-				<!-- <action name="Raise"/> -->
+				<action name="Raise"/>
 			</mousebind>
 
 			<mousebind button="W-Left" action="Click">
@@ -528,7 +528,7 @@
 			<mousebind button="W-Right" action="Press">
 				<action name="Focus"/>
 				<action name="Unshade"/>
-				<!-- <action name="Raise"/> -->
+				<action name="Raise"/>
 			</mousebind>
 
 			<mousebind button="W-Right" action="Drag">

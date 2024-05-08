@@ -1,0 +1,26 @@
+<%- include(__dirname + '/views/partials/head') %>
+
+<div class="wrapper">
+
+	<%- include('./views/partials/sidebar') %>
+
+	<div id="body" class="active">
+		<!-- navbar navigation component -->
+		<%- include('./views/partials/navbar') %>
+		<!-- end of navbar navigation -->
+
+		<div class="content">
+			<div class="container">
+
+				<%- include('./views/partials/page-head') %>
+
+				<div id="data" class="col-md-12 col-lg-12">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="module" src="/profesores/profesores.js"></script>
+
+<%- include('../views/partials/footer') %>

@@ -1,0 +1,134 @@
+#!/bin/bash
+#
+BASE="~/.config/openbox"
+redshift -P -O 3400 &
+# killall picom; picom --animations --animation-window-mass 0.5 --animation-stiffness 230.0 --animation-for-open-window slide-left --animation-dampening 21.0 &
+# killall picom; picom &
+killall xcompmgr; xcompmgr -c -t-5 -l-5 -r6 -o1 -fF -I.07 -O.07 -D2 -C &
+# if xrandr -q | egrep VGA | egrep connected -q; then
+#         { xrandr --newmode 1600 118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync; xrandr --addmode VGA1 1600; xrandr --output VGA1 --mode 1600 --primary --output LVDS1 --off; } &
+# fi
+nitrogen --restore &
+killall lxpolkit; lxpolkit &
+killall polybar; polybar bar -c ${BASE}/polybar -r &
+xset led named "Scroll Lock" &
+xwinwrap -g 1920x1080+0+0 -ni -ov -- mpv --loop-file=inf --speed=1 -wid WID ~/pictures/nfsub.gif &
+# xwinwrap -g 1920x1080+0+0 -ni -ov -- mpv --loop-file=inf --speed=1 -wid WID ~/pictures/fizz.ultra.gif &
+
+Terminal="xfce4-terminal"
+Filemanager="pcmanfm"
+Rofi="rofi -modi drun,run -show drun -icon-theme 'Papirus-Dark' -show-icons"
+Lock="slock"
+UpVol="amixer -q sset Master 2%+ unmute"
+DownVol="amixer -q sset Master 2%- unmute"
+Screenshot="xfce4-screenshooter -f"
+WScreenshot="xfce4-screenshooter -w"
+SScreenshot="xfce4-screenshooter -r"
+
+cat << SXHKDFILE > /tmp/sxhkd
+# apps
+super + Return
+	${Terminal}
+
+super + r
+	${Rofi}
+
+super + e
+	${Filemanager}
+
+super + l
+	${Lock}
+
+F8
+	${UpVol}
+
+F7
+	${DownVol}
+
+F10
+	${Screenshot}
+
+ctrl + F10
+	${SScreenshot}
+
+alt + F10
+	${WScreenshot}
+
+# bspwm hotkeys
+
+# quit/restart bspwm
+super + shift + {e,r}
+	bspc {quit,wm -r}
+
+# close and kill
+super + {ctrl +,shift + }q
+	bspc node -{k,c}
+
+# alternate between the tiled and monocle layout
+super + Tab
+	bspc desktop -l next
+
+# swap the current node and the biggest window
+super + g
+	bspc node -s biggest.window
+
+# state/flags
+
+# set the window state
+super + {t,shift + t,space,f}
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
+# focus/swap
+
+# focus the node in the given direction
+super + {Left,Down,Up,Right}
+	bspc node -f {prev.local.!hidden.window,south,north,next.local.!hidden.window}
+
+# move the node in the given direction
+super + shift + {Left,Down,Up,Right}
+	bspc node -s {west,south,north,east}
+
+# focus the node for the given path jump
+super + {a,b}
+	bspc node -f @{parent,brother}
+
+# focus the next/previous window in the current desktop
+super + {_,shift + }c
+	bspc node -f {next,prev}.local.!hidden.window
+
+# focus the next/previous desktop in the current monitor
+super + bracket{left,right}
+	bspc desktop -f {prev,next}.local
+
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
+# preselect
+
+# preselect the direction
+super + ctrl + {Left,Down,Up,Right}
+	bspc node -p {west,south,north,east}
+
+# preselect the ratio
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+# cancel the preselection for the focused node
+super + ctrl + space
+	bspc node -p cancel
+
+# move/resize
+
+# expand a window by moving one of its side outward
+super + alt + {Left,Down,Up,Right}
+	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+# contract a window by moving one of its side inward
+super + alt + shift + {Left,Down,Up,Right}
+	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+
+super + y
+	bspc node @parent -R 90
+
+SXHKDFILE
