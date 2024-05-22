@@ -7,8 +7,10 @@ INTERNET() (
 )
 
 MEM() (
-	local MEM=$(free | grep Mem | sed 's/  */ /g' | cut -d" " -f3 | xargs -I% echo "scale=2; % / 1024" | bc);
-	local TOT=$(free | grep Mem | sed 's/  */ /g' | cut -d" " -f2 | xargs -I% echo "scale=2; % / 1024" | bc);
+	# local MEM=$(free | grep Mem | sed 's/  */ /g' | cut -d" " -f3 | xargs -I% echo "scale=2; % / 1024" | bc);
+	# local TOT=$(free | grep Mem | sed 's/  */ /g' | cut -d" " -f2 | xargs -I% echo "scale=2; % / 1024" | bc);
+	local TOT=$(cat /proc/meminfo | grep -Ei "memtotal" | sed -r "s/(  +)/ /g" | cut -d' ' -f2 | paste -sd' ' | sed -r "s/(.*)/scale=2; \1 \/ 1024/g" | bc)
+	local MEM=$(cat /proc/meminfo | grep -Ei "memtotal|memfree|buffer|cached" | head -4 | sed -r "s/(  +)/ /g" | cut -d' ' -f2 | paste -sd' ' | sed -r "s/(.*) (.*) (.*) (.*)/scale=2; ((\1 - \2) - (\3 + \4))\/1024/g" | bc)
 	local PERC=$(echo "scale=2; ($MEM*100)/$TOT" | bc);
 	echo -n "${MEM}M (${PERC}%)";
 )
@@ -67,11 +69,10 @@ WINDOW() (
 	echo $(xprop -id $(xprop -root _NET_ACTIVE_WINDOW | cut -d ' ' -f 5) WM_NAME | sed -nr 's/.*= "(.*)"$/\1/p')
 )
 
-while :; do
+#while :; do
 	#echo "V $(VOL)   |   M $(MEM)   |   /H $(HOME)  /F $(FMORE)   |   $(IFACE)  $(TRAF)   |   B $(BAT)   |   C $(CPU)   |   $(DATE)"; 
 	#echo "V $(VOL)   |   M $(MEM)   |   /H $(HOME)  /F $(FMORE)   |   $(IFACE)  $(TRAF)   |   C $(CPU)   |   $(DATE)"; 
-	#echo "$(WINDOW)   |   V $(VOL)  |  M $(MEM)  |  /H $(HOME) /F $(FMORE)  |  $(IFACE)  |  C $(CPU)  |  $(DATE)"; 
-	#echo "$(WINDOW)   |   V $(VOL)  |  M $(MEM)  |  /H $(HOME)  |  $(IFACE)  |  C $(CPU)  |  $(DATE)"; 
-	echo "V $(VOL)  |  M $(MEM)  |  /H $(HOME)  |  $(IFACE)  |  C $(CPU)  |  $(DATE)"; 
-	sleep 1;
-done
+	# echo -n "V $(VOL)  |  M $(MEM)  |  /H $(HOME)  |  $(IFACE)  |  C $(CPU)  |  $(DATE)"; 
+	echo -n "V $(VOL)  |  M $(MEM)  |  /H $(HOME)  |  $(IFACE)  |  C $(CPU)  |"; 
+	# sleep 1;
+#done

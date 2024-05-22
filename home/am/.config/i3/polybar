@@ -17,7 +17,8 @@
 ;==========================================================
 
 [colors]
-black = #bf222222
+;black = #bf222222
+black = #222222
 black2= #222222
 white = #ffffff
 blue = #d9005577
@@ -26,60 +27,114 @@ red = #900000
 orange = #ff9b82
 
 [bar/bar]
-width = 100%
-height = 10pt
+width = 80%
+offset-x = 10%
+offset-y = 0.5%
+height = 18pt
 bottom = true
 background = ${colors.black}
 foreground = ${colors.white}
 line-size = 3pt
-border-left-size = 6pt
-border-right-size = 6pt
-border-bottom-size = 4pt
-border-color = #00000000
+;border-left-size = 6pt
+;border-right-size = 6pt
+;border-bottom-size = 4pt
+;border-color = #00000000
 ; padding-left = 1
 padding-right = 2
 module-margin = 2
 ; separator-foreground = ${colors.grey}
 font-0 = "Sans:size=7;2"
-modules-left = xworkspaces xwindow
-modules-right = info date
+font-1 = "DejaVuSansMono Nerd Font Mono:size=14;3"
+modules-left = xworkspaces
+modules-center =  xwindow
+;modules-right = info date
+modules-right = vol mem home iface cpu date
 enable-ipc = true
 tray-position = right
-
-;[module/xworkspaces]
-;type = internal/xworkspaces
-;label-active = ●
-;; label-active-background = ${colors.blue}
-;label-active-padding = 1
-;label-occupied = ○
-;label-occupied-padding = 1
-;label-urgent = ●
-;label-urgent-foreground = ${colors.red}
-;label-urgent-padding = 1
+radius = 4
+override-redirect = true
+;wm-restack = openbox
+wm-restack = i3
 
 [module/xworkspaces]
+
 type = internal/xworkspaces
-label-active = %name%
-label-active-background = ${colors.orange}
-label-active-foreground = ${colors.black2}
-label-active-padding = 2
-label-occupied = %name%
-label-occupied-padding = 2
-label-urgent = %name%
-label-urgent-background = ${colors.red}
-label-urgent-padding = 3
-label-empty = %name%
+pin-workspaces = true
+
+; Create click handler used to focus desktop
+; Default: true
+enable-click = true
+
+; Create scroll handlers used to cycle desktops
+; Default: true
+enable-scroll = true
+
+
+; Available tags:
+;   <label-monitor>
+;   <label-state> - gets replaced with <label-(active|urgent|occupied|empty)>
+; Default: <label-state>
+format = <label-state>
+format-font = 1
+
+; Available tokens:
+;   %name%
+; Default: %name%
+label-monitor = %name%
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-active = ﱣ
+;label-active-foreground = ${colors.orange}
+label-active-foreground = #00CA4E
+;;label-active-underline = ${color.ALTBLACK}
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-occupied = ﱣ
+;label-occupied-foreground = ${colors.white}
+label-occupied-foreground = #FFBD44
+;;label-occupied-underline = ${color.ALTBLACK}
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-urgent = ﱣ
+;label-urgent-foreground = ${colors.red}
+label-urgent-foreground = #FF605C
+;;label-urgent-underline = ${color.ALTBLACK}
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-empty = ﱣ
 label-empty-foreground = ${colors.grey}
+
+label-active-padding = 2
+label-urgent-padding = 4
+label-occupied-padding = 2
 label-empty-padding = 2
+
 
 [module/xwindow]
 type = internal/xwindow
 ;label = %title:0:30:%
 format = <label>
-format-background = ${colors.orange}
-format-foreground = ${colors.black2}
+;format-background = ${colors.orange}
+;format-foreground = ${colors.black2}
+format-foreground = ${colors.white}
 format-padding = 2
-label = %title%
+label = %title:0:50:%
 
 [settings]
 screenchange-reload = true
@@ -87,8 +142,43 @@ pseudo-transparency = true
 
 [module/info]
 type = custom/script
-exec = "~/.config/i3/bar.sh"
+exec = "~/.config/openbox/bar.sh"
 interval = 1
+click-left = "pavucontrol"
+
+[module/vol]
+type = custom/script
+exec = "bash ~/.config/openbox/bar.sh VOL"
+label = "V [%output%]"
+interval = 1
+click-left = "pavucontrol"
+
+[module/mem]
+type = custom/script
+exec = "bash ~/.config/openbox/bar.sh MEM"
+label = "M [%output%]"
+interval = 1
+click-left = "xfce4-terminal -e 'htop'"
+
+[module/home]
+type = custom/script
+exec = "bash ~/.config/openbox/bar.sh HOME"
+label = "/H [%output%]"
+interval = 1
+
+[module/iface]
+type = custom/script
+exec = "bash ~/.config/openbox/bar.sh IFACE"
+label = "[%output%]"
+interval = 1
+click-left = "xfce4-terminal -e 'nmtui'"
+
+[module/cpu]
+type = custom/script
+exec = "bash ~/.config/herbstluftwm/bar.sh CPU"
+label = "C [%output%]"
+interval = 1
+click-left = "xfce4-terminal -e 'htop'"
  
 [module/date]
 type = internal/date

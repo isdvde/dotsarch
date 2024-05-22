@@ -18,114 +18,68 @@
 
 [colors]
 black = #bf222222
+black2= #222222
 white = #ffffff
 blue = #d9005577
 grey = #444444
 red = #900000
+orange = #ff9b82
 
 [bar/bar]
-width = 14%
-height = 12pt
+width = 100%
+height = 10pt
 bottom = true
-radius = 4
-offset-x = 8%
 background = ${colors.black}
 foreground = ${colors.white}
 line-size = 3pt
-border-size = 4pt
+border-left-size = 6pt
+border-right-size = 6pt
+border-bottom-size = 4pt
 border-color = #00000000
-padding-left = 0
-padding-right = 1
-module-margin = 2
-separator = |
-separator-foreground = ${colors.grey}
-font-0 = "Sans:size=10;1"
-; modules-center = xworkspaces
-modules-center = i3
-enable-ipc = true
-override-redirect = true
-
-[bar/bar2]
-width = 10%
-height = 12pt
-bottom = true
-radius = 4
-offset-x = 45%
-background = ${colors.black}
-foreground = ${colors.white}
-line-size = 3pt
-border-size = 4pt
-border-color = #00000000
-padding-left = 0
-padding-right = 1
-module-margin = 2
-separator = |
-separator-foreground = ${colors.grey}
-font-0 = "Sans:size=7;2"
-modules-center = date
-enable-ipc = true
-override-redirect = true
-
-[bar/bar3]
-width = 27%
-height = 12pt
-bottom = true
-radius = 4
-offset-x = 65%
-background = ${colors.black}
-foreground = ${colors.white}
-line-size = 3pt
-border-size = 4pt
-border-color = #00000000
-padding-left = 2
+; padding-left = 1
 padding-right = 2
 module-margin = 2
-separator = |
-separator-foreground = ${colors.grey}
+; separator-foreground = ${colors.grey}
 font-0 = "Sans:size=7;2"
-modules-center = info
-enable-ipc = true
-; tray-position = right
-override-redirect = true
-
-[bar/bar4]
-width = 5%
-height = 12pt
-bottom = true
-radius = 4
-offset-x = 95%
-; background = ${colors.black}
-background = #00000000
-foreground = #00000000
-line-size = 3pt
-border-size = 4pt
-border-color = #00000000
-padding-left = 2
-padding-right = 1
-module-margin = 2
-separator = |
-separator-foreground = ${colors.grey}
-font-0 = "Sans:size=7;2"
-modules-left = tray
+modules-left = xworkspaces xwindow
+modules-right = info date
 enable-ipc = true
 tray-position = right
-tray-scale = 1.2
-override-redirect = true
+
+;[module/xworkspaces]
+;type = internal/xworkspaces
+;label-active = ●
+;; label-active-background = ${colors.blue}
+;label-active-padding = 1
+;label-occupied = ○
+;label-occupied-padding = 1
+;label-urgent = ●
+;label-urgent-foreground = ${colors.red}
+;label-urgent-padding = 1
 
 [module/xworkspaces]
 type = internal/xworkspaces
-label-active = ●
-; label-active-background = ${colors.blue}
-label-active-padding = 1
-label-occupied = ○
-label-occupied-padding = 1
-label-urgent = ●
-label-urgent-foreground = ${colors.red}
-label-urgent-padding = 1
+label-active = %name%
+label-active-background = ${colors.orange}
+label-active-foreground = ${colors.black2}
+label-active-padding = 2
+label-occupied = %name%
+label-occupied-padding = 2
+label-urgent = %name%
+label-urgent-background = ${colors.red}
+label-urgent-padding = 3
+label-empty = %name%
+label-empty-foreground = ${colors.grey}
+label-empty-padding = 2
 
 [module/xwindow]
 type = internal/xwindow
-label = %title:0:30:...%
+;label = %title:0:30:%
+format = <label>
+format-background = ${colors.orange}
+format-foreground = ${colors.black2}
+format-padding = 2
+label = %title%
 
 [settings]
 screenchange-reload = true
@@ -141,25 +95,6 @@ type = internal/date
 interval = 1.0
 date = %a, %d %b %H:%M:%S
 date-alt = %a, %d %b %H:%M:%S
-
-[module/i3]
-type = internal/i3
-pin-workspaces = true
-show-urgent = true
-strip-wsnumbers = true
-index-sort = true
-enable-click = true
-enable-scroll = true
-wrapping-scroll = false
-reverse-scroll = true
-fuzzy-match = true
-label-focused = ●
-label-focused-padding = 1
-label-unfocused = ○
-label-unfocused-padding = 1
-label-urgent = ●
-label-urgent-foreground = ${colors.red}
-label-urgent-padding = 1
 
 [module/tray]
 type = custom/text

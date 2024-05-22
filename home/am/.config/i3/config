@@ -15,19 +15,8 @@ workspace_auto_back_and_forth yes
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-# Start a terminal
-bindsym --release $mod+Return exec --no-startup-id xfce4-terminal
-#bindsym --release $mod+Return exec --no-startup-id termite
-bindsym --release $mod+shift+h exec --no-startup-id chrome
-
 # kill focused window
 bindsym $mod+Shift+q kill
-
-# Apps menu
-bindsym $mod+r exec "rofi -modi drun,run -show run -font Sans -icon-theme 'Papirus-Dark' -show-icons" 
-
-# Lock Screen
-bindsym --release $mod+l exec --no-startup-id slock
 
 # Focus windows
 bindsym $mod+Left focus left
@@ -107,7 +96,7 @@ bindsym Control+$mod+Right resize grow width 5 px or 5 ppt
 #i3 GAPS
 #######################################################
 
-gaps outer 15
+gaps outer 10
 gaps inner 4
 smart_borders on
 
@@ -129,26 +118,6 @@ bindsym $mod+m scratchpad show
 # Cycle scratchpad windows
 bindsym $mod+Shift+Tab scratchpad show; scratchpad show
 
-
-#######################################################
-#USER KEYMAP
-#######################################################
-
-#File Manager keymap
-#bindsym $mod+e exec --no-startup-id thunar
-bindsym $mod+e exec --no-startup-id pcmanfm
-
-#Volume keys Keybind
-bindsym F8 exec --no-startup-id "amixer -q sset Master 2%+ unmute"
-bindsym F7 exec --no-startup-id "amixer -q sset Master 2%- unmute"
-bindsym $mod+F8 exec --no-startup-id "amixer -q sset Master 2%+ unmute"
-bindsym $mod+F7 exec --no-startup-id "amixer -q sset Master 2%- unmute"
-
-#Screeshot keybind
-bindsym Mod1+F10 exec --no-startup-id xfce4-screenshooter -w
-bindsym Control+F10 exec --no-startup-id xfce4-screenshooter -r
-bindsym $mod+F10 exec --no-startup-id xfce4-screenshooter -f
-
 #Kill Workspace
 bindsym $mod+Ctrl+1 [workspace=1] kill
 bindsym $mod+Ctrl+2 [workspace=2] kill
@@ -165,8 +134,8 @@ bindsym $mod+Ctrl+0 [workspace=10] kill
 bindsym $mod+Shift+Return exec "i3-msg open"
 
 set $whitec #ffffff
-#set $bluec #005577
-set $bluec #ff9b82
+set $bluec #005577
+#set $bluec #ff9b82
 set $greyc #444444
 set $normal #eeeeee
 set $cyanc #1793d1
@@ -188,7 +157,27 @@ client.background       $whitec
 exec --no-startup-id bash ~/.config/i3/autostart
 #######################################################
 
-exec_always --no-startup-id "~/.config/i3/lauch.sh"
+bar {
+  # command in i3-gaps to allow rgba colors for i3bar
+  i3bar_command i3bar -t
+
+  tray_output         none  
+  workspace_buttons   no    
+  height              22
+
+  # prevent any accidental clicks/scrolls
+  bindsym button1 nop
+  bindsym button2 nop
+  bindsym button3 nop
+  bindsym button4 nop
+  bindsym button5 nop
+
+  colors {
+    # set bar background to transparent
+    background #00000000
+  }
+}
+
 
 # bar {
 # 	i3bar_command i3bar -t
@@ -211,7 +200,7 @@ exec_always --no-startup-id "~/.config/i3/lauch.sh"
 # 	}
 # }
 
-bindsym $mod+b bar mode toggle
+# bindsym $mod+b bar mode toggle
 
 #bar {
 #  # command in i3-gaps to allow rgba colors for i3bar
