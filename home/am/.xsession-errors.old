@@ -1,256 +1,104 @@
-xprop: error: Invalid window id format: WM_NAME.
-error 140: BadRegion request 138 minor 14 serial 555
-error 140: BadRegion request 138 minor 14 serial 560
-error 140: BadRegion request 138 minor 14 serial 591
-error 140: BadRegion request 138 minor 14 serial 600
-error 140: BadRegion request 138 minor 14 serial 628
-error 140: BadRegion request 138 minor 14 serial 637
-error 140: BadRegion request 138 minor 14 serial 665
-error 140: BadRegion request 138 minor 14 serial 674
-error 140: BadRegion request 138 minor 14 serial 702
-error 140: BadRegion request 138 minor 14 serial 711
-error 140: BadRegion request 138 minor 14 serial 739
-error 140: BadRegion request 138 minor 14 serial 748
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 762
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 763
-error 3: BadWindow (invalid Window parameter) request 2 minor 0 serial 798
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 799
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 800
-error 140: BadRegion request 138 minor 14 serial 983
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 143 minor 1 serial 1052
-error 3: BadWindow (invalid Window parameter) request 129 minor 6 serial 1053
-error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 1054
-error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 1055
-xprop: error: Invalid window id format: WM_NAME.
-xprop: error: Invalid window id format: WM_NAME.
-xprop: error: Invalid window id format: WM_NAME.
-xprop: error: Invalid window id format: WM_NAME.
-xprop: error: Invalid window id format: WM_NAME.
-xprop: error: Invalid window id format: WM_NAME.
-xprop: error: Invalid window id format: WM_NAME.
-xprop: error: Invalid window id format: WM_NAME.
-xprop: error: Invalid window id format: WM_NAME.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-error 140: BadRegion request 138 minor 14 serial 25913
-error 140: BadRegion request 138 minor 14 serial 25964
-error 140: BadRegion request 138 minor 14 serial 26015
-error 140: BadRegion request 138 minor 14 serial 26066
-error 140: BadRegion request 138 minor 14 serial 26117
-error 140: BadRegion request 138 minor 14 serial 26168
-error 140: BadRegion request 138 minor 14 serial 26219
-error 140: BadRegion request 138 minor 14 serial 26270
-error 140: BadRegion request 138 minor 14 serial 30893
-error 140: BadRegion request 138 minor 14 serial 30946
-error 140: BadRegion request 138 minor 14 serial 339953
-error 140: BadRegion request 138 minor 14 serial 340008
-error 140: BadRegion request 138 minor 14 serial 340068
-error 140: BadRegion request 138 minor 14 serial 340135
-error 140: BadRegion request 138 minor 14 serial 340202
-error 140: BadRegion request 138 minor 14 serial 340301
-error 140: BadRegion request 138 minor 14 serial 340368
-error 140: BadRegion request 138 minor 14 serial 340435
-error 140: BadRegion request 138 minor 14 serial 340502
-error 140: BadRegion request 138 minor 14 serial 340557
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-error 140: BadRegion request 138 minor 14 serial 362483
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-[559339:562154:0711/131922.461254:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[559339:562154:0711/131922.464063:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[559339:562154:0711/131922.464990:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[560668:560698:0711/131938.982881:ERROR:quic_ping_manager.cc(145)] QUIC retransmittable PING deadline is in past, now: 3328846191, retransmittable_on_wire_deadline: 3328844191, difference: 2ms
-[560668:560698:0711/131938.983551:ERROR:quic_ping_manager.cc(145)] QUIC retransmittable PING deadline is in past, now: 3328847119, retransmittable_on_wire_deadline: 3328844191, difference: 2928us
-[560668:560698:0711/131939.000804:ERROR:quic_ping_manager.cc(145)] QUIC retransmittable PING deadline is in past, now: 3328864365, retransmittable_on_wire_deadline: 3328844191, difference: 20174us
-[560668:560698:0711/131939.065209:ERROR:quic_ping_manager.cc(145)] QUIC retransmittable PING deadline is in past, now: 3328928764, retransmittable_on_wire_deadline: 3328844191, difference: 84573us
-[560668:560698:0711/131939.070964:ERROR:quic_ping_manager.cc(145)] QUIC retransmittable PING deadline is in past, now: 3328934518, retransmittable_on_wire_deadline: 3328844191, difference: 90327us
-[560668:560698:0711/131939.071193:ERROR:quic_ping_manager.cc(145)] QUIC retransmittable PING deadline is in past, now: 3328934776, retransmittable_on_wire_deadline: 3328844191, difference: 90585us
-[560668:560698:0711/131939.073119:ERROR:quic_ping_manager.cc(145)] QUIC retransmittable PING deadline is in past, now: 3328936683, retransmittable_on_wire_deadline: 3328844191, difference: 92492us
-[560668:560698:0711/131939.077255:ERROR:quic_ping_manager.cc(145)] QUIC retransmittable PING deadline is in past, now: 3328940819, retransmittable_on_wire_deadline: 3328844191, difference: 96628us
-error 140: BadRegion request 138 minor 14 serial 390957
-error 140: BadRegion request 138 minor 14 serial 391032
-error 140: BadRegion request 138 minor 14 serial 391078
-error 8: BadMatch (invalid parameter attributes) request 142 minor 6 serial 391470
-error 9: BadDrawable (invalid Pixmap or Window parameter) request 139 minor 4 serial 391471
-error 4: BadPixmap (invalid Pixmap parameter) request 54 minor 0 serial 391747
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-[560668:560698:0711/132047.160786:ERROR:quic_ping_manager.cc(145)] QUIC retransmittable PING deadline is in past, now: 3397024351, retransmittable_on_wire_deadline: 3397024011, difference: 340us
-[560668:560698:0711/132047.161027:ERROR:quic_ping_manager.cc(145)] QUIC retransmittable PING deadline is in past, now: 3397024611, retransmittable_on_wire_deadline: 3397024011, difference: 600us
-xprop: error: Invalid window id format: 0x0.
-error 140: BadRegion request 138 minor 14 serial 435962
-error 140: BadRegion request 138 minor 14 serial 436001
-error 140: BadRegion request 138 minor 14 serial 436040
-xprop: error: Invalid window id format: 0x0.
-error 140: BadRegion request 138 minor 14 serial 454634
-error 140: BadRegion request 138 minor 14 serial 454661
-error 140: BadRegion request 138 minor 14 serial 454689
-error 140: BadRegion request 138 minor 14 serial 454717
-error 140: BadRegion request 138 minor 14 serial 454745
-error 140: BadRegion request 138 minor 14 serial 454773
-error 140: BadRegion request 138 minor 14 serial 454801
-error 140: BadRegion request 138 minor 14 serial 454829
-error 140: BadRegion request 138 minor 14 serial 454857
-error 140: BadRegion request 138 minor 14 serial 454885
-error 140: BadRegion request 138 minor 14 serial 454913
-error 140: BadRegion request 138 minor 14 serial 454941
-error 140: BadRegion request 138 minor 14 serial 454969
-error 140: BadRegion request 138 minor 14 serial 454997
-xprop: error: Invalid window id format: 0x0.
-[0711/132505.941177:ERROR:nacl_helper_linux.cc(315)] NaCl helper process running without a sandbox!
+/home/am/.bashrc: línea 68: bind: aviso: no se activó la edición de línea
+/home/am/.bashrc: línea 69: bind: aviso: no se activó la edición de línea
+tput: No value for $TERM and no -T specified
+xrdb:  "*foreground" on line 18 overrides entry on line 10
+xrdb:  "*background" on line 19 overrides entry on line 9
+xrdb:  "*foreground" on line 18 overrides entry on line 10
+xrdb:  "*background" on line 19 overrides entry on line 9
+X Error of failed request:  BadAccess (attempt to access private resource denied)
+  Major opcode of failed request:  131 (XInputExtension)
+  Minor opcode of failed request:  57 ()
+  Serial number of failed request:  21
+  Current serial number in output stream:  22
+X Error of failed request:  BadAccess (attempt to access private resource denied)
+  Major opcode of failed request:  131 (XInputExtension)
+  Minor opcode of failed request:  57 ()
+  Serial number of failed request:  21
+  Current serial number in output stream:  22
+xcompmgr: ningún proceso encontrado
+lxpolkit: ningún proceso encontrado
+/home/am/.config/i3/autostart: línea 60: lxpolkit: orden no encontrada
+polybar: ningún proceso encontrado
+/home/am/.config/i3/autostart: línea 63: xwinwrap: orden no encontrada
+sxhkd: ningún proceso encontrado
+Could not grab key 26 with modfield 65: the combination is already grabbed.
+Could not grab key 26 with modfield 81: the combination is already grabbed.
+Could not grab key 26 with modfield 67: the combination is already grabbed.
+Could not grab key 26 with modfield 83: the combination is already grabbed.
+Could not grab key 27 with modfield 65: the combination is already grabbed.
+Could not grab key 27 with modfield 81: the combination is already grabbed.
+Could not grab key 27 with modfield 67: the combination is already grabbed.
+Could not grab key 27 with modfield 83: the combination is already grabbed.
+polybar|notice:  Parsing config file: /home/am/.config/i3/polybar
+polybar|notice:  Listening for IPC messages (PID: 22664)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
+
+(nitrogen:22660): Gtk-WARNING **: 14:46:20.152: Unable to locate theme engine in module_path: "murrine",
+polybar|notice:  Loading module 'vol' of type 'custom/script'
+polybar|notice:  Loading module 'mem' of type 'custom/script'
+
+(nitrogen:22660): Gtk-WARNING **: 14:46:20.152: Unable to locate theme engine in module_path: "murrine",
+polybar|notice:  Loading module 'home' of type 'custom/script'
+polybar|notice:  Loading module 'iface' of type 'custom/script'
+
+(nitrogen:22660): Gtk-WARNING **: 14:46:20.153: Unable to locate theme engine in module_path: "murrine",
+polybar|notice:  Loading module 'cpu' of type 'custom/script'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 8 modules
+ERROR: Could not load file in bg set: Failed to open file “/home/am/pictures/wallpapers/wallpapers-master/wp1932343-el-capitan-wallpapers.jpg”: No existe el fichero o el directorio
+polybar|notice:  Loaded font "Sans:size=7" (name=Noto Sans, offset=2, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "DejaVuSansMono Nerd Font Mono:size=14" (name=DejaVuSansMono Nerd Font Mono, offset=3, file=/home/am/.local/share/fonts/DejaVu Sans Mono Nerd Font Complete Mono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  tray: bar/bar.tray-position is deprecated, use the dedicated tray module to display the system tray
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+
+(xfce4-terminal:22749): xfce4-terminal-WARNING **: 14:46:20.975: Failed to connect to session manager: No ha podido conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
+[23054:23054:0608/144625.164432:ERROR:process_singleton_posix.cc(353)] Parece que otro proceso de Google Chrome (227850) está utilizando el perfil en otra computadora (ares). Chrome bloqueó el perfil para que no se dañe. Si puedes confirmar que ningún otro proceso está utilizando este perfil, puedes desbloquearlo y volver a iniciar Chrome.
+[23054:23054:0608/144625.169139:ERROR:message_box_dialog.cc(146)] Unable to show a dialog outside the UI thread message loop: Google Chrome - Parece que otro proceso de Google Chrome (227850) está utilizando el perfil en otra computadora (ares). Chrome bloqueó el perfil para que no se dañe. Si puedes confirmar que ningún otro proceso está utilizando este perfil, puedes desbloquearlo y volver a iniciar Chrome.
+[0608/144625.184880:ERROR:nacl_helper_linux.cc(354)] NaCl helper process running without a sandbox!
 Most likely you need to configure your SUID sandbox correctly
-error 140: BadRegion request 138 minor 14 serial 461628
-error 140: BadRegion request 138 minor 14 serial 461707
-error 140: BadRegion request 138 minor 14 serial 461747
-error 140: BadRegion request 138 minor 14 serial 461798
-error 140: BadRegion request 138 minor 14 serial 461849
-error 140: BadRegion request 138 minor 14 serial 461900
-error 140: BadRegion request 138 minor 14 serial 461947
-error 140: BadRegion request 138 minor 14 serial 462017
-error 140: BadRegion request 138 minor 14 serial 462068
-error 140: BadRegion request 138 minor 14 serial 462127
-error 140: BadRegion request 138 minor 14 serial 462132
-error 140: BadRegion request 138 minor 14 serial 462214
-error 140: BadRegion request 138 minor 14 serial 462219
-error 140: BadRegion request 138 minor 14 serial 462281
-error 140: BadRegion request 138 minor 14 serial 462316
-error 140: BadRegion request 138 minor 14 serial 462351
-error 140: BadRegion request 138 minor 14 serial 462394
-error 140: BadRegion request 138 minor 14 serial 462441
-error 140: BadRegion request 138 minor 14 serial 462476
-error 140: BadRegion request 138 minor 14 serial 462507
-error 140: BadRegion request 138 minor 14 serial 462559
-error 140: BadRegion request 138 minor 14 serial 462964
-error 140: BadRegion request 138 minor 14 serial 463034
-error 140: BadRegion request 138 minor 14 serial 463458
-error 140: BadRegion request 138 minor 14 serial 463528
-error 140: BadRegion request 138 minor 14 serial 463987
-error 140: BadRegion request 138 minor 14 serial 464057
-error 140: BadRegion request 138 minor 14 serial 464133
-error 140: BadRegion request 138 minor 14 serial 464215
-error 140: BadRegion request 138 minor 14 serial 464257
-error 140: BadRegion request 138 minor 14 serial 465662
-error 140: BadRegion request 138 minor 14 serial 465697
-error 140: BadRegion request 138 minor 14 serial 465770
-error 140: BadRegion request 138 minor 14 serial 465841
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-error 140: BadRegion request 138 minor 14 serial 486650
-error 140: BadRegion request 138 minor 14 serial 486687
-error 140: BadRegion request 138 minor 14 serial 486724
-error 140: BadRegion request 138 minor 14 serial 486772
-error 140: BadRegion request 138 minor 14 serial 486809
-error 140: BadRegion request 138 minor 14 serial 486846
-error 140: BadRegion request 138 minor 14 serial 486883
-error 140: BadRegion request 138 minor 14 serial 493130
-error 140: BadRegion request 138 minor 14 serial 493169
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
-error 140: BadRegion request 138 minor 14 serial 495723
-error 140: BadRegion request 138 minor 14 serial 495776
-error 140: BadRegion request 138 minor 14 serial 495829
-error 140: BadRegion request 138 minor 14 serial 495882
-error 140: BadRegion request 138 minor 14 serial 495957
-error 140: BadRegion request 138 minor 14 serial 496010
-error 140: BadRegion request 138 minor 14 serial 496063
-error 140: BadRegion request 138 minor 14 serial 496116
-error 140: BadRegion request 138 minor 14 serial 496169
-error 140: BadRegion request 138 minor 14 serial 497446
-error 140: BadRegion request 138 minor 14 serial 497485
-xprop: error: Invalid window id format: 0x0.
-xprop: error: Invalid window id format: 0x0.
+error 140: BadRegion request 138 minor 14 serial 31406
+error 140: BadRegion request 138 minor 14 serial 31464
+error 140: BadRegion request 138 minor 14 serial 31512
+error 140: BadRegion request 138 minor 14 serial 31561
+error 140: BadRegion request 138 minor 14 serial 31611
+error 140: BadRegion request 138 minor 14 serial 31660
+error 140: BadRegion request 138 minor 14 serial 31709
+error 140: BadRegion request 138 minor 14 serial 31758
+error 140: BadRegion request 138 minor 14 serial 31807
+error 140: BadRegion request 138 minor 14 serial 31856
+error 140: BadRegion request 138 minor 14 serial 31905
+error 140: BadRegion request 138 minor 14 serial 31950
+error 140: BadRegion request 138 minor 14 serial 31999
+error 140: BadRegion request 138 minor 14 serial 32044
+error 140: BadRegion request 138 minor 14 serial 32093
+error 140: BadRegion request 138 minor 14 serial 32142
+error 140: BadRegion request 138 minor 14 serial 32191
+error 140: BadRegion request 138 minor 14 serial 32240
+error 140: BadRegion request 138 minor 14 serial 32289
+Closing SHM log "/i3-log-22633"
+error 9: BadDrawable (invalid Pixmap or Window parameter) request 143 minor 1 serial 36051
+error 3: BadWindow (invalid Window parameter) request 129 minor 6 serial 36052
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 36053
+error 3: BadWindow (invalid Window parameter) request 15 minor 0 serial 36054
+error 3: BadWindow (invalid Window parameter) request 2 minor 0 serial 36055
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 36056
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 36057
+error 3: BadWindow (invalid Window parameter) request 2 minor 0 serial 36058
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 36059
+error 3: BadWindow (invalid Window parameter) request 20 minor 0 serial 36060
+error 140: BadRegion request 138 minor 14 serial 36166
+error 140: BadRegion request 138 minor 14 serial 36171
+error 140: BadRegion request 138 minor 14 serial 36220
+error 140: BadRegion request 138 minor 14 serial 36229
+error 140: BadRegion request 138 minor 14 serial 36280
+error 140: BadRegion request 138 minor 14 serial 36289
+error 140: BadRegion request 138 minor 14 serial 36340
+error 140: BadRegion request 138 minor 14 serial 36349
+X connection to :0 broken (explicit kill or server shutdown).
+polybar|error: X connection error, terminating... (what: Socket, pipe or stream error)
+polybar|notice:  Termination signal received, shutting down...
+The server closed the connection.

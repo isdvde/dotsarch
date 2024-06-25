@@ -43,7 +43,8 @@ bindsym $mod+f fullscreen toggle
 bindsym $mod+i layout stacking 
 bindsym $mod+o layout tabbed
 bindsym $mod+p layout toggle split
-bindsym $mod+Tab layout toggle tabbed split
+#bindsym $mod+Tab layout toggle tabbed split
+bindsym $mod+Tab focus right
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows

@@ -1,3 +1,4 @@
 //@theme "/home/am/.local/share/rofi/themes/square-nord.rasi"
 //@theme "/home/am/.local/share/rofi/themes/square-nord.rasi"
-@theme "/home/am/.local/share/rofi/themes/nord.rasi"
+//@theme "/home/am/.local/share/rofi/themes/nord.rasi"
+@theme "/home/am/.local/share/rofi/themes/launchpad.rasi"

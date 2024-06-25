@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../compras"
+		},
+		{
+			"path": "../../bootstrap-template-atlantis-lite"
+		}
+	],
+	"settings": {}
+}

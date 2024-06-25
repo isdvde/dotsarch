@@ -2,14 +2,15 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Package Control",
 	],
 	"installed_packages":
 	[
 		"All Autocomplete",
 		"AutoFileName",
 		"Blade Snippets",
-		"Bootstrap 4x Autocomplete",
 		"Emmet",
+		"ESLint-Formatter",
 		"FileIcons",
 		"FileSystem Autocompletion",
 		"gruvbox",
@@ -33,15 +34,12 @@
 		"MarkdownEditing",
 		"MarkdownPreview",
 		"Package Control",
-		"Prettierd Format",
 		"SideBarEnhancements",
 		"SublimeLinter",
-		"SublimeLinter-contrib-htmlhint",
 		"SublimeLinter-csslint",
 		"SublimeLinter-eslint",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
-		"SublimeLinter-pyflakes",
 		"Tailwind CSS Autocomplete",
 		"Terminus",
 		"Vuejs Complete Package",

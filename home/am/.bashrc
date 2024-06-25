@@ -95,7 +95,7 @@ export PGPORT=5432
 export PGDATA="${LOCAL}/pg11/data"
 export PGSQL="${LOCAL}/pg11/bin"
 
-export JAVA_HOME="${LOCAL}/src/jre1.8.0_202/"
+#export JAVA_HOME="${LOCAL}/src/jre1.8.0_202/"
 
 export PHP74="${LOCAL}/php/74/usr/bin/"
 export PHP80="${LOCAL}/php/80/bin/"
@@ -103,9 +103,12 @@ export PHP81="${LOCAL}/php/81/usr/bin/"
 export PHP82="${LOCAL}/php/82/usr/bin/"
 export PHP83="${LOCAL}/php/83/usr/bin/"
 export NGX="${LOCAL}/nginx/sbin"
-
+export XDG_CURRENT_DESKTOP="gnome"
 export PATH=${PATH}:${JAVA_HOME}/bin:${PGSQL}:${PHP80}:${PHP81}:${PHP82}:${PHP74}:${NGX}:${PHP83}
 #export PATH=${PATH}:${JAVA_HOME}:${PGSQL}
-export MESA_GL_VERSION_OVERRIDE=4.2
+# export MESA_GL_VERSION_OVERRIDE=4.2
 export WINEARCH=win32
 alias vim="nvim"
+export XDG_SESSION_CLASS=user
+export XDG_SESSION_DESKTOP=x11
+export  XDG_SESSION_TYPE=x11

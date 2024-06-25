@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../compras"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../../node/siae"
+		}
+	],
+	"settings": {}
+}

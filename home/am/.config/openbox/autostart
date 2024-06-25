@@ -59,7 +59,10 @@ killall xcompmgr; xcompmgr -c -t-5 -l-5 -r6 -o1 -fF -I.07 -O.07 -D2 -C &
 nitrogen --restore &
 killall lxpolkit; lxpolkit &
 killall polybar; polybar bar -c ${BASE}/polybar -r &
+killall plank; plank &
 xset led named "Scroll Lock" &
 xwinwrap -g 1920x1080+0+0 -ni -ov -- mpv --loop-file=inf --speed=1 -wid WID ~/pictures/nfsub.gif &
 killall sxhkd; sxhkd -c /tmp/sxhkd &
+killall lxpolkit; lxpolkit &
+killall xdotool; bash ${BASE}/hc.sh &
 # xwinwrap -g 1920x1080+0+0 -ni -ov -- mpv --loop-file=inf --speed=1 -wid WID ~/pictures/fizz.ultra.gif &

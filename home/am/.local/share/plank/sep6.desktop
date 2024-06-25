@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Space
+Exec=nothing
+Icon=~/.local/share/plank/sep.png
+NoDisplay=true
