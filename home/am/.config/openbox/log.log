@@ -1,0 +1,49 @@
++ BASE='~/.config/openbox'
++ Terminal=xfce4-terminal
++ Filemanager=pcmanfm
++ Rofi='rofi -modi drun,run -show drun -icon-theme '\''Papirus-Dark'\'' -show-icons'
++ Lock=slock
++ UpVol='amixer -q sset Master 2%+ unmute'
++ DownVol='amixer -q sset Master 2%- unmute'
++ Screenshot='xfce4-screenshooter -f'
++ WScreenshot='xfce4-screenshooter -w'
++ SScreenshot='xfce4-screenshooter -r'
++ cat
++ killall xcompmgr
++ redshift -P -O 3400
++ killall lxpolkit
++ xcompmgr
++ nitrogen --restore
+Usando el método «randr».
++ killall polybar
++ lxpolkit
++ killall plank
++ polybar bar -c '~/.config/openbox/polybar' -r
++ plank
++ killall sxhkd
++ xset led named 'Scroll Lock'
+polybar|notice:  Parsing config file: /home/am/.config/openbox/polybar
+polybar|notice:  Listening for IPC messages (PID: 484525)
++ killall lxpolkit
++ sxhkd -c /tmp/sxhkd
++ killall xfce4-clipman
++ lxpolkit
++ xfce4-clipman
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
+polybar|notice:  Loading module 'vol' of type 'custom/script'
+polybar|notice:  Loading module 'mem' of type 'custom/script'
+polybar|notice:  Loading module 'home' of type 'custom/script'
+polybar|notice:  Loading module 'iface' of type 'custom/script'
+polybar|notice:  Loading module 'cpu' of type 'custom/script'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 8 modules
+polybar|notice:  Loaded font "DejaVu Sans:size=8" (name=DejaVu Sans, offset=2, file=/usr/share/fonts/TTF/DejaVuSans.ttf)
+polybar|notice:  Loaded font "DejaVuSansMono Nerd Font Mono:size=14" (name=DejaVuSansMono Nerd Font Mono, offset=3, file=/home/am/.local/share/fonts/DejaVu Sans Mono Nerd Font Complete Mono.ttf)
+polybar|warn:  tray: bar/bar.tray-position is deprecated, use the dedicated tray module to display the system tray
+polybar|error: tray: Failed to put tray above 0x1400002 in the stack (XCB_MATCH (8))
+
+(nitrogen:484519): GLib-GObject-CRITICAL **: 19:36:41.450: Attempting to freeze the notification queue for object GtkSettings[0x5559410d29f0]; Property notification does not work during instance finalization.
+
+(nitrogen:484519): GLib-GObject-CRITICAL **: 19:36:41.450: Attempting to thaw the notification queue for object GtkSettings[0x5559410d29f0]; Property notification does not work during instance finalization.
+polybar|error: background_manager: Root pixmap does not fully cover transparent areas. Pseudo-transparency may not fully work and instead just show a black background. Make sure you have a wallpaper set on all of your screens

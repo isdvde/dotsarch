@@ -20,12 +20,12 @@
 $am
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:q!
+|2,0,1725302120,,"q!"
+:wq
+|2,0,1725291693,,"wq"
 :q
 |2,0,1718069502,,"q"
-:wq
-|2,0,1716685342,,"wq"
-:q!
-|2,0,1677033350,,"q!"
 :w
 |2,0,1670028480,,"w"
 :'<,'>s/www-data/am/g
@@ -837,233 +837,244 @@ $am
 |3,1,36,0,1,0,1677033242,"--"
 
 # Marcas en el archivo:
-'0  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,48,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
-'1  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,49,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
-'2  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,50,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
-'3  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,51,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
-'4  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,52,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+'0  1  0  ~/dev/bash/fw/test/1
+|4,48,1,0,1725302120,"~/dev/bash/fw/test/1"
+'1  1  0  ~/dev/bash/fw/test/3
+|4,49,1,0,1725302013,"~/dev/bash/fw/test/3"
+'2  1  14  ~/dev/bash/fw/test/3
+|4,50,1,14,1725291693,"~/dev/bash/fw/test/3"
+'3  1  0  ~/dev/bash/fw/test/3
+|4,51,1,0,1725291536,"~/dev/bash/fw/test/3"
+'4  1  0  ~/dev/bash/fw/test/3
+|4,52,1,0,1725291536,"~/dev/bash/fw/test/3"
 '5  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,53,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+|4,53,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
 '6  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,54,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+|4,54,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
 '7  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,55,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
-'8  5  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,56,5,0,1716508220,"~/dev/php/compras-tdg/.git/MERGE_MSG"
-'9  5  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,57,5,0,1716508220,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+|4,55,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+'8  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,56,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+'9  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,57,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
 
 # Lista de saltos (el más reciente va primero):
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  14  ~/dev/bash/fw/test/3
+|4,39,1,14,1725291693,"~/dev/bash/fw/test/3"
+-'  1  14  ~/dev/bash/fw/test/3
+|4,39,1,14,1725291693,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725291536,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725291536,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
 -'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
 |4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
 -'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
 |4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
 -'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
 |4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
 -'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
 |4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  5  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,5,0,1716508220,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  5  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,5,0,1716508220,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  5  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,5,0,1716508220,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  5  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,5,0,1716508220,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  5  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,5,0,1716508220,"~/dev/php/compras-tdg/.git/MERGE_MSG"
 -'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1716508216,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  60  13  ~/.config/nvim/init.lua
-|4,39,60,13,1677033350,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1677033346,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
--'  376  161  ~/.config/nvim/init.lua
-|4,39,376,161,1677033319,"~/.config/nvim/init.lua"
+|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
 
+> ~/dev/bash/fw/test/1
+	*	1725302118	0
+	"	1	0
+
+> ~/dev/bash/fw/test/3
+	*	1725302011	0
+	"	1	0
+	^	1	15
+	.	1	14
+	+	1	14
+
 > ~/dev/php/compras-tdg/.git/MERGE_MSG
-	*	1718069501	0
+	*	1719970965	0
 	"	1	0
 
 > ~/.config/nvim/init.lua
@@ -2479,13 +2490,3 @@ $am
 	+	941	0
 	+	939	0
 	+	921	0
-
-> ~/php/php81/etc/php-fpm.conf
-	*	1659297436	0
-	"	18	0
-
-> /usr/local/src/php-8.0.9/config.nice
-	*	1659290968	0
-	"	19	0
-	.	19	0
-	+	19	0

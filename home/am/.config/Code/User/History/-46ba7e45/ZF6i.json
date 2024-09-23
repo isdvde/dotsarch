@@ -1,8 +1,0 @@
-{
-    "workbench.colorTheme": "Gruvbox Dark Hard",
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.tabSize": 2,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true
-}

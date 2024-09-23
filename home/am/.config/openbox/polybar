@@ -18,8 +18,10 @@
 
 [colors]
 ;black = #bf222222
-black = #222222
-black2= #222222
+;black = #222222
+black = #00000000
+;black2= #222222
+black2= #00000000
 white = #ffffff
 blue = #d9005577
 grey = #444444
@@ -176,7 +178,7 @@ click-left = "xfce4-terminal -e 'nmtui'"
 
 [module/cpu]
 type = custom/script
-exec = "bash ~/.config/herbstluftwm/bar.sh CPU"
+exec = "bash ~/.config/openbox/bar.sh CPU"
 label = "C [%output%]"
 interval = 1
 click-left = "xfce4-terminal -e 'htop'"

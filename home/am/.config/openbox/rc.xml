@@ -85,8 +85,9 @@
 	</resize>
 
 	<margins>
-		<top>34</top>
-		<bottom>70</bottom>
+		<!-- <top>34</top> -->
+		<top>28</top>
+		<bottom>58</bottom>
 		<left>10</left>
 		<right>10</right>
 	</margins>
@@ -239,46 +240,47 @@
 				<height>50%</height>
 			</action>
 		</keybind>
+		
 
 		<!-- Right Top Corner -->
-		<keybind key="W-C-Up">
-			<action name="Unmaximize" />
-			<action name="MoveResizeTo">
-				<x>50%</x> <y>0</y>
-				<width>50%</width>
-				<height>50%</height>
-			</action>
-		</keybind>
+		<!-- <keybind key="W-C-Up"> -->
+		<!-- 	<action name="Unmaximize" /> -->
+		<!-- 	<action name="MoveResizeTo"> -->
+		<!-- 		<x>50%</x> <y>0</y> -->
+		<!-- 		<width>50%</width> -->
+		<!-- 		<height>50%</height> -->
+		<!-- 	</action> -->
+		<!-- </keybind> -->
 
 		<!-- Right Bottom Corner -->
-		<keybind key="W-C-Right">
-			<action name="Unmaximize" />
-			<action name="MoveResizeTo">
-				<x>50%</x> <y>-0</y>
-				<width>50%</width>
-				<height>50%</height>
-			</action>
-		</keybind>
+		<!-- <keybind key="W-C-Right"> -->
+		<!-- 	<action name="Unmaximize" /> -->
+		<!-- 	<action name="MoveResizeTo"> -->
+		<!-- 		<x>50%</x> <y>-0</y> -->
+		<!-- 		<width>50%</width> -->
+		<!-- 		<height>50%</height> -->
+		<!-- 	</action> -->
+		<!-- </keybind> -->
 
 		<!-- Left Top Corner -->
-		<keybind key="W-C-Left">
-			<action name="Unmaximize" />
-			<action name="MoveResizeTo">
-				<x>0</x> <y>0</y>
-				<width>50%</width>
-				<height>50%</height>
-			</action>
-		</keybind>
+		<!-- <keybind key="W-C-Left"> -->
+		<!-- 	<action name="Unmaximize" /> -->
+		<!-- 	<action name="MoveResizeTo"> -->
+		<!-- 		<x>0</x> <y>0</y> -->
+		<!-- 		<width>50%</width> -->
+		<!-- 		<height>50%</height> -->
+		<!-- 	</action> -->
+		<!-- </keybind> -->
 
 		<!-- Left Bottom Corner -->
-		 <keybind key="W-C-Down">
-			<action name="Unmaximize" />
-			<action name="MoveResizeTo">
-				<x>0</x> <y>-0</y>
-				<width>50%</width>
-				<height>50%</height>
-			</action>
-		</keybind>
+		<!--  <keybind key="W-C-Down"> -->
+		<!-- 	<action name="Unmaximize" /> -->
+		<!-- 	<action name="MoveResizeTo"> -->
+		<!-- 		<x>0</x> <y>-0</y> -->
+		<!-- 		<width>50%</width> -->
+		<!-- 		<height>50%</height> -->
+		<!-- 	</action> -->
+		<!-- </keybind> -->
 
 		<!-- Positions with keypad -->
 
@@ -459,6 +461,35 @@
 				<x>0</x> <y>-0</y>
 				<width>33%</width>
 				<height>33%</height>
+			</action>
+		</keybind>
+
+
+		<keybind key="W-C-Up">
+			<action name="Unmaximize" />
+			<action name="ResizeRelative">
+				<down>-5</down>
+			</action>
+		</keybind>
+
+		<keybind key="W-C-Down">
+			<action name="Unmaximize" />
+			<action name="ResizeRelative">
+				<down>5</down>
+			</action>
+		</keybind>
+
+		<keybind key="W-C-Right">
+			<action name="Unmaximize" />
+			<action name="ResizeRelative">
+				<right>5</right>
+			</action>
+		</keybind>
+
+		<keybind key="W-C-Left">
+			<action name="Unmaximize" />
+			<action name="ResizeRelative">
+				<right>-5</right>
 			</action>
 		</keybind>
 
@@ -675,11 +706,11 @@
 			<decor>no</decor>
 		</application>
 
-	<!-- <application class="*"> -->
-	<!-- 	<position force="no"> -->
-	<!-- 		<x>center</x> <y>center</y> -->
-	<!-- 	</position> -->
-	<!-- </application> -->
+	<application class="*">
+		<position force="no">
+			<x>center</x> <y>center</y>
+		</position>
+	</application>
 		
 		<!--
 		<application type="normal">
