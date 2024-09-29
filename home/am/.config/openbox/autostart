@@ -47,8 +47,10 @@ super + F12
 super + shift + F12
 	bash ${BASE}/autostart
 
-super + shift + {e,r}
-	openbox --{exit,restart}
+super + shift + e
+#super + shift + {e,r}
+#	openbox --{exit,restart}
+	killall xfwm4
 
 SXHKDFILE
 

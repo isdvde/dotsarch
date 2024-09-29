@@ -31,7 +31,12 @@ xset r rate 200 60 &
 # exec i3
 #exec openbox-session
 
+if text -z "$DBUS_SESSION_BUS_ADDRESS"; then
+   eval $(dbus-launch --sh-syntax --exit-with-session)
+fi
+
 bash ~/.config/openbox/autostart
 exec xfwm4
+#exec dbus-launch --exit-with-session xfwm4
 
 
