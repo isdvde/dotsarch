@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Microsoft Word 2007
+Comment=PlayOnLinux
+Type=Application
+Exec=flatpak run com.playonlinux.PlayOnLinux4 --run "Microsoft Word 2007" %F
+Icon=/home/am/.var/app/com.playonlinux.PlayOnLinux4/data/PlayOnLinux//icones/full_size/Microsoft Word 2007
+StartupWMClass=WINWORD.EXE
+Categories=Office;WordProcessor;
+X-XFCE-Source=file:///home/am/.local/share/applications/playonlinux-Microsoft%20Word%202007.desktop

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=JDownloader
+Comment=JDownloader is a free download management tool
+Icon=org.jdownloader.JDownloader
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=jd-wrapper --file-forwarding org.jdownloader.JDownloader -- @@u %u @@
+Categories=Network;
+X-Flatpak-Tags=proprietary;
+X-Flatpak=org.jdownloader.JDownloader
+X-XFCE-Source=file:///home/am/.local/share/flatpak/app/org.jdownloader.JDownloader/x86_64/stable/07426bba19ba1c2df10ba9ba12a85ce956a59d4cea4bcdb1123a9226f9a2266b/export/share/applications/org.jdownloader.JDownloader.desktop

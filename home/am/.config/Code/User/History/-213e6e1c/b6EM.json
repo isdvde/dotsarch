@@ -1,0 +1,27 @@
+
+{
+        "listeners": {
+                "*:8001": {
+                        "pass": "routes"
+                }
+        },
+
+        "applications": {
+                "app": {
+                        "type": "php",
+                        "root": "/var/www/app/public",
+                        "script": "index.php"
+                }
+        },
+
+        "routes": [
+                {
+                        "action": {
+                                "share": "/var/www/app/public$uri",
+                                "fallback": {
+                                        "pass": "applications/app"
+                                }
+                        }
+                }
+        ]
+}

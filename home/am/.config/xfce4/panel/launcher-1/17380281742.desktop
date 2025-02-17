@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=hp8
+Comment=PlayOnLinux
+Type=Application
+Exec=flatpak run com.playonlinux.PlayOnLinux4 --run "hp8" %F
+Icon=/home/am/.var/app/com.playonlinux.PlayOnLinux4/data/PlayOnLinux//icones/full_size/hp8
+StartupWMClass=hp8.exe
+Categories=
+X-XFCE-Source=file:///home/am/Desktop/.hp8.desktop

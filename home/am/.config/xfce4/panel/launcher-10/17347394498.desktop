@@ -1,0 +1,48 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+NoDisplay=false
+Icon=org.libreoffice.LibreOffice.startcenter
+Type=Application
+Categories=Office;X-Red-Hat-Base;X-SuSE-Core-Office;
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=libreoffice --file-forwarding org.libreoffice.LibreOffice @@u %U @@
+MimeType=application/vnd.openofficeorg.extension;x-scheme-handler/vnd.libreoffice.cmis;x-scheme-handler/vnd.sun.star.webdav;x-scheme-handler/vnd.sun.star.webdavs;x-scheme-handler/vnd.libreoffice.command;x-scheme-handler/ms-word;x-scheme-handler/ms-powerpoint;x-scheme-handler/ms-excel;x-scheme-handler/ms-visio;x-scheme-handler/ms-access;
+Name=LibreOffice
+GenericName=Office
+GenericName[es]=Programas de oficina
+Comment=Launch applications to create text documents, spreadsheets, presentations, drawings, formulas, and databases, or open recently used documents.
+Comment[es]=Inicie aplicaciones para crear documentos de texto, hojas de cálculo, presentaciones, dibujos, fórmulas y bases de datos, o abra documentos usados recientemente.
+StartupNotify=true
+X-GIO-NoFuse=true
+StartupWMClass=libreoffice-startcenter
+X-KDE-Protocols=file,http,webdav,webdavs
+Actions=Writer;Calc;Impress;Draw;Base;Math;
+X-Desktop-File-Install-Version=0.27
+X-Endless-Alias=libreoffice-startcenter
+X-Flatpak-RenamedFrom=libreoffice-startcenter.desktop;
+X-Flatpak=org.libreoffice.LibreOffice
+X-XFCE-Source=file:///home/am/.local/share/flatpak/app/org.libreoffice.LibreOffice/x86_64/stable/6ff3bbbfb9ba060296d9a31fa3d34ceba4651995dc69f12fed36eb1bd15ade6c/export/share/applications/org.libreoffice.LibreOffice.desktop
+
+[Desktop Action Writer]
+Name=Writer
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=libreoffice org.libreoffice.LibreOffice --writer
+
+[Desktop Action Calc]
+Name=Calc
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=libreoffice org.libreoffice.LibreOffice --calc
+
+[Desktop Action Impress]
+Name=Impress
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=libreoffice org.libreoffice.LibreOffice --impress
+
+[Desktop Action Draw]
+Name=Draw
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=libreoffice org.libreoffice.LibreOffice --draw
+
+[Desktop Action Base]
+Name=Base
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=libreoffice org.libreoffice.LibreOffice --base
+
+[Desktop Action Math]
+Name=Math
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=libreoffice org.libreoffice.LibreOffice --math

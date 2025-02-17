@@ -1,0 +1,49 @@
+:root {
+  --hard-black: #464852;
+  --soft-black: #4F4F56;
+  --white: #fff;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+.container {
+	background-color: var(--hard-black);
+	display: flex;	
+	flex-direction: row;
+	width: 100vw;
+	height: 100vh;
+	outline: 1px solid red;
+	gap: 1rem;
+}
+
+.editor {
+	background-color: var(--soft-black);
+	font-size: 1em;
+	color: var(--white);
+	position: relative;
+	resize: none;
+	width: 50%;
+	outline: none;
+	outline: 1px solid blue;
+	margin: 1rem 0 1rem 1rem;
+	overflow-y: scroll;
+}
+
+.iframe {
+	background-color: #fff;
+	border: 0;
+	width: 50%;
+	margin: 1rem 1rem 1rem 0;
+	position: relative;
+	outline: 1px solid green;
+  overflow-y: scroll;
+}

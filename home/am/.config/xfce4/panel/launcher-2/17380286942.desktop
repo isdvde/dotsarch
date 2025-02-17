@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Serato DJ Lite
+Comment=PlayOnLinux
+Type=Application
+Exec=flatpak run com.playonlinux.PlayOnLinux4 --run "Serato DJ Lite" %F
+Icon=/home/am/.var/app/com.playonlinux.PlayOnLinux4/data/PlayOnLinux//icones/full_size/Serato DJ Lite
+StartupWMClass=Serato DJ Lite.exe
+Categories=
+X-XFCE-Source=file:///home/am/Desktop/.Serato%20DJ%20Lite.desktop

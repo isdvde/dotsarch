@@ -1,0 +1,174 @@
+import { $qs, $qsa, crudder, alerter } from "../libs/utils";
+import { SCSNotification } from "./scs-notification";
+
+export class SCSForm extends HTMLElement {
+	constructor(opts) {
+		super();
+		this.innerHTML = `
+			<div card>
+				<div class="card-header"></div>
+				<div class="card-body">
+					<form autocomplete="off" class="needs-validation" novalidate accept-charset="utf-8">
+					<div class="row g-2 form-body mb-6">
+					</div>
+					<div class="d-flex justify-content-around align-items-center">
+						<button class="btn btn-danger btn-border btn-round border px-4 py-2 footer__cancel"><i class="fas fa-times-circle"></i> Cancelar</button>
+						<button type="submit" class="btn btn-primary btn-border btn-round border px-4 py-2 footer__submit"><i class="fas fa-save"></i> Guardar</button>
+					</div>
+					</form>
+				</div>
+			</div>
+		`
+		this.opts = opts;
+		this.$form_title = $qs(this,'.card-header');
+		this.$form = $qs(this,'form');
+		this.$submit = $qs(this,'.footer__submit');
+		this.$cancel = $qs(this,'.footer__cancel');
+		this.$form_body = $qs(this,'.form-body');
+
+		this.title = this.opts.title || "Form";
+		// this.url = this.opts.url || '';
+		this.url = new URL(`${basePath}/${opts.url}`) || "";
+		this.$inputs = [];
+		this.callbacks = [];
+		this.data = {};
+		this.ready = true;
+
+		this.$submit.addEventListener('click', this.submit.bind(this));
+		this.$cancel.addEventListener('click', function(e) {
+			e.preventDefault();
+		});
+	}
+
+	async load_data_to_edit(uuid) {
+		this.edit_data = (await crudder(`${this.url.href}/${uuid}`).get()).data;
+	}
+
+	connectedCallback(){
+		this.$form_title.textContent = this.title;
+		let $inputs = $qsa(this, 'input,textarea');
+		for(let inp of $inputs) {
+			inp.addEventListener('input', function(e){
+				e.target.value = e.target.value.toUpperCase();
+			})
+		}
+	}
+
+	append_to_body($node) {
+		this.$form_body.appendChild($node);
+		return this;
+	}
+
+	add_input($input) {
+		this.$inputs.push($input);
+		this.append_to_body($input);
+		return this;
+	}
+
+	add_post_submit_callback(callback) {
+		this.callbacks.push(callback)
+		return this;
+	}
+	
+	load_input_value() {
+		return {
+			date: function(inp, val){
+				inp.value = val.slice(0,10);
+			},
+			"hidden": async function(inp, val){
+				let parent = inp.closest('scs-select-search') || inp.closest('scs-input-price');
+        if(parent){
+          await parent.init_value(val);
+          return;
+        }
+        inp.value = val;
+			},
+			default: function(inp, val){
+				inp.value = val; 
+			}
+		}
+	}
+
+	async load_to_edit(uuid) {
+		this.edit_uuid = uuid;
+		await this.load_data_to_edit(uuid);
+		console.log('edit data',this.edit_data)
+		if(!this.edit_data) { return; }
+		for(let [key, val] of Object.entries(this.edit_data)) {
+			let inp = $qs(this, `input[name=${key}],select[name=${key}]`);
+			if(inp && val){
+				try {
+					this.load_input_value()[inp.type](inp, val);
+				} catch {
+					this.load_input_value()["default"](inp, val);
+				}
+			} 
+		}
+	}
+
+	get_submit_params() {
+		let params = {
+			create: {
+				method: 'create',
+				url: this.url.href,
+				action: 'agregado'
+			},
+			edit: {
+				method: 'update',
+				url: `${this.url.href}/${this.edit_uuid}`,
+				action: 'editado'
+			},
+		}
+		return this.edit_uuid ? params['edit'] : params['create'];
+	}
+
+	get_internal_input(input, query){
+		return $qs(input, query);
+	}
+
+	check_inputs_value() {
+		let data = {};
+		for(let inp of this.$inputs) {
+			let result = inp.validate();
+			if(!result.validate) {
+				inp.show_validation_error();
+				this.ready = false;
+			}
+
+			// let $internal_input = $qs(inp,'input[name]') || $qs(inp,'select[name]');
+			let $internal_input = $qs(inp,'input[name], select[name]');
+			if($internal_input.value !== ''){
+				data = {...data, [$internal_input.name]: $internal_input.value }
+			}
+		}
+		return data;
+	}
+
+	async submit(e) {
+		this.ready = true;
+		e.preventDefault();
+		this.data = this.check_inputs_value();
+		if(!this.ready) return;
+		let {method, url, action} = this.get_submit_params();
+		try {
+			if (!this.data) { return; } 
+			let res = await crudder(url)[method]({...this.data, uuid: this.edit_uuid});
+			if(res.status !== 'error'){
+				alerter(`Elemento ${action} correctamente`).alert();
+			} else {
+				console.error(res);
+				let $notification = new SCSNotification({ data: res.data });
+				this.append($notification);
+				return;
+			}
+		} catch (e) {
+			console.error(e);
+		}
+
+		for(let f of this.callbacks){
+			f();
+		}
+	}
+}
+
+customElements.define('scs-form', SCSForm);

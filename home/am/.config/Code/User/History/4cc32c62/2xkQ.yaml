@@ -1,0 +1,47 @@
+services:
+  php:
+    build:
+      context: .
+      dockerfile_inline: |
+        FROM php:8.3-fpm-alpine
+        RUN apk update && apk add --no-cache curl-dev zlib-dev libpng-dev oniguruma-dev libpq-dev libxml2-dev libxslt-dev libzip-dev freetype-dev libpng-dev jpeg-dev libjpeg-turbo-dev
+        RUN docker-php-ext-configure gd --enable-gd --with-freetype --with-jpeg && docker-php-ext-install curl gd mbstring pgsql xml xsl zip pdo_pgsql exif fileinfo && docker-php-ext-enable curl gd mbstring pgsql xml xsl zip pdo_pgsql exif fileinfo && rm -rf /var/cache/apk/* /var/lib/apk/*
+    volumes:
+      - ./:/var/www/html
+    networks:
+      - "main"
+    extra_hosts:
+      - "pgsql:172.18.0.15"
+      - "babel.dev.uneg.edu.ve:10.25.100.150"
+
+  http:
+    image: "nginx:alpine-slim"
+    ports:
+      - "8001:80"
+    volumes:
+      - ./:/var/www/html
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    networks:
+      - "main"
+    extra_hosts:
+      - "pgsql:172.18.0.15"
+
+  node:
+    image: "node:20-alpine"
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - "5173:5173"
+    extra_hosts:
+      - "pgsql:172.18.0.15"
+    networks:
+      - "main"
+    working_dir: "/var/www/html"
+    entrypoint: ["npm", "run", "dev", "--", "--host"]
+
+
+networks:
+  main:
+    name: main
+    external: true
+

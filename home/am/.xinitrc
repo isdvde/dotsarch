@@ -29,11 +29,12 @@ XINPUTPROP=$(xinput list-props ${XINPUTDEV} | egrep "Accel" | head -1 | egrep -E
 xset r rate 200 60 &
 
 # exec i3
-#exec openbox-session
 
-if text -z "$DBUS_SESSION_BUS_ADDRESS"; then
+if test -z "$DBUS_SESSION_BUS_ADDRESS"; then
    eval $(dbus-launch --sh-syntax --exit-with-session)
 fi
+
+#exec openbox-session
 
 bash ~/.config/openbox/autostart
 exec xfwm4

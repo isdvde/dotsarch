@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=PlayOnLinux 4
+Comment=Front-end application for the wine
+Type=Application
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=playonlinux --file-forwarding com.playonlinux.PlayOnLinux4 @@ %F @@
+Icon=com.playonlinux.PlayOnLinux4
+Categories=Utility;Emulator;
+X-Desktop-File-Install-Version=0.27
+X-Flatpak-RenamedFrom=PlayOnLinux.desktop;
+X-Flatpak=com.playonlinux.PlayOnLinux4
+X-XFCE-Source=file:///home/am/.local/share/flatpak/exports/share/applications/com.playonlinux.PlayOnLinux4.desktop

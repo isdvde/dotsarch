@@ -1,0 +1,17 @@
+services:
+  http:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - "./:/var/www/app"
+      - "./unit.json:/var/lib/unit/conf.json"
+    network_mode: "host"
+
+  node:
+    image: "node:20-alpine"
+    volumes:
+      - "./:/var/www/html"
+    network_mode: "host"
+    working_dir: "/var/www/html"
+    entrypoint: ["npm", "run", "dev", "--", "--host", "--port", "3001"]

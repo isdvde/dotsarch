@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Need For Speed Most Wanted
+Comment=PlayOnLinux
+Type=Application
+Exec=flatpak run com.playonlinux.PlayOnLinux4 --run "Need For Speed Most Wanted" %F
+Icon=/home/am/.var/app/com.playonlinux.PlayOnLinux4/data/PlayOnLinux//icones/full_size/Need For Speed Most Wanted
+StartupWMClass=speed.exe
+Categories=
+X-XFCE-Source=file:///home/am/Desktop/.Need%20For%20Speed%20Most%20Wanted.desktop

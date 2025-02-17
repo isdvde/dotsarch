@@ -1,0 +1,4 @@
+config.js
+node_modules
+*lock.yaml
+api/v1/seeders/data

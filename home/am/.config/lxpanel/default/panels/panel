@@ -2,32 +2,51 @@
 # Use preference dialog in lxpanel to adjust config when you can.
 
 Global {
-  edge=top
+  edge=bottom
   allign=left
   margin=0
-  widthtype=percent
-  width=40
-  height=16
+  widthtype=request
+  width=45
+  height=52
   transparent=1
   tintcolor=#000000
-  alpha=255
+  alpha=57
   setdocktype=1
   setpartialstrut=1
-  usefontcolor=1
+  usefontcolor=0
   fontcolor=#ffffff
   usefontsize=0
   fontsize=10
   background=0
   backgroundfile=/usr/share/lxpanel/images/background.png
-  iconsize=16
+  iconsize=32
+  align=center
 }
 Plugin {
-  type=tray
+  type=launchtaskbar
   Config {
+    LaunchTaskBarMode=2
+    tooltips=0
+    IconsOnly=-1
+    FlatButton=-1
+    UseMouseWheel=0
+    GroupedTasks=1
+    DisableUpscale=0
+    UseSmallerIcons=0
+    MaxTaskWidth=200
+    spacing=55
+    Button {
+      id=thorium.desktop
+    }
+    Button {
+      id=org.telegram.desktop._c505f30fa48ab2360e6051b594261399.desktop
+    }
+    Button {
+      id=org.jdownloader.JDownloader.desktop
+    }
+    Button {
+      id=org.filezillaproject.Filezilla.desktop
+    }
   }
-}
-Plugin {
-  type=pager
-  Config {
-  }
+  expand=1
 }

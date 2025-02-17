@@ -20,10 +20,10 @@
 $am
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:wq
+|2,0,1739132509,,"wq"
 :q!
 |2,0,1725302120,,"q!"
-:wq
-|2,0,1725291693,,"wq"
 :q
 |2,0,1718069502,,"q"
 :w
@@ -837,230 +837,234 @@ $am
 |3,1,36,0,1,0,1677033242,"--"
 
 # Marcas en el archivo:
-'0  1  0  ~/dev/bash/fw/test/1
-|4,48,1,0,1725302120,"~/dev/bash/fw/test/1"
-'1  1  0  ~/dev/bash/fw/test/3
-|4,49,1,0,1725302013,"~/dev/bash/fw/test/3"
-'2  1  14  ~/dev/bash/fw/test/3
-|4,50,1,14,1725291693,"~/dev/bash/fw/test/3"
-'3  1  0  ~/dev/bash/fw/test/3
-|4,51,1,0,1725291536,"~/dev/bash/fw/test/3"
-'4  1  0  ~/dev/bash/fw/test/3
-|4,52,1,0,1725291536,"~/dev/bash/fw/test/3"
+'0  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,48,1,0,1739132509,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+'1  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,49,1,0,1739058689,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+'2  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,50,1,0,1739055987,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+'3  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,51,1,0,1739055987,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+'4  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,52,1,0,1738619329,"~/dev/php/compras-tdg/.git/MERGE_MSG"
 '5  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,53,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+|4,53,1,0,1738619329,"~/dev/php/compras-tdg/.git/MERGE_MSG"
 '6  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,54,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+|4,54,1,0,1738619329,"~/dev/php/compras-tdg/.git/MERGE_MSG"
 '7  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,55,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+|4,55,1,0,1738619329,"~/dev/php/compras-tdg/.git/MERGE_MSG"
 '8  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,56,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+|4,56,1,0,1738530513,"~/dev/php/compras-tdg/.git/MERGE_MSG"
 '9  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,57,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+|4,57,1,0,1738530513,"~/dev/php/compras-tdg/.git/MERGE_MSG"
 
 # Lista de saltos (el más reciente va primero):
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1739132509,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1739058689,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1739055987,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1738619329,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1738530513,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
+|4,39,1,0,1728438802,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
+-'  1  0  ~/dev/bash/fw/test/1
+|4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
 -'  1  0  ~/dev/bash/fw/test/1
 |4,39,1,0,1725302120,"~/dev/bash/fw/test/1"
 -'  1  0  ~/dev/bash/fw/test/3
 |4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
 -'  1  0  ~/dev/bash/fw/test/3
 |4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
--'  1  14  ~/dev/bash/fw/test/3
-|4,39,1,14,1725291693,"~/dev/bash/fw/test/3"
--'  1  14  ~/dev/bash/fw/test/3
-|4,39,1,14,1725291693,"~/dev/bash/fw/test/3"
 -'  1  0  ~/dev/bash/fw/test/3
-|4,39,1,0,1725291536,"~/dev/bash/fw/test/3"
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
 -'  1  0  ~/dev/bash/fw/test/3
-|4,39,1,0,1725291536,"~/dev/bash/fw/test/3"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719970967,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1719961245,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1718069502,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717891098,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1717882433,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
--'  1  0  ~/dev/php/compras-tdg/.git/MERGE_MSG
-|4,39,1,0,1716685342,"~/dev/php/compras-tdg/.git/MERGE_MSG"
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
+-'  1  0  ~/dev/bash/fw/test/3
+|4,39,1,0,1725302013,"~/dev/bash/fw/test/3"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/dev/php/compras-tdg/.git/MERGE_MSG
+	*	1739132508	0
+	"	1	0
 
 > ~/dev/bash/fw/test/1
 	*	1725302118	0
@@ -1072,10 +1076,6 @@ $am
 	^	1	15
 	.	1	14
 	+	1	14
-
-> ~/dev/php/compras-tdg/.git/MERGE_MSG
-	*	1719970965	0
-	"	1	0
 
 > ~/.config/nvim/init.lua
 	*	1677033348	0

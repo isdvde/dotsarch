@@ -1,0 +1,104 @@
+ARG PHP_VERSION="8.3"
+ARG UNIT_VERSION="1.29.0"
+ARG UNIT_LISTEN_PORT="80"
+
+FROM php:${PHP_VERSION}-zts-alpine AS UNIT_BUILDER
+
+
+RUN apk add pcre2-dev git build-base && \
+    mkdir -p /usr/lib/unit/modules && \
+    git clone https://github.com/nginx/unit.git && \
+    cd unit && \
+    git checkout $UNIT_VERSION && \
+    ./configure --prefix=/usr --state=/var/lib/unit --control=127.0.0.1:9999 --log=/var/log/unit.log --user=root --group=root --tmp=/tmp --modules=/usr/lib/unit/modules && \
+    ./configure php && \
+    make && \
+    make install
+
+
+FROM php:${PHP_VERSION}-zts-alpine as PHP_BUILD
+
+RUN apk add --no-cache pcre2 curl-dev  zlib-dev  libpng-dev  oniguruma-dev  libpq-dev  libxml2-dev  libxslt-dev  libzip-dev  freetype-dev  libpng-dev  jpeg-dev  libjpeg-turbo-dev bash && \
+    docker-php-ext-configure gd --enable-gd --with-freetype --with-jpeg && \
+    docker-php-ext-install curl gd mbstring pgsql xml xsl zip pdo_pgsql exif fileinfo && \
+    docker-php-ext-enable curl gd mbstring pgsql xml xsl zip pdo_pgsql exif fileinfo
+
+FROM php:${PHP_VERSION}-zts-alpine
+
+COPY --from=UNIT_BUILDER /usr/sbin/unitd /usr/bin/unitd
+COPY --from=UNIT_BUILDER /usr/lib/unit/ /usr/lib/unit/
+COPY --from=PHP_BUILD /usr/local/lib/php/extensions /usr/local/lib/php/extensions
+
+#COPY entrypoint.sh /entrypoint.sh
+#COPY app /var/www/app
+#COPY config.json /config.json
+
+RUN apk add --no-cache pcre2 curl  zlib  libpng  oniguruma  libpq  libxml2  libxslt  libzip  freetype  libpng  jpeg  libjpeg-turbo bash && \
+    docker-php-ext-enable curl gd mbstring pgsql xml xsl zip pdo_pgsql exif fileinfo && \
+    rm -rf /var/cache/apk/* /var/lib/apk/* /usr/local/bin/php-cgi /usr/local/bin/phpdbg /usr/local/src /usr/src && \
+    ln -s /dev/stdout /var/log/unit.log && \
+    mkdir -p /var/lib/unit && \
+    mkdir -p /var/www/app && \
+    chmod -R 750 /var/www/app && \
+    chown -R root:www-data /var/www/app
+
+WORKDIR /var/www/app
+
+CMD [ "unitd --no-daemon" ]
+
+# ENTRYPOINT
+
+# #!/bin/bash
+# 
+# set -m
+# unitd --no-daemon &
+# cat /config.json | curl -X PUT -d@- localhost:9999/config/
+# fg %1
+
+# CONFIG.JSON
+
+# {
+#         "listeners": {
+#                 "*:8005": {
+#                         "pass": "routes"
+#                 }
+#         },
+# 
+#         "applications": {
+#                 "app": {
+#                         "type": "php",
+#                         "root": "/var/www/app/public",
+#                         "script": "index.php"
+#                 }
+#         },
+# 
+#         "routes": [
+#                 {
+#                         "action": {
+#                                 "share": "/var/www/app/public$uri",
+#                                 "fallback": {
+#                                         "pass": "applications/app"
+#                                 }
+#                         }
+#                 }
+#         ]
+# }
+
+
+# DOCKER COMPOSE
+# services:
+#   http:
+#     image: "unit:php-8.3-alpine"
+#     volumes:
+#       - "/home/aemoreno/dev/php/compras-tdg:/var/www/app"
+#       - "./config.json:/config.json"
+#       - "./entrypoint.sh:/entrypoint.sh"
+#     network_mode: "host"
+# 
+#   node:
+#     image: "node:20-alpine"
+#     volumes:
+#       - "/home/aemoreno/dev/php/compras-tdg:/var/www/html"
+#     network_mode: "host"
+#     working_dir: "/var/www/html"
+#     entrypoint: ["npm", "run", "dev", "--", "--host", "--port", "3001"]

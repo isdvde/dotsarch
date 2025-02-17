@@ -1,0 +1,38 @@
+services:
+  php:
+    build:
+      context: .
+      dockerfile_inline: |
+        FROM php:8.3-apache
+        RUN apt-get update && apt-get install -y libcurl4-openssl-dev zlib1g-dev libpng-dev libonig-dev libpq-dev libxml2-dev libxslt1-dev libzip-dev libjpeg-dev libfreetype-dev
+        RUN     docker-php-ext-configure gd --enable-gd --with-freetype --with-jpeg && docker-php-ext-install curl gd mbstring pgsql xml xsl zip pdo_pgsql exif fileinfo && docker-php-ext-enable curl gd mbstring pgsql xml xsl zip pdo_pgsql exif fileinfo && rm -rf /var/cache/apt/archives /var/lib/apt/lists/* && apt-get clean; apt-get autoclean
+
+        RUN a2enmod rewrite
+
+    volumes:
+      - ./:/var/www/html
+    networks:
+      - "main"
+    extra_hosts:
+      - "pgsql:172.18.0.15"
+    ports:
+      -  8000:80
+
+  node:
+    image: "node:20-alpine"
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - "5173:5173"
+    extra_hosts:
+      - "pgsql:172.18.0.15"
+    networks:
+      - "main"
+    working_dir: "/var/www/html"
+    entrypoint: ["npm", "run", "dev", "--", "--host"]
+
+
+networks:
+  main:
+    name: main
+    external: true

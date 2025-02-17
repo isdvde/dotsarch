@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Amuri Proxmox
+Comment=
+Exec=thorium --no-sandbox --disable-gpu --incognito https://10.25.1.163:8006/
+Icon=proxmox-240
+Path=
+Terminal=false
+StartupNotify=false

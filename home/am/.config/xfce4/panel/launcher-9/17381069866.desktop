@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=xKukenan Proxmox
+Comment=
+Exec=thorium --no-sandbox --disable-gpu --incognito https://172.20.70.10:8006/
+Icon=proxmox-240
+Path=
+Terminal=false
+StartupNotify=false

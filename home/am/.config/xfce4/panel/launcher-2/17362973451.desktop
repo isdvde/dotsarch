@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=FL Studio
+Comment=PlayOnLinux
+Type=Application
+Exec=flatpak run com.playonlinux.PlayOnLinux4 --run "FL Studio" %F
+Icon=/home/am/.var/app/com.playonlinux.PlayOnLinux4/data/PlayOnLinux//icones/full_size/FL Studio
+StartupWMClass=FL.exe
+Categories=
+X-XFCE-Source=file:///home/am/Desktop/FL%20Studio.desktop

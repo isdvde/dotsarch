@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tasa del dia</title>
+  <style>
+    html {
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+
+    body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+      margin: 0;
+      padding: 0;
+      font-weight: normal;
+    }
+
+    ol, ul {
+      list-style: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .container {
+      position: relative;
+      border: 1px solid green;
+      padding: 2rem 2rem;
+      height: 80vh;
+      width: 80vw;
+      margin: 10vh auto;
+    }
+
+    .card {
+      padding: 1rem;
+      position: relative;
+      border: 1px solid red;
+      margin: auto;
+      border-radius: 2rem;
+      height: 50%;
+      width: 100%;
+      box-shadow: 0.1rem 0.2rem  #ccc;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      padding: 0.5rem;
+    }
+
+    .form__item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+
+    .input {
+      position: relative;
+      width: 7rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <div class="form">
+        <div class="form__item">
+          <label for="monto">Valor:</label>
+          <input class="input" name="monto" type="text">
+        </div>
+        <div class="form__item">
+          <label for="tasa">Tasa:</label>
+          <input class="input" name="tasa" type="text">
+        </div>
+        <div class="form__item">
+          <label for="resultado">Resultado:</label>
+          <input class="input" name="resultado" type="text">
+        </div>
+
+        <div class="form__item">
+          <button>Convertir</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script type="module">
+    const BCV_URL = 'https://www.bcv.org.ve/'
+
+    function $qs(parent, el){
+      return parent.querySelector(el);
+    }
+
+    async function _fetch(url) {
+      // const opts = { method: 'GET', mode: 'no-cors' };
+        const opts = {
+            method: "GET",
+            headers: {
+              "User-Agent": "curl/8.8.0"
+            }
+          }
+      await fetch(url, opts).then(res => console.log(res));
+      return
+      // return await axios.get(url,).then(res => res);
+      // return await fetch(url).then(res => res);
+    }
+
+    function parse_html(text) {
+      return (new DOMParser().parseFromString(text, 'text/html'));
+    }
+
+    async function get_tasa() {
+      let doc = await _fetch(BCV_URL);
+      console.log(doc)
+
+    }
+
+    await get_tasa();
+
+  </script>
+  
+</body>
+</html>

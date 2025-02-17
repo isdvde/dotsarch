@@ -1,0 +1,235 @@
+import { $qs, $qsa, crudder, alerter } from "../libs/utils";
+import { SCSNotification } from "./scs-notification";
+import { SCSInputFactory } from "../libs/factories/scs-input-factory.js";
+
+export class SCSForm extends HTMLElement {
+	constructor(opts) {
+		super();
+		this.innerHTML = `
+			<div card>
+				<div class="card-header"></div>
+				<div class="card-body">
+					<form autocomplete="off" class="needs-validation" novalidate accept-charset="utf-8">
+					<div class="row g-2 form-body mb-6">
+					</div>
+					<div class="d-flex justify-content-around align-items-center button__footer">
+						<button class="btn btn-danger btn-border btn-round border px-4 py-2 footer__cancel"><i class="fas fa-times-circle"></i> Cancelar</button>
+						<button type="submit" class="btn btn-primary btn-border btn-round border px-4 py-2 footer__submit"><i class="fas fa-save"></i> Guardar</button>
+					</div>
+					</form>
+				</div>
+			</div>
+		`
+		this.opts = opts;
+		this.$footer = $qs(this, ".button__footer")
+		this.$form_title = $qs(this,'.card-header');
+		this.$form = $qs(this,'form');
+		this.$submit = $qs(this,'.footer__submit');
+		this.$cancel = $qs(this,'.footer__cancel');
+		this.$form_body = $qs(this,'.form-body');
+		this.csrf_token = $qs(document, '[name="_token"]').value;
+
+		this.form_inputs = this.opts.form_inputs || "";
+		this.title = this.opts.title || "Form";
+		// this.url = this.opts.url || '';
+		this.url = new URL(`${basePath}/${opts.url}`) || "";
+		this.$inputs = [];
+		this.callbacks = [];
+		this.data = {};
+		this.ready = true;
+
+		this.$submit.addEventListener('click', this.submit.bind(this));
+		this.$cancel.addEventListener('click', function(e) {
+			e.preventDefault();
+		});
+	}
+
+	async load_data_to_edit(uuid) {
+		this.edit_data = (await crudder(`${this.url.href}/${uuid}`).get()).data;
+	}
+
+	connectedCallback(){
+		this.$form_title.textContent = this.title;
+		let $inputs = $qsa(this, 'input,textarea');
+		for(let inp of $inputs) {
+			inp.addEventListener('input', function(e){
+				e.target.value = e.target.value.toUpperCase();
+			})
+		}
+
+		// if(this.form_inputs) this.load_inputs();
+	}
+
+	load_inputs() {
+		for (let inp of this.form_inputs) {
+				let input = SCSInputFactory(inp.type).create(inp);
+				this.add_input(input);
+		}
+	}
+
+	set_readonly($inp){
+		let set_ro = {
+			"default": (inp) => {
+				console.log(inp)
+				if("$input" in inp) inp.$input.readOnly = true;
+			},
+			"select": (inp) => {
+				inp.$select.disabled = true;
+			},
+			"select_search": (inp) => {
+				inp.$search.readOnly = true;
+				inp.$button.remove();
+			},
+			"hidden": (inp) => {
+				return;	
+			},
+		}
+
+		let f = set_ro[$inp.opts.type] || set_ro["default"];
+		f($inp);
+	}
+
+	set_readonly_form(){
+		console.log("this inputs", this.$inputs)
+		for(let $inp of this.$inputs) {
+			$inp.set_readonly(true);
+		}
+	}
+
+	append_to_body($node) {
+		this.$form_body.appendChild($node);
+		return this;
+	}
+
+	add_input($input) {
+		this.$inputs.push($input);
+		this.append_to_body($input);
+		return this;
+	}
+
+	add_post_submit_callback(callback) {
+		this.callbacks.push(callback)
+		// console.log(this.callbacks)
+		return this;
+	}
+	
+	load_input_value() {
+		return {
+			date: function(inp, val){
+				inp.value = val.slice(0,10);
+			},
+			"hidden": async function(inp, val){
+				let parent = inp.closest('scs-select-search') || inp.closest('scs-input-price');
+        if(parent){
+          await parent.init_value(val);
+          return;
+        }
+        inp.value = val;
+			},
+			default: function(inp, val){
+				inp.value = val; 
+			}
+		}
+	}
+
+	async load_to_edit(uuid) {
+		this.edit_uuid = uuid;
+		await this.load_data_to_edit(uuid);
+		console.log('edit data',this.edit_data)
+		if(!this.edit_data) { return; }
+		for(let [key, val] of Object.entries(this.edit_data)) {
+			let inp = $qs(this, `input[name=${key}],select[name=${key}]`);
+			if(inp && val){
+				try {
+					this.load_input_value()[inp.type](inp, val);
+				} catch {
+					this.load_input_value()["default"](inp, val);
+				}
+			} 
+		}
+	}
+
+	get_submit_params() {
+		let params = {
+			create: {
+				method: 'create',
+				url: this.url.href,
+				action: 'agregado'
+			},
+			edit: {
+				method: 'update',
+				url: `${this.url.href}/${this.edit_uuid}`,
+				action: 'editado'
+			},
+		}
+		return this.edit_uuid ? params['edit'] : params['create'];
+	}
+
+	check_inputs_value(selector) {
+		let data = {};
+		for(let inp of this.$inputs) {
+			let result = inp.validate();
+			if(!result.validate) {
+				inp.show_validation_error();
+				this.ready = false;
+			}
+
+			// let $internal_input = $qs(inp,'input[name]') || $qs(inp,'select[name]');
+			let $internal_input = $qs(inp,'input[name], select[name]');
+			// if($internal_input.value !== ''){
+			
+			if(!$internal_input) continue;
+
+			if($internal_input.value !== '' && $internal_input.name !== ''){
+				data = {...data, [$internal_input.name]: $internal_input.value }
+			}
+		}
+		return data;
+	}
+
+	async submit(e) {
+		this.ready = true;
+		e.preventDefault();
+		// this.data = this.check_inputs_value('input[name], select[name]');
+		this.data = this.check_inputs_value();
+		if(!this.ready) return;
+		let {method, url, action} = this.get_submit_params();
+		let opts = { 
+			headers: {
+				'X-CSRF-TOKEN': this.csrf_token || ''
+			}
+		 }
+		try {
+			if (!this.data) { return; } 
+			console.log("submit data", this.data);
+			let res = await crudder(url, opts)[method]({...this.data, uuid: this.edit_uuid});
+			if('status' in res && res.status !== 'error'){
+				alerter(`Elemento ${action} correctamente`).alert();
+			} else {
+				let $notification = new SCSNotification({ data: res.data });
+				this.append($notification);
+				return;
+			}
+		} catch (e) {
+			console.error(e);
+		}
+
+		for(let f of this.callbacks){
+			f();
+		}
+	}
+
+	rename_button(button, str){
+		button.textContent = str;
+	}
+
+	hide_button(button){
+		button.style.display = 'none';
+	}
+
+	show_button(){
+		this.button.style.display = '';
+	}
+}
+
+customElements.define('scs-form', SCSForm);

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Network Tools
+Comment=
+Exec=true
+Icon=mx-network-assistant
+Path=
+Terminal=false
+StartupNotify=false

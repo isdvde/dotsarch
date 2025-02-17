@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Sistema Apoyo a Servicios Estudiantiles (SASE)
+Comment=
+Exec=thorium --no-sandbox --disable-gpu --incognito http://servicio.uneg.edu.ve/sase/principal/login.php
+Icon=uneg
+Path=
+Terminal=false
+StartupNotify=true
+X-XFCE-Source=file:///home/am/.local/share/applications/uneg/sase.desktop

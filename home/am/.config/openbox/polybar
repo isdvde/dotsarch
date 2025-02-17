@@ -58,6 +58,8 @@ tray-position = right
 radius = 4
 ;override-redirect = true
 ;wm-restack = openbox
+wm-restack = bottom
+;wm-name = xfce4
 
 [module/xworkspaces]
 

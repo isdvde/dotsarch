@@ -1,0 +1,18 @@
+services:
+  http:
+    image: "unit-php-8.3-alpine"
+    build:
+      dockerfile: Dockerfile
+    volumes:
+      - "/home/aemoreno/dev/php/compras-tdg:/var/www/app"
+      - "./config.json:/config.json"
+      - "./entrypoint.sh:/entrypoint.sh"
+    network_mode: "host"
+
+  node:
+    image: "node:20-alpine"
+    volumes:
+      - "/home/aemoreno/dev/php/compras-tdg:/var/www/html"
+    network_mode: "host"
+    working_dir: "/var/www/html"
+    entrypoint: ["npm", "run", "dev", "--", "--host", "--port", "3001"]

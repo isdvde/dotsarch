@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=HTTPie
+Comment=HTTPie for Desktop
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=httpie --file-forwarding io.httpie.Httpie @@u %U @@
+Terminal=false
+Type=Application
+Icon=io.httpie.Httpie
+StartupWMClass=HTTPie
+MimeType=x-scheme-handler/pie;
+Categories=Development;
+X-Flatpak=io.httpie.Httpie
+X-XFCE-Source=file:///home/am/.local/share/flatpak/app/io.httpie.Httpie/x86_64/stable/88c93d02e362c56f48a4ec29ca10a5fa2cbe468167448d484313dd99fb38ae2b/export/share/applications/io.httpie.Httpie.desktop

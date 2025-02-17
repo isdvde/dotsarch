@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+
 BASE="~/.config/openbox"
 Terminal="xfce4-terminal --maximize"
 Filemanager="pcmanfm"
@@ -10,9 +10,8 @@ DownVol="amixer -q sset Master 2%- unmute"
 Screenshot="xfce4-screenshooter -f"
 WScreenshot="xfce4-screenshooter -w"
 SScreenshot="xfce4-screenshooter -r"
-#animatedWallpaper="bash ${BASE}/animatedWallpaper.sh"
 
-cat << SXHKDFILE > /tmp/sxhkd
+cat <<SXHKDFILE >/tmp/sxhkd
 # apps
 super + Return
 	${Terminal}
@@ -47,6 +46,9 @@ super + F12
 super + shift + F12
 	bash ${BASE}/autostart
 
+super + b
+	polybar-msg cmd toggle
+
 super + shift + e
 #super + shift + {e,r}
 #	openbox --{exit,restart}
@@ -55,19 +57,29 @@ super + shift + e
 SXHKDFILE
 
 redshift -P -O 3400 &
+killall lxpolkit
+lxpolkit &
+killall polybar
+polybar bar -c ${BASE}/polybar -r &
+killall xfce4-panel
+xfce4-panel &
+killall sxhkd
+sxhkd -c /tmp/sxhkd &
+killall xfce4-clipman
+xfce4-clipman &
+
+killall xfdesktop
+xfdesktop &
+killall nm-applet
+nm-applet &
+
+# xwinwrap -g 1920x1080+0+0 -ni -ov -- mpv --loop-file=inf --speed=1 -wid WID ~/pictures/fizz.ultra.gif &
 # killall picom; picom --animations --animation-window-mass 0.5 --animation-stiffness 230.0 --animation-for-open-window slide-left --animation-dampening 21.0 &
 # killall picom; picom &
 #killall xcompmgr; xcompmgr -c -t-5 -l-5 -r6 -o1 -fF -I.07 -O.07 -D2 -C &
-killall xcompmgr; xcompmgr &
-nitrogen --restore &
-killall lxpolkit; lxpolkit &
-killall polybar; polybar bar -c ${BASE}/polybar -r &
-killall plank; plank &
-xset led named "Scroll Lock" &
+# killall xcompmgr; xcompmgr &
+#nitrogen --restore &
+# killall plank; plank &
+# xset led named "Scroll Lock" &
 #xwinwrap -g 1920x1080+0+0 -ni -ov -- mpv --loop-file=inf --speed=1 -wid WID ~/pictures/nfsub.gif &
-killall sxhkd; sxhkd -c /tmp/sxhkd &
-killall lxpolkit; lxpolkit &
 #killall xdotool; bash ${BASE}/hc.sh &
-killall xfce4-clipman; xfce4-clipman &
-#killall pcmanfm; pcmanfm --desktop &
-# xwinwrap -g 1920x1080+0+0 -ni -ov -- mpv --loop-file=inf --speed=1 -wid WID ~/pictures/fizz.ultra.gif &

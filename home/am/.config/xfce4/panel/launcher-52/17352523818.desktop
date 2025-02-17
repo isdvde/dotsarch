@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name[es]=Botellas
+Name=Bottles
+Comment[es]=Ejecute software de Windows
+Comment=Run Windows Software
+Icon=com.usebottles.bottles
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=bottles --file-forwarding com.usebottles.bottles @@u %u @@
+Terminal=false
+Type=Application
+Categories=Utility;GNOME;GTK;
+StartupNotify=true
+StartupWMClass=bottles
+MimeType=x-scheme-handler/bottles;application/x-ms-dos-executable;application/x-msi;application/x-ms-shortcut;application/x-wine-extension-msp;
+Keywords[es]=wine;windows;
+Keywords=wine;windows;
+X-GNOME-UsesNotifications=true
+X-Flatpak=com.usebottles.bottles
+X-XFCE-Source=file:///home/am/.local/share/flatpak/exports/share/applications/com.usebottles.bottles.desktop

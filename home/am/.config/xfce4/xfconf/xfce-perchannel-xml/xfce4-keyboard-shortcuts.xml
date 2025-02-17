@@ -103,13 +103,11 @@
       <property name="&lt;Alt&gt;Tab" type="string" value="cycle_windows_key"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Right" type="string" value="move_window_right_key"/>
       <property name="&lt;Primary&gt;F11" type="string" value="workspace_11_key"/>
-      <property name="&lt;Alt&gt;Delete" type="string" value="del_workspace_key"/>
       <property name="Up" type="string" value="up_key"/>
       <property name="Escape" type="string" value="cancel_key"/>
       <property name="&lt;Alt&gt;&lt;Shift&gt;Tab" type="string" value="cycle_reverse_windows_key"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Up" type="string" value="move_window_up_key"/>
       <property name="Left" type="string" value="left_key"/>
-      <property name="&lt;Alt&gt;Insert" type="string" value="add_workspace_key"/>
       <property name="override" type="bool" value="true"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;q" type="string" value="close_window_key"/>
       <property name="&lt;Super&gt;space" type="string" value="maximize_window_key"/>
@@ -151,6 +149,8 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;Right" type="string" value="next_workspace_key"/>
       <property name="&lt;Primary&gt;&lt;Super&gt;space" type="string" value="fill_window_key"/>
       <property name="&lt;Super&gt;Tab" type="string" value="switch_application_key"/>
+      <property name="&lt;Super&gt;Insert" type="string" value="add_workspace_key"/>
+      <property name="&lt;Super&gt;Delete" type="string" value="del_workspace_key"/>
     </property>
   </property>
   <property name="providers" type="array">
